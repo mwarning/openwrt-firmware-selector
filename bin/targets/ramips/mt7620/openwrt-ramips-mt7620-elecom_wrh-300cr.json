@@ -1,0 +1,30 @@
+{
+  "id": "elecom_wrh-300cr",
+  "image_prefix": "openwrt-ramips-mt7620-elecom_wrh-300cr",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-elecom_wrh-300cr-squashfs-sysupgrade.bin",
+      "sha256": "e7bb9fb1dba5a688515029cde4f7e6b6a92dcb111045dab4632e90dfa76e0046",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-elecom_wrh-300cr-squashfs-factory.bin",
+      "sha256": "5628ada8b320c9b6e7f2c408dea0aab2c8341fbeac52e98bc6f7d6d38453f305",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "elecom,wrh-300cr",
+    "wrh-300cr"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "WRH-300CR",
+      "vendor": "Elecom"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

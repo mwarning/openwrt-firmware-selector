@@ -1,0 +1,24 @@
+{
+  "id": "asus_rt-ac57u",
+  "image_prefix": "openwrt-ramips-mt7621-asus_rt-ac57u",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-asus_rt-ac57u-squashfs-sysupgrade.bin",
+      "sha256": "aead599dc789db3461bb574729423ed5b8821e4bf878f0e7305fafd9fdaed8c8",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "asus,rt-ac57u"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RT-AC57U",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

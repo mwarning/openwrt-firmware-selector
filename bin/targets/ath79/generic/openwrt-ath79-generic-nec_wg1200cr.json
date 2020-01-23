@@ -1,0 +1,29 @@
+{
+  "id": "nec_wg1200cr",
+  "image_prefix": "openwrt-ath79-generic-nec_wg1200cr",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-nec_wg1200cr-squashfs-sysupgrade.bin",
+      "sha256": "281a948c103734267fc6c8eb97702bc971a0c2a90df528dcc56f17553b42fd86",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-nec_wg1200cr-squashfs-factory.bin",
+      "sha256": "57756c7e15b1752ae3153e0433676d0ee7685f4910547904617a69d676128e6a",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "nec,wg1200cr"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Aterm WG1200CR",
+      "vendor": "NEC"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "planex_mzk-750dhp",
+  "image_prefix": "openwrt-ramips-mt7620-planex_mzk-750dhp",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-planex_mzk-750dhp-squashfs-sysupgrade.bin",
+      "sha256": "281b3bf7ce24514c17839156178f497aaf1e057903f2405fb615b0c539f961b1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "planex,mzk-750dhp",
+    "mzk-750dhp"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "MZK-750DHP",
+      "vendor": "Planex"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

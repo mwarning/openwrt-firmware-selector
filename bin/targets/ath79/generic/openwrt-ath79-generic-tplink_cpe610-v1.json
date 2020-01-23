@@ -1,0 +1,30 @@
+{
+  "id": "tplink_cpe610-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_cpe610-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_cpe610-v1-squashfs-factory.bin",
+      "sha256": "3ead58b0bbb8578d4572c79fa6ec8cb7ab864d37e5893d8244aef581f44755a6",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_cpe610-v1-squashfs-sysupgrade.bin",
+      "sha256": "55cd01435a6596b1a0a0669d437f042185c36ef83a70c96eedcfe779dfc6d6fa",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,cpe610-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CPE610",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

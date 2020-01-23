@@ -1,0 +1,24 @@
+{
+  "id": "adslr_g7",
+  "image_prefix": "openwrt-ramips-mt7621-adslr_g7",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-adslr_g7-squashfs-sysupgrade.bin",
+      "sha256": "b737205c7210178e1262b37f7df7cde9e7f5efa29205b8e62931530ad12337ef",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "adslr,g7"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "G7",
+      "vendor": "ADSLR"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

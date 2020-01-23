@@ -1,0 +1,29 @@
+{
+  "id": "edimax_rg21s",
+  "image_prefix": "openwrt-ramips-mt7621-edimax_rg21s",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-edimax_rg21s-squashfs-sysupgrade.bin",
+      "sha256": "803b4aebb68fb43c09860e64357c3b10e68dad8e914b04a441dfa85dc2f01bc5",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-edimax_rg21s-squashfs-factory.bin",
+      "sha256": "279ccb61c94fd9fedc55c19b92848889a8ac178104137fd782b31ba7518eab60",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "edimax,rg21s"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Gemini AC2600 RG21S",
+      "vendor": "Edimax"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "comfast_cf-e120a-v3",
+  "image_prefix": "openwrt-ath79-generic-comfast_cf-e120a-v3",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-comfast_cf-e120a-v3-squashfs-sysupgrade.bin",
+      "sha256": "54c6118803998d2a8ab039d8b00b5a02e73fc07281248eda797e3da8a8483674",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "comfast,cf-e120a-v3"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CF-E120A",
+      "variant": "v3",
+      "vendor": "COMFAST"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

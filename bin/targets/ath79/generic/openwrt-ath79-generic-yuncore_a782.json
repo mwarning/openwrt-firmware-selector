@@ -1,0 +1,29 @@
+{
+  "id": "yuncore_a782",
+  "image_prefix": "openwrt-ath79-generic-yuncore_a782",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-yuncore_a782-squashfs-sysupgrade.bin",
+      "sha256": "9a400c2e78d24dacc9acaef09eab8a2c0b7b44f08315b08cb8b468cbfc93a14f",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-yuncore_a782-squashfs-tftp.bin",
+      "sha256": "122ce6b756b22504ba39da10e9e6b9d70a3033b05b1174a073dba6eceba1874a",
+      "type": "tftp"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "yuncore,a782"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "A782",
+      "vendor": "YunCore"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

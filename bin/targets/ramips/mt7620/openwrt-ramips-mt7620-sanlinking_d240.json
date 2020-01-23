@@ -1,0 +1,25 @@
+{
+  "id": "sanlinking_d240",
+  "image_prefix": "openwrt-ramips-mt7620-sanlinking_d240",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-sanlinking_d240-squashfs-sysupgrade.bin",
+      "sha256": "d401329a535c5abda1e20da94cfd12284495e800f68dbfcebcfbad4dfae0af40",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "sanlinking,d240",
+    "d240"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "D240",
+      "vendor": "Sanlinking Technologies"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

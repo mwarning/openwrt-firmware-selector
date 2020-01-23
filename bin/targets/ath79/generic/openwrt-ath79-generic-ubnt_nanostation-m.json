@@ -1,0 +1,31 @@
+{
+  "id": "ubnt_nanostation-m",
+  "image_prefix": "openwrt-ath79-generic-ubnt_nanostation-m",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-ubnt_nanostation-m-squashfs-sysupgrade.bin",
+      "sha256": "b66b49da4379b70450e2377d0d62f6fa9b131a796646f7d50c3e72796314f99d",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-ubnt_nanostation-m-squashfs-factory.bin",
+      "sha256": "b88d1380a492f044f4fc50a08dd061360b4e82696cd35a70324c773ded4c624e",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubnt,nanostation-m",
+    "nanostation-m"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Nanostation M",
+      "variant": "XM",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "dlink_dwr-922-e2",
+  "image_prefix": "openwrt-ramips-mt7620-dlink_dwr-922-e2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dwr-922-e2-squashfs-sysupgrade.bin",
+      "sha256": "5daedb9f8fc910a1f1f7fba3d959912214e76892c2944b194a97de5cf88e5d5a",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dwr-922-e2-squashfs-factory.bin",
+      "sha256": "9448dfd190671a53818004c7fae02eb6b80e8c2102d833d37d51d41aa4ff2100",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dwr-922-e2"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "DWR-922",
+      "variant": "E2",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

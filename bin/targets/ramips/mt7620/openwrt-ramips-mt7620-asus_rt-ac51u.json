@@ -1,0 +1,25 @@
+{
+  "id": "asus_rt-ac51u",
+  "image_prefix": "openwrt-ramips-mt7620-asus_rt-ac51u",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-asus_rt-ac51u-squashfs-sysupgrade.bin",
+      "sha256": "8818327fe3e6ba24d396ede2dd702b188bb19e3ce35ee946fb764e06d60ce3a8",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "asus,rt-ac51u",
+    "rt-ac51u"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "RT-AC51U",
+      "vendor": "Asus"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

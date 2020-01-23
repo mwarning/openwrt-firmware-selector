@@ -1,0 +1,30 @@
+{
+  "id": "dlink_dwr-118-a2",
+  "image_prefix": "openwrt-ramips-mt7620-dlink_dwr-118-a2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dwr-118-a2-squashfs-sysupgrade.bin",
+      "sha256": "d49fed6609ba6d262b8354993214c737b49b9450c6eeff61c20441d12068f6db",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dwr-118-a2-squashfs-factory.bin",
+      "sha256": "2f627dca9a87720c34281e31bd060752bc56b5b9016352cde3bd1fb2bc04c1b5",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dwr-118-a2"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "DWR-118",
+      "variant": "A2",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

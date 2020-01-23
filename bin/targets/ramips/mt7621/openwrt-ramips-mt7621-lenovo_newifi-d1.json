@@ -1,0 +1,25 @@
+{
+  "id": "lenovo_newifi-d1",
+  "image_prefix": "openwrt-ramips-mt7621-lenovo_newifi-d1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-lenovo_newifi-d1-squashfs-sysupgrade.bin",
+      "sha256": "6079022a96c77302cdecf29de66f4cdd60cda03961ff953b99d45afad96ec7bc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lenovo,newifi-d1",
+    "newifi-d1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "D1",
+      "vendor": "Newifi"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "iodata_wn-ac1167gr",
+  "image_prefix": "openwrt-ramips-mt7620-iodata_wn-ac1167gr",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-iodata_wn-ac1167gr-squashfs-sysupgrade.bin",
+      "sha256": "275c5d08a6ed99489af7a74345e936ef221092771e1f9a2430508726ed24c4cb",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-iodata_wn-ac1167gr-squashfs-factory.bin",
+      "sha256": "0479d5081a7b2539820f32e26d3dd97b470a32d9ca980c661f4fe30d151040bd",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iodata,wn-ac1167gr"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "WN-AC1167GR",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

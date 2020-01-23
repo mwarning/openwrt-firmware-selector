@@ -1,0 +1,35 @@
+{
+  "id": "buffalo_wzr-hp-ag300h",
+  "image_prefix": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-sysupgrade.bin",
+      "sha256": "07b5b6e08fb443bf69449693374e3efcff8aa158e0a90a15de367eb15568aeab",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-tftp.bin",
+      "sha256": "7452317fc2c45064654d656ae6eb64811456f6ab8b69b14b7617dd006d33bf85",
+      "type": "tftp"
+    },
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-factory.bin",
+      "sha256": "dcf30c5f96a2e21f9064c98381f9a70d58214ece29af54cb756fc9d8a291349d",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,wzr-hp-ag300h",
+    "wzr-hp-ag300h"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WZR-HP-AG300H",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "dlink_dir-860l-b1",
+  "image_prefix": "openwrt-ramips-mt7621-dlink_dir-860l-b1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-dlink_dir-860l-b1-squashfs-sysupgrade.bin",
+      "sha256": "aadbe635a789fb4dd61ad7ec5ef2d671fff8953921f0a706322f3e87fd195f51",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-dlink_dir-860l-b1-squashfs-factory.bin",
+      "sha256": "b2e4c7aa817f36c85bfad42416d406464cd43699d14b7538b26a91916bdbe8e2",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dir-860l-b1",
+    "dir-860l-b1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "DIR-860L",
+      "variant": "B1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

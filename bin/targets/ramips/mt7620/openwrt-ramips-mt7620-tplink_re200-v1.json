@@ -1,0 +1,30 @@
+{
+  "id": "tplink_re200-v1",
+  "image_prefix": "openwrt-ramips-mt7620-tplink_re200-v1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-tplink_re200-v1-squashfs-sysupgrade.bin",
+      "sha256": "d7fb5ffd75b2fe48a278fc2d0533b23a0c1de844a3bcf702e08f588b3de0bea5",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-tplink_re200-v1-squashfs-factory.bin",
+      "sha256": "067a25bf64f5028c1e859518009c0937a0fe56c0332dbcf5e1bdee6799e35b5d",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,re200-v1"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "RE200",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

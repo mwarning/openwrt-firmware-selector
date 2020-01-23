@@ -1,0 +1,30 @@
+{
+  "id": "dlink_dir-842-c1",
+  "image_prefix": "openwrt-ath79-generic-dlink_dir-842-c1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-dlink_dir-842-c1-squashfs-sysupgrade.bin",
+      "sha256": "b31a92691fe9e4d74f7983035497bf4e5ad6057a63f3e951ce247fc103e0d532",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-dlink_dir-842-c1-squashfs-factory.bin",
+      "sha256": "e3c52bcb5a7465e274b322aafb375a349ac727767db0b5f13b3bd3b6ac037333",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dir-842-c1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "DIR-842",
+      "variant": "C1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

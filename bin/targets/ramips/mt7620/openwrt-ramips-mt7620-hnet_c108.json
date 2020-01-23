@@ -1,0 +1,25 @@
+{
+  "id": "hnet_c108",
+  "image_prefix": "openwrt-ramips-mt7620-hnet_c108",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-hnet_c108-squashfs-sysupgrade.bin",
+      "sha256": "ff53ded6bf7db36b4ca15f34e3ae8394bad4ef8703a8e7228146a6eb7910b994",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "hnet,c108",
+    "c108"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "C108",
+      "vendor": "HNET"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

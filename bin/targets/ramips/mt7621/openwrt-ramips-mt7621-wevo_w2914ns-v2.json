@@ -1,0 +1,26 @@
+{
+  "id": "wevo_w2914ns-v2",
+  "image_prefix": "openwrt-ramips-mt7621-wevo_w2914ns-v2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-wevo_w2914ns-v2-squashfs-sysupgrade.bin",
+      "sha256": "70e1c49ba80661cbf38b4a99eef46af1a19f3151bc4df5504d1f3685385644d4",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wevo,w2914ns-v2",
+    "w2914nsv2"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "W2914NS",
+      "variant": "v2",
+      "vendor": "WeVO"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

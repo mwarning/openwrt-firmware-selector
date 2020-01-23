@@ -1,0 +1,25 @@
+{
+  "id": "hiwifi_hc5761",
+  "image_prefix": "openwrt-ramips-mt7620-hiwifi_hc5761",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-hiwifi_hc5761-squashfs-sysupgrade.bin",
+      "sha256": "69e9165b9ef63ef2322609c2adcf1079552ed7dbd5739add7ee49eb8c5e692f6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "hiwifi,hc5761",
+    "hc5761"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "HC5761",
+      "vendor": "HiWiFi"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "buffalo_wzr-hp-g302h-a1a0",
+  "image_prefix": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-sysupgrade.bin",
+      "sha256": "a810285b74ef040f5025d68b88f9599c159d79ebfb80da0f4b662f605b340f83",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-factory.bin",
+      "sha256": "8497cc59bb7b320835364536f76097b81787a7136f41a314963885dcef9943a2",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-tftp.bin",
+      "sha256": "955b0d90603168033924409e519df48a512e5b3dc1c754785a9f189952dff4a3",
+      "type": "tftp"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,wzr-hp-g302h-a1a0",
+    "wzr-hp-g300nh2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WZR-HP-G302H",
+      "variant": "A1A0",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "iodata_wn-ax1167gr",
+  "image_prefix": "openwrt-ramips-mt7621-iodata_wn-ax1167gr",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-iodata_wn-ax1167gr-squashfs-sysupgrade.bin",
+      "sha256": "5f5eae85f38d6dd8164713b1f7bb8fb688703e1a34abfb54bd7d9253b3b45a9d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iodata,wn-ax1167gr"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WN-AX1167GR",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

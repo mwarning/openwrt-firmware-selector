@@ -1,0 +1,29 @@
+{
+  "id": "phicomm_k2p",
+  "image_prefix": "openwrt-ramips-mt7621-phicomm_k2p",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-phicomm_k2p-squashfs-sysupgrade.bin",
+      "sha256": "72c9e1e0d5d644cc09f34d6fbd4628e56dbb2af4754ceb749bf67f00cd3630fc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "phicomm,k2p",
+    "k2p"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "K2P",
+      "vendor": "Phicomm"
+    },
+    {
+      "model": "KE 2P",
+      "vendor": "Phicomm"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

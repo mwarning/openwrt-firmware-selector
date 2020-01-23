@@ -1,0 +1,31 @@
+{
+  "id": "tplink_cpe210-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_cpe210-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_cpe210-v1-squashfs-factory.bin",
+      "sha256": "4bfd529803bd0fb816599b19df2f922046778e9d59417919b855a9166f256c01",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_cpe210-v1-squashfs-sysupgrade.bin",
+      "sha256": "55ad246df443532d0840574ae3285fd5d89a1a375bf653a7c70572d3e0ffeff3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,cpe210-v1",
+    "cpe210"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CPE210",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

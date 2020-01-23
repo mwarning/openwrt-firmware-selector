@@ -1,0 +1,33 @@
+{
+  "id": "edimax_ra21s",
+  "image_prefix": "openwrt-ramips-mt7621-edimax_ra21s",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-edimax_ra21s-squashfs-factory.bin",
+      "sha256": "9213c901476be4023f6f336728a9d8d9a6e3dc2db2ec2b503dd87a672955a11e",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-edimax_ra21s-squashfs-sysupgrade.bin",
+      "sha256": "cb91c19d1e7d8606dd4044b58ab4091d4405b1724a738f11b2c6d527ddaf5804",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "edimax,ra21s"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RA21S",
+      "vendor": "Edimax"
+    },
+    {
+      "model": "Gemini RA21S",
+      "vendor": "Edimax"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "zbtlink_zbt-we2026",
+  "image_prefix": "openwrt-ramips-mt7620-zbtlink_zbt-we2026",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-zbtlink_zbt-we2026-squashfs-sysupgrade.bin",
+      "sha256": "3f885ff8817cdbc760ee6a24aa0d69bae095b041507bddaf9bf8df692e159cbd",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-we2026",
+    "zbt-we2026"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "ZBT-WE2026",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

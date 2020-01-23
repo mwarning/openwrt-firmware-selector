@@ -1,0 +1,31 @@
+{
+  "id": "ubnt_bullet-m",
+  "image_prefix": "openwrt-ath79-generic-ubnt_bullet-m",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-ubnt_bullet-m-squashfs-sysupgrade.bin",
+      "sha256": "74949ed70efa5fa9786ca6c3af421b7ba6914c2eef634ced9fbb559dd5510348",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-ubnt_bullet-m-squashfs-factory.bin",
+      "sha256": "aa005766c3137370687c6167b37b56142eb52c3207ca20fab1cff6f66034f365",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubnt,bullet-m",
+    "bullet-m"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Bullet-M",
+      "variant": "XM",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

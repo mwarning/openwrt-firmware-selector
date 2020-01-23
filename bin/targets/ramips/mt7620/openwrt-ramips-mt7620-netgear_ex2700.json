@@ -1,0 +1,30 @@
+{
+  "id": "netgear_ex2700",
+  "image_prefix": "openwrt-ramips-mt7620-netgear_ex2700",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-netgear_ex2700-squashfs-sysupgrade.bin",
+      "sha256": "dc572d3805edb812573fba3402dbea89d23c3b2b4925f276a18649ad77c8c98e",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-netgear_ex2700-squashfs-factory.bin",
+      "sha256": "16b1471320888f1d8a215a9ea3f831401c0baa145f62568c40ca9a4d3a394fe0",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,ex2700",
+    "ex2700"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "EX2700",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

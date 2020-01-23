@@ -1,0 +1,26 @@
+{
+  "id": "zbtlink_zbt-we826-32m",
+  "image_prefix": "openwrt-ramips-mt7620-zbtlink_zbt-we826-32m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-zbtlink_zbt-we826-32m-squashfs-sysupgrade.bin",
+      "sha256": "87b92b214480620fbcb1b6665e017c2142ecbe08795544a8e77a49d047f9a6ec",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-we826-32m",
+    "zbt-we826-32M"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "ZBT-WE826",
+      "variant": "32M",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

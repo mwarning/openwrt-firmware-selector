@@ -1,0 +1,34 @@
+{
+  "id": "netgear_r6850",
+  "image_prefix": "openwrt-ramips-mt7621-netgear_r6850",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-sysupgrade.bin",
+      "sha256": "3ca90db5b3fe0faf2556b6759b3ac0bd42ac6fffeb60233895604ba9d8333c62",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-factory.img",
+      "sha256": "4034f0e54c95f19d00ee3415f732940403d718cfb8fc03e8815ebfebd14d5573",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-kernel.bin",
+      "sha256": "4c4cd223735fcb7e590d46f5aae684835321021dccfd1bf1cd0b0a32a6e3f9b1",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,r6850"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "R6850",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "iptime_a6ns-m",
+  "image_prefix": "openwrt-ramips-mt7621-iptime_a6ns-m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-iptime_a6ns-m-squashfs-sysupgrade.bin",
+      "sha256": "88d55e47fbac4ac37c36148613e45a4bb87d0163020ef268aa4be684c55c70c9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iptime,a6ns-m"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "A6ns-M",
+      "vendor": "ipTIME"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

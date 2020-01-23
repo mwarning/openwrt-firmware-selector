@@ -1,0 +1,30 @@
+{
+  "id": "tplink_archer-c20i",
+  "image_prefix": "openwrt-ramips-mt7620-tplink_archer-c20i",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-tplink_archer-c20i-squashfs-sysupgrade.bin",
+      "sha256": "0b94aef91d53cad161bcd926b2b2e8b9cc6e9772b44aff5c26441d5a77e7aad2",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-tplink_archer-c20i-squashfs-factory.bin",
+      "sha256": "3f1bfc74e5257054cf130b8c02c2abd7a8575b8d2f1878b00d04ff18fe729342",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c20i",
+    "c20i"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Archer C20i",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "totolink_a7000r",
+  "image_prefix": "openwrt-ramips-mt7621-totolink_a7000r",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-totolink_a7000r-squashfs-sysupgrade.bin",
+      "sha256": "d2202b13897f0c6f6c86d50939c5c893c476a6a814833d5d594b85e76df13498",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "totolink,a7000r"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "A7000R",
+      "vendor": "TOTOLINK"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "afoundry_ew1200",
+  "image_prefix": "openwrt-ramips-mt7621-afoundry_ew1200",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-afoundry_ew1200-squashfs-sysupgrade.bin",
+      "sha256": "79813505bb5ea92bde6ef3a2d97e0e796782404ffcdaaa5c12669fe941b0bc88",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "afoundry,ew1200",
+    "ew1200"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "EW1200",
+      "vendor": "AFOUNDRY"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

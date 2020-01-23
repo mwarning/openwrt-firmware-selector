@@ -1,0 +1,29 @@
+{
+  "id": "lava_lr-25g001",
+  "image_prefix": "openwrt-ramips-mt7620-lava_lr-25g001",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-lava_lr-25g001-squashfs-factory.bin",
+      "sha256": "61efb19b7aba9c471c2497e318690ad7547719cb73af18fa62444ad9f333cc5f",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-lava_lr-25g001-squashfs-sysupgrade.bin",
+      "sha256": "dfabbeda2103d25ecf0671d8dc70c8098bbe1164ae930198c2d7d9a3db74c75b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lava,lr-25g001"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "LR-25G001",
+      "vendor": "LAVA"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

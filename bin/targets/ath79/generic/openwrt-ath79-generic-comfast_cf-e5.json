@@ -1,0 +1,24 @@
+{
+  "id": "comfast_cf-e5",
+  "image_prefix": "openwrt-ath79-generic-comfast_cf-e5",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-comfast_cf-e5-squashfs-sysupgrade.bin",
+      "sha256": "243ed7c82b7865ba7b7d0f646ba43648420dcbc57741f6c94c8b15183eb290a2",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "comfast,cf-e5"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CF-E5/E7",
+      "vendor": "COMFAST"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

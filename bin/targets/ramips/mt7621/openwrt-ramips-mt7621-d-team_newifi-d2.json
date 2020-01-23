@@ -1,0 +1,24 @@
+{
+  "id": "d-team_newifi-d2",
+  "image_prefix": "openwrt-ramips-mt7621-d-team_newifi-d2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin",
+      "sha256": "b63392e24627b9476c33936faf56ec5c0911b16fa8041795f8aeec4a65f65ba6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "d-team,newifi-d2"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "D2",
+      "vendor": "Newifi"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

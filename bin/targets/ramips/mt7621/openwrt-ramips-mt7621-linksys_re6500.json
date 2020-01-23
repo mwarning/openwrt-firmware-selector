@@ -1,0 +1,25 @@
+{
+  "id": "linksys_re6500",
+  "image_prefix": "openwrt-ramips-mt7621-linksys_re6500",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-linksys_re6500-squashfs-sysupgrade.bin",
+      "sha256": "31e06b08bafaf0f1d6792af296f8ff14d0f372ebb263a8e9b17228e96ba31cc1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "linksys,re6500",
+    "re6500"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RE6500",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

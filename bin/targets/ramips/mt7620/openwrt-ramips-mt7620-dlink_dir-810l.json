@@ -1,0 +1,25 @@
+{
+  "id": "dlink_dir-810l",
+  "image_prefix": "openwrt-ramips-mt7620-dlink_dir-810l",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dir-810l-squashfs-sysupgrade.bin",
+      "sha256": "aff8e8d7667682417797376a30f85c576a95d3cf38ccaedf86c81d4bfadae89a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dir-810l",
+    "dir-810l"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "DIR-810L",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

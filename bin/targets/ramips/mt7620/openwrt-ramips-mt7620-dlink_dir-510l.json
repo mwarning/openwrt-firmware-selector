@@ -1,0 +1,29 @@
+{
+  "id": "dlink_dir-510l",
+  "image_prefix": "openwrt-ramips-mt7620-dlink_dir-510l",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dir-510l-squashfs-sysupgrade.bin",
+      "sha256": "d80b7df291321d828ff743eae4576afd48054f95cc0946ced41126227607d99b",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dir-510l-squashfs-factory.bin",
+      "sha256": "afc569f10d73d364d0cb4087a9982395990eee2636239c4031e5b6bfae5de377",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dir-510l"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "DIR-510L",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

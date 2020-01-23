@@ -1,0 +1,24 @@
+{
+  "id": "devolo_dvl1200i",
+  "image_prefix": "openwrt-ath79-generic-devolo_dvl1200i",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-devolo_dvl1200i-squashfs-sysupgrade.bin",
+      "sha256": "89bff0d63a0494bb1563199cb22e805b3de6429d7f155de8a8c9d89ed5c433dd",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "devolo,dvl1200i"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WiFi pro 1200i",
+      "vendor": "devolo"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

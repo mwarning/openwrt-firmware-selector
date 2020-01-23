@@ -1,0 +1,24 @@
+{
+  "id": "ravpower_wd03",
+  "image_prefix": "openwrt-ramips-mt7620-ravpower_wd03",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-ravpower_wd03-squashfs-sysupgrade.bin",
+      "sha256": "560bc15e91d76058d11c199a51b80acde16e1a01131ddd3f0ed37aeb6fb709c9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ravpower,wd03"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "WD03",
+      "vendor": "Ravpower"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

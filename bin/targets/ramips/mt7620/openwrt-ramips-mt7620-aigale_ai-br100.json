@@ -1,0 +1,25 @@
+{
+  "id": "aigale_ai-br100",
+  "image_prefix": "openwrt-ramips-mt7620-aigale_ai-br100",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-aigale_ai-br100-squashfs-sysupgrade.bin",
+      "sha256": "acd8987734bca51d84463c01247b99d5345a9a1e672966ab59400d5bcfdc3dd5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "aigale,ai-br100",
+    "ai-br100"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Ai-BR100",
+      "vendor": "Aigale"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "tplink_tl-wr1043nd-v2",
+  "image_prefix": "openwrt-ath79-generic-tplink_tl-wr1043nd-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v2-squashfs-sysupgrade.bin",
+      "sha256": "331cbac087d95a36f0b15a564229ae89dea92e280489ab0b8602404c0de4e5d3",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v2-squashfs-factory.bin",
+      "sha256": "d8bcbf24c145eeb246a18e7a63771251126f9b0ae330ec200a3287be60da6260",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr1043nd-v2",
+    "tl-wr1043nd-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WR1043N/ND",
+      "variant": "v2",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

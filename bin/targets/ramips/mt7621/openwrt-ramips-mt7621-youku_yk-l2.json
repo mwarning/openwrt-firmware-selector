@@ -1,0 +1,24 @@
+{
+  "id": "youku_yk-l2",
+  "image_prefix": "openwrt-ramips-mt7621-youku_yk-l2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-youku_yk-l2-squashfs-sysupgrade.bin",
+      "sha256": "dd627395c711f01799195245ef26d4afb4dcc09bc2c59261194b89039568eb29",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "youku,yk-l2"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "YK-L2",
+      "vendor": "Youku"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

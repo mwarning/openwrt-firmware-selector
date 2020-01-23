@@ -1,0 +1,36 @@
+{
+  "id": "tplink_archer-c50-v1",
+  "image_prefix": "openwrt-ramips-mt7620-tplink_archer-c50-v1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-tplink_archer-c50-v1-squashfs-sysupgrade.bin",
+      "sha256": "33832327af4046ba72044b7e292fbc7b1bdd21de9d6ff7dda8a1a89c098bb68b",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-tplink_archer-c50-v1-squashfs-factory-us.bin",
+      "sha256": "c1ebb423e1360f0512b684135704adbbc85cc2286dfe475c5a280be9ac811c29",
+      "type": "factory-us"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-tplink_archer-c50-v1-squashfs-factory-eu.bin",
+      "sha256": "9da4a506e249e272e5de64530314bdd5a8284fc6c1b4e57f6d439fc0f7bdf94c",
+      "type": "factory-eu"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c50-v1",
+    "c50"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Archer C50",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

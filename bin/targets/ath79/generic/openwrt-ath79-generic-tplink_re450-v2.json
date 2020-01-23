@@ -1,0 +1,30 @@
+{
+  "id": "tplink_re450-v2",
+  "image_prefix": "openwrt-ath79-generic-tplink_re450-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_re450-v2-squashfs-sysupgrade.bin",
+      "sha256": "7f5f8bfc65669244f40e6d588e5821cc2742a8a95428d8fb948c9159758a1dab",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_re450-v2-squashfs-factory.bin",
+      "sha256": "2f486b5db7cc83661a5c27b7ce183b1de29fe052e12b85fe1745c8243e9b7cbc",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,re450-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "RE450",
+      "variant": "v2",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

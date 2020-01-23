@@ -1,0 +1,24 @@
+{
+  "id": "xiaoyu_xy-c5",
+  "image_prefix": "openwrt-ramips-mt7621-xiaoyu_xy-c5",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-xiaoyu_xy-c5-squashfs-sysupgrade.bin",
+      "sha256": "9a1b205aaa465d32deb878cd25415fabe9243294b90bf002a6823f55082ca326",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xiaoyu,xy-c5"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "XY-C5",
+      "vendor": "XiaoYu"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

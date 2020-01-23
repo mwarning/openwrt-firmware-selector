@@ -1,0 +1,25 @@
+{
+  "id": "mediatek_mt7621-eval-board",
+  "image_prefix": "openwrt-ramips-mt7621-mediatek_mt7621-eval-board",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-mediatek_mt7621-eval-board-squashfs-sysupgrade.bin",
+      "sha256": "62ad6aff66d03d755f114c17572b0f21f3c757cf258418c42f0b0766be306830",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mediatek,mt7621-eval-board",
+    "mt7621"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "MT7621 EVB",
+      "vendor": "MediaTek"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

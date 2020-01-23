@@ -1,0 +1,24 @@
+{
+  "id": "xiaomi_mi-router-4q",
+  "image_prefix": "openwrt-ath79-generic-xiaomi_mi-router-4q",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-xiaomi_mi-router-4q-squashfs-sysupgrade.bin",
+      "sha256": "eb001b1bb30237668acb2bdfa90396ff6c44a94b37d9cf3658e2c35ba6a4e119",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xiaomi,mi-router-4q"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Mi Router 4Q",
+      "vendor": "Xiaomi"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

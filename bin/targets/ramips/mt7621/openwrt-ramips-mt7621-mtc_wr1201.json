@@ -1,0 +1,24 @@
+{
+  "id": "mtc_wr1201",
+  "image_prefix": "openwrt-ramips-mt7621-mtc_wr1201",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-mtc_wr1201-squashfs-sysupgrade.bin",
+      "sha256": "7293b18c48a1c51c7fa1af3be8c72e4697bb249d90166e2a36ca4bc6c040819c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mtc,wr1201"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Wireless Router WR1201",
+      "vendor": "MTC"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

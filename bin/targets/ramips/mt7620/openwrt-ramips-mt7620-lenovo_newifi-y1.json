@@ -1,0 +1,25 @@
+{
+  "id": "lenovo_newifi-y1",
+  "image_prefix": "openwrt-ramips-mt7620-lenovo_newifi-y1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-lenovo_newifi-y1-squashfs-sysupgrade.bin",
+      "sha256": "901e727fa82dc6ee2d8bcf01a79f3c679def2bbb778bd2e6ba774250fb8efef2",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lenovo,newifi-y1",
+    "y1"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Y1",
+      "vendor": "Lenovo"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

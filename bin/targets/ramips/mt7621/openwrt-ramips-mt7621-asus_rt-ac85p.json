@@ -1,0 +1,29 @@
+{
+  "id": "asus_rt-ac85p",
+  "image_prefix": "openwrt-ramips-mt7621-asus_rt-ac85p",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-asus_rt-ac85p-squashfs-sysupgrade.bin",
+      "sha256": "be476b801eb6b7fb4b77636e7fd1267abc0f797b8104723fb381324bfe23e125",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-asus_rt-ac85p-squashfs-factory.bin",
+      "sha256": "48bff762e9ab5fb1b5261f2ae575c8ebfcfdaf8462ecf8dc728cfc495648c7b9",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "asus,rt-ac85p"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RT-AC85P",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

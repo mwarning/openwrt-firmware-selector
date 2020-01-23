@@ -1,0 +1,24 @@
+{
+  "id": "edimax_ew-7478ac",
+  "image_prefix": "openwrt-ramips-mt7620-edimax_ew-7478ac",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-edimax_ew-7478ac-squashfs-sysupgrade.bin",
+      "sha256": "a6972f8485d778cf01cb4e3968b9c41b77cf79d11a79fe9f5ce7195f1c4cb18d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "edimax,ew-7478ac"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "EW-7478AC",
+      "vendor": "Edimax"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

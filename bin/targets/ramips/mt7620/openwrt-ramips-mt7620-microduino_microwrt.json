@@ -1,0 +1,25 @@
+{
+  "id": "microduino_microwrt",
+  "image_prefix": "openwrt-ramips-mt7620-microduino_microwrt",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-microduino_microwrt-squashfs-sysupgrade.bin",
+      "sha256": "83a2b504a92845aa96790bf0ef9fe1cc56fde5f3b8ff9a5bafcbd5377a8f975a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "microduino,microwrt",
+    "microwrt"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "MicroWRT",
+      "vendor": "Microduino"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

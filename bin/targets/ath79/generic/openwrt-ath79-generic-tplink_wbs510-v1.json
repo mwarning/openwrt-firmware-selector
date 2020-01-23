@@ -1,0 +1,31 @@
+{
+  "id": "tplink_wbs510-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_wbs510-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_wbs510-v1-squashfs-sysupgrade.bin",
+      "sha256": "9aeb29dc55dc8f9f72ce91b6142870a82b82990db8128a5df551450452af1ea9",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_wbs510-v1-squashfs-factory.bin",
+      "sha256": "93c08620259f454de30ee0fec0505da1a79d569007d08b42ff125e2df0096d1d",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,wbs510-v1",
+    "wbs510"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WBS510",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

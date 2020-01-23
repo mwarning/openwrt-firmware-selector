@@ -1,0 +1,25 @@
+{
+  "id": "phicomm_psg1208",
+  "image_prefix": "openwrt-ramips-mt7620-phicomm_psg1208",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-phicomm_psg1208-squashfs-sysupgrade.bin",
+      "sha256": "0d24baac041b4f2bf4c6e0a81d59d251d0d85c1f8786f07b7bf5d0476744e57b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "phicomm,psg1208",
+    "psg1208"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "PSG1208",
+      "vendor": "Phicomm"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

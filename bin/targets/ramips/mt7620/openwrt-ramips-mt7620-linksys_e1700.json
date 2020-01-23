@@ -1,0 +1,30 @@
+{
+  "id": "linksys_e1700",
+  "image_prefix": "openwrt-ramips-mt7620-linksys_e1700",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-linksys_e1700-squashfs-sysupgrade.bin",
+      "sha256": "b2afd625d8f25a2b833b95d305bad15bfe8651e5c5701e6a84ecfef0f97d2d44",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-linksys_e1700-squashfs-factory.bin",
+      "sha256": "b94aa0928eae2e4c229426b596576044471683903c4640e2645202b04702c586",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "linksys,e1700",
+    "e1700"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "E1700",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

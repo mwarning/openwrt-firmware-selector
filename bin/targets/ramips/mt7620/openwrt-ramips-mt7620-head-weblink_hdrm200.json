@@ -1,0 +1,24 @@
+{
+  "id": "head-weblink_hdrm200",
+  "image_prefix": "openwrt-ramips-mt7620-head-weblink_hdrm200",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-head-weblink_hdrm200-squashfs-sysupgrade.bin",
+      "sha256": "d556db6bd29bb63865c8a181c3d70d0da6defebf8ca82fb623445d6555528572",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "head-weblink,hdrm200"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "HDRM2000",
+      "vendor": "Head Weblink"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

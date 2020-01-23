@@ -1,0 +1,25 @@
+{
+  "id": "etactica_eg200",
+  "image_prefix": "openwrt-ath79-generic-etactica_eg200",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-etactica_eg200-squashfs-sysupgrade.bin",
+      "sha256": "51e96bda98c46e016bd6d22fb042724242a1ca0b92b4e840df307e63b32c1250",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "etactica,eg200",
+    "rme-eg200"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "EG200",
+      "vendor": "eTactica"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

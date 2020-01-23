@@ -1,0 +1,24 @@
+{
+  "id": "aruba_ap-105",
+  "image_prefix": "openwrt-ath79-generic-aruba_ap-105",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-aruba_ap-105-squashfs-sysupgrade.bin",
+      "sha256": "1a64ab87a6c1d5bc4c88b419cc216a3b681937f6fde66f01a521ed71e2ef3f3a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "aruba,ap-105"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "AP-105",
+      "vendor": "Aruba"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

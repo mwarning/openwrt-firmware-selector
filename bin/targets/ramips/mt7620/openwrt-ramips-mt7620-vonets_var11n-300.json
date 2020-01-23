@@ -1,0 +1,24 @@
+{
+  "id": "vonets_var11n-300",
+  "image_prefix": "openwrt-ramips-mt7620-vonets_var11n-300",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-vonets_var11n-300-squashfs-sysupgrade.bin",
+      "sha256": "4970ee6ca8a26f4d0aba3f4a400d4647be68a87eb887febfdb93e0e18f84347b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "vonets,var11n-300"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "VAR11N-300",
+      "vendor": "Vonets"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

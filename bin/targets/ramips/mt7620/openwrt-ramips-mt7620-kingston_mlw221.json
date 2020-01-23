@@ -1,0 +1,25 @@
+{
+  "id": "kingston_mlw221",
+  "image_prefix": "openwrt-ramips-mt7620-kingston_mlw221",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-kingston_mlw221-squashfs-sysupgrade.bin",
+      "sha256": "3696ffd86ab00e771ffd2296e77c6e3398fb240052956f692b2948a62950a0f7",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "kingston,mlw221",
+    "mlw221"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "MLW221",
+      "vendor": "Kingston"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

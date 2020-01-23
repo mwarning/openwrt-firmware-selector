@@ -1,0 +1,25 @@
+{
+  "id": "asus_rt-n14u",
+  "image_prefix": "openwrt-ramips-mt7620-asus_rt-n14u",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-asus_rt-n14u-squashfs-sysupgrade.bin",
+      "sha256": "ae5b23f9b3c00ce26e01ee02c713bcce663dc0d7ed392e988c643c4bb349e3e3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "asus,rt-n14u",
+    "rt-n14u"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "RT-N14u",
+      "vendor": "Asus"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "elecom_wrc-1900gst",
+  "image_prefix": "openwrt-ramips-mt7621-elecom_wrc-1900gst",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-elecom_wrc-1900gst-squashfs-sysupgrade.bin",
+      "sha256": "9582e6fc28e7dac785f3fc512c565eb8e7d585d966150024467324b6ef9ccac1",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-elecom_wrc-1900gst-squashfs-factory.bin",
+      "sha256": "216f4c3245c211d71562601dc3056f3164bad42f9e29e47fc5937ee12bd3a716",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "elecom,wrc-1900gst"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WRC-1900GST",
+      "vendor": "ELECOM"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

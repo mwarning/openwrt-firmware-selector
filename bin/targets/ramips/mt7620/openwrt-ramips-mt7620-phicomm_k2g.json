@@ -1,0 +1,24 @@
+{
+  "id": "phicomm_k2g",
+  "image_prefix": "openwrt-ramips-mt7620-phicomm_k2g",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-phicomm_k2g-squashfs-sysupgrade.bin",
+      "sha256": "8e44056794b06d6c7847d283cce85aa7a6afe471cf7c6bb5cdfc4e0c1c33f386",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "phicomm,k2g"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "K2G",
+      "vendor": "Phicomm"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

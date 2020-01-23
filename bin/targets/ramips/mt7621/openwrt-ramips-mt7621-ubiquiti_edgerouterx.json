@@ -1,0 +1,25 @@
+{
+  "id": "ubiquiti_edgerouterx",
+  "image_prefix": "openwrt-ramips-mt7621-ubiquiti_edgerouterx",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-ubiquiti_edgerouterx-squashfs-sysupgrade.bin",
+      "sha256": "7589d49a851c7d8572ac8fe59b6e4b3126ef596b99dfa8c72eeae2327cf58234",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubiquiti,edgerouterx",
+    "ubnt-erx"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "EdgeRouter X",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

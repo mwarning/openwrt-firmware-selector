@@ -1,0 +1,25 @@
+{
+  "id": "kingston_mlwg2",
+  "image_prefix": "openwrt-ramips-mt7620-kingston_mlwg2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-kingston_mlwg2-squashfs-sysupgrade.bin",
+      "sha256": "c130475872c18254ad02a3e50640e5278ecdfb92109b57aae29dae70d14b2409",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "kingston,mlwg2",
+    "mlwg2"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "MLWG2",
+      "vendor": "Kingston"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

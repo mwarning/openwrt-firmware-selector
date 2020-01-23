@@ -1,0 +1,24 @@
+{
+  "id": "comfast_cf-e313ac",
+  "image_prefix": "openwrt-ath79-generic-comfast_cf-e313ac",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-comfast_cf-e313ac-squashfs-sysupgrade.bin",
+      "sha256": "3408cc7575f7d6cd1c8310e8ed7b9e05a9705dd4e121401b2979e2a283ac313e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "comfast,cf-e313ac"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CF-E313AC",
+      "vendor": "COMFAST"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

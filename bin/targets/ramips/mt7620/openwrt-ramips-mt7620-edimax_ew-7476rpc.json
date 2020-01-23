@@ -1,0 +1,24 @@
+{
+  "id": "edimax_ew-7476rpc",
+  "image_prefix": "openwrt-ramips-mt7620-edimax_ew-7476rpc",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-edimax_ew-7476rpc-squashfs-sysupgrade.bin",
+      "sha256": "16655cd8212a7853f0a43a6ee18516b96281269bd43a49dc6412841dc968b6e4",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "edimax,ew-7476rpc"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "EW-7476RPC",
+      "vendor": "Edimax"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "nec_wg800hp",
+  "image_prefix": "openwrt-ath79-generic-nec_wg800hp",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-nec_wg800hp-squashfs-sysupgrade.bin",
+      "sha256": "12ca217d57c711b4561e2a4d91a42cad1504a2035e26d53fd8775306e8842901",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-nec_wg800hp-squashfs-factory.bin",
+      "sha256": "af812c5c0cd78989ac25b5e67555a3e76bce3cc9fa9eda2e08056a650bfd4b49",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "nec,wg800hp"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Aterm WG800HP",
+      "vendor": "NEC"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "tplink_re350-v1",
+  "image_prefix": "openwrt-ramips-mt7621-tplink_re350-v1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-tplink_re350-v1-squashfs-factory.bin",
+      "sha256": "871055d1c077c93562395e63241a5a9cc2725edd4101b00c6c0990b74a78d0f0",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-tplink_re350-v1-squashfs-sysupgrade.bin",
+      "sha256": "f974dedd176e4046f27012f518155f9a2ed4aaf7515293c5cae6532087c4230f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,re350-v1",
+    "re350-v1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RE350",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

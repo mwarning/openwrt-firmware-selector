@@ -1,0 +1,29 @@
+{
+  "id": "asus_rt-ac65p",
+  "image_prefix": "openwrt-ramips-mt7621-asus_rt-ac65p",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-asus_rt-ac65p-squashfs-sysupgrade.bin",
+      "sha256": "fe3f0dd19e810120c39e788922acf9fd264d12fe50fe237a31799529e7d951d2",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-asus_rt-ac65p-squashfs-factory.bin",
+      "sha256": "09c10533150526d1a37c688519c31c4623389503d99222aad9432b47cf95d72e",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "asus,rt-ac65p"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RT-AC65P",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

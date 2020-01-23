@@ -1,0 +1,30 @@
+{
+  "id": "ubnt_unifi",
+  "image_prefix": "openwrt-ath79-generic-ubnt_unifi",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-ubnt_unifi-squashfs-sysupgrade.bin",
+      "sha256": "4e2ec100e72d34ef0552f133d271a447d361c09b14eaa5b164e7b18f3490e323",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-ubnt_unifi-squashfs-factory.bin",
+      "sha256": "0a056bd940b2c9b572ec595444ec8ae9f8da41aad80aa298a698e4a907c8bd11",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubnt,unifi",
+    "unifi"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "UniFi",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

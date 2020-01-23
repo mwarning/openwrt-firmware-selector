@@ -1,0 +1,24 @@
+{
+  "id": "mediatek_ap-mt7621a-v60",
+  "image_prefix": "openwrt-ramips-mt7621-mediatek_ap-mt7621a-v60",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-mediatek_ap-mt7621a-v60-squashfs-sysupgrade.bin",
+      "sha256": "7aeee962836c67df070f2d5f5b57ed52ca9049e922018c16ba9b50c4f12193a6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mediatek,ap-mt7621a-v60"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "AP-MT7621A-V60 EVB",
+      "vendor": "Mediatek"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

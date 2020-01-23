@@ -1,0 +1,30 @@
+{
+  "id": "dlink_dch-m225",
+  "image_prefix": "openwrt-ramips-mt7620-dlink_dch-m225",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dch-m225-squashfs-sysupgrade.bin",
+      "sha256": "2d3721ca7a6d12eee741f74efd7df7adadc387f454031b125377db9cd5483714",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dch-m225-squashfs-factory.bin",
+      "sha256": "2f18f04ee12a62490a4530bceb93823d535da73ebf39595d5e8de01d2741549f",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dch-m225",
+    "dch-m225"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "DCH-M225",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "buffalo_wzr-hp-g450h",
+  "image_prefix": "openwrt-ath79-generic-buffalo_wzr-hp-g450h",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-sysupgrade.bin",
+      "sha256": "73cfd3436a5691a72e173262789ddb5786f894f3564a8081bfb3f12bc4b277c0",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-factory.bin",
+      "sha256": "7861e60491cfbea40e5eeeae8d48d07b358fc2914e404dec4c6227b86a2e46ba",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-tftp.bin",
+      "sha256": "61955f5cf61ee00c3ed31c11c59debae37b7156c0f3a53e8b0339a4a392923a9",
+      "type": "tftp"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,wzr-hp-g450h",
+    "wzr-hp-g450h"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WZR-HP-G450H/WZR-450HP",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

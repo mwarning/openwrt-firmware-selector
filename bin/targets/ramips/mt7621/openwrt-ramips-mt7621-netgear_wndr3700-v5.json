@@ -1,0 +1,31 @@
+{
+  "id": "netgear_wndr3700-v5",
+  "image_prefix": "openwrt-ramips-mt7621-netgear_wndr3700-v5",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-netgear_wndr3700-v5-squashfs-sysupgrade.bin",
+      "sha256": "2e5130e47ba25985130e7f485c09f736ba15cf6373b55cb7317804775026c629",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_wndr3700-v5-squashfs-factory.img",
+      "sha256": "c5b4260ce0ede649532f29e29bcf036fa8e820724de9c88658361d89ab73f714",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wndr3700-v5",
+    "wndr3700v5"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WNDR3700",
+      "variant": "v5",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

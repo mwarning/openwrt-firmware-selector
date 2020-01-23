@@ -1,0 +1,25 @@
+{
+  "id": "ubnt_unifiac-mesh-pro",
+  "image_prefix": "openwrt-ath79-generic-ubnt_unifiac-mesh-pro",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-ubnt_unifiac-mesh-pro-squashfs-sysupgrade.bin",
+      "sha256": "61f3b82439cbbc12d3f514cd934b6261cd95928da5bfd3183effba2b64105eaa",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubnt,unifiac-mesh-pro",
+    "ubnt-unifiac-mesh-pro"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "UniFi AC-Mesh Pro",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

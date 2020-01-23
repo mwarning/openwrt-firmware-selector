@@ -1,0 +1,25 @@
+{
+  "id": "buffalo_whr-600d",
+  "image_prefix": "openwrt-ramips-mt7620-buffalo_whr-600d",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-buffalo_whr-600d-squashfs-sysupgrade.bin",
+      "sha256": "7b6f5e39e408019ab2937075bc72d56188420eb675f8147eefdc6b2d83464156",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,whr-600d",
+    "whr-600d"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "WHR-600D",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

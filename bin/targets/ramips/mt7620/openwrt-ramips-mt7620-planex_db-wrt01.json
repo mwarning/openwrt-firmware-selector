@@ -1,0 +1,25 @@
+{
+  "id": "planex_db-wrt01",
+  "image_prefix": "openwrt-ramips-mt7620-planex_db-wrt01",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-planex_db-wrt01-squashfs-sysupgrade.bin",
+      "sha256": "ee29556928811dd20b962508d28c812e3ee701d25bcf03580f4a5499f1a82c27",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "planex,db-wrt01",
+    "db-wrt01"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "DB-WRT01",
+      "vendor": "Planex"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

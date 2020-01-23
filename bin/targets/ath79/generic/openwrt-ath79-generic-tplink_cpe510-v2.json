@@ -1,0 +1,31 @@
+{
+  "id": "tplink_cpe510-v2",
+  "image_prefix": "openwrt-ath79-generic-tplink_cpe510-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_cpe510-v2-squashfs-factory.bin",
+      "sha256": "c3eb2de347005f653d02881e315fdcb8a9dbc21550f39b9ed5aff0ee1c475c20",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_cpe510-v2-squashfs-sysupgrade.bin",
+      "sha256": "7f79fd9643805c08bec01732fe4fcc745dfb0f57d916578aa71c5d67e62b927e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,cpe510-v2",
+    "cpe510-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CPE510",
+      "variant": "v2",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

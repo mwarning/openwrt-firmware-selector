@@ -1,0 +1,30 @@
+{
+  "id": "tplink_tl-wdr4900-v2",
+  "image_prefix": "openwrt-ath79-generic-tplink_tl-wdr4900-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wdr4900-v2-squashfs-sysupgrade.bin",
+      "sha256": "3f5ff9479fb06c2622fd0619679901ee79f71eef2f1077dd128e95178a869bce",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wdr4900-v2-squashfs-factory.bin",
+      "sha256": "c9d373852a7eac3b908d443cead66492f105507ed3623335535f2ecec6969a1e",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wdr4900-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WDR4900",
+      "variant": "v2",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "winchannel_wb2000",
+  "image_prefix": "openwrt-ath79-generic-winchannel_wb2000",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-winchannel_wb2000-squashfs-sysupgrade.bin",
+      "sha256": "734ce70958d5788d7424c20f354116383a0654c1bbcf0040b02da62916782931",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "winchannel,wb2000"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WB2000",
+      "vendor": "Winchannel"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

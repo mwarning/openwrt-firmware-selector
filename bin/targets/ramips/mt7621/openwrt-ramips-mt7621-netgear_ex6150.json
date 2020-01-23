@@ -1,0 +1,29 @@
+{
+  "id": "netgear_ex6150",
+  "image_prefix": "openwrt-ramips-mt7621-netgear_ex6150",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-netgear_ex6150-squashfs-sysupgrade.bin",
+      "sha256": "42bef7bdd4b36b128f1b5174c49df09971d21998b44b6d9c007488b57dfb634f",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_ex6150-squashfs-factory.chk",
+      "sha256": "efbc9ab1c062590f3574c9e3385c3a0d7e282c7513f9047e0b3ab0e0ef7289d7",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,ex6150"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "EX6150",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

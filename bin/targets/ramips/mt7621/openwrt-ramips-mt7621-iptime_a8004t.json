@@ -1,0 +1,24 @@
+{
+  "id": "iptime_a8004t",
+  "image_prefix": "openwrt-ramips-mt7621-iptime_a8004t",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-iptime_a8004t-squashfs-sysupgrade.bin",
+      "sha256": "bd1ec74c684e4171c3ebf226623b77509217cd64cc95016db141b950887753f3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iptime,a8004t"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "A8004T",
+      "vendor": "ipTIME"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

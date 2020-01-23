@@ -1,0 +1,25 @@
+{
+  "id": "netis_wf-2881",
+  "image_prefix": "openwrt-ramips-mt7621-netis_wf-2881",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-netis_wf-2881-squashfs-sysupgrade.bin",
+      "sha256": "7706f58433ec5d15e8ffdc4b414a28c82cdde063ab959ddb8dedf1bf4dc4540d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netis,wf-2881",
+    "wf-2881"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WF-2881",
+      "vendor": "NETIS"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

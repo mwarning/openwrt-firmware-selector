@@ -1,0 +1,24 @@
+{
+  "id": "zbtlink_zbt-wd323",
+  "image_prefix": "openwrt-ath79-generic-zbtlink_zbt-wd323",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-zbtlink_zbt-wd323-squashfs-sysupgrade.bin",
+      "sha256": "1ec8eebdaac299e2ab72e4db19d1e59f3f89b47a1db5f7ad084caa3084435ea8",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-wd323"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WD323",
+      "vendor": "ZBT"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

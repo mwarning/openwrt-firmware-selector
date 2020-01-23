@@ -1,0 +1,26 @@
+{
+  "id": "kimax_u25awf-h1",
+  "image_prefix": "openwrt-ramips-mt7620-kimax_u25awf-h1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-kimax_u25awf-h1-squashfs-sysupgrade.bin",
+      "sha256": "2c4097b70ac6d31c99aa253dc2f127545b2f4fec67430ceeea68d026ddf47502",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "kimax,u25awf-h1",
+    "u25awf-h1"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "U25AWF",
+      "variant": "H1",
+      "vendor": "Kimax"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

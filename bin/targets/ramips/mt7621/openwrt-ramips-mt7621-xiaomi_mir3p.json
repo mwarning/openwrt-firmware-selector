@@ -1,0 +1,29 @@
+{
+  "id": "xiaomi_mir3p",
+  "image_prefix": "openwrt-ramips-mt7621-xiaomi_mir3p",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin",
+      "sha256": "82bae80b657f9813006d9794c40b09e1adb3eb249770041c8496ead183cbc008",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-factory.bin",
+      "sha256": "52b10133f69ea60644ceac6b1429cf8d6a38d3a1a5d8f152b178d47b363a9fd6",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xiaomi,mir3p"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Mi Router 3 Pro",
+      "vendor": "Xiaomi"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

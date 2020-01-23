@@ -1,0 +1,25 @@
+{
+  "id": "planex_cs-qr10",
+  "image_prefix": "openwrt-ramips-mt7620-planex_cs-qr10",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-planex_cs-qr10-squashfs-sysupgrade.bin",
+      "sha256": "2646222d593866ff9d9394e2652bdb0f6c941cb8333fe52ebb74507fb517f6f9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "planex,cs-qr10",
+    "cs-qr10"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "CS-QR10",
+      "vendor": "Planex"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

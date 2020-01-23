@@ -1,0 +1,25 @@
+{
+  "id": "glinet_gl-mt750",
+  "image_prefix": "openwrt-ramips-mt7620-glinet_gl-mt750",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-glinet_gl-mt750-squashfs-sysupgrade.bin",
+      "sha256": "582868743b867f7873b66b9d5470da7adf9c7d052405c413a07ff5ede90ccf35",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,gl-mt750",
+    "gl-mt750"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "GL-MT750",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

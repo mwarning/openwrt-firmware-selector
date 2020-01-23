@@ -1,0 +1,25 @@
+{
+  "id": "hiwifi_hc5861",
+  "image_prefix": "openwrt-ramips-mt7620-hiwifi_hc5861",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-hiwifi_hc5861-squashfs-sysupgrade.bin",
+      "sha256": "caf85e4e6f3058578170b34a4ca28bad1ecdb62e9b7fa1099ec4f4d9147430c4",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "hiwifi,hc5861",
+    "hc5861"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "HC5861",
+      "vendor": "HiWiFi"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

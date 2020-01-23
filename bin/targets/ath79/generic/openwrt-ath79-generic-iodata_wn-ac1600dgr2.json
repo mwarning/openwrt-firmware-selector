@@ -1,0 +1,29 @@
+{
+  "id": "iodata_wn-ac1600dgr2",
+  "image_prefix": "openwrt-ath79-generic-iodata_wn-ac1600dgr2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr2-squashfs-sysupgrade.bin",
+      "sha256": "29be857f375f185050f8d7d6732e34223a55a0e69b29124875c50d6019e02e20",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr2-squashfs-dgr2-dgr3-factory.bin",
+      "sha256": "dc83d855858aa55c002b8873aa06583a7780929274953b800333a78e6a741768",
+      "type": "dgr2-dgr3-factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iodata,wn-ac1600dgr2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WN-AC1600DGR2/DGR3",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

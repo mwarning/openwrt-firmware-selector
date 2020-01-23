@@ -1,0 +1,29 @@
+{
+  "id": "iodata_wn-ag300dgr",
+  "image_prefix": "openwrt-ath79-generic-iodata_wn-ag300dgr",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-iodata_wn-ag300dgr-squashfs-factory.bin",
+      "sha256": "fb59fff3d470c8c6a0907c8db050a7d5b51939921fd41517281c3e35836629e9",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-iodata_wn-ag300dgr-squashfs-sysupgrade.bin",
+      "sha256": "bcf1a2233734f771e07abf7c422b63ea21590c07c32f38945b255edd8f04b65b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iodata,wn-ag300dgr"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WN-AG300DGR",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

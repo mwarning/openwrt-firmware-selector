@@ -1,0 +1,24 @@
+{
+  "id": "gehua_ghl-r-001",
+  "image_prefix": "openwrt-ramips-mt7621-gehua_ghl-r-001",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-gehua_ghl-r-001-squashfs-sysupgrade.bin",
+      "sha256": "2b37c811049d2a349ce26fcc2d36c5c95358615aa06c3f815b4865c92020d291",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "gehua,ghl-r-001"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "GHL-R-001",
+      "vendor": "GeHua"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

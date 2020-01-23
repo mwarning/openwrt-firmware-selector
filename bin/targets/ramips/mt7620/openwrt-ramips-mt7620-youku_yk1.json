@@ -1,0 +1,25 @@
+{
+  "id": "youku_yk1",
+  "image_prefix": "openwrt-ramips-mt7620-youku_yk1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-youku_yk1-squashfs-sysupgrade.bin",
+      "sha256": "0c2dde828069338b12e0a782ccfb4c6ee472b6abc411d3e085f1620ba9824d5a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "youku,yk1",
+    "youku-yk1"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "YK1",
+      "vendor": "YOUKU"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "d-team_pbr-m1",
+  "image_prefix": "openwrt-ramips-mt7621-d-team_pbr-m1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-d-team_pbr-m1-squashfs-sysupgrade.bin",
+      "sha256": "e792a2c101e29375fa6bb4eb2df83ddb54dfbdf5d14461ac3840100330e2fdee",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "d-team,pbr-m1",
+    "pbr-m1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "PBR-M1",
+      "vendor": "PandoraBox"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

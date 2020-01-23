@@ -1,0 +1,24 @@
+{
+  "id": "elecom_wrc-300ghbk2-i",
+  "image_prefix": "openwrt-ath79-generic-elecom_wrc-300ghbk2-i",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-elecom_wrc-300ghbk2-i-squashfs-sysupgrade.bin",
+      "sha256": "647a73c34c9195aadfae0eb569aba99648cb12366e3cda668e9162839d175693",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "elecom,wrc-300ghbk2-i"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WRC-300GHBK2-I",
+      "vendor": "ELECOM"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

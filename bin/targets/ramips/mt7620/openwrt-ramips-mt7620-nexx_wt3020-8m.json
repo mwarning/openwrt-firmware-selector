@@ -1,0 +1,32 @@
+{
+  "id": "nexx_wt3020-8m",
+  "image_prefix": "openwrt-ramips-mt7620-nexx_wt3020-8m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-nexx_wt3020-8m-squashfs-sysupgrade.bin",
+      "sha256": "c6c206803f6e83cdf86ec00b7f7b0a3f6e20d53ef15a0d3cfa0494c8dd6c778f",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-nexx_wt3020-8m-squashfs-factory.bin",
+      "sha256": "0cff2f8fc70734afa6a9de517df6d18ef4a5a7a5a4b1667906cd7b1cdc7c4c9f",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "nexx,wt3020-8m",
+    "wt3020",
+    "wt3020-8M"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "WT3020",
+      "variant": "8M",
+      "vendor": "Nexx"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

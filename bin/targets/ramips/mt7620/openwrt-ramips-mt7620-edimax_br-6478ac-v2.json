@@ -1,0 +1,25 @@
+{
+  "id": "edimax_br-6478ac-v2",
+  "image_prefix": "openwrt-ramips-mt7620-edimax_br-6478ac-v2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-edimax_br-6478ac-v2-squashfs-sysupgrade.bin",
+      "sha256": "b714985de45ac97bd77e005154c55d82c0e881f81251aa2ac8f0840a1b5648c9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "edimax,br-6478ac-v2"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "BR-6478AC",
+      "variant": "V2",
+      "vendor": "Edimax"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

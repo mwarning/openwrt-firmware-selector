@@ -1,0 +1,25 @@
+{
+  "id": "glinet_gl-mt300a",
+  "image_prefix": "openwrt-ramips-mt7620-glinet_gl-mt300a",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-glinet_gl-mt300a-squashfs-sysupgrade.bin",
+      "sha256": "968132b8147f503c535d8fab34b207ef93a7850bf5da0ce557397f6d4137c56c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,gl-mt300a",
+    "gl-mt300a"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "GL-MT300A",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "thunder_timecloud",
+  "image_prefix": "openwrt-ramips-mt7621-thunder_timecloud",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-thunder_timecloud-squashfs-sysupgrade.bin",
+      "sha256": "a12341e9cfda09b4c8be382ba4f3928defd76604b56b01bcdce87b536634af9c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "thunder,timecloud",
+    "timecloud"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Timecloud",
+      "vendor": "Thunder"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

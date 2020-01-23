@@ -1,0 +1,24 @@
+{
+  "id": "zbtlink_zbt-we3526",
+  "image_prefix": "openwrt-ramips-mt7621-zbtlink_zbt-we3526",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-zbtlink_zbt-we3526-squashfs-sysupgrade.bin",
+      "sha256": "5b31ea277d753f28101a819ccd651f368ab796264183fa77191d8ce9812592fc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-we3526"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "ZBT-WE3526",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

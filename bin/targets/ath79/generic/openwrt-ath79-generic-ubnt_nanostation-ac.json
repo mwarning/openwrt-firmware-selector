@@ -1,0 +1,29 @@
+{
+  "id": "ubnt_nanostation-ac",
+  "image_prefix": "openwrt-ath79-generic-ubnt_nanostation-ac",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-ubnt_nanostation-ac-squashfs-sysupgrade.bin",
+      "sha256": "7377b12736c6196a6e334fff2df23fc5368711af4d37727550d658f276effc35",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-ubnt_nanostation-ac-squashfs-factory.bin",
+      "sha256": "7fb2eff7278517dac19f63c5f95ff3d720bf3b5b5bbe1d76af2a277dbcbeecce",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubnt,nanostation-ac"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Nanostation AC",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "avm_fritz300e",
+  "image_prefix": "openwrt-ath79-generic-avm_fritz300e",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-avm_fritz300e-squashfs-sysupgrade.bin",
+      "sha256": "0e842dfe0f5f42642ca02d22d575d36fefa4e426623463a2d5edbfd8509f682c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "avm,fritz300e"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "FRITZ!WLAN Repeater 300E",
+      "vendor": "AVM"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

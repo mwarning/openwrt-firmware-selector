@@ -1,0 +1,25 @@
+{
+  "id": "ohyeah_oy-0001",
+  "image_prefix": "openwrt-ramips-mt7620-ohyeah_oy-0001",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-ohyeah_oy-0001-squashfs-sysupgrade.bin",
+      "sha256": "0aca15308e20fc890b47cd67708939e910a79256f5e7ce0833416695c7eac50a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ohyeah,oy-0001",
+    "oy-0001"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "OY-0001",
+      "vendor": "Oh Yeah"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

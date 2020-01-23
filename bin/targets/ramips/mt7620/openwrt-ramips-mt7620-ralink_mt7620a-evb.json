@@ -1,0 +1,24 @@
+{
+  "id": "ralink_mt7620a-evb",
+  "image_prefix": "openwrt-ramips-mt7620-ralink_mt7620a-evb",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-ralink_mt7620a-evb-squashfs-sysupgrade.bin",
+      "sha256": "aeaddb03ab379d8ddbf311019790f0cc3444d4b559b11672d684f172e271e760",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ralink,mt7620a-evb"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "MT7620a EVB",
+      "vendor": "MediaTek"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

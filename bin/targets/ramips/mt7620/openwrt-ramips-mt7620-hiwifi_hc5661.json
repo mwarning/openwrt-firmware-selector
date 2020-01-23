@@ -1,0 +1,25 @@
+{
+  "id": "hiwifi_hc5661",
+  "image_prefix": "openwrt-ramips-mt7620-hiwifi_hc5661",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-hiwifi_hc5661-squashfs-sysupgrade.bin",
+      "sha256": "f2255e0f93906bb249b045bda277098914679e278481a268020c0ee6bbfaccae",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "hiwifi,hc5661",
+    "hc5661"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "HC5661",
+      "vendor": "HiWiFi"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

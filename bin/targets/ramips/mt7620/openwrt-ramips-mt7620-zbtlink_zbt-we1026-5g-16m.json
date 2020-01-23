@@ -1,0 +1,27 @@
+{
+  "id": "zbtlink_zbt-we1026-5g-16m",
+  "image_prefix": "openwrt-ramips-mt7620-zbtlink_zbt-we1026-5g-16m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-zbtlink_zbt-we1026-5g-16m-squashfs-sysupgrade.bin",
+      "sha256": "50133675e652e79f4fe7820263a2362e932396c40519b1a5e952d1c7d52d7608",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-we1026-5g-16m",
+    "we1026-5g-16m",
+    "zbtlink,we1026-5g-16m"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "ZBT-WE1026-5G",
+      "variant": "16M",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

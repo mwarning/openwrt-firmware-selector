@@ -1,0 +1,24 @@
+{
+  "id": "iodata_etg3-r",
+  "image_prefix": "openwrt-ath79-generic-iodata_etg3-r",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-iodata_etg3-r-squashfs-sysupgrade.bin",
+      "sha256": "6ae7133140c332562d2abe5202098fac0e236c7eb41d85ef671c9fd042315001",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iodata,etg3-r"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "ETG3-R",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

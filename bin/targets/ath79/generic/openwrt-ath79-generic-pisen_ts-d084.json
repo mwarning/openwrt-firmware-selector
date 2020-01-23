@@ -1,0 +1,29 @@
+{
+  "id": "pisen_ts-d084",
+  "image_prefix": "openwrt-ath79-generic-pisen_ts-d084",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-pisen_ts-d084-squashfs-sysupgrade.bin",
+      "sha256": "7d887b64be3d3491e6d43fabd776ccffe55e0112b9a4437e6e38fdd7dc93b5f0",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-pisen_ts-d084-squashfs-factory.bin",
+      "sha256": "1a3012c2e510acd8dc107368caf57ebbc9b32b116e8e2f7e2cc49c8c1eb329c5",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "pisen,ts-d084"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TS-D084",
+      "vendor": "PISEN"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

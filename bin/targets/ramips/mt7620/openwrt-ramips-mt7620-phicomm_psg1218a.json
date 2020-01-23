@@ -1,0 +1,27 @@
+{
+  "id": "phicomm_psg1218a",
+  "image_prefix": "openwrt-ramips-mt7620-phicomm_psg1218a",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-phicomm_psg1218a-squashfs-sysupgrade.bin",
+      "sha256": "e99e96f54bc2d523be9bf040c840f61d0b0f920b7dfbf147e7b7b0f836880076",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "phicomm,psg1218a",
+    "psg1218",
+    "psg1218a"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "PSG1218",
+      "variant": "Ax",
+      "vendor": "Phicomm"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

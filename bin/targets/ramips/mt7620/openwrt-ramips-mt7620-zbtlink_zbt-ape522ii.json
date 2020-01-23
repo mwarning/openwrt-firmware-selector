@@ -1,0 +1,25 @@
+{
+  "id": "zbtlink_zbt-ape522ii",
+  "image_prefix": "openwrt-ramips-mt7620-zbtlink_zbt-ape522ii",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-zbtlink_zbt-ape522ii-squashfs-sysupgrade.bin",
+      "sha256": "16e906b439364bfcc6823dd5e94f3c3823c309b9126a1cfc8b1629c0cc638028",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-ape522ii",
+    "zbt-ape522ii"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "ZBT-APE522II",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

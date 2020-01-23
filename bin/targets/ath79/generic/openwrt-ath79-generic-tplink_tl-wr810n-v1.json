@@ -1,0 +1,30 @@
+{
+  "id": "tplink_tl-wr810n-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_tl-wr810n-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr810n-v1-squashfs-sysupgrade.bin",
+      "sha256": "59a663173a6825147df319a35a1075d364ac51cdb4eece6604060f4af6eaa85d",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr810n-v1-squashfs-factory.bin",
+      "sha256": "0c47ccf36f2cf12dcb24ce128cdc551565ef0c7e19c722fd36c1ffccca527257",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr810n-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WR810N",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

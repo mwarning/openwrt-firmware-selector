@@ -1,0 +1,29 @@
+{
+  "id": "iodata_wn-ac1167dgr",
+  "image_prefix": "openwrt-ath79-generic-iodata_wn-ac1167dgr",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-iodata_wn-ac1167dgr-squashfs-sysupgrade.bin",
+      "sha256": "c85483f61deb97bb7075f0e0c588d7db23183a1d652e058bd030d6bcc6d5c601",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-iodata_wn-ac1167dgr-squashfs-factory.bin",
+      "sha256": "312f8cb60e844698e180081567705f5ccd62b3799836c03ff3b8faa5f9a8cb30",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iodata,wn-ac1167dgr"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WN-AC1167DGR",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

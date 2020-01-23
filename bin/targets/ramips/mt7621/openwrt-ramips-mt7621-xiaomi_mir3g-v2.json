@@ -1,0 +1,30 @@
+{
+  "id": "xiaomi_mir3g-v2",
+  "image_prefix": "openwrt-ramips-mt7621-xiaomi_mir3g-v2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-xiaomi_mir3g-v2-squashfs-sysupgrade.bin",
+      "sha256": "c8a9913be6ec7e202b06958c84240576c6c61ea5f2368ef5e4aa68e1b2cd80b3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xiaomi,mir3g-v2"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Mi Router 3G",
+      "variant": "v2",
+      "vendor": "Xiaomi"
+    },
+    {
+      "model": "Mi Router 4A",
+      "variant": "Gigabit Edition",
+      "vendor": "Xiaomi"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

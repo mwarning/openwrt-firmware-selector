@@ -1,0 +1,26 @@
+{
+  "id": "ubiquiti_edgerouterx-sfp",
+  "image_prefix": "openwrt-ramips-mt7621-ubiquiti_edgerouterx-sfp",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-ubiquiti_edgerouterx-sfp-squashfs-sysupgrade.bin",
+      "sha256": "664944f3ebc4728b211915f0666e0029d911008554283ff214982c0456a8c74a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubiquiti,edgerouterx-sfp",
+    "ubnt-erx",
+    "ubnt-erx-sfp"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "EdgeRouter X-SFP",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

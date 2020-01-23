@@ -1,0 +1,25 @@
+{
+  "id": "pcs_cap324",
+  "image_prefix": "openwrt-ath79-generic-pcs_cap324",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-pcs_cap324-squashfs-sysupgrade.bin",
+      "sha256": "bcea7680137d7ca46fe8e55128747d4e4b2f54f7c394257de384b65dff66d7c5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "pcs,cap324",
+    "cap324"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CAP324",
+      "vendor": "PowerCloud Systems"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

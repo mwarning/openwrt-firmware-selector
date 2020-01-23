@@ -1,0 +1,25 @@
+{
+  "id": "dlink_dir-505",
+  "image_prefix": "openwrt-ath79-generic-dlink_dir-505",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-dlink_dir-505-squashfs-sysupgrade.bin",
+      "sha256": "240fbcf93d51e7a73ed76d0fc4449ce8d2e3f06ca56fdcb29d5ff512714e50d2",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dir-505",
+    "dir-505-a1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "DIR-505",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

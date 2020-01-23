@@ -1,0 +1,31 @@
+{
+  "id": "netgear_wndr3700v2",
+  "image_prefix": "openwrt-ath79-generic-netgear_wndr3700v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-netgear_wndr3700v2-squashfs-sysupgrade.bin",
+      "sha256": "c24a841971baa8024950bba5bf2e2567a04f50da05c118e6a9b1c2c0963a2533",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-netgear_wndr3700v2-squashfs-factory.img",
+      "sha256": "d869b99063b339617fbb28e4651755b10a8215904b01ef338afed21f27e728ed",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wndr3700v2",
+    "wndr3700"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WNDR3700",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

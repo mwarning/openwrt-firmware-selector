@@ -1,0 +1,29 @@
+{
+  "id": "yuncore_xd4200",
+  "image_prefix": "openwrt-ath79-generic-yuncore_xd4200",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-yuncore_xd4200-squashfs-sysupgrade.bin",
+      "sha256": "7fe5da8c4e6b39baad9248980ec4d7b3f325a1d8d22e2be74e49cef57bae1980",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-yuncore_xd4200-squashfs-tftp.bin",
+      "sha256": "70039ffda5cef27f1d41e0e1bfb1835b415fc74a1beeef2e2f56774aa77fc681",
+      "type": "tftp"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "yuncore,xd4200"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "XD4200",
+      "vendor": "YunCore"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

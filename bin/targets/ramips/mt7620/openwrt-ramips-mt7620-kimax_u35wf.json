@@ -1,0 +1,24 @@
+{
+  "id": "kimax_u35wf",
+  "image_prefix": "openwrt-ramips-mt7620-kimax_u35wf",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-kimax_u35wf-squashfs-sysupgrade.bin",
+      "sha256": "19d096acce2effd280ce56c81908acff4f1729d9b81b1bb926255c19fe305c4f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "kimax,u35wf"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "U35WF",
+      "vendor": "Kimax"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

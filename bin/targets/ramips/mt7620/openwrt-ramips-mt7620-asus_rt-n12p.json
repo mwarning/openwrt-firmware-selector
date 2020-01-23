@@ -1,0 +1,25 @@
+{
+  "id": "asus_rt-n12p",
+  "image_prefix": "openwrt-ramips-mt7620-asus_rt-n12p",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-asus_rt-n12p-squashfs-sysupgrade.bin",
+      "sha256": "c695fc93b0cb5ae1adb2f876dafcfbbf67f3912e1a01ac732c414a2ffc0550a5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "asus,rt-n12p",
+    "rt-n12p"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "RT-N11P/RT-N12+/RT-N12Eb1",
+      "vendor": "Asus"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

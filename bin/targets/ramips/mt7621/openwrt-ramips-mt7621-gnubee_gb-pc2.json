@@ -1,0 +1,24 @@
+{
+  "id": "gnubee_gb-pc2",
+  "image_prefix": "openwrt-ramips-mt7621-gnubee_gb-pc2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-gnubee_gb-pc2-squashfs-sysupgrade.bin",
+      "sha256": "ebd87aa237e00ce780099f9a32c44179deae3966ec3d796975b4141854b0d169",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "gnubee,gb-pc2"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Personal Cloud Two",
+      "vendor": "GnuBee"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

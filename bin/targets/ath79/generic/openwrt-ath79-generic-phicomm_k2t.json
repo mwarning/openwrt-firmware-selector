@@ -1,0 +1,24 @@
+{
+  "id": "phicomm_k2t",
+  "image_prefix": "openwrt-ath79-generic-phicomm_k2t",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-phicomm_k2t-squashfs-sysupgrade.bin",
+      "sha256": "04af3509b3ac08f21a879b540e249b74c5c4ede2b1d49806d0cdc678688f43fc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "phicomm,k2t"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "K2T",
+      "vendor": "Phicomm"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

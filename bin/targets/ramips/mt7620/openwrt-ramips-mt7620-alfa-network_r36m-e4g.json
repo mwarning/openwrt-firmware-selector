@@ -1,0 +1,24 @@
+{
+  "id": "alfa-network_r36m-e4g",
+  "image_prefix": "openwrt-ramips-mt7620-alfa-network_r36m-e4g",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-alfa-network_r36m-e4g-squashfs-sysupgrade.bin",
+      "sha256": "3687249725321cc225d1adeb73cff6c4638ede5c176b278dd84ee541d132a647",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "alfa-network,r36m-e4g"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "R36M-E4G",
+      "vendor": "ALFA Network"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

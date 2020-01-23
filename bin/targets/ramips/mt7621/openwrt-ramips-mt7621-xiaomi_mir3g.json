@@ -1,0 +1,36 @@
+{
+  "id": "xiaomi_mir3g",
+  "image_prefix": "openwrt-ramips-mt7621-xiaomi_mir3g",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-kernel1.bin",
+      "sha256": "340ba9728d36dc9ca871cd4d0c69dc2d317bfe12a7a08e4168a71d9f3c4725d7",
+      "type": "kernel1"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-rootfs0.bin",
+      "sha256": "5221c1e87dfe11359a4e950e92c126f92e20b96425661f456c5d77452a641dcc",
+      "type": "rootfs0"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-sysupgrade.bin",
+      "sha256": "e307e2c20393e6ea181795f1d97a1845ad37c6ca3ec365bddfa31b2fb9045b44",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xiaomi,mir3g",
+    "R3G",
+    "mir3g"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Mi Router 3G",
+      "vendor": "Xiaomi"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

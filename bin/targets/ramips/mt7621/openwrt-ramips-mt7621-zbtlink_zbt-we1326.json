@@ -1,0 +1,25 @@
+{
+  "id": "zbtlink_zbt-we1326",
+  "image_prefix": "openwrt-ramips-mt7621-zbtlink_zbt-we1326",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-zbtlink_zbt-we1326-squashfs-sysupgrade.bin",
+      "sha256": "3eb875f52b8ea9ffe9006927329c13b6a0eb30f15d0f642fc64f372f5a5446df",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-we1326",
+    "zbt-we1326"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "ZBT-WE1326",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

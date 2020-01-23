@@ -1,0 +1,24 @@
+{
+  "id": "iptime_a104ns",
+  "image_prefix": "openwrt-ramips-mt7620-iptime_a104ns",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-iptime_a104ns-squashfs-sysupgrade.bin",
+      "sha256": "7b0074195a632ebf0f81a50b0746a5d9f1c8315a2a815c4a943b9171c2ec429b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iptime,a104ns"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "A104ns",
+      "vendor": "ipTIME"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

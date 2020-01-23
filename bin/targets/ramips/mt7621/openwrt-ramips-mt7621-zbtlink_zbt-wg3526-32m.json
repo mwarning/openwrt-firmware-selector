@@ -1,0 +1,27 @@
+{
+  "id": "zbtlink_zbt-wg3526-32m",
+  "image_prefix": "openwrt-ramips-mt7621-zbtlink_zbt-wg3526-32m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-zbtlink_zbt-wg3526-32m-squashfs-sysupgrade.bin",
+      "sha256": "402c33724d559bf560a72970ea8a9f335937bc0eb4a7fa34a41c36a098e618ec",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-wg3526-32m",
+    "ac1200pro",
+    "zbt-wg3526-32M"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "ZBT-WG3526",
+      "variant": "32M",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

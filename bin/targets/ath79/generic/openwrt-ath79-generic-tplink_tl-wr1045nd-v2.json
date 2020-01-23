@@ -1,0 +1,30 @@
+{
+  "id": "tplink_tl-wr1045nd-v2",
+  "image_prefix": "openwrt-ath79-generic-tplink_tl-wr1045nd-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr1045nd-v2-squashfs-sysupgrade.bin",
+      "sha256": "28c2095d0fef543052c91a665ef052161dc2779b4943f58236597f4e8427bfac",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr1045nd-v2-squashfs-factory.bin",
+      "sha256": "f1991a4b81f7f770276944929ef7580ed5dbf4cd21b55d14aa91b7060dc16f92",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr1045nd-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WR1045ND",
+      "variant": "v2",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

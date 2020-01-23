@@ -1,0 +1,30 @@
+{
+  "id": "sitecom_wlr-7100",
+  "image_prefix": "openwrt-ath79-generic-sitecom_wlr-7100",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-sitecom_wlr-7100-squashfs-sysupgrade.bin",
+      "sha256": "204ea1af84b7097e4c03043a696ad6ec9fd94d4c9f34b56a518fa31d639d8a65",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-sitecom_wlr-7100-squashfs-factory.dlf",
+      "sha256": "abfd7b73fdc1e14ae28fb5a0851609fffa4bd0efb244b4625c993a88d909da44",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "sitecom,wlr-7100"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WLR-7100",
+      "variant": "v1 002",
+      "vendor": "Sitecom"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

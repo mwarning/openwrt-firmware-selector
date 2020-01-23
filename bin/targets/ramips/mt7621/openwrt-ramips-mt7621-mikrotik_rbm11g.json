@@ -1,0 +1,24 @@
+{
+  "id": "mikrotik_rbm11g",
+  "image_prefix": "openwrt-ramips-mt7621-mikrotik_rbm11g",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-mikrotik_rbm11g-squashfs-sysupgrade.bin",
+      "sha256": "5728a8c74216a33d0ba99669ab03bf0734b892123ab4634e92b733e3d1bb13a5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mikrotik,rbm11g"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RouterBOARD M11G",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

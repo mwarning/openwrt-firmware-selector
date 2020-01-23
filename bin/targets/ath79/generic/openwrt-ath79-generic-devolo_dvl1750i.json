@@ -1,0 +1,24 @@
+{
+  "id": "devolo_dvl1750i",
+  "image_prefix": "openwrt-ath79-generic-devolo_dvl1750i",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-devolo_dvl1750i-squashfs-sysupgrade.bin",
+      "sha256": "30e68cec5d4ab71634524eff34fb8247b6d922a8b3673e797b03b194cd34a6a1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "devolo,dvl1750i"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WiFi pro 1750i",
+      "vendor": "devolo"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

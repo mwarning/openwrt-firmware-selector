@@ -1,0 +1,31 @@
+{
+  "id": "ubnt_airrouter",
+  "image_prefix": "openwrt-ath79-generic-ubnt_airrouter",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-ubnt_airrouter-squashfs-sysupgrade.bin",
+      "sha256": "2cbdf9a5cc9056ba8e05cfbe96ab673657033b2e056013c07d16ad019c3b5e63",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-ubnt_airrouter-squashfs-factory.bin",
+      "sha256": "700d04c076d8bb0fcf83a0d12056fd21fca5455edc19c0c132637c5b27780426",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubnt,airrouter",
+    "airrouter"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "AirRouter",
+      "variant": "XM",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "adtran_bsap1840",
+  "image_prefix": "openwrt-ath79-generic-adtran_bsap1840",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-adtran_bsap1840-squashfs-sysupgrade.bin",
+      "sha256": "6c76bdf958e93be0f5b85b46777b15b129c5937d43b32c30b74f5ec436ee0f00",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-adtran_bsap1840-squashfs-kernel.bin",
+      "sha256": "165c7c108205359bad69f45f8e0a02ef7b1571dbb052e511282e9449ef72aa09",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-ath79-generic-adtran_bsap1840-squashfs-rootfs.bin",
+      "sha256": "e1d165cbb6e0810a0d9f2be5415ca2e727119ce2c64a214f37a8d8c2a85d5cd3",
+      "type": "rootfs"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "adtran,bsap1840"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "BSAP-1840",
+      "vendor": "Adtran/Bluesocket"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

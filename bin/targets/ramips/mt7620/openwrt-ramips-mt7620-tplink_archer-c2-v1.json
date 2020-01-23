@@ -1,0 +1,31 @@
+{
+  "id": "tplink_archer-c2-v1",
+  "image_prefix": "openwrt-ramips-mt7620-tplink_archer-c2-v1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-tplink_archer-c2-v1-squashfs-sysupgrade.bin",
+      "sha256": "3f9b201d259140b1d5c5d328a749ddb24c79c13533caf5ecc2cdc76427fe7681",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-tplink_archer-c2-v1-squashfs-factory.bin",
+      "sha256": "e3bcd1a6cd9a07b28bd3c00d5ef835b410dd0a69c470dedf45635e08fb33bf04",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c2-v1",
+    "tplink,c2-v1"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Archer C2",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

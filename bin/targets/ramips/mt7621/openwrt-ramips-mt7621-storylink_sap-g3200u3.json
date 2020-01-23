@@ -1,0 +1,25 @@
+{
+  "id": "storylink_sap-g3200u3",
+  "image_prefix": "openwrt-ramips-mt7621-storylink_sap-g3200u3",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-storylink_sap-g3200u3-squashfs-sysupgrade.bin",
+      "sha256": "4b4af18b48c7d04c1f3c746a9f191faf910e1db4c3acaebe80ea698844ac6f99",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "storylink,sap-g3200u3",
+    "sap-g3200u3"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "SAP-G3200U3",
+      "vendor": "STORYLiNK"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

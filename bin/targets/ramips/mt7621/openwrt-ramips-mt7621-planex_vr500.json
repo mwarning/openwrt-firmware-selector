@@ -1,0 +1,25 @@
+{
+  "id": "planex_vr500",
+  "image_prefix": "openwrt-ramips-mt7621-planex_vr500",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-planex_vr500-squashfs-sysupgrade.bin",
+      "sha256": "ac51e393c3050362ffc1c71deb4ea7052589688f6565765f4d17b4a685b80986",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "planex,vr500",
+    "vr500"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "VR500",
+      "vendor": "Planex"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "tplink_archer-mr200",
+  "image_prefix": "openwrt-ramips-mt7620-tplink_archer-mr200",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-tplink_archer-mr200-squashfs-sysupgrade.bin",
+      "sha256": "6ba2feea6b94eeabc4149daad498ff3a3fe6ed3556a7b8e3992095cc139bd9b3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-mr200",
+    "mr200"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Archer MR200",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

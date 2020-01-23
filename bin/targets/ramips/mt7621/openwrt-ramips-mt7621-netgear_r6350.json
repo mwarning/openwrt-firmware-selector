@@ -1,0 +1,34 @@
+{
+  "id": "netgear_r6350",
+  "image_prefix": "openwrt-ramips-mt7621-netgear_r6350",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6350-squashfs-sysupgrade.bin",
+      "sha256": "fc2cede726cf9134d0687a97089a6657d183c0eefa980c78bf4b03a67fc5be1f",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6350-squashfs-factory.img",
+      "sha256": "ebfb2922c8d3b82772d048c2e30ea7e1a69e01fee20ffcf5313143f4a7a48568",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6350-squashfs-kernel.bin",
+      "sha256": "1cdfc859cc4dce292ea59edaa887b8c1f8e093261c85ca9b0bc31d5fa0239367",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,r6350"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "R6350",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

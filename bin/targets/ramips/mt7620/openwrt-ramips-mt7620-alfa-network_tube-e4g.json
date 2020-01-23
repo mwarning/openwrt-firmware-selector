@@ -1,0 +1,24 @@
+{
+  "id": "alfa-network_tube-e4g",
+  "image_prefix": "openwrt-ramips-mt7620-alfa-network_tube-e4g",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-alfa-network_tube-e4g-squashfs-sysupgrade.bin",
+      "sha256": "28d2c6f1c96acf8ffa31a0e3d753ea39481b5ad889335da0ca51e96c03c10a95",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "alfa-network,tube-e4g"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Tube-E4G",
+      "vendor": "ALFA Network"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

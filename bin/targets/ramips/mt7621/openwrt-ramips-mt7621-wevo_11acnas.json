@@ -1,0 +1,25 @@
+{
+  "id": "wevo_11acnas",
+  "image_prefix": "openwrt-ramips-mt7621-wevo_11acnas",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-wevo_11acnas-squashfs-sysupgrade.bin",
+      "sha256": "10c7f89439a3f5f59a6ec4cabee886b77c6a853c9a50072df146205b8234e4d1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wevo,11acnas",
+    "11acnas"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "11AC NAS Router",
+      "vendor": "WeVO"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

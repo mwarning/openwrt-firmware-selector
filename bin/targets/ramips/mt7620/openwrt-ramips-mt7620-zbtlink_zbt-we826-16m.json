@@ -1,0 +1,27 @@
+{
+  "id": "zbtlink_zbt-we826-16m",
+  "image_prefix": "openwrt-ramips-mt7620-zbtlink_zbt-we826-16m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-zbtlink_zbt-we826-16m-squashfs-sysupgrade.bin",
+      "sha256": "529c50b89210ca9a1ed837b407a57e708e4508689df24ab73a8b69f944d56907",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-we826-16m",
+    "zbt-we826",
+    "zbt-we826-16M"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "ZBT-WE826",
+      "variant": "16M",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

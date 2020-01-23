@@ -1,0 +1,26 @@
+{
+  "id": "glinet_gl-ar300m-lite",
+  "image_prefix": "openwrt-ath79-generic-glinet_gl-ar300m-lite",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-glinet_gl-ar300m-lite-squashfs-sysupgrade.bin",
+      "sha256": "42d9727bf4ec06147dad5cd46dbef1fe0ad11ee1634b5a4347237371f1a945df",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,gl-ar300m-lite",
+    "gl-ar300m"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "GL-AR300M",
+      "variant": "Lite",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

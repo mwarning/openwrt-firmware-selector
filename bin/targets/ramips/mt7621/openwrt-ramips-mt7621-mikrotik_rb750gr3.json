@@ -1,0 +1,25 @@
+{
+  "id": "mikrotik_rb750gr3",
+  "image_prefix": "openwrt-ramips-mt7621-mikrotik_rb750gr3",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-mikrotik_rb750gr3-squashfs-sysupgrade.bin",
+      "sha256": "67174bb810336f1ffa960c5f2d6963711e4e5ceea76eda7559dcb7a8fb17b3ac",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mikrotik,rb750gr3"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RouterBOARD RB750G",
+      "variant": "r3",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

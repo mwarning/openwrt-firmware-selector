@@ -1,0 +1,27 @@
+{
+  "id": "mqmaker_witi",
+  "image_prefix": "openwrt-ramips-mt7621-mqmaker_witi",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-mqmaker_witi-squashfs-sysupgrade.bin",
+      "sha256": "a4bd6501390915266e499fa7b701100b32096f415bb298c139cb36f6d8cb66d2",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mqmaker,witi",
+    "witi",
+    "mqmaker,witi-256m",
+    "mqmaker,witi-512m"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WiTi",
+      "vendor": "MQmaker"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

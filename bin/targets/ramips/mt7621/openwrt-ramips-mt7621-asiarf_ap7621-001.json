@@ -1,0 +1,24 @@
+{
+  "id": "asiarf_ap7621-001",
+  "image_prefix": "openwrt-ramips-mt7621-asiarf_ap7621-001",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-asiarf_ap7621-001-squashfs-sysupgrade.bin",
+      "sha256": "cfc32b7640fa965ede9c2c0c2e1679986fe21ffb300a8fa3eb8ddd3ce2972597",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "asiarf,ap7621-001"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "AP7621-001",
+      "vendor": "AsiaRF"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

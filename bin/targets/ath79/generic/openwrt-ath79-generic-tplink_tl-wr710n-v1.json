@@ -1,0 +1,31 @@
+{
+  "id": "tplink_tl-wr710n-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_tl-wr710n-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr710n-v1-squashfs-sysupgrade.bin",
+      "sha256": "7ea2e3aa515a28e12016218a4c2dcd49eadc68d283f349140ab6b628b949f8bc",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr710n-v1-squashfs-factory.bin",
+      "sha256": "02940f5ae9f28b59316835a99d81b656b67d2a61eb8e3763a7dafe14d1847a56",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr710n-v1",
+    "tl-wr710n"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WR710N",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

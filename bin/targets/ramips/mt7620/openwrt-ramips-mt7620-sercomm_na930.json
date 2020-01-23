@@ -1,0 +1,25 @@
+{
+  "id": "sercomm_na930",
+  "image_prefix": "openwrt-ramips-mt7620-sercomm_na930",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-sercomm_na930-squashfs-sysupgrade.bin",
+      "sha256": "67924386b82e4bbc17420538849aec39b3160962f6f6a0f56ef80746d08651cb",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "sercomm,na930",
+    "na930"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "NA930",
+      "vendor": "Sercomm"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

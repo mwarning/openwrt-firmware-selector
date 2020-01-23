@@ -1,0 +1,25 @@
+{
+  "id": "yukai_bocco",
+  "image_prefix": "openwrt-ramips-mt7620-yukai_bocco",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-yukai_bocco-squashfs-sysupgrade.bin",
+      "sha256": "af642975031d3f1c987908d5fe949b7e47025e9da0d28996847bcc30bf8b2b83",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "yukai,bocco",
+    "bocco"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "BOCCO",
+      "vendor": "YUKAI Engineering"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

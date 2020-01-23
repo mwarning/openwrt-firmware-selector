@@ -1,0 +1,25 @@
+{
+  "id": "buffalo_wmr-300",
+  "image_prefix": "openwrt-ramips-mt7620-buffalo_wmr-300",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-buffalo_wmr-300-squashfs-sysupgrade.bin",
+      "sha256": "4fa188d1ae6a7f230d90c8568caf2622c23a69b1114a18b559435334a10ae95d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,wmr-300",
+    "wmr-300"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "WMR-300",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

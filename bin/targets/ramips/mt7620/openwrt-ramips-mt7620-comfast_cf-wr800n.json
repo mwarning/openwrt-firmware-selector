@@ -1,0 +1,25 @@
+{
+  "id": "comfast_cf-wr800n",
+  "image_prefix": "openwrt-ramips-mt7620-comfast_cf-wr800n",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-comfast_cf-wr800n-squashfs-sysupgrade.bin",
+      "sha256": "bde7bfa7e2ee4fc132446e37d12bee3299139078af230e5d28ea2ac6edc0d7a3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "comfast,cf-wr800n",
+    "cf-wr800n"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "CF-WR800N",
+      "vendor": "Comfast"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

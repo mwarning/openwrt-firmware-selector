@@ -1,0 +1,24 @@
+{
+  "id": "youhua_wr1200js",
+  "image_prefix": "openwrt-ramips-mt7621-youhua_wr1200js",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-youhua_wr1200js-squashfs-sysupgrade.bin",
+      "sha256": "6da67fa46499423001d878d8949a305a9f0b5c1a3ab3ab8d3cf8319dfa5e36f3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "youhua,wr1200js"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WR1200JS",
+      "vendor": "YouHua"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

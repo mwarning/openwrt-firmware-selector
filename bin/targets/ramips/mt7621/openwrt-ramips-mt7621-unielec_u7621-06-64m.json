@@ -1,0 +1,26 @@
+{
+  "id": "unielec_u7621-06-64m",
+  "image_prefix": "openwrt-ramips-mt7621-unielec_u7621-06-64m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-unielec_u7621-06-64m-squashfs-sysupgrade.bin",
+      "sha256": "3f84f21de52320a4037fcde83be58b7467f0624593baf044243cde3209a5f7a5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "unielec,u7621-06-64m",
+    "unielec,u7621-06-512m-64m"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "U7621-06",
+      "variant": "64M",
+      "vendor": "UniElec"
+    }
+  ],
+  "version_commit": "r12091-a66a1eb9c5",
+  "version_number": "SNAPSHOT"
+}

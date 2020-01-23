@@ -1,0 +1,30 @@
+{
+  "id": "jjplus_ja76pf2",
+  "image_prefix": "openwrt-ath79-generic-jjplus_ja76pf2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-jjplus_ja76pf2-squashfs-kernel.bin",
+      "sha256": "2ea7352632c6c82636e9e559a0921ec1d73fdef3e46f9eba55fa4c743425a783",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-ath79-generic-jjplus_ja76pf2-squashfs-rootfs.bin",
+      "sha256": "e1d165cbb6e0810a0d9f2be5415ca2e727119ce2c64a214f37a8d8c2a85d5cd3",
+      "type": "rootfs"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "jjplus,ja76pf2",
+    "ja76pf2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "JA76PF2",
+      "vendor": "jjPlus"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "tplink_archer-c58-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_archer-c58-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_archer-c58-v1-squashfs-sysupgrade.bin",
+      "sha256": "495b5479c8c968d5b126ec41621fe5adcc08b7858a395392f163b83e3378151b",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_archer-c58-v1-squashfs-factory.bin",
+      "sha256": "67594a3a0b8ea19cd43497ef5fbc50bddff901581e2c9031f4da39c538f07e2d",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c58-v1",
+    "archer-c58-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Archer C58",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}

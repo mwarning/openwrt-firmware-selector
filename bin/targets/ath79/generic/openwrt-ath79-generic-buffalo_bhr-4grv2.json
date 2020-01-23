@@ -1,0 +1,24 @@
+{
+  "id": "buffalo_bhr-4grv2",
+  "image_prefix": "openwrt-ath79-generic-buffalo_bhr-4grv2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-buffalo_bhr-4grv2-squashfs-sysupgrade.bin",
+      "sha256": "5a2f3cb06bca0c07e924ad997ba79bfd77c67897c5604456a608e78daa6eae95",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,bhr-4grv2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "BHR-4GRV2",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12032-5355baf21f",
+  "version_number": "SNAPSHOT"
+}
