@@ -10,10 +10,6 @@ function loadFile(url, callback) {
   xmlhttp.send();
 }
 
-function setupImageList(select, items, onselection) {
-  
-}
-
 function setupSelectList(select, items, onselection) {
   for (var i = 0; i < items.length; i += 1) {
     var option = document.createElement("OPTION");
@@ -29,22 +25,17 @@ function setupSelectList(select, items, onselection) {
     onselection(items[select.selectedIndex]);
   }
 }
-/*
-<div id="currentLanguages">
-    <span onclick="firmwarewizard.changeLanguage('en')">en</span> |
-    <span onclick="firmwarewizard.changeLanguage('de')">de</span> |
-    <span onclick="firmwarewizard.changeLanguage('pl')">pl</span>
-  </div>
-  */
 
 // Change the translation of the entire document
-function updateI18n() {
-  var mapping = translations[config.language];
-  for (var id in mapping) {
-    var elements = document.getElementsByClassName(id);
-    for (var i in elements) {
-      if (elements.hasOwnProperty(i)) {
-        elements[i].innerHTML = mapping[id];
+function changeLanguage(language) {
+  var mapping = translations[language];
+  if (mapping) {
+    for (var id in mapping) {
+      var elements = document.getElementsByClassName(id);
+      for (var i in elements) {
+        if (elements.hasOwnProperty(i)) {
+          elements[i].innerHTML = mapping[id];
+        }
       }
     }
   }
@@ -56,7 +47,9 @@ function setupAutocompleteList(input, items, onselection) {
   var currentFocus = -1;
 
   // execute a function when someone writes in the text field:
-  input.addEventListener("input", function(e) {
+
+  input.oninput = function(e) {
+    console.log("input");
     // clear images
     updateImages();
 
@@ -76,6 +69,7 @@ function setupAutocompleteList(input, items, onselection) {
     var c = 0;
     for (var i = 0; i < items.length; i += 1) {
       var item = items[i];
+
       // match
       var j = item.toUpperCase().indexOf(value.toUpperCase());
       if (j < 0) {
@@ -109,10 +103,10 @@ function setupAutocompleteList(input, items, onselection) {
         list.appendChild(div);
       }
     }
-  });
+  };
 
-  // execute a function presses a key on the keyboard:
-  input.addEventListener("keydown", function(e) {
+  input.onkeydown = function(e) {
+      console.log("keydown " + e.keyCode);
       var x = document.getElementById(this.id + "-autocomplete-list");
       if (x) x = x.getElementsByTagName("div");
       if (e.keyCode == 40) {
@@ -133,7 +127,11 @@ function setupAutocompleteList(input, items, onselection) {
           if (x) x[currentFocus].click();
         }
       }
-  });
+  };
+
+  input.onfocus = function() {
+    onselection(input.value);
+  }
 
   function setActive(x) {
     // a function to classify an item as "active":
@@ -169,37 +167,99 @@ function $(id) {
   return document.getElementById(id);
 }
 
-function updateImages(target, images) {
-  if (target && images) {
+function extractImageType(name) {
+  var m = /-(sysupgrade|factory|rootfs|kernel|tftp)[-.]/.exec(name);
+  return m ? m[1] : 'factory';
+}
+
+function updateImages(model, target, release, commit, images) {
+  if (model && target && release && commit && images) {
+    $('image-model').innerText = model;
+    $('image-target').innerText = target;
+    $('image-release').innerText = release;
+    $('image-commit').innerText = commit;
+
     for(var i in images) {
-      var image = images[i];
-      if (image.type == "sysupgrade") {
-        $("sysupgrade-image").href = "https://" + target + "/" + image.name;
-        $("sysupgrade-image").style.display = "inline";
+      var filename = images[i];
+      var path = "https://" + target + "/" + filename;
+      var type = extractImageType(filename);
+
+      if (type == "sysupgrade") {
+        $("sysupgrade-image").href = path;
+        $("sysupgrade-image").style.display = "inline-flex";
       }
-      if (image.type == "factory") {
-        $("factory-image").href = "https://" + target + "/" + image.name;
-        $("factory-image").style.display = "inline";
+
+      if (type == "factory") {
+        $("factory-image").href = path;
+        $("factory-image").style.display = "inline-flex";
+      }
+
+      if (type == "tftp") {
+        $("tftp-image").href = path;
+        $("tftp-image").style.display = "inline-flex";
+      }
+
+      if (type == "kernel") {
+        $("kernel-image").href = path;
+        $("kernel-image").style.display = "inline-flex";
+      }
+
+      if (type == "rootfs") {
+        $("rootfs-image").href = path;
+        $("rootfs-image").style.display = "inline-flex";
       }
     }
+    $("images").style.display = 'block';
   } else {
+    $("images").style.display = 'none';
     $("sysupgrade-image").style.display = "none";
     $("factory-image").style.display = "none";
+    $("tftp-image").style.display = "none";
+    $("kernel-image").style.display = "none";
+    $("rootfs-image").style.display = "none";
   }
 }
 
-//hide fields
+// hide fields
 updateImages();
-updateI18n();
+changeLanguage(config.language);
+
+function parseData(data) {
+  var obj = JSON.parse(data);
+  var out = {};
+  for (var release in obj) {
+    var entries = obj[release]['models'];
+    var commit  = obj[release]['commit']
+    var models = {};
+    for (var i = 0; i < entries.length; i += 1) {
+      var entry = entries[i];
+      var name = (entry[0] + " " + entry[1] + " " + entry[2]).trim();
+      var target = entry[3];
+      var images = entry[4];
+      models[name] = {'name': name, 'target': target, 'commit': commit, 'images': images};
+    }
+    out[release] = models;
+  }
+  return out;
+}
 
 loadFile(config.data, function(data) {
-    var obj = JSON.parse(data);
+    var obj = parseData(data);
     setupSelectList($("releases"), Object.keys(obj), function(release) {
+      console.log("release: " + release);
       setupAutocompleteList($("models"), Object.keys(obj[release]), function(model) {
         console.log("clicked " + model);
-        var target = obj[release][model].target;
-        var images = obj[release][model].images
-        updateImages(target, images);
+        if (model in obj[release]) {
+          var target = obj[release][model].target;
+          var commit = obj[release][model].commit;
+          var images = obj[release][model].images;
+          updateImages(model, target, release, commit, images);
+        } else {
+          updateImages();
+        }
       });
+
+      // trigger model update when selected release changes
+      $("models").onfocus();
     });
 })

@@ -1,8 +1,4 @@
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   margin: 0px;
@@ -31,6 +27,10 @@ input[type=submit] {
   color: #fff;
   cursor: pointer;
 }*/
+
+.autocomplete {
+  width: 20em;
+}
 
 .autocomplete-items {
   position: absolute;
@@ -63,23 +63,10 @@ input[type=submit] {
 }
 
 header {
-  font-size: 0.875rem;
   font-weight: 500;
-  line-height: 1.75;
-  letter-spacing: 0.02857em;
-  text-transform: uppercase;
-
-  text-align: center;
-  position: static;
   width: 100%;
   z-index: 1100;
-  box-sizing: border-box;
-  display: flex;
-  flex-shrink: 0;
-  flex-direction: column;
   box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
-
-  color: #fff;
   background-color: #3F51B5;
 }
 
@@ -91,64 +78,7 @@ h6 {
   letter-spacing: 0.0075em;
 }
 
-a {
-  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
-  padding: 6px 16px;
-  min-width: 64px;
-  box-sizing: border-box;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  line-height: 1.75;
-  border-radius: 4px;
-  border: 0;
-  cursor: pointer;
-  margin: 0;
-  display: inline-flex;
-  outline: 0;
-  position: relative;
-  align-items: center;
-  user-select: none;
-  vertical-align: middle;
-  justify-content: center;
-  text-decoration: none;
-}
-.MuiButton-label {
-  width: 100%;
-  display: inherit;
-  align-items: inherit;
-  justify-content: inherit;
-
-  cursor: pointer;
-}
-
-.MuiTouchRipple-root {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-  position: absolute;
-  border-radius: inherit;
-  pointer-events: none;
-}
-
-.MuiButton-containedSecondary {
-  color: #fff;
-  background-color: #009688;
-}
-
-.MuiSvgIcon-root {
-  fill: currentColor;
-  width: 1em;
-  height: 1em;
-  display: inline-block;
-  font-size: 1.5rem;
-  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  flex-shrink: 0;
-  user-select: none;
-}
-
-
-.MuiToolbar-gutters {
+header div {
   padding-left: 24px;
   padding-right: 24px;
   min-height: 64px;
@@ -158,7 +88,6 @@ a {
   align-items: center;
   color: #fff;
 }
-
 
 .MuiContainer-maxWidthLg {
   max-width: 1280px;
@@ -180,4 +109,56 @@ a {
   color: rgba(0, 0, 0, 0.87);
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   background-color: #fff;
+}
+
+#releases {
+  width: 10em;
+}
+
+#language-selection {
+  color: #fff;
+  background-color: #009688;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px
+  rgba(0,0,0,0.12);
+  padding: 6px 16px;
+  border-radius: 4px;
+  border: 0;
+
+  /* hide arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+.download-link {
+  padding: 1em 1.5em;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+  align-items: center;
+  color: #fff;
+  background-color: #3F51B5;
+}
+
+.download-link span {
+  width: 30px;
+  margin-right: 15px;
+  margin-top: -2px;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z' fill='%23fff'%3E%3C/path%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+}
+
+#images {
+  line-height: 1.5;
+}
+
+#images div div :first-child {
+  width: 5em;
+  display: inline-block;
 }

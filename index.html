@@ -1,5 +1,5 @@
-
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -8,36 +8,48 @@
 <body>
 
 <header>
-  <div class="MuiToolbar-gutters">
-    <h6 class="MuiTypography-h6" edge="start">OpenWrt Firmware Selector</h6>
+  <div>
+    <h6 class="MuiTypography-h6 tr-title" edge="start">OpenWrt Firmware Selector</h6>
     <div style="flex-grow: 1;"></div>
-    <a class="MuiButton-containedSecondary" tabindex="0" href="#">
-      <span class="MuiButton-label">
-        <span class="language-toggle-text">Change Language &nbsp;</span>
-        <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path>
-        </svg>
-      </span>
-      <span class="MuiTouchRipple-root"></span>
-    </a>
+
+	<select id="language-selection" onchange="changeLanguage(this.children[this.selectedIndex].value)");" size="1">
+		<option value="en">English</option>
+		<option value="de">Deutsch</option>
+	</select>
   </div>
 </header>
 
-
 <div class="MuiContainer-maxWidthLg">
-  <div class="MuiPaper-rounded">
-  <h2>Download OpenWrt firmware for your device!</h5>
-  <p>Please use the input below to download firmware for your device!</p>
-  <br>
-  <select id="releases" size="1" style="width:10em;">
-  </select>
+	<div class="MuiPaper-rounded">
+	<h2 class="tr-load">Download OpenWrt firmware for your device!</h5>
+	<p class="tr-message">Please use the input below to download firmware for your device!</p>
+	<br>
 
-  <!--Make sure the form has the autocomplete function switched off:-->
-  <div class="autocomplete" style="width:20em;">
-  <input id="models" type="text" name="myCountry" placeholder="Model">
-  </div>
+	<select id="releases" size="1"></select>
+	<div class="autocomplete">
+		<input id="models" type="text" placeholder="Model">
+	</div>
 
-  <a id="sysupgrade-image" href="#">Sysupgrade Image</a>
-  <a id="factory-image" href="#">Factory Image</a>
+	<br />
+	<br />
+
+	<div id="images">
+		<div>
+			<h3 class="tr-build">Build</h3>
+			<div><span class="tr-model">Model:</span> <span id="image-model"></span></div>
+			<div><span class="tr-target">Target:</span> <span id="image-target"></span></div>
+			<div><span class="tr-version">Version:</span> <span id="image-release"></span> (<span id="image-commit"></span>)</div>
+		</div>
+
+		<div>
+			<h3 class="tr-downloads">Downloads</h3>
+			<a id="sysupgrade-image" class="download-link" href="#"><span></span>SYSUPGRADE</a>
+			<a id="factory-image" class="download-link" href="#"><span></span>FACTORY</a>
+			<a id="kernel-image" class="download-link" href="#"><span></span>KERNEL</a>
+			<a id="rootfs-image" class="download-link" href="#"><span></span>ROOTFS</a>
+			<a id="tftp-image" class="download-link" href="#"><span></span>TFTP</a>
+		</div>
+	</div>
 </div>
 
 <script src="i18n.js"></script>
