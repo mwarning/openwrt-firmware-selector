@@ -3,14 +3,14 @@
   "image_prefix": "openwrt-ath79-generic-tplink_cpe220-v3",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-factory.bin",
-      "sha256": "0c34009c8c47220a10a4ff8d6430bca93c4f38aa782c382ce834db59e97de5fe",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-sysupgrade.bin",
+      "sha256": "7f14c2e74a9c76fc800eefc219a489fa0f474ff3ae4b214bbbf6fdc6b7e54281",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-sysupgrade.bin",
-      "sha256": "9f4dc18f822b2d173793d26d0e8693163412cbc3f64e6f25a89762c4fad2ccb5",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-factory.bin",
+      "sha256": "141ce7c3d41dee51b97376e1578ff74b31eae9c5f48d2c6ccd5c43ce25d4805e",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
@@ -25,6 +25,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

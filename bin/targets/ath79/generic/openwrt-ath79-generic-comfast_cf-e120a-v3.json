@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-comfast_cf-e120a-v3-squashfs-sysupgrade.bin",
-      "sha256": "54c6118803998d2a8ab039d8b00b5a02e73fc07281248eda797e3da8a8483674",
+      "sha256": "5325434aaa78814dbf807491c3586db34fe8e413fd8d1d99dfcd691611442454",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "COMFAST"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

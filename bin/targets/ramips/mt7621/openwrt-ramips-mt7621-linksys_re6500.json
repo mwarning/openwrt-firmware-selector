@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-linksys_re6500-squashfs-sysupgrade.bin",
-      "sha256": "31e06b08bafaf0f1d6792af296f8ff14d0f372ebb263a8e9b17228e96ba31cc1",
+      "sha256": "ce8f22165c4254d05cdfd5bc119b1de827c1a88980ff0c70cd0f8f6cdfc103df",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Linksys"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

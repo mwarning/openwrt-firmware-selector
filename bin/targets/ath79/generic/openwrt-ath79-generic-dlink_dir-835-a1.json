@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-dlink_dir-835-a1-squashfs-sysupgrade.bin",
-      "sha256": "ea0586396d05b34f89f51758c6f855baf49d6ef135e578bc1d5fab12e7fc4938",
+      "sha256": "753be0f14f3bbd33fe9b44a407877eefecf8ea4e157ad22c68ecd5d276b7876d",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-dlink_dir-835-a1-squashfs-factory.bin",
-      "sha256": "da087c66b8f1e0d0de5cac7c56d0afa3082851dfcf35c192cfa2a048c08be639",
+      "sha256": "46d84770c5deee2143d26b3b620b898d85b28da1f08ab41353fa503e9e6cc1fd",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "D-Link"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

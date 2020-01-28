@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-comfast_cf-e314n-v2-squashfs-sysupgrade.bin",
-      "sha256": "4e6960ea1bde132b744954e24fdc41f2c33d724bc1cd12c23d8ec390ff6b0ae3",
+      "sha256": "82192b1efa231bd59c0879557200527db02dfc35ca173244c086abda382f488d",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "COMFAST"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

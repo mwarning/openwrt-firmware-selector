@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_cpe220-v2-squashfs-factory.bin",
-      "sha256": "833fac0d31712bfefd9478200fd2608bdb39e5ba9906c2416669c542c99dcc96",
+      "sha256": "eb4e6eb5588f9923389b580aab9ff0fbd25c0c235e59265c82bcdd5ce9f97723",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-tplink_cpe220-v2-squashfs-sysupgrade.bin",
-      "sha256": "6b3ae6744b3af829eca02648f6a1ef85678ea0b1714b53e26f2d49797ea1e0b3",
+      "sha256": "2ad94224bbfe057468265c21251ee5c0ddfe066b2066869bc09045cfaed1eb01",
       "type": "sysupgrade"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

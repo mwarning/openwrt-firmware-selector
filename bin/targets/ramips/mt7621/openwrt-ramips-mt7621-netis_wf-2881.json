@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-netis_wf-2881-squashfs-sysupgrade.bin",
-      "sha256": "7706f58433ec5d15e8ffdc4b414a28c82cdde063ab959ddb8dedf1bf4dc4540d",
+      "sha256": "54735507d956f02a6ab46fb661c818f480e101fc0f034a71e8dd4dc0f1056013",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "NETIS"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

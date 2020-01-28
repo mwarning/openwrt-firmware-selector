@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-yukai_bocco-squashfs-sysupgrade.bin",
-      "sha256": "af642975031d3f1c987908d5fe949b7e47025e9da0d28996847bcc30bf8b2b83",
+      "sha256": "3e61effc78c00e5e6d5fdfb031dd61d7ba51efaa21b5c1d9463b664bb123db0a",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "YUKAI Engineering"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

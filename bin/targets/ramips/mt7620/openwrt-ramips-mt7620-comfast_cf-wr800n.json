@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-comfast_cf-wr800n-squashfs-sysupgrade.bin",
-      "sha256": "bde7bfa7e2ee4fc132446e37d12bee3299139078af230e5d28ea2ac6edc0d7a3",
+      "sha256": "fb558aec009d58190c02acc69b29542663c13e5941f33c725d426096363ac82a",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Comfast"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

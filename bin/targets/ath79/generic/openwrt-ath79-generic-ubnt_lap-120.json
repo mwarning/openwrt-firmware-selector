@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_lap-120-squashfs-sysupgrade.bin",
-      "sha256": "a4dbecc34e86a6ba5f364655bb9d79738a6de6cfb7686d3caaa88e83cd30ea9b",
+      "sha256": "168e83eeb6f552746722536639450c4a86eb65298983b62a6cb3b268973040ca",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-ubnt_lap-120-squashfs-factory.bin",
-      "sha256": "2ab061d177ea105ed8931571035a564a4fc8c17532edd9ff4f50b74292777302",
+      "sha256": "f6b414e029a0e9e8e184e330aaaae3b02bef807021af4237bd02c05d0ecbd335",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "Ubiquiti"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

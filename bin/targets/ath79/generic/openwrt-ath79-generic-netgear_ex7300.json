@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-netgear_ex7300-squashfs-sysupgrade.bin",
-      "sha256": "6368060d45a2b65ef3758a0271a7410f9cffb574c4ddf9d0fe34cdd45412c586",
+      "sha256": "033927a81735d69cf9656b0953924c160ad8cc34ee46688b2dcce296e49a6538",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-netgear_ex7300-squashfs-factory.img",
-      "sha256": "60d33e4de06c88d109fb135f75683c607010dc96710ba3d59106f3439b33b9f7",
+      "sha256": "ae9089556aa5fbfcb55f36622d631c9720ef3050c31eb2a96c923fa615cf96eb",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

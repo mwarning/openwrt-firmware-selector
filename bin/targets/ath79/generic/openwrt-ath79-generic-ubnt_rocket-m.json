@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_rocket-m-squashfs-sysupgrade.bin",
-      "sha256": "3916e8bc15992c6ad0e5a16d6c1757d1edb6094daf8b5b77020b7a53bd3f84ce",
+      "sha256": "3e736dc62f978c2c703b5859d47270a9d2ae898669a8229779ee410a8e41b60b",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-ubnt_rocket-m-squashfs-factory.bin",
-      "sha256": "30db4c78520c17d8b31d6f8d98364cac70e363fe3193b3bb78a7d9d98388d65a",
+      "sha256": "f18aa6e27ae1eefaae13af2f58aad3b18b0aebc3c9a43a7599203618a90ec68c",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "Ubiquiti"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

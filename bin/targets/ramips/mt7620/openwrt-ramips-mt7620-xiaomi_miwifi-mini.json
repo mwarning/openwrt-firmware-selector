@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-xiaomi_miwifi-mini-squashfs-sysupgrade.bin",
-      "sha256": "6c5e78b3c81369ac4883e2b1b970fe08558f647dc81b9a29b72440f1be1cbe7a",
+      "sha256": "8bcb96793122730df098d67dfbbda609595400327ad0220d053e9136f9fc421f",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Xiaomi"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

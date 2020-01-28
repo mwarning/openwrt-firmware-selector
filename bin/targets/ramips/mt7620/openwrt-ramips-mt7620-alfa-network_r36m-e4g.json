@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-alfa-network_r36m-e4g-squashfs-sysupgrade.bin",
-      "sha256": "3687249725321cc225d1adeb73cff6c4638ede5c176b278dd84ee541d132a647",
+      "sha256": "d67c54f6938697a217900d27e7bb51b60e15e272d0e7827594b7aaf67c64e82a",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "ALFA Network"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

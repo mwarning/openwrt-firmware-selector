@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-netgear_wn3000rp-v3-squashfs-sysupgrade.bin",
-      "sha256": "f34fb34850749273c7bcf602bfda972f9bcd0cba99bacd24e887821123804978",
+      "sha256": "53b77fe65538a62adbe99dc4195823a0b88961f937c7e621aa70dad362770209",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-netgear_wn3000rp-v3-squashfs-factory.bin",
-      "sha256": "eca7bef87acdacf3aaeea23b64b0b48f7fbde4fa7119ab17cfb08ac812592544",
+      "sha256": "40e2a08f71d944cd83f53943d487081086544c4854d6b1c5c358bf8d14ab27dc",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

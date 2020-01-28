@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-gnubee_gb-pc1-squashfs-sysupgrade.bin",
-      "sha256": "865a106d51c7f04e5f8e5f53642ab496b82057ee71056bc73d4f075ab2b06ed1",
+      "sha256": "e46d418ff547a50162e43c29d62dd8c8600dba13d836bcb6cffa0764e86fda05",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "GnuBee"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

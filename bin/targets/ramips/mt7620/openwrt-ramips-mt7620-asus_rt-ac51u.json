@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-asus_rt-ac51u-squashfs-sysupgrade.bin",
-      "sha256": "8818327fe3e6ba24d396ede2dd702b188bb19e3ce35ee946fb764e06d60ce3a8",
+      "sha256": "f9e0645ef6327807ae1449bc554378996ce3f65d5f57ab24dea57ff756d658bf",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Asus"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

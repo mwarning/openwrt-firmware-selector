@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-youku_yk-l2-squashfs-sysupgrade.bin",
-      "sha256": "dd627395c711f01799195245ef26d4afb4dcc09bc2c59261194b89039568eb29",
+      "sha256": "14ddd9bc30f6a944102682a09644a11092f81822523f129377927ee07c993f87",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Youku"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

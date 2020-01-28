@@ -4,19 +4,19 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr2543-v1-squashfs-sysupgrade.bin",
-      "sha256": "9372424c06d28d5aae8bca5a23146a41115a4b949fecc726df181cb5d9f84f8c",
+      "sha256": "43fe22cf16985a937b5d8992c02d93484192b0de0e6dc845a55d7560f22e5c96",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr2543-v1-squashfs-factory.bin",
-      "sha256": "272d987d3fe01a44006f4ee7343989914016a20d74b39912d51e396dc0615e5c",
+      "sha256": "21749210037c1dfa0d08150c6b08ec8af43b7d8d9f37223da9cbe7c72a6846b9",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
   "supported_devices": [
     "tplink,tl-wr2543-v1",
-    "tl-wr2543-v1"
+    "tl-wr2543n"
   ],
   "target": "ath79/generic",
   "titles": [
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

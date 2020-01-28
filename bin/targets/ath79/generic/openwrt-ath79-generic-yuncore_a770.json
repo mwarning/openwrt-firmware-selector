@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-yuncore_a770-squashfs-sysupgrade.bin",
-      "sha256": "3a9ac35179391a938c928f30bc5df0817bef27522ecb7e46655e7dee0e9ea16e",
+      "sha256": "eae7b0a72fc4b0021cb58c1896f9c660304b52cbd09eacafee12bbe4d1ad801b",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-yuncore_a770-squashfs-tftp.bin",
-      "sha256": "5b49242c4c0032d8d04eddfc5af0d7652e4a11f4b54702ca3e06c7576f6f820a",
+      "sha256": "b2abf553b0749363d861e3caad64ef4284ff1514e243598d8c96cfa0880900d5",
       "type": "tftp"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "YunCore"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

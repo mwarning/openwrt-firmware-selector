@@ -1,19 +1,6 @@
 {
-  "SNAPSHOT2": {
-    "models": [
-      [
-        "NETGEAR",
-        "WNR2200",
-        "16M",
-        "ath79/generic",
-        [
-          "openwrt-ath79-generic-netgear_wnr2200-32m-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-netgear_wnr2200-32m-squashfs-factory.img"
-        ]
-      ]
-    ]
-  },
   "SNAPSHOT": {
+    "commit": "r12138-1e3bfbafd3",
     "models": [
       [
         "NETGEAR",
@@ -70,8 +57,8 @@
         "v3",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-factory.bin",
-          "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-sysupgrade.bin"
+          "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-sysupgrade.bin",
+          "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-factory.bin"
         ]
       ],
       [
@@ -197,8 +184,8 @@
         "",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-ubnt_unifi-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-ubnt_unifi-squashfs-factory.bin"
+          "openwrt-ath79-generic-ubnt_unifi-squashfs-factory.bin",
+          "openwrt-ath79-generic-ubnt_unifi-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -207,8 +194,8 @@
         "",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-ubnt_edgeswitch-5xp-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-ubnt_edgeswitch-5xp-squashfs-factory.bin"
+          "openwrt-ath79-generic-ubnt_edgeswitch-5xp-squashfs-factory.bin",
+          "openwrt-ath79-generic-ubnt_edgeswitch-5xp-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -274,8 +261,8 @@
         "XW",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-factory.bin"
+          "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-factory.bin",
+          "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -284,8 +271,7 @@
         "XW",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-ubnt_bullet-m-xw-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-ubnt_bullet-m-xw-squashfs-factory.bin"
+          "openwrt-ath79-generic-ubnt_bullet-m-xw-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -515,7 +501,6 @@
         "",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-iodata_wn-ac1600dgr2-squashfs-sysupgrade.bin",
           "openwrt-ath79-generic-iodata_wn-ac1600dgr2-squashfs-dgr2-dgr3-factory.bin"
         ]
       ],
@@ -534,8 +519,7 @@
         "XM",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-ubnt_bullet-m-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-ubnt_bullet-m-squashfs-factory.bin"
+          "openwrt-ath79-generic-ubnt_bullet-m-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -544,9 +528,9 @@
         "v1",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-netgear_wndr3700-squashfs-factory.img",
           "openwrt-ath79-generic-netgear_wndr3700-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-netgear_wndr3700-squashfs-factory-NA.img"
+          "openwrt-ath79-generic-netgear_wndr3700-squashfs-factory-NA.img",
+          "openwrt-ath79-generic-netgear_wndr3700-squashfs-factory.img"
         ]
       ],
       [
@@ -566,9 +550,8 @@
         "ath79/generic",
         [
           "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory.bin",
           "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-us.bin",
-          "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-eu.bin"
+          "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory.bin"
         ]
       ],
       [
@@ -607,8 +590,8 @@
         "ath79/generic",
         [
           "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-factory.img",
-          "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-factory-NA.img"
+          "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-factory-NA.img",
+          "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-factory.img"
         ]
       ],
       [
@@ -647,8 +630,18 @@
         "v2",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-tplink_wbs510-v2-squashfs-factory.bin",
-          "openwrt-ath79-generic-tplink_wbs510-v2-squashfs-sysupgrade.bin"
+          "openwrt-ath79-generic-tplink_wbs510-v2-squashfs-sysupgrade.bin",
+          "openwrt-ath79-generic-tplink_wbs510-v2-squashfs-factory.bin"
+        ]
+      ],
+      [
+        "TP-Link",
+        "TL-MR6400",
+        "v1",
+        "ath79/generic",
+        [
+          "openwrt-ath79-generic-tplink_tl-mr6400-v1-squashfs-sysupgrade.bin",
+          "openwrt-ath79-generic-tplink_tl-mr6400-v1-squashfs-factory.bin"
         ]
       ],
       [
@@ -695,8 +688,8 @@
         "v3",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-tplink_cpe210-v3-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-tplink_cpe210-v3-squashfs-factory.bin"
+          "openwrt-ath79-generic-tplink_cpe210-v3-squashfs-factory.bin",
+          "openwrt-ath79-generic-tplink_cpe210-v3-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -792,8 +785,8 @@
         "",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-adtran_bsap1840-squashfs-sysupgrade.bin",
           "openwrt-ath79-generic-adtran_bsap1840-squashfs-kernel.bin",
+          "openwrt-ath79-generic-adtran_bsap1840-squashfs-sysupgrade.bin",
           "openwrt-ath79-generic-adtran_bsap1840-squashfs-rootfs.bin"
         ]
       ],
@@ -853,8 +846,8 @@
         "",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-iodata_wn-ag300dgr-squashfs-factory.bin",
-          "openwrt-ath79-generic-iodata_wn-ag300dgr-squashfs-sysupgrade.bin"
+          "openwrt-ath79-generic-iodata_wn-ag300dgr-squashfs-sysupgrade.bin",
+          "openwrt-ath79-generic-iodata_wn-ag300dgr-squashfs-factory.bin"
         ]
       ],
       [
@@ -920,8 +913,8 @@
         "v1",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-tplink_cpe210-v1-squashfs-factory.bin",
-          "openwrt-ath79-generic-tplink_cpe210-v1-squashfs-sysupgrade.bin"
+          "openwrt-ath79-generic-tplink_cpe210-v1-squashfs-sysupgrade.bin",
+          "openwrt-ath79-generic-tplink_cpe210-v1-squashfs-factory.bin"
         ]
       ],
       [
@@ -961,8 +954,8 @@
         "ath79/generic",
         [
           "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-tftp.bin",
-          "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-factory.bin"
+          "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-factory.bin",
+          "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-tftp.bin"
         ]
       ],
       [
@@ -1020,8 +1013,17 @@
         "v2",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-tplink_cpe210-v2-squashfs-factory.bin",
-          "openwrt-ath79-generic-tplink_cpe210-v2-squashfs-sysupgrade.bin"
+          "openwrt-ath79-generic-tplink_cpe210-v2-squashfs-sysupgrade.bin",
+          "openwrt-ath79-generic-tplink_cpe210-v2-squashfs-factory.bin"
+        ]
+      ],
+      [
+        "MikroTik",
+        "RouterBOARD wAP G-5HacT2HnD (wAP AC)",
+        "",
+        "ath79/generic",
+        [
+          "openwrt-ath79-generic-mikrotik_routerboard-wap-g-5hact2hnd-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -1076,8 +1078,8 @@
         "v4",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-tplink_tl-wr1043nd-v4-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-tplink_tl-wr1043nd-v4-squashfs-factory.bin"
+          "openwrt-ath79-generic-tplink_tl-wr1043nd-v4-squashfs-factory.bin",
+          "openwrt-ath79-generic-tplink_tl-wr1043nd-v4-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -1125,8 +1127,8 @@
         "v1.0R",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-trendnet_tew-823dru-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-trendnet_tew-823dru-squashfs-factory.bin"
+          "openwrt-ath79-generic-trendnet_tew-823dru-squashfs-factory.bin",
+          "openwrt-ath79-generic-trendnet_tew-823dru-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -1154,8 +1156,8 @@
         "v1",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-tplink_re450-v1-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-tplink_re450-v1-squashfs-factory.bin"
+          "openwrt-ath79-generic-tplink_re450-v1-squashfs-factory.bin",
+          "openwrt-ath79-generic-tplink_re450-v1-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -1173,8 +1175,8 @@
         "v1",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-tplink_cpe610-v1-squashfs-factory.bin",
-          "openwrt-ath79-generic-tplink_cpe610-v1-squashfs-sysupgrade.bin"
+          "openwrt-ath79-generic-tplink_cpe610-v1-squashfs-sysupgrade.bin",
+          "openwrt-ath79-generic-tplink_cpe610-v1-squashfs-factory.bin"
         ]
       ],
       [
@@ -1192,8 +1194,8 @@
         "",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-ubnt_nanostation-ac-loco-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-ubnt_nanostation-ac-loco-squashfs-factory.bin"
+          "openwrt-ath79-generic-ubnt_nanostation-ac-loco-squashfs-factory.bin",
+          "openwrt-ath79-generic-ubnt_nanostation-ac-loco-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -1327,8 +1329,8 @@
         "",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-iodata_wn-ac1167dgr-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-iodata_wn-ac1167dgr-squashfs-factory.bin"
+          "openwrt-ath79-generic-iodata_wn-ac1167dgr-squashfs-factory.bin",
+          "openwrt-ath79-generic-iodata_wn-ac1167dgr-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -1364,8 +1366,8 @@
         "v1",
         "ath79/generic",
         [
-          "openwrt-ath79-generic-tplink_wbs510-v1-squashfs-sysupgrade.bin",
-          "openwrt-ath79-generic-tplink_wbs510-v1-squashfs-factory.bin"
+          "openwrt-ath79-generic-tplink_wbs510-v1-squashfs-factory.bin",
+          "openwrt-ath79-generic-tplink_wbs510-v1-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -1586,9 +1588,10 @@
         "",
         "ramips/mt7621",
         [
+          "openwrt-ramips-mt7621-netgear_r6350-squashfs-kernel.bin",
           "openwrt-ramips-mt7621-netgear_r6350-squashfs-sysupgrade.bin",
           "openwrt-ramips-mt7621-netgear_r6350-squashfs-factory.img",
-          "openwrt-ramips-mt7621-netgear_r6350-squashfs-kernel.bin"
+          "openwrt-ramips-mt7621-netgear_r6350-squashfs-rootfs.bin"
         ]
       ],
       [
@@ -1597,8 +1600,8 @@
         "v1",
         "ramips/mt7621",
         [
-          "openwrt-ramips-mt7621-tplink_re350-v1-squashfs-factory.bin",
-          "openwrt-ramips-mt7621-tplink_re350-v1-squashfs-sysupgrade.bin"
+          "openwrt-ramips-mt7621-tplink_re350-v1-squashfs-sysupgrade.bin",
+          "openwrt-ramips-mt7621-tplink_re350-v1-squashfs-factory.bin"
         ]
       ],
       [
@@ -1720,9 +1723,9 @@
         "",
         "ramips/mt7621",
         [
-          "openwrt-ramips-mt7621-netgear_r6220-squashfs-kernel.bin",
-          "openwrt-ramips-mt7621-netgear_r6220-squashfs-factory.img",
-          "openwrt-ramips-mt7621-netgear_r6220-squashfs-rootfs.bin"
+          "openwrt-ramips-mt7621-netgear_r6220-squashfs-sysupgrade.bin",
+          "openwrt-ramips-mt7621-netgear_r6220-squashfs-rootfs.bin",
+          "openwrt-ramips-mt7621-netgear_r6220-squashfs-kernel.bin"
         ]
       ],
       [
@@ -1758,8 +1761,8 @@
         "",
         "ramips/mt7621",
         [
-          "openwrt-ramips-mt7621-jcg_jhr-ac876m-squashfs-factory.bin",
-          "openwrt-ramips-mt7621-jcg_jhr-ac876m-squashfs-sysupgrade.bin"
+          "openwrt-ramips-mt7621-jcg_jhr-ac876m-squashfs-sysupgrade.bin",
+          "openwrt-ramips-mt7621-jcg_jhr-ac876m-squashfs-factory.bin"
         ]
       ],
       [
@@ -1823,6 +1826,7 @@
         "ramips/mt7621",
         [
           "openwrt-ramips-mt7621-netgear_r6260-squashfs-sysupgrade.bin",
+          "openwrt-ramips-mt7621-netgear_r6260-squashfs-factory.img",
           "openwrt-ramips-mt7621-netgear_r6260-squashfs-kernel.bin",
           "openwrt-ramips-mt7621-netgear_r6260-squashfs-rootfs.bin"
         ]
@@ -2035,8 +2039,9 @@
         "ramips/mt7621",
         [
           "openwrt-ramips-mt7621-netgear_r6850-squashfs-sysupgrade.bin",
+          "openwrt-ramips-mt7621-netgear_r6850-squashfs-kernel.bin",
           "openwrt-ramips-mt7621-netgear_r6850-squashfs-factory.img",
-          "openwrt-ramips-mt7621-netgear_r6850-squashfs-kernel.bin"
+          "openwrt-ramips-mt7621-netgear_r6850-squashfs-rootfs.bin"
         ]
       ],
       [
@@ -2055,8 +2060,8 @@
         "ramips/mt7621",
         [
           "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-kernel1.bin",
-          "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-rootfs0.bin",
-          "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-sysupgrade.bin"
+          "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-sysupgrade.bin",
+          "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-rootfs0.bin"
         ]
       ],
       [
@@ -2065,8 +2070,8 @@
         "",
         "ramips/mt7621",
         [
-          "openwrt-ramips-mt7621-edimax_ra21s-squashfs-factory.bin",
-          "openwrt-ramips-mt7621-edimax_ra21s-squashfs-sysupgrade.bin"
+          "openwrt-ramips-mt7621-edimax_ra21s-squashfs-sysupgrade.bin",
+          "openwrt-ramips-mt7621-edimax_ra21s-squashfs-factory.bin"
         ]
       ],
       [
@@ -2075,8 +2080,8 @@
         "",
         "ramips/mt7621",
         [
-          "openwrt-ramips-mt7621-edimax_ra21s-squashfs-factory.bin",
-          "openwrt-ramips-mt7621-edimax_ra21s-squashfs-sysupgrade.bin"
+          "openwrt-ramips-mt7621-edimax_ra21s-squashfs-sysupgrade.bin",
+          "openwrt-ramips-mt7621-edimax_ra21s-squashfs-factory.bin"
         ]
       ],
       [
@@ -2528,8 +2533,8 @@
         "A1/A2",
         "ramips/mt7620",
         [
-          "openwrt-ramips-mt7620-dlink_dwr-116-a1-squashfs-factory.bin",
-          "openwrt-ramips-mt7620-dlink_dwr-116-a1-squashfs-sysupgrade.bin"
+          "openwrt-ramips-mt7620-dlink_dwr-116-a1-squashfs-sysupgrade.bin",
+          "openwrt-ramips-mt7620-dlink_dwr-116-a1-squashfs-factory.bin"
         ]
       ],
       [
@@ -2621,8 +2626,8 @@
         "",
         "ramips/mt7620",
         [
-          "openwrt-ramips-mt7620-lava_lr-25g001-squashfs-factory.bin",
-          "openwrt-ramips-mt7620-lava_lr-25g001-squashfs-sysupgrade.bin"
+          "openwrt-ramips-mt7620-lava_lr-25g001-squashfs-sysupgrade.bin",
+          "openwrt-ramips-mt7620-lava_lr-25g001-squashfs-factory.bin"
         ]
       ],
       [
@@ -2823,8 +2828,8 @@
         "",
         "ramips/mt7620",
         [
-          "openwrt-ramips-mt7620-netgear_ex2700-squashfs-sysupgrade.bin",
-          "openwrt-ramips-mt7620-netgear_ex2700-squashfs-factory.bin"
+          "openwrt-ramips-mt7620-netgear_ex2700-squashfs-factory.bin",
+          "openwrt-ramips-mt7620-netgear_ex2700-squashfs-sysupgrade.bin"
         ]
       ],
       [
@@ -3123,8 +3128,8 @@
         "",
         "ramips/mt7620",
         [
-          "openwrt-ramips-mt7620-netgear_ex3700-squashfs-factory.chk",
-          "openwrt-ramips-mt7620-netgear_ex3700-squashfs-sysupgrade.bin"
+          "openwrt-ramips-mt7620-netgear_ex3700-squashfs-sysupgrade.bin",
+          "openwrt-ramips-mt7620-netgear_ex3700-squashfs-factory.chk"
         ]
       ],
       [

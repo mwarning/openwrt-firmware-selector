@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-edimax_rg21s-squashfs-sysupgrade.bin",
-      "sha256": "803b4aebb68fb43c09860e64357c3b10e68dad8e914b04a441dfa85dc2f01bc5",
+      "sha256": "c346d1b7a9310c940b0e75f921800dff42fc3ab0d901e82772a39483fbefc5df",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-edimax_rg21s-squashfs-factory.bin",
-      "sha256": "279ccb61c94fd9fedc55c19b92848889a8ac178104137fd782b31ba7518eab60",
+      "sha256": "483123b8323e776ebdbfb0dd7acece1e3e19f7393fe26cc08cd4fa2c0ec8fe80",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "Edimax"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

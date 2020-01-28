@@ -4,18 +4,18 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-kernel1.bin",
-      "sha256": "340ba9728d36dc9ca871cd4d0c69dc2d317bfe12a7a08e4168a71d9f3c4725d7",
+      "sha256": "29fe5a597575be373dbea6cf3ae08665dd4d6f44841dc7b36ef3570a52fb7c3a",
       "type": "kernel1"
     },
     {
-      "name": "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-rootfs0.bin",
-      "sha256": "5221c1e87dfe11359a4e950e92c126f92e20b96425661f456c5d77452a641dcc",
-      "type": "rootfs0"
+      "name": "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-sysupgrade.bin",
+      "sha256": "50a0cae980e31dfea1208f30b2c009cd4a6dc53660fb4111aa23db127ab1a3f0",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-sysupgrade.bin",
-      "sha256": "e307e2c20393e6ea181795f1d97a1845ad37c6ca3ec365bddfa31b2fb9045b44",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-rootfs0.bin",
+      "sha256": "414f05c92ddb2b1637143b3e0423e327a317895cf7934295efe725ea6dd56c8b",
+      "type": "rootfs0"
     }
   ],
   "metadata_version": 1,
@@ -31,6 +31,6 @@
       "vendor": "Xiaomi"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

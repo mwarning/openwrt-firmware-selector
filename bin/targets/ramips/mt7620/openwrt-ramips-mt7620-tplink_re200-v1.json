@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-tplink_re200-v1-squashfs-sysupgrade.bin",
-      "sha256": "d7fb5ffd75b2fe48a278fc2d0533b23a0c1de844a3bcf702e08f588b3de0bea5",
+      "sha256": "e76618e7352abcf3a1eb8200d95268e4e5a51d82686e8f3dbb68cfa702b7f32d",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-tplink_re200-v1-squashfs-factory.bin",
-      "sha256": "067a25bf64f5028c1e859518009c0937a0fe56c0332dbcf5e1bdee6799e35b5d",
+      "sha256": "80cc7c9b3badc26d2dd2382b9fe59f404660256baf1d2a4f4fceee99f86d46bf",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

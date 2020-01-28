@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-xzwifi_creativebox-v1-squashfs-sysupgrade.bin",
-      "sha256": "1c677a08ac234d524e7509798d0925e8205bad4a35e047f4fd8e8748b462d28a",
+      "sha256": "74ff020d6749f26f976037ea28c53993f19ab29cbe48573d234a0a62493cde92",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "CreativeBox"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

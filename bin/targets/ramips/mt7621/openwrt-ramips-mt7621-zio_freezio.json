@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-zio_freezio-squashfs-sysupgrade.bin",
-      "sha256": "6d99fe58c2ca51b042e29b32da606e552f27df60ae444d73a7572d455bbb95eb",
+      "sha256": "8f0b348c0da3840706e98e534b3c0836a735e0fcf02397d53996fc63c9c84857",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "ZIO"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

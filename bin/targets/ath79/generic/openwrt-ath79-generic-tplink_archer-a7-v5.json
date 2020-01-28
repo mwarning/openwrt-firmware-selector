@@ -4,19 +4,18 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_archer-a7-v5-squashfs-sysupgrade.bin",
-      "sha256": "76932f1e4ec6be96d432e189b661d4da85bd055c81499d764be95e47378d4b02",
+      "sha256": "d7f566c7d49257058d11373788c6f5b2da6cee303f38d291d12ae9ddc1f5f538",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_archer-a7-v5-squashfs-factory.bin",
-      "sha256": "dc665e446052acb9c6ace02e4d0b15f7ce5d12519e03c3ef8be9431fb8059bcf",
+      "sha256": "c9a4ff89a5a778f3a76561a91f7e329e65d13f0d01cb18c92e596da80cd292fe",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
   "supported_devices": [
-    "tplink,archer-a7-v5",
-    "archer-a7-v5"
+    "tplink,archer-a7-v5"
   ],
   "target": "ath79/generic",
   "titles": [
@@ -26,6 +25,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

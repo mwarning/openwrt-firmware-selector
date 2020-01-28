@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-thunder_timecloud-squashfs-sysupgrade.bin",
-      "sha256": "a12341e9cfda09b4c8be382ba4f3928defd76604b56b01bcdce87b536634af9c",
+      "sha256": "fd71db9170dc67d17bd27e6b265a466305d448ddddd3e77caaae094023df29f8",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Thunder"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

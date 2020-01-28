@@ -4,17 +4,22 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-netgear_r6260-squashfs-sysupgrade.bin",
-      "sha256": "8a8a41b6f0434b9a8548c807d2a190a1605da4ca0188679f5da226f0d2cabeee",
+      "sha256": "957827555e567fa766e56c165c48d8d51046427672ff511404f28aafe54be501",
       "type": "sysupgrade"
     },
     {
+      "name": "openwrt-ramips-mt7621-netgear_r6260-squashfs-factory.img",
+      "sha256": "c232ea9c61a6c61fda457436206e0cbb08867c5185d52debccedb0fb695dc95e",
+      "type": "factory"
+    },
+    {
       "name": "openwrt-ramips-mt7621-netgear_r6260-squashfs-kernel.bin",
-      "sha256": "60a713d538fa69bfe1dcc69636a2158614bdf90936e5e3fac633916a15aea178",
+      "sha256": "84d3106ce16757ce57deb126277e02eff9a36edbf1abdb2a5eb4c1d82dba49dc",
       "type": "kernel"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_r6260-squashfs-rootfs.bin",
-      "sha256": "5221c1e87dfe11359a4e950e92c126f92e20b96425661f456c5d77452a641dcc",
+      "sha256": "414f05c92ddb2b1637143b3e0423e327a317895cf7934295efe725ea6dd56c8b",
       "type": "rootfs"
     }
   ],
@@ -29,6 +34,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-glinet_gl-ar300m-lite-squashfs-sysupgrade.bin",
-      "sha256": "42d9727bf4ec06147dad5cd46dbef1fe0ad11ee1634b5a4347237371f1a945df",
+      "sha256": "eab8de8719da0c11bb7593e6aa89753f52501dea51b64e5a61d1c46274ba676d",
       "type": "sysupgrade"
     }
   ],
@@ -21,6 +21,6 @@
       "vendor": "GL.iNet"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

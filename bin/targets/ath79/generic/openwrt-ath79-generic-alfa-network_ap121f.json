@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-alfa-network_ap121f-squashfs-sysupgrade.bin",
-      "sha256": "00d7ff18973dcc770d4e2979efe9d8094eb69ca600d5d0109b701adc0cf36135",
+      "sha256": "809ed6436b48f5086029c7ae648be120e6e680d87b190e6e8b2515fb3b0ea236",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "ALFA Network"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

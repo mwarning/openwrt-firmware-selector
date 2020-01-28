@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-etactica_eg200-squashfs-sysupgrade.bin",
-      "sha256": "51e96bda98c46e016bd6d22fb042724242a1ca0b92b4e840df307e63b32c1250",
+      "sha256": "2eaa18cc1b063c515b3985ee40ce4b213975d9c46dc47ffdd9e1f2b351bf6beb",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "eTactica"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

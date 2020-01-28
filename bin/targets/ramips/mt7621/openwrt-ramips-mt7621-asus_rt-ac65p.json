@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-asus_rt-ac65p-squashfs-sysupgrade.bin",
-      "sha256": "fe3f0dd19e810120c39e788922acf9fd264d12fe50fe237a31799529e7d951d2",
+      "sha256": "3593ee0f5c75402a0615df980adbe9329b925f2b590b0ae2c6c0b134bc43778e",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-asus_rt-ac65p-squashfs-factory.bin",
-      "sha256": "09c10533150526d1a37c688519c31c4623389503d99222aad9432b47cf95d72e",
+      "sha256": "19edbb74808f64fb690785effadf8388b6de0fa07e0a095e65504b10297d38c8",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "ASUS"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

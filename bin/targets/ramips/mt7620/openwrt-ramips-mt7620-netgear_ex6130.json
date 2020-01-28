@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-netgear_ex6130-squashfs-sysupgrade.bin",
-      "sha256": "c55c300bec34bad89c02e5ddbbc79c4c8c41fed66aebbc626513d07891bcceea",
+      "sha256": "4e9f994a2eeb7ed46d690578a03e80de8fb51166130b9688647a8d8cc2d2bfab",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-netgear_ex6130-squashfs-factory.chk",
-      "sha256": "595f04fc7ea11f70dbf6c68ec971703f31d23eb0bc38a7d86185911e536f1af2",
+      "sha256": "262c58913c912131c4c2e7b3e4037aa36f7553bbf03fdf28ae4db23211a8dbcf",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-netgear_wndr3700v2-squashfs-sysupgrade.bin",
-      "sha256": "c24a841971baa8024950bba5bf2e2567a04f50da05c118e6a9b1c2c0963a2533",
+      "sha256": "50be6d33147a1a65ebe8740a3e7d2bfae4f462812427e69e1261f57f95aaa910",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-netgear_wndr3700v2-squashfs-factory.img",
-      "sha256": "d869b99063b339617fbb28e4651755b10a8215904b01ef338afed21f27e728ed",
+      "sha256": "f04a1f09d564081ab5757fe3b83a775c9fce9332e8f8dc847b9c33c015cb2cdb",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-alfa-network_quad-e4g-squashfs-sysupgrade.bin",
-      "sha256": "20f3b87f4d1c6f6706c73973dbf90d73456cf57f04c1268b251d0b8ef0d031cd",
+      "sha256": "ecaa0219276d319185a573b3e99d59c4c917deca6b4d1387395a200b7f39feb8",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "ALFA Network"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -4,19 +4,18 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-dlink_dir-859-a1-squashfs-sysupgrade.bin",
-      "sha256": "268a4be44c8c07b8be3cb5c65cae8267042f2116a35d78a997a7d39ef89b517b",
+      "sha256": "47fdb20b34c5815e0d4ea00452128422743bf0da084d2e14ca16ebf1fcdf08ea",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-dlink_dir-859-a1-squashfs-factory.bin",
-      "sha256": "b0d451b2fb8cafb454ef786cb3fa60fe316b985f498ff556ce6b7c5954473004",
+      "sha256": "d83cedfb4be9179f30c37d28a5775f82d52f297c78eb9c8f0c80a1202dc3ccde",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
   "supported_devices": [
-    "dlink,dir-859-a1",
-    "dir-859-a1"
+    "dlink,dir-859-a1"
   ],
   "target": "ath79/generic",
   "titles": [
@@ -26,6 +25,6 @@
       "vendor": "D-Link"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

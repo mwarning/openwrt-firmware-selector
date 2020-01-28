@@ -4,23 +4,18 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-sysupgrade.bin",
-      "sha256": "befc5f3c6efed30da2265f0a7aa1926a7df0a8a328949f210c97428000f9d229",
+      "sha256": "da2a3272294980dd455309f3cedb16a80bb7b38faec19a0786bf2043a4677899",
       "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory.bin",
-      "sha256": "0cc05c6abb2416520029707ad27e7b4c333bd801a5ef6623d91f75ff907c0037",
-      "type": "factory"
-    },
-    {
       "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-us.bin",
-      "sha256": "6af60a4e59612ef80fcc1fd57ba0f9057a7cce20bc5a4c7b0e099ce69facf8da",
+      "sha256": "710dc71f11b4f4d89a4e40814554e3fc093bf2b2f3bf0bed15967901b008644f",
       "type": "factory-us"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-eu.bin",
-      "sha256": "9745f4f69c9354122ef7f672fb7af1ba5ac8630e892514f69d2fc7a361129637",
-      "type": "factory-eu"
+      "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory.bin",
+      "sha256": "89775951d62178e38696971d50cdd708a282f582029f970e42d44fb3ece63fa6",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
@@ -36,6 +31,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

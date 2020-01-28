@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-xiaoyu_xy-c5-squashfs-sysupgrade.bin",
-      "sha256": "9a1b205aaa465d32deb878cd25415fabe9243294b90bf002a6823f55082ca326",
+      "sha256": "e05f2a0394b7ff5e63ae95ba45216d2599abc4fd1ec00d17017225be8334be58",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "XiaoYu"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

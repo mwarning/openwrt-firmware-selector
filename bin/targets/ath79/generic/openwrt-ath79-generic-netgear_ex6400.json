@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-netgear_ex6400-squashfs-sysupgrade.bin",
-      "sha256": "194113785f8716f53b023ba5e2981262fc841511ffe7085fe19c93c7d00e225c",
+      "sha256": "8d67a978eb65d716632b3fcc8685d5932f18ce609cec8bd81df7baed6e54f4af",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-netgear_ex6400-squashfs-factory.img",
-      "sha256": "68ae9893dd867a969eb70d3ba655687e3149e8967148b803bd036f35a44265a5",
+      "sha256": "ab5155be7e8c721c6319cbcc7584259968fea4997c732bd351569915f24d6155",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

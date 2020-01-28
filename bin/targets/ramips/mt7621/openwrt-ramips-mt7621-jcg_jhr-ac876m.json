@@ -3,14 +3,14 @@
   "image_prefix": "openwrt-ramips-mt7621-jcg_jhr-ac876m",
   "images": [
     {
-      "name": "openwrt-ramips-mt7621-jcg_jhr-ac876m-squashfs-factory.bin",
-      "sha256": "cd85ea085c0baf7b669fac8b89a4dee5c78294ea8af95bf2f1f74bd0ba9d309a",
-      "type": "factory"
+      "name": "openwrt-ramips-mt7621-jcg_jhr-ac876m-squashfs-sysupgrade.bin",
+      "sha256": "8a6f21f24cc07f522b0281e4e713b3c0e811103a2c9a2ab62b1fe668eb1365c7",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ramips-mt7621-jcg_jhr-ac876m-squashfs-sysupgrade.bin",
-      "sha256": "4eb13ef0a3773faca90a152c729c33bbf4c04a5192840281877b18373ee701ba",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-mt7621-jcg_jhr-ac876m-squashfs-factory.bin",
+      "sha256": "c58c8173410c9f5e86f6556ff7b4557776f7a7a0e21c12c4f993ce95d58cd259",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
@@ -24,6 +24,6 @@
       "vendor": "JCG"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

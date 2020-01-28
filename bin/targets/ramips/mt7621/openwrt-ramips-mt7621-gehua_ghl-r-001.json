@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-gehua_ghl-r-001-squashfs-sysupgrade.bin",
-      "sha256": "2b37c811049d2a349ce26fcc2d36c5c95358615aa06c3f815b4865c92020d291",
+      "sha256": "4611efb87ac70cb38223a99a87b3753983d601b6226bf3544c01617bec145ef8",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "GeHua"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

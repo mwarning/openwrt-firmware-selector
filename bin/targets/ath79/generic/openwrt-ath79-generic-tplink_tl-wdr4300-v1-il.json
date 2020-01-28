@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_tl-wdr4300-v1-il-squashfs-sysupgrade.bin",
-      "sha256": "c6eab335ac7e4de0a4fe90e2b953172449b241da50db2fc66e4b2023bfba4e76",
+      "sha256": "2ecaf793aa80abe933d3fa45d8ad432d447f2a834accd8a31128557b87256db7",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_tl-wdr4300-v1-il-squashfs-factory.bin",
-      "sha256": "bbaadd7dbb39b20f86f45a036b2e716a7d2b1098fbbd4b7c4324e0c4a55b65ad",
+      "sha256": "1ee79f4a43de34e1554e3f71bfbd420d4863ae6a1cae001984b3a671e00246d1",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

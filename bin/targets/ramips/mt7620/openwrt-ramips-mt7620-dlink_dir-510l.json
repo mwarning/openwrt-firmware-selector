@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-dlink_dir-510l-squashfs-sysupgrade.bin",
-      "sha256": "d80b7df291321d828ff743eae4576afd48054f95cc0946ced41126227607d99b",
+      "sha256": "cf1d1dd111df3b2e4419b1aa75fa6cdfcd3d8c99de36e19c032f096488bbd74c",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-dlink_dir-510l-squashfs-factory.bin",
-      "sha256": "afc569f10d73d364d0cb4087a9982395990eee2636239c4031e5b6bfae5de377",
+      "sha256": "266b17feeddbb52d48774f9ee2bb9535feaf1b9487c253130eb9bfff3e30ba9b",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "D-Link"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

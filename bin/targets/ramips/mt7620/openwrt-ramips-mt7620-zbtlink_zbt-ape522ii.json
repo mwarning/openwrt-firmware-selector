@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-zbtlink_zbt-ape522ii-squashfs-sysupgrade.bin",
-      "sha256": "16e906b439364bfcc6823dd5e94f3c3823c309b9126a1cfc8b1629c0cc638028",
+      "sha256": "d1672aec4b5413b5c4eb81dc43d37c61dc76e643b5ab2e932531fa95caa98aee",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Zbtlink"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-engenius_ecb1750-squashfs-sysupgrade.bin",
-      "sha256": "e0ab7f7dbf59ef3b0580c38ca670f01a02a9b6d089d47e757907a1cf8217b540",
+      "sha256": "e575058dec67cb77d8457bb0a9859140839eedd9fefe54079f6979b0adb66e4e",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "EnGenius"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

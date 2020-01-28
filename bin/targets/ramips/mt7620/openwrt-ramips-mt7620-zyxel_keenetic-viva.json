@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-zyxel_keenetic-viva-squashfs-sysupgrade.bin",
-      "sha256": "b390c43799354b1759d55eef45340aef0b1fa75b962b9ff07f48b6cee92b1b1a",
+      "sha256": "7f499b7c5668c44bb49ec4c86c3b18b499661eee57d91a2c5ed789216788326e",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-zyxel_keenetic-viva-squashfs-factory.bin",
-      "sha256": "85dc844dfc5adfb160b52406fcf892585c155fc7113cf75487a6da1110d171ea",
+      "sha256": "88ebbcdadc5f2df2c0fe178049dffd10b8f8b4e15f35cc070ae5b6671b9e0546",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "ZyXEL"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

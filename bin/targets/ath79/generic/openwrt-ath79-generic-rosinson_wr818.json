@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-rosinson_wr818-squashfs-sysupgrade.bin",
-      "sha256": "a2220885c9e9c9a7b4ecbcf0575eb680889b73a89c60e72305b5c24b3eedcf3e",
+      "sha256": "7c36e6c73b6fc9009f522890200fe267aae1bc1da8d7470ee68593fc125040d7",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Rosinson"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

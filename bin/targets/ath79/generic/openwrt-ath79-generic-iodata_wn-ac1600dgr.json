@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr-squashfs-sysupgrade.bin",
-      "sha256": "a35df176019dcfcb494ba1f6b9365c6b80d4c259011aec9104aaea5102d0234b",
+      "sha256": "47a154358875a1b1ec2577842cd389742895d35479dd19bac039cbcfe4bd175f",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr-squashfs-factory.bin",
-      "sha256": "5457475d7e194923cddc2662a213c81a8abf5e14ce4704297e26c76a6ed6a1c9",
+      "sha256": "5422ccefb6b5745f57b2f5d330a71370059f43f58c4abcc70b3e17af46a850ec",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "I-O DATA"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

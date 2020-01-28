@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v2-squashfs-sysupgrade.bin",
-      "sha256": "331cbac087d95a36f0b15a564229ae89dea92e280489ab0b8602404c0de4e5d3",
+      "sha256": "dc5db650588873fcac176e187f70d8b820e148cf732788f82d114f8d283bdd37",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v2-squashfs-factory.bin",
-      "sha256": "d8bcbf24c145eeb246a18e7a63771251126f9b0ae330ec200a3287be60da6260",
+      "sha256": "5ff49388ac82bda4f4a8ed389bb92b9d96c028ed88bb1230a318db9d8e1090ca",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

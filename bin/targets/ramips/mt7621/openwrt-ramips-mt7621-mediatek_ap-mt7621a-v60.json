@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-mediatek_ap-mt7621a-v60-squashfs-sysupgrade.bin",
-      "sha256": "7aeee962836c67df070f2d5f5b57ed52ca9049e922018c16ba9b50c4f12193a6",
+      "sha256": "1247fad61ea4783a5ac0ca2956613d9802b22de83b3cb8650c411b62324f6378",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Mediatek"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

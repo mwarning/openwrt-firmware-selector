@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-devolo_dvl1200e-squashfs-sysupgrade.bin",
-      "sha256": "6cc0da94be8c75ad5bcbfa7754778d50a49d4ea08d80fb3a1ed86af4ae8ca217",
+      "sha256": "abf2fc87a3a77db350e289a12778130878bff857abd11f25eabf6b6888791ed9",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "devolo"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

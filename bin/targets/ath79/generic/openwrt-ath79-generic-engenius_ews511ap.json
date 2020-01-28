@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-engenius_ews511ap-squashfs-sysupgrade.bin",
-      "sha256": "c891d90049a8a812602c38dddfa7287048e3d6a6a8c632f977d5d5de49ad8ca3",
+      "sha256": "717346baba1857839e0fe5ea8c89f10e4097d87eba5ff8936b17a135f75b1355",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "EnGenius"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -3,14 +3,14 @@
   "image_prefix": "openwrt-ath79-generic-trendnet_tew-823dru",
   "images": [
     {
-      "name": "openwrt-ath79-generic-trendnet_tew-823dru-squashfs-sysupgrade.bin",
-      "sha256": "05075c1fdba4cd29dea87a5110a3b5087e032d8222f8e60a3151104241096293",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-trendnet_tew-823dru-squashfs-factory.bin",
+      "sha256": "caa39c70c51fe37fcb98e5b1855c30f9a6f93d2b361456e0cf94ee01546b9aa1",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ath79-generic-trendnet_tew-823dru-squashfs-factory.bin",
-      "sha256": "d13d13c7d68713d7241d8ce2fe505b926bedc7ac35b0cbce641f8c05b517aee0",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-trendnet_tew-823dru-squashfs-sysupgrade.bin",
+      "sha256": "7f481e108d36762c417b91459e25d3ddc1e0499c4fd9dc81ee7b3a4571617ccd",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
@@ -26,6 +26,6 @@
       "vendor": "Trendnet"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

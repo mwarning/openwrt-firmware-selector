@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-youku_yk1-squashfs-sysupgrade.bin",
-      "sha256": "0c2dde828069338b12e0a782ccfb4c6ee472b6abc411d3e085f1620ba9824d5a",
+      "sha256": "31c6a477aa103ff743fefdd4fee1910c0f4093de6108114f4387ec9756e52410",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "YOUKU"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-glinet_gl-x750-squashfs-sysupgrade.bin",
-      "sha256": "bc38bfe4a6c779d8a9067d42e9ff8a8f2a095f1dde24149d9f0363d584d0579e",
+      "sha256": "09bd1230604fcafd9b54750fa26d664aac3f974e51ac2a97188cf8e53bdaaecd",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "GL.iNet"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

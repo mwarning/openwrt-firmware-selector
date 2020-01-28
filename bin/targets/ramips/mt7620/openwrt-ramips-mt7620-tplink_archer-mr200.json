@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-tplink_archer-mr200-squashfs-sysupgrade.bin",
-      "sha256": "6ba2feea6b94eeabc4149daad498ff3a3fe6ed3556a7b8e3992095cc139bd9b3",
+      "sha256": "60adaf4b6e638613144df81cb8c82822dd36fbc2172f7b97b23a9f50807b6bc7",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

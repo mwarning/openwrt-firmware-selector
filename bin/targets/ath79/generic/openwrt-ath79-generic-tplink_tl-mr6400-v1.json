@@ -1,0 +1,31 @@
+{
+  "id": "tplink_tl-mr6400-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_tl-mr6400-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-mr6400-v1-squashfs-sysupgrade.bin",
+      "sha256": "8272e569ac29137be42360263160134868249f877664563bca0cc4dc480460b1",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-mr6400-v1-squashfs-factory.bin",
+      "sha256": "68468be7d5c4ebc343758b3226aadb93132f85cff86aed9598bc7a95f6ce35f7",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-mr6400-v1",
+    "tl-mr6400"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-MR6400",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12138-1e3bfbafd3",
+  "version_number": "SNAPSHOT"
+}

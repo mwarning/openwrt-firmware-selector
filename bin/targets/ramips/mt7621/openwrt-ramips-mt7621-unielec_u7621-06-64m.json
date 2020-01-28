@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-unielec_u7621-06-64m-squashfs-sysupgrade.bin",
-      "sha256": "3f84f21de52320a4037fcde83be58b7467f0624593baf044243cde3209a5f7a5",
+      "sha256": "13d19b6018e6ab545b8544adf71f6980fc0d3f2276eeb279f46ee7261d83a7f9",
       "type": "sysupgrade"
     }
   ],
@@ -21,6 +21,6 @@
       "vendor": "UniElec"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

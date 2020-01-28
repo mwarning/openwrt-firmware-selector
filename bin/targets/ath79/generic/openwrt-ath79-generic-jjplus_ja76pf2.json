@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-jjplus_ja76pf2-squashfs-kernel.bin",
-      "sha256": "2ea7352632c6c82636e9e559a0921ec1d73fdef3e46f9eba55fa4c743425a783",
+      "sha256": "7359abe59d571c0dd1f78f352350449971fec030b1f58082617bb9d5f91d5378",
       "type": "kernel"
     },
     {
       "name": "openwrt-ath79-generic-jjplus_ja76pf2-squashfs-rootfs.bin",
-      "sha256": "e1d165cbb6e0810a0d9f2be5415ca2e727119ce2c64a214f37a8d8c2a85d5cd3",
+      "sha256": "2532419b4bfcb8693f405af6d434dbb4444eafb7064d8e985c42f4d8fb57d9f9",
       "type": "rootfs"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "jjPlus"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-engenius_epg5000-squashfs-sysupgrade.bin",
-      "sha256": "368a1356c496c452ad114c0a8b4044ecab84b65586b9b37e3932179d4ce59248",
+      "sha256": "fd54cdac89b1a0ba5c5cbc7addbf1cc4805a1e6ab48e5d9d7b9aa8cd50b0939e",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-engenius_epg5000-squashfs-factory.dlf",
-      "sha256": "01ec8758eb55065b14b73f221bac9867b5b77272436bd89dd976edc0acc4ecb9",
+      "sha256": "30bf4ef0f60473cb4390718aee8cbede52eaadddfbbd90373b1431a9126880f2",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "EnGenius"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

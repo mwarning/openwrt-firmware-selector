@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin",
-      "sha256": "82bae80b657f9813006d9794c40b09e1adb3eb249770041c8496ead183cbc008",
+      "sha256": "748396b34668873c13a95f3b1d099c72539a62082e251530c847ca194987c431",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-factory.bin",
-      "sha256": "52b10133f69ea60644ceac6b1429cf8d6a38d3a1a5d8f152b178d47b363a9fd6",
+      "sha256": "476d658ac7348b9cddf9f31aa0c2b828cb36d89ae307a43178f782f119092b8f",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "Xiaomi"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

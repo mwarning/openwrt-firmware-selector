@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-wevo_w2914ns-v2-squashfs-sysupgrade.bin",
-      "sha256": "70e1c49ba80661cbf38b4a99eef46af1a19f3151bc4df5504d1f3685385644d4",
+      "sha256": "067dc6ecdb7208bfff8f73288d2fe5e9631ff7ec76a7092a367287d12de5c831",
       "type": "sysupgrade"
     }
   ],
@@ -21,6 +21,6 @@
       "vendor": "WeVO"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -4,17 +4,17 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-sysupgrade.bin",
-      "sha256": "73cfd3436a5691a72e173262789ddb5786f894f3564a8081bfb3f12bc4b277c0",
+      "sha256": "cb6f8815c69896f5b21c7c3ebd762a9d8049d443c578b6f5343bd569a77c7ebe",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-factory.bin",
-      "sha256": "7861e60491cfbea40e5eeeae8d48d07b358fc2914e404dec4c6227b86a2e46ba",
+      "sha256": "7fec113fc531fe6bae523907f126f2488e93178eb304523e0199cefbd42cfd0d",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-tftp.bin",
-      "sha256": "61955f5cf61ee00c3ed31c11c59debae37b7156c0f3a53e8b0339a4a392923a9",
+      "sha256": "ce84ba08901b6f3bf2d1bce25e9b63ba2c50e94c50a61e1357d7f55e631a1e27",
       "type": "tftp"
     }
   ],
@@ -30,6 +30,6 @@
       "vendor": "Buffalo"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-zte_q7-squashfs-sysupgrade.bin",
-      "sha256": "73a619738cedee4c26c3cc3ab3d9def18f5477f4101916a453653e9335e15413",
+      "sha256": "cc68dbdcb81ee36b1b582a7e00c5d2f2d1e4f1bd107acb2e6b168f4e12fd8ce3",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "ZTE"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

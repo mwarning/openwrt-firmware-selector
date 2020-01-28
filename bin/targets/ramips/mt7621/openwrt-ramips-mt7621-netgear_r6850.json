@@ -4,18 +4,23 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-sysupgrade.bin",
-      "sha256": "3ca90db5b3fe0faf2556b6759b3ac0bd42ac6fffeb60233895604ba9d8333c62",
+      "sha256": "1b2d352d3cd39efd23ad575653256e3e0b569185890cf24cd041e375604e3e51",
       "type": "sysupgrade"
     },
     {
+      "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-kernel.bin",
+      "sha256": "a4b2e8767d439791cb1393057b1f4a949e8e6f30c799c4b6ca74f35da03b73c7",
+      "type": "kernel"
+    },
+    {
       "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-factory.img",
-      "sha256": "4034f0e54c95f19d00ee3415f732940403d718cfb8fc03e8815ebfebd14d5573",
+      "sha256": "ece96fb5b3fe28dfa0eef52e74104b6ef7978f3799ce9adbda504ca3135b70bf",
       "type": "factory"
     },
     {
-      "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-kernel.bin",
-      "sha256": "4c4cd223735fcb7e590d46f5aae684835321021dccfd1bf1cd0b0a32a6e3f9b1",
-      "type": "kernel"
+      "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-rootfs.bin",
+      "sha256": "414f05c92ddb2b1637143b3e0423e327a317895cf7934295efe725ea6dd56c8b",
+      "type": "rootfs"
     }
   ],
   "metadata_version": 1,
@@ -29,6 +34,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

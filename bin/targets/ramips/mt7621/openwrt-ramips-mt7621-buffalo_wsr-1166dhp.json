@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-buffalo_wsr-1166dhp-squashfs-sysupgrade.bin",
-      "sha256": "a43af55aed0ede823db9feed88287990d0771e2e7410e1c3756680f85ad061a7",
+      "sha256": "5423e679f575d40e077a8f9972420842037180f466f2a12509660d38904732d5",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Buffalo"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

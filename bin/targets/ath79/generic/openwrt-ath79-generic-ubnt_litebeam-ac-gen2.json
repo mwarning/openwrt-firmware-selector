@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_litebeam-ac-gen2-squashfs-sysupgrade.bin",
-      "sha256": "143c942ce072565b2924e89e1d7cf964f3b6604bb06b498d02f474f6066054ef",
+      "sha256": "fc0267f8866ee99e3c6694b22a8b5f7a189d6201ecdc0477ddf152db56c7ddce",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-ubnt_litebeam-ac-gen2-squashfs-factory.bin",
-      "sha256": "442af370db6dc295adee5f7ebe53918a73d40b68599f6a7df1f546429582354f",
+      "sha256": "303b129c88a5ca97923b65a304735f4bea9c1f0dd404d5cc7d3577cb2469eaf3",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "Ubiquiti"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-buffalo_whr-1166d-squashfs-sysupgrade.bin",
-      "sha256": "eb9e9040b1850b569ed34614346b3747aefc466f6453c0390732921bf62bcc70",
+      "sha256": "63c6632edd33821be80eda989b6e1aae8223d5a70ab671bb4c704b8029bfe34b",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Buffalo"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

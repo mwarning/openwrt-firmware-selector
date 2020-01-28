@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-yuncore_xd4200-squashfs-sysupgrade.bin",
-      "sha256": "7fe5da8c4e6b39baad9248980ec4d7b3f325a1d8d22e2be74e49cef57bae1980",
+      "sha256": "998b15f9a057c361c4189b2ec30ade3bedb09ac560ce07847e259ccc491a330b",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-yuncore_xd4200-squashfs-tftp.bin",
-      "sha256": "70039ffda5cef27f1d41e0e1bfb1835b415fc74a1beeef2e2f56774aa77fc681",
+      "sha256": "6ca8756de6e0b8c7514bbd84aa2b7f9926a37e6e71bf29e07dfdc2cfd07fb063",
       "type": "tftp"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "YunCore"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

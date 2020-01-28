@@ -4,17 +4,17 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-buffalo_bhr-4grv-squashfs-sysupgrade.bin",
-      "sha256": "d08f34f3bca37cb7c6d135bd516feb1ee32cacdaa062c3d9f6de7fa678ae0b38",
+      "sha256": "bc8a29845db7bbb41e96ab8c12615601c76295ebc404720f2594f6cf3aec5cfd",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-buffalo_bhr-4grv-squashfs-factory.bin",
-      "sha256": "6dd1f376258e847b73a40854ac8dc506a457f5941163c44f85fc40c875069ab2",
+      "sha256": "afe4888c71888121cdd3ddc42a29bd23e948402ada9c5def66d8bf44ec09f763",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-buffalo_bhr-4grv-squashfs-tftp.bin",
-      "sha256": "c58a12eef13e2908841273b5a8540d2430d02d63d794bad0390995f1eeceec6f",
+      "sha256": "14bd603e936180fa2469a7b7effb922f8063634678975180fb1a1b8afebb94a8",
       "type": "tftp"
     }
   ],
@@ -30,6 +30,6 @@
       "vendor": "Buffalo"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

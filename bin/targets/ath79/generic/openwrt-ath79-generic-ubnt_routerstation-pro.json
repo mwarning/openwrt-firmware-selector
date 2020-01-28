@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_routerstation-pro-squashfs-factory.bin",
-      "sha256": "61708fd751d1b120bbd1f74f59c5bda9275246a4e02fb47442e96cd45dad1516",
+      "sha256": "fcc69a6caad4322065cb9952087757d94336043be7372d7603045bb1795ce08e",
       "type": "factory"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Ubiquiti"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-tplink_re650-v1-squashfs-sysupgrade.bin",
-      "sha256": "7e097e27ab20c341517fa075b62cdda4456d4e3670b3e7a801a686be486167f9",
+      "sha256": "543452951d1fe1e52d35e608fb225a27dc5bed089c48f639663e92b4cbadb989",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-tplink_re650-v1-squashfs-factory.bin",
-      "sha256": "101cd0b8077de7bd05f2eb637f3ed1ad63c9943499d8e25cbc13f003aa2c8409",
+      "sha256": "161c7efbbb2669742343b444aceb30a6f68a5d8a5809cd60f138c994af3ad8ab",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-librerouter_librerouter-v1-squashfs-sysupgrade.bin",
-      "sha256": "52b0665678dba5340412e97d236aeababedcc11e754ff9c1cda5afe5b652d246",
+      "sha256": "8b3d159ffea32716ddec855f764978757c58d6ce37a5f3527ec58aba2aa98335",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Librerouter"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

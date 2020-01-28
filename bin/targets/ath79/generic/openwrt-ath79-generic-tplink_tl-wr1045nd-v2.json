@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr1045nd-v2-squashfs-sysupgrade.bin",
-      "sha256": "28c2095d0fef543052c91a665ef052161dc2779b4943f58236597f4e8427bfac",
+      "sha256": "0489f0d639c4af4a64c36bf2e9c59a50bee321122efb61ad4c0d397fef6ba14b",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr1045nd-v2-squashfs-factory.bin",
-      "sha256": "f1991a4b81f7f770276944929ef7580ed5dbf4cd21b55d14aa91b7060dc16f92",
+      "sha256": "d76a430e4dc6c9210cb7c5115905d79fc441556fa13bee24fa13db7b15917827",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

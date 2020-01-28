@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-iodata_wnpr2600g-squashfs-sysupgrade.bin",
-      "sha256": "f6ca72a560a10a07dc5f5dadd7eda0337041633044adb8d4ced53c2b342fbd4a",
+      "sha256": "88a17ce047093764628a4ed2bb39b69b890590ed8ee3c30868b9c038e4809b17",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-iodata_wnpr2600g-squashfs-factory.bin",
-      "sha256": "81152592610fe683715fc28a1f759bc336af862878f3d4d018e474802c011650",
+      "sha256": "6d7e1b8242c645cc062629a3f554c42f29d668032de04c8248e95e8343a77eee",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "I-O DATA"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

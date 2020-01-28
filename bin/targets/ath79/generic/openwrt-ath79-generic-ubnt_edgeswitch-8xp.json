@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_edgeswitch-8xp-squashfs-sysupgrade.bin",
-      "sha256": "e8371187dbb5c0b96a376cd5b087cb909750bb8a4af2281e81a5dd734e6e27df",
+      "sha256": "5ea7eeb7db2dac506754a8e6f4f5a666e452104d7c9cbd70c40620b9054ab6de",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-ubnt_edgeswitch-8xp-squashfs-factory.bin",
-      "sha256": "6a11955f898b3f38c555c1a4d30c5349071801e17074d9715606b2d033fd8966",
+      "sha256": "a2a793e36dc9b3a11c3e7e7e883270ab3c3ca88d18e7089aae191b5ba6b635c9",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "Ubiquiti"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

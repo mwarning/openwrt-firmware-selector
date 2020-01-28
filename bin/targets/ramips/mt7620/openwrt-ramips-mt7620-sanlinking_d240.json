@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-sanlinking_d240-squashfs-sysupgrade.bin",
-      "sha256": "d401329a535c5abda1e20da94cfd12284495e800f68dbfcebcfbad4dfae0af40",
+      "sha256": "e8b204bd359a442f5d2695c2e9b8df1b0278dde677c9c01f24bc882821f74dba",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Sanlinking Technologies"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

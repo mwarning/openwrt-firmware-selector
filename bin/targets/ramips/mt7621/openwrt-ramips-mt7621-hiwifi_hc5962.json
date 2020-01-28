@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-hiwifi_hc5962-squashfs-sysupgrade.bin",
-      "sha256": "e796c8affe77173988df4f67dc34d217c73e7c7d96f3311c52a258f098d7df18",
+      "sha256": "9489eb860d6f5c66820faaee859ce9cd5a3fe2b291af8db64c6a4230c979e68a",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-hiwifi_hc5962-squashfs-factory.bin",
-      "sha256": "9ae5a50ed73bff197687d64cfeaf52ac0ca526ea215d80847ed3f310212c6147",
+      "sha256": "2a9d9fed6401ed4bebee7aca5258b1063aa8fac9efd6b1c47321915765a6a150",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "HiWiFi"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

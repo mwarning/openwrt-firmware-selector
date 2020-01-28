@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_archer-c7-v1-squashfs-sysupgrade.bin",
-      "sha256": "86a0ae799064dd9a3cc0374df30e16a719618611120c8962240dd666a3fb6898",
+      "sha256": "5e6df7246b67578c196979f19d44d369111352b27f6fb535947c9747e62e1435",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_archer-c7-v1-squashfs-factory.bin",
-      "sha256": "1af827fb5e4cf6095353a6c35b0a48e8daf21f93024304b1ecf0d925dd405f54",
+      "sha256": "ec24676d39373130a611a63fe2bdbed8a8475102455b46a617debb7d31771764",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

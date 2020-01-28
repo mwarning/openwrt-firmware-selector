@@ -4,17 +4,17 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-sysupgrade.bin",
-      "sha256": "a810285b74ef040f5025d68b88f9599c159d79ebfb80da0f4b662f605b340f83",
+      "sha256": "1a0c1263323270e69ef353ea3c0f49c65ed79954abd7b887379f0f384704ae98",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-factory.bin",
-      "sha256": "8497cc59bb7b320835364536f76097b81787a7136f41a314963885dcef9943a2",
+      "sha256": "231995edf04631ad2ada55b2191d4e9d545c9d1e0142e74070d6fcb5270f0b72",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-tftp.bin",
-      "sha256": "955b0d90603168033924409e519df48a512e5b3dc1c754785a9f189952dff4a3",
+      "sha256": "0a963cbb9bbd96facc4939b258c6e48d9d9ba5a8938dcbe44a2bdd92257f5d04",
       "type": "tftp"
     }
   ],
@@ -31,6 +31,6 @@
       "vendor": "Buffalo"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

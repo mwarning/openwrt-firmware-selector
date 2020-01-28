@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ocedo_koala-squashfs-sysupgrade.bin",
-      "sha256": "2f19427dcccfd5e23ea34e4c80b4b7cf8f4970042405488dd0cf5e6bd29a3608",
+      "sha256": "03388bf4f206197b8d1ebfa4ab2d1ed38d8c7bb3a350256e0ad2b94683a2bfeb",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Ocedo"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

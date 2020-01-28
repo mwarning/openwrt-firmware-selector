@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-devolo_dvl1750i-squashfs-sysupgrade.bin",
-      "sha256": "30e68cec5d4ab71634524eff34fb8247b6d922a8b3673e797b03b194cd34a6a1",
+      "sha256": "bc18431543125ebe76af225218ec662c7a2d5c54ff811b0dbe9027e0be917409",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "devolo"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

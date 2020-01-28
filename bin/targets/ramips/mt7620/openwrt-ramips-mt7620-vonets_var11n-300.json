@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-vonets_var11n-300-squashfs-sysupgrade.bin",
-      "sha256": "4970ee6ca8a26f4d0aba3f4a400d4647be68a87eb887febfdb93e0e18f84347b",
+      "sha256": "ecc2db0f1adbd5cce6b91fd3edeb31043bfd46e17932dbfac0494800b6fac469",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Vonets"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

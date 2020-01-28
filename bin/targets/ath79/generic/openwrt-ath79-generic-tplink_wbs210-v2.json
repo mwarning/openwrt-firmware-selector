@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_wbs210-v2-squashfs-factory.bin",
-      "sha256": "db59ad8a1666ac238419ba240221b3cefae0392b12f18222187ba4acf494159a",
+      "sha256": "8ff256c0ec481194652adb8971e7b6995b2918f7ece8c28412a3fa72cf8fec12",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-tplink_wbs210-v2-squashfs-sysupgrade.bin",
-      "sha256": "dcbde6bf2e19787b0b0c5ed8343b3e7c8c108262c45fce30f9d7aabc30bb7755",
+      "sha256": "ff0f630a25f00956d39aa85487c0dc3b35f4d8c50fe3873742b2fb02c05f79bc",
       "type": "sysupgrade"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

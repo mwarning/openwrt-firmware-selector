@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-wd_mynet-wifi-rangeextender-squashfs-sysupgrade.bin",
-      "sha256": "64359956f2a0941993f43b2cd7b27ee07496f472ea8344490f9e8bee1d5df4e7",
+      "sha256": "c407e9bf2eada32d24a4a1521a5185e69242837bea828d2a4b6678881f31b963",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Western Digital"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

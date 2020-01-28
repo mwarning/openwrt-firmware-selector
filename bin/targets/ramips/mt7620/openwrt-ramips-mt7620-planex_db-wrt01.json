@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-planex_db-wrt01-squashfs-sysupgrade.bin",
-      "sha256": "ee29556928811dd20b962508d28c812e3ee701d25bcf03580f4a5499f1a82c27",
+      "sha256": "6e3f896ed936a9684b75a5f38a3d4ea21531673c13954a6b834eb70c6dae4d15",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Planex"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

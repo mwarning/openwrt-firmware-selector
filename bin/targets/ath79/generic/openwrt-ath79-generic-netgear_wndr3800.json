@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-netgear_wndr3800-squashfs-sysupgrade.bin",
-      "sha256": "ab1ddd76268f5317ad3e1a5d3ccd440a6741dbf60e158468c3daa9df18e7fc8c",
+      "sha256": "2eb4f01c5b7f4f6aaebe017599b5a17184361d3535f62fd795cc02d2a51263bc",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-netgear_wndr3800-squashfs-factory.img",
-      "sha256": "c2a92025924f109c8df0e66a48055e06047b1ee11962a7897bea6c0b47020874",
+      "sha256": "79f90f2c66612738c38532b8c8a6838cafb80026352a1b39480ca50b3c62061b",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

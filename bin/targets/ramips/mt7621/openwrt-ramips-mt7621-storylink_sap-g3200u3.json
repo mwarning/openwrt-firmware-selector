@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-storylink_sap-g3200u3-squashfs-sysupgrade.bin",
-      "sha256": "4b4af18b48c7d04c1f3c746a9f191faf910e1db4c3acaebe80ea698844ac6f99",
+      "sha256": "b952ac094eecc21e770b0cc618d91ff00a37cf21ce2e222de01f8420e18d4bbe",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "STORYLiNK"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

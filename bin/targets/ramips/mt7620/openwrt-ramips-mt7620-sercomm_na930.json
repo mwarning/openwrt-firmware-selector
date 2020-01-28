@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-sercomm_na930-squashfs-sysupgrade.bin",
-      "sha256": "67924386b82e4bbc17420538849aec39b3160962f6f6a0f56ef80746d08651cb",
+      "sha256": "4156a84b848c7dd0f7d6a7b83601d2f710d858ccb633348bde85610921918877",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Sercomm"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

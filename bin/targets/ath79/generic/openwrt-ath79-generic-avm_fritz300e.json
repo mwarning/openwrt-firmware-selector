@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-avm_fritz300e-squashfs-sysupgrade.bin",
-      "sha256": "0e842dfe0f5f42642ca02d22d575d36fefa4e426623463a2d5edbfd8509f682c",
+      "sha256": "b964bac826a0f9981ead83e0a88422564bda2b997fbe944adccd1c6ff9e06b0d",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "AVM"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

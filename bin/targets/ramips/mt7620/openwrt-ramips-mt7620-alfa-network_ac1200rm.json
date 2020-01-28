@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-alfa-network_ac1200rm-squashfs-sysupgrade.bin",
-      "sha256": "7c9e01bd2f4ddd6930f5aee31c96dde1b7df277388dc3605262fff58c1261d16",
+      "sha256": "6aa5d7c954a112c7a2821a3c8720d14b40b620d0607756d0ec592f8f902e3443",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "ALFA Network"
     }
   ],
-  "version_commit": "r12091-a66a1eb9c5",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }

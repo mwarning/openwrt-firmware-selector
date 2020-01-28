@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-elecom_wrc-1750ghbk2-i-squashfs-sysupgrade.bin",
-      "sha256": "1801debd3d3da4a5a6e534fd205012f8aa99a75a34ee733491c22c3dd20a901b",
+      "sha256": "a01391a522927e22ab7f0456a25c8d8b6f87fe8871b0baba3a8fe96ceec74de7",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "ELECOM"
     }
   ],
-  "version_commit": "r12032-5355baf21f",
+  "version_commit": "r12138-1e3bfbafd3",
   "version_number": "SNAPSHOT"
 }
