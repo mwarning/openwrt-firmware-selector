@@ -7,7 +7,7 @@ A simple OpenWrt firmware selector using autocompletion.
 Run:
 
 * Download repository.
-* Go to project directory.
+* Go to the project www directory.
 * Start webserver (e.g. `python3 -m http.server`)
 * Go to `http://localhost:8000`
 
