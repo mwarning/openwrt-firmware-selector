@@ -113,6 +113,9 @@ header div {
 
 #releases {
   width: 10em;
+  background-color: #f1f1f1;
+  border: 1px solid transparent;
+  padding: 10px;
 }
 
 #language-selection {
