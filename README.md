@@ -7,3 +7,5 @@ git clone ...
 cd yet*
 python3 -m http.server
 ```
+
+Create a new `data.json` by using the `./collect.py bin > data.json` script.
