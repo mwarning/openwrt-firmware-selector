@@ -155,7 +155,7 @@ header > div {
 #images div div :first-child {
   width: 5em;
   display: inline-block;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 #images > div {
