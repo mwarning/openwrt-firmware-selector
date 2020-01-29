@@ -46,8 +46,9 @@ function setupAutocompleteList(input, items, onselection) {
   // the text field element and an array of possible autocompleted values:
   var currentFocus = -1;
 
-  // execute a function when someone writes in the text field:
+  items.sort();
 
+  // execute a function when someone writes in the text field:
   input.oninput = function(e) {
     console.log("input");
     // clear images
