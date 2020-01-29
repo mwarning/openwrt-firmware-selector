@@ -32,27 +32,34 @@ for path in paths:
   with open(path, "r") as file:
     try:
       obj = json.load(file)
-    except json.decoder.JSONDecodeError as e:
-        sys.stderr.write("Skip {}\n   {}\n".format(path, e))
+
+      if obj['metadata_version'] != SUPPORTED_METADATA_VERSION:
+        sys.stderr.write('{} has unsupported metadata version: {} => skip\n'.format(path, obj['metadata_version']))
         continue
 
-    if obj['metadata_version'] != SUPPORTED_METADATA_VERSION:
-      sys.stderr.write('{} has unsupported metadata version: {} => skip\n'.format(path, obj['metadata_version']))
+      version = obj['version_number']
+      commit = obj['version_commit']
+
+      if not version in output:
+        output[version] = {'link': '', 'commit':  commit, 'models' : []}
+
+      # only support a version_number with images of one version_commit
+      if output[version]['commit'] != commit:
+        sys.stderr.write('mixed revisions for a release ({} and {}) => abort\n'.format(output[version]['commit'], commit))
+        exit(1)
+
+      for title in obj['titles']:
+        if 'title' in title:
+          output[version]['models'].append(['', title['title'], '', obj['target'], collect_names(obj['images'])])
+        else:
+          output[version]['models'].append([title.get('vendor', ''), title['model'], title.get('variant', ''), obj['target'], collect_names(obj['images'])])
+
+    except json.decoder.JSONDecodeError as e:
+      sys.stderr.write("Skip {}\n   {}\n".format(path, e))
       continue
-
-    version = obj['version_number']
-    commit = obj['version_commit']
-
-    if not version in output:
-      output[version] = {link: '', 'commit':  commit, 'models' : []}
-
-    # only support a version_number with images of one version_commit
-    if output[version]['commit'] != commit:
-      sys.stderr.write('mixed revisions for a release ({} and {}) => abort\n'.format(output[version]['commit'], commit))
+    except KeyError as e:
+      sys.stderr.write("Abort on {}\n   Missing key {}\n".format(path, e))
       exit(1)
-
-    for title in obj['titles']:
-      output[version]['models'].append([title['vendor'], title['model'], title.get('variant', ''), obj['target'], collect_names(obj['images'])])
 
 json.dump(output, sys.stdout, sort_keys=True)
 #json.dump(output, sys.stdout, sort_keys=True, indent="  ")
