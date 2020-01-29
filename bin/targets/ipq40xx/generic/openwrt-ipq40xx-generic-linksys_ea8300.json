@@ -1,0 +1,29 @@
+{
+  "id": "linksys_ea8300",
+  "image_prefix": "openwrt-ipq40xx-generic-linksys_ea8300",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-linksys_ea8300-squashfs-sysupgrade.bin",
+      "sha256": "bda029d00c63141c4d4b59ae69b1d49e660875cbef11ba609e5aa9d7ee51b68c",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ipq40xx-generic-linksys_ea8300-squashfs-factory.bin",
+      "sha256": "60177b9915843555863f6226d417491e0a76926755e3d1671e50b4fd3620c6ea",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "linksys,ea8300"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "EA8300",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "zte_h201l",
+  "image_prefix": "openwrt-lantiq-xway-zte_h201l",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-zte_h201l-squashfs-sysupgrade.bin",
+      "sha256": "d2991ff21a4e755d28b6dcc336353ecbfa30f89dd60a0a84bd1be18e5354e22e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zte,h201l",
+    "H201L"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "H201L",
+      "vendor": "ZTE"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

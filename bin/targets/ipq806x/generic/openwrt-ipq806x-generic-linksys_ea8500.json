@@ -1,0 +1,30 @@
+{
+  "id": "linksys_ea8500",
+  "image_prefix": "openwrt-ipq806x-generic-linksys_ea8500",
+  "images": [
+    {
+      "name": "openwrt-ipq806x-generic-linksys_ea8500-squashfs-factory.bin",
+      "sha256": "70226ec413ee9234c54d953e193798b253000e7a6c5f197fc74c654709616264",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ipq806x-generic-linksys_ea8500-squashfs-sysupgrade.bin",
+      "sha256": "cc778cd38c111d9c6ead44e3f4a32e81a364c3809d671a2b843f1591478ef413",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "linksys,ea8500",
+    "ea8500"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "EA8500",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

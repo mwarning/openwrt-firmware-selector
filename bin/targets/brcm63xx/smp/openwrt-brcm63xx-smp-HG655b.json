@@ -1,0 +1,22 @@
+{
+  "id": "HG655b",
+  "image_prefix": "openwrt-brcm63xx-smp-HG655b",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-HG655b-squashfs-cfe.bin",
+      "sha256": "008dc4680012d6bee075e3287db2f9b194690fb17eb1ce0a184ed73add0ddebf",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "EchoLife HG655b",
+      "vendor": "Huawei"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "zorlik_zl5900v2",
+  "image_prefix": "openwrt-ramips-rt305x-zorlik_zl5900v2",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-zorlik_zl5900v2-squashfs-sysupgrade.bin",
+      "sha256": "892e1b40ffd979d7836cdace4b88ec6d9c3504c46692e49e639f8a6b2d5d6733",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zorlik,zl5900v2"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "ZL5900V2",
+      "vendor": "Zorlik"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

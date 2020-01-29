@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr2-squashfs-dgr2-dgr3-factory.bin",
-      "sha256": "091f1d978929fe3922a92a930311c1dc68d7828f383acf32725588315d945784",
+      "sha256": "3be461616da70a7ba93ab2368fe0d8b3a75102fb84185466a4b7800451cb0fb2",
       "type": "dgr2-dgr3-factory"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "I-O DATA"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

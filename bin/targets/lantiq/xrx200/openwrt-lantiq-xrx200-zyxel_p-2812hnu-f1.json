@@ -1,0 +1,26 @@
+{
+  "id": "zyxel_p-2812hnu-f1",
+  "image_prefix": "openwrt-lantiq-xrx200-zyxel_p-2812hnu-f1",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-zyxel_p-2812hnu-f1-squashfs-sysupgrade.bin",
+      "sha256": "17479fd3f9ee37c628ea4c8c4ce70877a43b22d1bf682b176b32c7e97fb0ed4c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zyxel,p-2812hnu-f1",
+    "P2812HNUF1"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "P-2812HNU",
+      "variant": "F1",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

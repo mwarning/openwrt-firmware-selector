@@ -1,0 +1,25 @@
+{
+  "id": "d-team_pbr-d1",
+  "image_prefix": "openwrt-ramips-mt76x8-d-team_pbr-d1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-d-team_pbr-d1-squashfs-sysupgrade.bin",
+      "sha256": "91362c81a4e97b5fb4d48b8db50cbee3ef1bfa5faa823fa66aacad8b6227268a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "d-team,pbr-d1",
+    "pbr-d1"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "PBR-D1",
+      "vendor": "PandoraBox"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

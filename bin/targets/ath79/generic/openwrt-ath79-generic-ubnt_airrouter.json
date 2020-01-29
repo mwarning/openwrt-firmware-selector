@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_airrouter-squashfs-sysupgrade.bin",
-      "sha256": "5405a4da1c0cda5d8cc0bff6f2d098569c17c8f6ad1f37455644adf5972431fb",
+      "sha256": "a5a776512f732c0babfcc0c04f69be8711ecb4f8e6874f6dbaf12f9db76e4c09",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-ubnt_airrouter-squashfs-factory.bin",
-      "sha256": "7554cc3239d30242ed31fa986cf7df4b72dcdb18357e3428868aab4643e4117a",
+      "sha256": "2ec2daef95e1bfbbb10b0a482e1ce95913a8fd42aec9fd72eb7f14018c5801d4",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "Ubiquiti"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

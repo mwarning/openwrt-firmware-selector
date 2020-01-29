@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-8dev_carambola2-squashfs-sysupgrade.bin",
-      "sha256": "337cb1febb083ce3dd051746e7d4e10544b8dbd6e48e791d94c110ea3f4b3650",
+      "sha256": "9bd9463d287e41bceff3d5b61c85f4352a0af3b79246810e80873b7f45eb8168",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "8devices"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

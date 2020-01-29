@@ -1,0 +1,22 @@
+{
+  "id": "VR-3025un",
+  "image_prefix": "openwrt-brcm63xx-generic-VR-3025un",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-VR-3025un-squashfs-cfe.bin",
+      "sha256": "a2dac18b6317750c65fb59965aa55e940abb48990e6591e6473e985d3c9c5434",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "VR-3025un",
+      "vendor": "Comtrend"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

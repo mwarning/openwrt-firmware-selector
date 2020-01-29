@@ -1,0 +1,30 @@
+{
+  "id": "hilink_hlk-rm04",
+  "image_prefix": "openwrt-ramips-rt305x-hilink_hlk-rm04",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-hilink_hlk-rm04-squashfs-sysupgrade.bin",
+      "sha256": "c0c6af7f2652dc0e5cceb7909eae8dfe5ec0324b491617a4bbad61a87f2fe70b",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-hilink_hlk-rm04-squashfs-factory.bin",
+      "sha256": "44c135d8e2e20a02346e908fee4897cecc670f5f51ab6de8fe3c0797647fcd46",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "hilink,hlk-rm04",
+    "hlk-rm04"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "HLK-RM04",
+      "vendor": "Hi-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

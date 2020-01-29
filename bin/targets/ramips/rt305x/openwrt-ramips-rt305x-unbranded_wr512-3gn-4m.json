@@ -1,0 +1,26 @@
+{
+  "id": "unbranded_wr512-3gn-4m",
+  "image_prefix": "openwrt-ramips-rt305x-unbranded_wr512-3gn-4m",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-unbranded_wr512-3gn-4m-squashfs-sysupgrade.bin",
+      "sha256": "032e746589183097c618206587c9c51431fecf9ff62bcd70c0b62122c148b43b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "unbranded,wr512-3gn-4m",
+    "wr512-3gn-4M"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "WR512-3GN",
+      "variant": "4M",
+      "vendor": "Ralink"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

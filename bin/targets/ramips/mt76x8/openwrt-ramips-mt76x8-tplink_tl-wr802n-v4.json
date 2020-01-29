@@ -1,0 +1,30 @@
+{
+  "id": "tplink_tl-wr802n-v4",
+  "image_prefix": "openwrt-ramips-mt76x8-tplink_tl-wr802n-v4",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-wr802n-v4-squashfs-sysupgrade.bin",
+      "sha256": "10e914b3f3642d26cfeba502095b93fd73ea11ba9a8b1cb6b78e7dee240f4d0c",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-wr802n-v4-squashfs-tftp-recovery.bin",
+      "sha256": "32cef747411843e2ccc09be4cc7aafa66ae1e95fccac80e0546202b40a266026",
+      "type": "tftp-recovery"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr802n-v4"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "TL-WR802N",
+      "variant": "v4",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

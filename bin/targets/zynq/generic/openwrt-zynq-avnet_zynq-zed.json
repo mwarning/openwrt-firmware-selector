@@ -1,0 +1,22 @@
+{
+  "id": "avnet_zynq-zed",
+  "image_prefix": "openwrt-zynq-avnet_zynq-zed",
+  "images": [
+    {
+      "name": "openwrt-zynq-avnet_zynq-zed-squashfs-sdcard.img.gz",
+      "sha256": "01cea69936a58ccbb45424a2c3af87206f25a04ccf397791bf1c167c9fc48dda",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "zynq/",
+  "titles": [
+    {
+      "model": "ZedBoard",
+      "vendor": "Avnet"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

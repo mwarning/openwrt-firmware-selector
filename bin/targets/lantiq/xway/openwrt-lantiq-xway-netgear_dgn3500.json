@@ -1,0 +1,40 @@
+{
+  "id": "netgear_dgn3500",
+  "image_prefix": "openwrt-lantiq-xway-netgear_dgn3500",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-netgear_dgn3500-squashfs-sysupgrade-na.bin",
+      "sha256": "02bf3402e09eb849c8cf7f14c810c7f4fa1f030c7200ede5bb7f665aaf96d468",
+      "type": "sysupgrade-na"
+    },
+    {
+      "name": "openwrt-lantiq-xway-netgear_dgn3500-squashfs-sysupgrade.bin",
+      "sha256": "6c6d2e3c5dce0ee868491ee8c8ce1380c7add35a720e3b4b9e1f3cc61b093924",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-lantiq-xway-netgear_dgn3500-squashfs-factory-na.img",
+      "sha256": "2c05fe8aae84d8daba2abb8380627328971885f4d4bd00ef0bd536213d9bc959",
+      "type": "factory-na"
+    },
+    {
+      "name": "openwrt-lantiq-xway-netgear_dgn3500-squashfs-factory.img",
+      "sha256": "4a327c2131a8d6ef36e971c1e621e56de75fadb92d3f6d3fc687479da16c749d",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,dgn3500",
+    "DGN3500"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "DGN3500",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

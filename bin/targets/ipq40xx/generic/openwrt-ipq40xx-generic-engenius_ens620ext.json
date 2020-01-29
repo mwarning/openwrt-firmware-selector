@@ -1,0 +1,34 @@
+{
+  "id": "engenius_ens620ext",
+  "image_prefix": "openwrt-ipq40xx-generic-engenius_ens620ext",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-engenius_ens620ext-squashfs-sysupgrade.bin",
+      "sha256": "e71e745df3d1201ef7845f82c09454d03e1448aef0b3171ea1a4a7c192925c17",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ipq40xx-generic-engenius_ens620ext-squashfs-factory_30.bin",
+      "sha256": "4cf805422e05f0f9eac69ea5e99b01d77cdb87f1a03f7b659a4e560afc080045",
+      "type": "factory_30"
+    },
+    {
+      "name": "openwrt-ipq40xx-generic-engenius_ens620ext-squashfs-factory_35.bin",
+      "sha256": "edc0d455898a31670c2d3963b332236b7e99acbb005bfffa38e8a78193efd8e4",
+      "type": "factory_35"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "engenius,ens620ext"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "ENS620EXT",
+      "vendor": "EnGenius"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

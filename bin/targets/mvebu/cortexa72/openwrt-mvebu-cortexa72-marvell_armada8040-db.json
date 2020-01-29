@@ -1,0 +1,29 @@
+{
+  "id": "marvell_armada8040-db",
+  "image_prefix": "openwrt-mvebu-cortexa72-marvell_armada8040-db",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa72-marvell_armada8040-db-squashfs-sdcard.img.gz",
+      "sha256": "cd42d3f895df6969d7353ab4cfcad21d19ad2d02b85786cf67cbe45cb07d36fe",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-mvebu-cortexa72-marvell_armada8040-db-ext4-sdcard.img.gz",
+      "sha256": "448659ac428b03fe38857d59ea9ae6f9f7ab4acfa8c0c6f01fffc493d99900b5",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "marvell,armada8040-db"
+  ],
+  "target": "mvebu/cortexa72",
+  "titles": [
+    {
+      "model": "Armada 8040 Development Board",
+      "vendor": "Marvell"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

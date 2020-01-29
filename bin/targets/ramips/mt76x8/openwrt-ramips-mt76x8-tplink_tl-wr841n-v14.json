@@ -1,0 +1,30 @@
+{
+  "id": "tplink_tl-wr841n-v14",
+  "image_prefix": "openwrt-ramips-mt76x8-tplink_tl-wr841n-v14",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-wr841n-v14-squashfs-sysupgrade.bin",
+      "sha256": "5ad610de55c34f0e1b50ed9fd63384816d2da991f9fbce2c5e31aa589f0c71bb",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-wr841n-v14-squashfs-tftp-recovery.bin",
+      "sha256": "3cdc8f7e0df981f316437be501946eab40242e782fe4e494a76de068aef0cc8e",
+      "type": "tftp-recovery"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr841n-v14"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "TL-WR841N",
+      "variant": "v14",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

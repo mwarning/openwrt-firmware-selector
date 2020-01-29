@@ -1,0 +1,25 @@
+{
+  "id": "avm_fritz7360sl",
+  "image_prefix": "openwrt-lantiq-xrx200-avm_fritz7360sl",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-avm_fritz7360sl-squashfs-sysupgrade.bin",
+      "sha256": "0555eed95da40160be1dd2e1932e15a7071393fd3da495a9668a9ead735a501e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "avm,fritz7360sl",
+    "FRITZ7360SL"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "FRITZ!Box 7360 SL",
+      "vendor": "AVM"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

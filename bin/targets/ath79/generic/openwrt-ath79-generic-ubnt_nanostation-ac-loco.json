@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_nanostation-ac-loco-squashfs-factory.bin",
-      "sha256": "6f0dcf41ab933420fb40ea28038c50a9acd181c5ca6c0374e4cc3bed9e99023e",
+      "sha256": "cfca0cedd56948580d0528b9daf069bbe5e2e0f4291bb855dbd94f4885b58c5f",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-ubnt_nanostation-ac-loco-squashfs-sysupgrade.bin",
-      "sha256": "f938632a846d099df9809b799bf084559a73e7fbb6fab1a915dfe5577f727717",
+      "sha256": "65f30d7729674601b74935a8ea10c2067750ffd791ddea5af5d2c11a0a6c333f",
       "type": "sysupgrade"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "Ubiquiti"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

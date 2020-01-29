@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-firefly_firewrt-squashfs-sysupgrade.bin",
-      "sha256": "9185a8536b6d49f6ecb6239f903ad3f8c817218fb667a066a62c22eafae48b80",
+      "sha256": "42f6ce60c830c99899e192ad37b774aade2e0d4cecc0c55973eb7f0bd379a517",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Firefly"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

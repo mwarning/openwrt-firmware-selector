@@ -1,0 +1,23 @@
+{
+  "id": "linksys-wrt610n-v1",
+  "image_prefix": "openwrt-brcm47xx-generic-linksys-wrt610n-v1",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-generic-linksys-wrt610n-v1-squashfs.bin",
+      "sha256": "bac70fad9d74b3ddabe449ec1fe44096e54b71b794366d983c2d3a85c4b9a313",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/generic",
+  "titles": [
+    {
+      "model": "WRT610N",
+      "variant": "v1",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

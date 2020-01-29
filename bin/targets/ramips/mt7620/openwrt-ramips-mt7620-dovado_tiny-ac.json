@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-dovado_tiny-ac-squashfs-sysupgrade.bin",
-      "sha256": "c92ff4f1f818f7775fe5a48c42de671522af75a50e04a0a4923cf1649b0a9514",
+      "sha256": "674f70d46c3fede459227b447b0dbb1c260638131f8f754b3d52f970c8ebeb10",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Dovado"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

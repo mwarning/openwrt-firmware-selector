@@ -1,0 +1,30 @@
+{
+  "id": "samsung_cy-swr1100",
+  "image_prefix": "openwrt-ramips-rt3883-samsung_cy-swr1100",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt3883-samsung_cy-swr1100-squashfs-factory.bin",
+      "sha256": "ace77903f2ab5b375bae6f8f8b10e49091694673e3b63e684b1c2a0722e5d176",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-rt3883-samsung_cy-swr1100-squashfs-sysupgrade.bin",
+      "sha256": "180343eb1b5e02bbe853bb33547dc8253d2792ebbad17e8d8e7badfb70851259",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "samsung,cy-swr1100",
+    "cy-swr1100"
+  ],
+  "target": "ramips/rt3883",
+  "titles": [
+    {
+      "model": "CY-SWR1100",
+      "vendor": "Samsung"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

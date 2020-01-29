@@ -1,0 +1,31 @@
+{
+  "id": "tplink_tl-wr841-v8",
+  "image_prefix": "openwrt-ath79-tiny-tplink_tl-wr841-v8",
+  "images": [
+    {
+      "name": "openwrt-ath79-tiny-tplink_tl-wr841-v8-squashfs-sysupgrade.bin",
+      "sha256": "8da3007354a3d9387cee10082c891d81249bac40e7071c3f5da0ac64df1529e4",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-tiny-tplink_tl-wr841-v8-squashfs-factory.bin",
+      "sha256": "ac6cb08caa2f79c230ebccd3b902c7de2f14b26845f0ecfe5db144005fe66d40",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr841-v8",
+    "tl-wr841n-v8"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "model": "TL-WR841N/ND",
+      "variant": "v8",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

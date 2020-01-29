@@ -1,0 +1,25 @@
+{
+  "id": "asus_wl-330n3g",
+  "image_prefix": "openwrt-ramips-rt305x-asus_wl-330n3g",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-asus_wl-330n3g-squashfs-sysupgrade.bin",
+      "sha256": "56676187d327f76b85484e22702bccdb8a54c715aaf0127dead01236afca45c0",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "asus,wl-330n3g",
+    "wl-330n3g"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "WL-330N3G",
+      "vendor": "Asus"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "openmesh_a62",
+  "image_prefix": "openwrt-ipq40xx-generic-openmesh_a62",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-openmesh_a62-squashfs-sysupgrade.bin",
+      "sha256": "d0b0a557f31e3f48ee9cab917419ab91e6222628568c314789ad5aef01c47713",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ipq40xx-generic-openmesh_a62-squashfs-factory.bin",
+      "sha256": "1b0f1d3419fd477004f734aa82e99784539c2df2339d5a0eb32ded89e852e4e8",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "openmesh,a62"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "A62",
+      "vendor": "OpenMesh"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

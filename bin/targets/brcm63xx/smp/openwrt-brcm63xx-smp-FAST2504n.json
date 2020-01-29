@@ -1,0 +1,22 @@
+{
+  "id": "FAST2504n",
+  "image_prefix": "openwrt-brcm63xx-smp-FAST2504n",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-FAST2504n-squashfs-cfe.bin",
+      "sha256": "f65e4dd49b5ac416de001fd036626e6ff812800782b4739a5b0fa5bba39683cf",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "F@st 2504N",
+      "vendor": "Sagemcom"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

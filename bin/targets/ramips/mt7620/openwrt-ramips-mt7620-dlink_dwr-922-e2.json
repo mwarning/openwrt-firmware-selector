@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-922-e2-squashfs-sysupgrade.bin",
-      "sha256": "9775c4c321ee4796b703771e34ba5742b70d6c29b2c04825c1946fa4dbff19cf",
+      "sha256": "2143032da068ee88438c91638577557b2eeb92fdd7dd56c602485521bb3a6b56",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-922-e2-squashfs-factory.bin",
-      "sha256": "d535c49d8b847a0f08c70c142fddfbd3d975e823074135d4203945e6f1a18469",
+      "sha256": "fe1ddcaab6ae5e16663e750fbeabafec355bd5bd3e49f162d07cc6bf00389170",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "D-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

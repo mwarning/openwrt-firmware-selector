@@ -1,0 +1,30 @@
+{
+  "id": "tplink_tl-mr3020-v3",
+  "image_prefix": "openwrt-ramips-mt76x8-tplink_tl-mr3020-v3",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-mr3020-v3-squashfs-sysupgrade.bin",
+      "sha256": "54bee6ca1d14f0d6d0edc2fd7692adf170c08d57930b66ac2ad51182d843e5fa",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-mr3020-v3-squashfs-tftp-recovery.bin",
+      "sha256": "708ccb182f01d1993f7368d17c4438b42ea75803913f431e96373c736dbc812e",
+      "type": "tftp-recovery"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-mr3020-v3"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "TL-MR3020",
+      "variant": "v3",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "dlink_dap-1522-a1",
+  "image_prefix": "openwrt-ramips-rt288x-dlink_dap-1522-a1",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt288x-dlink_dap-1522-a1-squashfs-sysupgrade.bin",
+      "sha256": "337eb563c04e932ae6515604008c927f71158806a6f1ca952379e7473728ed49",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-rt288x-dlink_dap-1522-a1-squashfs-factory.bin",
+      "sha256": "50354ab3e62f1eb8b4bbbea8149a2658e1071ee39075c759a371419253ba9115",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dap-1522-a1"
+  ],
+  "target": "ramips/rt288x",
+  "titles": [
+    {
+      "model": "DAP-1522",
+      "variant": "A1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

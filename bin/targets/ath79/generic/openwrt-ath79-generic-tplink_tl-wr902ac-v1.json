@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr902ac-v1-squashfs-sysupgrade.bin",
-      "sha256": "ec1efa402270af2cf733644a95a43bf172876d7ef5b1df88c56e2e5e89e2323d",
+      "sha256": "3957e7afdb5c1fb396813552f3fe60ef678caf5a54b4ce7bb92446c5cd711d13",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr902ac-v1-squashfs-factory.bin",
-      "sha256": "9421bbcb2df076433488ee810e6f955933b9cf5f8cd4c896dbaf21d1b01c41c1",
+      "sha256": "a220dc7630ba59e9ce9d9388b513760ac3fb4a8088123212629b4b15d40f4c15",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

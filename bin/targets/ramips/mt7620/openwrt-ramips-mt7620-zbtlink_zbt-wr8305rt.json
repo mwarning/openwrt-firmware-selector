@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-zbtlink_zbt-wr8305rt-squashfs-sysupgrade.bin",
-      "sha256": "f6c5211ee3665691a3853bebdaf64d510b381c0a7d6940b1df89700b72efae6b",
+      "sha256": "4c5bc659d42776efbd1180def68c6ee4cc55cdddaefaee1cf6dfef7e5d7be909",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Zbtlink"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

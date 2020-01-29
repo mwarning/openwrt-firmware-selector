@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-mediatek_mt7621-eval-board-squashfs-sysupgrade.bin",
-      "sha256": "f970e8ff9072ae0ddcf044fe7f6e994a086110c3150f37ae8a6b3200d6d187e9",
+      "sha256": "ed01a438ff63ecd5047859210040738bcf2c730500cb6cd2616ea9f4ebbda8d5",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "MediaTek"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-netgear_ex6150-squashfs-sysupgrade.bin",
-      "sha256": "432958856900b0a2cc239ecc8e3e8ee26b459ed8868a58df57969a7139bed5b9",
+      "sha256": "fd5f4704972e3dcaecf6974b0e50ce90b1c75d120167ae5ffff186df1338d20d",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_ex6150-squashfs-factory.chk",
-      "sha256": "8382ae11d848c27bb6f0b154015677e2b8e6532ae6ec11b1995c8778f0398776",
+      "sha256": "e48abacb8dfff124aee55c412dc3029f74b8ddbab5bab7cd541929817115d187",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

@@ -1,0 +1,26 @@
+{
+  "id": "glinet_gl-mt300n-v2",
+  "image_prefix": "openwrt-ramips-mt76x8-glinet_gl-mt300n-v2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-glinet_gl-mt300n-v2-squashfs-sysupgrade.bin",
+      "sha256": "20cacfdc8d039510e681ee99c1c35c49605f13e146e64d5ebbf8b346939e9823",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,gl-mt300n-v2",
+    "gl-mt300n-v2"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "GL-MT300N",
+      "variant": "V2",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-wd_mynet-n750-squashfs-sysupgrade.bin",
-      "sha256": "378e7c248bb2d0d9232a43780fd01f91f44bcf819b020e9afb0535f03ca33f31",
+      "sha256": "3d761cdf5e511bb2c6f7bd24aeeb23ddf4c0428dfd622bbed5294db19acccbb9",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-wd_mynet-n750-squashfs-factory.bin",
-      "sha256": "350241bb12a7de7cb7c62b525501bea4e3d39fc36a236962c55605dfba4a0094",
+      "sha256": "ba6de15e17f930dcbccf80ca815492407f5199038ba55b893fbffc87dd7acb15",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "Western Digital"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

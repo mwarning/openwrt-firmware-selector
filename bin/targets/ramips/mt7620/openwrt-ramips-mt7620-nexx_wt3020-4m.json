@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-nexx_wt3020-4m-squashfs-sysupgrade.bin",
-      "sha256": "e9337b116d15d844cf32bc66e1a35e7a81397b120a291170f8646f4891030191",
+      "sha256": "e7e2bed0eeb919dd8d9fdf919810d4650b0c10686c2d18df6be06296efc8bd0b",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-nexx_wt3020-4m-squashfs-factory.bin",
-      "sha256": "d2f53ed5bc0cae7ef1e6bc1e91b423caa47f4583f4850e51716b9590f5c9711f",
+      "sha256": "485db4bbde8de9b568c14026fcf27ed497ea22c29959d447d788453a51944433",
       "type": "factory"
     }
   ],
@@ -27,6 +27,6 @@
       "vendor": "Nexx"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

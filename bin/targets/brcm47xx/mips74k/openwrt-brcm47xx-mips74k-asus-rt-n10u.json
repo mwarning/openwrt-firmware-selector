@@ -1,0 +1,23 @@
+{
+  "id": "asus-rt-n10u",
+  "image_prefix": "openwrt-brcm47xx-mips74k-asus-rt-n10u",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-asus-rt-n10u-squashfs.trx",
+      "sha256": "129607949220aa2da1305475f02b29cf5bce24713dc3c9025f3c3eb0963bb6ed",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "RT-N10U",
+      "variant": "A",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

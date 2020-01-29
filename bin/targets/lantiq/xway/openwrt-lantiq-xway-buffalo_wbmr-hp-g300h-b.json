@@ -1,0 +1,26 @@
+{
+  "id": "buffalo_wbmr-hp-g300h-b",
+  "image_prefix": "openwrt-lantiq-xway-buffalo_wbmr-hp-g300h-b",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-buffalo_wbmr-hp-g300h-b-squashfs-sysupgrade.bin",
+      "sha256": "a4d3b0cd2b4e28f570b20475ddc89a75f615bdb4d2453df8d7e8d7ab8a7127a6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "WBMR",
+    "buffalo,wbmr-hp-g300h"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "WBMR-HP-G300H",
+      "variant": "B",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

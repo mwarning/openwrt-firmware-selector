@@ -3,14 +3,14 @@
   "image_prefix": "openwrt-ath79-generic-tplink_cpe210-v2",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_cpe210-v2-squashfs-sysupgrade.bin",
-      "sha256": "f4b6b58fa6225fc86af60a21b3e7aa910a6f9e5a5cc492d28631248ec29632f2",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_cpe210-v2-squashfs-factory.bin",
+      "sha256": "21f466e5c5a02bce3445171f207d039e290c80210695f6a073dbbef5b46dbb0c",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_cpe210-v2-squashfs-factory.bin",
-      "sha256": "2e1b55880cd338e03e53c9af8cfe22c6a023aab110c7be5ec8e8055879afdcc5",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_cpe210-v2-squashfs-sysupgrade.bin",
+      "sha256": "b7afac63e037462c488363c31d8de5de260a7fff10bca4481ef59b675aca45ed",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

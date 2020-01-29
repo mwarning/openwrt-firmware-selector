@@ -1,0 +1,22 @@
+{
+  "id": "96348GW-11-generic",
+  "image_prefix": "openwrt-brcm63xx-smp-96348GW-11-generic",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-96348GW-11-generic-squashfs-cfe.bin",
+      "sha256": "c9023ab64be6395a4982a58a0fc40b157b50844084527d3c28f59a67747b38ba",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "96348GW-11",
+      "vendor": "Generic"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

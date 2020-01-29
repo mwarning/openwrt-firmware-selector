@@ -1,0 +1,22 @@
+{
+  "id": "linksys-wrt54g3g",
+  "image_prefix": "openwrt-brcm47xx-legacy-linksys-wrt54g3g",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-linksys-wrt54g3g-squashfs.bin",
+      "sha256": "97f0bd2903a2afb5ba125878466f335bc8c654772340ed81c893d83fe1fcc988",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WRT54G3G",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

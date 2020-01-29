@@ -1,0 +1,30 @@
+{
+  "id": "netgear_wndr4300-v2",
+  "image_prefix": "openwrt-ath79-nand-netgear_wndr4300-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-nand-netgear_wndr4300-v2-squashfs-sysupgrade.bin",
+      "sha256": "dd8f6fa7b471d347af094ac49fbbcd6642fc012193f077d394610f4df5858fe8",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-nand-netgear_wndr4300-v2-squashfs-factory.img",
+      "sha256": "572aa03f9bdcfb1e6cd04ac886ac66275de7b8614b6bd6eab56917f1b6ce5b1e",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wndr4300-v2"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "WNDR4300",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

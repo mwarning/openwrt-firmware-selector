@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-iodata_wn-ac1167gr-squashfs-sysupgrade.bin",
-      "sha256": "c0678bfa63172f6fedde54879f88129c39cc8e3f2ee7a3ae154e2a92d847e848",
+      "sha256": "f6c935def1b47274621ec7c64ab88f15e98461636ba6781b7dd8d262916d235a",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-iodata_wn-ac1167gr-squashfs-factory.bin",
-      "sha256": "f19b799e6ac920484cdab88e0e6be5a0ce0ab8b40498d8b4ca7a850fe4fa7ea8",
+      "sha256": "811ee10ec655048d6d5f49c0cab79b5b5dad01a367db016c515308b07d5a89f0",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "I-O DATA"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

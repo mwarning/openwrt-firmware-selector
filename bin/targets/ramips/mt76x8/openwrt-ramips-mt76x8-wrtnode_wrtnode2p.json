@@ -1,0 +1,25 @@
+{
+  "id": "wrtnode_wrtnode2p",
+  "image_prefix": "openwrt-ramips-mt76x8-wrtnode_wrtnode2p",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-wrtnode_wrtnode2p-squashfs-sysupgrade.bin",
+      "sha256": "470d94600818929cc0244a11c7d8a367bb6da0cfb6f9f6fa5df446fe7e6d59df",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wrtnode,wrtnode2p",
+    "wrtnode2p"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "WRTnode 2P",
+      "vendor": "WRTnode"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

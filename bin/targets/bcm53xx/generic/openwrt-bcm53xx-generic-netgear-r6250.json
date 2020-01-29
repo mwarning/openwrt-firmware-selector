@@ -1,0 +1,22 @@
+{
+  "id": "netgear-r6250",
+  "image_prefix": "openwrt-bcm53xx-generic-netgear-r6250",
+  "images": [
+    {
+      "name": "openwrt-bcm53xx-generic-netgear-r6250-squashfs.chk",
+      "sha256": "7fbe4e783025aec32b84d0d5eeb59d415b0aa25b10b695a56a2c1e12b2ae2acc",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "model": "R6250",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

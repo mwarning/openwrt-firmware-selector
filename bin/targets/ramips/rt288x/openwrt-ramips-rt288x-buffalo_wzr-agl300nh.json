@@ -1,0 +1,25 @@
+{
+  "id": "buffalo_wzr-agl300nh",
+  "image_prefix": "openwrt-ramips-rt288x-buffalo_wzr-agl300nh",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt288x-buffalo_wzr-agl300nh-squashfs-sysupgrade.bin",
+      "sha256": "1a2b49820ca64ecbb6bf6ed2a1d58b6a2f88d97f3c9c6be38f1eaf545619e14e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,wzr-agl300nh",
+    "wzr-agl300nh"
+  ],
+  "target": "ramips/rt288x",
+  "titles": [
+    {
+      "model": "WZR-AGL300NH",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

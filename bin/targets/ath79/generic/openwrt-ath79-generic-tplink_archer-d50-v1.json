@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_archer-d50-v1-squashfs-sysupgrade.bin",
-      "sha256": "70dc7cc92f8aae6ec4412a008a2562b09cd2b60c456877c760cf5edce49df577",
+      "sha256": "1f60fbdb0a31f577be358cc07805db3a4889934ebae9f176eb001ec90643c121",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

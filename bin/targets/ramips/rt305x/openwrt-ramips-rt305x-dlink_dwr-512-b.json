@@ -1,0 +1,31 @@
+{
+  "id": "dlink_dwr-512-b",
+  "image_prefix": "openwrt-ramips-rt305x-dlink_dwr-512-b",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-dlink_dwr-512-b-squashfs-sysupgrade.bin",
+      "sha256": "006d933f4ccb27a0544f7ff7bb792c2c5fe65930aa90456023d6fd699b916dc6",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-dlink_dwr-512-b-squashfs-factory.bin",
+      "sha256": "747fd1e84836fc8089ee3cb11f8dd23c11623ed1f41931fbb3177ca8e7f1236b",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dwr-512-b",
+    "dwr-512-b"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "DWR-512",
+      "variant": "B",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

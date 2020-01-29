@@ -1,0 +1,22 @@
+{
+  "id": "motorola-wr850g",
+  "image_prefix": "openwrt-brcm47xx-legacy-motorola-wr850g",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-motorola-wr850g-squashfs.bin",
+      "sha256": "92bb220e051162b4d57a8540c20426cb7d2c0a8b01e2c7f66a2b70791e0a9375",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WR850G",
+      "vendor": "Motorola"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

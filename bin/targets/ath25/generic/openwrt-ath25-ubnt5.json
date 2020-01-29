@@ -1,0 +1,22 @@
+{
+  "id": "ubnt5",
+  "image_prefix": "openwrt-ath25-ubnt5",
+  "images": [
+    {
+      "name": "openwrt-ath25-ubnt5-squashfs-sysupgrade.bin",
+      "sha256": "03ee3bd501e41658ab402f9f50115f4e044364793c738687ce8de32bf4f56267",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ath25/",
+  "titles": [
+    {
+      "model": "XS5",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

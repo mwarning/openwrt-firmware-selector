@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ocedo_ursus-squashfs-sysupgrade.bin",
-      "sha256": "801b6686c645390b09c0b8878d7fa27deea5f01c2a2444b2d6d190ca9dae7394",
+      "sha256": "09d730e27bd330e8b91c04dedc71405eecc20e8db767c376f46e1ed28f33408c",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Ocedo"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

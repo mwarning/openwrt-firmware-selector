@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_re450-v2-squashfs-sysupgrade.bin",
-      "sha256": "fb5e911729353792fdc34ef9769dfffc82bb752823e1f34eecde780619c77c4a",
+      "sha256": "e20386b9bb7bc682f1d29ebb6b72334b74a6016aba7564453eed5b90f1f6fc99",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_re450-v2-squashfs-factory.bin",
-      "sha256": "7967be45ea85b16fe5a5a1af5cc2c9fbfa56a664a0baa90e0ab3f30e73890743",
+      "sha256": "821ef3058f540aba21401ddcad608da4e0b6bd6986d6fba045d7c0f3beac36cb",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

@@ -1,0 +1,27 @@
+{
+  "id": "VR-3025u",
+  "image_prefix": "openwrt-brcm63xx-smp-VR-3025u",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-VR-3025u-squashfs-sysupgrade.bin",
+      "sha256": "590576ca55c562d556b3093d07eca3324e09ccab0b9d0e5e1423ffb665419deb",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-brcm63xx-smp-VR-3025u-squashfs-cfe.bin",
+      "sha256": "04dddf4d1712df206ef0c61aab95875104c74136c34f161dc88034f30beb6698",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "VR-3025u",
+      "vendor": "Comtrend"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "widora_neo-32m",
+  "image_prefix": "openwrt-ramips-mt76x8-widora_neo-32m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-widora_neo-32m-squashfs-sysupgrade.bin",
+      "sha256": "ee1b19b46c3f9fbbd33f0c46b6de511ba37e79c7d84897738e72fb52df52bb03",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "widora,neo-32m"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "Widora-NEO",
+      "variant": "32M",
+      "vendor": "Widora"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

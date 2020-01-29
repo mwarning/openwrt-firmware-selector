@@ -1,0 +1,23 @@
+{
+  "id": "HG556a-C",
+  "image_prefix": "openwrt-brcm63xx-smp-HG556a-C",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-HG556a-C-squashfs-cfe.bin",
+      "sha256": "7d002c1229200a3646957a2bcb12c5eb3a81f1309102669d830237ebc2c67f6b",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "EchoLife HG556a",
+      "variant": "C",
+      "vendor": "Huawei"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-pcs_cap324-squashfs-sysupgrade.bin",
-      "sha256": "9cb65deeaa4d967af7e18f1487b95ad2a1f94ac46de4429764370fa9e9c5850d",
+      "sha256": "8c040a7def513b737248719b8dfdbf0e09e25ede89099c1a803c115ae0df9545",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "PowerCloud Systems"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

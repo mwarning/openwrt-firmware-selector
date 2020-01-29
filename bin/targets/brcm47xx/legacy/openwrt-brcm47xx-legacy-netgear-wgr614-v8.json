@@ -1,0 +1,23 @@
+{
+  "id": "netgear-wgr614-v8",
+  "image_prefix": "openwrt-brcm47xx-legacy-netgear-wgr614-v8",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-netgear-wgr614-v8-squashfs.chk",
+      "sha256": "5fc02216131b970d1e13d6320eb52616031d1c75fd9aebad01df4cd86d8eec40",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WGR614",
+      "variant": "v8",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

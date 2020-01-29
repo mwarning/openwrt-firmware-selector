@@ -1,0 +1,26 @@
+{
+  "id": "hame_mpr-a1",
+  "image_prefix": "openwrt-ramips-rt305x-hame_mpr-a1",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-hame_mpr-a1-squashfs-sysupgrade.bin",
+      "sha256": "1ec72ce77698f649090e433cc15f6e6d20d3ba4471481b50513a1cf8b2bb94cc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "hame,mpr-a1",
+    "mpr-a1"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "MPR",
+      "variant": "A1",
+      "vendor": "HAME"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_tl-mr6400-v1-squashfs-sysupgrade.bin",
-      "sha256": "8272e569ac29137be42360263160134868249f877664563bca0cc4dc480460b1",
+      "sha256": "4352aedcb0e4ece10af0f50a8d130cde02555c5ed740b178530228948e264a95",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_tl-mr6400-v1-squashfs-factory.bin",
-      "sha256": "68468be7d5c4ebc343758b3226aadb93132f85cff86aed9598bc7a95f6ce35f7",
+      "sha256": "9485adc8ce655228506a88bdfbfb85722076a6e33828004a8eca3666076c112a",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

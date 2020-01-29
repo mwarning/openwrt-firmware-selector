@@ -1,0 +1,24 @@
+{
+  "id": "enterasys_ws-ap3710i",
+  "image_prefix": "openwrt-mpc85xx-p1020-enterasys_ws-ap3710i",
+  "images": [
+    {
+      "name": "openwrt-mpc85xx-p1020-enterasys_ws-ap3710i-squashfs-sysupgrade.bin",
+      "sha256": "399f784ef4876210571355ebde193d3550bcfd39d56b23eeda3d32f84649f3f3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "enterasys,ws-ap3710i"
+  ],
+  "target": "mpc85xx/p1020",
+  "titles": [
+    {
+      "model": "WS-AP3710i",
+      "vendor": "Enterasys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

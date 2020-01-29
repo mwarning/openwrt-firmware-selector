@@ -1,0 +1,30 @@
+{
+  "id": "netgear_d7800",
+  "image_prefix": "openwrt-ipq806x-generic-netgear_d7800",
+  "images": [
+    {
+      "name": "openwrt-ipq806x-generic-netgear_d7800-squashfs-sysupgrade.bin",
+      "sha256": "9e6148c6cc3638742cbed218a1f5938f8e31ee37bc8a020c1bb3cb4f955709c3",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ipq806x-generic-netgear_d7800-squashfs-factory.img",
+      "sha256": "5399999ef11c0d2b6de3c64e5fb0f183085d18d944b67c678224b45bf8e3ddf0",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,d7800",
+    "d7800"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "Nighthawk X4 D7800",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

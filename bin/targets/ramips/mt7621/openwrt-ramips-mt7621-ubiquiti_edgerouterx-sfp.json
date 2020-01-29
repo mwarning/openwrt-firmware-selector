@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-ubiquiti_edgerouterx-sfp-squashfs-sysupgrade.bin",
-      "sha256": "f61c7c7bb38d82f60a4dabf134df27bb26f6c4af65fc1b7977b9e60826ffc33c",
+      "sha256": "ee9ebfc631f12b9e365b5a0c066fcf9298e6680389a07856d8e86589ccc3ed10",
       "type": "sysupgrade"
     }
   ],
@@ -21,6 +21,6 @@
       "vendor": "Ubiquiti"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

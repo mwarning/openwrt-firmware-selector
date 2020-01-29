@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-iodata_wn-ag300dgr-squashfs-sysupgrade.bin",
-      "sha256": "c5cb1161da742ac8502ddd0f4f55d4f6d6d5abd50480707d7d5339b976e9fde3",
+      "sha256": "0e9ffe1d61fd4c6a2aeaaaade90540456cab2356593649f49f543f6776b53712",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-iodata_wn-ag300dgr-squashfs-factory.bin",
-      "sha256": "b33148bea72c57d18a32c92b5e2aafc8f331f8271a9cc3576526073fadc2ae69",
+      "sha256": "19258fa29da710a7f14db913a3d923128553ac846de60b18342a7f75191c8e31",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "I-O DATA"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

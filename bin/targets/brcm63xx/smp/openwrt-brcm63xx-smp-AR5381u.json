@@ -1,0 +1,27 @@
+{
+  "id": "AR5381u",
+  "image_prefix": "openwrt-brcm63xx-smp-AR5381u",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-AR5381u-squashfs-sysupgrade.bin",
+      "sha256": "394b479614f0f76ef5c14aebea129c982f9407254037be704879a3d1a5b70d3b",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-brcm63xx-smp-AR5381u-squashfs-cfe.bin",
+      "sha256": "3414892030e12d43e245f47f13639c8b32f16449b38f30114e02f136809ae8a5",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "AR-5381u",
+      "vendor": "Comtrend"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

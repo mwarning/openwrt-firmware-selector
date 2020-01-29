@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-mikrotik_rb750gr3-squashfs-sysupgrade.bin",
-      "sha256": "1da8698e19fc3702f6e0ddda27f6b91d0f777b47edb94e248c6fedb0d8d57e8a",
+      "sha256": "37f732dbaf46163dd53c23d4cfaca22d514eec7c9d4cf82b093fd7192a085f93",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "MikroTik"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

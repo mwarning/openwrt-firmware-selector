@@ -1,0 +1,29 @@
+{
+  "id": "linksprite_a10-pcduino",
+  "image_prefix": "openwrt-sunxi-cortexa8-linksprite_a10-pcduino",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa8-linksprite_a10-pcduino-squashfs-sdcard.img.gz",
+      "sha256": "c3552a7b4465a8ba8553e57eff6aaceb2a004a4d8621af00230c56d017a1489b",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa8-linksprite_a10-pcduino-ext4-sdcard.img.gz",
+      "sha256": "6d850b4c8793f7b61ee5280d986358755eb07a4d108a8e4d7d5d0fa3bf897804",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "linksprite,a10-pcduino"
+  ],
+  "target": "sunxi/cortexa8",
+  "titles": [
+    {
+      "model": "pcDuino",
+      "vendor": "LinkSprite"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

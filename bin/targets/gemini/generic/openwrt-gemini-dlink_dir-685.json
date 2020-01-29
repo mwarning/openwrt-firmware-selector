@@ -1,0 +1,29 @@
+{
+  "id": "dlink_dir-685",
+  "image_prefix": "openwrt-gemini-dlink_dir-685",
+  "images": [
+    {
+      "name": "openwrt-gemini-dlink_dir-685-squashfs-factory.bin",
+      "sha256": "94f07851620f7d3e08283c117f19482e7118a7187d58f972e7a8381c98791cff",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-gemini-dlink_dir-685-squashfs-sysupgrade.bin",
+      "sha256": "d8497d111d899b42b3b719c00275a9707d4fc4b5d2e6adc1716b6edd148f4486",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dir-685"
+  ],
+  "target": "gemini/",
+  "titles": [
+    {
+      "model": "DIR-685 Xtreme N Storage Router",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

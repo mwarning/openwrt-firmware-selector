@@ -1,0 +1,22 @@
+{
+  "id": "DSL2650U",
+  "image_prefix": "openwrt-brcm63xx-generic-DSL2650U",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-DSL2650U-squashfs-cfe.bin",
+      "sha256": "d5e09aa4f1f3b8c70f8ad65e44c1251d7abe237854b6a6391527b4032b9b44d4",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "DSL-2650U",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

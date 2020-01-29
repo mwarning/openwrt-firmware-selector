@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-bdcom_wap2100-sk-squashfs-sysupgrade.bin",
-      "sha256": "a62aa8e9fa83fafb525e9b939024e909d2f1b4aad04c4c0511288058ef35fceb",
+      "sha256": "b6df7bc6942236d0a5057d1a9e692643cfe2537f73176e78334f91c77409110f",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "BDCOM"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

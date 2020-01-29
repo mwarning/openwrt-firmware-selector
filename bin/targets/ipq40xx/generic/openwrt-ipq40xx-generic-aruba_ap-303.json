@@ -1,0 +1,24 @@
+{
+  "id": "aruba_ap-303",
+  "image_prefix": "openwrt-ipq40xx-generic-aruba_ap-303",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-aruba_ap-303-squashfs-sysupgrade.bin",
+      "sha256": "f188b67c92274b3513015511d3c550f2c891c68e1b2cf91f4cb8f6e250200256",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "aruba,ap-303"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "AP-303",
+      "vendor": "Aruba"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

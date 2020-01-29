@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-microduino_microwrt-squashfs-sysupgrade.bin",
-      "sha256": "e7ddb30c8329e76dc542904fd932ba91a5f85779c5a4d535ff3f195a496460bd",
+      "sha256": "15a744f920c7223ec3d8820caab1fe894f1dbf3fea4af27dfe040ab693f31c93",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Microduino"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

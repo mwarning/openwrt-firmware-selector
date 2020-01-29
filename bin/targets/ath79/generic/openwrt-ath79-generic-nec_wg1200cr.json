@@ -3,14 +3,14 @@
   "image_prefix": "openwrt-ath79-generic-nec_wg1200cr",
   "images": [
     {
-      "name": "openwrt-ath79-generic-nec_wg1200cr-squashfs-sysupgrade.bin",
-      "sha256": "04ad3d9e462e251810171ae6ec0b98d26029e145398f8c9cb6249db321ccda92",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-nec_wg1200cr-squashfs-factory.bin",
+      "sha256": "342283f44fd13a320deb71215a6b1d4cbb7a8edff1887d9ba6dbff0ae5b49126",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ath79-generic-nec_wg1200cr-squashfs-factory.bin",
-      "sha256": "f7ebf8bbe44330f0115f232801b1f50e36be6ce7665593a932d00942b7fb3a16",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-nec_wg1200cr-squashfs-sysupgrade.bin",
+      "sha256": "920441b0d800a10d571070328db2afea35ae1bc248a45054d83b22012d5e0ceb",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
@@ -24,6 +24,6 @@
       "vendor": "NEC"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

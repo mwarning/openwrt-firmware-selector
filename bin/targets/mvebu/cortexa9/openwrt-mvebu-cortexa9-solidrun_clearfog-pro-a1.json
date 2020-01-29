@@ -1,0 +1,26 @@
+{
+  "id": "solidrun_clearfog-pro-a1",
+  "image_prefix": "openwrt-mvebu-cortexa9-solidrun_clearfog-pro-a1",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa9-solidrun_clearfog-pro-a1-squashfs-sdcard.img.gz",
+      "sha256": "f06fc49cfb40a52cc884260c8dce1ce6ebe81c5534dbd01397b08fb25c889831",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "solidrun,clearfog-pro-a1",
+    "armada-388-clearfog",
+    "armada-388-clearfog-pro"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "ClearFog Pro",
+      "vendor": "SolidRun"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

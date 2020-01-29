@@ -1,0 +1,30 @@
+{
+  "id": "seagate_goflexhome",
+  "image_prefix": "openwrt-kirkwood-seagate_goflexhome",
+  "images": [
+    {
+      "name": "openwrt-kirkwood-seagate_goflexhome-squashfs-factory.bin",
+      "sha256": "b4c7f33f799c258755a1fa0c92db601949c93c5a242b35b857409d06459bd7ae",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-kirkwood-seagate_goflexhome-squashfs-sysupgrade.bin",
+      "sha256": "03646b90274e6ed2db3cb84bb07cd06dd1c05a5f57ed1ab72a94e3e8446b74bd",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "seagate,goflexhome",
+    "goflexhome"
+  ],
+  "target": "kirkwood/",
+  "titles": [
+    {
+      "model": "GoFlexHome",
+      "vendor": "Seagate"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

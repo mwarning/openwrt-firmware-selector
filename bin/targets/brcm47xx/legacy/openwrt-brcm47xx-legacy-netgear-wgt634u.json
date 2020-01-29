@@ -1,0 +1,22 @@
+{
+  "id": "netgear-wgt634u",
+  "image_prefix": "openwrt-brcm47xx-legacy-netgear-wgt634u",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-netgear-wgt634u-squashfs.bin",
+      "sha256": "12b11e7ef124e08081565f3ed6aeabac8fe207acb0be5749aee81e61e666e0d9",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WGT634U",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

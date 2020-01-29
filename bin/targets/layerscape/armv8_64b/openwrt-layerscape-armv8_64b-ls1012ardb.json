@@ -1,0 +1,22 @@
+{
+  "id": "ls1012ardb",
+  "image_prefix": "openwrt-layerscape-armv8_64b-ls1012ardb",
+  "images": [
+    {
+      "name": "openwrt-layerscape-armv8_64b-ls1012ardb-ubifs-firmware.bin",
+      "sha256": "03815454de840af09fc0ff0f45291cf2faccc39f91e75fac8e1a0ca55fd032a9",
+      "type": "firmware"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "layerscape/armv8_64b",
+  "titles": [
+    {
+      "model": "LS1012A-RDB",
+      "vendor": "NXP"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

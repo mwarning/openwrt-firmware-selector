@@ -1,0 +1,31 @@
+{
+  "id": "tplink_archer-c50-v3",
+  "image_prefix": "openwrt-ramips-mt76x8-tplink_archer-c50-v3",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_archer-c50-v3-squashfs-sysupgrade.bin",
+      "sha256": "a32ac60ff2c7be561c51fd6c5c43b14531483b360174f8c680c380a701deaa68",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_archer-c50-v3-squashfs-tftp-recovery.bin",
+      "sha256": "16619b1db2f61986a52824024ea4b62b57638dcca35e307050b5ddc25dae5f08",
+      "type": "tftp-recovery"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c50-v3",
+    "tplink,c50-v3"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "Archer C50",
+      "variant": "v3",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

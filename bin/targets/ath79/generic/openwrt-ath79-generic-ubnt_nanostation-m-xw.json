@@ -3,14 +3,14 @@
   "image_prefix": "openwrt-ath79-generic-ubnt_nanostation-m-xw",
   "images": [
     {
-      "name": "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-factory.bin",
-      "sha256": "3cc00794d6ebfc84fc47c2c6cc95ae96310d1e9d4e8c6448b68c16bf4ec56077",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-sysupgrade.bin",
+      "sha256": "99dcdbe8d812280d065481929a3629add65106b26af934854ad63b5d19c91a8d",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-sysupgrade.bin",
-      "sha256": "86221aac79864293edf57e130ff0cfe4a4934f06eb13f142e1ba4af681750865",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-factory.bin",
+      "sha256": "f4818a1340a87b1f5a3fbeded3f103f6081ba89a8f6c19d64ece034b1ee64cdd",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
@@ -26,6 +26,6 @@
       "vendor": "Ubiquiti"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

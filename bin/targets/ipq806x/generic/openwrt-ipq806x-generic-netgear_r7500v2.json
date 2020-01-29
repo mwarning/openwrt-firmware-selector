@@ -1,0 +1,31 @@
+{
+  "id": "netgear_r7500v2",
+  "image_prefix": "openwrt-ipq806x-generic-netgear_r7500v2",
+  "images": [
+    {
+      "name": "openwrt-ipq806x-generic-netgear_r7500v2-squashfs-factory.img",
+      "sha256": "8783c18e249651897f4fdcc3a65639df97d1558b32d69e439fc3588b13ab416b",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ipq806x-generic-netgear_r7500v2-squashfs-sysupgrade.bin",
+      "sha256": "621ea183a08c4b6a4d4754e70ef0a575f99d208e01f402981cb60cd67ee38ca9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,r7500v2",
+    "r7500v2"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "Nighthawk X4 R7500",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "planex_mzk-w300nh2",
+  "image_prefix": "openwrt-ramips-rt305x-planex_mzk-w300nh2",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-planex_mzk-w300nh2-squashfs-sysupgrade.bin",
+      "sha256": "be424387dc77249f4bd28fc4af85195f1f0d8eeeeda89b058fac13ad5847051e",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-planex_mzk-w300nh2-squashfs-factory.bin",
+      "sha256": "0e1bbcbeb9aa42507792b593afb261b744ad2c39feccc39951c2af792db0b600",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "planex,mzk-w300nh2",
+    "mzk-w300nh2"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "MZK-W300NH2",
+      "vendor": "Planex"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

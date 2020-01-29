@@ -4,17 +4,17 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-sysupgrade.bin",
-      "sha256": "f5465dd2f23ace979cea830653d70dd7b16577853f4981958ac32971930a2700",
+      "sha256": "c897ba4ec1e1117c03d370529700de7fa780a0c8643226f42adfd0584abc36e9",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-factory.bin",
-      "sha256": "00cd9e9bff095dd80a7a592421af9cc56bb799c3e661bf9e8a4e4fd8ab89a2ec",
+      "sha256": "2e6e0428accf18f437bbec182f3e87891e4a17677c2b302871d7c8b736bc7813",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-tftp.bin",
-      "sha256": "3de55e690aae7fd4e905a373cc5875eca74a20435494e64195ce5c45db1e6d30",
+      "sha256": "71f24929390792938554c96a5c80b4e27a139d56730f06b596e6e2ca0f442218",
       "type": "tftp"
     }
   ],
@@ -30,6 +30,6 @@
       "vendor": "Buffalo"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

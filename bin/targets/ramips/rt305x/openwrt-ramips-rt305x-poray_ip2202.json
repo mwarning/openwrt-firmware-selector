@@ -1,0 +1,25 @@
+{
+  "id": "poray_ip2202",
+  "image_prefix": "openwrt-ramips-rt305x-poray_ip2202",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-poray_ip2202-squashfs-sysupgrade.bin",
+      "sha256": "912ebd90ef027929d159ee4135f39edec3c1a692d3e60dae626a1c681eaf5485",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "poray,ip2202",
+    "ip2202"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "IP2202",
+      "vendor": "Poray"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "glinet_gl-ar300m-nand",
+  "image_prefix": "openwrt-ath79-nand-glinet_gl-ar300m-nand",
+  "images": [
+    {
+      "name": "openwrt-ath79-nand-glinet_gl-ar300m-nand-squashfs-sysupgrade.bin",
+      "sha256": "5ee16fdc225b609e250f33e0247589ab52cfd523e72a85ca9689bb7832abd99c",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-nand-glinet_gl-ar300m-nand-squashfs-factory.img",
+      "sha256": "bce9e28cfbda59e9f40effffb776f01d4575fd9b136b31f8168f86f97c6b5874",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,gl-ar300m-nand",
+    "glinet,gl-ar300m-nor"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "GL-AR300M",
+      "variant": "NAND",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

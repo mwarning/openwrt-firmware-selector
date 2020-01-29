@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-head-weblink_hdrm200-squashfs-sysupgrade.bin",
-      "sha256": "88da2d6cca2908f26f000041dc3896ee4457a9081686cb3a87f5ba4beae3be55",
+      "sha256": "54dd12a4c9964e3d78c5e315c4e7f193384f497b1b8323d70ef44b15c101e2f8",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Head Weblink"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

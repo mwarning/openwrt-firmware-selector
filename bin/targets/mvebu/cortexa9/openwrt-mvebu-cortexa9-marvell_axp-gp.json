@@ -1,0 +1,25 @@
+{
+  "id": "marvell_axp-gp",
+  "image_prefix": "openwrt-mvebu-cortexa9-marvell_axp-gp",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa9-marvell_axp-gp-squashfs-sysupgrade.bin",
+      "sha256": "26b60b25c04058ea3878282e59754043624800f1c6de56f647df6090b36bf2e0",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "marvell,axp-gp",
+    "armada-xp-gp"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "Armada Armada XP GP (DB-MV784MP-GP)",
+      "vendor": "Marvell"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "arcadyan_arv752dpw",
+  "image_prefix": "openwrt-lantiq-xway-arcadyan_arv752dpw",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-arcadyan_arv752dpw-squashfs-sysupgrade.bin",
+      "sha256": "58a0d48ba116a81df5f3a730c0ecb359526fc2f76d4e048b2666f2c211740ddb",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "arcadyan,arv752dpw",
+    "ARV752DPW"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "ARV752DPW",
+      "vendor": "Arcadyan"
+    },
+    {
+      "model": "Easybox 802",
+      "vendor": "Vodafone"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-aruba_ap-105-squashfs-sysupgrade.bin",
-      "sha256": "ad1761bddef40e6b481c6723f72eaa8c418dbefe54f576c00579db39c508db36",
+      "sha256": "23ec7461753f5b2f471d28f5538a5a4b6ddfa38033ea4cbb02a7f6ebffcda990",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Aruba"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

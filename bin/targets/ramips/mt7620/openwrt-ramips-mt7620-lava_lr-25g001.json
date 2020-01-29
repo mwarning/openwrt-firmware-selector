@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-lava_lr-25g001-squashfs-sysupgrade.bin",
-      "sha256": "2998e091ad25c2729dfe0998a27117b7b82bfe399d33bba099125b9240ed2bd9",
+      "sha256": "fce7ad4cee5991cac78dc52914df0e2687873d40a5ef596139dacce6e5f71ac1",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-lava_lr-25g001-squashfs-factory.bin",
-      "sha256": "bcd2dedb941d83ccd8cbfce42ca6c7b12e93fe77183cf957a0dec11ee87f579b",
+      "sha256": "908363de27eb8585cc49e9adeed83cc4d8e56163e11a51562dcde7df27af9e31",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "LAVA"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

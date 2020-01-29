@@ -1,0 +1,30 @@
+{
+  "id": "tplink_tl-wr902ac-v3",
+  "image_prefix": "openwrt-ramips-mt76x8-tplink_tl-wr902ac-v3",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-wr902ac-v3-squashfs-sysupgrade.bin",
+      "sha256": "01907be5d609ad94e939b175451d989967ad7169850affe31b8a0fea5652c66a",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-wr902ac-v3-squashfs-tftp-recovery.bin",
+      "sha256": "7257f39b4949187270a8e718e760a59299375b6e89d50f4ae4d1d7cf06297480",
+      "type": "tftp-recovery"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr902ac-v3"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "TL-WR902AC",
+      "variant": "v3",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

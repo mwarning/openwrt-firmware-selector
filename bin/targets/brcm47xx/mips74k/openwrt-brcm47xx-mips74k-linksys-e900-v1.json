@@ -1,0 +1,23 @@
+{
+  "id": "linksys-e900-v1",
+  "image_prefix": "openwrt-brcm47xx-mips74k-linksys-e900-v1",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-linksys-e900-v1-squashfs.bin",
+      "sha256": "53d03cf65c210153402f2b11e9a5e8e141cdafd386814dd6d12dc001464dec21",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "E900",
+      "variant": "v1",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

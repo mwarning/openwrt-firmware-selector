@@ -1,0 +1,27 @@
+{
+  "id": "usb_a9g20",
+  "image_prefix": "openwrt-at91-sam9x-usb_a9g20",
+  "images": [
+    {
+      "name": "openwrt-at91-sam9x-usb_a9g20-ubifs-factory.bin",
+      "sha256": "4ed9b1ff9cc93ec21fe8f2ee787a60930e360243c2278837447611c6e1eb5a97",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-at91-sam9x-usb_a9g20-squashfs-factory.bin",
+      "sha256": "5279e571aecc4813db88be6a88787a6694d43b366301fb9834277852934b5668",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "USBA9G20",
+      "vendor": "Calao"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

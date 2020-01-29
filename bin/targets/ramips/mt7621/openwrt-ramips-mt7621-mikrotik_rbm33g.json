@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-mikrotik_rbm33g-squashfs-sysupgrade.bin",
-      "sha256": "b576e5ffed94fb5e4d43aebdd6cc1243df95d52215e3b50ca067afcf93bfae9f",
+      "sha256": "44dc001ebfdf87a5f11b57c099f2bc7ec7c49f498918e21b42d2fa09a1f3b39c",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "MikroTik"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

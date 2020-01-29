@@ -1,0 +1,24 @@
+{
+  "id": "tama_w06",
+  "image_prefix": "openwrt-ramips-mt76x8-tama_w06",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tama_w06-squashfs-sysupgrade.bin",
+      "sha256": "7ae35f70ceabf7c77c950c8008d3b77c068889fac32c3a36ccd4bd342b4f0c68",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tama,w06"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "W06",
+      "vendor": "Tama"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

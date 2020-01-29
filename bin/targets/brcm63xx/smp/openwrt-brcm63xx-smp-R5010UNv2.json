@@ -1,0 +1,28 @@
+{
+  "id": "R5010UNv2",
+  "image_prefix": "openwrt-brcm63xx-smp-R5010UNv2",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-R5010UNv2-squashfs-sysupgrade.bin",
+      "sha256": "e91670f70f98db98a30ed6f530e32dd5c08e54b7d93c710577349913d8c93496",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-brcm63xx-smp-R5010UNv2-squashfs-cfe.bin",
+      "sha256": "af582ff2136b9e3ed22ff1284f87629232b0b87122adeb6e28e11aef4b1f29e9",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "R5010UN",
+      "variant": "v2",
+      "vendor": "NuCom"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

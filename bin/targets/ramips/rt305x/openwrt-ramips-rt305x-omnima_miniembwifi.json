@@ -1,0 +1,25 @@
+{
+  "id": "omnima_miniembwifi",
+  "image_prefix": "openwrt-ramips-rt305x-omnima_miniembwifi",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-omnima_miniembwifi-squashfs-sysupgrade.bin",
+      "sha256": "ef6166e238ef60949e249a02c0c08a297f7381c2bef174155e78a26dce1a7140",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "omnima,miniembwifi",
+    "miniembwifi"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "MiniEMBWiFi",
+      "vendor": "Omnima"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

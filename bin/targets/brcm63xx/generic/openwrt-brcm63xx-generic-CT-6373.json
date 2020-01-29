@@ -1,0 +1,22 @@
+{
+  "id": "CT-6373",
+  "image_prefix": "openwrt-brcm63xx-generic-CT-6373",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-CT-6373-squashfs-cfe.bin",
+      "sha256": "4f2543437b6c961f1c7072aca67792baa6630c7119e07af4b1b7e885120cc3ce",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "CT-6373",
+      "vendor": "Comtrend"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

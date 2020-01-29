@@ -1,0 +1,26 @@
+{
+  "id": "mediatek_linkit-smart-7688",
+  "image_prefix": "openwrt-ramips-mt76x8-mediatek_linkit-smart-7688",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-mediatek_linkit-smart-7688-squashfs-sysupgrade.bin",
+      "sha256": "e2691299d5b4f64ecdbc1e6c79d7a34bd9baad9075cf4ab5386a2f30e01ea4f6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mediatek,linkit-smart-7688",
+    "linkits7688",
+    "linkits7688d"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "LinkIt Smart 7688",
+      "vendor": "MediaTek"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "seagate_dockstar",
+  "image_prefix": "openwrt-kirkwood-seagate_dockstar",
+  "images": [
+    {
+      "name": "openwrt-kirkwood-seagate_dockstar-squashfs-factory.bin",
+      "sha256": "16e15254688c665c752bc29be663825ef57f697434bb2c66aa6f66689e3826c6",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-kirkwood-seagate_dockstar-squashfs-sysupgrade.bin",
+      "sha256": "be1dad415ba482c401f22f7acc6639d9cc67a2634e630d622365ec7c77afff38",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "seagate,dockstar",
+    "dockstar"
+  ],
+  "target": "kirkwood/",
+  "titles": [
+    {
+      "model": "FreeAgent Dockstar",
+      "vendor": "Seagate"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "phicomm-k3",
+  "image_prefix": "openwrt-bcm53xx-generic-phicomm-k3",
+  "images": [
+    {
+      "name": "openwrt-bcm53xx-generic-phicomm-k3-squashfs.trx",
+      "sha256": "ebd72c857f38dfa7733438c84288280e66279a01a2bea8fb4fcda646edf01890",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "model": "K3",
+      "vendor": "PHICOMM"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

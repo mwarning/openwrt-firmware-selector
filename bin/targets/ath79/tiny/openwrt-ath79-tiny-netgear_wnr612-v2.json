@@ -1,0 +1,31 @@
+{
+  "id": "netgear_wnr612-v2",
+  "image_prefix": "openwrt-ath79-tiny-netgear_wnr612-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-tiny-netgear_wnr612-v2-squashfs-factory.img",
+      "sha256": "914f870bb6abcebf4979bb8e3470e7bd940346db743577d63291d723cd8ea481",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-tiny-netgear_wnr612-v2-squashfs-sysupgrade.bin",
+      "sha256": "61264ba81127e9b041ffa79d08089e9990bc90310d5501b99ee5b16836ef933b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wnr612-v2",
+    "wnr612-v2"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "model": "WNR612",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

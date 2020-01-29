@@ -1,0 +1,29 @@
+{
+  "id": "lamobo_lamobo-r1",
+  "image_prefix": "openwrt-sunxi-cortexa7-lamobo_lamobo-r1",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa7-lamobo_lamobo-r1-squashfs-sdcard.img.gz",
+      "sha256": "d9540ee454d1db8f1ad74bb76e755305b04da2f744c2f50269c2d3c8a8587acf",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa7-lamobo_lamobo-r1-ext4-sdcard.img.gz",
+      "sha256": "785cdb262cdac84850d6351d19069a7404d972643b91b09336ad2180c0489509",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lamobo,lamobo-r1"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "Lamobo R1",
+      "vendor": "Lamobo"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

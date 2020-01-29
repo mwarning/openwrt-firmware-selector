@@ -1,0 +1,22 @@
+{
+  "id": "A4001N",
+  "image_prefix": "openwrt-brcm63xx-smp-A4001N",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-A4001N-squashfs-cfe.bin",
+      "sha256": "ed6344ff06e9b6a823c994eaa5ba4e781e9feba88c98891e464bd6cf02c39708",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "P.DG A4001N",
+      "vendor": "ADB"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

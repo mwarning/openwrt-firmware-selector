@@ -1,0 +1,27 @@
+{
+  "id": "tny_a9263",
+  "image_prefix": "openwrt-at91-sam9x-tny_a9263",
+  "images": [
+    {
+      "name": "openwrt-at91-sam9x-tny_a9263-ubifs-factory.bin",
+      "sha256": "85b11031e7a4fbcd5ed44d09d367fff32db09237acb1af7e64663ff9642f2705",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-at91-sam9x-tny_a9263-squashfs-factory.bin",
+      "sha256": "6d8a6335e5a7456b6df4241d754cbf5f565fe2e58dd38ea865c775035c553c57",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "TNYA9263",
+      "vendor": "Calao"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

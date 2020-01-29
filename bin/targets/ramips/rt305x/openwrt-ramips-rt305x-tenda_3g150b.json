@@ -1,0 +1,25 @@
+{
+  "id": "tenda_3g150b",
+  "image_prefix": "openwrt-ramips-rt305x-tenda_3g150b",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-tenda_3g150b-squashfs-sysupgrade.bin",
+      "sha256": "ac976caf075c411b43f4abaeb4956f44040a059bb6ac7500186acd0821966b1f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tenda,3g150b",
+    "3g150b"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "3G150B",
+      "vendor": "Tenda"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

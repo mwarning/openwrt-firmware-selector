@@ -1,0 +1,22 @@
+{
+  "id": "asus-wl-520gu",
+  "image_prefix": "openwrt-brcm47xx-legacy-asus-wl-520gu",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-asus-wl-520gu-squashfs.trx",
+      "sha256": "b2a25733b14b5ea7acdffa8051f196f412abdfd8c4607400beac49ffaaeb4b93",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WL-520gU",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

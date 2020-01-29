@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-zyxel_keenetic-omni-ii-squashfs-sysupgrade.bin",
-      "sha256": "46c1135404fc9315bc5215a5674ff06272f45e6c8fdd7c54becd6121eb5ae412",
+      "sha256": "0069bbbd8b61ecd93755a4a1ddb86cc9248a6ce6f0194a28cf9b22650c2ee3e5",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-zyxel_keenetic-omni-ii-squashfs-factory.bin",
-      "sha256": "906b9a97adfa74834cffef9f59122a158a8e10b956aacf07c44359c23ac9c5a5",
+      "sha256": "e8f5479fc26e232dd0b1da7bf3952086c39d7f73a58d5c38a0ba837d8868f338",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "ZyXEL"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-dlink_dir-825-b1-squashfs-sysupgrade.bin",
-      "sha256": "f2c282a1c56a00034e8d8d6a7ef26d80be6510e0facbda58f0d99985a0d5e44b",
+      "sha256": "dc0df0af46afa264a6327516adee7df231b8520e10fae13600d3df707f8f3f4b",
       "type": "sysupgrade"
     }
   ],
@@ -21,6 +21,6 @@
       "vendor": "D-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

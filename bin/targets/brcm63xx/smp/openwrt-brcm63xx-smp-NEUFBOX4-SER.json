@@ -1,0 +1,23 @@
+{
+  "id": "NEUFBOX4-SER",
+  "image_prefix": "openwrt-brcm63xx-smp-NEUFBOX4-SER",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-NEUFBOX4-SER-squashfs-cfe.bin",
+      "sha256": "07528ea7caf63ea655baa07b9075f22029753aa927937fac5f9faf6610601f31",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "Neufbox4",
+      "variant": "Sercomm",
+      "vendor": "SFR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

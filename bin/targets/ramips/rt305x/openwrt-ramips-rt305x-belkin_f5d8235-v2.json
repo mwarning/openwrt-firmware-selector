@@ -1,0 +1,26 @@
+{
+  "id": "belkin_f5d8235-v2",
+  "image_prefix": "openwrt-ramips-rt305x-belkin_f5d8235-v2",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-belkin_f5d8235-v2-squashfs-sysupgrade.bin",
+      "sha256": "dff0f4b8b09c5cc091f076adb7afd945af2fed05e9d73a742ad052d3019ef20f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "belkin,f5d8235-v2",
+    "f5d8235-v2"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "F5D8235",
+      "variant": "v2",
+      "vendor": "Belkin"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

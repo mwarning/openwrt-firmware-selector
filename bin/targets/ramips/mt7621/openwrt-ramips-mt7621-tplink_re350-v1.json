@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-tplink_re350-v1-squashfs-sysupgrade.bin",
-      "sha256": "d26e20695294c06cec053cd5d7735c9197f2d6bd1d6b98211f554154f79a64c7",
+      "sha256": "98a7fc75887bf6f061904c05aa652e66c7e7ad277016682a1fd0d7184d5d9bd1",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-tplink_re350-v1-squashfs-factory.bin",
-      "sha256": "188ef8d79d676f235ddcaef971bfbc2988fc4dec7de1c7efbf7a3bb269c06740",
+      "sha256": "0b6cc79fae648a9a1eac9e5a1f1ca2706d94809e1293b7d61e748fa4adcd7013",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

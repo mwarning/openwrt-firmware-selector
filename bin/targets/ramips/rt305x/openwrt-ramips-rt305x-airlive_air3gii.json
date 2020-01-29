@@ -1,0 +1,25 @@
+{
+  "id": "airlive_air3gii",
+  "image_prefix": "openwrt-ramips-rt305x-airlive_air3gii",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-airlive_air3gii-squashfs-sysupgrade.bin",
+      "sha256": "bd97e4870765c9c20ba36af6ae947ff5d6cd4f885b1d4ebd5325bed48963a061",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "airlive,air3gii",
+    "air3gii"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "Air3GII",
+      "vendor": "AirLive"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

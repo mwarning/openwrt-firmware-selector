@@ -1,0 +1,22 @@
+{
+  "id": "GW6000",
+  "image_prefix": "openwrt-brcm63xx-smp-GW6000",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-GW6000-squashfs-cfe.bin",
+      "sha256": "6aa33dbf6015a3f9eb4ab768daea9a43f6cea8b76a0324156f94aefd0d9ce074",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "GW6000",
+      "vendor": "Tecom"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "compex_wpj428",
+  "image_prefix": "openwrt-ipq40xx-generic-compex_wpj428",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-compex_wpj428-squashfs-sysupgrade.bin",
+      "sha256": "10f678d3470df6d7c86fc8005518a106c442474ef0df55a14e53a384c2af2238",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "compex,wpj428"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "WPJ428",
+      "vendor": "Compex"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

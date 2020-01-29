@@ -1,0 +1,25 @@
+{
+  "id": "arcadyan_vg3503j",
+  "image_prefix": "openwrt-lantiq-xrx200-arcadyan_vg3503j",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-arcadyan_vg3503j-squashfs-sysupgrade.bin",
+      "sha256": "cb548abfa0227eef1019bc5f1b47e4b54d8ef6d08d712d9c82973c3127052a25",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "arcadyan,vg3503j",
+    "VG3503J"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "ECI VDSL Modem V-2FUb/R",
+      "vendor": "BT Openreach"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

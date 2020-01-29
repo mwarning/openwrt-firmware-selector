@@ -1,0 +1,27 @@
+{
+  "id": "ethernut5",
+  "image_prefix": "openwrt-at91-sam9x-ethernut5",
+  "images": [
+    {
+      "name": "openwrt-at91-sam9x-ethernut5-ubifs-root.ubi",
+      "sha256": "dbdd286cbe73ab52fd80a1d54619d1379865850bdf3360a75d2dcbb440be6884",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-at91-sam9x-ethernut5-squashfs-root.ubi",
+      "sha256": "1d4765a8c539bad2fd5a95db2f5db8d5f9a414eaca4381405b99285444eb90cb",
+      "type": "root"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "Ethernut 5",
+      "vendor": "egnite"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

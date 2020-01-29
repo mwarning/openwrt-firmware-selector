@@ -1,0 +1,28 @@
+{
+  "id": "linksys-wrt300n-v1",
+  "image_prefix": "openwrt-brcm47xx-legacy-linksys-wrt300n-v1",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-linksys-wrt300n-v1-squashfs.bin",
+      "sha256": "f9bb4e0bb8c12fef014d4ecb304470d142c3ae9e569a0b8334b6dad983e31c70",
+      "type": "bin"
+    },
+    {
+      "name": "openwrt-brcm47xx-legacy-linksys-wrt300n-v1-squashfs.trx",
+      "sha256": "b9fd119690ecb56baca9731d65a83dda64f522d7940ceca7c9b3324b472b7305",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WRT300N",
+      "variant": "v1",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

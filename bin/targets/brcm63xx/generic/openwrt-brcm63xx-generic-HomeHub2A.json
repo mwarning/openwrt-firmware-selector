@@ -1,0 +1,23 @@
+{
+  "id": "HomeHub2A",
+  "image_prefix": "openwrt-brcm63xx-generic-HomeHub2A",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-HomeHub2A-squashfs-cfe.bin",
+      "sha256": "98104d87f92463f8c9e5f64438942c68b6593e7aefd5334c61109da87785c54e",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "Home Hub 2.0",
+      "variant": "A",
+      "vendor": "BT"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

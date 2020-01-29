@@ -1,0 +1,27 @@
+{
+  "id": "vocore_vocore-8m",
+  "image_prefix": "openwrt-ramips-rt305x-vocore_vocore-8m",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-vocore_vocore-8m-squashfs-sysupgrade.bin",
+      "sha256": "17c227e7c12f2613779be8341dc0799b299976d979eea444164be01d6c1b0c2d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "vocore,vocore-8m",
+    "vocore",
+    "vocore-8M"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "VoCore",
+      "variant": "8M",
+      "vendor": "VoCore"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

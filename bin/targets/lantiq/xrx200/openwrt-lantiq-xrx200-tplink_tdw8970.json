@@ -1,0 +1,26 @@
+{
+  "id": "tplink_tdw8970",
+  "image_prefix": "openwrt-lantiq-xrx200-tplink_tdw8970",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-tplink_tdw8970-squashfs-sysupgrade.bin",
+      "sha256": "080967e3b249b2b4e0fed3eefd1b62db9faa58cda7fc1c4c0f262ef4369b247e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tdw8970",
+    "TDW8970"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "TD-W8970",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

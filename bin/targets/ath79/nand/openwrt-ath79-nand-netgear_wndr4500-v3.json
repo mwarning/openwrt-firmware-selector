@@ -1,0 +1,30 @@
+{
+  "id": "netgear_wndr4500-v3",
+  "image_prefix": "openwrt-ath79-nand-netgear_wndr4500-v3",
+  "images": [
+    {
+      "name": "openwrt-ath79-nand-netgear_wndr4500-v3-squashfs-factory.img",
+      "sha256": "6d4fb17d2b3f30000b7779b64b773996f88c91a5870863bb480da3846f1dc3f6",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-nand-netgear_wndr4500-v3-squashfs-sysupgrade.bin",
+      "sha256": "976e21ae78e90154405f05726f36c3d6868d823af049cbce3181e331fefa43f9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wndr4500-v3"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "WNDR4500",
+      "variant": "v3",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

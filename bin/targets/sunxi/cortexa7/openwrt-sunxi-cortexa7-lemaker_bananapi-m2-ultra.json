@@ -1,0 +1,29 @@
+{
+  "id": "lemaker_bananapi-m2-ultra",
+  "image_prefix": "openwrt-sunxi-cortexa7-lemaker_bananapi-m2-ultra",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa7-lemaker_bananapi-m2-ultra-squashfs-sdcard.img.gz",
+      "sha256": "c56c6ecb302a54e721f78e3dd32946bb32eade9bf4eba1bbd47ed48521ee8bf5",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa7-lemaker_bananapi-m2-ultra-ext4-sdcard.img.gz",
+      "sha256": "fad7f2767f9bfdc9da1c1097728c87257a3242d6a920f6688431a58112d4be4b",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lemaker,bananapi-m2-ultra"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "Banana Pi M2 Ultra",
+      "vendor": "LeMaker"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

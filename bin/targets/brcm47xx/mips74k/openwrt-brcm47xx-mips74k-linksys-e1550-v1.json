@@ -1,0 +1,23 @@
+{
+  "id": "linksys-e1550-v1",
+  "image_prefix": "openwrt-brcm47xx-mips74k-linksys-e1550-v1",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-linksys-e1550-v1-squashfs.bin",
+      "sha256": "c7d6015b80d28e73e23ee683bf912c75c2a1cc02c25a1b6035202aa041b7cc7e",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "E1550",
+      "variant": "v1",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

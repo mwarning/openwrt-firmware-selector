@@ -1,0 +1,29 @@
+{
+  "id": "cubietech_a10-cubieboard",
+  "image_prefix": "openwrt-sunxi-cortexa8-cubietech_a10-cubieboard",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa8-cubietech_a10-cubieboard-squashfs-sdcard.img.gz",
+      "sha256": "7294d5808911184d66d6a297cb98c73fa36b655f7f9cdd96a45dbb4ab4882c0a",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa8-cubietech_a10-cubieboard-ext4-sdcard.img.gz",
+      "sha256": "0e62693f42ac9c56e84e515fcc6209926f27af4f478115109ca1124564bf21db",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cubietech,a10-cubieboard"
+  ],
+  "target": "sunxi/cortexa8",
+  "titles": [
+    {
+      "model": "Cubieboard",
+      "vendor": "Cubietech"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

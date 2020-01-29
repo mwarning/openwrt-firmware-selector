@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr810n-v1-squashfs-sysupgrade.bin",
-      "sha256": "6d1767ceaa1f2c9c018a578f28c8ee3b0f2b281c70791461d1a03980ebb91253",
+      "sha256": "7b2b8b2569cca6eede8f8f04d82793f3b8059c7c2232de38e743dfe70c9ab822",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr810n-v1-squashfs-factory.bin",
-      "sha256": "6341874e45fbde17bfc24075f082f57ffa7db34d3b2ecbc3ca0c71b1e3c874a2",
+      "sha256": "7af3778d4b57d72a337b10be27a1406128249e139f69a54a73464cd3016f5794",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

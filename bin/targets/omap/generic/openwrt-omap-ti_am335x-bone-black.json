@@ -1,0 +1,29 @@
+{
+  "id": "ti_am335x-bone-black",
+  "image_prefix": "openwrt-omap-ti_am335x-bone-black",
+  "images": [
+    {
+      "name": "openwrt-omap-ti_am335x-bone-black-ext4-sdcard.img.gz",
+      "sha256": "556206aedc300c4791b0a281a8154d5403c0b0c7bfa39a2fbdec93bed99b8fd1",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-omap-ti_am335x-bone-black-squashfs-sdcard.img.gz",
+      "sha256": "fef353e689b9b4638f0e4499d7b5ae1d653e2f8b4cb2596b165e5409a11dd47e",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ti,am335x-bone-black"
+  ],
+  "target": "omap/",
+  "titles": [
+    {
+      "model": "AM335x BeagleBone Black",
+      "vendor": "Texas Instruments"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

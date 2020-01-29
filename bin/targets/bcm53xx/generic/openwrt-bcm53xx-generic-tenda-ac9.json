@@ -1,0 +1,22 @@
+{
+  "id": "tenda-ac9",
+  "image_prefix": "openwrt-bcm53xx-generic-tenda-ac9",
+  "images": [
+    {
+      "name": "openwrt-bcm53xx-generic-tenda-ac9-squashfs.trx",
+      "sha256": "9e6e7aab6804d2e919b5be6e04e3a889c04046f1c0e9bb489983f123593b4ec2",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "model": "AC9",
+      "vendor": "Tenda"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

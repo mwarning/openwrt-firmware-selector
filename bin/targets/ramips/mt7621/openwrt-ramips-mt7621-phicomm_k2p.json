@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-phicomm_k2p-squashfs-sysupgrade.bin",
-      "sha256": "15c1ca96718d7c07e9b9abefebe061fe18a8645ddcb430d7ec8fdb344fc1bc64",
+      "sha256": "f354e05520af36ed10c014f5b76db1eda317bf329018d4b1f0174a6793d65e6a",
       "type": "sysupgrade"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "Phicomm"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

@@ -1,0 +1,25 @@
+{
+  "id": "tenda_3g300m",
+  "image_prefix": "openwrt-ramips-rt305x-tenda_3g300m",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-tenda_3g300m-squashfs-sysupgrade.bin",
+      "sha256": "5b823a43b622fea7c950de474ef709d7b0821333935744b0f623c4c6eac3debc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tenda,3g300m",
+    "3g300m"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "3G300M",
+      "vendor": "Tenda"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

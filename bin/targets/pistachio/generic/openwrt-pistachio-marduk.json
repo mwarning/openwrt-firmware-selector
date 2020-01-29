@@ -1,0 +1,31 @@
+{
+  "id": "marduk",
+  "image_prefix": "openwrt-pistachio-marduk",
+  "images": [
+    {
+      "name": "openwrt-pistachio-marduk-squashfs-sysupgrade.tar",
+      "sha256": "023c06378bd1e9110a210923b6a6279ca07f9ab1d5cc99804f72759846d24d63",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-pistachio-marduk-squashfs-factory.ubi",
+      "sha256": "4705c9e59ac105de050d01650e3bfd49e412be31bc2acc0430f29cad2421fa9a",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "pistachio/",
+  "titles": [
+    {
+      "model": "Creator Ci40 (VL-62899)",
+      "vendor": "Imagination Technologies"
+    },
+    {
+      "model": "Marduk board",
+      "vendor": "Imagination Technologies"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

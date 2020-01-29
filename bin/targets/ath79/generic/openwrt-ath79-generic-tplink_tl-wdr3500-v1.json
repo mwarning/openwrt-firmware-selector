@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_tl-wdr3500-v1-squashfs-sysupgrade.bin",
-      "sha256": "fab1850b5d72361fb0ce3a3889888e5e5fa8e7713f93dea651784f97ecbc000a",
+      "sha256": "f1ea1183a948079c8e7b5fcbead6e69d8e11531cdca8b6da7ad94f4c3b4646be",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_tl-wdr3500-v1-squashfs-factory.bin",
-      "sha256": "8b9be118cc5b628791fdb4a0978719fb8e250f4242fcf0ea1963d7fb76ba2a7f",
+      "sha256": "9ca6f5948f3853525f5d40e1536a3f07c5c7dcb5f623dc906828b7a684565455",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

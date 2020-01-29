@@ -1,0 +1,42 @@
+{
+  "id": "generic",
+  "image_prefix": "openwrt-ath25-generic",
+  "images": [
+    {
+      "name": "openwrt-ath25-generic-kernel.elf",
+      "sha256": "f41ca15148897c2a52a7fa3870c3d0bfaaf46a8dad75fb947b157f2c439c7b6d",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-ath25-generic-squashfs-rootfs.bin",
+      "sha256": "208384e027565881334a3ab3635491c84815eaf42ae144ffd2c59663b3f7c4aa",
+      "type": "rootfs"
+    },
+    {
+      "name": "openwrt-ath25-generic-squashfs-sysupgrade.bin",
+      "sha256": "bed5bbf4c7250359fc793bbb38329ab88071465212a43dc8d6d6a184e37dbcc0",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath25-generic-kernel.gz",
+      "sha256": "0c2aa00785e77cbd2f7848fe9374b123d3db51ea285fc0a42183be311a687872",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-ath25-generic-kernel.lzma",
+      "sha256": "0fde2ee1d8341e5cae17b2e7f7ed81b1dfe24f82090cae5a855fb65916145724",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ath25/",
+  "titles": [
+    {
+      "model": "Generic AR2xxx board",
+      "vendor": "Atheros"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

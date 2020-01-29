@@ -1,0 +1,30 @@
+{
+  "id": "cisco_on100",
+  "image_prefix": "openwrt-kirkwood-cisco_on100",
+  "images": [
+    {
+      "name": "openwrt-kirkwood-cisco_on100-squashfs-sysupgrade.bin",
+      "sha256": "487b29a8973610ff202720a9e244c4513547ca0e62fa7c98db9f3981c951d331",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-kirkwood-cisco_on100-squashfs-factory.bin",
+      "sha256": "1f78d61bb5c3bf9152c923f83416a68da0fd0dac5af40b30be6550cb89228c24",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cisco,on100",
+    "on100"
+  ],
+  "target": "kirkwood/",
+  "titles": [
+    {
+      "model": "ON100",
+      "vendor": "Cisco Systems"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

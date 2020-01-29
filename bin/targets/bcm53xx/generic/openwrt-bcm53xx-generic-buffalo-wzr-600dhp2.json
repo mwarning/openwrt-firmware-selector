@@ -1,0 +1,22 @@
+{
+  "id": "buffalo-wzr-600dhp2",
+  "image_prefix": "openwrt-bcm53xx-generic-buffalo-wzr-600dhp2",
+  "images": [
+    {
+      "name": "openwrt-bcm53xx-generic-buffalo-wzr-600dhp2-squashfs.trx",
+      "sha256": "09f8c5d83e8fe3f6c8bdc259fd314e028a72538c163096e838cb82096e0dae8b",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "model": "WZR-600DHP2",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

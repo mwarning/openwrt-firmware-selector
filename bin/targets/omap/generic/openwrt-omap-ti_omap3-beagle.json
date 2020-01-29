@@ -1,0 +1,29 @@
+{
+  "id": "ti_omap3-beagle",
+  "image_prefix": "openwrt-omap-ti_omap3-beagle",
+  "images": [
+    {
+      "name": "openwrt-omap-ti_omap3-beagle-ext4-sdcard.img.gz",
+      "sha256": "65e656b2cb12964f19f937db0e6fe85cc5e2d9144f4c1cd7aa7eaf6807afde3b",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-omap-ti_omap3-beagle-squashfs-sdcard.img.gz",
+      "sha256": "336622ef12460f0bf90f5c7aef37ca1c66a4dcfc86a6339084cb83d413a9c665",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ti,omap3-beagle"
+  ],
+  "target": "omap/",
+  "titles": [
+    {
+      "model": "OMAP3 TI beagleboard",
+      "vendor": "BeagleBoard.org"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

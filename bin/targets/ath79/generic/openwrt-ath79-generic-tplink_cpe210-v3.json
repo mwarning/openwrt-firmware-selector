@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_cpe210-v3-squashfs-factory.bin",
-      "sha256": "6b5f91f54feecc0ab3d9ba81ae2da833ff3bcecd6d3652e50f5db8f1ba49d863",
+      "sha256": "5d58a72baa75dfce8d5697b841c001cfcccc338615bf74e35db7e8191069a0f5",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-tplink_cpe210-v3-squashfs-sysupgrade.bin",
-      "sha256": "866c975afc97c03026e7b0fc19109751d15ccdf5f1168405a502cbb43ab984ea",
+      "sha256": "b38b30d2468caa83f6c4e2dc97ec57c7f298a239c4f197c0dd478e38e051f2c0",
       "type": "sysupgrade"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

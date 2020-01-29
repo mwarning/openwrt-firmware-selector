@@ -1,0 +1,25 @@
+{
+  "id": "asus_rt-n13u",
+  "image_prefix": "openwrt-ramips-rt305x-asus_rt-n13u",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-asus_rt-n13u-squashfs-sysupgrade.bin",
+      "sha256": "6aadd3c0732bb5e4398c785a69a53788d207bc602dd53a6bb30f951616a2ce9a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "asus,rt-n13u",
+    "rt-n13u"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "RT-N13U",
+      "vendor": "Asus"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

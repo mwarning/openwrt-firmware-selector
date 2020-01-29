@@ -1,0 +1,37 @@
+{
+  "id": "at91sam9g20ek",
+  "image_prefix": "openwrt-at91-sam9x-at91sam9g20ek",
+  "images": [
+    {
+      "name": "openwrt-at91-sam9x-at91sam9g20ek-ubifs-root.ubi",
+      "sha256": "6d1bc54bd00f46a484d8de1a4bd57fef3bc9c4153d68f56cc691369679f1b8d8",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-at91-sam9x-at91sam9g20ek-ubifs-zImage",
+      "sha256": "5a71d38f4354e6a3ded453e8f702b1708a0f8bdb54adc1d7a8b4d710f32269f9",
+      "type": "zImage"
+    },
+    {
+      "name": "openwrt-at91-sam9x-at91sam9g20ek-squashfs-root.ubi",
+      "sha256": "333f5bd0ddcbb2729da2d6fb684c8acbb043b65104a1e5cfa25c56b2efdf0360",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-at91-sam9x-at91sam9g20ek-squashfs-zImage",
+      "sha256": "5a71d38f4354e6a3ded453e8f702b1708a0f8bdb54adc1d7a8b4d710f32269f9",
+      "type": "zImage"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "AT91SAM9G20-EK",
+      "vendor": "Atmel"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

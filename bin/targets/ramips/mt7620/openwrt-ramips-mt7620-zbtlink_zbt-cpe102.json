@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-zbtlink_zbt-cpe102-squashfs-sysupgrade.bin",
-      "sha256": "6a774da0a85e19f0f5f2c20d16d77c3c0c1eda1c550d50abe89648ad3d49d1a0",
+      "sha256": "14e9bf5a36e84983f2b28093725fa65901a3a853303191d9451dc541cf2863fc",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Zbtlink"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

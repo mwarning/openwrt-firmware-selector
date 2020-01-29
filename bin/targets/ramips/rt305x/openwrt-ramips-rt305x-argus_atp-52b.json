@@ -1,0 +1,25 @@
+{
+  "id": "argus_atp-52b",
+  "image_prefix": "openwrt-ramips-rt305x-argus_atp-52b",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-argus_atp-52b-squashfs-sysupgrade.bin",
+      "sha256": "2531bb8ec1b98f18f68ac14f7c1790d47d0ce61db82b6ed7571a4f780dde9b31",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "argus,atp-52b",
+    "atp-52b"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "ATP-52B",
+      "vendor": "Argus"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

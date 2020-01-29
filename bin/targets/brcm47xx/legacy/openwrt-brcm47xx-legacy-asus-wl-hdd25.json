@@ -1,0 +1,22 @@
+{
+  "id": "asus-wl-hdd25",
+  "image_prefix": "openwrt-brcm47xx-legacy-asus-wl-hdd25",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-asus-wl-hdd25-squashfs.trx",
+      "sha256": "3e90e3f9766d6dd3be9e7cdb94f17cfd34a9149ac47b99f13b339e4994e061c1",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WL-HDD25",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

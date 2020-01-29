@@ -1,0 +1,50 @@
+{
+  "id": "rpi",
+  "image_prefix": "openwrt-brcm2708-bcm2708-rpi",
+  "images": [
+    {
+      "name": "openwrt-brcm2708-bcm2708-rpi-ext4-factory.img.gz",
+      "sha256": "a321172df664930fbe4df03c88eb2e0dc3f401ff47cf87919c6abc4865d7a84c",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-brcm2708-bcm2708-rpi-ext4-sysupgrade.img.gz",
+      "sha256": "bc5e6f865f80af9b1bd54332062448e0ff2b4d9bfd1a9b7ea68606fc68eeb049",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-brcm2708-bcm2708-rpi-squashfs-factory.img.gz",
+      "sha256": "0cd640f69422c92abc9b373c47cc9da7359d09be83a9e2bc78a49db8ce7575c4",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-brcm2708-bcm2708-rpi-squashfs-sysupgrade.img.gz",
+      "sha256": "9b1b74bde401d8cc5b194471654df4b8e1c71e317202d874eaf11d20c033cfe9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "rpi-b",
+    "rpi-b-plus",
+    "rpi-cm",
+    "rpi-zero",
+    "rpi-zero-w",
+    "raspberrypi,model-b",
+    "raspberrypi,model-b-plus",
+    "raspberrypi,model-b-rev2",
+    "raspberrypi,compute-module",
+    "raspberrypi,compute-module-1",
+    "raspberrypi,model-zero",
+    "raspberrypi,model-zero-w"
+  ],
+  "target": "brcm2708/bcm2708",
+  "titles": [
+    {
+      "model": "B/B+/CM/Zero/ZeroW",
+      "vendor": "Raspberry Pi"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

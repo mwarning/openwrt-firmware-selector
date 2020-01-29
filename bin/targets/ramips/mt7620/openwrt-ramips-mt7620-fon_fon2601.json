@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-fon_fon2601-squashfs-sysupgrade.bin",
-      "sha256": "bbd76b00e15659cf994ad2098eafe878bd5d9070aab73d3cadd9a1c3931cc5db",
+      "sha256": "cb9029ac714d9d736bf068bef0a1e865ea440e9889f5002741aa30fdbc7dc397",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Fon"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

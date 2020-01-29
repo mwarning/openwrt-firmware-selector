@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-qihoo_c301-squashfs-sysupgrade.bin",
-      "sha256": "75c0e07cddca4c0878b9a7f7ce49d4b7d587da35aab2d1e9f1dfb93ef98794eb",
+      "sha256": "61941903c4e8287ed8fa7244e329a0695e696b5b5091814c7db56b676e6fbcfc",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-qihoo_c301-squashfs-factory.bin",
-      "sha256": "7a558e47e51b4f11b2f2d80f98002b9cdfa2b7a2e1f14212b08adc5ef9865806",
+      "sha256": "48fe69ec42210ee91d777f9c78951fd8ab51139c2f25835a175b266e325b941e",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "Qihoo"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

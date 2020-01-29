@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-comfast_cf-e110n-v2-squashfs-sysupgrade.bin",
-      "sha256": "1660bf1fb261e39e42f42c0d508991c23879aa490d61975bce90e6bd844312fb",
+      "sha256": "481bb6c1d1fa5fcdf247ccd7bd2a4572a2e417663a0eb3a250f98c857b60ad1a",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "COMFAST"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

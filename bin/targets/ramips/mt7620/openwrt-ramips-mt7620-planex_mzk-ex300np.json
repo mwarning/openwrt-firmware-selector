@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-planex_mzk-ex300np-squashfs-sysupgrade.bin",
-      "sha256": "1529f5f4ad485cdeb10cd72f0a599b7d75e5ea8f7f5503826c7fc1ba7044ccfb",
+      "sha256": "67dae77eb6f7a1cd2a8cfca4c86faf8ff63d0f543d1c81ac83276651db945131",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Planex"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

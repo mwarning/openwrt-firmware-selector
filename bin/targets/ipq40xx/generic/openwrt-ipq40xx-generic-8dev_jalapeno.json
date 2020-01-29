@@ -1,0 +1,29 @@
+{
+  "id": "8dev_jalapeno",
+  "image_prefix": "openwrt-ipq40xx-generic-8dev_jalapeno",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-8dev_jalapeno-squashfs-nand-sysupgrade.bin",
+      "sha256": "9a4f9dc98bb3044d4ce93d88c5ee2cc52e4e57c94287b99100c82b41d6559735",
+      "type": "nand-sysupgrade"
+    },
+    {
+      "name": "openwrt-ipq40xx-generic-8dev_jalapeno-squashfs-nand-factory.ubi",
+      "sha256": "ba82e82cc189f4451d4dc0398e6d13838eefb78e47f6322c1af32e102fba19c7",
+      "type": "nand-factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "8dev,jalapeno"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "Jalapeno",
+      "vendor": "8devices"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

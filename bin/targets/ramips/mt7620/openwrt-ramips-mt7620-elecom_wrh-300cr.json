@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-elecom_wrh-300cr-squashfs-sysupgrade.bin",
-      "sha256": "3742989635c4257a081d91ac25fcc4b561d227e24c513fe6db36855372764b4f",
+      "sha256": "1cae5e036fa47ac8cd0cad53ec2c78e6d4a2d51a8b19bfab0c03973464a7bddb",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-elecom_wrh-300cr-squashfs-factory.bin",
-      "sha256": "8f31322dc32c83566ab34b491314167fbee8e340be5d5c054b663014d8727d03",
+      "sha256": "8991384986923a2c9c05ad65d1651f1bf77705a3d09bcb7c102c33aa190bb1b7",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "Elecom"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

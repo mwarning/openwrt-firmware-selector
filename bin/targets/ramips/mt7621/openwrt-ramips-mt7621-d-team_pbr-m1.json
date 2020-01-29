@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-d-team_pbr-m1-squashfs-sysupgrade.bin",
-      "sha256": "f4c0e23f5a80654f82ff612939ad92496e25b1df8869fb2570856d04c715c80e",
+      "sha256": "a4677070732dd34e35caed49f83c5b74374c334b8172b6f34890cf292799cf84",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "PandoraBox"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

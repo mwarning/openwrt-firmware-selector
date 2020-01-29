@@ -1,0 +1,25 @@
+{
+  "id": "nexaira_bc2",
+  "image_prefix": "openwrt-ramips-rt305x-nexaira_bc2",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-nexaira_bc2-squashfs-sysupgrade.bin",
+      "sha256": "0efd5aeddb2ce8f0122a1500380920d9f700e8d7b8a058bf7b4831a3f74dfbcc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "nexaira,bc2",
+    "bc2"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "BC2",
+      "vendor": "NexAira"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "alfa-network_w502u",
+  "image_prefix": "openwrt-ramips-rt305x-alfa-network_w502u",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-alfa-network_w502u-squashfs-sysupgrade.bin",
+      "sha256": "a58a273a9293f137c868ad82792b2630563a0bdb16ad08fc6cd0584016c4d39f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "alfa-network,w502u",
+    "w502u"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "Networks W502U",
+      "vendor": "ALFA"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

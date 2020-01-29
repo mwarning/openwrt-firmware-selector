@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-phicomm_psg1208-squashfs-sysupgrade.bin",
-      "sha256": "348b57b375516451eab52247c67086635275bad5898cb4d35f885233586cf8d4",
+      "sha256": "5f9a1a19a65a247b304ad7de8229bab3e5e7ba16e428f163109ba786872b97c9",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Phicomm"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

@@ -1,0 +1,30 @@
+{
+  "id": "tplink_tl-wa801nd-v5",
+  "image_prefix": "openwrt-ramips-mt76x8-tplink_tl-wa801nd-v5",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-wa801nd-v5-squashfs-sysupgrade.bin",
+      "sha256": "33ef9347ba9cadfc6fa5fcd7e207b2580af323d296d3908c114ed4a626e0f4b0",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-wa801nd-v5-squashfs-tftp-recovery.bin",
+      "sha256": "00a84eefdc18c1f0a36c35c20cb70b257fdd879f6dc074c7cc9b70a4dd60a459",
+      "type": "tftp-recovery"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wa801nd-v5"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "TL-WA801ND",
+      "variant": "v5",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

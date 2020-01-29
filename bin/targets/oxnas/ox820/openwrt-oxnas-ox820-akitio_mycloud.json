@@ -1,0 +1,40 @@
+{
+  "id": "akitio_mycloud",
+  "image_prefix": "openwrt-oxnas-ox820-akitio_mycloud",
+  "images": [
+    {
+      "name": "openwrt-oxnas-ox820-akitio_mycloud-ubifs-ubinized.bin",
+      "sha256": "28be45639c939d8523f2f3a7e64795aa627f0d611c4e219470a83f336208b6db",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-akitio_mycloud-ubifs-sysupgrade.tar",
+      "sha256": "7b7edfe67886fa719b0c9c7a5636e675fc9e50cd81ef41df0e5359553b46451c",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-akitio_mycloud-squashfs-ubinized.bin",
+      "sha256": "bbad2c11f2f650fe86ab160c1d3f24286bd6aba6215e3de7ad0813c169893fad",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-akitio_mycloud-squashfs-sysupgrade.tar",
+      "sha256": "2d1eec760c1b96fb7d51ea99fa0cbeef61073d043aa581b27145bc3eae508576",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "akitio,mycloud",
+    "akitio"
+  ],
+  "target": "oxnas/ox820",
+  "titles": [
+    {
+      "model": "myCloud mini",
+      "vendor": "Akition"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

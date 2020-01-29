@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-lenovo_newifi-d1-squashfs-sysupgrade.bin",
-      "sha256": "ca5695e4852e3baa2e6592bd222750e8c1f45ed4c45163d6df96068728871dc2",
+      "sha256": "17ff0fac77710b41d71c8c20aa129f5813c5ca451bc1d15cff291cd37fd112d7",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Newifi"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

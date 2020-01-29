@@ -1,0 +1,22 @@
+{
+  "id": "FAST2704N",
+  "image_prefix": "openwrt-brcm63xx-generic-FAST2704N",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-FAST2704N-squashfs-cfe.bin",
+      "sha256": "097f768b108ac7ed9047f21c6e74680c669964a116346cc1468ddcb30910c564",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "F@st 2704N",
+      "vendor": "Sagemcom"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

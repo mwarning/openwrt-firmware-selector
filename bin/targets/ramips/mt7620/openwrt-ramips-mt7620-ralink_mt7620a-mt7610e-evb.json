@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-ralink_mt7620a-mt7610e-evb-squashfs-sysupgrade.bin",
-      "sha256": "f501ad621681c1a6d91ee9545c4de3c8f7a0e9ab1816a46a19244ff7c3b4bd48",
+      "sha256": "f00ffe73548e4fc8a8776d0fe2c9046bf719e00fa741ec5fcce038138e1886bb",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "MediaTek"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

@@ -1,0 +1,21 @@
+{
+  "id": "standard",
+  "image_prefix": "openwrt-brcm47xx-legacy-standard",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-standard-squashfs.trx",
+      "sha256": "258c7f1684e7f0778c01ece2e2de6a16412c7a85de52b8c44f018ebf2b7e7fd8",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "title": "Image with LZMA loader and LZMA compressed kernel"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

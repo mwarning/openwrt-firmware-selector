@@ -1,0 +1,29 @@
+{
+  "id": "netgear_wndap620",
+  "image_prefix": "openwrt-apm821xx-nand-netgear_wndap620",
+  "images": [
+    {
+      "name": "openwrt-apm821xx-nand-netgear_wndap620-squashfs-sysupgrade.bin",
+      "sha256": "50158682909e31d846a2012d0816d0d72bc7cce06375e392e183131e08fa17f8",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-apm821xx-nand-netgear_wndap620-squashfs-factory.img",
+      "sha256": "94e1d2351db2befc22729b0057af203b85d07b21d7ebeff34ca8ea97ff21ca9c",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wndap620"
+  ],
+  "target": "apm821xx/nand",
+  "titles": [
+    {
+      "model": "WNDAP620 (Premium Wireless-N)",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bt_homehub-v2b",
+  "image_prefix": "openwrt-lantiq-xway-bt_homehub-v2b",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-bt_homehub-v2b-squashfs-sysupgrade.bin",
+      "sha256": "eb1b88096363f6049297d7699dfdc55ed4930feb29b51f3552a6644d83452bc0",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "bt,homehub-v2b",
+    "BTHOMEHUBV2B"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "Home Hub 2",
+      "variant": "Type B",
+      "vendor": "British Telecom"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

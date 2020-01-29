@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-planex_mzk-750dhp-squashfs-sysupgrade.bin",
-      "sha256": "ec717ffdac2894c41bc65afe39011be8f9190ff14d97f46b3c659cf499c4de12",
+      "sha256": "687b3d6373db811d4864269b3c9ac83250cd74fe9c6f2552173ed4cc3006b85c",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Planex"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

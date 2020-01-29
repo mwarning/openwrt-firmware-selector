@@ -1,0 +1,22 @@
+{
+  "id": "SR102",
+  "image_prefix": "openwrt-brcm63xx-generic-SR102",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-SR102-squashfs-cfe.bin",
+      "sha256": "da5c2beaaf3c750e8a08d2d282d0a7a137f21a2a1aaca96ba3967e4940b34e76",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "SR102",
+      "vendor": "SKY"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "tplink_archer-c20-v5",
+  "image_prefix": "openwrt-ramips-mt76x8-tplink_archer-c20-v5",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_archer-c20-v5-squashfs-sysupgrade.bin",
+      "sha256": "4be9483090d005e90abb0e93caa38631015ebb7a5f5d19f6b4ef3f24280b4011",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c20-v5"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "Archer C20",
+      "variant": "v5",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

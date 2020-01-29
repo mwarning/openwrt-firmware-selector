@@ -1,0 +1,29 @@
+{
+  "id": "cilab_meshpoint-one",
+  "image_prefix": "openwrt-ipq40xx-generic-cilab_meshpoint-one",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-cilab_meshpoint-one-squashfs-nand-sysupgrade.bin",
+      "sha256": "e696149afbcacef3e03c476cd2e8515e6e2b2e7a3ecaaa6f8e2c21aeec376c63",
+      "type": "nand-sysupgrade"
+    },
+    {
+      "name": "openwrt-ipq40xx-generic-cilab_meshpoint-one-squashfs-nand-factory.ubi",
+      "sha256": "d03e79f898242bb55d1a1a9ed409573c2ae4430cbfa17d52f80ca0d470f8f449",
+      "type": "nand-factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cilab,meshpoint-one"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "MeshPoint.One",
+      "vendor": "Crisis Innovation Lab"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "netgear_wndr4700",
+  "image_prefix": "openwrt-apm821xx-nand-netgear_wndr4700",
+  "images": [
+    {
+      "name": "openwrt-apm821xx-nand-netgear_wndr4700-squashfs-sysupgrade.bin",
+      "sha256": "0c7b46b828efb38375c794595587050013afe5a80d1d44447cb97fb51359b6a0",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-apm821xx-nand-netgear_wndr4700-squashfs-factory.img",
+      "sha256": "6c5eef1734ca478977116c6d1086622dc047668496bb867b2121730ad1b32bcc",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wndr4700",
+    "wndr4700"
+  ],
+  "target": "apm821xx/nand",
+  "titles": [
+    {
+      "model": "Centria N900 WNDR4700/WNDR4720",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

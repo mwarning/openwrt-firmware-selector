@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-openmesh_om5p-ac-v2-squashfs-sysupgrade.bin",
-      "sha256": "8dd4c5ad71c0d676650e2e4332a8ae79cd06dd00ac947f295e43b5ec3136be89",
+      "sha256": "89c5b5d9e2158595d7a9e4c713742eda6040f5439a9c283c7b7a59995942661e",
       "type": "sysupgrade"
     }
   ],
@@ -21,6 +21,6 @@
       "vendor": "OpenMesh"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

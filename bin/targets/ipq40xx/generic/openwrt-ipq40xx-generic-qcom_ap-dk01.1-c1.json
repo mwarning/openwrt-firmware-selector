@@ -1,0 +1,25 @@
+{
+  "id": "qcom_ap-dk01.1-c1",
+  "image_prefix": "openwrt-ipq40xx-generic-qcom_ap-dk01.1-c1",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-qcom_ap-dk01.1-c1-squashfs-sysupgrade.bin",
+      "sha256": "3050b9d4e636dc6800974a63f7874e356c9e9d9aaee06726a5ac223b4100dc59",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "qcom,ap-dk01.1-c1"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "AP-DK01.1",
+      "variant": "C1",
+      "vendor": "Qualcomm Atheros"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

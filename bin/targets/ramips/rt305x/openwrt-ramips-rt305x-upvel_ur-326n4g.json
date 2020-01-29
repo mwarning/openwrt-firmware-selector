@@ -1,0 +1,25 @@
+{
+  "id": "upvel_ur-326n4g",
+  "image_prefix": "openwrt-ramips-rt305x-upvel_ur-326n4g",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-upvel_ur-326n4g-squashfs-sysupgrade.bin",
+      "sha256": "66096863e1e777df481248295d778a66f3241a598080fcaa1506f95637c1e865",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "upvel,ur-326n4g",
+    "ur-326n4g"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "UR-326N4G",
+      "vendor": "UPVEL"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

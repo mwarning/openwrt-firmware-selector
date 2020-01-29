@@ -1,0 +1,25 @@
+{
+  "id": "teltonika_rut5xx",
+  "image_prefix": "openwrt-ramips-rt305x-teltonika_rut5xx",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-teltonika_rut5xx-squashfs-sysupgrade.bin",
+      "sha256": "e7a91cfc2fb70e63b88e723c5652df3543179478547d97cf91d4da3fe23894f3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "teltonika,rut5xx",
+    "rut5xx"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "RUT5XX",
+      "vendor": "Teltonika"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-kingston_mlwg2-squashfs-sysupgrade.bin",
-      "sha256": "3be521e9d28b947971720b59a463ddf7c812867238749dd44e90b199fcf99ad9",
+      "sha256": "8cfe4fa8c1f5fc7339281cd9606bceff502a9feb2c2035a515e698560a5dba66",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Kingston"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

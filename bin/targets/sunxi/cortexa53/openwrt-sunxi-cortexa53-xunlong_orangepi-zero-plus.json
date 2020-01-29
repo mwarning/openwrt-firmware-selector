@@ -1,0 +1,29 @@
+{
+  "id": "xunlong_orangepi-zero-plus",
+  "image_prefix": "openwrt-sunxi-cortexa53-xunlong_orangepi-zero-plus",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa53-xunlong_orangepi-zero-plus-ext4-sdcard.img.gz",
+      "sha256": "54636a2a3fbefeaf02d29cdc08d5077e0256fc23d231b23f60816ca68bfc8c4d",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa53-xunlong_orangepi-zero-plus-squashfs-sdcard.img.gz",
+      "sha256": "985f36992cd1c15214e48b0452db994fae887f0044ad9abca0fd3e483d028302",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xunlong,orangepi-zero-plus"
+  ],
+  "target": "sunxi/cortexa53",
+  "titles": [
+    {
+      "model": "Orange Pi Zero Plus",
+      "vendor": "Xunlong"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "globalscale_espressobin-v7-emmc",
+  "image_prefix": "openwrt-mvebu-cortexa53-globalscale_espressobin-v7-emmc",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa53-globalscale_espressobin-v7-emmc-ext4-sdcard.img.gz",
+      "sha256": "6490259829bd503e110bdff201075803b6f97cf65443c1eaccf4ca247b1e6bec",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-mvebu-cortexa53-globalscale_espressobin-v7-emmc-squashfs-sdcard.img.gz",
+      "sha256": "df8d1e8ec7f2f4a5309310291aab98ffb1d0c715b3e85c8de59b2a0cd4f8ee65",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "globalscale,espressobin-v7-emmc"
+  ],
+  "target": "mvebu/cortexa53",
+  "titles": [
+    {
+      "model": "ESPRESSObin",
+      "variant": "V7 eMMC",
+      "vendor": "Marvell"
+    },
+    {
+      "model": "Armada 3700 Community Board",
+      "variant": "V7 eMMC",
+      "vendor": "Marvell"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

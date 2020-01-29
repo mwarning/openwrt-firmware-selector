@@ -1,0 +1,25 @@
+{
+  "id": "lantiq_easy80920-nor",
+  "image_prefix": "openwrt-lantiq-xrx200-lantiq_easy80920-nor",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-lantiq_easy80920-nor-squashfs-sysupgrade.bin",
+      "sha256": "03ff9b839977a2fc0d78b2497c60fa18e067b009ea5f417777927d0d468fad94",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lantiq,easy80920-nor"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "VR9 EASY80920",
+      "variant": "NOR",
+      "vendor": "Lantiq"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

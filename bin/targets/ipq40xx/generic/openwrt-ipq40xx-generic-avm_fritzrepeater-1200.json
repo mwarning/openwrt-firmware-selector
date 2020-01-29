@@ -1,0 +1,24 @@
+{
+  "id": "avm_fritzrepeater-1200",
+  "image_prefix": "openwrt-ipq40xx-generic-avm_fritzrepeater-1200",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-avm_fritzrepeater-1200-squashfs-sysupgrade.bin",
+      "sha256": "cbbc95e30f0fe58154d31e1615e1cce291817b18c933e90abd86212d38e2bd2a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "avm,fritzrepeater-1200"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "FRITZ!Repeater 1200",
+      "vendor": "AVM"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

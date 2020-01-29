@@ -1,0 +1,30 @@
+{
+  "id": "lantiq_easy80920-nand",
+  "image_prefix": "openwrt-lantiq-xrx200-lantiq_easy80920-nand",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-lantiq_easy80920-nand-squashfs-sysupgrade.bin",
+      "sha256": "95e6879e8d4f661ebc892a3431017c9d9209a1cec6debdde0c81c1762e1a83a4",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-lantiq-xrx200-lantiq_easy80920-nand-squashfs-fullimage.bin",
+      "sha256": "852d429fa66e8ae81ea0f9e763c6aafcbe0451b181e63a8480e50d7d940e4a7a",
+      "type": "fullimage"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lantiq,easy80920-nand"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "VR9 EASY80920",
+      "variant": "NAND",
+      "vendor": "Lantiq"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

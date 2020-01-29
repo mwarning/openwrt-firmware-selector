@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-jcg_jhr-ac876m-squashfs-sysupgrade.bin",
-      "sha256": "8a6f21f24cc07f522b0281e4e713b3c0e811103a2c9a2ab62b1fe668eb1365c7",
+      "sha256": "021079ab3a34134ffd09a78d53f93b553e60eb303d57133cfa60d6535cf6670a",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-jcg_jhr-ac876m-squashfs-factory.bin",
-      "sha256": "c58c8173410c9f5e86f6556ff7b4557776f7a7a0e21c12c4f993ce95d58cd259",
+      "sha256": "e8075b56c74a646938c02cceadd1088fa08fc9e00317eb2a33aca2b8e02c9b59",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "JCG"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

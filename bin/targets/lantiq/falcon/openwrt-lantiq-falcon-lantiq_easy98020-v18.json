@@ -1,0 +1,25 @@
+{
+  "id": "lantiq_easy98020-v18",
+  "image_prefix": "openwrt-lantiq-falcon-lantiq_easy98020-v18",
+  "images": [
+    {
+      "name": "openwrt-lantiq-falcon-lantiq_easy98020-v18-squashfs-sysupgrade.bin",
+      "sha256": "496a1c95611414ff7500e01d58db5d982f03767adf9794b2f0c44e08011bad06",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lantiq,easy98020-v18"
+  ],
+  "target": "lantiq/falcon",
+  "titles": [
+    {
+      "model": "Falcon SFU Reference Board (EASY98020)",
+      "variant": "v1.8",
+      "vendor": "Lantiq"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

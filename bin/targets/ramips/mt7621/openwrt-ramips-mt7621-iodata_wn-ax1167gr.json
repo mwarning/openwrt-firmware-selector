@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-iodata_wn-ax1167gr-squashfs-sysupgrade.bin",
-      "sha256": "99a5d1af42b113e558445fab64e605eb9c432e2bac39b552cad0ab1ab521daad",
+      "sha256": "df949b135f0d83d88480763a630a858544aca982c10449cdcde2e960dded83b1",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "I-O DATA"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

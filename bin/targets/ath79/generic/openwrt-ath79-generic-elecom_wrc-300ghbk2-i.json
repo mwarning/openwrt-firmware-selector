@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-elecom_wrc-300ghbk2-i-squashfs-sysupgrade.bin",
-      "sha256": "6c68d71b6867f1fac66d952cca916020b78d61d452fd65c2f5f4f19554af88e9",
+      "sha256": "cf6ebabb44404f85f56ed8c922a870d0a4c2d91bf849436417ad481a3027ed5c",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "ELECOM"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

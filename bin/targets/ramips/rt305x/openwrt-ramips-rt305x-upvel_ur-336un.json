@@ -1,0 +1,25 @@
+{
+  "id": "upvel_ur-336un",
+  "image_prefix": "openwrt-ramips-rt305x-upvel_ur-336un",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-upvel_ur-336un-squashfs-sysupgrade.bin",
+      "sha256": "25e7df710bd75f315a85dd7040a05a6325a1f5304b9e610b728db36a4f793d47",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "upvel,ur-336un",
+    "ur-336un"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "UR-336UN",
+      "vendor": "UPVEL"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

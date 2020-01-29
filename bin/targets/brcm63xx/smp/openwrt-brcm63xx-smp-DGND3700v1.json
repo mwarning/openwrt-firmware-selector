@@ -1,0 +1,28 @@
+{
+  "id": "DGND3700v1",
+  "image_prefix": "openwrt-brcm63xx-smp-DGND3700v1",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-DGND3700v1-squashfs-factory.chk",
+      "sha256": "ace510d3b14c0dcc31f14bfbd57bf384a69eff2b7559c61272250e731ea532fe",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-brcm63xx-smp-DGND3700v1-squashfs-sysupgrade.bin",
+      "sha256": "51b728a889d0ab83b9fe2358ee529f65f1798b7af37ddbe2c1dccd6a4fddefe0",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "DGND3700",
+      "variant": "v1",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

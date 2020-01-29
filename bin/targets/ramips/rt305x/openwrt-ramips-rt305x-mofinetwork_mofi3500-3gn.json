@@ -1,0 +1,25 @@
+{
+  "id": "mofinetwork_mofi3500-3gn",
+  "image_prefix": "openwrt-ramips-rt305x-mofinetwork_mofi3500-3gn",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-mofinetwork_mofi3500-3gn-squashfs-sysupgrade.bin",
+      "sha256": "c0c234b4070eafef591d17e436fe6c92520c56c3162671d96b86174417026f3f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mofinetwork,mofi3500-3gn",
+    "mofi3500-3gn"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "MOFI3500-3GN",
+      "vendor": "MoFi Network"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

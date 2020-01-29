@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-zbtlink_zbt-wg3526-32m-squashfs-sysupgrade.bin",
-      "sha256": "93ef829793a09e212c1ade5b62885d5f563287b49f7c3907ead75c20c84a8bd1",
+      "sha256": "bb6627421c81b7f1fb9906e70ccc537e15cd0b847d74fa89bfd9240e505342fc",
       "type": "sysupgrade"
     }
   ],
@@ -22,6 +22,6 @@
       "vendor": "Zbtlink"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

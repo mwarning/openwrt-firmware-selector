@@ -1,0 +1,25 @@
+{
+  "id": "xiaomi_mir4a-100m",
+  "image_prefix": "openwrt-ramips-mt76x8-xiaomi_mir4a-100m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-xiaomi_mir4a-100m-squashfs-sysupgrade.bin",
+      "sha256": "e35e618bb6f36aa7d4e9a8c1e014ace8ca6d42e5b1a6bb206fe0bf4d53e1bb05",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xiaomi,mir4a-100m"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "Mi Router 4A",
+      "variant": "100M Edition",
+      "vendor": "Xiaomi"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

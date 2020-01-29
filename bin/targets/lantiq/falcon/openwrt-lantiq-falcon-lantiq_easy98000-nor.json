@@ -1,0 +1,25 @@
+{
+  "id": "lantiq_easy98000-nor",
+  "image_prefix": "openwrt-lantiq-falcon-lantiq_easy98000-nor",
+  "images": [
+    {
+      "name": "openwrt-lantiq-falcon-lantiq_easy98000-nor-squashfs-sysupgrade.bin",
+      "sha256": "e9547669125085ff445b16650e29f85ce41b96480b87b1f03009aa8e51a97775",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lantiq,easy98000-nor"
+  ],
+  "target": "lantiq/falcon",
+  "titles": [
+    {
+      "model": "EASY98000 Falcon Eval Board",
+      "variant": "NOR",
+      "vendor": "Lantiq"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

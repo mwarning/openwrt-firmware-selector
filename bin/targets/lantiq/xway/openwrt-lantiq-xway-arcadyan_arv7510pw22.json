@@ -1,0 +1,29 @@
+{
+  "id": "arcadyan_arv7510pw22",
+  "image_prefix": "openwrt-lantiq-xway-arcadyan_arv7510pw22",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-arcadyan_arv7510pw22-squashfs-sysupgrade.bin",
+      "sha256": "660b828264ee9a7f691f69644a2cb452fc365c3cbc21776721fd9c67d6854a17",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "arcadyan,arv7510pw22",
+    "ARV7510PW22"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "ARV7510PW22",
+      "vendor": "Arcadyan"
+    },
+    {
+      "model": "ARV7510PW22",
+      "vendor": "Astoria Networks"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

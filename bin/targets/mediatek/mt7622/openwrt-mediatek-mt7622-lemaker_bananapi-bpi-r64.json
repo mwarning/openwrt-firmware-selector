@@ -1,0 +1,24 @@
+{
+  "id": "lemaker_bananapi-bpi-r64",
+  "image_prefix": "openwrt-mediatek-mt7622-lemaker_bananapi-bpi-r64",
+  "images": [
+    {
+      "name": "openwrt-mediatek-mt7622-lemaker_bananapi-bpi-r64-squashfs-sysupgrade.bin",
+      "sha256": "e5d4b5fa1ba10679eb154e2e8abc4b1f474ed8c54e4e8e393902ac72a26d0cdc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "bananapi,bpi-r64"
+  ],
+  "target": "mediatek/mt7622",
+  "titles": [
+    {
+      "model": "Banana Pi R64",
+      "vendor": "LeMaker"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

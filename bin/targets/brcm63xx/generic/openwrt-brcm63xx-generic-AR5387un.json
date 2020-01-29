@@ -1,0 +1,27 @@
+{
+  "id": "AR5387un",
+  "image_prefix": "openwrt-brcm63xx-generic-AR5387un",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-AR5387un-squashfs-cfe.bin",
+      "sha256": "df54fb0073a79184d074e07eae7e0311709f1053beb4a14856ee0e4689e96f2e",
+      "type": "cfe"
+    },
+    {
+      "name": "openwrt-brcm63xx-generic-AR5387un-squashfs-sysupgrade.bin",
+      "sha256": "806a8b84bfc98943d172b30d2eb964d7e11c3f7750797d5f07d3f2249ce364a9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "AR-5387un",
+      "vendor": "Comtrend"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

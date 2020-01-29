@@ -1,0 +1,24 @@
+{
+  "id": "lantiq_falcon-sfp",
+  "image_prefix": "openwrt-lantiq-falcon-lantiq_falcon-sfp",
+  "images": [
+    {
+      "name": "openwrt-lantiq-falcon-lantiq_falcon-sfp-squashfs-sysupgrade.bin",
+      "sha256": "695250e7ccb57fedb38fd633861dd95c665b7cd2caa77ffb3715f69146b9f3c1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lantiq,falcon-sfp"
+  ],
+  "target": "lantiq/falcon",
+  "titles": [
+    {
+      "model": "Falcon SFP Stick",
+      "vendor": "Lantiq"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

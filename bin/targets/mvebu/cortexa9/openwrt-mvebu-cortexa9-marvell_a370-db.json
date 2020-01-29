@@ -1,0 +1,25 @@
+{
+  "id": "marvell_a370-db",
+  "image_prefix": "openwrt-mvebu-cortexa9-marvell_a370-db",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa9-marvell_a370-db-squashfs-sysupgrade.bin",
+      "sha256": "d03910d2605991aa7321cef383a93857dd9e50499f4b47c6f4d258385f72a920",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "marvell,a370-db",
+    "armada-370-db"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "Armada 370 Development Board (DB-88F6710-BP-DDR3)",
+      "vendor": "Marvell"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

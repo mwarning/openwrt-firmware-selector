@@ -1,0 +1,31 @@
+{
+  "id": "nexx_wt1520-8m",
+  "image_prefix": "openwrt-ramips-rt305x-nexx_wt1520-8m",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-nexx_wt1520-8m-squashfs-sysupgrade.bin",
+      "sha256": "aa19bba61b5053594de639097058cadd3b98132657a878e1a240e342e112dcc5",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-nexx_wt1520-8m-squashfs-factory.bin",
+      "sha256": "00dedd569ce36442819eaeff970e08606a1698fa77bb94edb72fc3c358a353e8",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "nexx,wt1520-8m",
+    "wt1520-8M"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "WT1520",
+      "variant": "8M",
+      "vendor": "Nexx"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "asus-rt-n10p-v2",
+  "image_prefix": "openwrt-brcm47xx-mips74k-asus-rt-n10p-v2",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-asus-rt-n10p-v2-squashfs.trx",
+      "sha256": "afcec96b02f66424978a03bd5f65d367fa6ba0769d76146c3cf264af96b982bb",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "RT-N10P",
+      "variant": "v2",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

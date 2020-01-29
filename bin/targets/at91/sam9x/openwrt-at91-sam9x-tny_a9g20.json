@@ -1,0 +1,27 @@
+{
+  "id": "tny_a9g20",
+  "image_prefix": "openwrt-at91-sam9x-tny_a9g20",
+  "images": [
+    {
+      "name": "openwrt-at91-sam9x-tny_a9g20-ubifs-factory.bin",
+      "sha256": "a4167bab59de3c4092f6b43c2240917af4715de5c4e8924031cb0d6de94f9fde",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-at91-sam9x-tny_a9g20-squashfs-factory.bin",
+      "sha256": "44d5fac366b30988676f4209ec8cec0054875caf52dc99bcc59ba08b7d98641a",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "TNYA9G20",
+      "vendor": "Calao"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

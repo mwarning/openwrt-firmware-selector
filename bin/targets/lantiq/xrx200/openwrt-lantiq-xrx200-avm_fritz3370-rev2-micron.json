@@ -1,0 +1,35 @@
+{
+  "id": "avm_fritz3370-rev2-micron",
+  "image_prefix": "openwrt-lantiq-xrx200-avm_fritz3370-rev2-micron",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-avm_fritz3370-rev2-micron-squashfs-sysupgrade.bin",
+      "sha256": "09f97461ea23667a7d41f734d378415ecf4845a4727eb400c5150df17ca58214",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-lantiq-xrx200-avm_fritz3370-rev2-micron-squashfs-eva-kernel.bin",
+      "sha256": "cce70fc3b0eb1744b9496564342e0f8f586b4535f356bbe14cec67573fada8bf",
+      "type": "eva-kernel"
+    },
+    {
+      "name": "openwrt-lantiq-xrx200-avm_fritz3370-rev2-micron-squashfs-eva-filesystem.bin",
+      "sha256": "996159c11374da0422a8669826fde379c3585ecd9d690cce992831dace42748c",
+      "type": "eva-filesystem"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "avm,fritz3370-rev2-micron"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "FRITZ!Box 3370",
+      "variant": "Rev. 2 (Micron NAND)",
+      "vendor": "AVM"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

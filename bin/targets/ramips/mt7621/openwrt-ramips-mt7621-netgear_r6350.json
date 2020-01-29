@@ -3,23 +3,23 @@
   "image_prefix": "openwrt-ramips-mt7621-netgear_r6350",
   "images": [
     {
-      "name": "openwrt-ramips-mt7621-netgear_r6350-squashfs-kernel.bin",
-      "sha256": "120192dc3f0874f2d067f6cfe67d61d44475217d1931b256b0b082ae9a7cb8df",
-      "type": "kernel"
-    },
-    {
       "name": "openwrt-ramips-mt7621-netgear_r6350-squashfs-sysupgrade.bin",
-      "sha256": "20d965c3e3f7181ff517e002cc36fdfbb3c96cc52a056334bd984c2bc2097853",
+      "sha256": "14b39ac049a7ad6c16ff5797cf1546387f7d3c27e1b27d9d2385494912ae9155",
       "type": "sysupgrade"
     },
     {
+      "name": "openwrt-ramips-mt7621-netgear_r6350-squashfs-kernel.bin",
+      "sha256": "deb2ef6886ffd5f34d9cbd59bc999ce895dcb826888897e7eb5284db14fb241f",
+      "type": "kernel"
+    },
+    {
       "name": "openwrt-ramips-mt7621-netgear_r6350-squashfs-factory.img",
-      "sha256": "49399c2755512fd987f6747b362c144969d1ff1c71be562b4a271bf679a58e49",
+      "sha256": "71f722ff98b2e11279c2289418ab559eae01df7853e76266d1f11c18f105b6a0",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_r6350-squashfs-rootfs.bin",
-      "sha256": "414f05c92ddb2b1637143b3e0423e327a317895cf7934295efe725ea6dd56c8b",
+      "sha256": "3ae1f59c35e3620ab04c51ed283ab28a592fe5e6971684f58c285b20dfe80740",
       "type": "rootfs"
     }
   ],
@@ -34,6 +34,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-edimax_ew-7478apc-squashfs-sysupgrade.bin",
-      "sha256": "4aedd0af07737e397ca6a5bf99ea358780ee589ed8d1f4d2f29a502fd62a219c",
+      "sha256": "29bc2d8a38e66d23781decf92f8b975a14efa983e3469004b435937344b8e173",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Edimax"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

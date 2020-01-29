@@ -1,0 +1,23 @@
+{
+  "id": "netgear-wndr3400-v1",
+  "image_prefix": "openwrt-brcm47xx-mips74k-netgear-wndr3400-v1",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-netgear-wndr3400-v1-squashfs.chk",
+      "sha256": "89f7246305fe11f0368799c25256d0e29a6ebd63c7d3292cd2e3fb45c8d0e8dd",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "WNDR3400",
+      "variant": "v1",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

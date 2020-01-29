@@ -1,0 +1,25 @@
+{
+  "id": "huawei_hg255d",
+  "image_prefix": "openwrt-ramips-rt305x-huawei_hg255d",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-huawei_hg255d-squashfs-sysupgrade.bin",
+      "sha256": "73c75e1e9f27c0be830dbbc2c1bea422684c1a19775e182565744bc28c9fda81",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "huawei,hg255d",
+    "hg255d"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "HG255D",
+      "vendor": "HuaWei"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

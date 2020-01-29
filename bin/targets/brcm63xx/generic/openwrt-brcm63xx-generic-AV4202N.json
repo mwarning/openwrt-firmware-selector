@@ -1,0 +1,22 @@
+{
+  "id": "AV4202N",
+  "image_prefix": "openwrt-brcm63xx-generic-AV4202N",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-AV4202N-squashfs-cfe.bin",
+      "sha256": "872eed2ce7b02fa64792f878e1f72469e1e476bba48fa10fc820ec0372fb93b7",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "P.DG AV4202N",
+      "vendor": "ADB"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-zbtlink_zbt-wd323-squashfs-sysupgrade.bin",
-      "sha256": "6683bba77cfc81e12ec36504a61dfc5a64d1271e05ac5c65b5320c5d9b58e019",
+      "sha256": "453ac8bfab57b261958572080c1ed5bc54b4aad086cbb7a36ddc5a35afe552a6",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "ZBT"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

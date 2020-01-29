@@ -1,0 +1,29 @@
+{
+  "id": "friendlyarm_nanopi-neo",
+  "image_prefix": "openwrt-sunxi-cortexa7-friendlyarm_nanopi-neo",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa7-friendlyarm_nanopi-neo-squashfs-sdcard.img.gz",
+      "sha256": "3ec0bf4fc9f70704d43a4fc7a6b5d37a84219c5ada24b7d05a0dde5d44fb58a6",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa7-friendlyarm_nanopi-neo-ext4-sdcard.img.gz",
+      "sha256": "a5cee126e3cd06a2940be6fe090b90c7ac8038b8cf7e76fcd07ea32abd871cb8",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "friendlyarm,nanopi-neo"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "NanoPi NEO",
+      "vendor": "FriendlyARM"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

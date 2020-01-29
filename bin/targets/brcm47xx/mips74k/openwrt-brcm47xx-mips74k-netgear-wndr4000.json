@@ -1,0 +1,23 @@
+{
+  "id": "netgear-wndr4000",
+  "image_prefix": "openwrt-brcm47xx-mips74k-netgear-wndr4000",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-netgear-wndr4000-squashfs.chk",
+      "sha256": "762c9eaf156e889041fccc7821e304e6ff26388de0394ecb8d42f019d7c49ce9",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "WNDR4000",
+      "variant": "v1",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

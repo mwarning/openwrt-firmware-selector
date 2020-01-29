@@ -1,0 +1,29 @@
+{
+  "id": "compex_wpq864",
+  "image_prefix": "openwrt-ipq806x-generic-compex_wpq864",
+  "images": [
+    {
+      "name": "openwrt-ipq806x-generic-compex_wpq864-squashfs-nand-factory.bin",
+      "sha256": "4bdd7a70609060987b69d689c954cefb93bdc41dff4eb15056f06c1a20013b05",
+      "type": "nand-factory"
+    },
+    {
+      "name": "openwrt-ipq806x-generic-compex_wpq864-squashfs-nand-sysupgrade.bin",
+      "sha256": "8584fe4fb3d13b95a4727b0ba1e3c3038688889df7ea039384e7a3a577112c2d",
+      "type": "nand-sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "compex,wpq864"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "WPQ864",
+      "vendor": "Compex"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "trendnet_tew-714tru",
+  "image_prefix": "openwrt-ramips-rt305x-trendnet_tew-714tru",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-trendnet_tew-714tru-squashfs-sysupgrade.bin",
+      "sha256": "68911c7288986f0d49df75d9a0889bed092e49e4a040083b994e6dd097b26eaa",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "trendnet,tew-714tru",
+    "tew-714tru"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "TEW-714TRU",
+      "vendor": "TRENDnet"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

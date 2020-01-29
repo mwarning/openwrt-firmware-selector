@@ -1,0 +1,30 @@
+{
+  "id": "tplink_tl-mr3420-v5",
+  "image_prefix": "openwrt-ramips-mt76x8-tplink_tl-mr3420-v5",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-mr3420-v5-squashfs-sysupgrade.bin",
+      "sha256": "7ac970d6fa66f7930e4cb485030328688102b7a5f4316af3a971770cb0cedd78",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-mr3420-v5-squashfs-tftp-recovery.bin",
+      "sha256": "d01d869a3dd0c8db28ebaf268847b0920c8da86309a1f0ffd3c7221182c45545",
+      "type": "tftp-recovery"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-mr3420-v5"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "TL-MR3420",
+      "variant": "v5",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

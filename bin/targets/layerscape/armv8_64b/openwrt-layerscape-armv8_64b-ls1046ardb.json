@@ -1,0 +1,23 @@
+{
+  "id": "ls1046ardb",
+  "image_prefix": "openwrt-layerscape-armv8_64b-ls1046ardb",
+  "images": [
+    {
+      "name": "openwrt-layerscape-armv8_64b-ls1046ardb-ubifs-firmware.bin",
+      "sha256": "fe3c4c0a250ce70fa1abef91a0fc90f2e6c0661cc4a5e17996ce001f02f5e8aa",
+      "type": "firmware"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "layerscape/armv8_64b",
+  "titles": [
+    {
+      "model": "LS1046A-RDB",
+      "variant": "Default",
+      "vendor": "NXP"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

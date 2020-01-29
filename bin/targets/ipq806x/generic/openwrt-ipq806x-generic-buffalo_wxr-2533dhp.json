@@ -1,0 +1,24 @@
+{
+  "id": "buffalo_wxr-2533dhp",
+  "image_prefix": "openwrt-ipq806x-generic-buffalo_wxr-2533dhp",
+  "images": [
+    {
+      "name": "openwrt-ipq806x-generic-buffalo_wxr-2533dhp-squashfs-sysupgrade.bin",
+      "sha256": "3e74efa0276eb33bb02d8fb4f2be8e12592ce226100298f286a8022baadd17f5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,wxr-2533dhp"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "WXR-2533DHP",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

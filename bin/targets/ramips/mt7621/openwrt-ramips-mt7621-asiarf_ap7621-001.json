@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-asiarf_ap7621-001-squashfs-sysupgrade.bin",
-      "sha256": "6825af812eaafed706f0b0d885589a2d87f7a3b16025bb8e7c117b1fc0bbb62f",
+      "sha256": "b0c4845203af3e598e1cd028fbfdf80e390d6fb8d7eafd0ecb5547305100b6f0",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "AsiaRF"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

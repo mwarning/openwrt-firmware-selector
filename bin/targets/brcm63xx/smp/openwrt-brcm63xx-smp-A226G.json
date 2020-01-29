@@ -1,0 +1,22 @@
+{
+  "id": "A226G",
+  "image_prefix": "openwrt-brcm63xx-smp-A226G",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-A226G-squashfs-cfe.bin",
+      "sha256": "6fd4e9c568a5084c4644aff2e0dcb185b5c414dec3a0a7004473a6240a257771",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "A226G",
+      "vendor": "Pirelli"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

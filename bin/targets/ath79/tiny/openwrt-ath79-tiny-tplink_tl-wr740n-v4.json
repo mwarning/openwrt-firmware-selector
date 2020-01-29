@@ -1,0 +1,30 @@
+{
+  "id": "tplink_tl-wr740n-v4",
+  "image_prefix": "openwrt-ath79-tiny-tplink_tl-wr740n-v4",
+  "images": [
+    {
+      "name": "openwrt-ath79-tiny-tplink_tl-wr740n-v4-squashfs-factory.bin",
+      "sha256": "9296a84b907019ece3de81c27846f0f884b2a1eab143dbdded38f99480025ffc",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-tiny-tplink_tl-wr740n-v4-squashfs-sysupgrade.bin",
+      "sha256": "b108e75f2a894f1a01fa6007bdc39e31b6391512a7298069fba2697cf4114638",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr740n-v4"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "model": "TL-WR740N",
+      "variant": "v4",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

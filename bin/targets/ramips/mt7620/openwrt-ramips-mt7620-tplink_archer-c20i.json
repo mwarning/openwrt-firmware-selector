@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-tplink_archer-c20i-squashfs-sysupgrade.bin",
-      "sha256": "84f413faee97be998398c954abcd44cea7c3ea1701a41446953e6cef1e9db9ed",
+      "sha256": "66e2a1d227973fcec557e6a047481ddbadbbc3153d83e09fb9ac0a977401c096",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-tplink_archer-c20i-squashfs-factory.bin",
-      "sha256": "67ce50cbf63be41cb63229b69863d3b857a909b75e27278444809ae0b218f54f",
+      "sha256": "c26afe906b6646a64ae77495eebcb3bd86415c59e9355a5f8269752a74536d35",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

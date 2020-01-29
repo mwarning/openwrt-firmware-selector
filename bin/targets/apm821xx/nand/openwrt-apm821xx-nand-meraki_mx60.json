@@ -1,0 +1,25 @@
+{
+  "id": "meraki_mx60",
+  "image_prefix": "openwrt-apm821xx-nand-meraki_mx60",
+  "images": [
+    {
+      "name": "openwrt-apm821xx-nand-meraki_mx60-squashfs-sysupgrade.bin",
+      "sha256": "8b16754475685032852549b801ebf6ea9abf8927c3e49ae6e135545fd49446ac",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "meraki,mx60",
+    "mx60"
+  ],
+  "target": "apm821xx/nand",
+  "titles": [
+    {
+      "model": "MX60/MX60W",
+      "vendor": "Cisco Meraki"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

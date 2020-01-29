@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-mqmaker_witi-squashfs-sysupgrade.bin",
-      "sha256": "e395e6b9ba1caaf9eba0547eb817540675fcf2d9e878b2448ad55288e30dc619",
+      "sha256": "6b7d8a32561b610e2382ee4a522eb07bf61599dc12aa3a9d0c2f9764946cda92",
       "type": "sysupgrade"
     }
   ],
@@ -22,6 +22,6 @@
       "vendor": "MQmaker"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

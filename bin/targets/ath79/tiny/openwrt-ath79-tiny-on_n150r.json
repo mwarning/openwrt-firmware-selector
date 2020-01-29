@@ -1,0 +1,30 @@
+{
+  "id": "on_n150r",
+  "image_prefix": "openwrt-ath79-tiny-on_n150r",
+  "images": [
+    {
+      "name": "openwrt-ath79-tiny-on_n150r-squashfs-sysupgrade.bin",
+      "sha256": "ef178bc4a39f6c81e5930543b6353e1dcb5af367570646f5b081f67630c534c3",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-tiny-on_n150r-squashfs-factory.img",
+      "sha256": "f2e362acfb77ecc2f34f53d78ff9e32c2deed0c796964b5fac1073add41d0fe9",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "on,n150r",
+    "n150r"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "model": "N150R",
+      "vendor": "On Networks"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

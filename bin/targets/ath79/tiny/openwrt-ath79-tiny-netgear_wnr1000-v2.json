@@ -1,0 +1,31 @@
+{
+  "id": "netgear_wnr1000-v2",
+  "image_prefix": "openwrt-ath79-tiny-netgear_wnr1000-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-tiny-netgear_wnr1000-v2-squashfs-sysupgrade.bin",
+      "sha256": "9776a5e55e163a7ffecd0fa37b1632c720d5bd661d2ee6dec8ea3fac84bc7ece",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-tiny-netgear_wnr1000-v2-squashfs-factory.img",
+      "sha256": "73345ef343c3e29e0c15181ae3c324f984d5ba58aa7ea810591ce57581d8a3c4",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wnr1000-v2",
+    "wnr1000-v2"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "model": "WNR1000",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

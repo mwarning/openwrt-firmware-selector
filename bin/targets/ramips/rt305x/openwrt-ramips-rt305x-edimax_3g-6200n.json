@@ -1,0 +1,25 @@
+{
+  "id": "edimax_3g-6200n",
+  "image_prefix": "openwrt-ramips-rt305x-edimax_3g-6200n",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-edimax_3g-6200n-squashfs-sysupgrade.bin",
+      "sha256": "cbe0dcef5d0476f75efb2ef51238394413b1d39d73209cc63c67ed71013eb7bc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "edimax,3g-6200n",
+    "3g-6200n"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "3g-6200n",
+      "vendor": "Edimax"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ls1043ardb",
+  "image_prefix": "openwrt-layerscape-armv8_64b-ls1043ardb",
+  "images": [
+    {
+      "name": "openwrt-layerscape-armv8_64b-ls1043ardb-squashfs-firmware.bin",
+      "sha256": "394cddb0252823c30391df558a8beaf30032f54035190586490d0d2f748de39a",
+      "type": "firmware"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "layerscape/armv8_64b",
+  "titles": [
+    {
+      "model": "LS1043A-RDB",
+      "variant": "Default",
+      "vendor": "NXP"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

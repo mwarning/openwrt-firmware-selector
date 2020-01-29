@@ -1,0 +1,21 @@
+{
+  "id": "standard",
+  "image_prefix": "openwrt-brcm47xx-mips74k-standard",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-standard-squashfs.trx",
+      "sha256": "0d954ac61584629afbee92433ae97b895f34b277d5fe801c691aec79fa3f6f61",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "title": "Image with LZMA loader and LZMA compressed kernel"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

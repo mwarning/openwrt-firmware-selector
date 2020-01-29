@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-afoundry_ew1200-squashfs-sysupgrade.bin",
-      "sha256": "5d840df4ae2ef6037ef478ddbe88c56c6938494eabd1e2af3734faccd67569e3",
+      "sha256": "1ef0c923ca7190bd4eef878c4caaae0d4956a6ba750f952d8913ddbaf1f44f63",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "AFOUNDRY"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

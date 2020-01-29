@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ocedo_raccoon-squashfs-sysupgrade.bin",
-      "sha256": "214e2c7d90ebe10950ff726811148edea43981b958ddf0e1ef9368e4f0f6938e",
+      "sha256": "0fe65a82f1f95b184ca79d5be7511bcb9b384ee59486d18572537dafb46f1fc1",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Ocedo"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

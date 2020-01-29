@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-dlink_dir-810l-squashfs-sysupgrade.bin",
-      "sha256": "cff26c65fde7d032e50afb4a7cbc01806b48dcfa9346b1f19e3d706f68e1d33c",
+      "sha256": "b26bda94790721eab4e2b365f332baf4adff68c28de9a5550458e44fd2844bcc",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "D-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

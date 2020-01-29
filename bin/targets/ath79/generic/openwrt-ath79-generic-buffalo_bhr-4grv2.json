@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-buffalo_bhr-4grv2-squashfs-sysupgrade.bin",
-      "sha256": "e5a13f7d64cb181be43a8f5913c0e906d77d38e0fa78587da72dc2dd41df4d99",
+      "sha256": "e7d75921faa82137174f0a2513109d62482f19bf05bb2bf3d97b9cb36344b632",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Buffalo"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

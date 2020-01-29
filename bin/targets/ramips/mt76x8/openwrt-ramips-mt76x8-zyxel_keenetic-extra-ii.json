@@ -1,0 +1,29 @@
+{
+  "id": "zyxel_keenetic-extra-ii",
+  "image_prefix": "openwrt-ramips-mt76x8-zyxel_keenetic-extra-ii",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-zyxel_keenetic-extra-ii-squashfs-factory.bin",
+      "sha256": "2e7a2ed2ca7cfede503d40e0a1d550aadc278b22cc34a838eef4eeb275a55570",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-zyxel_keenetic-extra-ii-squashfs-sysupgrade.bin",
+      "sha256": "7da25634cde8d39ce238386b9c96c40989d0a04ae9a05cec5a3bbef3aba06701",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zyxel,keenetic-extra-ii"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "Keenetic Extra II",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

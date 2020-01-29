@@ -1,0 +1,22 @@
+{
+  "id": "AGPF-S0",
+  "image_prefix": "openwrt-brcm63xx-generic-AGPF-S0",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-AGPF-S0-squashfs-cfe.bin",
+      "sha256": "4e48db0338c5aadff3566a6544e9bac718596be39dbf099173ff7fdbbbf10ad7",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "Alice Gate VoIP 2 Plus Wi-Fi AGPF-S0",
+      "vendor": "Pirelli"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

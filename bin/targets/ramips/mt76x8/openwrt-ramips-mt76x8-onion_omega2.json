@@ -1,0 +1,25 @@
+{
+  "id": "onion_omega2",
+  "image_prefix": "openwrt-ramips-mt76x8-onion_omega2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-onion_omega2-squashfs-sysupgrade.bin",
+      "sha256": "23a0ba697a318fda344bb85edfe89936a5381fe9e391aa154dfe8dbd3de9198e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "onion,omega2",
+    "omega2"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "Omega2",
+      "vendor": "Onion"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

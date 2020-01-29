@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-glinet_gl-mt300a-squashfs-sysupgrade.bin",
-      "sha256": "cec99569b5c5b545d8423341ef985614d28ef413b5c51f2041a8151ed16ca2de",
+      "sha256": "c00c9f21dd1a02166ba9a4fb4ffc96b3a882fdab1dda496ddd5b495daf76b568",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "GL.iNet"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

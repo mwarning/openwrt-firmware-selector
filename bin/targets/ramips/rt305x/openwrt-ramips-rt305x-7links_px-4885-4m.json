@@ -1,0 +1,26 @@
+{
+  "id": "7links_px-4885-4m",
+  "image_prefix": "openwrt-ramips-rt305x-7links_px-4885-4m",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-7links_px-4885-4m-squashfs-sysupgrade.bin",
+      "sha256": "fc0cdbcc08f9c40c85ed27e5e0345f31e6b906371e4dadc51ae4676681da8742",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "7links,px-4885-4m",
+    "px-4885-4M"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "PX-4885",
+      "variant": "4M",
+      "vendor": "7Links"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

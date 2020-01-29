@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-comfast_cf-wr650ac-v2-squashfs-sysupgrade.bin",
-      "sha256": "43aa23adc003c1763c75c2db9d771b45e4ba634468eeacba6c1d2c16f7906909",
+      "sha256": "f1af5672b12ed892c068d0afef6c2faa871ddf78ed7beec7bbb33232bbf4d9af",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "COMFAST"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

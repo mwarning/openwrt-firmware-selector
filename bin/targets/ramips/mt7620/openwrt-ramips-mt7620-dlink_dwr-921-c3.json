@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-921-c3-squashfs-sysupgrade.bin",
-      "sha256": "02bd8b51850679ca138bc3262cd928d2733c0513dd89cab5fc4920f793e5ffd5",
+      "sha256": "bd945e261543a0f0ae282175e3f6bc105610d9b1ee82fb64e8c7f98562e6554c",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-921-c3-squashfs-factory.bin",
-      "sha256": "9141eee840067c79dc4154aa99bf3d3970b50e68723013e71a2847a14d027478",
+      "sha256": "a806f55a6f4db52df2bec9ad62e91e17ae8ee5c532575739bde794a310822dc9",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "D-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

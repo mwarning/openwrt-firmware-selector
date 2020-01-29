@@ -1,0 +1,25 @@
+{
+  "id": "netgear_dgn1000b",
+  "image_prefix": "openwrt-lantiq-ase-netgear_dgn1000b",
+  "images": [
+    {
+      "name": "openwrt-lantiq-ase-netgear_dgn1000b-squashfs-sysupgrade.bin",
+      "sha256": "e8b6dc5da7a36e54e0e8e8b7b14717053e8299e35fe5a030fbad909db89f3858",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,dgn1000b",
+    "DGN1000B"
+  ],
+  "target": "lantiq/ase",
+  "titles": [
+    {
+      "model": "DGN1000B",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

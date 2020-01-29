@@ -1,0 +1,22 @@
+{
+  "id": "linksys-wrt150n",
+  "image_prefix": "openwrt-brcm47xx-legacy-linksys-wrt150n",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-linksys-wrt150n-squashfs.bin",
+      "sha256": "0e22890cab7207dd1d4c312b8409038fae64bb61865e75f29d149e87cd22586d",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WRT150N",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

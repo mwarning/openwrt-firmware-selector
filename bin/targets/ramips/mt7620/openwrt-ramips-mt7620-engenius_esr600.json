@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-engenius_esr600-squashfs-sysupgrade.bin",
-      "sha256": "3ad5f2214988a6764426eb255733e69e604c7dbe43e486800e1e467646785b9b",
+      "sha256": "b246571957db08dd186f6202af2cc4c478696b2077515588325286cdbb4489cd",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-engenius_esr600-squashfs-factory.dlf",
-      "sha256": "ece15f15659247020be6c0740e7019af27c2410ed518f4031efd855c0dae0150",
+      "sha256": "94fd44e9f40654e9d20f0cd34e337ab4d4cf21cbd87e358f0a7036c32083d627",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "EnGenius"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

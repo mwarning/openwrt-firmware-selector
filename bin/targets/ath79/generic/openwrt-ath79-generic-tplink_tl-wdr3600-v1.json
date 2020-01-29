@@ -3,14 +3,14 @@
   "image_prefix": "openwrt-ath79-generic-tplink_tl-wdr3600-v1",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_tl-wdr3600-v1-squashfs-sysupgrade.bin",
-      "sha256": "d7ed9fa6399eb9af81248f99079f8885f5872fa4f85de5e4add60a6b02f0cddd",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_tl-wdr3600-v1-squashfs-factory.bin",
+      "sha256": "8ed97f4f83a00d8913ea333fec8c8b7efa8957e1869348a1006a36d90e167319",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_tl-wdr3600-v1-squashfs-factory.bin",
-      "sha256": "d557d483aaa126634630867dabdccb24216e3a671db7b898e34d5bab09abfb8c",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_tl-wdr3600-v1-squashfs-sysupgrade.bin",
+      "sha256": "afbae26d0add19d5457dafa4c83d1c808cc9f4e2a26578b90606d2e4307b4efd",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

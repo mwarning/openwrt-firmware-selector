@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr842n-v3-squashfs-sysupgrade.bin",
-      "sha256": "84f052621495a175df0c4eed47e76191a1797d4fac049a3a081a4d2d5664d793",
+      "sha256": "f9cf55781e06ccd5f01abbee0bd6127b7db57ac30cc44cc3b37416a7f25ad962",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr842n-v3-squashfs-factory.bin",
-      "sha256": "b91b3fad7aabc9abfb1d709c8bbdc05ea476e863d91ad3ad2df518575b684585",
+      "sha256": "0604357ddd4053e84da58d588b0b0b0f718c854e8f48891195010b36529e9a69",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

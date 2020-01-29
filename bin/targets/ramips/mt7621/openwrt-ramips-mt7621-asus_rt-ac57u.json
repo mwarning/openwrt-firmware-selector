@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-asus_rt-ac57u-squashfs-sysupgrade.bin",
-      "sha256": "55f6e1ed53b2336adc12de18de415a6cff81da0f6f6cadc846447b392b9e85ca",
+      "sha256": "1661cdd0f173862cc6b722fb31810df94cfa92c50c43a7704ab98d5f52ef0078",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "ASUS"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

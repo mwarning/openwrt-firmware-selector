@@ -1,0 +1,25 @@
+{
+  "id": "duzun_dm06",
+  "image_prefix": "openwrt-ramips-mt76x8-duzun_dm06",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-duzun_dm06-squashfs-sysupgrade.bin",
+      "sha256": "5d9b1a942980c7a2a31821d8288291ad5421adcafcdbbe47f83072d391445b2a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "duzun,dm06",
+    "duzun-dm06"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "DM06",
+      "vendor": "DuZun"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

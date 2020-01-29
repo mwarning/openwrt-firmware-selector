@@ -1,0 +1,22 @@
+{
+  "id": "WAP-5813n",
+  "image_prefix": "openwrt-brcm63xx-smp-WAP-5813n",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-WAP-5813n-squashfs-cfe.bin",
+      "sha256": "d70fec3753ef385d1e80c1a5c594bd1fe9c35cf76504ed8c99febc8a7cf49b1c",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "WAP-5813n",
+      "vendor": "Comtrend"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

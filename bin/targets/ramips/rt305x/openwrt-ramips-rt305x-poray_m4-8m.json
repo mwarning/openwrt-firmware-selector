@@ -1,0 +1,31 @@
+{
+  "id": "poray_m4-8m",
+  "image_prefix": "openwrt-ramips-rt305x-poray_m4-8m",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-poray_m4-8m-squashfs-sysupgrade.bin",
+      "sha256": "f352f0e0f559cb35ef30c01ee694b14dba146447f5a24dbad3d32fd21e99f1fb",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-poray_m4-8m-squashfs-factory.bin",
+      "sha256": "b7a2999d859edad22406904cedc9e0b6cb78b449a9440cde80ef14c381671f4d",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "poray,m4-8m",
+    "m4-8M"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "M4",
+      "variant": "8M",
+      "vendor": "Poray"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

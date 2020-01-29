@@ -1,0 +1,25 @@
+{
+  "id": "8devices_carambola",
+  "image_prefix": "openwrt-ramips-rt305x-8devices_carambola",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-8devices_carambola-squashfs-sysupgrade.bin",
+      "sha256": "240876b8568164e119641e1aea758b1d85d0ec06488e5c382d4047cb13e88716",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "8devices,carambola",
+    "carambola"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "Carambola",
+      "vendor": "8devices"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

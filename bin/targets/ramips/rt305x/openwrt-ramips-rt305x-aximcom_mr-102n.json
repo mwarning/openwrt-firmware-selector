@@ -1,0 +1,25 @@
+{
+  "id": "aximcom_mr-102n",
+  "image_prefix": "openwrt-ramips-rt305x-aximcom_mr-102n",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-aximcom_mr-102n-squashfs-sysupgrade.bin",
+      "sha256": "0505abb3134865582fe24959b8741c64d30d853c00db80ed4cd60cf59584dca6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "aximcom,mr-102n",
+    "mr-102n"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "MR-102N",
+      "vendor": "AXIMCom"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

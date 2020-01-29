@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-ohyeah_oy-0001-squashfs-sysupgrade.bin",
-      "sha256": "23e4f2a77e8a3195dda29bc406914dd93df2120c8ee726f28141d58d1156ef61",
+      "sha256": "13c483b641370d6a25dfef9d6ce134234f4bf227619032b7d59df98fbb6289ad",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Oh Yeah"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

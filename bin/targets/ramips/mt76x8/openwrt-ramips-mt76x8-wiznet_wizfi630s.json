@@ -1,0 +1,24 @@
+{
+  "id": "wiznet_wizfi630s",
+  "image_prefix": "openwrt-ramips-mt76x8-wiznet_wizfi630s",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-wiznet_wizfi630s-squashfs-sysupgrade.bin",
+      "sha256": "501f3645273353c0b763c74b4fe74a45dcfaeb7e31b9b093a236296baae8f913",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wiznet,wizfi630s"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "WizFi630S",
+      "vendor": "WIZnet"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

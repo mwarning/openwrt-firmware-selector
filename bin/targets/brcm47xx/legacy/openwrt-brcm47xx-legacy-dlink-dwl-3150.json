@@ -1,0 +1,22 @@
+{
+  "id": "dlink-dwl-3150",
+  "image_prefix": "openwrt-brcm47xx-legacy-dlink-dwl-3150",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-dlink-dwl-3150-squashfs.bin",
+      "sha256": "73ceec7b73143fc6d04a022542fad67ddd2dcb05fb24399bfedeb1a84eed4df9",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "DWL-3150",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

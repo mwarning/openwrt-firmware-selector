@@ -1,0 +1,24 @@
+{
+  "id": "lantiq_easy88444",
+  "image_prefix": "openwrt-lantiq-falcon-lantiq_easy88444",
+  "images": [
+    {
+      "name": "openwrt-lantiq-falcon-lantiq_easy88444-squashfs-sysupgrade.bin",
+      "sha256": "f335251230d3eb9baf9afbe75300c398949f87343c3d1c1b896ec98d5d5d8ca2",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lantiq,easy88444"
+  ],
+  "target": "lantiq/falcon",
+  "titles": [
+    {
+      "model": "EASY88444 Falcon FTTdp G.FAST Reference Board",
+      "vendor": "Lantiq"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

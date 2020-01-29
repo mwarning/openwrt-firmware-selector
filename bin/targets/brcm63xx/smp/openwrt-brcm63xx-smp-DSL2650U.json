@@ -1,0 +1,22 @@
+{
+  "id": "DSL2650U",
+  "image_prefix": "openwrt-brcm63xx-smp-DSL2650U",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-DSL2650U-squashfs-cfe.bin",
+      "sha256": "55d4d2ca90c9a1198fad059e345d34010acf975b866e8e9b98fdef9b14252a3e",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "DSL-2650U",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

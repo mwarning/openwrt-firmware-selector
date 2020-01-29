@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-hnet_c108-squashfs-sysupgrade.bin",
-      "sha256": "69f0371c92b10d7d132eddcb80282c08adaa7669c326666a068b88ae061cfbcc",
+      "sha256": "61427e2beb1c2e789724d07cdad900bbb6e245337592e705e18ddcda9084ea0f",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "HNET"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

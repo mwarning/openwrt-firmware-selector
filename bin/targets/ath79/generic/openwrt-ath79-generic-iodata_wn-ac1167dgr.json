@@ -3,14 +3,14 @@
   "image_prefix": "openwrt-ath79-generic-iodata_wn-ac1167dgr",
   "images": [
     {
-      "name": "openwrt-ath79-generic-iodata_wn-ac1167dgr-squashfs-factory.bin",
-      "sha256": "0aa107801e9fe03308f6b2446e087e512d2a7999e5cd8ff93ef9f4fa1bcc2e36",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-iodata_wn-ac1167dgr-squashfs-sysupgrade.bin",
+      "sha256": "8266b808467f80fb03a9846848d83955c1fa391898d709a88252637473cb42cc",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-iodata_wn-ac1167dgr-squashfs-sysupgrade.bin",
-      "sha256": "7a71980fa09df73b89322682b822c994d6452e7e25794e0c8d067a059697e286",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-iodata_wn-ac1167dgr-squashfs-factory.bin",
+      "sha256": "50580f9580ebbf0f59d183b6f7e7d3b94be93e1121688765cf78e04d747c33ee",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
@@ -24,6 +24,6 @@
       "vendor": "I-O DATA"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

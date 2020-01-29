@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-adslr_g7-squashfs-sysupgrade.bin",
-      "sha256": "277638fa3a1781f592f9071650352a988d02eb086c848059e0b92021597ee647",
+      "sha256": "779a62f4c0851bb96fd04232d04393e060467b943d569d22109a138bc262eb92",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "ADSLR"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

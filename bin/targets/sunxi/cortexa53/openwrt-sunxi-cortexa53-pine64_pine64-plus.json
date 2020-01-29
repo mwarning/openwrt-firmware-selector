@@ -1,0 +1,29 @@
+{
+  "id": "pine64_pine64-plus",
+  "image_prefix": "openwrt-sunxi-cortexa53-pine64_pine64-plus",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa53-pine64_pine64-plus-ext4-sdcard.img.gz",
+      "sha256": "52de473774f91978086e4b54ae848eb5c2199f76c0d8c360c3f3fe70e225a16e",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa53-pine64_pine64-plus-squashfs-sdcard.img.gz",
+      "sha256": "6634e6e84d6957dda9190506c4a92f3370ef3ed6de708f2966341e48b236ffeb",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "pine64,pine64-plus"
+  ],
+  "target": "sunxi/cortexa53",
+  "titles": [
+    {
+      "model": "Pine64+",
+      "vendor": "Pine64"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

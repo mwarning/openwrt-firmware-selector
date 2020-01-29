@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-ravpower_wd03-squashfs-sysupgrade.bin",
-      "sha256": "f673cc58bd03591867a885f0c7fdb63f4d769af63ff12fa5254a9a457cd18c09",
+      "sha256": "7243e08d3ffb5a3ba3c71e68f3029b8735a96e2f75a9bd146d117205c1c23c92",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Ravpower"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

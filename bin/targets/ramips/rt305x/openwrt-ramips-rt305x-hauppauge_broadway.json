@@ -1,0 +1,25 @@
+{
+  "id": "hauppauge_broadway",
+  "image_prefix": "openwrt-ramips-rt305x-hauppauge_broadway",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-hauppauge_broadway-squashfs-sysupgrade.bin",
+      "sha256": "3d7f9085efdf706cf7db4bbd3f86630f28546b7bdbfa43212293de3b717047ae",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "hauppauge,broadway",
+    "broadway"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "Broadway",
+      "vendor": "Hauppauge"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

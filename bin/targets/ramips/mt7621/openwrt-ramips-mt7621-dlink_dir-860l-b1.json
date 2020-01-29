@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-dlink_dir-860l-b1-squashfs-sysupgrade.bin",
-      "sha256": "46a56e0fe9930c045f6734db43fdabf945eb46ca93d0b68fa71ca5726092d6ba",
+      "sha256": "17a17c039031a0eb53fd3d20b73307432833137c490e8df8a3973cc4d2575265",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-dlink_dir-860l-b1-squashfs-factory.bin",
-      "sha256": "9b1fea8626f79b1104c6a10c36a0644ca9e4632181888c99fbe6f69ca1eb437a",
+      "sha256": "b7e8e79307066d25d64745fa158110b015e7a546be542faf588f748159b00946",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "D-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

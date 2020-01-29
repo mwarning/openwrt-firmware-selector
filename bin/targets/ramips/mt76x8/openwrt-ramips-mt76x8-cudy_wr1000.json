@@ -1,0 +1,30 @@
+{
+  "id": "cudy_wr1000",
+  "image_prefix": "openwrt-ramips-mt76x8-cudy_wr1000",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-cudy_wr1000-squashfs-sysupgrade.bin",
+      "sha256": "849d78b98945fbfdf1bf25260c128f0cdf3f93615f13f8a41b321dc7706fd003",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-cudy_wr1000-squashfs-factory.bin",
+      "sha256": "9101f3c1cff7f69c908cfb46c32e1a510fcbeb5ace90805bc29d193dae2db722",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cudy,wr1000",
+    "wr1000"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "WR1000",
+      "vendor": "Cudy"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

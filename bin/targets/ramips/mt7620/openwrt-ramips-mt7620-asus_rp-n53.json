@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-asus_rp-n53-squashfs-sysupgrade.bin",
-      "sha256": "a03d1ba86a830d45ffc2c23038f8dec2538b9ec7f41a82f0dd4c5abc3f55b1d5",
+      "sha256": "8756457ff4c5a6c19137cf1b10ca536e7581d6a11d466126eecc18b9bd7f63ef",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Asus"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

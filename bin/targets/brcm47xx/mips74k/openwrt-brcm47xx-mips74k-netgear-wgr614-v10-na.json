@@ -1,0 +1,23 @@
+{
+  "id": "netgear-wgr614-v10-na",
+  "image_prefix": "openwrt-brcm47xx-mips74k-netgear-wgr614-v10-na",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-netgear-wgr614-v10-na-squashfs.chk",
+      "sha256": "b9f332368dd23ddd04211db21a4e80653f817b3b10928e562bb083bcaa826f57",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "WGR614",
+      "variant": "v10 (NA)",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

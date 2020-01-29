@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-phicomm_k2t-squashfs-sysupgrade.bin",
-      "sha256": "9731df510d3854efdefd680e78c6efbae1909c74f4939f841f3b7e6c054dd7ae",
+      "sha256": "e61899e8faeb23f8c94cf9ef8d35a4fe643f30a4611623003398d449253a39f9",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Phicomm"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

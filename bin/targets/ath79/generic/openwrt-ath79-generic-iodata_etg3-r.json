@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-iodata_etg3-r-squashfs-sysupgrade.bin",
-      "sha256": "a8f902577ef6280ee5d224c381508aa4d2ca4d0a6265b7208c28f40d510e0d8b",
+      "sha256": "f108bcde28ec2ab4b5412d13526be7515484f20fcfb977e161e510fc1be38900",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "I-O DATA"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

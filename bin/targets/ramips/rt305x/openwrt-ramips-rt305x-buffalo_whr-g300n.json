@@ -1,0 +1,30 @@
+{
+  "id": "buffalo_whr-g300n",
+  "image_prefix": "openwrt-ramips-rt305x-buffalo_whr-g300n",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-buffalo_whr-g300n-squashfs-tftp.bin",
+      "sha256": "4e24c409e4bfde28b610e95da71dd051e07593f6693b35e41d3996e22f6345b1",
+      "type": "tftp"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-buffalo_whr-g300n-squashfs-sysupgrade.bin",
+      "sha256": "4e110c0fdb7ac87fd656a9f6ed3afc31b9f83b5a7c5d1e36461bcf5429aa2d66",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,whr-g300n",
+    "whr-g300n"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "WHR-G300N",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

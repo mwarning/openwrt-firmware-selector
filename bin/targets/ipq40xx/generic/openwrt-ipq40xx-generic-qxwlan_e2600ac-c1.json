@@ -1,0 +1,25 @@
+{
+  "id": "qxwlan_e2600ac-c1",
+  "image_prefix": "openwrt-ipq40xx-generic-qxwlan_e2600ac-c1",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-qxwlan_e2600ac-c1-squashfs-sysupgrade.bin",
+      "sha256": "910911cd2183025c5b9c4ba5e11b13782d88099677ae4a5047640f6173ec235a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "qxwlan,e2600ac-c1"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "E2600AC",
+      "variant": "C1",
+      "vendor": "Qxwlan"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

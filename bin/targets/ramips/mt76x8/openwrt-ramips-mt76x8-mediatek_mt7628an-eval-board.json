@@ -1,0 +1,25 @@
+{
+  "id": "mediatek_mt7628an-eval-board",
+  "image_prefix": "openwrt-ramips-mt76x8-mediatek_mt7628an-eval-board",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-mediatek_mt7628an-eval-board-squashfs-sysupgrade.bin",
+      "sha256": "f7c1a4166b064d6f2d0a1e9c0807c766e250f3858b26523a0448012eca8cdee7",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mediatek,mt7628an-eval-board",
+    "mt7628"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "MT7628 EVB",
+      "vendor": "MediaTek"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "buffalo_whr-g301n",
+  "image_prefix": "openwrt-ath79-tiny-buffalo_whr-g301n",
+  "images": [
+    {
+      "name": "openwrt-ath79-tiny-buffalo_whr-g301n-squashfs-tftp.bin",
+      "sha256": "94ced9270a929b5ae699f05bb5b2efe6dfeb468de9c42265ce12a1cdecad220c",
+      "type": "tftp"
+    },
+    {
+      "name": "openwrt-ath79-tiny-buffalo_whr-g301n-squashfs-sysupgrade.bin",
+      "sha256": "f2f203a743232ef0313d5ab50d9f92e64a73c7e47fe87d6122aa32b5d6811237",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-tiny-buffalo_whr-g301n-squashfs-factory.bin",
+      "sha256": "70d0216c26f4556fc5f3171462463187705bffaaa472da42e69b8ddf682ec5da",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,whr-g301n",
+    "whr-g301n"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "model": "WHR-G301N",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

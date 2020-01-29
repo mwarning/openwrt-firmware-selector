@@ -1,0 +1,22 @@
+{
+  "id": "NEUFBOX6",
+  "image_prefix": "openwrt-brcm63xx-generic-NEUFBOX6",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-NEUFBOX6-squashfs-cfe.bin",
+      "sha256": "8af3b858bf36683175f202a0651a0848389cb7aa4f45a5df287fbd4051ef35dc",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "Neufbox6",
+      "vendor": "SFR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

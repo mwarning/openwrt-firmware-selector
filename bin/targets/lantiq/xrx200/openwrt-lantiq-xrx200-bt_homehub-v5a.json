@@ -1,0 +1,26 @@
+{
+  "id": "bt_homehub-v5a",
+  "image_prefix": "openwrt-lantiq-xrx200-bt_homehub-v5a",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-bt_homehub-v5a-squashfs-sysupgrade.bin",
+      "sha256": "52975094b081eb91f1225be54cb529f828c0f37a7391f5b57c4910f73b43758e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "bt,homehub-v5a",
+    "BTHOMEHUBV5A"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "Home Hub 5",
+      "variant": "Type A",
+      "vendor": "British Telecom"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

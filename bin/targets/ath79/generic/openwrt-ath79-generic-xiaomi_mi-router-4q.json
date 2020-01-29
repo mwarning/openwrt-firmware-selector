@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-xiaomi_mi-router-4q-squashfs-sysupgrade.bin",
-      "sha256": "6fbf900fa54238c318b74431465e8381848fe9f37cd13f3682db9e6b37e10575",
+      "sha256": "1a6f755f38b85ef941993910b94569c4da16dcbdcd88e261df0920ab141c16b0",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Xiaomi"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

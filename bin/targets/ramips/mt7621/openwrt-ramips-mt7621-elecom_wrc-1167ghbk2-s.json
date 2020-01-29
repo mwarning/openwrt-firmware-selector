@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-elecom_wrc-1167ghbk2-s-squashfs-sysupgrade.bin",
-      "sha256": "8f3e4e47a9e19401b0d9b66f79ba1773956351d5c79083c70b2ce3d20be16f20",
+      "sha256": "2575dd5dbf7776ff9f84d302c4af9840e874fc5958475edc5d8458ae274aeb42",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-elecom_wrc-1167ghbk2-s-squashfs-factory.bin",
-      "sha256": "6e8411448d118ad33e9a008cefd890ca4c0f9d7f6712b586083e24f94bf0fcfe",
+      "sha256": "8701650cf5dac0dad170edb5237e3ce24672bdc6229ba4858cc0832fa59ec43e",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "ELECOM"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

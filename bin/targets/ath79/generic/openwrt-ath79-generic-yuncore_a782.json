@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-yuncore_a782-squashfs-sysupgrade.bin",
-      "sha256": "ef5ddfdf13c33b15b2a07ce909281a11d75c5e6720fbcf025fbede15a1472cb9",
+      "sha256": "3de02ad8b06b2ba2c6c4931e33ed3528d7c364252b9cdc13ee920a67d61c4a93",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-yuncore_a782-squashfs-tftp.bin",
-      "sha256": "f2322ec7495519e1527f1b0fcd9fe1e917c51e99e22935c3e285d700a50401aa",
+      "sha256": "41e595e4c4665524a48a5b8a6afdbb9372cd61eb45d95d50bc754c6bebf27e11",
       "type": "tftp"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "YunCore"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-pcs_cr3000-squashfs-sysupgrade.bin",
-      "sha256": "3599a77310971227ff22efa507a419eb69974577f8d64f74ab517a3a7c98bd7f",
+      "sha256": "92cee3b7fdd907088615c13a7659d0abd0208da0a60c80c9b58646f94cef0d5c",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "PowerCloud Systems"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

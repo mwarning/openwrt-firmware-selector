@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-iptime_a6ns-m-squashfs-sysupgrade.bin",
-      "sha256": "ad908de2c065ebcba9e40aee1c0fe48ed350eec3a93ea26ab28db1af0267cea5",
+      "sha256": "f5b683a0830f0bdda9bd0fc08acd8a7f7acdb254832c48bdd34f9802ea8c62f1",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "ipTIME"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

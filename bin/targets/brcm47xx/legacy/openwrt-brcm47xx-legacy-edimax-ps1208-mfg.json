@@ -1,0 +1,22 @@
+{
+  "id": "edimax-ps1208-mfg",
+  "image_prefix": "openwrt-brcm47xx-legacy-edimax-ps1208-mfg",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-edimax-ps1208-mfg-squashfs.bin",
+      "sha256": "b58e60d22e2b3ce8c42abbfdf64aba1420dfc9485400f30ac154a13e9694e883",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "PS-1208MFg",
+      "vendor": "Edimax"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "dlink_dir-600-b1",
+  "image_prefix": "openwrt-ramips-rt305x-dlink_dir-600-b1",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-dlink_dir-600-b1-squashfs-sysupgrade.bin",
+      "sha256": "9a0f38c8ace3d144a0c510c250cd70d03bdafdcd10d7e57230cb35b696d6a4cd",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-dlink_dir-600-b1-squashfs-factory.bin",
+      "sha256": "86fb0c1d5502a7e52d85f30ca74b6cfbfec59f607c971ac98868ef564ba517a2",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dir-600-b1",
+    "dir-600-b1",
+    "dir-600-b2"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "DIR-600",
+      "variant": "B1/B2",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

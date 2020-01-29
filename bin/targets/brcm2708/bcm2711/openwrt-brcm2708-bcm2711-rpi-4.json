@@ -1,0 +1,39 @@
+{
+  "id": "rpi-4",
+  "image_prefix": "openwrt-brcm2708-bcm2711-rpi-4",
+  "images": [
+    {
+      "name": "openwrt-brcm2708-bcm2711-rpi-4-squashfs-factory.img.gz",
+      "sha256": "93dedebb70498649e68cb230209748f3db96ff14cd53cb42c6d6d415df23ec07",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-brcm2708-bcm2711-rpi-4-squashfs-sysupgrade.img.gz",
+      "sha256": "b24abc878c98ded2a3fc15f0e5f3ec96d7a40b9a5b62b4f38f1397dd61f8cea8",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-brcm2708-bcm2711-rpi-4-ext4-factory.img.gz",
+      "sha256": "8e1e65a71202ca408956237c44de3ab3a0014c16989c8ed21ca5ecffbbef2769",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-brcm2708-bcm2711-rpi-4-ext4-sysupgrade.img.gz",
+      "sha256": "94e4eb194ef9680a878354d0bdcd4c6eee93a524cb5d6ec071ebf469b009359f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "raspberrypi,4-model-b"
+  ],
+  "target": "brcm2708/bcm2711",
+  "titles": [
+    {
+      "model": "4B",
+      "vendor": "Raspberry Pi"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

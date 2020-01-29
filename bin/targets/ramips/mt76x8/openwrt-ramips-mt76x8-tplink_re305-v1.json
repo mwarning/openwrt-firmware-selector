@@ -1,0 +1,30 @@
+{
+  "id": "tplink_re305-v1",
+  "image_prefix": "openwrt-ramips-mt76x8-tplink_re305-v1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_re305-v1-squashfs-sysupgrade.bin",
+      "sha256": "4b02193f452c6accbf92d2de7bfe84a1b9ffb47918ec68bb9a7bb5aa96369687",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_re305-v1-squashfs-factory.bin",
+      "sha256": "86bcfde9bfc39a7c58c9f29e650b7f2314d47a26ebfd8db47ac42bfcd8e18844",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,re305-v1"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "RE305",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

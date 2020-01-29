@@ -1,0 +1,24 @@
+{
+  "id": "zbtlink_zbt-we1226",
+  "image_prefix": "openwrt-ramips-mt76x8-zbtlink_zbt-we1226",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-zbtlink_zbt-we1226-squashfs-sysupgrade.bin",
+      "sha256": "43609159a318e1b4e16456c0193d3abc6eb16cce248133ab501a7b319e239fa6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-we1226"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "ZBT-WE1226",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

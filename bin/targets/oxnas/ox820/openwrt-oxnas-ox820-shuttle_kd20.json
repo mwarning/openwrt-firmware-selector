@@ -1,0 +1,40 @@
+{
+  "id": "shuttle_kd20",
+  "image_prefix": "openwrt-oxnas-ox820-shuttle_kd20",
+  "images": [
+    {
+      "name": "openwrt-oxnas-ox820-shuttle_kd20-ubifs-ubinized.bin",
+      "sha256": "66753f82b2adbcca82a61c331935b257a4ea26b435bda227204343c899a5924c",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-shuttle_kd20-ubifs-sysupgrade.tar",
+      "sha256": "4e9d60178bb7036f67d8486188025c0fe1761e72d35f8e8454ed300bf65a315c",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-shuttle_kd20-squashfs-ubinized.bin",
+      "sha256": "3b26ff59672c0f461d9396dfd7f56da400c5de2d7cc06f78878f1d95f402d440",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-shuttle_kd20-squashfs-sysupgrade.tar",
+      "sha256": "7fa4e524c4de32f2ecda2d10976e188163e0763d6250f9309378919d8b5067f4",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "shuttle,kd20",
+    "kd20"
+  ],
+  "target": "oxnas/ox820",
+  "titles": [
+    {
+      "model": "KD20",
+      "vendor": "Shuttle"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

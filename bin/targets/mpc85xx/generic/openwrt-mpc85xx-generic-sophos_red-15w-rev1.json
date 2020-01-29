@@ -1,0 +1,25 @@
+{
+  "id": "sophos_red-15w-rev1",
+  "image_prefix": "openwrt-mpc85xx-generic-sophos_red-15w-rev1",
+  "images": [
+    {
+      "name": "openwrt-mpc85xx-generic-sophos_red-15w-rev1-squashfs-sysupgrade.bin",
+      "sha256": "6b232e98928b2ca73bac12b52c66b0473949f70b84e575c2c8333613654758d4",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "sophos,red-15w-rev1"
+  ],
+  "target": "mpc85xx/generic",
+  "titles": [
+    {
+      "model": "RED 15w",
+      "variant": "Rev.1",
+      "vendor": "Sophos"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

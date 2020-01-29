@@ -1,0 +1,23 @@
+{
+  "id": "linksys-wrt310n-v1",
+  "image_prefix": "openwrt-brcm47xx-generic-linksys-wrt310n-v1",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-generic-linksys-wrt310n-v1-squashfs.bin",
+      "sha256": "c8a1c10e09cc2fa1e7a330c96cc79e61b43b2a81a82cf8e0ffc32a1284add699",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/generic",
+  "titles": [
+    {
+      "model": "WRT310N",
+      "variant": "v1",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

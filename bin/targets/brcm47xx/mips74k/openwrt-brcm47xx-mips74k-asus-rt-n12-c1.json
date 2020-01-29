@@ -1,0 +1,23 @@
+{
+  "id": "asus-rt-n12-c1",
+  "image_prefix": "openwrt-brcm47xx-mips74k-asus-rt-n12-c1",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-asus-rt-n12-c1-squashfs.trx",
+      "sha256": "34f256b3879859883536ce902168d6ba7591f011b6c02e9650bfa6e4a4320d54",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "RT-N12",
+      "variant": "C1",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

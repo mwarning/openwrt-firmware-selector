@@ -1,0 +1,25 @@
+{
+  "id": "unielec_u7623-02-emmc-512m",
+  "image_prefix": "openwrt-mediatek-mt7623-unielec_u7623-02-emmc-512m",
+  "images": [
+    {
+      "name": "openwrt-mediatek-mt7623-unielec_u7623-02-emmc-512m-squashfs-sysupgrade-emmc.bin.gz",
+      "sha256": "53afa5b942fa6d83e9ba20db4d625c285840a02d2ff1f4b6948cf391b1cdea5c",
+      "type": "sysupgrade-emmc"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "unielec,u7623-02-emmc-512m"
+  ],
+  "target": "mediatek/mt7623",
+  "titles": [
+    {
+      "model": "U7623-02",
+      "variant": "eMMC/512MB RAM",
+      "vendor": "UniElec"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

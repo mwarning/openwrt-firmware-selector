@@ -1,0 +1,35 @@
+{
+  "id": "linksys_wrt1900acv2",
+  "image_prefix": "openwrt-mvebu-cortexa9-linksys_wrt1900acv2",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa9-linksys_wrt1900acv2-squashfs-sysupgrade.bin",
+      "sha256": "5ee9bbf759fb0780b64698ea2f7b83a6ed0854588f5705f15d4577e80d7aa18a",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-mvebu-cortexa9-linksys_wrt1900acv2-squashfs-factory.img",
+      "sha256": "4e42fda1c148f73e52d7ccb9b2b2bcbc2687094ee2c9226d599ddde2f66bffea",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "armada-385-linksys-cobra",
+    "linksys,cobra"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "WRT1900AC",
+      "variant": "v2",
+      "vendor": "Linksys"
+    },
+    {
+      "model": "Cobra",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "linksys-e1500-v1",
+  "image_prefix": "openwrt-brcm47xx-mips74k-linksys-e1500-v1",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-linksys-e1500-v1-squashfs.bin",
+      "sha256": "91d7c1f477e208e88ad3c50fa850196495f2c279e82d94e5345e5002edefa609",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "E1500",
+      "variant": "v1",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

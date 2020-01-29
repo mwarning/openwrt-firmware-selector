@@ -1,0 +1,30 @@
+{
+  "id": "netgear_ex6150v2",
+  "image_prefix": "openwrt-ipq40xx-generic-netgear_ex6150v2",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-netgear_ex6150v2-squashfs-sysupgrade.bin",
+      "sha256": "130f549a687b2f44960f3dfe6fe2f45eb7c0903175ec36da73a1e3f5dc7e9076",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ipq40xx-generic-netgear_ex6150v2-squashfs-factory.img",
+      "sha256": "a123b71bdb0650a7ca409238d8739f30db755a20ebfa432e906182fbe920942a",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,ex6150v2"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "EX6150",
+      "variant": "v2",
+      "vendor": "Netgear"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

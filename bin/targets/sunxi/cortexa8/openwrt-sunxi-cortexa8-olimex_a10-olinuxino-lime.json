@@ -1,0 +1,29 @@
+{
+  "id": "olimex_a10-olinuxino-lime",
+  "image_prefix": "openwrt-sunxi-cortexa8-olimex_a10-olinuxino-lime",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa8-olimex_a10-olinuxino-lime-ext4-sdcard.img.gz",
+      "sha256": "e350af01ea7a19dc7d7dd22b15af57688f41b3665f1b9ca38879c3933c9ab7a1",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa8-olimex_a10-olinuxino-lime-squashfs-sdcard.img.gz",
+      "sha256": "4bc863bc777858f39e13bacea66adcb1764481d22552401071c3c6a04a82babd",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "olimex,a10-olinuxino-lime"
+  ],
+  "target": "sunxi/cortexa8",
+  "titles": [
+    {
+      "model": "A10-OLinuXino-LIME",
+      "vendor": "Olimex"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "lemaker_bananapro",
+  "image_prefix": "openwrt-sunxi-cortexa7-lemaker_bananapro",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa7-lemaker_bananapro-squashfs-sdcard.img.gz",
+      "sha256": "0e7c7c1a8ba8b527b76c5a2247e69931f53841a29e39d89b25076a0ce124d597",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa7-lemaker_bananapro-ext4-sdcard.img.gz",
+      "sha256": "acb067825f5a4e34430e299f064074453438cb30c2ec21a8c3b9f43eb82f2d20",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lemaker,bananapro"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "Banana Pro",
+      "vendor": "LeMaker"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

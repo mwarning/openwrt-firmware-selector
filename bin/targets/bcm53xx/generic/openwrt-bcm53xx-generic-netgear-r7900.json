@@ -1,0 +1,22 @@
+{
+  "id": "netgear-r7900",
+  "image_prefix": "openwrt-bcm53xx-generic-netgear-r7900",
+  "images": [
+    {
+      "name": "openwrt-bcm53xx-generic-netgear-r7900-squashfs.chk",
+      "sha256": "eddeab72dbf782f33afb2652e750ed9bb351d719e466ff2533d99493d83552da",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "model": "R7900",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

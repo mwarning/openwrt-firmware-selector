@@ -1,0 +1,23 @@
+{
+  "id": "tplink-archer-c5-v2",
+  "image_prefix": "openwrt-bcm53xx-generic-tplink-archer-c5-v2",
+  "images": [
+    {
+      "name": "openwrt-bcm53xx-generic-tplink-archer-c5-v2-squashfs.bin",
+      "sha256": "5bbf336127a811828491e669109ea491ecee60d645c85f6d8e35b72499423abb",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "model": "Archer C5",
+      "variant": "v2",
+      "vendor": "TP-LINK"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-wrtnode_wrtnode-squashfs-sysupgrade.bin",
-      "sha256": "ef3e5bafc122c2ccf33b8fbdb438da1cc8cd2d0a68b35a9f5031262761959df5",
+      "sha256": "ea2542108ce3120afcb3c3c340ce230e2eb6d1b33466d610c341de352d30acbc",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "WRTNode"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

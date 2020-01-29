@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-dlink_dir-825-c1-squashfs-sysupgrade.bin",
-      "sha256": "dd1903e060dea69a37bc13d32d638790e5bc991526a0da880c0a56f2715db09a",
+      "sha256": "65200e3de1e13f0df137cc800a0a605a3974139aa47a29cd74b94201c7bf45ec",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-dlink_dir-825-c1-squashfs-factory.bin",
-      "sha256": "0f9061db3b349726407712b2812fd94b418d30fed717ce8d137608efeb839bc5",
+      "sha256": "c18cf804c10ba5a24c9937f32f3c753ccbe6575478586288b923fbf0b1af6184",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "D-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

@@ -1,0 +1,30 @@
+{
+  "id": "jcg_jhr-n926r",
+  "image_prefix": "openwrt-ramips-rt305x-jcg_jhr-n926r",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-jcg_jhr-n926r-squashfs-sysupgrade.bin",
+      "sha256": "9a4358274a174460e971126c165beebd85d9a7bc441e9b543897c0cb81207e40",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-jcg_jhr-n926r-squashfs-factory.bin",
+      "sha256": "4288214e8342d1b1e16a1fba6d1d8eb61fdc00d4abe1b6aaa3ad7f7845781706",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "jcg,jhr-n926r",
+    "jhr-n926r"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "JHR-N926R",
+      "vendor": "JCG"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -4,18 +4,18 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-adtran_bsap1800-v2-squashfs-kernel.bin",
-      "sha256": "6b7b4db0f6c38c0d5ce9aaa942235feb48eb3a587e554b3a6358f77e2c3137dc",
+      "sha256": "121c348fadf42761e2da98b3b0c28184f2adf4c2da406ea0b88e0d4d787d1725",
       "type": "kernel"
     },
     {
-      "name": "openwrt-ath79-generic-adtran_bsap1800-v2-squashfs-rootfs.bin",
-      "sha256": "2532419b4bfcb8693f405af6d434dbb4444eafb7064d8e985c42f4d8fb57d9f9",
-      "type": "rootfs"
+      "name": "openwrt-ath79-generic-adtran_bsap1800-v2-squashfs-sysupgrade.bin",
+      "sha256": "1fc49e301686ffebe36ef46683bf65850eea58aa6df2ac70cd343bf1ea9c5f5c",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-adtran_bsap1800-v2-squashfs-sysupgrade.bin",
-      "sha256": "d476e61491ab7d4f6eefc0d1234ff9e40603a5b2dc2748d36e627e3e62e04372",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-adtran_bsap1800-v2-squashfs-rootfs.bin",
+      "sha256": "2c72277210387d22b36cbb036c02a9e8c3956aa48dc80d5bb7f28c6b79702338",
+      "type": "rootfs"
     }
   ],
   "metadata_version": 1,
@@ -30,6 +30,6 @@
       "vendor": "Adtran/Bluesocket"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

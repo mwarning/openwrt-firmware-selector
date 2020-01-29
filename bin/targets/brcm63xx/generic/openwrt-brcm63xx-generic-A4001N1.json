@@ -1,0 +1,27 @@
+{
+  "id": "A4001N1",
+  "image_prefix": "openwrt-brcm63xx-generic-A4001N1",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-A4001N1-squashfs-cfe.bin",
+      "sha256": "025e66b2ae95d9a5acb8aa1f1192d949d478bce369bd33ae0c2ea95b38d8976a",
+      "type": "cfe"
+    },
+    {
+      "name": "openwrt-brcm63xx-generic-A4001N1-squashfs-sysupgrade.bin",
+      "sha256": "4c09d1c114b70cc8fe608c01f84f0728351c61071411fb6296e629e06ee68ed8",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "P.DG A4001N1",
+      "vendor": "ADB"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-avm_fritz4020-squashfs-sysupgrade.bin",
-      "sha256": "460f6784f9c3c302ac478e8331e43ca808fa9d0576fc8e508176d1cadf72ef30",
+      "sha256": "8479f17f5511de8baa16d1341775290dbb34679334106a4e0713b01a96b3ed44",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "AVM"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

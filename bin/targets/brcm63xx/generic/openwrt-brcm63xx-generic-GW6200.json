@@ -1,0 +1,22 @@
+{
+  "id": "GW6200",
+  "image_prefix": "openwrt-brcm63xx-generic-GW6200",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-GW6200-squashfs-cfe.bin",
+      "sha256": "734430cd1ecea252fbbaeaba9271141330d4e1654cc9171aef2dc5dc6e61f64d",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "GW6200",
+      "vendor": "Tecom"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

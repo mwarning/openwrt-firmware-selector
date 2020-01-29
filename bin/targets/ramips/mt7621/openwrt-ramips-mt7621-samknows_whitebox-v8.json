@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-samknows_whitebox-v8-squashfs-sysupgrade.bin",
-      "sha256": "ecc29d41ee8b0be3647f0d39ce8f4e80c3e1310961077caf83abf2694f893ba7",
+      "sha256": "583ef0f0fa60b4cf9b7c98e2dcbb3e1abb2b29963bcf3b4ffa34c9f64592a6c4",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "SamKnows"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

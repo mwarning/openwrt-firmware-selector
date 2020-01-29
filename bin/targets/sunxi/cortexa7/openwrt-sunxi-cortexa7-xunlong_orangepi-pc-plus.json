@@ -1,0 +1,29 @@
+{
+  "id": "xunlong_orangepi-pc-plus",
+  "image_prefix": "openwrt-sunxi-cortexa7-xunlong_orangepi-pc-plus",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa7-xunlong_orangepi-pc-plus-squashfs-sdcard.img.gz",
+      "sha256": "704576eeb42d6edbe8b7975f023250e9d5ddb1b8c092a5793616b5e21515fe6e",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa7-xunlong_orangepi-pc-plus-ext4-sdcard.img.gz",
+      "sha256": "1e15f1f82729be35d63e543ad91b9a32af27dded93fb7dc06fe3156e583a2dcf",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xunlong,orangepi-pc-plus"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "Orange Pi PC Plus",
+      "vendor": "Xunlong"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

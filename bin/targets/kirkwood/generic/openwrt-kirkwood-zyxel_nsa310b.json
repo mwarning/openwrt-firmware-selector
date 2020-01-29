@@ -1,0 +1,30 @@
+{
+  "id": "zyxel_nsa310b",
+  "image_prefix": "openwrt-kirkwood-zyxel_nsa310b",
+  "images": [
+    {
+      "name": "openwrt-kirkwood-zyxel_nsa310b-squashfs-factory.bin",
+      "sha256": "71fb605641b80569ad51c2cf85462029ad5f0369c58c411a5706c8cad823ebac",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-kirkwood-zyxel_nsa310b-squashfs-sysupgrade.bin",
+      "sha256": "68ea3465f47c039cc85ab81d4779552cb4a9eec9ea891080d7f700685f5e31c8",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zyxel,nsa310b",
+    "nsa310b"
+  ],
+  "target": "kirkwood/",
+  "titles": [
+    {
+      "model": "NSA310b",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

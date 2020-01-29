@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-sitecom_wlr-7100-squashfs-sysupgrade.bin",
-      "sha256": "d038d7973fc363cd0f1a3cf0ad23ae40985ecc3a7c009d5c7c81875c869e09a9",
+      "sha256": "ece2c50575199e69c0902b2a33083f8291d4dfd509559ebd0cb804f45f398311",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-sitecom_wlr-7100-squashfs-factory.dlf",
-      "sha256": "f498f4cdd69f566bc61d78ec84750c59f4829c3da592bae3335f98ae9e4a55c4",
+      "sha256": "ef916a06ae549c3eca5ba4cb789d058b27534100e3c81a783ca0e1937b2d4406",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "Sitecom"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

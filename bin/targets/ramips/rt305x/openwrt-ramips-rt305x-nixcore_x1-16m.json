@@ -1,0 +1,27 @@
+{
+  "id": "nixcore_x1-16m",
+  "image_prefix": "openwrt-ramips-rt305x-nixcore_x1-16m",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-nixcore_x1-16m-squashfs-sysupgrade.bin",
+      "sha256": "303573b4edbe4b2723c27618ef393e37ce4701552d7a01250ad127c2b88e5d91",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "nixcore,x1-16m",
+    "nixcore-x1",
+    "nixcore-x1-16M"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "X1",
+      "variant": "16M",
+      "vendor": "Nixcore"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "96368MVNgr-generic",
+  "image_prefix": "openwrt-brcm63xx-generic-96368MVNgr-generic",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-96368MVNgr-generic-squashfs-cfe.bin",
+      "sha256": "f827e1c89795ece2ca096cb1a41a0408e832ec1e2d9d0810e629f3b8d92329fc",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "96368MVNgr",
+      "vendor": "Generic"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

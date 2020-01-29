@@ -1,0 +1,24 @@
+{
+  "id": "iptime_a604m",
+  "image_prefix": "openwrt-ramips-mt76x8-iptime_a604m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-iptime_a604m-squashfs-sysupgrade.bin",
+      "sha256": "7643c59e78352da33b88a425faf7c6dc4ccd6740fabbcde99fa2778ffa901f63",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iptime,a604m"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "A604M",
+      "vendor": "ipTIME"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

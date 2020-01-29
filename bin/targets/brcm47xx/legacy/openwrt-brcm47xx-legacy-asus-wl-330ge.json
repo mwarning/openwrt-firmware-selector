@@ -1,0 +1,22 @@
+{
+  "id": "asus-wl-330ge",
+  "image_prefix": "openwrt-brcm47xx-legacy-asus-wl-330ge",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-asus-wl-330ge-squashfs.trx",
+      "sha256": "e5a75ebb33bc7df8c136258c951e52f90648afba09bdc5aaebbe4e9b17a02bdd",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WL-330gE",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

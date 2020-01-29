@@ -1,0 +1,28 @@
+{
+  "id": "glinet_gl-ar750s-nor",
+  "image_prefix": "openwrt-ath79-nand-glinet_gl-ar750s-nor",
+  "images": [
+    {
+      "name": "openwrt-ath79-nand-glinet_gl-ar750s-nor-squashfs-sysupgrade.bin",
+      "sha256": "5e53f88c6ae41419965bf92e0100808c235509b4b7c2acf162069a5627f40399",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,gl-ar750s-nor",
+    "gl-ar750s",
+    "glinet,gl-ar750s",
+    "glinet,gl-ar750s-nor-nand"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "GL-AR750S",
+      "variant": "NOR",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

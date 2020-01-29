@@ -3,14 +3,14 @@
   "image_prefix": "openwrt-ath79-generic-tplink_cpe610-v1",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_cpe610-v1-squashfs-sysupgrade.bin",
-      "sha256": "da958e3ff6ac44f3191e47c710f9f67ad06533a36477bf53fba0c31c08c2be9e",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_cpe610-v1-squashfs-factory.bin",
+      "sha256": "ce1afe0f14bcb6d0e0c41d128f08d5e1acfa65b404f7e586313688e753aae836",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_cpe610-v1-squashfs-factory.bin",
-      "sha256": "52faf22b7af1ff75671da7d10e972777e366b9952bfc43138963612e77e6c033",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_cpe610-v1-squashfs-sysupgrade.bin",
+      "sha256": "3bf175078ded25d6074306b3422f20c6bded71841428168b62d9cf52bc415c83",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
@@ -25,6 +25,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

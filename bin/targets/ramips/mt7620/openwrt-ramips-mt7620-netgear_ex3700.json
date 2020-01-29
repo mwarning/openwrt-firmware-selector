@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-netgear_ex3700-squashfs-sysupgrade.bin",
-      "sha256": "f45aa130321b0833bde29fb89f620f444c74f0cc79a489ab79d9ad2210659138",
+      "sha256": "81a1920b73bedd7089cbce1be9cd2462469c9c442e16dec9c1676643a8621233",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-netgear_ex3700-squashfs-factory.chk",
-      "sha256": "28e412b384f5229b88d87de43d6724466cd15dc467933a490c41ddd98d88537c",
+      "sha256": "1f8041fda7cac591a1b183429c829e51e7eeefa00b043f6b79fa4b7ffe3f7773",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

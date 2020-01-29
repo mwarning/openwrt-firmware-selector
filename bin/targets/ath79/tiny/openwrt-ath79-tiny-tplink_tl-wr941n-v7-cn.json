@@ -1,0 +1,30 @@
+{
+  "id": "tplink_tl-wr941n-v7-cn",
+  "image_prefix": "openwrt-ath79-tiny-tplink_tl-wr941n-v7-cn",
+  "images": [
+    {
+      "name": "openwrt-ath79-tiny-tplink_tl-wr941n-v7-cn-squashfs-factory.bin",
+      "sha256": "de12d9deb4b3ef7d9638776c4d1d7b1b5199519c26fe05ed328820267d6380fe",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-tiny-tplink_tl-wr941n-v7-cn-squashfs-sysupgrade.bin",
+      "sha256": "06e8eed356021d6e7e730ec25d4092b26092ce53b4657d450682315a236abb8d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr941n-v7-cn"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "model": "TL-WR941N",
+      "variant": "v7 (CN)",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

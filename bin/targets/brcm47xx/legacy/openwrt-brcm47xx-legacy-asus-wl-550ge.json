@@ -1,0 +1,22 @@
+{
+  "id": "asus-wl-550ge",
+  "image_prefix": "openwrt-brcm47xx-legacy-asus-wl-550ge",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-asus-wl-550ge-squashfs.trx",
+      "sha256": "f193ef9c3d1f245cdca196d983f3ad7da7882a6a29bf999a1740144dfcfbe6d4",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WL-550gE",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

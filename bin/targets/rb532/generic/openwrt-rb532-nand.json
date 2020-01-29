@@ -1,0 +1,24 @@
+{
+  "id": "nand",
+  "image_prefix": "openwrt-rb532-nand",
+  "images": [
+    {
+      "name": "openwrt-rb532-nand-squashfs-sysupgrade.bin",
+      "sha256": "32cca29cd0f518b80ccbc0e1b9e49dbb3f1dceb212790fbebbaf8922d45f6a09",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "rb532"
+  ],
+  "target": "rb532/",
+  "titles": [
+    {
+      "model": "RouterBOARD 532",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

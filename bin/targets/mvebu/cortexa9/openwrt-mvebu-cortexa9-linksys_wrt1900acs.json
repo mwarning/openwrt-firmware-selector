@@ -1,0 +1,40 @@
+{
+  "id": "linksys_wrt1900acs",
+  "image_prefix": "openwrt-mvebu-cortexa9-linksys_wrt1900acs",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin",
+      "sha256": "720d0891e6ae6903e11fee21d48533b6a7d7f9af8a2573888c3e00445a750852",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-mvebu-cortexa9-linksys_wrt1900acs-squashfs-factory.img",
+      "sha256": "4dd0cc67f70ec36c55c8819b953520d91e22566fe42ded9e723f9f936ec5a14c",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "armada-385-linksys-shelby",
+    "linksys,shelby"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "WRT1900ACS",
+      "variant": "v1",
+      "vendor": "Linksys"
+    },
+    {
+      "model": "WRT1900ACS",
+      "variant": "v2",
+      "vendor": "Linksys"
+    },
+    {
+      "model": "Shelby",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

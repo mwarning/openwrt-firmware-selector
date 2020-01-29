@@ -1,0 +1,30 @@
+{
+  "id": "jcg_jhr-n805r",
+  "image_prefix": "openwrt-ramips-rt305x-jcg_jhr-n805r",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-jcg_jhr-n805r-squashfs-sysupgrade.bin",
+      "sha256": "e29a574a35836317e6a742d0c16abd80725f4c35659e8e18b0f0a590c45c75ca",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-jcg_jhr-n805r-squashfs-factory.bin",
+      "sha256": "d9d3fa49a5278ed1a10617cdfcfe0d07fc25c1bb24d42f26efa2fe7b0cc5998d",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "jcg,jhr-n805r",
+    "jhr-n805r"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "JHR-N805R",
+      "vendor": "JCG"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

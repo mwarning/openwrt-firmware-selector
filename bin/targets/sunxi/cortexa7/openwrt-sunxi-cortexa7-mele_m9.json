@@ -1,0 +1,29 @@
+{
+  "id": "mele_m9",
+  "image_prefix": "openwrt-sunxi-cortexa7-mele_m9",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa7-mele_m9-squashfs-sdcard.img.gz",
+      "sha256": "b7041b6599364b729249bba8c764ad3c7f91ac7c96b4c98fcb7322b58a553614",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa7-mele_m9-ext4-sdcard.img.gz",
+      "sha256": "cee28714d29ce6d0a9b9256b36746397656b2a6440092ea94491d9100918eabc",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mele,m9"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "M9",
+      "vendor": "Mele"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

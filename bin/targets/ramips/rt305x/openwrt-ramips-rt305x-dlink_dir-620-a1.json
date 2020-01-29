@@ -1,0 +1,26 @@
+{
+  "id": "dlink_dir-620-a1",
+  "image_prefix": "openwrt-ramips-rt305x-dlink_dir-620-a1",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-dlink_dir-620-a1-squashfs-sysupgrade.bin",
+      "sha256": "612871e7c5fac4f3f212fa894cb054591c01591dd7faf1c4f737668677564dec",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dir-620-a1",
+    "dir-620-a1"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "DIR-620",
+      "variant": "A1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "96358VW-generic",
+  "image_prefix": "openwrt-brcm63xx-smp-96358VW-generic",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-96358VW-generic-squashfs-cfe.bin",
+      "sha256": "f0fc0cc12005c0d599e80bfe12be722f520d9592e8fb096709734d24d9758380",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "96358VW",
+      "vendor": "Generic"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_re355-v1-squashfs-sysupgrade.bin",
-      "sha256": "2a4edb191d4cb03f9bed20c8ace4af8de216f3ca4ab6fb2887fa7a502d7f78c5",
+      "sha256": "04d8b88e97ad908d4aaca96bff225219edfb7607805c06522ebc3796ea258093",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_re355-v1-squashfs-factory.bin",
-      "sha256": "bb4651dd081bb7b456cbf9605c0ed3354f31f9ddc5364117126dd8f4f6f87ba7",
+      "sha256": "d30915bbeb7de2953abe908032e5b7383a40a61d660b7125d05ce857d767f7f4",
       "type": "factory"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

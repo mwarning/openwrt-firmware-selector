@@ -1,0 +1,27 @@
+{
+  "id": "VH4032N",
+  "image_prefix": "openwrt-brcm63xx-smp-VH4032N",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-VH4032N-squashfs-sysupgrade.bin",
+      "sha256": "b9de8de0d09b2a0a75172692bd801a7179d1a87ed55d3fbe5d03d68e211349a6",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-brcm63xx-smp-VH4032N-squashfs-cfe.bin",
+      "sha256": "1af7ff0d3d214021da048a5a99843faecdbfb4f0faf8f04a532a768c87c239d3",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "VH4032N",
+      "vendor": "Observa"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ls2088ardb",
+  "image_prefix": "openwrt-layerscape-armv8_64b-ls2088ardb",
+  "images": [
+    {
+      "name": "openwrt-layerscape-armv8_64b-ls2088ardb-squashfs-firmware.bin",
+      "sha256": "6ce25839a3b54198d752915d31f819bdb2877ff7831cff5caf4a35fd64121964",
+      "type": "firmware"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "layerscape/armv8_64b",
+  "titles": [
+    {
+      "model": "LS2088ARDB",
+      "vendor": "NXP"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

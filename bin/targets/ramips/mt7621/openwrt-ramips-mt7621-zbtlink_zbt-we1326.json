@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-zbtlink_zbt-we1326-squashfs-sysupgrade.bin",
-      "sha256": "00f853f83042792feb3276c01992c2a1db78bda6367bf81a96aba1df5fa50f85",
+      "sha256": "f7472c93bb4ce6b151bd66cff11e83c5ec362d272bf7af1a3cfe2ce334894979",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Zbtlink"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

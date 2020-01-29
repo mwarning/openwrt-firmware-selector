@@ -1,0 +1,25 @@
+{
+  "id": "tenda_w150m",
+  "image_prefix": "openwrt-ramips-rt305x-tenda_w150m",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-tenda_w150m-squashfs-sysupgrade.bin",
+      "sha256": "5a3bb0577adad703471f7a5f2c36554161459839b75701f28abc152fc4b67e50",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tenda,w150m",
+    "w150m"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "W150M",
+      "vendor": "Tenda"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

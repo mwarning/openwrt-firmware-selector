@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-embeddedwireless_dorin-squashfs-sysupgrade.bin",
-      "sha256": "dfb2ad640ff3c56312604705aefcfe57a57af16d256b06f41baf040de89d3954",
+      "sha256": "7973d418545ba28b4fb62f91bb56e9c13b9ecd4c95ce4e48d3d978b331edc74a",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Embedded Wireless"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

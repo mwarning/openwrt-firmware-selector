@@ -1,0 +1,29 @@
+{
+  "id": "aerohive_hiveap-330",
+  "image_prefix": "openwrt-mpc85xx-p1020-aerohive_hiveap-330",
+  "images": [
+    {
+      "name": "openwrt-mpc85xx-p1020-aerohive_hiveap-330-squashfs-fdt.bin",
+      "sha256": "65c6edce3077727395753574f92dbf4bd8dda8142b0459200000b714189aaac1",
+      "type": "fdt"
+    },
+    {
+      "name": "openwrt-mpc85xx-p1020-aerohive_hiveap-330-squashfs-sysupgrade.bin",
+      "sha256": "a3c37f836f043363065c5fb18c4ad958a55ed515b3e317b6c373bdc63d15d251",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "aerohive,hiveap-330"
+  ],
+  "target": "mpc85xx/p1020",
+  "titles": [
+    {
+      "model": "HiveAP-330",
+      "vendor": "Aerohive"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

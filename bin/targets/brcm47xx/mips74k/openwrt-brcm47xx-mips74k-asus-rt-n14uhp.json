@@ -1,0 +1,22 @@
+{
+  "id": "asus-rt-n14uhp",
+  "image_prefix": "openwrt-brcm47xx-mips74k-asus-rt-n14uhp",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-asus-rt-n14uhp-squashfs.trx",
+      "sha256": "ceeb4e17d3f7b339d4eecefa09408f91d7d8840056e4b75c3fcc0176a003e630",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "RT-N14UHP",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

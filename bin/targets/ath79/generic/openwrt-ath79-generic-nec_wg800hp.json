@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-nec_wg800hp-squashfs-sysupgrade.bin",
-      "sha256": "a74e9c0ebeb6953529f7e71eca7e0a38a12cc5b767770bb2fbf529fe87b40068",
+      "sha256": "40fc7d03aaf6c7bdc32e0f0ddbd85edb0a82c42dfbd455054b351b80c5d014a1",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-nec_wg800hp-squashfs-factory.bin",
-      "sha256": "f756064cfb48d97170d0f6c1e9ce42f6cf91b49c20eac2275f4177f633a8fa88",
+      "sha256": "d57465e0bf012fc90ad725c47e190e90131c02cb0df8dd3911a965521f4154e9",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "NEC"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

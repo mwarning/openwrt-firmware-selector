@@ -1,0 +1,25 @@
+{
+  "id": "allnet_all5002",
+  "image_prefix": "openwrt-ramips-rt305x-allnet_all5002",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-allnet_all5002-squashfs-sysupgrade.bin",
+      "sha256": "0ba6a1ecb6fad3699c59942b8c96acc0858cc913db3dce00619b363b22550733",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "allnet,all5002",
+    "all5002"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "ALL5002",
+      "vendor": "Allnet"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

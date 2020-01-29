@@ -1,0 +1,25 @@
+{
+  "id": "pqi_air-pen",
+  "image_prefix": "openwrt-ath79-tiny-pqi_air-pen",
+  "images": [
+    {
+      "name": "openwrt-ath79-tiny-pqi_air-pen-squashfs-sysupgrade.bin",
+      "sha256": "5cb82d7750e4eea525aa7497399c4d5f685945a0442f29da2fae96d63a972ee2",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "pqi,air-pen",
+    "pqi-air-pen"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "model": "Air-Pen",
+      "vendor": "PQI"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

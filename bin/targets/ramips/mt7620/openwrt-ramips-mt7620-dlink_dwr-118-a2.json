@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-118-a2-squashfs-sysupgrade.bin",
-      "sha256": "00a071e643d1e15da688f6a3b05fde300fb2797094a69701a1103ee3287190f9",
+      "sha256": "98cacf81147def374952ff20c41aa7f971fb72da1fdfef134b69f3622721f437",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-118-a2-squashfs-factory.bin",
-      "sha256": "4426efbad989accc0c45f21a34e613bce7a774079a955d0fc33a464229c95c67",
+      "sha256": "6eeff98618388fb8548f4a289cb5b4210520c504c0a7c1f7247db497c0b33a2f",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "D-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

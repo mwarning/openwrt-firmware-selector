@@ -1,0 +1,37 @@
+{
+  "id": "at91-sama5d27_som1_ek",
+  "image_prefix": "openwrt-at91-sama5-at91-sama5d27_som1_ek",
+  "images": [
+    {
+      "name": "openwrt-at91-sama5-at91-sama5d27_som1_ek-ubifs-root.ubi",
+      "sha256": "2de75a0e7e9fdb2ca78a18dfbfb2b6c13cb18bea55975fcdeea015f318f51605",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-at91-sama5-at91-sama5d27_som1_ek-ext4-sdcard.img.gz",
+      "sha256": "21428cec6468dbc2da079e0378e87ea95ccabffa1086a18cf5388bb8693122d3",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-at91-sama5-at91-sama5d27_som1_ek-squashfs-root.ubi",
+      "sha256": "6dab34e94ba56bb4ae40189c012fbceaaa9abc25fa0c7c8d24cfb66afbe55eef",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-at91-sama5-at91-sama5d27_som1_ek-squashfs-zImage",
+      "sha256": "141d16d377ad788a1f3a5be6f750c7be46e743758d1713c441b55b74495f1b58",
+      "type": "zImage"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/sama5",
+  "titles": [
+    {
+      "model": "SAMA5D27 SOM1 Ek",
+      "vendor": "Microchip"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

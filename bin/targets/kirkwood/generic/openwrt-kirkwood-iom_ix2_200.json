@@ -1,0 +1,29 @@
+{
+  "id": "iom_ix2_200",
+  "image_prefix": "openwrt-kirkwood-iom_ix2_200",
+  "images": [
+    {
+      "name": "openwrt-kirkwood-iom_ix2_200-squashfs-factory.bin",
+      "sha256": "7b2e5682bb818ae030f54908562354552cd34d491322f93985ea6ce772862d77",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-kirkwood-iom_ix2_200-squashfs-sysupgrade.bin",
+      "sha256": "c745c42b6c6828096168b959f740f4419d0c9fd5f282b31e3ba53e0451546485",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iom,ix2,200"
+  ],
+  "target": "kirkwood/",
+  "titles": [
+    {
+      "model": "StorCenter ix2-200",
+      "vendor": "Iomega"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

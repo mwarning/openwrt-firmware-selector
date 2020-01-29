@@ -1,0 +1,22 @@
+{
+  "id": "VR-3026e",
+  "image_prefix": "openwrt-brcm63xx-generic-VR-3026e",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-VR-3026e-squashfs-cfe.bin",
+      "sha256": "6e8493c706393b6537e3cad398c2840daebd0d9584378239fa1e98bfa74b4ed9",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "VR-3026e",
+      "vendor": "Comtrend"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

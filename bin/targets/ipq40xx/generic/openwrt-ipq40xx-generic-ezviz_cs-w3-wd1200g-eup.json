@@ -1,0 +1,25 @@
+{
+  "id": "ezviz_cs-w3-wd1200g-eup",
+  "image_prefix": "openwrt-ipq40xx-generic-ezviz_cs-w3-wd1200g-eup",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-ezviz_cs-w3-wd1200g-eup-squashfs-sysupgrade.bin",
+      "sha256": "0eea5cbb20ece18ed83ba00cf8cd31a145940222a310067f58b52860aac90ab4",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ezviz,cs-w3-wd1200g-eup"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "CS-W3-WD1200G",
+      "variant": "EUP",
+      "vendor": "EZVIZ"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

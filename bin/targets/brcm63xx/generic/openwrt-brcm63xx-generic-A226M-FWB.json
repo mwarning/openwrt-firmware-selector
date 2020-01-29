@@ -1,0 +1,22 @@
+{
+  "id": "A226M-FWB",
+  "image_prefix": "openwrt-brcm63xx-generic-A226M-FWB",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-A226M-FWB-squashfs-cfe.bin",
+      "sha256": "7af0bb841adf5abecd67d6c31bb5bb693439804f52769890defba9480eafd039",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "A226M-FWB",
+      "vendor": "Pirelli"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

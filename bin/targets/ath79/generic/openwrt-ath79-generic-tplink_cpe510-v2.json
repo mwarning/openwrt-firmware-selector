@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_cpe510-v2-squashfs-factory.bin",
-      "sha256": "e6b3500410bffdc6c645dcc0c8b6bda2c681fe9f1692d0935d833289be8f8385",
+      "sha256": "0221ddd07c60f228b1d5c831da59173a9aedc27744707f8682383257414a4c63",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-tplink_cpe510-v2-squashfs-sysupgrade.bin",
-      "sha256": "e6ef63d6aeefa9e533bb3111ffb6d24bccf10307f4b2b29c802f5d7d3301dd5b",
+      "sha256": "3b820e02ccbf1ffb17e8160305f5c3ca1791ed2b7e05c0cef92b228853b986de",
       "type": "sysupgrade"
     }
   ],
@@ -26,6 +26,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

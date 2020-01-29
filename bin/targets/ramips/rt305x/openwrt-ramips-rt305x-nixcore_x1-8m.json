@@ -1,0 +1,27 @@
+{
+  "id": "nixcore_x1-8m",
+  "image_prefix": "openwrt-ramips-rt305x-nixcore_x1-8m",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-nixcore_x1-8m-squashfs-sysupgrade.bin",
+      "sha256": "1b71e9e74d686d40f55b2f3573d7b65169fb37ac08ae58dc93b0122362a13dcd",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "nixcore,x1-8m",
+    "nixcore-x1",
+    "nixcore-x1-8M"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "X1",
+      "variant": "8M",
+      "vendor": "Nixcore"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

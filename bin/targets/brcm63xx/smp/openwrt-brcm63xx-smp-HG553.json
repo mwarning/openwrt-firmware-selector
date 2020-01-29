@@ -1,0 +1,22 @@
+{
+  "id": "HG553",
+  "image_prefix": "openwrt-brcm63xx-smp-HG553",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-HG553-squashfs-cfe.bin",
+      "sha256": "4829c1d329178626c80b251a7e0d65d9e196a4748519e87da3c26464f58a5108",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "EchoLife HG553",
+      "vendor": "Huawei"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

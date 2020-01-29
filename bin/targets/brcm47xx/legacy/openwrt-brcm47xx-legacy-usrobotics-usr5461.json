@@ -1,0 +1,22 @@
+{
+  "id": "usrobotics-usr5461",
+  "image_prefix": "openwrt-brcm47xx-legacy-usrobotics-usr5461",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-usrobotics-usr5461-squashfs.bin",
+      "sha256": "81ee12cdb43bab497d1f53665b5b5d36d6371aa9de87342b226080c4bd195c45",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "USR5461",
+      "vendor": "US Robotics"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

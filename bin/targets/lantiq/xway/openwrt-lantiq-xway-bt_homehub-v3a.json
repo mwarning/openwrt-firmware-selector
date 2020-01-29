@@ -1,0 +1,26 @@
+{
+  "id": "bt_homehub-v3a",
+  "image_prefix": "openwrt-lantiq-xway-bt_homehub-v3a",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-bt_homehub-v3a-squashfs-sysupgrade.bin",
+      "sha256": "7e2c118f5f39936d7ff6ad9548ef42ea5925ee4c191498aa311afaf0b953c075",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "bt,homehub-v3a",
+    "BTHOMEHUBV3A"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "Home Hub 3",
+      "variant": "Type A",
+      "vendor": "British Telecom"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

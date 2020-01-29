@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-linksys_e1700-squashfs-sysupgrade.bin",
-      "sha256": "34faa9f5827c07be197cd4d5f361c7fbf615e821bc3085f3f57a813a1ed34f68",
+      "sha256": "d70d7fcd8415305ac42c7f5fc70fa1b20e8049f546bcd93dcf34353691595a70",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-linksys_e1700-squashfs-factory.bin",
-      "sha256": "39f885751941ccef6ba1aa3391ec8834de8242b768931394bfdd0896aacb382b",
+      "sha256": "7389c4965bcacd08a66cd22a5fbda18cf320673356e95ec6d7e1d0d455b5c505",
       "type": "factory"
     }
   ],
@@ -25,6 +25,6 @@
       "vendor": "Linksys"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

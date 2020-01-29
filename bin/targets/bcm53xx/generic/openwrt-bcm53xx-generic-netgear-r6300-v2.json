@@ -1,0 +1,23 @@
+{
+  "id": "netgear-r6300-v2",
+  "image_prefix": "openwrt-bcm53xx-generic-netgear-r6300-v2",
+  "images": [
+    {
+      "name": "openwrt-bcm53xx-generic-netgear-r6300-v2-squashfs.chk",
+      "sha256": "0a05be77ec057df39ec5a0d2ab4dc62a06b2c32a739f75838600ee5033f59915",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "model": "R6300",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-winchannel_wb2000-squashfs-sysupgrade.bin",
-      "sha256": "775c6086541383458776f72807c7b58d1b0ceeb3baaf42fa181c862b74f2f290",
+      "sha256": "5c649915106c996e0ad632c215e02e6fa18fd3914913e1bc649dfac2e785f094",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Winchannel"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

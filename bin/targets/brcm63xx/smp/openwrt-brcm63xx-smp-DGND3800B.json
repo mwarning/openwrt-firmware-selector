@@ -1,0 +1,27 @@
+{
+  "id": "DGND3800B",
+  "image_prefix": "openwrt-brcm63xx-smp-DGND3800B",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-DGND3800B-squashfs-factory.chk",
+      "sha256": "af2ef74c9ee992c9c54712ca22fe65256715f4f9764ef05f14d692a3376c1c08",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-brcm63xx-smp-DGND3800B-squashfs-sysupgrade.bin",
+      "sha256": "d40f72e7d653736f3a0c7545c9beff6505f7342cff4aefaf89669bb13706f62f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "DGND3800B",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

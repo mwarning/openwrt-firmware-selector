@@ -3,19 +3,19 @@
   "image_prefix": "openwrt-ath79-generic-netgear_wndr3700",
   "images": [
     {
-      "name": "openwrt-ath79-generic-netgear_wndr3700-squashfs-sysupgrade.bin",
-      "sha256": "67a7871d4ae13b1f9f0bd439a51a2a3a347258bcdef8b0ae8d27698c614b0d3d",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-netgear_wndr3700-squashfs-factory.img",
+      "sha256": "af6517da9e29cc8ba0c88cbdfd971d60e5df84eb6be2e2b4d20a7d76a3ebe586",
+      "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-netgear_wndr3700-squashfs-factory-NA.img",
-      "sha256": "fa570ef6ddd31a34929ee4aeba22fd48967b3b9d58e3da32bfdebcea59fd0713",
+      "sha256": "e161a390151a805536a764ce46903460ccc64449561a00d11c4d1a43033a4802",
       "type": "factory-NA"
     },
     {
-      "name": "openwrt-ath79-generic-netgear_wndr3700-squashfs-factory.img",
-      "sha256": "1d3e29edfbf2000482c48f629bcc81aa619812a4cb3747ca297e92679def0082",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-netgear_wndr3700-squashfs-sysupgrade.bin",
+      "sha256": "22ddc953ecde82eb1a931fcfc82ee785d0eb90868c04854af94103ad32a36481",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
@@ -31,6 +31,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

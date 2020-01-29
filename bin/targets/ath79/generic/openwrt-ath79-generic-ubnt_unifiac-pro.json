@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_unifiac-pro-squashfs-sysupgrade.bin",
-      "sha256": "6a43fd11e449b2dc18bbfc04021f4775eff3512a23f651ea954f65167c9c89cc",
+      "sha256": "8e275002d89cba3ee451c631747a7b55b43a9cc6f89796be9a99f13509d036a2",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Ubiquiti"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

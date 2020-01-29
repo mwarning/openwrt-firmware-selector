@@ -1,0 +1,22 @@
+{
+  "id": "buffalo-wzr-1750dhp",
+  "image_prefix": "openwrt-bcm53xx-generic-buffalo-wzr-1750dhp",
+  "images": [
+    {
+      "name": "openwrt-bcm53xx-generic-buffalo-wzr-1750dhp-squashfs.trx",
+      "sha256": "34859803379d4390a236d37e04938df7473b91072c42400c87d2b9a19bf57ead",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "model": "WZR-1750DHP",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

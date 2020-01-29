@@ -1,0 +1,30 @@
+{
+  "id": "poray_x5",
+  "image_prefix": "openwrt-ramips-rt305x-poray_x5",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-poray_x5-squashfs-factory.bin",
+      "sha256": "3b465553c65a3177efe623825c27fd1c38f5d0584e18b6f02ca4b3f5d75bbbf0",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-poray_x5-squashfs-sysupgrade.bin",
+      "sha256": "f0689a44521a644e98b2a6dde00a6a81578c68fdce21dacc7d5eeeb6aa37d25c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "poray,x5",
+    "x5"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "X5/X6",
+      "vendor": "Poray"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

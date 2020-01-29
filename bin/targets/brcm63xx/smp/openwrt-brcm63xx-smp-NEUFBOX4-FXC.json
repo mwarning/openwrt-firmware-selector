@@ -1,0 +1,23 @@
+{
+  "id": "NEUFBOX4-FXC",
+  "image_prefix": "openwrt-brcm63xx-smp-NEUFBOX4-FXC",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-smp-NEUFBOX4-FXC-squashfs-cfe.bin",
+      "sha256": "fa26322cf7b202b46877f146b6c01eb9fc0a2d455c8a9c7237696b886180c441",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "model": "Neufbox4",
+      "variant": "Foxconn",
+      "vendor": "SFR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

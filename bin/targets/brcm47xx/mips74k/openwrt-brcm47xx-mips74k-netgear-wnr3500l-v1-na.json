@@ -1,0 +1,23 @@
+{
+  "id": "netgear-wnr3500l-v1-na",
+  "image_prefix": "openwrt-brcm47xx-mips74k-netgear-wnr3500l-v1-na",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-netgear-wnr3500l-v1-na-squashfs.chk",
+      "sha256": "68e7fa7f054f80d298dbc473a701f77a7841f1b4119f106ff52a207240bf7c6a",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "WNR3500L",
+      "variant": "v1 (NA)",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

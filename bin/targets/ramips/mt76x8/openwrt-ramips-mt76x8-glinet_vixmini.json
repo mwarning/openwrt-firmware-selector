@@ -1,0 +1,25 @@
+{
+  "id": "glinet_vixmini",
+  "image_prefix": "openwrt-ramips-mt76x8-glinet_vixmini",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-glinet_vixmini-squashfs-sysupgrade.bin",
+      "sha256": "53bea05340ac762085bdfb664ce8052d52f3f2421be2573467934a63db56a7f9",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,vixmini",
+    "vixmini"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "VIXMINI",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

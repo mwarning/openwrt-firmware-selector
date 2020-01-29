@@ -1,0 +1,36 @@
+{
+  "id": "netgear_wnr2000-v3",
+  "image_prefix": "openwrt-ath79-tiny-netgear_wnr2000-v3",
+  "images": [
+    {
+      "name": "openwrt-ath79-tiny-netgear_wnr2000-v3-squashfs-factory.img",
+      "sha256": "00f6714c82289efea98c95f0af341a87ed20799edb81a75ace7ddb1952cad641",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-tiny-netgear_wnr2000-v3-squashfs-sysupgrade.bin",
+      "sha256": "86ca42c927fbcdbeb245a0d9bad231aba0ad0471b014d1dc85485fe400212d7c",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-tiny-netgear_wnr2000-v3-squashfs-factory-NA.img",
+      "sha256": "58053606aa24b6e78cfc9579e2f97dcc6b8e9ed6090b701106887e8056774dcc",
+      "type": "factory-NA"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wnr2000-v3",
+    "wnr2000-v3"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "model": "WNR2000",
+      "variant": "v3",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

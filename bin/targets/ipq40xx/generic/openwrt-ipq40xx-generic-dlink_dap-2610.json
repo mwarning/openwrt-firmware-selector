@@ -1,0 +1,29 @@
+{
+  "id": "dlink_dap-2610",
+  "image_prefix": "openwrt-ipq40xx-generic-dlink_dap-2610",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-dlink_dap-2610-squashfs-sysupgrade.bin",
+      "sha256": "32c94ec1991db60bfca3784c08eddcdcbc8595cf2055db2d8126feb90b3f5335",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ipq40xx-generic-dlink_dap-2610-squashfs-factory.bin",
+      "sha256": "09faf4d97fc29ed3e964d3ad86806952afc55580348d641b1690bf685153ec75",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dap-2610"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "DAP-2610",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

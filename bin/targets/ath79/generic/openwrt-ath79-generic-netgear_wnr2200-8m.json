@@ -4,18 +4,18 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-sysupgrade.bin",
-      "sha256": "4b5831f5172cd2f3449cba2bebf8fb7629b5fca085cf56f605546c15b765629c",
+      "sha256": "b0f353a3ec2751fa154155049a63f7638ec6b7def7aa59b24e15afa05222dd5c",
       "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-factory-NA.img",
-      "sha256": "6dd771affee450b4052a38195094979e908162356863611db013abb370014a79",
-      "type": "factory-NA"
+      "name": "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-factory.img",
+      "sha256": "bb2303ba4ba60af413be1d56a01473c728808acc174e7cbada52394656788ffe",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-factory.img",
-      "sha256": "e850c1066ea848e873757dc846b5a91c0f9fc934a99f16ff9a65c681bd2b5fa6",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-factory-NA.img",
+      "sha256": "77790ac86497c34f726abc359e1a4404decd495338372647576520eb5bda016d",
+      "type": "factory-NA"
     }
   ],
   "metadata_version": 1,
@@ -31,6 +31,6 @@
       "vendor": "NETGEAR"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

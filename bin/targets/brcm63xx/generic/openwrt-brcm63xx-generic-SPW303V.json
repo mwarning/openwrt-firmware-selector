@@ -1,0 +1,27 @@
+{
+  "id": "SPW303V",
+  "image_prefix": "openwrt-brcm63xx-generic-SPW303V",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-SPW303V-squashfs-factory.bin",
+      "sha256": "a5e395da876a2531bd3ef8c032de13c3babf9d7a76c028e4696d884656893dca",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-brcm63xx-generic-SPW303V-squashfs-sysupgrade.bin",
+      "sha256": "d42c5a25912a63c3a22df27c7bda81cf2a453e0a9d0a24e80d9368128ba0a4ea",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "Speedport W 303V",
+      "vendor": "T-Com"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

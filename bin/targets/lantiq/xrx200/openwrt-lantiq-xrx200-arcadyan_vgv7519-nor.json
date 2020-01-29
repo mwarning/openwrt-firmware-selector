@@ -1,0 +1,31 @@
+{
+  "id": "arcadyan_vgv7519-nor",
+  "image_prefix": "openwrt-lantiq-xrx200-arcadyan_vgv7519-nor",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-arcadyan_vgv7519-nor-squashfs-sysupgrade.bin",
+      "sha256": "bf7c53d37408381d8dfae29f9ecf24ec7ef9d4c69fcd78d236b643ea4dd8ad3f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "arcadyan,vgv7519-nor",
+    "VGV7519NOR"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "VGV7519",
+      "variant": "NOR",
+      "vendor": "Arcadyan"
+    },
+    {
+      "model": "Experiabox 8",
+      "variant": "NOR",
+      "vendor": "KPN"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

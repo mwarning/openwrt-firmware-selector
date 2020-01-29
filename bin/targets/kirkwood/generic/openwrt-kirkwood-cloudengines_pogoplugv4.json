@@ -1,0 +1,29 @@
+{
+  "id": "cloudengines_pogoplugv4",
+  "image_prefix": "openwrt-kirkwood-cloudengines_pogoplugv4",
+  "images": [
+    {
+      "name": "openwrt-kirkwood-cloudengines_pogoplugv4-squashfs-factory.bin",
+      "sha256": "84884fc8be8b1a4108e93044378cd578aea20bfcf71b413d96a96f5041bf6c9d",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-kirkwood-cloudengines_pogoplugv4-squashfs-sysupgrade.bin",
+      "sha256": "bdfbc037ba23a47d26e6d24257e224998390867d36afb6d0e1255a6cd8167380",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cloudengines,pogoplugv4"
+  ],
+  "target": "kirkwood/",
+  "titles": [
+    {
+      "model": "Pogoplug V4",
+      "vendor": "Cloud Engines"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

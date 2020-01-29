@@ -1,0 +1,24 @@
+{
+  "id": "avm_fritz7412",
+  "image_prefix": "openwrt-lantiq-xrx200-avm_fritz7412",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-avm_fritz7412-squashfs-sysupgrade.bin",
+      "sha256": "4d2a3239a05ff39d3b5d74ba66d2e443dca13301fb3da96539616de7d8769a63",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "avm,fritz7412"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "FRITZ!Box 7412",
+      "vendor": "AVM"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

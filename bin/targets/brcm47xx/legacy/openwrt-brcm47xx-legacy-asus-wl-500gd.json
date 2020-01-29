@@ -1,0 +1,22 @@
+{
+  "id": "asus-wl-500gd",
+  "image_prefix": "openwrt-brcm47xx-legacy-asus-wl-500gd",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-asus-wl-500gd-squashfs.trx",
+      "sha256": "31b981f3cbc6bf5f7af68dc42ec6efea33f2724a731a551f1d21dd24a426c2c6",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WL-500g Deluxe",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

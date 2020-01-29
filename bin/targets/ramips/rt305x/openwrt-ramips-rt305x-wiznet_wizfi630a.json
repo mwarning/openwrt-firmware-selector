@@ -1,0 +1,25 @@
+{
+  "id": "wiznet_wizfi630a",
+  "image_prefix": "openwrt-ramips-rt305x-wiznet_wizfi630a",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-wiznet_wizfi630a-squashfs-sysupgrade.bin",
+      "sha256": "12d671907815ea905b32e9eaa0bd7467e18de787aef8e913d75c565cffacefb8",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wiznet,wizfi630a",
+    "wizfi630a"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "WizFi630A",
+      "vendor": "WIZnet"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

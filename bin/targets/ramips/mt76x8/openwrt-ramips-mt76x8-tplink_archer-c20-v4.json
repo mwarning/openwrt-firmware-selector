@@ -1,0 +1,31 @@
+{
+  "id": "tplink_archer-c20-v4",
+  "image_prefix": "openwrt-ramips-mt76x8-tplink_archer-c20-v4",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_archer-c20-v4-squashfs-sysupgrade.bin",
+      "sha256": "4d22b95592999303a1e01b3571bc19e66a7bd62cf4b05a916706a54afb3c6793",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_archer-c20-v4-squashfs-tftp-recovery.bin",
+      "sha256": "6f93e57895c475ebc0d9b41e5d8ed8877cbf8f1e8ffcfb84907c474c161fdeda",
+      "type": "tftp-recovery"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c20-v4",
+    "tplink,c20-v4"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "Archer C20",
+      "variant": "v4",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

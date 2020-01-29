@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-hiwifi_hc5661-squashfs-sysupgrade.bin",
-      "sha256": "b04c7dd134d78295be7a3f2742a98e2940c912dc6353e9f509d06395fec89ea7",
+      "sha256": "0faeeadc3b5517bf3d949ea321b601a43ea6cc7eb3acde62313007ff49d9b72a",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "HiWiFi"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

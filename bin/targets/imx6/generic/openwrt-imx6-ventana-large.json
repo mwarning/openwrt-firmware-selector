@@ -1,0 +1,23 @@
+{
+  "id": "ventana",
+  "image_prefix": "openwrt-imx6-ventana-large",
+  "images": [
+    {
+      "name": "openwrt-imx6-ventana-large-squashfs-nand.ubi",
+      "sha256": "1355581c416e766e2a7b087fd685b1db07ce1517a20fa0199be214f3006a060a",
+      "type": "nand"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "imx6/",
+  "titles": [
+    {
+      "model": "Ventana family",
+      "variant": "large NAND flash",
+      "vendor": "Gateworks"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

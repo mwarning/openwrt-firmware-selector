@@ -1,0 +1,28 @@
+{
+  "id": "DSL274XB-C2",
+  "image_prefix": "openwrt-brcm63xx-generic-DSL274XB-C2",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-DSL274XB-C2-squashfs-cfe.bin",
+      "sha256": "b43a5b532cfbc58d083dd48eab377c556957dbe97b05d5e9649b24f7741ae276",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "DSL-2740B",
+      "variant": "C2",
+      "vendor": "D-Link"
+    },
+    {
+      "model": "DSL-2741B",
+      "variant": "C2",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

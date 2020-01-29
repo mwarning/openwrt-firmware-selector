@@ -1,0 +1,30 @@
+{
+  "id": "airlink101_ar670w",
+  "image_prefix": "openwrt-ramips-rt288x-airlink101_ar670w",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt288x-airlink101_ar670w-squashfs-factory.bin",
+      "sha256": "05a3b0aaa40dd9e80b599151fba6d66a7df2c951b5f70348a91976d77c6e7d22",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-rt288x-airlink101_ar670w-squashfs-sysupgrade.bin",
+      "sha256": "66e63fcf6b264bbf1d5a5269a252262b713a23d05c43fd86c682a3e1a6264a37",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "airlink101,ar670w",
+    "ar670w"
+  ],
+  "target": "ramips/rt288x",
+  "titles": [
+    {
+      "model": "AR670W",
+      "vendor": "Airlink"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

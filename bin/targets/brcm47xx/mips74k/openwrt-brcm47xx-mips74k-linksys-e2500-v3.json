@@ -1,0 +1,23 @@
+{
+  "id": "linksys-e2500-v3",
+  "image_prefix": "openwrt-brcm47xx-mips74k-linksys-e2500-v3",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-linksys-e2500-v3-squashfs.bin",
+      "sha256": "afbe68c34803a8e653f147cb3dd0136daa5ee9441a20af9f959ebfb33e62b546",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "E2500",
+      "variant": "v3",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

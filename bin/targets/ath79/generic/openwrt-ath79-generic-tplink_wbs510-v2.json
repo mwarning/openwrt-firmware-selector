@@ -3,14 +3,14 @@
   "image_prefix": "openwrt-ath79-generic-tplink_wbs510-v2",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_wbs510-v2-squashfs-sysupgrade.bin",
-      "sha256": "a1ecd04dc43399fd3c29b0c29ef751023c0908c2b6d7c737bdf28cf985282aef",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_wbs510-v2-squashfs-factory.bin",
+      "sha256": "50bf547c213ebd05a467c873852ebefd275117014974d8bc125e2831cbafb6d1",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_wbs510-v2-squashfs-factory.bin",
-      "sha256": "2e89a33c7821e1ee7c77a9fe256b2fbcc9c971e708c8bb930af2548cebd112f8",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_wbs510-v2-squashfs-sysupgrade.bin",
+      "sha256": "70b783a3335d928076aff7437e24baca323a0cea1fb1acac333bb935b7a8c343",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
@@ -25,6 +25,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

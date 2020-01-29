@@ -1,0 +1,22 @@
+{
+  "id": "linksys-wrtsl54gs",
+  "image_prefix": "openwrt-brcm47xx-legacy-linksys-wrtsl54gs",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-legacy-linksys-wrtsl54gs-squashfs.bin",
+      "sha256": "d2bfd8e4558115428d94ab033275ea6a89bca81da766128465c5f12c15c8416f",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WRTSL54GS",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

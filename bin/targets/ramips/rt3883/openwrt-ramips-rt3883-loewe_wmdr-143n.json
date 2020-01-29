@@ -1,0 +1,25 @@
+{
+  "id": "loewe_wmdr-143n",
+  "image_prefix": "openwrt-ramips-rt3883-loewe_wmdr-143n",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt3883-loewe_wmdr-143n-squashfs-sysupgrade.bin",
+      "sha256": "6769c893d3c80d355e7d33ff925a7e07ebd72bd4436858fae1e475c02a531b47",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "loewe,wmdr-143n",
+    "wmdr-143n"
+  ],
+  "target": "ramips/rt3883",
+  "titles": [
+    {
+      "model": "WMDR-143N",
+      "vendor": "Loewe"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

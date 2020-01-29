@@ -1,0 +1,25 @@
+{
+  "id": "unbranded_xdx-rn502j",
+  "image_prefix": "openwrt-ramips-rt305x-unbranded_xdx-rn502j",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-unbranded_xdx-rn502j-squashfs-sysupgrade.bin",
+      "sha256": "124f9889fa018e38891ce9558a321a703caf289c69f71a4ab5ef7ff0ff163e87",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "unbranded,xdx-rn502j",
+    "xdxrn502j"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "RN502J",
+      "vendor": "XDX"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "arcadyan_arv7519rw22",
+  "image_prefix": "openwrt-lantiq-xrx200-arcadyan_arv7519rw22",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-arcadyan_arv7519rw22-squashfs-sysupgrade.bin",
+      "sha256": "00129d7baebae7db913aeb979ef48cb91c94ce6d02e99eebe4654c989d8dd251",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "arcadyan,arv7519rw22",
+    "ARV7519RW22"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "ARV7519RW22",
+      "vendor": "Arcadyan"
+    },
+    {
+      "model": "Livebox",
+      "variant": "2.1",
+      "vendor": "Orange"
+    },
+    {
+      "model": "ARV7519RW22",
+      "vendor": "Astoria Networks"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

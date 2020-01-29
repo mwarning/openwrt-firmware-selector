@@ -1,0 +1,23 @@
+{
+  "id": "tplink-archer-c9-v1",
+  "image_prefix": "openwrt-bcm53xx-generic-tplink-archer-c9-v1",
+  "images": [
+    {
+      "name": "openwrt-bcm53xx-generic-tplink-archer-c9-v1-squashfs.bin",
+      "sha256": "aa06ff3a24b12e4ae1a56ed00116e38393fa4b0cbc877462056c4f631adb0958",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "model": "Archer C9",
+      "variant": "v1",
+      "vendor": "TP-LINK"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

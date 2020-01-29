@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-kimax_u35wf-squashfs-sysupgrade.bin",
-      "sha256": "ced3364ca88dce771daf132ca95fcf9632cb78225adced2477917f52f578b519",
+      "sha256": "3fb5f0cae90c718fa8d10e645e2396cbde20f1b1bf37b3b093c5990a496e7e24",
       "type": "sysupgrade"
     }
   ],
@@ -19,6 +19,6 @@
       "vendor": "Kimax"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

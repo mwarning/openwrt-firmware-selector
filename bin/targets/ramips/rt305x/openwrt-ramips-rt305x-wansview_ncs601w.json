@@ -1,0 +1,25 @@
+{
+  "id": "wansview_ncs601w",
+  "image_prefix": "openwrt-ramips-rt305x-wansview_ncs601w",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-wansview_ncs601w-squashfs-sysupgrade.bin",
+      "sha256": "e7099d96d24904675c3189ec38824fbf172b476518cf8cba14a08802a73f2376",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wansview,ncs601w",
+    "ncs601w"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "NCS601W",
+      "vendor": "Wansview"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

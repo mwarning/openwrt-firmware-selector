@@ -4,18 +4,18 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-tplink_archer-c50-v1-squashfs-sysupgrade.bin",
-      "sha256": "03892f65c7770a2b6637f462ed37f0b1400f6eccfdb15126fe08a4370f367569",
+      "sha256": "174fb89874ab3f0dadd4217feaccfa81420e8d66802f2b4162d31e9c744dd326",
       "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ramips-mt7620-tplink_archer-c50-v1-squashfs-factory-us.bin",
-      "sha256": "cfba7e3ca49e6a228f080838bef88ce7d3626ebf8a0debce9c302d02379a0a05",
-      "type": "factory-us"
+      "name": "openwrt-ramips-mt7620-tplink_archer-c50-v1-squashfs-factory-eu.bin",
+      "sha256": "3a5973b1a8b2201aec5e829bd35bf55fd5be0d01f1b570cda1891d9f7bc17e89",
+      "type": "factory-eu"
     },
     {
-      "name": "openwrt-ramips-mt7620-tplink_archer-c50-v1-squashfs-factory-eu.bin",
-      "sha256": "1880286be9640d82944bbf0a5f2bfabfed33f60be321d6e512a88af1884f4f7f",
-      "type": "factory-eu"
+      "name": "openwrt-ramips-mt7620-tplink_archer-c50-v1-squashfs-factory-us.bin",
+      "sha256": "18ca51ad13ad58d7f78c1dc558ea24e0def8ebdce9543009b480ec79f5bb2c8d",
+      "type": "factory-us"
     }
   ],
   "metadata_version": 1,
@@ -31,6 +31,6 @@
       "vendor": "TP-Link"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

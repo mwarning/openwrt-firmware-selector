@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-mikrotik_routerboard-wap-g-5hact2hnd-squashfs-sysupgrade.bin",
-      "sha256": "3cf58816a55c99dabe7ab0508572887118c04477913fdb1adf9d005087fbf0ab",
+      "sha256": "47aa9a233424b28a4e97c97fa9c1d6061c5922b9d88563ecb07905321361de4a",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "MikroTik"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

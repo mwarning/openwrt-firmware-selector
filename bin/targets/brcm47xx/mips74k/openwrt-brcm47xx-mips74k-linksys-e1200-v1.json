@@ -1,0 +1,23 @@
+{
+  "id": "linksys-e1200-v1",
+  "image_prefix": "openwrt-brcm47xx-mips74k-linksys-e1200-v1",
+  "images": [
+    {
+      "name": "openwrt-brcm47xx-mips74k-linksys-e1200-v1-squashfs.bin",
+      "sha256": "f636dccfb8f4820456c2620ddf517de9be46794769fc30bbe67a88ba7a267052",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "E1200",
+      "variant": "v1",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

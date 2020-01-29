@@ -1,0 +1,23 @@
+{
+  "id": "linksys-ea6500-v2",
+  "image_prefix": "openwrt-bcm53xx-generic-linksys-ea6500-v2",
+  "images": [
+    {
+      "name": "openwrt-bcm53xx-generic-linksys-ea6500-v2-squashfs.trx",
+      "sha256": "b5e50bedbf38ff23b034b72f0e6f503c55535619a781f3ea5301b8b6ca8a0d94",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "model": "EA6500",
+      "variant": "v2",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

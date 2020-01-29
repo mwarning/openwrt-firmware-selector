@@ -1,0 +1,29 @@
+{
+  "id": "netgear_r6120",
+  "image_prefix": "openwrt-ramips-mt76x8-netgear_r6120",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-netgear_r6120-squashfs-sysupgrade.bin",
+      "sha256": "da831d468f59458988c0d2f1d11876d45bbca6a1d964433510dd9d26532367f7",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-netgear_r6120-squashfs-factory.img",
+      "sha256": "c98d8904d8a584932fd8a3e0c510354dc9915c0875915b02799efccbaa839fa8",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,r6120"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "R6120",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

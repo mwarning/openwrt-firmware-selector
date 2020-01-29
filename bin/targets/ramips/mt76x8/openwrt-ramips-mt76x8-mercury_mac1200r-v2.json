@@ -1,0 +1,26 @@
+{
+  "id": "mercury_mac1200r-v2",
+  "image_prefix": "openwrt-ramips-mt76x8-mercury_mac1200r-v2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-mercury_mac1200r-v2-squashfs-sysupgrade.bin",
+      "sha256": "c076fa84d4c653b873fcbb0411ef681c997ec09043ea08e5ce4d599b8420ee35",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mac1200rv2",
+    "mac1200rv2"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "MAC1200R",
+      "variant": "v2.0",
+      "vendor": "Mercury"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

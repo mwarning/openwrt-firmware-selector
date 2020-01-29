@@ -4,7 +4,7 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-planex_vr500-squashfs-sysupgrade.bin",
-      "sha256": "c762b92e899962021c7d556b36f5d6b9461b43eb536054658cdd8c821ea5fbd7",
+      "sha256": "68c22c4e5bac8d13f11eb9b5c17899bbb8c5ad6355845159e9e992b6a00288f9",
       "type": "sysupgrade"
     }
   ],
@@ -20,6 +20,6 @@
       "vendor": "Planex"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

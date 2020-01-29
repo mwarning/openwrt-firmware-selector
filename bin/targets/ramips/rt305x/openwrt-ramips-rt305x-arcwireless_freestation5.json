@@ -1,0 +1,25 @@
+{
+  "id": "arcwireless_freestation5",
+  "image_prefix": "openwrt-ramips-rt305x-arcwireless_freestation5",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-arcwireless_freestation5-squashfs-sysupgrade.bin",
+      "sha256": "049bb3f343d6e5524e95dcbed3fdf80a8756d19e214ec9cf81718fa70684fc31",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "arcwireless,freestation5",
+    "freestation5"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "FreeStation",
+      "vendor": "ARC Wireless"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}

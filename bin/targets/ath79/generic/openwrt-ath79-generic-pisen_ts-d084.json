@@ -4,12 +4,12 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-pisen_ts-d084-squashfs-sysupgrade.bin",
-      "sha256": "2a0bdc2713161439000678632cddb2efb953f442f1e6723428a70c694f8b53d4",
+      "sha256": "bd6a19587c4aff82cd5de793396b9b98c23d910870b1c3e5c1af060ec54827ba",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-pisen_ts-d084-squashfs-factory.bin",
-      "sha256": "717623c34aed4b83d9d5fccd2b27552ce742fa58f6dca6320107e9ea988c16c1",
+      "sha256": "f791e0736893e82f39e71e3c4d7703bdeb05ea758a2fdb65964b37825c400813",
       "type": "factory"
     }
   ],
@@ -24,6 +24,6 @@
       "vendor": "PISEN"
     }
   ],
-  "version_commit": "r12138-1e3bfbafd3",
+  "version_commit": "r12145-4716c843d6",
   "version_number": "SNAPSHOT"
 }

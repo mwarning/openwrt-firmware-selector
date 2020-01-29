@@ -1,0 +1,22 @@
+{
+  "id": "CPA-ZNTE60T",
+  "image_prefix": "openwrt-brcm63xx-generic-CPA-ZNTE60T",
+  "images": [
+    {
+      "name": "openwrt-brcm63xx-generic-CPA-ZNTE60T-squashfs-cfe.bin",
+      "sha256": "ea148dd42e6a3b74b4492730d74c28bd3c0b178b870ec5863579391ecb934a40",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "model": "CPVA642-type (CPA-ZNTE60T)",
+      "vendor": "Telsey"
+    }
+  ],
+  "version_commit": "r12145-4716c843d6",
+  "version_number": "SNAPSHOT"
+}
