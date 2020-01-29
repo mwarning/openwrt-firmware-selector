@@ -2,60 +2,62 @@
 
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<link rel="stylesheet" href="index.css" />
+	<meta charset="utf-8"/>
+	<title>OpenWrt Firmware Selector</title>
+	<link rel="stylesheet" href="index.css" />
 </head>
 <body>
 
 <header>
-  <div>
-    <h6 class="MuiTypography-h6 tr-title" edge="start">OpenWrt Firmware Selector</h6>
-    <div style="flex-grow: 1;"></div>
+	<div>
+		<h6 class="MuiTypography-h6 tr-title">OpenWrt Firmware Selector</h6>
+		<div style="flex-grow: 1;"></div>
 
-	<select id="language-selection" onchange="changeLanguage(this.children[this.selectedIndex].value);" size="1">
-		<option value="en">English</option>
-		<option value="de">Deutsch</option>
-	</select>
-  </div>
+		<select id="language-selection" onchange="changeLanguage(this.children[this.selectedIndex].value);" size="1">
+			<option value="en">English</option>
+			<option value="de">Deutsch</option>
+		</select>
+	</div>
 </header>
 
 <div class="MuiContainer-maxWidthLg">
 	<div class="MuiPaper-rounded">
-	<h2 class="tr-load">Download OpenWrt firmware for your device!</h5>
-	<p class="tr-message">Please use the input below to download firmware for your device!</p>
-	<br>
+		<h2 class="tr-load">Download OpenWrt firmware for your device!</h2>
+		<p class="tr-message">Please use the input below to download firmware for your device!</p>
+		<br>
 
-	<select id="releases" size="1"></select>
-	<div class="autocomplete">
-		<input id="models" type="text" placeholder="Model">
-	</div>
-
-	<br />
-	<br />
-
-	<div id="images">
-		<div>
-			<h3 class="tr-build">Build</h3>
-			<div><span class="tr-model">Model:</span> <span id="image-model"></span></div>
-			<div><span class="tr-target">Target:</span> <span id="image-target"></span></div>
-			<div><span class="tr-version">Version:</span> <span id="image-release"></span> (<span id="image-commit"></span>)</div>
+		<select id="releases" size="1"></select>
+		<div class="autocomplete">
+			<input id="models" type="text" placeholder="Model">
 		</div>
 
-		<div>
-			<h3 class="tr-downloads">Downloads</h3>
-			<a id="factory-image" class="download-link" href="#"><span></span>FACTORY</a>
-			<a id="sysupgrade-image" class="download-link" href="#"><span></span>SYSUPGRADE</a>
-			<a id="kernel-image" class="download-link" href="#"><span></span>KERNEL</a>
-			<a id="rootfs-image" class="download-link" href="#"><span></span>ROOTFS</a>
-			<a id="tftp-image" class="download-link" href="#"><span></span>TFTP</a>
-		</div>
+		<br />
+		<br />
 
-		<div>
-			<span id="factory-help" class="tr-factory-help">Factory images are for flashing routers with OpenWrt for the first time using the vendors web interface.</span>
-			<span id="sysupgrade-help" class="tr-sysupgrade-help">Sysupgrade images are for flashing routers that already run OpenWrt. The image can be applied using the web interface or the console.</span>
-			<span id="kernel-help" class="tr-kernel-help">Linux kernel as a separate image.</span>
-			<span id="rootfs-help" class="tr-rootfs-help">Root file system as a separate image.</span>
-			<span id="tftp-help" class="tr-tftp-help">Image that can be applied using the tftp meachnism of the boot loader</span>
+		<div id="images">
+			<div>
+				<h3 class="tr-build">Build</h3>
+				<div><span class="tr-model">Model:</span> <span id="image-model"></span></div>
+				<div><span class="tr-target">Target:</span> <span id="image-target"></span></div>
+				<div><span class="tr-version">Version:</span> <span id="image-release"></span> (<span id="image-commit"></span>)</div>
+			</div>
+
+			<div>
+				<h3 class="tr-downloads">Downloads</h3>
+				<a id="factory-image" class="download-link" href="#"><span></span>FACTORY</a>
+				<a id="sysupgrade-image" class="download-link" href="#"><span></span>SYSUPGRADE</a>
+				<a id="kernel-image" class="download-link" href="#"><span></span>KERNEL</a>
+				<a id="rootfs-image" class="download-link" href="#"><span></span>ROOTFS</a>
+				<a id="tftp-image" class="download-link" href="#"><span></span>TFTP</a>
+			</div>
+
+			<div>
+				<span id="factory-help" class="tr-factory-help">Factory images are for flashing routers with OpenWrt for the first time using the vendors web interface.</span>
+				<span id="sysupgrade-help" class="tr-sysupgrade-help">Sysupgrade images are for flashing routers that already run OpenWrt. The image can be applied using the web interface or the console.</span>
+				<span id="kernel-help" class="tr-kernel-help">Linux kernel as a separate image.</span>
+				<span id="rootfs-help" class="tr-rootfs-help">Root file system as a separate image.</span>
+				<span id="tftp-help" class="tr-tftp-help">Image that can be applied using the tftp meachnism of the boot loader</span>
+			</div>
 		</div>
 	</div>
 </div>
