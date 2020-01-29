@@ -50,7 +50,6 @@ function setupAutocompleteList(input, items, onselection) {
 
   // execute a function when someone writes in the text field:
   input.oninput = function(e) {
-    console.log("input");
     // clear images
     updateImages();
 
@@ -107,7 +106,6 @@ function setupAutocompleteList(input, items, onselection) {
   };
 
   input.onkeydown = function(e) {
-      console.log("keydown " + e.keyCode);
       var x = document.getElementById(this.id + "-autocomplete-list");
       if (x) x = x.getElementsByTagName("div");
       if (e.keyCode == 40) {
@@ -257,9 +255,7 @@ function parseData(data) {
 loadFile(config.data, function(data) {
     var obj = parseData(data);
     setupSelectList($("releases"), Object.keys(obj), function(release) {
-      console.log("release: " + release);
       setupAutocompleteList($("models"), Object.keys(obj[release]), function(model) {
-        console.log("clicked " + model);
         if (model in obj[release]) {
           var target = obj[release][model].target;
           var commit = obj[release][model].commit;
