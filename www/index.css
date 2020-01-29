@@ -158,6 +158,10 @@ header > div {
   line-height: 1.5;
 }
 
+#images {
+  display: none;
+}
+
 #images > div {
   padding-top: 20px;
 }
