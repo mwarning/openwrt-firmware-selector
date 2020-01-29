@@ -173,50 +173,60 @@ function extractImageType(name) {
 }
 
 function updateImages(model, target, release, commit, images) {
+  var types = ['sysupgrade', 'factory', 'rootfs', 'kernel', 'tftp'];
+
+  function hideLinks() {
+    types.forEach(function(type) {
+      $(type + '-image').style.display = 'none';
+    });
+  }
+
+  function hideHelps() {
+    types.forEach(function(type) {
+      $(type + '-help').style.display = 'none';
+    });
+  }
+
+  function showLink(type, path) {
+    var e = $(type + '-image');
+    e.href = path;
+    e.style.display = 'inline-flex';
+    if (config.showHelp) {
+      e.onmouseover = function() {
+        hideHelps();
+        $(type + '-help').style.display = 'block';
+      };
+    }
+  }
+
+  hideLinks();
+  hideHelps();
+
   if (model && target && release && commit && images) {
+    // fill out build info
     $('image-model').innerText = model;
     $('image-target').innerText = target;
     $('image-release').innerText = release;
     $('image-commit').innerText = commit;
 
+    // show links to images
     for(var i in images) {
-      var filename = images[i];
-      var path = "https://" + target + "/" + filename;
-      var type = extractImageType(filename);
+      var file = images[i];
+      var path = config.downloadLink
+        .replace('%target', target)
+        .replace('%release', release)
+        .replace('%file', file)
+        .replace('%commit', commit);
+      var type = extractImageType(file);
 
-      if (type == "sysupgrade") {
-        $("sysupgrade-image").href = path;
-        $("sysupgrade-image").style.display = "inline-flex";
-      }
-
-      if (type == "factory") {
-        $("factory-image").href = path;
-        $("factory-image").style.display = "inline-flex";
-      }
-
-      if (type == "tftp") {
-        $("tftp-image").href = path;
-        $("tftp-image").style.display = "inline-flex";
-      }
-
-      if (type == "kernel") {
-        $("kernel-image").href = path;
-        $("kernel-image").style.display = "inline-flex";
-      }
-
-      if (type == "rootfs") {
-        $("rootfs-image").href = path;
-        $("rootfs-image").style.display = "inline-flex";
+      if (types.includes(type)) {
+        showLink(type, path);
       }
     }
-    $("images").style.display = 'block';
+
+    $('images').style.display = 'block';
   } else {
-    $("images").style.display = 'none';
-    $("sysupgrade-image").style.display = "none";
-    $("factory-image").style.display = "none";
-    $("tftp-image").style.display = "none";
-    $("kernel-image").style.display = "none";
-    $("rootfs-image").style.display = "none";
+    $('images').style.display = 'none';
   }
 }
 

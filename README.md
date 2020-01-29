@@ -1,6 +1,6 @@
 # Yet Another Firmware Selector
 
-A simple OpenWrt firmware selector using autocompletion.
+A simple OpenWrt firmware selector using autocompletion. Uses plain HTML/JavaScript.
 
 ![image](screenshot.png)
 
@@ -10,6 +10,8 @@ Run:
 * Go to the project www directory.
 * Start webserver (e.g. `python3 -m http.server`)
 * Go to `http://localhost:8000`
+
+Configure with [config.js](www/config.js).
 
 ## Update Database
 
