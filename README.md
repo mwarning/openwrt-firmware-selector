@@ -15,7 +15,11 @@ Configure with [config.js](www/config.js).
 
 ## Update Database
 
-OpenWrt master has a feature to create json files. The included python script can merge all these files for a new data.json file: `./collect.py bin/ bin2/ > data.json`
+OpenWrt master has a feature to create json files: `Global build settings  ---> [*] Create JSON info files per build image`.
+
+The included python script can merge all these files for a new data.json file: `./collect.py bin/ bin2/ > data.json`
+
+The data JSON file can also include a link that will overwrite downloadLink from `config.json`.
 
 ## Contributions
 

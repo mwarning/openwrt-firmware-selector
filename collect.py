@@ -44,7 +44,7 @@ for path in paths:
     commit = obj['version_commit']
 
     if not version in output:
-      output[version] = { 'models' : [], 'commit':  commit}
+      output[version] = {link: '', 'commit':  commit, 'models' : []}
 
     # only support a version_number with images of one version_commit
     if output[version]['commit'] != commit:

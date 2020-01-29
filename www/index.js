@@ -171,7 +171,7 @@ function extractImageType(name) {
   return m ? m[1] : 'factory';
 }
 
-function updateImages(model, target, release, commit, images) {
+function updateImages(dllink, model, target, release, commit, images) {
   var types = ['sysupgrade', 'factory', 'rootfs', 'kernel', 'tftp'];
 
   function hideLinks() {
@@ -211,7 +211,7 @@ function updateImages(model, target, release, commit, images) {
     // show links to images
     for(var i in images) {
       var file = images[i];
-      var path = config.downloadLink
+      var path = (dllink ? dllink : config.downloadLink)
         .replace('%target', target)
         .replace('%release', release)
         .replace('%file', file)
@@ -237,15 +237,16 @@ function parseData(data) {
   var obj = JSON.parse(data);
   var out = {};
   for (var release in obj) {
-    var entries = obj[release]['models'];
+    var link = obj[release]['link'];
     var commit  = obj[release]['commit']
+    var entries = obj[release]['models'];
     var models = {};
     for (var i = 0; i < entries.length; i += 1) {
       var entry = entries[i];
       var name = (entry[0] + " " + entry[1] + " " + entry[2]).trim();
       var target = entry[3];
       var images = entry[4];
-      models[name] = {'name': name, 'target': target, 'commit': commit, 'images': images};
+      models[name] = {'link': link, 'name': name, 'target': target, 'commit': commit, 'images': images};
     }
     out[release] = models;
   }
@@ -257,10 +258,11 @@ loadFile(config.data, function(data) {
     setupSelectList($("releases"), Object.keys(obj), function(release) {
       setupAutocompleteList($("models"), Object.keys(obj[release]), function(model) {
         if (model in obj[release]) {
+          var dllink = obj[release][model].link;
           var target = obj[release][model].target;
           var commit = obj[release][model].commit;
           var images = obj[release][model].images;
-          updateImages(model, target, release, commit, images);
+          updateImages(dllink, model, target, release, commit, images);
         } else {
           updateImages();
         }
