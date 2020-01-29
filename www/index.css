@@ -141,6 +141,10 @@ header > div {
   background-color: #3F51B5;
 }
 
+.download-link:hover {
+  background-color: #293680
+}
+
 .download-link > span {
   width: 30px;
   margin-right: 15px;
