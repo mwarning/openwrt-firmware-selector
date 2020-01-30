@@ -167,12 +167,12 @@ function $(id) {
 }
 
 function extractImageType(name) {
-  var m = /-(sysupgrade|factory|rootfs|kernel|tftp)[-.]/.exec(name);
+  var m = /-(sysupgrade|factory|rootfs|kernel|tftp|sdcard)[-.]/.exec(name);
   return m ? m[1] : 'factory';
 }
 
 function updateImages(dllink, model, target, release, commit, images) {
-  var types = ['sysupgrade', 'factory', 'rootfs', 'kernel', 'tftp'];
+  var types = ['sysupgrade', 'factory', 'rootfs', 'kernel', 'tftp', 'sdcard'];
 
   function hideLinks() {
     types.forEach(function(type) {
