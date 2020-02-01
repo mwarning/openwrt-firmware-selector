@@ -22,10 +22,14 @@ for arg in sys.argv[1:]:
     exit(1)
 
 
-def collect_names(images):
+def collect_names(prefix, images):
   names = []
   for image in images:
-    names.append(image['name'])
+    name = image['name']
+    if not name.startswith(prefix):
+      sys.stderr.write("Does not start with prefix {}: {} => skip\n".format(prefix, name))
+    else:
+      names.append(name[len(prefix):])
   return names
 
 for path in paths:
@@ -49,10 +53,14 @@ for path in paths:
         exit(1)
 
       for title in obj['titles']:
+        prefix = obj['image_prefix']
+        target = obj['target'].strip('/') # fix 'omap/' target
+        names = collect_names(prefix, obj['images'])
+        # sometime no 'model'/'vendor' is set, only 'title' instead
         if 'title' in title:
-          output[version]['models'].append(['', title['title'], '', obj['target'], collect_names(obj['images'])])
+          output[version]['models'].append(['', title['title'], '', target, prefix, names])
         else:
-          output[version]['models'].append([title.get('vendor', ''), title['model'], title.get('variant', ''), obj['target'], collect_names(obj['images'])])
+          output[version]['models'].append([title.get('vendor', ''), title['model'], title.get('variant', ''), target, prefix, names])
 
     except json.decoder.JSONDecodeError as e:
       sys.stderr.write("Skip {}\n   {}\n".format(path, e))

@@ -30,13 +30,9 @@ function setupSelectList(select, items, onselection) {
 function changeLanguage(language) {
   var mapping = translations[language];
   if (mapping) {
-    for (var id in mapping) {
-      var elements = document.getElementsByClassName(id);
-      for (var i in elements) {
-        if (elements.hasOwnProperty(i)) {
-          elements[i].innerHTML = mapping[id];
-        }
-      }
+    for (var tr in mapping) {
+      Array.from(document.getElementsByClassName(tr))
+      .forEach(function(e) { e.innerText = mapping[tr]; })
     }
   }
 }
@@ -46,7 +42,10 @@ function setupAutocompleteList(input, items, onselection) {
   // the text field element and an array of possible autocompleted values:
   var currentFocus = -1;
 
-  items.sort();
+  // sort numbers and other characters separately
+  var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+
+  items.sort(collator.compare);
 
   // execute a function when someone writes in the text field:
   input.oninput = function(e) {
@@ -77,7 +76,7 @@ function setupAutocompleteList(input, items, onselection) {
       }
 
       c += 1;
-      if (c >= 10) {
+      if (c >= 15) {
         var div = document.createElement("DIV");
         div.innerHTML = "...";
         list.appendChild(div);
@@ -166,62 +165,119 @@ function $(id) {
   return document.getElementById(id);
 }
 
-function extractImageType(name) {
-  var m = /-(sysupgrade|factory|rootfs|kernel|tftp|sdcard)[-.]/.exec(name);
-  return m ? m[1] : 'factory';
-}
+function updateImages(dllink, model, target, release, commit, prefix, images) {
+  // add download button for image
+  function add_link(label, tags, image, help_id) {
+    var a = document.createElement('A');
 
-function updateImages(dllink, model, target, release, commit, images) {
-  var types = ['sysupgrade', 'factory', 'rootfs', 'kernel', 'tftp', 'sdcard'];
+    a.classList.add('download-link');
+    a.href = (dllink ? dllink : config.downloadLink)
+      .replace('%target', target)
+      .replace('%release', release)
+      .replace('%file', prefix + image)
+      .replace('%commit', commit);
+    var span = document.createElement('SPAN');
+    span.appendChild(document.createTextNode(''));
+    a.appendChild(span);
 
-  function hideLinks() {
-    types.forEach(function(type) {
-      $(type + '-image').style.display = 'none';
-    });
-  }
+    // add sub label
+    if (tags.length > 0) {
+      a.appendChild(document.createTextNode(label + ' (' + tags.join(', ') + ')'));
+    } else {
+      a.appendChild(document.createTextNode(label));
+    }
 
-  function hideHelps() {
-    types.forEach(function(type) {
-      $(type + '-help').style.display = 'none';
-    });
-  }
-
-  function showLink(type, path) {
-    var e = $(type + '-image');
-    e.href = path;
-    e.style.display = 'inline-flex';
     if (config.showHelp) {
-      e.onmouseover = function() {
-        hideHelps();
-        $(type + '-help').style.display = 'block';
+      a.onmouseover = function() {
+        // hide all help texts
+        Array.from(document.getElementsByClassName('download-help'))
+          .forEach(function(e) { e.style.display = 'none'; });
+        $(help_id).style.display = 'block';
       };
     }
+
+    $('download-links').appendChild(a);
   }
 
-  hideLinks();
-  hideHelps();
+  // remove all download links
+  Array.from(document.getElementsByClassName('download-link'))
+    .forEach(function(e) { e.remove(); });
 
-  if (model && target && release && commit && images) {
+  // hide all help texts
+  Array.from(document.getElementsByClassName('download-help'))
+    .forEach(function(e) { e.style.display = 'none'; });
+
+  if (model && target && release && commit && prefix && images) {
     // fill out build info
     $('image-model').innerText = model;
     $('image-target').innerText = target;
     $('image-release').innerText = release;
     $('image-commit').innerText = commit;
 
-    // show links to images
-    for(var i in images) {
-      var file = images[i];
-      var path = (dllink ? dllink : config.downloadLink)
-        .replace('%target', target)
-        .replace('%release', release)
-        .replace('%file', file)
-        .replace('%commit', commit);
-      var type = extractImageType(file);
+    images.sort();
 
-      if (types.includes(type)) {
-        showLink(type, path);
+    var entries = {'FACTORY': [], 'SYSUPGRADE': [], 'KERNEL': [], 'ROOTFS': [], 'SDCARD': [], 'OTHER': [] };
+
+    for (var i in images) {
+      var image = images[i];
+      if (image.includes('-factory')) {
+        entries['FACTORY'].push(image);
+      } else if (image.includes('-sysupgrade')) {
+        entries['SYSUPGRADE'].push(image);
+      } else if (image.includes('-kernel') || image.includes('-zImage') || image.includes('-uImage')) {
+        entries['KERNEL'].push(image);
+      } else if (image.includes('-rootfs')) {
+        entries['ROOTFS'].push(image);
+      } else if (image.includes('sdcard')) {
+        entries['SDCARD'].push(image);
+      } else {
+        entries['OTHER'].push(image);
       }
     }
+
+    for (var category in entries) {
+      var images = entries[category];
+      for (var i in images) {
+        var image = images[i];
+        //  extract tags
+        var tags = [];
+        if (images.length > 1) {
+          var tags = image.split('.')[0].split('-');
+          var ignore = ['', 'kernel', 'zImage', 'uImage', 'factory', 'sysupgrade', 'rootfs', 'sdcard'];
+          tags = tags.filter(function (el) { return !ignore.includes(el); });
+          console.log(tags);
+        }
+        add_link(category, tags, image, 'factory-help');
+      }
+    }
+
+/*
+    for (var i in images) {
+      var image = images[i];
+      var label_suffix = "";
+
+      if (images.length >= 2) {
+        var extra = extractImageExtra(image);
+        if (extra.length > 0) {
+          label_suffix = " (" + extra.toUpperCase() + ")";
+        }
+      }
+
+      if (image.includes('-factory')) {
+        add_link("FACTORY" + label_suffix, image, 'factory-help');
+      } else if (image.includes('-sysupgrade')) {
+        add_link("SYSUPGRADE" + label_suffix, image, 'sysupgrade-help');
+      } else if (image.includes('-kernel') || image.includes('-zImage') || image.includes('-uImage')) {
+        add_link("KERNEL" + label_suffix, image, 'kernel-help');
+      } else if (image.includes('-rootfs')) {
+        add_link("ROOTFS" + label_suffix, image, 'rootfs-help');
+      } else if (image.includes('sdcard')) {
+        add_link("SDCARD" + label_suffix, image, 'sdcard-help');
+      } else {
+        add_link("OTHER" + label_suffix, image, 'other-help');
+      }
+    }
+*/
 
     $('images').style.display = 'block';
   } else {
@@ -233,6 +289,7 @@ function updateImages(dllink, model, target, release, commit, images) {
 updateImages();
 changeLanguage(config.language);
 
+// parse data for internal use
 function parseData(data) {
   var obj = JSON.parse(data);
   var out = {};
@@ -245,8 +302,9 @@ function parseData(data) {
       var entry = entries[i];
       var name = (entry[0] + " " + entry[1] + " " + entry[2]).trim();
       var target = entry[3];
-      var images = entry[4];
-      models[name] = {'link': link, 'name': name, 'target': target, 'commit': commit, 'images': images};
+      var prefix = entry[4];
+      var images = entry[5];
+      models[name] = {'link': link, 'name': name, 'target': target, 'commit': commit, 'prefix': prefix, 'images': images};
     }
     out[release] = models;
   }
@@ -258,11 +316,17 @@ loadFile(config.data, function(data) {
     setupSelectList($("releases"), Object.keys(obj), function(release) {
       setupAutocompleteList($("models"), Object.keys(obj[release]), function(model) {
         if (model in obj[release]) {
+          // e.g. 'https://openwrt.org/%release/%file'
           var dllink = obj[release][model].link;
+          // e.g. 'ath79/generic'
           var target = obj[release][model].target;
+          // e.g. 'r12345-abcfefg321'
           var commit = obj[release][model].commit;
+          // e.g. 'openwrt-ath79-generic-tp-link-841-v10'
+          var prefix = obj[release][model].prefix;
+          // e.g. ['-sysupgrade.bin', '-factory.bin']
           var images = obj[release][model].images;
-          updateImages(dllink, model, target, release, commit, images);
+          updateImages(dllink, model, target, release, commit, prefix, images);
         } else {
           updateImages();
         }
