@@ -235,18 +235,18 @@ function updateImages(dllink, model, target, release, commit, prefix, images) {
       }
     }
 
+    function extractTags(image) {
+      var all = image.split('.')[0].split('-');
+      var ignore = ['', 'kernel', 'zImage', 'uImage', 'factory', 'sysupgrade', 'rootfs', 'sdcard'];
+      return all.filter(function (el) { return !ignore.includes(el); });
+    }
+
     for (var category in entries) {
       var images = entries[category];
       for (var i in images) {
         var image = images[i];
-        //  extract tags
-        var tags = [];
-        if (images.length > 1) {
-          var tags = image.split('.')[0].split('-');
-          var ignore = ['', 'kernel', 'zImage', 'uImage', 'factory', 'sysupgrade', 'rootfs', 'sdcard'];
-          tags = tags.filter(function (el) { return !ignore.includes(el); });
-          console.log(tags);
-        }
+        var tags = (images.length > 1) ? extractTags(image) : [];
+
         add_link(category, tags, image, 'factory-help');
       }
     }
