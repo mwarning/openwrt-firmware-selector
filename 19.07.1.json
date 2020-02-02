@@ -1,6 +1,6 @@
 {
 	"19.07.1": {
-		"commit": "unknown",
+		"commit": "r10911-c155900f66",
 		"link": "https://downloads.openwrt.org/releases/%release/targets/%target/%file",
 		"models": [
 			[

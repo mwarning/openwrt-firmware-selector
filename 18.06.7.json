@@ -1,6 +1,6 @@
 {
 	"18.06.7": {
-		"commit": "unknown",
+		"commit": "r7976-ca47026b7d",
 		"link": "https://downloads.openwrt.org/releases/%release/targets/%target/%file",
 		"models": [
 			[
