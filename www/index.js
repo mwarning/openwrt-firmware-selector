@@ -323,9 +323,9 @@ loadFile(config.data, function(data) {
           var target = obj[release][model].target;
           // e.g. 'r12345-abcfefg321'
           var commit = obj[release][model].commit;
-          // e.g. 'openwrt-ath79-generic-tp-link-841-v10'
+          // e.g. 'openwrt-ath79-generic-tp-link-841-v10-'
           var prefix = obj[release][model].prefix;
-          // e.g. ['-sysupgrade.bin', '-factory.bin']
+          // e.g. ['sysupgrade.bin', 'factory.bin']
           var images = obj[release][model].images;
           updateImages(dllink, model, target, release, commit, prefix, images);
         } else {
