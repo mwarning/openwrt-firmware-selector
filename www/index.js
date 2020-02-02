@@ -247,8 +247,7 @@ function updateImages(dllink, model, target, release, commit, prefix, images) {
       for (var i in images) {
         var image = images[i];
         var tags = (images.length > 1) ? extractTags(image) : [];
-
-        add_link(category, tags, image, 'factory-help');
+        add_link(category, tags, image, category.toLowerCase() + '-help');
       }
     }
 
