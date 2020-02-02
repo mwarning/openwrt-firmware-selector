@@ -220,13 +220,13 @@ function updateImages(dllink, model, target, release, commit, prefix, images) {
 
     for (var i in images) {
       var image = images[i];
-      if (image.includes('-factory')) {
+      if (image.includes('factory')) {
         entries['FACTORY'].push(image);
-      } else if (image.includes('-sysupgrade')) {
+      } else if (image.includes('sysupgrade')) {
         entries['SYSUPGRADE'].push(image);
-      } else if (image.includes('-kernel') || image.includes('-zImage') || image.includes('-uImage')) {
+      } else if (image.includes('kernel') || image.includes('zImage') || image.includes('uImage')) {
         entries['KERNEL'].push(image);
-      } else if (image.includes('-rootfs')) {
+      } else if (image.includes('rootfs')) {
         entries['ROOTFS'].push(image);
       } else if (image.includes('sdcard')) {
         entries['SDCARD'].push(image);
