@@ -251,34 +251,6 @@ function updateImages(dllink, model, target, release, commit, prefix, images) {
       }
     }
 
-/*
-    for (var i in images) {
-      var image = images[i];
-      var label_suffix = "";
-
-      if (images.length >= 2) {
-        var extra = extractImageExtra(image);
-        if (extra.length > 0) {
-          label_suffix = " (" + extra.toUpperCase() + ")";
-        }
-      }
-
-      if (image.includes('-factory')) {
-        add_link("FACTORY" + label_suffix, image, 'factory-help');
-      } else if (image.includes('-sysupgrade')) {
-        add_link("SYSUPGRADE" + label_suffix, image, 'sysupgrade-help');
-      } else if (image.includes('-kernel') || image.includes('-zImage') || image.includes('-uImage')) {
-        add_link("KERNEL" + label_suffix, image, 'kernel-help');
-      } else if (image.includes('-rootfs')) {
-        add_link("ROOTFS" + label_suffix, image, 'rootfs-help');
-      } else if (image.includes('sdcard')) {
-        add_link("SDCARD" + label_suffix, image, 'sdcard-help');
-      } else {
-        add_link("OTHER" + label_suffix, image, 'other-help');
-      }
-    }
-*/
-
     $('images').style.display = 'block';
   } else {
     $('images').style.display = 'none';
