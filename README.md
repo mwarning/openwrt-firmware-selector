@@ -2,22 +2,21 @@
 
 A simple OpenWrt firmware selector using autocompletion. Uses plain HTML/JavaScript.
 
-![image](screenshot.png)
+![image](misc/screenshot.png)
 
 Run:
 
-* Download repository.
-* Go to the project www directory.
+* Download repository and change directory to it
 * Start webserver (e.g. `python3 -m http.server`)
 * Go to `http://localhost:8000`
 
-Configure with [config.js](www/config.js).
+Configure with [config.js](config.js).
 
 ## Update Database
 
 OpenWrt master has a feature to create json files: `Global build settings  ---> [*] Create JSON info files per build image`.
 
-The included python script can merge all these files for a new data.json file: `./collect.py bin/ bin2/ > data.json`
+A [Python script](misc/collect.py) is included that can merge all these JSON files for a new data.json file: `./collect.py bin/ > data.json`
 
 The data JSON file can also include a link that will overwrite downloadLink from `config.json`.
 
