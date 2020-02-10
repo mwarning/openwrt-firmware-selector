@@ -4,6 +4,8 @@ A simple OpenWrt firmware selector using autocompletion. Uses plain HTML/JavaScr
 
 ![image](misc/screenshot.png)
 
+Checkout the [Demo](https://mwarning.github.io/yet_another_firmware_selector/)!
+
 Run:
 
 * Download repository and change directory to it
