@@ -291,7 +291,6 @@ loadFile(config.data, function(data) {
     var obj = JSON.parse(data);
     setupSelectList($("releases"), Object.keys(obj), function(release) {
       setupAutocompleteList($("models"), Object.keys(obj[release]['models']), function(model) {
-          console.log(model);
         if (model in obj[release]['models']) {
           var link = obj[release].link;
           var commit = obj[release].commit;
