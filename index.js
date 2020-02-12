@@ -55,7 +55,10 @@ function setupAutocompleteList(input, items, onselection) {
     var value = this.value;
     // close any already open lists of autocompleted values
     closeAllLists();
-    if (!value) { return false; }
+
+    if (!value) {
+      return false;
+    }
 
     // create a DIV element that will contain the items (values):
     var list = document.createElement("DIV");
@@ -165,17 +168,27 @@ function $(id) {
   return document.getElementById(id);
 }
 
-function updateImages(dllink, model, target, release, commit, prefix, images) {
-  // add download button for image
-  function add_link(label, tags, image, help_id) {
-    var a = document.createElement('A');
+function findCommonPrefix(files){
+    var A = files.concat().sort();
+    var first = A[0];
+    var last = A[A.length - 1];
+    var L = first.length;
+    var i = 0;
+    while (i < L && first.charAt(i) === last.charAt(i)) {
+      i += 1;
+    }
+    return first.substring(0, i);
+}
 
+function updateImages(release, commit, model, image_link, mobj) {
+  // add download button for image
+  function addLink(label, tags, file, help_id) {
+    var a = document.createElement('A');
     a.classList.add('download-link');
-    a.href = (dllink ? dllink : config.downloadLink)
-      .replace('%target', target)
+    a.href = image_link
+      .replace('%target', mobj[0])
       .replace('%release', release)
-      .replace('%file', prefix + image)
-      .replace('%commit', commit);
+      .replace('%file', file);
     var span = document.createElement('SPAN');
     span.appendChild(document.createTextNode(''));
     a.appendChild(span);
@@ -207,47 +220,60 @@ function updateImages(dllink, model, target, release, commit, prefix, images) {
   Array.from(document.getElementsByClassName('download-help'))
     .forEach(function(e) { e.style.display = 'none'; });
 
-  if (model && target && release && commit && prefix && images) {
+  if (release && commit && model && image_link && mobj) {
+    var target = mobj[0];
+    var files = mobj[1];
+
     // fill out build info
     $('image-model').innerText = model;
     $('image-target').innerText = target;
     $('image-release').innerText = release;
     $('image-commit').innerText = commit;
 
-    images.sort();
+    var prefix = findCommonPrefix(files);
+    var entries = {
+      'FACTORY': [],
+      'SYSUPGRADE': [],
+      'KERNEL': [],
+      'ROOTFS': [],
+      'SDCARD': [],
+      'TFTP': [],
+      'OTHER': []
+    };
 
-    var entries = {'FACTORY': [], 'SYSUPGRADE': [], 'KERNEL': [], 'ROOTFS': [], 'SDCARD': [], 'OTHER': [] };
+    files.sort();
 
-    for (var i in images) {
-      var image = images[i];
-      var file = prefix + image;
+    for (var i in files) {
+      var file = files[i];
       if (file.includes('-factory')) {
-        entries['FACTORY'].push(image);
+        entries['FACTORY'].push(file);
       } else if (file.includes('-sysupgrade')) {
-        entries['SYSUPGRADE'].push(image);
+        entries['SYSUPGRADE'].push(file);
       } else if (file.includes('-kernel') || file.includes('-zImage') || file.includes('-uImage')) {
-        entries['KERNEL'].push(image);
+        entries['KERNEL'].push(file);
       } else if (file.includes('-rootfs')) {
-        entries['ROOTFS'].push(image);
+        entries['ROOTFS'].push(file);
       } else if (file.includes('-sdcard')) {
-        entries['SDCARD'].push(image);
+        entries['SDCARD'].push(file);
+      } else if (file.includes('-tftp')) {
+        entries['TFTP'].push(file);
       } else {
-        entries['OTHER'].push(image);
+        entries['OTHER'].push(file);
       }
     }
 
-    function extractTags(image) {
-      var all = image.split('.')[0].split('-');
+    function extractTags(prefix, file) {
+      var all = file.substring(len(prefix)).split('.')[0].split('-');
       var ignore = ['', 'kernel', 'zImage', 'uImage', 'factory', 'sysupgrade', 'rootfs', 'sdcard'];
       return all.filter(function (el) { return !ignore.includes(el); });
     }
 
     for (var category in entries) {
-      var images = entries[category];
-      for (var i in images) {
-        var image = images[i];
-        var tags = (images.length > 1) ? extractTags(image) : [];
-        add_link(category, tags, image, category.toLowerCase() + '-help');
+      var files = entries[category];
+      for (var i in files) {
+        var file = files[i];
+        var tags = (files.length > 1) ? extractTags(prefix, file) : [];
+        addLink(category, tags, file, category.toLowerCase() + '-help');
       }
     }
 
@@ -261,44 +287,16 @@ function updateImages(dllink, model, target, release, commit, prefix, images) {
 updateImages();
 changeLanguage(config.language);
 
-// parse data for internal use
-function parseData(data) {
-  var obj = JSON.parse(data);
-  var out = {};
-  for (var release in obj) {
-    var link = obj[release]['link'];
-    var commit  = obj[release]['commit']
-    var entries = obj[release]['models'];
-    var models = {};
-    for (var i = 0; i < entries.length; i += 1) {
-      var entry = entries[i];
-      var name = (entry[0] + " " + entry[1] + " " + entry[2]).trim();
-      var target = entry[3];
-      var prefix = entry[4];
-      var images = entry[5];
-      models[name] = {'link': link, 'name': name, 'target': target, 'commit': commit, 'prefix': prefix, 'images': images};
-    }
-    out[release] = models;
-  }
-  return out;
-}
-
 loadFile(config.data, function(data) {
-    var obj = parseData(data);
+    var obj = JSON.parse(data);
     setupSelectList($("releases"), Object.keys(obj), function(release) {
-      setupAutocompleteList($("models"), Object.keys(obj[release]), function(model) {
-        if (model in obj[release]) {
-          // e.g. 'https://openwrt.org/%release/%file'
-          var dllink = obj[release][model].link;
-          // e.g. 'ath79/generic'
-          var target = obj[release][model].target;
-          // e.g. 'r12345-abcfefg321'
-          var commit = obj[release][model].commit;
-          // e.g. 'openwrt-ath79-generic-tp-link-841-v10-'
-          var prefix = obj[release][model].prefix;
-          // e.g. ['sysupgrade.bin', 'factory.bin']
-          var images = obj[release][model].images;
-          updateImages(dllink, model, target, release, commit, prefix, images);
+      setupAutocompleteList($("models"), Object.keys(obj[release]['models']), function(model) {
+          console.log(model);
+        if (model in obj[release]['models']) {
+          var link = obj[release].link;
+          var commit = obj[release].commit;
+          var mobj = obj[release]['models'][model];
+          updateImages(release, commit, model, link, mobj);
         } else {
           updateImages();
         }
