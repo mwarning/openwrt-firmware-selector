@@ -245,17 +245,17 @@ function updateImages(release, commit, model, image_link, mobj) {
 
     for (var i in files) {
       var file = files[i];
-      if (file.includes('-factory')) {
+      if (file.includes('factory')) {
         entries['FACTORY'].push(file);
-      } else if (file.includes('-sysupgrade')) {
+      } else if (file.includes('sysupgrade')) {
         entries['SYSUPGRADE'].push(file);
-      } else if (file.includes('-kernel') || file.includes('-zImage') || file.includes('-uImage')) {
+      } else if (file.includes('kernel') || file.includes('zImage') || file.includes('uImage')) {
         entries['KERNEL'].push(file);
-      } else if (file.includes('-rootfs')) {
+      } else if (file.includes('rootfs')) {
         entries['ROOTFS'].push(file);
-      } else if (file.includes('-sdcard')) {
+      } else if (file.includes('sdcard')) {
         entries['SDCARD'].push(file);
-      } else if (file.includes('-tftp')) {
+      } else if (file.includes('tftp')) {
         entries['TFTP'].push(file);
       } else {
         entries['OTHER'].push(file);
