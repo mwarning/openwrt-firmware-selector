@@ -263,7 +263,7 @@ function updateImages(release, commit, model, image_link, mobj) {
     }
 
     function extractTags(prefix, file) {
-      var all = file.substring(len(prefix)).split('.')[0].split('-');
+      var all = file.substring(prefix.length).split('.')[0].split('-');
       var ignore = ['', 'kernel', 'zImage', 'uImage', 'factory', 'sysupgrade', 'rootfs', 'sdcard'];
       return all.filter(function (el) { return !ignore.includes(el); });
     }
