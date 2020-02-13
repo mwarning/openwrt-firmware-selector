@@ -7,8 +7,8 @@ import sys
 import os
 
 parser = argparse.ArgumentParser()
-parser.add_argument("input_path", help="Input folder that is traversed for OpenWrt JSON device files.")
-parser.add_argument('--link', required = True,
+parser.add_argument("input_path", nargs='?', help="Input folder that is traversed for OpenWrt JSON device files.")
+parser.add_argument('--link',
             action="store", dest="link", default="",
             help="Link to get the image from. May contain %%file, %%target, %%release and %%commit")
 parser.add_argument('--include', nargs='+', default=[],
@@ -77,7 +77,6 @@ for path in paths:
     except KeyError as e:
       sys.stderr.write("Abort on {}\n   Missing key {}\n".format(path, e))
       exit(1)
-
 
 # include JSON data from other files 
 for path in args.include:
