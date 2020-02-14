@@ -94,6 +94,6 @@ for path in args.include:
         exit(1)
 
 if args.formatted:
-  json.dump(output, sys.stdout, sort_keys=True, indent="  ")
+  json.dump(output, sys.stdout, indent="  ")
 else:
-  json.dump(output, sys.stdout, sort_keys=True)
+  json.dump(output, sys.stdout)
