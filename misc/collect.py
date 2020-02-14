@@ -63,13 +63,14 @@ for path in paths:
           images.append(image['name'])
 
       target = obj['target'].strip('/') # small fixed for stray /
+      id = obj['id']
       for title in obj['titles']:
         if 'title' in title:
           name = title['title']
-          output[version]['models'][name] = [target, images]
+          output[version]['models'][name] = {'id': id, 'target': target, 'images': images}
         else:
           name = "{} {} {}".format(title.get('vendor', ''), title['model'], title.get('variant', '')).strip()
-          output[version]['models'][name] = [target, images]
+          output[version]['models'][name] = {'id': id, 'target': target, 'images': images}
 
     except json.decoder.JSONDecodeError as e:
       sys.stderr.write("Skip {}\n   {}\n".format(path, e))

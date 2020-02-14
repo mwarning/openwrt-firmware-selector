@@ -186,7 +186,7 @@ function updateImages(release, commit, model, image_link, mobj) {
     var a = document.createElement('A');
     a.classList.add('download-link');
     a.href = image_link
-      .replace('%target', mobj[0])
+      .replace('%target', mobj.target)
       .replace('%release', release)
       .replace('%file', file);
     var span = document.createElement('SPAN');
@@ -221,8 +221,8 @@ function updateImages(release, commit, model, image_link, mobj) {
     .forEach(function(e) { e.style.display = 'none'; });
 
   if (release && commit && model && image_link && mobj) {
-    var target = mobj[0];
-    var files = mobj[1];
+    var target = mobj.target;
+    var images = mobj.images;
 
     // fill out build info
     $('image-model').innerText = model;
@@ -230,7 +230,7 @@ function updateImages(release, commit, model, image_link, mobj) {
     $('image-release').innerText = release;
     $('image-commit').innerText = commit;
 
-    var prefix = findCommonPrefix(files);
+    var prefix = findCommonPrefix(images);
     var entries = {
       'FACTORY': [],
       'SYSUPGRADE': [],
@@ -241,40 +241,40 @@ function updateImages(release, commit, model, image_link, mobj) {
       'OTHER': []
     };
 
-    files.sort();
+    images.sort();
 
-    for (var i in files) {
-      var file = files[i];
-      var lc = file.toLowerCase()
+    for (var i in images) {
+      var image = images[i];
+      var lc = image.toLowerCase()
       if (lc.includes('factory')) {
-        entries['FACTORY'].push(file);
+        entries['FACTORY'].push(image);
       } else if (lc.includes('sysupgrade')) {
-        entries['SYSUPGRADE'].push(file);
+        entries['SYSUPGRADE'].push(image);
       } else if (lc.includes('kernel') || lc.includes('zimage') || lc.includes('uimage')) {
-        entries['KERNEL'].push(file);
+        entries['KERNEL'].push(image);
       } else if (lc.includes('rootfs')) {
-        entries['ROOTFS'].push(file);
+        entries['ROOTFS'].push(image);
       } else if (lc.includes('sdcard')) {
-        entries['SDCARD'].push(file);
+        entries['SDCARD'].push(image);
       } else if (lc.includes('tftp')) {
-        entries['TFTP'].push(file);
+        entries['TFTP'].push(image);
       } else {
-        entries['OTHER'].push(file);
+        entries['OTHER'].push(image);
       }
     }
 
-    function extractTags(prefix, file) {
-      var all = file.substring(prefix.length).split('.')[0].split('-');
+    function extractTags(prefix, image) {
+      var all = image.substring(prefix.length).split('.')[0].split('-');
       var ignore = ['', 'kernel', 'zImage', 'uImage', 'factory', 'sysupgrade', 'rootfs', 'sdcard'];
       return all.filter(function (el) { return !ignore.includes(el); });
     }
 
     for (var category in entries) {
-      var files = entries[category];
-      for (var i in files) {
-        var file = files[i];
-        var tags = (files.length > 1) ? extractTags(prefix, file) : [];
-        addLink(category, tags, file, category.toLowerCase() + '-help');
+      var images = entries[category];
+      for (var i in images) {
+        var image = images[i];
+        var tags = (images.length > 1) ? extractTags(prefix, image) : [];
+        addLink(category, tags, image, category.toLowerCase() + '-help');
       }
     }
 
