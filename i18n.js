@@ -3,7 +3,7 @@ var translations = {
 	'de': {
 		'tr-load': 'Lade die OpenWrt Firmware für dein Gerät!',
 		'tr-title': 'OpenWrt Firmware Selector',
-		'tr-message': 'Bitte benutze den die Eingabe unten um die passende Firmare herunterzuladen!',
+		'tr-message': 'Bitte benutze die Eingabe um die passende Firmware zu finden!',
 		'tr-build': 'Build',
 		'tr-model': 'Model:',
 		'tr-target': 'Target',
