@@ -288,7 +288,7 @@ function updateImages(version, commit, model, image_link, mobj) {
 updateImages();
 changeLanguage(config.language);
 
-setupSelectList($("versions"), Object.keys(config.versions), function(version) {
+setupSelectList($("releases"), Object.keys(config.versions), function(version) {
   loadFile(config.versions[version], function(obj) {
     setupAutocompleteList($("models"), Object.keys(obj['models']), function(model) {
       if (model in obj['models']) {
