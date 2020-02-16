@@ -57,7 +57,7 @@ header {
   width: 100%;
   z-index: 1100;
   box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
-  background-color: #3F51B5;
+  background-color: #00A3E1;
 }
 
 h6 {
@@ -111,7 +111,7 @@ header > div {
 
 #language-selection {
   color: #fff;
-  background-color: #009688;
+  background-color: #1084b2;
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px
   rgba(0,0,0,0.12);
   padding: 6px 16px;
@@ -137,11 +137,11 @@ header > div {
   align-items: center;
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
   color: #fff;
-  background-color: #3F51B5;
+  background-color: #00A3E1;
 }
 
 .download-link:hover {
-  background-color: #293680
+  background-color: #038fc6
 }
 
 .download-link :first-child {
