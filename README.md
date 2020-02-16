@@ -16,9 +16,11 @@ Configure with [config.js](config.js).
 
 ## Update Database
 
-The `data.json` is based on JSON files created by OpenWrt (master): `Global build settings  ---> [*] Create JSON info files per build image`.
+The `names-<version>.json` files are based on JSON files created by OpenWrt (master): `Global build settings  ---> [*] Create JSON info files per build image`.
 
-A [Python script](misc/collect.py) is included that can merge all these JSON files for a new `data.json` file: `./collect.py bin/ --link 'https://downloads.openwrt.org/releases/%release/targets/%target/%file' > data.json`.
+A [Python script](misc/collect.py) is included to create those json files: `./collect.py bin/ --link 'https://downloads.openwrt.org/releases/%release/targets/%target/%file' > names-test.json`.
+
+Note: Files `names-18.06.7.json` and `names-19.07.1.json` contain data for older OpenWrt releases that do not support JSON output. It was generated using heuristics.
 
 ## Contributions
 
