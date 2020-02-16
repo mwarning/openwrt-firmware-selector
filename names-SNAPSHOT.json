@@ -1,6 +1,6 @@
 {
   "commit": "r12145-4716c843d6",
-  "link": "",
+  "link": "https://downloads.openwrt.org/snapshots/targets/%target/%file",
   "models": {
     "SolidRun MACCHIATObin": {
       "id": "marvell_macchiatobin",
