@@ -60,7 +60,7 @@ for path in paths:
       for image in obj['images']:
           images.append(image['name'])
 
-      target = obj['target'].strip('/') # small fix for stray '/'
+      target = obj['target']
       id = obj['id']
       for title in obj['titles']:
         if 'title' in title:
