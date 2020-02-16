@@ -5,5 +5,5 @@ var config = {
   // Show help text for images
   showHelp: true,
   // File to get data from
-  data: 'data.json'
+  versions_file: 'versions.json'
 };

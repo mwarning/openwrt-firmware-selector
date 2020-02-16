@@ -1,9 +1,10 @@
+data = {}
 
 function loadFile(url, callback) {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-      callback(xmlhttp.responseText, url);
+      callback(JSON.parse(xmlhttp.responseText), url);
     }
   };
   xmlhttp.open('GET', url, true);
@@ -32,7 +33,9 @@ function changeLanguage(language) {
   if (mapping) {
     for (var tr in mapping) {
       Array.from(document.getElementsByClassName(tr))
-      .forEach(function(e) { e.innerText = mapping[tr]; })
+        .forEach(function(e) {
+          e.innerText = mapping[tr];
+        })
     }
   }
 }
@@ -43,7 +46,10 @@ function setupAutocompleteList(input, items, onselection) {
   var currentFocus = -1;
 
   // sort numbers and other characters separately
-  var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+  var collator = new Intl.Collator(undefined, {
+    numeric: true,
+    sensitivity: 'base'
+  });
 
   items.sort(collator.compare);
 
@@ -55,7 +61,6 @@ function setupAutocompleteList(input, items, onselection) {
     var value = this.value;
     // close any already open lists of autocompleted values
     closeAllLists();
-
     if (!value) {
       return false;
     }
@@ -87,10 +92,10 @@ function setupAutocompleteList(input, items, onselection) {
       } else {
         var div = document.createElement("DIV");
         // make the matching letters bold:
-        div.innerHTML = item.substr(0, j)
-          + "<strong>" + item.substr(j, value.length) + "</strong>"
-          + item.substr(j + value.length)
-          + "<input type='hidden' value='" + item + "'>";
+        div.innerHTML = item.substr(0, j) +
+          "<strong>" + item.substr(j, value.length) + "</strong>" +
+          item.substr(j + value.length) +
+          "<input type='hidden' value='" + item + "'>";
 
         div.addEventListener("click", function(e) {
           // set text field to selected value
@@ -108,26 +113,26 @@ function setupAutocompleteList(input, items, onselection) {
   };
 
   input.onkeydown = function(e) {
-      var x = document.getElementById(this.id + "-autocomplete-list");
-      if (x) x = x.getElementsByTagName("div");
-      if (e.keyCode == 40) {
-        // key down
-        currentFocus += 1;
-        // and and make the current item more visible:
-        setActive(x);
-      } else if (e.keyCode == 38) {
-        // key up
-        currentFocus -= 1;
-        // and and make the current item more visible:
-        setActive(x);
-      } else if (e.keyCode == 13) {
-        // If the ENTER key is pressed, prevent the form from being submitted,
-        e.preventDefault();
-        if (currentFocus > -1) {
-          // and simulate a click on the "active" item:
-          if (x) x[currentFocus].click();
-        }
+    var x = document.getElementById(this.id + "-autocomplete-list");
+    if (x) x = x.getElementsByTagName("div");
+    if (e.keyCode == 40) {
+      // key down
+      currentFocus += 1;
+      // and and make the current item more visible:
+      setActive(x);
+    } else if (e.keyCode == 38) {
+      // key up
+      currentFocus -= 1;
+      // and and make the current item more visible:
+      setActive(x);
+    } else if (e.keyCode == 13) {
+      // If the ENTER key is pressed, prevent the form from being submitted,
+      e.preventDefault();
+      if (currentFocus > -1) {
+        // and simulate a click on the "active" item:
+        if (x) x[currentFocus].click();
       }
+    }
   };
 
   input.onfocus = function() {
@@ -159,8 +164,8 @@ function setupAutocompleteList(input, items, onselection) {
   }
 
   // execute a function when someone clicks in the document:
-  document.addEventListener("click", function (e) {
-      closeAllLists(e.target);
+  document.addEventListener("click", function(e) {
+    closeAllLists(e.target);
   });
 }
 
@@ -168,44 +173,29 @@ function $(id) {
   return document.getElementById(id);
 }
 
-function findCommonPrefix(files){
-    var A = files.concat().sort();
-    var first = A[0];
-    var last = A[A.length - 1];
-    var L = first.length;
-    var i = 0;
-    while (i < L && first.charAt(i) === last.charAt(i)) {
-      i += 1;
-    }
-    return first.substring(0, i);
-}
-
-function updateImages(release, commit, model, image_link, mobj) {
+function updateImages(dllink, model, target, release, commit, images) {
   // add download button for image
-  function addLink(label, tags, file, help_id) {
+  function add_link(image) {
     var a = document.createElement('A');
     a.classList.add('download-link');
     a.href = image_link
       .replace('%target', mobj.target)
       .replace('%release', release)
-      .replace('%file', file);
+      .replace('%file', image.name)
+      .replace('%commit', commit);
     var span = document.createElement('SPAN');
     span.appendChild(document.createTextNode(''));
     a.appendChild(span);
-
-    // add sub label
-    if (tags.length > 0) {
-      a.appendChild(document.createTextNode(label + ' (' + tags.join(', ') + ')'));
-    } else {
-      a.appendChild(document.createTextNode(label));
-    }
+    a.appendChild(document.createTextNode(image.type.toUpperCase()));
 
     if (config.showHelp) {
       a.onmouseover = function() {
         // hide all help texts
         Array.from(document.getElementsByClassName('download-help'))
-          .forEach(function(e) { e.style.display = 'none'; });
-        $(help_id).style.display = 'block';
+          .forEach(function(e) {
+            e.style.display = 'none';
+          });
+        $(image.type + "-help").style.display = 'block';
       };
     }
 
@@ -214,16 +204,17 @@ function updateImages(release, commit, model, image_link, mobj) {
 
   // remove all download links
   Array.from(document.getElementsByClassName('download-link'))
-    .forEach(function(e) { e.remove(); });
+    .forEach(function(e) {
+      e.remove();
+    });
 
   // hide all help texts
   Array.from(document.getElementsByClassName('download-help'))
-    .forEach(function(e) { e.style.display = 'none'; });
+    .forEach(function(e) {
+      e.style.display = 'none';
+    });
 
-  if (release && commit && model && image_link && mobj) {
-    var target = mobj.target;
-    var images = mobj.images;
-
+  if (model && target && release && commit && images) {
     // fill out build info
     $('image-model').innerText = model;
     $('image-target').innerText = target;
@@ -241,41 +232,9 @@ function updateImages(release, commit, model, image_link, mobj) {
       'OTHER': []
     };
 
-    images.sort();
-
     for (var i in images) {
       var image = images[i];
-      var lc = image.toLowerCase()
-      if (lc.includes('factory')) {
-        entries['FACTORY'].push(image);
-      } else if (lc.includes('sysupgrade')) {
-        entries['SYSUPGRADE'].push(image);
-      } else if (lc.includes('kernel') || lc.includes('zimage') || lc.includes('uimage')) {
-        entries['KERNEL'].push(image);
-      } else if (lc.includes('rootfs')) {
-        entries['ROOTFS'].push(image);
-      } else if (lc.includes('sdcard')) {
-        entries['SDCARD'].push(image);
-      } else if (lc.includes('tftp')) {
-        entries['TFTP'].push(image);
-      } else {
-        entries['OTHER'].push(image);
-      }
-    }
-
-    function extractTags(prefix, image) {
-      var all = image.substring(prefix.length).split('.')[0].split('-');
-      var ignore = ['', 'kernel', 'zImage', 'uImage', 'factory', 'sysupgrade', 'rootfs', 'sdcard'];
-      return all.filter(function (el) { return !ignore.includes(el); });
-    }
-
-    for (var category in entries) {
-      var images = entries[category];
-      for (var i in images) {
-        var image = images[i];
-        var tags = (images.length > 1) ? extractTags(prefix, image) : [];
-        addLink(category, tags, image, category.toLowerCase() + '-help');
-      }
+      add_link(image);
     }
 
     $('images').style.display = 'block';
@@ -288,21 +247,31 @@ function updateImages(release, commit, model, image_link, mobj) {
 updateImages();
 changeLanguage(config.language);
 
-loadFile(config.data, function(data) {
-    var obj = JSON.parse(data);
-    setupSelectList($("releases"), Object.keys(obj), function(release) {
-      setupAutocompleteList($("models"), Object.keys(obj[release]['models']), function(model) {
-        if (model in obj[release]['models']) {
-          var link = obj[release].link;
-          var commit = obj[release].commit;
-          var mobj = obj[release]['models'][model];
-          updateImages(release, commit, model, link, mobj);
-        } else {
-          updateImages();
-        }
-      });
+// TODO load multiple release files
+static_release = "SNAPSHOT"
 
-      // trigger model update when selected release changes
-      $("models").onfocus();
+loadFile("names-" + static_release + ".json", function(obj_release) {
+  obj = {}
+  obj[static_release] = obj_release
+  console.log(obj)
+  setupSelectList($("releases"), Object.keys(obj), function(release) {
+    setupAutocompleteList($("models"), Object.keys(obj[release]["models"]), function(model) {
+      if (model in obj[release]["models"]) {
+        // e.g. 'https://openwrt.org/%release/%file'
+        var dllink = obj[release].link;
+        // e.g. 'ath79/generic'
+        var target = obj[release]["models"][model].target;
+        // e.g. 'r12345-abcfefg321'
+        var commit = obj[release].version_commit;
+        // e.g. ['sysupgrade.bin', 'factory.bin']
+        var images = obj[release]["models"][model].images;
+        updateImages(dllink, model, target, release, commit, images);
+      } else {
+        updateImages();
+      }
     });
+
+    // trigger model update when selected release changes
+    $("models").onfocus();
+  });
 })
