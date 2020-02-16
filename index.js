@@ -3,7 +3,7 @@ function loadFile(url, callback) {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-      callback(xmlhttp.responseText, url);
+      callback(JSON.parse(xmlhttp.responseText), url);
     }
   };
   xmlhttp.open('GET', url, true);
@@ -168,7 +168,7 @@ function $(id) {
   return document.getElementById(id);
 }
 
-function findCommonPrefix(files){
+function findCommonPrefix(files) {
     var A = files.concat().sort();
     var first = A[0];
     var last = A[A.length - 1];
@@ -180,14 +180,14 @@ function findCommonPrefix(files){
     return first.substring(0, i);
 }
 
-function updateImages(release, commit, model, image_link, mobj) {
+function updateImages(version, commit, model, image_link, mobj) {
   // add download button for image
   function addLink(label, tags, file, help_id) {
     var a = document.createElement('A');
     a.classList.add('download-link');
     a.href = image_link
       .replace('%target', mobj.target)
-      .replace('%release', release)
+      .replace('%release', version)
       .replace('%file', file);
     var span = document.createElement('SPAN');
     span.appendChild(document.createTextNode(''));
@@ -220,14 +220,14 @@ function updateImages(release, commit, model, image_link, mobj) {
   Array.from(document.getElementsByClassName('download-help'))
     .forEach(function(e) { e.style.display = 'none'; });
 
-  if (release && commit && model && image_link && mobj) {
+  if (version && commit && model && image_link && mobj) {
     var target = mobj.target;
     var images = mobj.images;
 
     // fill out build info
     $('image-model').innerText = model;
     $('image-target').innerText = target;
-    $('image-release').innerText = release;
+    $('image-release').innerText = version;
     $('image-commit').innerText = commit;
 
     var prefix = findCommonPrefix(images);
@@ -288,21 +288,20 @@ function updateImages(release, commit, model, image_link, mobj) {
 updateImages();
 changeLanguage(config.language);
 
-loadFile(config.data, function(data) {
-    var obj = JSON.parse(data);
-    setupSelectList($("releases"), Object.keys(obj), function(release) {
-      setupAutocompleteList($("models"), Object.keys(obj[release]['models']), function(model) {
-        if (model in obj[release]['models']) {
-          var link = obj[release].link;
-          var commit = obj[release].commit;
-          var mobj = obj[release]['models'][model];
-          updateImages(release, commit, model, link, mobj);
-        } else {
-          updateImages();
-        }
-      });
-
-      // trigger model update when selected release changes
-      $("models").onfocus();
+setupSelectList($("versions"), Object.keys(config.versions), function(version) {
+  loadFile(config.versions[version], function(obj) {
+    setupAutocompleteList($("models"), Object.keys(obj['models']), function(model) {
+      if (model in obj['models']) {
+        var link = obj.link;
+        var commit = obj.commit;
+        var mobj = obj['models'][model];
+        updateImages(version, commit, model, link, mobj);
+      } else {
+        updateImages();
+      }
     });
-})
+
+    // trigger model update when selected version changes
+    $("models").onfocus();
+  });
+});

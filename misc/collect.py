@@ -11,8 +11,6 @@ parser.add_argument("input_path", nargs='?', help="Input folder that is traverse
 parser.add_argument('--link',
             action="store", dest="link", default="",
             help="Link to get the image from. May contain %%file, %%target, %%release and %%commit")
-parser.add_argument('--include', nargs='+', default=[],
-            action="store", dest="include", help="Include releases from other JSON files.")
 parser.add_argument('--formatted',
             action="store_true", dest="formatted", help="Output formatted JSON data.")
 
@@ -46,16 +44,16 @@ for path in paths:
       version = obj['version_number']
       commit = obj['version_commit']
 
-      if not version in output:
-        output[version] = {
+      if not 'commit' in output:
+        output = {
           'commit': commit,
           'link': args.link,
           'models' : {}
         }
 
       # only support a version_number with images of a single version_commit
-      if output[version]['commit'] != commit:
-        sys.stderr.write('mixed revisions for a release ({} and {}) => abort\n'.format(output[version]['commit'], commit))
+      if output['commit'] != commit:
+        sys.stderr.write('mixed revisions for a release ({} and {}) => abort\n'.format(output['commit'], commit))
         exit(1)
 
       images = []
@@ -67,10 +65,10 @@ for path in paths:
       for title in obj['titles']:
         if 'title' in title:
           name = title['title']
-          output[version]['models'][name] = {'id': id, 'target': target, 'images': images}
+          output['models'][name] = {'id': id, 'target': target, 'images': images}
         else:
           name = "{} {} {}".format(title.get('vendor', ''), title['model'], title.get('variant', '')).strip()
-          output[version]['models'][name] = {'id': id, 'target': target, 'images': images}
+          output['models'][name] = {'id': id, 'target': target, 'images': images}
 
     except json.decoder.JSONDecodeError as e:
       sys.stderr.write("Skip {}\n   {}\n".format(path, e))
@@ -78,20 +76,6 @@ for path in paths:
     except KeyError as e:
       sys.stderr.write("Abort on {}\n   Missing key {}\n".format(path, e))
       exit(1)
-
-# include JSON data from other files 
-for path in args.include:
-    with open(path, "r") as file:
-      try:
-        obj = json.load(file)
-        for release in obj:
-          if release in output:
-            sys.stderr.write("Release entry {} in {} already exists => skip\n".format(release, path))
-          else:
-            output[release] = obj[release]
-      except json.decoder.JSONDecodeError as e:
-        sys.stderr.write("{} {}\n".format(path, e))
-        exit(1)
 
 if args.formatted:
   json.dump(output, sys.stdout, indent="  ")

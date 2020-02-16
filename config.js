@@ -4,6 +4,10 @@ var config = {
   language: 'en',
   // Show help text for images
   showHelp: true,
-  // File to get data from
-  data: 'data.json'
+  // Files to get data from
+  versions: {
+    'SNAPSHOT': 'names-SNAPSHOT.json',
+    '19.07.1': 'names-19.07.1.json',
+    '18.06.7': 'names-18.06.7.json'
+  }
 };
