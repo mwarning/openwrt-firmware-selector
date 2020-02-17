@@ -11,5 +11,7 @@ var config = {
     '19.07.1': 'names-19.07.1.json',
     '18.06.7': 'names-18.06.7.json'
   },
+  // Optional: Attended Sysupgrade Feature
+  // Build custom images
   asu_url: '/api/build'
 };
