@@ -1,3 +1,66 @@
+function get_model_titles(titles) {
+  var title = []
+  for (var i in titles) {
+    if (titles[i].title) {
+      title.push(titles[i].title)
+    } else {
+      var title_fragments = []
+      if (titles[i].vendor) { title_fragments.push(titles[i].vendor) }
+      title_fragments.push(titles[i].model)
+      if (titles[i].variant) { title_fragments.push(titles[i].variant) }
+      title.push(title_fragments.join(" "))
+    }
+  }
+  return title.join("/")
+}
+
+function build_request(request_data) {
+  console.log("fire")
+  fetch(config.asu_url, {
+     method: "POST",
+     headers: { 'Content-Type': 'application/json' },
+     body: JSON.stringify(request_data)
+  })
+  .then(function(response) {
+    switch (response.status) {
+      case 200:
+        console.log("image found");
+        response.json()
+        .then(function(mobj) {
+          console.log(mobj)
+          updateImages(
+            mobj.version_number,
+            mobj.version_commit,
+            get_model_titles(mobj.titles),
+            mobj.url,
+            mobj)
+        });
+        break;
+      case 202:
+        // show some spinning animation
+        console.log("check again in 5 seconds");
+        setTimeout(function() { build_request(request_data) }, 5000);
+        break;
+      case 400:
+        console.log("bad request"); // see message
+        break;
+      case 422:
+        console.log("bad package"); // see message
+        break;
+      case 500:
+        console.log("build failed");
+        break;
+    }
+  })
+}
+
+function example_request() {
+  build_request({
+    "version": "SNAPSHOT",
+    "packages": ["bmon", "vim", "ip-full"],
+    "profile": "tplink_tl-wdr4300-v1"
+  })
+}
 
 function loadFile(url, callback) {
   var xmlhttp = new XMLHttpRequest();
@@ -168,7 +231,8 @@ function $(id) {
   return document.getElementById(id);
 }
 
-function findCommonPrefix(files) {
+function findCommonPrefix(images) {
+    var files = images.map(image => image.name)
     var A = files.concat().sort();
     var first = A[0];
     var last = A[A.length - 1];
@@ -180,15 +244,15 @@ function findCommonPrefix(files) {
     return first.substring(0, i);
 }
 
-function updateImages(version, commit, model, image_link, mobj) {
+function updateImages(version, commit, model, url, mobj) {
   // add download button for image
   function addLink(label, tags, file, help_id) {
     var a = document.createElement('A');
     a.classList.add('download-link');
-    a.href = image_link
-      .replace('%target', mobj.target)
-      .replace('%release', version)
-      .replace('%file', file);
+    a.href = url
+      .replace('{target}', mobj.target)
+      .replace('{release}', version)
+      + '/' + file;
     var span = document.createElement('SPAN');
     span.appendChild(document.createTextNode(''));
     a.appendChild(span);
@@ -220,7 +284,7 @@ function updateImages(version, commit, model, image_link, mobj) {
   Array.from(document.getElementsByClassName('download-help'))
     .forEach(function(e) { e.style.display = 'none'; });
 
-  if (version && commit && model && image_link && mobj) {
+  if (version && commit && model && url && mobj) {
     var target = mobj.target;
     var images = mobj.images;
 
@@ -244,7 +308,7 @@ function updateImages(version, commit, model, image_link, mobj) {
     images.sort();
 
     for (var i in images) {
-      var image = images[i];
+      var image = images[i].name;
       var lc = image.toLowerCase()
       if (lc.includes('factory')) {
         entries['FACTORY'].push(image);
@@ -292,10 +356,10 @@ setupSelectList($("releases"), Object.keys(config.versions), function(version) {
   loadFile(config.versions[version], function(obj) {
     setupAutocompleteList($("models"), Object.keys(obj['models']), function(model) {
       if (model in obj['models']) {
-        var link = obj.link;
-        var commit = obj.commit;
+        var url = obj.url;
+        var commit = obj.version_commit;
         var mobj = obj['models'][model];
-        updateImages(version, commit, model, link, mobj);
+        updateImages(version, commit, model, url, mobj);
       } else {
         updateImages();
       }

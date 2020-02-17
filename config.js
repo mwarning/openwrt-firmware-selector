@@ -6,8 +6,8 @@ var config = {
   showHelp: true,
   // Files to get data from
   versions: {
-    'SNAPSHOT': 'names-SNAPSHOT.json',
-    '19.07.1': 'names-19.07.1.json',
-    '18.06.7': 'names-18.06.7.json'
-  }
+//    'SNAPSHOT': '/api/names/SNAPSHOT' // when using asu backend
+    'SNAPSHOT': 'names-SNAPSHOT.json'
+  },
+  asu_url: '/api/build'
 };

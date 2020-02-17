@@ -8,9 +8,9 @@ import os
 
 parser = argparse.ArgumentParser()
 parser.add_argument("input_path", nargs='?', help="Input folder that is traversed for OpenWrt JSON device files.")
-parser.add_argument('--link',
-            action="store", dest="link", default="",
-            help="Link to get the image from. May contain %%file, %%target, %%release and %%commit")
+parser.add_argument('--url',
+            action="store", dest="url", default="",
+            help="Link to get the image from. May contain {target}, {release} and {commit}")
 parser.add_argument('--formatted',
             action="store_true", dest="formatted", help="Output formatted JSON data.")
 
@@ -44,21 +44,21 @@ for path in paths:
       version = obj['version_number']
       commit = obj['version_commit']
 
-      if not 'commit' in output:
+      if not 'version_commit' in output:
         output = {
-          'commit': commit,
-          'link': args.link,
+          'version_commit': commit,
+          'url': args.url,
           'models' : {}
         }
 
       # only support a version_number with images of a single version_commit
-      if output['commit'] != commit:
-        sys.stderr.write('mixed revisions for a release ({} and {}) => abort\n'.format(output['commit'], commit))
+      if output['version_commit'] != commit:
+        sys.stderr.write('mixed revisions for a release ({} and {}) => abort\n'.format(output['version_commit'], commit))
         exit(1)
 
       images = []
       for image in obj['images']:
-          images.append(image['name'])
+          images.append({"name": image['name']})
 
       target = obj['target']
       id = obj['id']
@@ -78,6 +78,6 @@ for path in paths:
       exit(1)
 
 if args.formatted:
-  json.dump(output, sys.stdout, indent="  ")
+  json.dump(output, sys.stdout, indent="  ", sort_keys =  True)
 else:
-  json.dump(output, sys.stdout)
+  json.dump(output, sys.stdout, sort_keys = True)
