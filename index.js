@@ -1,3 +1,5 @@
+data = {}
+
 function get_model_titles(titles) {
   var title = []
   for (var i in titles) {
@@ -14,8 +16,27 @@ function get_model_titles(titles) {
   return title.join("/")
 }
 
-function build_request(request_data) {
-  console.log("fire")
+function build_request() {
+  var profile = data["models"][$("models").value]
+  console.log(profile)
+  if (profile === undefined) {
+    alert("bad profile");
+    return;
+  }
+
+  updateImages()
+  $("loading").style.display = 'block';
+  $("custom").style.display = 'none';
+
+
+  request_data = {
+    "profile": profile.id,
+    "packages": $("packages").value.trim().split(" "),
+    "version": $("releases").value
+  }
+
+  console.log("disable request button / show loading spinner")
+
   fetch(config.asu_url, {
      method: "POST",
      headers: { 'Content-Type': 'application/json' },
@@ -24,6 +45,8 @@ function build_request(request_data) {
   .then(function(response) {
     switch (response.status) {
       case 200:
+      $("loading").style.display = 'none';
+      $("custom").style.display = 'block';
         console.log("image found");
         response.json()
         .then(function(mobj) {
@@ -42,23 +65,33 @@ function build_request(request_data) {
         setTimeout(function() { build_request(request_data) }, 5000);
         break;
       case 400:
+        $("loading").style.display = 'none';
+        $("custom").style.display = 'block';
         console.log("bad request"); // see message
+        response.json()
+        .then(function(mobj) {
+          alert(mobj.message)
+        });
         break;
       case 422:
+        $("loading").style.display = 'none';
+        $("custom").style.display = 'block';
         console.log("bad package"); // see message
+        response.json()
+        .then(function(mobj) {
+          alert(mobj.message)
+        });
         break;
       case 500:
+        $("loading").style.display = 'none';
+        $("custom").style.display = 'block';
         console.log("build failed");
+        response.json()
+        .then(function(mobj) {
+          alert(mobj.message)
+        });
         break;
     }
-  })
-}
-
-function example_request() {
-  build_request({
-    "version": "SNAPSHOT",
-    "packages": ["bmon", "vim", "ip-full"],
-    "profile": "tplink_tl-wdr4300-v1"
   })
 }
 
@@ -354,6 +387,7 @@ changeLanguage(config.language);
 
 setupSelectList($("releases"), Object.keys(config.versions), function(version) {
   loadFile(config.versions[version], function(obj) {
+    data = obj
     setupAutocompleteList($("models"), Object.keys(obj['models']), function(model) {
       if (model in obj['models']) {
         var url = obj.url;
