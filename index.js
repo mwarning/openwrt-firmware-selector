@@ -385,6 +385,10 @@ function updateImages(version, commit, model, url, mobj) {
 updateImages();
 changeLanguage(config.language);
 
+if (config.asu_url) {
+	$('custom').style.display = 'block';
+}
+
 setupSelectList($("releases"), Object.keys(config.versions), function(version) {
   loadFile(config.versions[version], function(obj) {
     data = obj
