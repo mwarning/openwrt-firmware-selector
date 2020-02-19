@@ -1,91 +1,83 @@
-data = {}
 
-function get_model_titles(titles) {
-  var title = []
-  for (var i in titles) {
-    if (titles[i].title) {
-      title.push(titles[i].title)
-    } else {
-      var title_fragments = []
-      if (titles[i].vendor) { title_fragments.push(titles[i].vendor) }
-      title_fragments.push(titles[i].model)
-      if (titles[i].variant) { title_fragments.push(titles[i].variant) }
-      title.push(title_fragments.join(" "))
-    }
-  }
-  return title.join("/")
+var current_model = {};
+var current_language = config.language;
+
+function $(id) {
+  return document.getElementById(id);
 }
 
-function build_request() {
-  var profile = data["models"][$("models").value]
-  console.log(profile)
-  if (profile === undefined) {
-    alert("bad profile");
+function show(id) {
+  $(id).style.display = 'block';
+}
+
+function hide(id) {
+  $(id).style.display = 'none';
+}
+
+function build_asa_request() {
+  if (!current_model || !current_model.id) {
+    alert('bad profile');
     return;
   }
 
-  updateImages()
-  $("loading").style.display = 'block';
-  $("custom").style.display = 'none';
-
-
-  request_data = {
-    "profile": profile.id,
-    "packages": $("packages").value.trim().split(" "),
-    "version": $("releases").value
+  function split(str) {
+    return str.match(/[^\s,]+/g) || [];
   }
 
-  console.log("disable request button / show loading spinner")
+  function get_model_titles(titles) {
+    return titles.map(function(e) {
+      if (e.title) {
+        return e.title;
+      } else {
+        return ((e.vendor || '') + (e.model || '') + (e.variant || '')).trim();
+      }
+    });
+  }
+
+  // hide image view
+  updateImages();
+
+  show('loading');
+
+  var request_data = {
+    'profile': current_model.id,
+    'packages': split($('packages').value),
+    'version': $('releases').value
+  }
+
+  console.log('disable request button / show loading spinner')
 
   fetch(config.asu_url, {
-     method: "POST",
+     method: 'POST',
      headers: { 'Content-Type': 'application/json' },
      body: JSON.stringify(request_data)
   })
   .then(function(response) {
     switch (response.status) {
       case 200:
-      $("loading").style.display = 'none';
-      $("custom").style.display = 'block';
-        console.log("image found");
+        hide('loading');
+
+        console.log('image found');
         response.json()
         .then(function(mobj) {
           console.log(mobj)
           updateImages(
-            mobj.version_number,
-            mobj.version_commit,
+            mobj.version_number, mobj.version_commit,
             get_model_titles(mobj.titles),
-            mobj.url,
-            mobj)
+            mobj.url, mobj, true
+          );
         });
         break;
       case 202:
         // show some spinning animation
-        console.log("check again in 5 seconds");
-        setTimeout(function() { build_request(request_data) }, 5000);
+        console.log('check again in 5 seconds');
+        setTimeout(function() { build_asa_request() }, 5000);
         break;
-      case 400:
-        $("loading").style.display = 'none';
-        $("custom").style.display = 'block';
-        console.log("bad request"); // see message
-        response.json()
-        .then(function(mobj) {
-          alert(mobj.message)
-        });
-        break;
-      case 422:
-        $("loading").style.display = 'none';
-        $("custom").style.display = 'block';
-        console.log("bad package"); // see message
-        response.json()
-        .then(function(mobj) {
-          alert(mobj.message)
-        });
-        break;
-      case 500:
-        $("loading").style.display = 'none';
-        $("custom").style.display = 'block';
-        console.log("build failed");
+      case 400: // bad request
+      case 422: // bad package
+      case 500: // build failed
+        hide('loading');
+        console.log('bad request (' + response.status + ')'); // see message
         response.json()
         .then(function(mobj) {
           alert(mobj.message)
@@ -108,12 +100,12 @@ function loadFile(url, callback) {
 
 function setupSelectList(select, items, onselection) {
   for (var i = 0; i < items.length; i += 1) {
-    var option = document.createElement("OPTION");
+    var option = document.createElement('OPTION');
     option.innerHTML = items[i];
     select.appendChild(option);
   }
 
-  select.addEventListener("change", function(e) {
+  select.addEventListener('change', function(e) {
     onselection(items[select.selectedIndex]);
   });
 
@@ -123,8 +115,12 @@ function setupSelectList(select, items, onselection) {
 }
 
 // Change the translation of the entire document
-function changeLanguage(language) {
-  var mapping = translations[language];
+function applyLanguage(language) {
+  if (language) {
+    current_language = language;
+  }
+
+  var mapping = translations[current_language];
   if (mapping) {
     for (var tr in mapping) {
       Array.from(document.getElementsByClassName(tr))
@@ -157,9 +153,9 @@ function setupAutocompleteList(input, items, onselection) {
     }
 
     // create a DIV element that will contain the items (values):
-    var list = document.createElement("DIV");
-    list.setAttribute("id", this.id + "-autocomplete-list");
-    list.setAttribute("class", "autocomplete-items");
+    var list = document.createElement('DIV');
+    list.setAttribute('id', this.id + '-autocomplete-list');
+    list.setAttribute('class', 'autocomplete-items');
     // append the DIV element as a child of the autocomplete container:
     this.parentNode.appendChild(list);
 
@@ -176,21 +172,21 @@ function setupAutocompleteList(input, items, onselection) {
 
       c += 1;
       if (c >= 15) {
-        var div = document.createElement("DIV");
-        div.innerHTML = "...";
+        var div = document.createElement('DIV');
+        div.innerHTML = '...';
         list.appendChild(div);
         break;
       } else {
-        var div = document.createElement("DIV");
+        var div = document.createElement('DIV');
         // make the matching letters bold:
         div.innerHTML = item.substr(0, j)
-          + "<strong>" + item.substr(j, value.length) + "</strong>"
+          + '<strong>' + item.substr(j, value.length) + '</strong>'
           + item.substr(j + value.length)
-          + "<input type='hidden' value='" + item + "'>";
+          + '<input type="hidden" value="' + item + '">';
 
-        div.addEventListener("click", function(e) {
+        div.addEventListener('click', function(e) {
           // set text field to selected value
-          input.value = this.getElementsByTagName("input")[0].value;
+          input.value = this.getElementsByTagName('input')[0].value;
           // close the list of autocompleted values,
           // (or any other open lists of autocompleted values:
           closeAllLists();
@@ -204,8 +200,8 @@ function setupAutocompleteList(input, items, onselection) {
   };
 
   input.onkeydown = function(e) {
-      var x = document.getElementById(this.id + "-autocomplete-list");
-      if (x) x = x.getElementsByTagName("div");
+      var x = document.getElementById(this.id + '-autocomplete-list');
+      if (x) x = x.getElementsByTagName('div');
       if (e.keyCode == 40) {
         // key down
         currentFocus += 1;
@@ -220,7 +216,7 @@ function setupAutocompleteList(input, items, onselection) {
         // If the ENTER key is pressed, prevent the form from being submitted,
         e.preventDefault();
         if (currentFocus > -1) {
-          // and simulate a click on the "active" item:
+          // and simulate a click on the 'active' item:
           if (x) x[currentFocus].click();
         }
       }
@@ -231,22 +227,22 @@ function setupAutocompleteList(input, items, onselection) {
   }
 
   function setActive(x) {
-    // a function to classify an item as "active":
+    // a function to classify an item as 'active':
     if (!x) return false;
-    // start by removing the "active" class on all items:
+    // start by removing the 'active' class on all items:
     for (var i = 0; i < x.length; i++) {
-      x[i].classList.remove("autocomplete-active");
+      x[i].classList.remove('autocomplete-active');
     }
     if (currentFocus >= x.length) currentFocus = 0;
     if (currentFocus < 0) currentFocus = (x.length - 1);
-    // add class "autocomplete-active":
-    x[currentFocus].classList.add("autocomplete-active");
+    // add class 'autocomplete-active':
+    x[currentFocus].classList.add('autocomplete-active');
   }
 
   function closeAllLists(elmnt) {
     // close all autocomplete lists in the document,
     // except the one passed as an argument:
-    var x = document.getElementsByClassName("autocomplete-items");
+    var x = document.getElementsByClassName('autocomplete-items');
     for (var i = 0; i < x.length; i++) {
       if (elmnt != x[i] && elmnt != input) {
         x[i].parentNode.removeChild(x[i]);
@@ -255,13 +251,9 @@ function setupAutocompleteList(input, items, onselection) {
   }
 
   // execute a function when someone clicks in the document:
-  document.addEventListener("click", function (e) {
+  document.addEventListener('click', function (e) {
       closeAllLists(e.target);
   });
-}
-
-function $(id) {
-  return document.getElementById(id);
 }
 
 function findCommonPrefix(images) {
@@ -277,7 +269,7 @@ function findCommonPrefix(images) {
     return first.substring(0, i);
 }
 
-function updateImages(version, commit, model, url, mobj) {
+function updateImages(version, commit, model, url, mobj, is_custom) {
   // add download button for image
   function addLink(label, tags, file, help_id) {
     var a = document.createElement('A');
@@ -302,11 +294,16 @@ function updateImages(version, commit, model, url, mobj) {
         // hide all help texts
         Array.from(document.getElementsByClassName('download-help'))
           .forEach(function(e) { e.style.display = 'none'; });
-        $(help_id).style.display = 'block';
+        show(help_id);
       };
     }
 
     $('download-links').appendChild(a);
+  }
+
+  function switchClass(id, from_class, to_class) {
+    $(id).classList.remove(from_class);
+    $(id).classList.add(to_class);
   }
 
   // remove all download links
@@ -320,6 +317,17 @@ function updateImages(version, commit, model, url, mobj) {
   if (version && commit && model && url && mobj) {
     var target = mobj.target;
     var images = mobj.images;
+
+    // change between "release" and "custom" title
+    if (is_custom) {
+      switchClass('images-title', 'tr-release-build', 'tr-custom-build');
+      switchClass('downloads-title', 'tr-release-downloads', 'tr-custom-downloads');
+    } else {
+      switchClass('images-title', 'tr-custom-build', 'tr-release-build');
+      switchClass('downloads-title', 'tr-custom-downloads', 'tr-release-downloads');
+    }
+    // update title translation
+    applyLanguage();
 
     // fill out build info
     $('image-model').innerText = model;
@@ -371,39 +379,42 @@ function updateImages(version, commit, model, url, mobj) {
       for (var i in images) {
         var image = images[i];
         var tags = (images.length > 1) ? extractTags(prefix, image) : [];
-        addLink(category, tags, image, category.toLowerCase() + '-help');
+        var label = category;
+        addLink(label, tags, image, category.toLowerCase() + '-help');
       }
     }
 
-    $('images').style.display = 'block';
+    show('images');
   } else {
-    $('images').style.display = 'none';
+    hide('images');
   }
 }
 
-// hide fields
-updateImages();
-changeLanguage(config.language);
-
-if (config.asu_url) {
-	$('custom').style.display = 'block';
-}
-
-setupSelectList($("releases"), Object.keys(config.versions), function(version) {
+setupSelectList($('releases'), Object.keys(config.versions), function(version) {
   loadFile(config.versions[version], function(obj) {
     data = obj
-    setupAutocompleteList($("models"), Object.keys(obj['models']), function(model) {
+    setupAutocompleteList($('models'), Object.keys(obj['models']), function(model) {
       if (model in obj['models']) {
         var url = obj.url;
         var commit = obj.version_commit;
         var mobj = obj['models'][model];
-        updateImages(version, commit, model, url, mobj);
+        updateImages(version, commit, model, url, mobj, false);
+        current_model = mobj;
       } else {
         updateImages();
+        current_model = {};
       }
     });
 
     // trigger model update when selected version changes
-    $("models").onfocus();
+    $('models').onfocus();
   });
 });
+
+if (config.asu_url) {
+  show('custom');
+}
+
+// hide fields
+updateImages();
+applyLanguage(config.language);

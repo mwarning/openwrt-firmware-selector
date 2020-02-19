@@ -34,25 +34,25 @@
 			<input id="models" type="text" placeholder="Model">
 		</div>
 
-		<div id="custom" style="display:none">
-			<textarea id="packages">luci</textarea>
-			<a href="javascript:build_request()">request image</a>
-			<img src="loading.gif" style="display:none" id="loading" alt="Logo">
-		</div>
-
 		<br />
 		<br />
 
 		<div id="images">
+			<div id="custom">
+				<h3 class="tr-customize">Customize</h3>
+				<textarea id="packages">luci</textarea>
+				<a href="javascript:build_asa_request()" class="tr-request-image">Request Build</a>
+				<img id="loading" src="loading.gif" style="display:none" alt="Logo">
+			</div>
 			<div>
-				<h3 class="tr-build">Build</h3>
+				<h3 id="images-title" class="tr-release-build">Release Build</h3>
 				<div><span class="tr-model">Model:</span> <span id="image-model"></span></div>
 				<div><span class="tr-target">Target:</span> <span id="image-target"></span></div>
 				<div><span class="tr-version">Version:</span> <span id="image-release"></span> (<span id="image-commit"></span>)</div>
 			</div>
 
 			<div id="download-links">
-				<h3 class="tr-downloads">Downloads</h3>
+				<h3 id="downloads-title" class="tr-downloads">Downloads</h3>
 			</div>
 
 			<div>
