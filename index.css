@@ -168,3 +168,13 @@ header > div {
 #image-model {
   font-weight: bold;
 }
+
+#custom {
+  display: none;
+}
+
+#custom textarea {
+  width: 300px;
+  height: 80px;
+  font-size: 16px;
+}
