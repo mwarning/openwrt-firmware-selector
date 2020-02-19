@@ -35,10 +35,10 @@ function build_request() {
     "version": $("releases").value
   }
 
-  console.log("disable request button / show loading spinner")
+  console.log('disable request button / show loading spinner')
 
   fetch(config.asu_url, {
-     method: "POST",
+     method: 'POST',
      headers: { 'Content-Type': 'application/json' },
      body: JSON.stringify(request_data)
   })
@@ -108,12 +108,12 @@ function loadFile(url, callback) {
 
 function setupSelectList(select, items, onselection) {
   for (var i = 0; i < items.length; i += 1) {
-    var option = document.createElement("OPTION");
+    var option = document.createElement('OPTION');
     option.innerHTML = items[i];
     select.appendChild(option);
   }
 
-  select.addEventListener("change", function(e) {
+  select.addEventListener('change', function(e) {
     onselection(items[select.selectedIndex]);
   });
 
@@ -157,9 +157,9 @@ function setupAutocompleteList(input, items, onselection) {
     }
 
     // create a DIV element that will contain the items (values):
-    var list = document.createElement("DIV");
-    list.setAttribute("id", this.id + "-autocomplete-list");
-    list.setAttribute("class", "autocomplete-items");
+    var list = document.createElement('DIV');
+    list.setAttribute('id', this.id + '-autocomplete-list');
+    list.setAttribute('class', 'autocomplete-items');
     // append the DIV element as a child of the autocomplete container:
     this.parentNode.appendChild(list);
 
@@ -176,21 +176,21 @@ function setupAutocompleteList(input, items, onselection) {
 
       c += 1;
       if (c >= 15) {
-        var div = document.createElement("DIV");
-        div.innerHTML = "...";
+        var div = document.createElement('DIV');
+        div.innerHTML = '...';
         list.appendChild(div);
         break;
       } else {
-        var div = document.createElement("DIV");
+        var div = document.createElement('DIV');
         // make the matching letters bold:
         div.innerHTML = item.substr(0, j)
-          + "<strong>" + item.substr(j, value.length) + "</strong>"
+          + '<strong>' + item.substr(j, value.length) + '</strong>'
           + item.substr(j + value.length)
-          + "<input type='hidden' value='" + item + "'>";
+          + '<input type="hidden" value="' + item + '">';
 
-        div.addEventListener("click", function(e) {
+        div.addEventListener('click', function(e) {
           // set text field to selected value
-          input.value = this.getElementsByTagName("input")[0].value;
+          input.value = this.getElementsByTagName('input')[0].value;
           // close the list of autocompleted values,
           // (or any other open lists of autocompleted values:
           closeAllLists();
@@ -204,8 +204,8 @@ function setupAutocompleteList(input, items, onselection) {
   };
 
   input.onkeydown = function(e) {
-      var x = document.getElementById(this.id + "-autocomplete-list");
-      if (x) x = x.getElementsByTagName("div");
+      var x = document.getElementById(this.id + '-autocomplete-list');
+      if (x) x = x.getElementsByTagName('div');
       if (e.keyCode == 40) {
         // key down
         currentFocus += 1;
@@ -220,7 +220,7 @@ function setupAutocompleteList(input, items, onselection) {
         // If the ENTER key is pressed, prevent the form from being submitted,
         e.preventDefault();
         if (currentFocus > -1) {
-          // and simulate a click on the "active" item:
+          // and simulate a click on the 'active' item:
           if (x) x[currentFocus].click();
         }
       }
@@ -231,22 +231,22 @@ function setupAutocompleteList(input, items, onselection) {
   }
 
   function setActive(x) {
-    // a function to classify an item as "active":
+    // a function to classify an item as 'active':
     if (!x) return false;
-    // start by removing the "active" class on all items:
+    // start by removing the 'active' class on all items:
     for (var i = 0; i < x.length; i++) {
-      x[i].classList.remove("autocomplete-active");
+      x[i].classList.remove('autocomplete-active');
     }
     if (currentFocus >= x.length) currentFocus = 0;
     if (currentFocus < 0) currentFocus = (x.length - 1);
-    // add class "autocomplete-active":
-    x[currentFocus].classList.add("autocomplete-active");
+    // add class 'autocomplete-active':
+    x[currentFocus].classList.add('autocomplete-active');
   }
 
   function closeAllLists(elmnt) {
     // close all autocomplete lists in the document,
     // except the one passed as an argument:
-    var x = document.getElementsByClassName("autocomplete-items");
+    var x = document.getElementsByClassName('autocomplete-items');
     for (var i = 0; i < x.length; i++) {
       if (elmnt != x[i] && elmnt != input) {
         x[i].parentNode.removeChild(x[i]);
@@ -255,7 +255,7 @@ function setupAutocompleteList(input, items, onselection) {
   }
 
   // execute a function when someone clicks in the document:
-  document.addEventListener("click", function (e) {
+  document.addEventListener('click', function (e) {
       closeAllLists(e.target);
   });
 }
@@ -389,10 +389,10 @@ if (config.asu_url) {
 	$('custom').style.display = 'block';
 }
 
-setupSelectList($("releases"), Object.keys(config.versions), function(version) {
+setupSelectList($('releases'), Object.keys(config.versions), function(version) {
   loadFile(config.versions[version], function(obj) {
     data = obj
-    setupAutocompleteList($("models"), Object.keys(obj['models']), function(model) {
+    setupAutocompleteList($('models'), Object.keys(obj['models']), function(model) {
       if (model in obj['models']) {
         var url = obj.url;
         var commit = obj.version_commit;
@@ -404,6 +404,6 @@ setupSelectList($("releases"), Object.keys(config.versions), function(version) {
     });
 
     // trigger model update when selected version changes
-    $("models").onfocus();
+    $('models').onfocus();
   });
 });
