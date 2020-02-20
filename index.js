@@ -31,7 +31,7 @@ function build_asa_request() {
       } else {
         return ((e.vendor || '') + (e.model || '') + (e.variant || '')).trim();
       }
-    });
+    }).join('/');
   }
 
   // hide image view
