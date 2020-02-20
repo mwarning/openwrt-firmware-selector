@@ -392,7 +392,6 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
 
 setupSelectList($('releases'), Object.keys(config.versions), function(version) {
   loadFile(config.versions[version], function(obj) {
-    data = obj
     setupAutocompleteList($('models'), Object.keys(obj['models']), function(model) {
       if (model in obj['models']) {
         var url = obj.url;
