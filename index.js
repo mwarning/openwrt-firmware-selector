@@ -256,22 +256,9 @@ function setupAutocompleteList(input, items, onselection) {
   });
 }
 
-function findCommonPrefix(images) {
-    var files = images.map(image => image.name)
-    var A = files.concat().sort();
-    var first = A[0];
-    var last = A[A.length - 1];
-    var L = first.length;
-    var i = 0;
-    while (i < L && first.charAt(i) === last.charAt(i)) {
-      i += 1;
-    }
-    return first.substring(0, i);
-}
-
 function updateImages(version, commit, model, url, mobj, is_custom) {
   // add download button for image
-  function addLink(label, tags, file, help_id) {
+  function addLink(type, file) {
     var a = document.createElement('A');
     a.classList.add('download-link');
     a.href = url
@@ -281,20 +268,29 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
     var span = document.createElement('SPAN');
     span.appendChild(document.createTextNode(''));
     a.appendChild(span);
-
-    // add sub label
-    if (tags.length > 0) {
-      a.appendChild(document.createTextNode(label + ' (' + tags.join(', ') + ')'));
-    } else {
-      a.appendChild(document.createTextNode(label));
-    }
+    a.appendChild(document.createTextNode(type.toUpperCase()));
 
     if (config.showHelp) {
       a.onmouseover = function() {
         // hide all help texts
         Array.from(document.getElementsByClassName('download-help'))
           .forEach(e => e.style.display = 'none');
-        show(help_id);
+        var lc = type.toLowerCase();
+        if (lc.includes('sysupgrade')) {
+          show('sysupgrade-help');
+        } else if (lc.includes('factory') || lc == 'trx' || lc == 'chk') {
+          show('factory-help');
+        } else if (lc.includes('kernel') || lc.includes('zimage') || lc.includes('uimage')) {
+          show('kernel-help');
+        } else if (lc.includes('root')) {
+          show('rootfs-help');
+        } else if (lc.includes('sdcard')) {
+          show('sdcard-help');
+        } else if (lc.includes('tftp')) {
+          show('tftp-help');
+        } else {
+          show('other-help');
+        }
       };
     }
 
@@ -335,53 +331,10 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
     $('image-release').innerText = version;
     $('image-commit').innerText = commit;
 
-    var prefix = findCommonPrefix(images);
-    var entries = {
-      'FACTORY': [],
-      'SYSUPGRADE': [],
-      'KERNEL': [],
-      'ROOTFS': [],
-      'SDCARD': [],
-      'TFTP': [],
-      'OTHER': []
-    };
-
     images.sort();
 
     for (var i in images) {
-      var type = images[i].type || images[i].name;
-      var lc = type.toLowerCase()
-      if (lc.includes('factory')) {
-        entries['FACTORY'].push(type);
-      } else if (lc.includes('sysupgrade')) {
-        entries['SYSUPGRADE'].push(type);
-      } else if (lc.includes('kernel') || lc.includes('zimage') || lc.includes('uimage')) {
-        entries['KERNEL'].push(type);
-      } else if (lc.includes('rootfs')) {
-        entries['ROOTFS'].push(type);
-      } else if (lc.includes('sdcard')) {
-        entries['SDCARD'].push(type);
-      } else if (lc.includes('tftp')) {
-        entries['TFTP'].push(type);
-      } else {
-        entries['OTHER'].push(type);
-      }
-    }
-
-    function extractTags(prefix, image) {
-      var all = image.substring(prefix.length).split('.')[0].split('-');
-      var ignore = ['', 'kernel', 'zimage', 'uimage', 'factory', 'sysupgrade', 'rootfs', 'sdcard'];
-      return all.filter(el => !ignore.includes(el.toLowerCase()));
-    }
-
-    for (var category in entries) {
-      var images = entries[category];
-      for (var i in images) {
-        var image = images[i];
-        var tags = (images.length > 1) ? extractTags(prefix, image) : [];
-        var label = category;
-        addLink(label, tags, image, category.toLowerCase() + '-help');
-      }
+      addLink(images[i].type, images[i].name);
     }
 
     show('images');

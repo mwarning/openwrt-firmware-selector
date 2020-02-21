@@ -58,7 +58,7 @@ for path in paths:
 
       images = []
       for image in obj['images']:
-          images.append({"name": image['name']})
+          images.append({'name': image['name'], 'type': image['type']})
 
       target = obj['target']
       id = obj['id']
