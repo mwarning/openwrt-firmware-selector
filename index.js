@@ -370,8 +370,8 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
 
     function extractTags(prefix, image) {
       var all = image.substring(prefix.length).split('.')[0].split('-');
-      var ignore = ['', 'kernel', 'zImage', 'uImage', 'factory', 'sysupgrade', 'rootfs', 'sdcard'];
-      return all.filter(function (el) { return !ignore.includes(el); });
+      var ignore = ['', 'kernel', 'zimage', 'uimage', 'factory', 'sysupgrade', 'rootfs', 'sdcard'];
+      return all.filter(function (el) { return !ignore.includes(el.toLowerCase()); });
     }
 
     for (var category in entries) {
