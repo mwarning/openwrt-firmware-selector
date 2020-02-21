@@ -25,7 +25,7 @@ function build_asa_request() {
   }
 
   function get_model_titles(titles) {
-    return titles.map(function(e) {
+    return titles.map(e => {
       if (e.title) {
         return e.title;
       } else {
@@ -52,14 +52,14 @@ function build_asa_request() {
      headers: { 'Content-Type': 'application/json' },
      body: JSON.stringify(request_data)
   })
-  .then(function(response) {
+  .then(response => {
     switch (response.status) {
       case 200:
         hide('loading');
 
         console.log('image found');
         response.json()
-        .then(function(mobj) {
+        .then(mobj => {
           console.log(mobj)
           updateImages(
             mobj.version_number, mobj.version_commit,
@@ -71,7 +71,7 @@ function build_asa_request() {
       case 202:
         // show some spinning animation
         console.log('check again in 5 seconds');
-        setTimeout(function() { build_asa_request() }, 5000);
+        setTimeout(_ => { build_asa_request() }, 5000);
         break;
       case 400: // bad request
       case 422: // bad package
@@ -79,7 +79,7 @@ function build_asa_request() {
         hide('loading');
         console.log('bad request (' + response.status + ')'); // see message
         response.json()
-        .then(function(mobj) {
+        .then(mobj => {
           alert(mobj.message)
         });
         break;
@@ -105,7 +105,7 @@ function setupSelectList(select, items, onselection) {
     select.appendChild(option);
   }
 
-  select.addEventListener('change', function(e) {
+  select.addEventListener('change', e => {
     onselection(items[select.selectedIndex]);
   });
 
@@ -124,7 +124,7 @@ function applyLanguage(language) {
   if (mapping) {
     for (var tr in mapping) {
       Array.from(document.getElementsByClassName(tr))
-      .forEach(function(e) { e.innerText = mapping[tr]; })
+      .forEach(e => { e.innerText = mapping[tr]; })
     }
   }
 }
@@ -251,7 +251,7 @@ function setupAutocompleteList(input, items, onselection) {
   }
 
   // execute a function when someone clicks in the document:
-  document.addEventListener('click', function (e) {
+  document.addEventListener('click', e => {
       closeAllLists(e.target);
   });
 }
@@ -293,7 +293,7 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
       a.onmouseover = function() {
         // hide all help texts
         Array.from(document.getElementsByClassName('download-help'))
-          .forEach(function(e) { e.style.display = 'none'; });
+          .forEach(e => e.style.display = 'none');
         show(help_id);
       };
     }
@@ -308,11 +308,11 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
 
   // remove all download links
   Array.from(document.getElementsByClassName('download-link'))
-    .forEach(function(e) { e.remove(); });
+    .forEach(e => e.remove());
 
   // hide all help texts
   Array.from(document.getElementsByClassName('download-help'))
-    .forEach(function(e) { e.style.display = 'none'; });
+    .forEach(e => e.style.display = 'none');
 
   if (version && commit && model && url && mobj) {
     var target = mobj.target;
@@ -371,7 +371,7 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
     function extractTags(prefix, image) {
       var all = image.substring(prefix.length).split('.')[0].split('-');
       var ignore = ['', 'kernel', 'zimage', 'uimage', 'factory', 'sysupgrade', 'rootfs', 'sdcard'];
-      return all.filter(function (el) { return !ignore.includes(el.toLowerCase()); });
+      return all.filter(el => !ignore.includes(el.toLowerCase()));
     }
 
     for (var category in entries) {
@@ -390,9 +390,9 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
   }
 }
 
-setupSelectList($('releases'), Object.keys(config.versions), function(version) {
-  loadFile(config.versions[version], function(obj) {
-    setupAutocompleteList($('models'), Object.keys(obj['models']), function(model) {
+setupSelectList($('releases'), Object.keys(config.versions), version => {
+  loadFile(config.versions[version], obj => {
+    setupAutocompleteList($('models'), Object.keys(obj['models']), model => {
       if (model in obj['models']) {
         var url = obj.url;
         var commit = obj.version_commit;
