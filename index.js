@@ -349,22 +349,22 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
     images.sort();
 
     for (var i in images) {
-      var image = images[i].name;
-      var lc = image.toLowerCase()
+      var type = images[i].type || images[i].name;
+      var lc = type.toLowerCase()
       if (lc.includes('factory')) {
-        entries['FACTORY'].push(image);
+        entries['FACTORY'].push(type);
       } else if (lc.includes('sysupgrade')) {
-        entries['SYSUPGRADE'].push(image);
+        entries['SYSUPGRADE'].push(type);
       } else if (lc.includes('kernel') || lc.includes('zimage') || lc.includes('uimage')) {
-        entries['KERNEL'].push(image);
+        entries['KERNEL'].push(type);
       } else if (lc.includes('rootfs')) {
-        entries['ROOTFS'].push(image);
+        entries['ROOTFS'].push(type);
       } else if (lc.includes('sdcard')) {
-        entries['SDCARD'].push(image);
+        entries['SDCARD'].push(type);
       } else if (lc.includes('tftp')) {
-        entries['TFTP'].push(image);
+        entries['TFTP'].push(type);
       } else {
-        entries['OTHER'].push(image);
+        entries['OTHER'].push(type);
       }
     }
 
