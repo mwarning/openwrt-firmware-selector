@@ -47,7 +47,7 @@ function build_asa_request() {
 
   console.log('disable request button / show loading spinner')
 
-  fetch(config.asu_url, {
+  fetch(config.asu_url + '/api/build', {
      method: 'POST',
      headers: { 'Content-Type': 'application/json' },
      body: JSON.stringify(request_data)
@@ -61,10 +61,11 @@ function build_asa_request() {
         response.json()
         .then(mobj => {
           console.log(mobj)
+          var download_url = config.asu_url + '/store/' + mobj.bin_dir
           updateImages(
             mobj.version_number, mobj.version_commit,
             get_model_titles(mobj.titles),
-            mobj.url, mobj, true
+            download_url, mobj, true
           );
         });
         break;
@@ -80,6 +81,10 @@ function build_asa_request() {
         console.log('bad request (' + response.status + ')'); // see message
         response.json()
         .then(mobj => {
+          if (mobj.buildlog == true) {
+            $('buildlog').href = config.asu_url + '/store/' + mobj.bin_dir + '/buildlog.txt';
+            show('buildlog')
+          }
           alert(mobj.message)
         });
         break;
@@ -257,6 +262,7 @@ function setupAutocompleteList(input, items, onselection) {
 }
 
 function updateImages(version, commit, model, url, mobj, is_custom) {
+  hide('buildlog')
   // add download button for image
   function addLink(type, file) {
     var a = document.createElement('A');
