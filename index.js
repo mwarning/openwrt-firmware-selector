@@ -331,7 +331,7 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
     $('image-release').innerText = version;
     $('image-commit').innerText = commit;
 
-    images.sort();
+    images.sort((a, b) => a.name.localeCompare(b.name));
 
     for (var i in images) {
       addLink(images[i].type, images[i].name);
