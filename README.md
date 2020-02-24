@@ -26,9 +26,7 @@ A [Python script](misc/collect.py) is included to create those json files:
 'https://downloads.openwrt.org/releases/{release}/targets/{target}' >
 names-test.json`.
 
-Note: Files `names-18.06.7.json` and `names-19.07.1.json` contain data for
-older OpenWrt releases that do not support JSON output. It was generated using
-heuristics.
+For the OpenWrt 18.06 and 19.07 releases, you need to patch OpenWrt to output JSON files for collect.py (commit [openwrt/openwrt@881ed09](https://github.com/openwrt/openwrt/commit/881ed09ee6e23f6c224184bb7493253c4624fb9f)).
 
 ## Contributions
 
