@@ -77,7 +77,7 @@ function build_asa_request() {
       case 422: // bad package
       case 500: // build failed
         hide('loading');
-        console.log('bad request (' + response.status + ')'); // see message
+        console.log('error (' + response.status + ')');
         response.json()
         .then(mobj => {
           alert(mobj.message)
