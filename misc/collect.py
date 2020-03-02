@@ -30,6 +30,12 @@ if args.input_path:
   for path in Path(args.input_path).rglob('*.json'):
     paths.append(path)
 
+def get_title_name(title):
+  if 'title' in title:
+    return title['title']
+  else:
+    return "{} {} {}".format(title.get('vendor', ''), title['model'], title.get('variant', '')).strip()
+
 # json output data
 output = {}
 for path in paths:
@@ -63,12 +69,13 @@ for path in paths:
       target = obj['target']
       id = obj['id']
       for title in obj['titles']:
-        if 'title' in title:
-          name = title['title']
-          output['models'][name] = {'id': id, 'target': target, 'images': images}
-        else:
-          name = "{} {} {}".format(title.get('vendor', ''), title['model'], title.get('variant', '')).strip()
-          output['models'][name] = {'id': id, 'target': target, 'images': images}
+        name = get_title_name(title)
+
+        if len(name) == 0:
+          sys.stderr.write("Empty title. Skip title in {}\n".format(path))
+          continue
+
+        output['models'][name] = {'id': id, 'target': target, 'images': images}
 
     except json.decoder.JSONDecodeError as e:
       sys.stderr.write("Skip {}\n   {}\n".format(path, e))
