@@ -23,7 +23,7 @@ image`.
 
 A [Python script](misc/collect.py) is included to create those json files:
 `./collect.py bin/ --url
-'https://downloads.openwrt.org/releases/{release}/targets/{target}' >
+'https://downloads.openwrt.org/releases/{version}/targets/{target}' >
 names-test.json`.
 
 For the OpenWrt 18.06 and 19.07 releases, you need to patch OpenWrt to output JSON files for collect.py (commit [openwrt/openwrt@881ed09](https://github.com/openwrt/openwrt/commit/881ed09ee6e23f6c224184bb7493253c4624fb9f)).
