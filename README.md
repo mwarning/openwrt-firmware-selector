@@ -1,17 +1,17 @@
 # Yet Another Firmware Selector
 
 A simple OpenWrt firmware selector using autocompletion. Uses plain
-HTML/JavaScript.
+HTML/CSS/JavaScript.
 
 ![image](misc/screenshot.png)
 
 Checkout the [Demo](https://mwarning.github.io/yet_another_firmware_selector/)!
 
-Run:
+## Run
 
-* Download repository and change directory to it
+* Download repository and change directory
 * Start webserver (e.g. `python3 -m http.server`)
-* Go to `http://localhost:8000`
+* Go to `http://localhost:8000` in your web browser
 
 Configure with [config.js](config.js).
 
@@ -21,14 +21,12 @@ The `names-<version>.json` files are based on JSON files created by OpenWrt
 (master): `Global build settings  ---> [*] Create JSON info files per build
 image`.
 
-A [Python script](misc/collect.py) is included to create those json files:
+A [Python script](misc/collect.py) is included to merge the JSON files:
 `./collect.py bin/ --url
-'https://downloads.openwrt.org/releases/{release}/targets/{target}' >
+'https://downloads.openwrt.org/releases/{version}/targets/{target}' >
 names-test.json`.
 
-Note: Files `names-18.06.7.json` and `names-19.07.1.json` contain data for
-older OpenWrt releases that do not support JSON output. It was generated using
-heuristics.
+For the OpenWrt 18.06 and 19.07 releases, you need to patch OpenWrt to output JSON files for collect.py (commit [openwrt/openwrt@881ed09](https://github.com/openwrt/openwrt/commit/881ed09ee6e23f6c224184bb7493253c4624fb9f)).
 
 ## Contributions
 

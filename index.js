@@ -42,7 +42,7 @@ function build_asa_request() {
   var request_data = {
     'profile': current_model.id,
     'packages': split($('packages').value),
-    'version': $('releases').value
+    'version': $('versions').value
   }
 
   console.log('disable request button / show loading spinner')
@@ -63,7 +63,8 @@ function build_asa_request() {
           console.log(mobj)
           var download_url = config.asu_url + '/store/' + mobj.bin_dir
           updateImages(
-            mobj.version_number, mobj.version_commit,
+            mobj.version_number,
+            mobj.version_code,
             get_model_titles(mobj.titles),
             download_url, mobj, true
           );
@@ -78,7 +79,7 @@ function build_asa_request() {
       case 422: // bad package
       case 500: // build failed
         hide('loading');
-        console.log('bad request (' + response.status + ')'); // see message
+        console.log('error (' + response.status + ')');
         response.json()
         .then(mobj => {
           if (mobj.buildlog == true) {
@@ -261,7 +262,7 @@ function setupAutocompleteList(input, items, onselection) {
   });
 }
 
-function updateImages(version, commit, model, url, mobj, is_custom) {
+function updateImages(version, code, model, url, mobj, is_custom) {
   hide('buildlog')
   // add download button for image
   function addLink(type, file) {
@@ -269,7 +270,7 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
     a.classList.add('download-link');
     a.href = url
       .replace('{target}', mobj.target)
-      .replace('{release}', version)
+      .replace('{version}', version)
       + '/' + file;
     var span = document.createElement('SPAN');
     span.appendChild(document.createTextNode(''));
@@ -316,17 +317,17 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
   Array.from(document.getElementsByClassName('download-help'))
     .forEach(e => e.style.display = 'none');
 
-  if (version && commit && model && url && mobj) {
+  if (version && code && model && url && mobj) {
     var target = mobj.target;
     var images = mobj.images;
 
-    // change between "release" and "custom" title
+    // change between "version" and "custom" title
     if (is_custom) {
-      switchClass('images-title', 'tr-release-build', 'tr-custom-build');
-      switchClass('downloads-title', 'tr-release-downloads', 'tr-custom-downloads');
+      switchClass('images-title', 'tr-version-build', 'tr-custom-build');
+      switchClass('downloads-title', 'tr-version-downloads', 'tr-custom-downloads');
     } else {
-      switchClass('images-title', 'tr-custom-build', 'tr-release-build');
-      switchClass('downloads-title', 'tr-custom-downloads', 'tr-release-downloads');
+      switchClass('images-title', 'tr-custom-build', 'tr-version-build');
+      switchClass('downloads-title', 'tr-custom-downloads', 'tr-version-downloads');
     }
     // update title translation
     applyLanguage();
@@ -334,8 +335,8 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
     // fill out build info
     $('image-model').innerText = model;
     $('image-target').innerText = target;
-    $('image-release').innerText = version;
-    $('image-commit').innerText = commit;
+    $('image-version').innerText = version;
+    $('image-code').innerText = code;
 
     images.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -349,14 +350,14 @@ function updateImages(version, commit, model, url, mobj, is_custom) {
   }
 }
 
-setupSelectList($('releases'), Object.keys(config.versions), version => {
+setupSelectList($('versions'), Object.keys(config.versions), version => {
   loadFile(config.versions[version], obj => {
     setupAutocompleteList($('models'), Object.keys(obj['models']), model => {
       if (model in obj['models']) {
         var url = obj.url;
-        var commit = obj.version_commit;
+        var code = obj.version_code;
         var mobj = obj['models'][model];
-        updateImages(version, commit, model, url, mobj, false);
+        updateImages(version, code, model, url, mobj, false);
         current_model = mobj;
       } else {
         updateImages();

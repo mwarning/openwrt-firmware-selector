@@ -29,7 +29,7 @@
 		<p class="tr-message">Please use the input below to download firmware for your device!</p>
 		<br>
 
-		<select id="releases" size="1"></select>
+		<select id="versions" size="1"></select>
 		<div class="autocomplete">
 			<input id="models" type="text" placeholder="Model" spellcheck="false" autocapitalize="off" autocorrect="off">
 		</div>
@@ -48,10 +48,10 @@
 			</div>
 
 			<div>
-				<h3 id="images-title" class="tr-release-build">Release Build</h3>
+				<h3 id="images-title" class="tr-version-build">Release Build</h3>
 				<div><span class="column tr-model">Model:</span> <span id="image-model"></span></div>
 				<div><span class="column tr-target">Target:</span> <span id="image-target"></span></div>
-				<div><span class="column tr-version">Version:</span> <span id="image-release"></span> (<span id="image-commit"></span>)</div>
+				<div><span class="column tr-version">Version:</span> <span id="image-version"></span> (<span id="image-code"></span>)</div>
 			</div>
 
 			<div id="download-links">

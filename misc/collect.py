@@ -7,12 +7,12 @@ import sys
 import os
 
 parser = argparse.ArgumentParser()
-parser.add_argument("input_path", nargs='?', help="Input folder that is traversed for OpenWrt JSON device files.")
-parser.add_argument('--url',
-            action="store", dest="url", default="",
-            help="Link to get the image from. May contain {target}, {release} and {commit}")
-parser.add_argument('--formatted',
-            action="store_true", dest="formatted", help="Output formatted JSON data.")
+parser.add_argument("input_path", nargs='?',
+  help="Input folder that is traversed for OpenWrt JSON device files.")
+parser.add_argument('--url', action="store", default="",
+  help="Link to get the image from. May contain {target}, {version} and {commit}")
+parser.add_argument('--formatted', action="store_true",
+  help="Output formatted JSON data.")
 
 args = parser.parse_args()
 
@@ -30,6 +30,12 @@ if args.input_path:
   for path in Path(args.input_path).rglob('*.json'):
     paths.append(path)
 
+def get_title_name(title):
+  if 'title' in title:
+    return title['title']
+  else:
+    return "{} {} {}".format(title.get('vendor', ''), title['model'], title.get('variant', '')).strip()
+
 # json output data
 output = {}
 for path in paths:
@@ -41,19 +47,18 @@ for path in paths:
         sys.stderr.write('{} has unsupported metadata version: {} => skip\n'.format(path, obj['metadata_version']))
         continue
 
-      version = obj['version_number']
-      commit = obj['version_commit']
+      code = obj.get('version_code', obj.get('version_commit'))
 
-      if not 'version_commit' in output:
+      if not 'version_code' in output:
         output = {
-          'version_commit': commit,
+          'version_code': code,
           'url': args.url,
           'models' : {}
         }
 
       # only support a version_number with images of a single version_commit
-      if output['version_commit'] != commit:
-        sys.stderr.write('mixed revisions for a release ({} and {}) => abort\n'.format(output['version_commit'], commit))
+      if output['version_code'] != code:
+        sys.stderr.write('mixed revisions for a release ({} and {}) => abort\n'.format(output['version_code'], commit))
         exit(1)
 
       images = []
@@ -63,12 +68,13 @@ for path in paths:
       target = obj['target']
       id = obj['id']
       for title in obj['titles']:
-        if 'title' in title:
-          name = title['title']
-          output['models'][name] = {'id': id, 'target': target, 'images': images}
-        else:
-          name = "{} {} {}".format(title.get('vendor', ''), title['model'], title.get('variant', '')).strip()
-          output['models'][name] = {'id': id, 'target': target, 'images': images}
+        name = get_title_name(title)
+
+        if len(name) == 0:
+          sys.stderr.write("Empty title. Skip title in {}\n".format(path))
+          continue
+
+        output['models'][name] = {'id': id, 'target': target, 'images': images}
 
     except json.decoder.JSONDecodeError as e:
       sys.stderr.write("Skip {}\n   {}\n".format(path, e))
