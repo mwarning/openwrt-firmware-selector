@@ -5792,6 +5792,6 @@
       "target": "x86/64"
     }
   },
-  "url": "https://downloads.openwrt.org/releases/{release}/targets/{target}",
-  "version_commit": "r7976-ca47026b7d"
+  "url": "https://downloads.openwrt.org/releases/{version}/targets/{target}",
+  "version_code": "r7976-ca47026b7d"
 }

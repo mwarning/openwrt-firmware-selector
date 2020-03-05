@@ -12112,5 +12112,5 @@
     }
   },
   "url": "https://downloads.openwrt.org/snapshots/targets/{target}",
-  "version_commit": "r12145-4716c843d6"
+  "version_code": "r12145-4716c843d6"
 }
