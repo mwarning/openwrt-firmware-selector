@@ -20,7 +20,11 @@ var translations = {
 		'tr-rootfs-help': 'Das Root Dateisystem als separates Abbild.',
 		'tr-sdcard-help': 'Image für SD Speicherkarten.',
 		'tr-tftp-help': 'TFTP Dateien können verwendet werden, um ein Gerät über die TFTP Method des Bootloader zu flashen.',
-		'tr-other-help': 'Sonstiger Imagetyp.'
+		'tr-other-help': 'Sonstiger Imagetyp.',
+		'tr-build-successful': 'Build erfolgreich',
+		'tr-build-failed': 'Build fehlgeschlagen',
+		'tr-request-image': 'Frage nach image',
+		'tr-check-again': 'Nochmal nachfragen in 5 Sekunden...'
 	},
 	'en': {
 		'tr-load': 'Download OpenWrt firmware for your device!',
@@ -42,7 +46,11 @@ var translations = {
 		'tr-rootfs-help': 'Root file system as a separate image.',
 		'tr-sdcard-help': 'Image that is meant to be flashed onto a SD-Card.',
 		'tr-tftp-help': 'TFTP images are used to flash a device via the TFTP method of the bootloader.',
-		'tr-other-help': 'Other image type.'
+		'tr-other-help': 'Other image type.',
+		'tr-build-successful': 'Build successful',
+		'tr-build-failed': 'Build failed',
+		'tr-request-image': 'Request image',
+		'tr-check-again': 'Check again in 5 seconds...'
 	}
 };
 
