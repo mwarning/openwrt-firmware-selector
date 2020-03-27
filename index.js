@@ -37,6 +37,7 @@ function build_asa_request() {
   function showStatus(text) {
     show('buildstatus');
     $('buildstatus').innerHTML = text;
+    translate();
   }
 
   function handleError(response) {
@@ -44,7 +45,7 @@ function build_asa_request() {
 
     response.json()
       .then(mobj => {
-        var message = mobj['message'] || 'Build Failed';
+        var message = mobj['message'] || '<span class="tr-build-failed"></span>';
         if (mobj.buildlog == true) {
           var url = config.asu_url + '/store/' + mobj.bin_dir + '/buildlog.txt';
           showStatus('<a href="' + url + '">' + message + '</a>');
@@ -58,7 +59,7 @@ function build_asa_request() {
   updateImages();
 
   show('buildspinner');
-  showStatus('Request image...');
+  showStatus('<span class="tr-request-image></span>');
 
   var request_data = {
     'profile': current_model.id,
@@ -75,7 +76,7 @@ function build_asa_request() {
     switch (response.status) {
       case 200:
         hide('buildspinner');
-        showStatus('Build successful');
+        showStatus('<span class="tr-build-successful"></span>');
 
         response.json()
         .then(mobj => {
@@ -91,7 +92,7 @@ function build_asa_request() {
         });
         break;
       case 202:
-        showStatus('Check again in 5 seconds...');
+        showStatus('<span class="tr-check-again"></span>');
         setTimeout(_ => { build_asa_request() }, 5000);
         break;
       case 400: // bad request
@@ -135,17 +136,11 @@ function setupSelectList(select, items, onselection) {
 }
 
 // Change the translation of the entire document
-function applyLanguage(language) {
-  if (language) {
-    current_language = language;
-  }
-
+function translate() {
   var mapping = translations[current_language];
-  if (mapping) {
-    for (var tr in mapping) {
-      Array.from(document.getElementsByClassName(tr))
+  for (var tr in mapping) {
+    Array.from(document.getElementsByClassName(tr))
       .forEach(e => { e.innerText = mapping[tr]; })
-    }
   }
 }
 
@@ -345,7 +340,7 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
       switchClass('downloads-title', 'tr-custom-downloads', 'tr-version-downloads');
     }
     // update title translation
-    applyLanguage();
+    translate();
 
     // fill out build info
     $('image-model').innerText = model;
@@ -393,4 +388,4 @@ if (config.asu_url) {
 
 // hide fields
 updateImages();
-applyLanguage(config.language);
+translate();
