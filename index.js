@@ -65,6 +65,7 @@ function build_asa_request() {
           updateImages(
             mobj.version_number,
             mobj.version_commit,
+            mobj.build_at,
             get_model_titles(mobj.titles),
             download_url, mobj, true
           );
@@ -262,8 +263,9 @@ function setupAutocompleteList(input, items, onselection) {
   });
 }
 
-function updateImages(version, code, model, url, mobj, is_custom) {
-  hide('buildlog')
+function updateImages(version, code, date, model, url, mobj, is_custom) {
+  hide('buildlog');
+
   // add download button for image
   function addLink(type, file) {
     var a = document.createElement('A');
@@ -317,7 +319,7 @@ function updateImages(version, code, model, url, mobj, is_custom) {
   Array.from(document.getElementsByClassName('download-help'))
     .forEach(e => e.style.display = 'none');
 
-  if (version && code && model && url && mobj) {
+  if (version && code && date && model && url && mobj) {
     var target = mobj.target;
     var images = mobj.images;
 
@@ -337,6 +339,7 @@ function updateImages(version, code, model, url, mobj, is_custom) {
     $('image-target').innerText = target;
     $('image-version').innerText = version;
     $('image-code').innerText = code;
+    $('image-date').innerText = date;
 
     images.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -356,8 +359,9 @@ setupSelectList($('versions'), Object.keys(config.versions), version => {
       if (model in obj['models']) {
         var url = obj.url;
         var code = obj.version_code;
+        var date = obj.build_data || 'unknown';
         var mobj = obj['models'][model];
-        updateImages(version, code, model, url, mobj, false);
+        updateImages(version, code, date, model, url, mobj, false);
         current_model = mobj;
       } else {
         updateImages();
