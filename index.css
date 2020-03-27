@@ -205,3 +205,15 @@ header > div {
 .download-help {
   display: none;
 }
+
+#buildspinner {
+  float: left;
+  height: 40px;
+  padding-right: 12px;
+  display: none;
+}
+
+#buildstatus {
+  padding: 10px 0;
+  display: none;
+}

@@ -34,18 +34,37 @@ function build_asa_request() {
     }).join('/');
   }
 
+  function showStatus(text) {
+    show('buildstatus');
+    $('buildstatus').innerHTML = text;
+  }
+
+  function handleError(response) {
+    hide('buildspinner');
+
+    response.json()
+      .then(mobj => {
+        var message = mobj['message'] || 'Build Failed';
+        if (mobj.buildlog == true) {
+          var url = config.asu_url + '/store/' + mobj.bin_dir + '/buildlog.txt';
+          showStatus('<a href="' + url + '">' + message + '</a>');
+        } else {
+          showStatus(message);
+        }
+      });
+  }
+
   // hide image view
   updateImages();
 
-  show('loading');
+  show('buildspinner');
+  showStatus('Request image...');
 
   var request_data = {
     'profile': current_model.id,
     'packages': split($('packages').value),
     'version': $('versions').value
   }
-
-  console.log('disable request button / show loading spinner')
 
   fetch(config.asu_url + '/api/build', {
      method: 'POST',
@@ -55,13 +74,13 @@ function build_asa_request() {
   .then(response => {
     switch (response.status) {
       case 200:
-        hide('loading');
+        hide('buildspinner');
+        showStatus('Build successful');
 
-        console.log('image found');
         response.json()
         .then(mobj => {
           console.log(mobj)
-          var download_url = config.asu_url + '/store/' + mobj.bin_dir
+          var download_url = config.asu_url + '/store/' + mobj.bin_dir;
           updateImages(
             mobj.version_number,
             mobj.version_commit,
@@ -72,25 +91,19 @@ function build_asa_request() {
         });
         break;
       case 202:
-        // show some spinning animation
-        console.log('check again in 5 seconds');
+        showStatus('Check again in 5 seconds...');
         setTimeout(_ => { build_asa_request() }, 5000);
         break;
       case 400: // bad request
       case 422: // bad package
       case 500: // build failed
-        hide('loading');
-        console.log('error (' + response.status + ')');
-        response.json()
-        .then(mobj => {
-          if (mobj.buildlog == true) {
-            $('buildlog').href = config.asu_url + '/store/' + mobj.bin_dir + '/buildlog.txt';
-            show('buildlog')
-          }
-          alert(mobj.message)
-        });
+        handleError(response);
         break;
     }
+  })
+  .catch(err => {
+    hide('buildspinner');
+    showStatus(err);
   })
 }
 
