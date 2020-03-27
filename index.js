@@ -64,7 +64,7 @@ function build_asa_request() {
           var download_url = config.asu_url + '/store/' + mobj.bin_dir
           updateImages(
             mobj.version_number,
-            mobj.version_code,
+            mobj.version_commit,
             get_model_titles(mobj.titles),
             download_url, mobj, true
           );
