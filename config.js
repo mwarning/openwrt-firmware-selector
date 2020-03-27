@@ -13,5 +13,5 @@ var config = {
   },
   // Build custom images
   // See https://github.com/aparcar/sasu
-  // asu_url: 'http://localhost:5000'
+  asu_url: 'https://chef.libremesh.org'
 };
