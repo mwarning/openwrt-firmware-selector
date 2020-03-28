@@ -272,8 +272,6 @@ function setupAutocompleteList(input, items, onselection) {
 }
 
 function updateImages(version, code, date, model, url, mobj, is_custom) {
-  hide('buildlog');
-
   // add download button for image
   function addLink(type, file) {
     var a = document.createElement('A');
