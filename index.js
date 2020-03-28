@@ -59,7 +59,7 @@ function build_asa_request() {
   updateImages();
 
   show('buildspinner');
-  showStatus('<span class="tr-request-image></span>');
+  showStatus('<span class="tr-request-image"></span>');
 
   var request_data = {
     'profile': current_model.id,
