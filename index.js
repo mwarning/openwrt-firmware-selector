@@ -80,7 +80,6 @@ function build_asa_request() {
 
         response.json()
         .then(mobj => {
-          console.log(mobj)
           var download_url = config.asu_url + '/store/' + mobj.bin_dir;
           updateImages(
             mobj.version_number,
