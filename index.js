@@ -107,17 +107,6 @@ function build_asa_request() {
   })
 }
 
-function loadFile(url, callback) {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function() {
-    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-      callback(JSON.parse(xmlhttp.responseText), url);
-    }
-  };
-  xmlhttp.open('GET', url, true);
-  xmlhttp.send();
-}
-
 function setupSelectList(select, items, onselection) {
   for (var i = 0; i < items.length; i += 1) {
     var option = document.createElement('OPTION');
@@ -359,23 +348,25 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
 }
 
 setupSelectList($('versions'), Object.keys(config.versions), version => {
-  loadFile(config.versions[version], obj => {
-    setupAutocompleteList($('models'), Object.keys(obj['models']), model => {
-      if (model in obj['models']) {
-        var url = obj.url;
-        var code = obj.version_code;
-        var date = obj.build_data || 'unknown';
-        var mobj = obj['models'][model];
-        updateImages(version, code, date, model, url, mobj, false);
-        current_model = mobj;
-      } else {
-        updateImages();
-        current_model = {};
-      }
-    });
+  fetch(config.versions[version]).then(data => {
+    data.json().then(obj => {
+      setupAutocompleteList($('models'), Object.keys(obj['models']), model => {
+        if (model in obj['models']) {
+          var url = obj.url;
+          var code = obj.version_code;
+          var date = obj.build_data || 'unknown';
+          var mobj = obj['models'][model];
+          updateImages(version, code, date, model, url, mobj, false);
+          current_model = mobj;
+        } else {
+          updateImages();
+          current_model = {};
+        }
+      });
 
-    // trigger model update when selected version changes
-    $('models').onfocus();
+      // trigger model update when selected version changes
+      $('models').onfocus();
+    });
   });
 });
 
