@@ -1,6 +1,5 @@
 
 var current_model = {};
-var current_language = config.language;
 
 function $(id) {
   return document.getElementById(id);
@@ -125,7 +124,7 @@ function setupSelectList(select, items, onselection) {
 
 // Change the translation of the entire document
 function translate() {
-  var mapping = translations[current_language];
+  var mapping = translations[config.language];
   for (var tr in mapping) {
     Array.from(document.getElementsByClassName(tr))
       .forEach(e => { e.innerText = mapping[tr]; })
@@ -376,4 +375,11 @@ if (config.asu_url) {
 
 // hide fields
 updateImages();
+
+var user_lang = (navigator.language || navigator.userLanguage).split('-')[0];
+if (user_lang in translations) {
+  config.language = user_lang;
+  $('language-selection').value = user_lang;
+}
+
 translate();
