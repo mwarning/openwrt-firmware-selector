@@ -77,6 +77,31 @@ var translations = {
 		'tr-build-failed': 'Błąd budowania',
 		'tr-request-image': 'Żądanie obrazu',
 		'tr-check-again': 'Sprawdź ponownie za 5 sekund...'
+	'tr': {
+		'tr-load': 'Cihazınız için OpenWrt yazılımını indirin!',
+		'tr-title': 'OpenWrt Yazılım Seçicisi',
+		'tr-message': 'Cihazınız için yazılımı indirmek için lütfen aşağıdaki girişi kullanın!',
+		'tr-version-build': 'Sürüm',
+		'tr-custom-build': 'Özel Sürüm',
+		'tr-customize': 'Özelleştir',
+		'tr-request-build': 'Sürüm Oluştur',
+		'tr-model': 'Model:',
+		'tr-target': 'Platform:',
+		'tr-version': 'Versiyon:',
+		'tr-date': 'Tarih:',
+		'tr-downloads': 'İndirmeler',
+		'tr-custom-downloads': 'Özel İndirmeler',
+		'tr-factory-help': 'Fabrika imajları, ilk kez OpenWrt yüklenen cihazlar içindir. Genellikle orijinal ürün yazılımının web arayüzü üzerinden yüklenir.',
+		'tr-sysupgrade-help': 'Sysupgrade imajları, zaten OpenWrt kurulu cihazlar içindir. İmaj, web arayüzü veya terminal kullanılarak yüklenebilir.',
+		'tr-kernel-help': 'Linux kernel ayrı bir imaj olarak.',
+		'tr-rootfs-help': 'Kök Dosya Sistemi ayrı bir imaj olarak.',
+		'tr-sdcard-help': 'SD-Kart \'a kurulması planlanan imaj',
+		'tr-tftp-help': 'TFTP imajları, Bootloader \'ın TFTP yöntemi ile bir cihaza kurulması için kullanılır.',
+		'tr-other-help': 'Diğer imaj türü.',
+		'tr-build-successful': 'Oluşturma başarılı',
+		'tr-build-failed': 'Oluşturma başarısız',
+		'tr-request-image': 'Imaj oluştur',
+		'tr-check-again': '5 saniye icinde tekrar dene...'
 	}
 };
 
