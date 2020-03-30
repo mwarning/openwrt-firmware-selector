@@ -1,31 +1,5 @@
 
 var translations = {
-	'de': {
-		'tr-load': 'Lade die OpenWrt Firmware für dein Gerät!',
-		'tr-title': 'OpenWrt Firmware Selector',
-		'tr-message': 'Bitte benutze die Eingabe um die passende Firmware zu finden!',
-		'tr-version-build': 'Release Build',
-		'tr-custom-build': 'Custom Build',
-		'tr-customize': 'Customize',
-		'tr-request-build': 'Request Build',
-		'tr-model': 'Model:',
-		'tr-target': 'Target',
-		'tr-version': 'Version:',
-		'tr-date': 'Datum:',
-		'tr-downloads': 'Downloads',
-		'tr-custom-downloads': 'Custom Downloads',
-		'tr-factory-help': 'Factory Abbilder werden über die Weboberfläche der originalen Firmware eingespielt.',
-		'tr-sysupgrade-help': 'Sysupgrade Abbilder werden für Geräte verwendet, die bereits OpenWrt laufen haben. Es ist möglich, existierende Einstellungen beizubehalten.',
-		'tr-kernel-help': 'Linux Kernel als separates Abbild.',
-		'tr-rootfs-help': 'Das Root Dateisystem als separates Abbild.',
-		'tr-sdcard-help': 'Image für SD Speicherkarten.',
-		'tr-tftp-help': 'TFTP Dateien können verwendet werden, um ein Gerät über die TFTP Method des Bootloader zu flashen.',
-		'tr-other-help': 'Sonstiger Imagetyp.',
-		'tr-build-successful': 'Build erfolgreich',
-		'tr-build-failed': 'Build fehlgeschlagen',
-		'tr-request-image': 'Frage nach image',
-		'tr-check-again': 'Nochmal nachfragen in 5 Sekunden...'
-	},
 	'en': {
 		'tr-load': 'Download OpenWrt firmware for your device!',
 		'tr-title': 'OpenWrt Firmware Selector',
@@ -52,6 +26,32 @@ var translations = {
 		'tr-request-image': 'Request image',
 		'tr-check-again': 'Check again in 5 seconds...'
 	},
+	'de': {
+		'tr-load': 'Lade die OpenWrt Firmware für dein Gerät!',
+		'tr-title': 'OpenWrt Firmware Selector',
+		'tr-message': 'Bitte benutze die Eingabe um die passende Firmware zu finden!',
+		'tr-version-build': 'Release Build',
+		'tr-custom-build': 'Custom Build',
+		'tr-customize': 'Customize',
+		'tr-request-build': 'Request Build',
+		'tr-model': 'Model:',
+		'tr-target': 'Target',
+		'tr-version': 'Version:',
+		'tr-date': 'Datum:',
+		'tr-downloads': 'Downloads',
+		'tr-custom-downloads': 'Custom Downloads',
+		'tr-factory-help': 'Factory Abbilder werden über die Weboberfläche der originalen Firmware eingespielt.',
+		'tr-sysupgrade-help': 'Sysupgrade Abbilder werden für Geräte verwendet, die bereits OpenWrt laufen haben. Es ist möglich, existierende Einstellungen beizubehalten.',
+		'tr-kernel-help': 'Linux Kernel als separates Abbild.',
+		'tr-rootfs-help': 'Das Root Dateisystem als separates Abbild.',
+		'tr-sdcard-help': 'Image für SD Speicherkarten.',
+		'tr-tftp-help': 'TFTP Dateien können verwendet werden, um ein Gerät über die TFTP Method des Bootloader zu flashen.',
+		'tr-other-help': 'Sonstiger Imagetyp.',
+		'tr-build-successful': 'Build erfolgreich',
+		'tr-build-failed': 'Build fehlgeschlagen',
+		'tr-request-image': 'Frage nach image',
+		'tr-check-again': 'Nochmal nachfragen in 5 Sekunden...'
+	},
 	'fr': {
 		'tr-load': 'Télécharger le firmware OpenWrt de votre périphérique !',
 		'tr-title': 'Sélecteur de Firmware',
@@ -77,6 +77,7 @@ var translations = {
 		'tr-build-failed': 'Échec du Build',
 		'tr-request-image': 'Demade d\'image',
 		'tr-check-again': 'Essayer à nouveau dans 5 secondes...'
+	},
 	'pl': {
 		'tr-load': 'Pobieranie oprogramowania OpenWrt!',
 		'tr-title': 'OpenWrt Firmware Selector',
@@ -102,6 +103,7 @@ var translations = {
 		'tr-build-failed': 'Błąd budowania',
 		'tr-request-image': 'Żądanie obrazu',
 		'tr-check-again': 'Sprawdź ponownie za 5 sekund...'
+	},
 	'tr': {
 		'tr-load': 'Cihazınız için OpenWrt yazılımını indirin!',
 		'tr-title': 'OpenWrt Yazılım Seçicisi',
@@ -128,7 +130,6 @@ var translations = {
 		'tr-request-image': 'Imaj oluştur',
 		'tr-check-again': '5 saniye icinde tekrar dene...'
 	}
-
 };
 
 // Complement translations based on other translations
