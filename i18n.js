@@ -52,6 +52,31 @@ var translations = {
 		'tr-request-image': 'Request image',
 		'tr-check-again': 'Check again in 5 seconds...'
 	},
+	'fr': {
+		'tr-load': 'Télécharger le firmware OpenWrt de votre périphérique !',
+		'tr-title': 'Sélecteur de Firmware',
+		'tr-message': 'Utiliser les entrées ci-dessous pour télécharger le firmware de votre périphérique !',
+		'tr-version-build': 'Build',
+		'tr-custom-build': 'Build Personnalisé',
+		'tr-customize': 'Personnalisation',
+		'tr-request-build': 'Requête de Build',
+		'tr-model': 'Modèle:',
+		'tr-target': 'Platform:',
+		'tr-version': 'Version:',
+		'tr-date': 'Date:',
+		'tr-downloads': 'Téléchargements',
+		'tr-custom-downloads': 'Téléchargements Personnalusés',
+		'tr-factory-help': 'Les images Factory sont prévues pour flasher les routers avec OpenWrt pour la première fois. Habituellement à partir de l\'interface web du firmware d\'origine.',
+		'tr-sysupgrade-help': 'Les images Sysupgrade sont prévues pour flasher les routers fonctionnant déjà avec OpenWrt. L\'image peut être installée à travers l\'interface web ou par le terminal.',
+		'tr-kernel-help': 'Linux kernel comme image séparée.',
+		'tr-rootfs-help': 'Root file system comme image séparée.',
+		'tr-sdcard-help': 'Image prévue pour être flashée sur une carte SD.',
+		'tr-tftp-help': 'TFTP images prévues pour flasher le périphérique via le démarrage par méthode TFTP.',
+		'tr-other-help': 'Autre type d\'image.',
+		'tr-build-successful': 'Succès du Build',
+		'tr-build-failed': 'Échec du Build',
+		'tr-request-image': 'Demade d\'image',
+		'tr-check-again': 'Essayer à nouveau dans 5 secondes...'
 	'pl': {
 		'tr-load': 'Pobieranie oprogramowania OpenWrt!',
 		'tr-title': 'OpenWrt Firmware Selector',
@@ -103,6 +128,7 @@ var translations = {
 		'tr-request-image': 'Imaj oluştur',
 		'tr-check-again': '5 saniye icinde tekrar dene...'
 	}
+
 };
 
 // Complement translations based on other translations
