@@ -1,11 +1,10 @@
 # Yet Another Firmware Selector
 
 A simple OpenWrt firmware selector using autocompletion. Uses plain
-HTML/CSS/JavaScript.
+HTML/CSS/JavaScript. Checkout the [Demo](https://mwarning.github.io/yet_another_firmware_selector/).
 
 ![image](misc/screenshot.png)
 
-Checkout the [Demo](https://mwarning.github.io/yet_another_firmware_selector/)!
 
 ## Run
 
