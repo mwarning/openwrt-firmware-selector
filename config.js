@@ -7,9 +7,9 @@ var config = {
   // Files to get data from
   versions: {
   //'SNAPSHOT': '/api/names/SNAPSHOT', // when using sasu backend
-    'SNAPSHOT': 'names-SNAPSHOT.json',
-    '19.07.1': 'names-19.07.1.json',
-    '18.06.7': 'names-18.06.7.json'
+    'SNAPSHOT': 'misc/names-SNAPSHOT.json',
+    '19.07.1': 'misc/names-19.07.1.json',
+    '18.06.7': 'misc/names-18.06.7.json'
   },
   // Build custom images
   // See https://github.com/aparcar/asu
