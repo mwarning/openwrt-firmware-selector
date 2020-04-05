@@ -217,3 +217,12 @@ header > div {
   padding: 10px 0;
   display: none;
 }
+
+#footer {
+  font-size: 0.8em;
+  text-align: right;
+}
+
+#footer a {
+  text-decoration: none;
+}
