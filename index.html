@@ -5,8 +5,11 @@
 	<meta charset="utf-8"/>
 	<title>OpenWrt Firmware Selector</title>
 	<link rel="stylesheet" href="index.css" />
+	<script src="i18n.js"></script>
+	<script src="config.js"></script>
+	<script src="index.js"></script>
 </head>
-<body>
+<body onload="init()">
 
 <header>
 	<div>
@@ -16,7 +19,7 @@
 		<img src="logo.png" alt="Logo">
 		<div style="flex-grow: 1;"></div>
 
-		<select id="language-selection" onchange="config.language=this.children[this.selectedIndex].value; translate();" size="1">
+		<select id="language-selection" size="1">
 			<option value="en">English</option>
 			<option value="es">Español</option>
 			<option value="de">Deutsch</option>
@@ -81,10 +84,5 @@
 		</div>
 	</div>
 </div>
-
-<script src="i18n.js"></script>
-<script src="config.js"></script>
-<script src="index.js"></script>
-
 </body>
 </html>

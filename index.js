@@ -346,40 +346,47 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
   }
 }
 
-setupSelectList($('versions'), Object.keys(config.versions), version => {
-  fetch(config.versions[version]).then(data => {
-    data.json().then(obj => {
-      setupAutocompleteList($('models'), Object.keys(obj['models']), model => {
-        if (model in obj['models']) {
-          var url = obj.url;
-          var code = obj.version_code;
-          var date = obj.build_data || 'unknown';
-          var mobj = obj['models'][model];
-          updateImages(version, code, date, model, url, mobj, false);
-          current_model = mobj;
-        } else {
-          updateImages();
-          current_model = {};
-        }
-      });
+function init() {
+  setupSelectList($('versions'), Object.keys(config.versions), version => {
+    fetch(config.versions[version]).then(data => {
+      data.json().then(obj => {
+        setupAutocompleteList($('models'), Object.keys(obj['models']), model => {
+          if (model in obj['models']) {
+            var url = obj.url;
+            var code = obj.version_code;
+            var date = obj.build_data || 'unknown';
+            var mobj = obj['models'][model];
+            updateImages(version, code, date, model, url, mobj, false);
+            current_model = mobj;
+          } else {
+            updateImages();
+            current_model = {};
+          }
+        });
 
-      // trigger model update when selected version changes
-      $('models').onfocus();
+        // trigger model update when selected version changes
+        $('models').onfocus();
+      });
     });
   });
-});
 
-if (config.asu_url) {
-  show('custom');
+  if (config.asu_url) {
+    show('custom');
+  }
+
+  // hide fields
+  updateImages();
+
+  var user_lang = (navigator.language || navigator.userLanguage).split('-')[0];
+  if (user_lang in translations) {
+    config.language = user_lang;
+    $('language-selection').value = user_lang;
+  }
+
+  translate();
+
+  $('language-selection').onclick = function() {
+    config.language = this.children[this.selectedIndex].value;
+    translate();
+  }
 }
-
-// hide fields
-updateImages();
-
-var user_lang = (navigator.language || navigator.userLanguage).split('-')[0];
-if (user_lang in translations) {
-  config.language = user_lang;
-  $('language-selection').value = user_lang;
-}
-
-translate();
