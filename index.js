@@ -28,7 +28,7 @@ function build_asa_request() {
       if (e.title) {
         return e.title;
       } else {
-        return ((e.vendor || '') + (e.model || '') + (e.variant || '')).trim();
+        return ((e.vendor || '') + ' ' + (e.model || '') + ' ' + (e.variant || '')).trim();
       }
     }).join('/');
   }
