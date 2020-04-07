@@ -8,7 +8,7 @@ var translations = {
 		'tr-custom-build': 'Custom Build',
 		'tr-customize': 'Customize',
 		'tr-request-build': 'Request Build',
-		'tr-model': 'Modell:',
+		'tr-model': 'Model:',
 		'tr-target': 'Platform:',
 		'tr-version': 'Version:',
 		'tr-date': 'Date:',
