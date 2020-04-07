@@ -14,6 +14,10 @@ HTML/CSS/JavaScript. Checkout the [Demo](https://mwarning.github.io/yet_another_
 
 Configure with [config.js](config.js).
 
+## Attended Sysupgrade Support
+
+This firmware selector can speak to a [ASU server](https://github.com/aparcar/asu) to build custom images. To enable the feature, the `asu_url` option in the config.js needs to be set.
+
 ## Update Database
 
 The `names-<version>.json` files are based on JSON files created by OpenWrt
