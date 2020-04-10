@@ -61,6 +61,7 @@ function build_asa_request() {
   showStatus('<span class="tr-request-image"></span>');
 
   var request_data = {
+    'target': current_model.target,
     'profile': current_model.id,
     'packages': split($('packages').value),
     'version': $('versions').value
