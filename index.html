@@ -40,7 +40,7 @@
 		<br>
 
 		<select id="versions" size="1"></select>
-		<div class="autocomplete">
+		<div id="models-autocomplete" class="autocomplete">
 			<input id="models" type="text" placeholder="Model" spellcheck="false" autocapitalize="off" autocorrect="off">
 		</div>
 
@@ -55,7 +55,9 @@
 		<div id="images">
 			<div id="custom">
 				<h3 class="tr-customize">Customize</h3>
-				<textarea id="packages" spellcheck="false" autocapitalize="off" autocorrect="off">luci</textarea>
+				<div class="autocomplete">
+					<textarea id="packages" spellcheck="false" autocapitalize="off" autocorrect="off"></textarea>
+				</div>
 				<a href="javascript:build_asa_request()" class="custom-link">
 					<span>&#9881;</span><span class="tr-request-build">Request Build</span>
 				</a>
