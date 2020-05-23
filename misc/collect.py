@@ -13,11 +13,17 @@ parser.add_argument('--url', action="store", default="",
   help="Link to get the image from. May contain {target}, {version} and {commit}")
 parser.add_argument('--formatted', action="store_true",
   help="Output formatted JSON data.")
+parser.add_argument('--change-prefix',
+  help="Change the openwrt- file name prefix.")
 
 args = parser.parse_args()
 
 SUPPORTED_METADATA_VERSION = 1
 
+def change_prefix(images, old_prefix, new_prefix):
+    for image in images:
+        if image['name'].startswith(old_prefix):
+            image['name'] = new_prefix + image['name'][len(old_prefix):]
 
 # OpenWrt JSON device files
 paths = []
@@ -64,6 +70,9 @@ for path in paths:
       images = []
       for image in obj['images']:
           images.append({'name': image['name'], 'type': image['type']})
+
+      if args.change_prefix:
+          change_prefix(images, 'openwrt-', args.change_prefix)
 
       target = obj['target']
       id = obj['id']
