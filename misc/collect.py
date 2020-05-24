@@ -7,7 +7,7 @@ import sys
 import os
 
 parser = argparse.ArgumentParser()
-parser.add_argument("input_path", nargs='?',
+parser.add_argument("input_path", nargs='+',
   help="Input folder that is traversed for OpenWrt JSON device files.")
 parser.add_argument('--url', action="store", default="",
   help="Link to get the image from. May contain {target}, {version} and {commit}")
@@ -28,12 +28,17 @@ def change_prefix(images, old_prefix, new_prefix):
 # OpenWrt JSON device files
 paths = []
 
-if args.input_path:
-  if not os.path.isdir(args.input_path):
-    sys.stderr.write("Folder does not exists: {}\n".format(args.input_path))
-    exit(1)
+# json output data
+output = {}
 
-  for path in Path(args.input_path).rglob('*.json'):
+for path in args.input_path:
+  if os.path.isdir(path):
+    for file in Path(path).rglob('*.json'):
+      paths.append(file)
+  else:
+    if not path.ends_with('.json'):
+      sys.stderr.write("Folder does not exists: {}\n".format(path))
+      exit(1)
     paths.append(path)
 
 def get_title_name(title):
