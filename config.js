@@ -4,6 +4,8 @@ var config = {
   language: 'en',
   // Show help text for images
   showHelp: true,
+  // base URL
+  base_url: 'https://downloads.openwrt.org',
   // Files to get data from
   versions: {
   //'SNAPSHOT': '/api/names/SNAPSHOT', // when using sasu backend

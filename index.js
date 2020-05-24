@@ -13,6 +13,24 @@ function hide(id) {
   $(id).style.display = 'none';
 }
 
+function get_model_titles(titles) {
+  return titles.map(e => {
+    if (e.title) {
+      return e.title;
+    } else {
+      return ((e.vendor || '') + ' ' + (e.model || '') + ' ' + (e.variant || '')).trim();
+    }
+  }).join(' / ');
+}
+
+function get_version_url(version) {
+  if (version == "SNAPSHOT") {
+    return config.base_url + "/snapshots/targets/{target}"
+  } else {
+    return config.base_url + "/releases/{version}/targets/{target}".replace("{version}", version)
+  }
+}
+
 function build_asa_request() {
   if (!current_model || !current_model.id) {
     alert('bad profile');
@@ -21,16 +39,6 @@ function build_asa_request() {
 
   function split(str) {
     return str.match(/[^\s,]+/g) || [];
-  }
-
-  function get_model_titles(titles) {
-    return titles.map(e => {
-      if (e.title) {
-        return e.title;
-      } else {
-        return ((e.vendor || '') + ' ' + (e.model || '') + ' ' + (e.variant || '')).trim();
-      }
-    }).join('/');
   }
 
   function showStatus(text) {
@@ -351,6 +359,16 @@ function init() {
   setupSelectList($('versions'), Object.keys(config.versions), version => {
     fetch(config.versions[version]).then(data => {
       data.json().then(obj => {
+        if ("profiles" in obj) {
+          obj["url"] = get_version_url(version)
+          obj["models"] = {}
+          for (const [key, value] of Object.entries(obj["profiles"])) {
+            obj["models"][get_model_titles(value.titles)] = value
+            obj["models"][get_model_titles(value.titles)]["id"] = key
+          }
+        }
+        return obj 
+      }).then(obj => {
         setupAutocompleteList($('models'), Object.keys(obj['models']), model => {
           if (model in obj['models']) {
             var url = obj.url;
