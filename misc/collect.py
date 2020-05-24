@@ -42,52 +42,53 @@ def get_title_name(title):
   else:
     return "{} {} {}".format(title.get('vendor', ''), title['model'], title.get('variant', '')).strip()
 
-# json output data
-output = {}
+def add_profile(id, target, profile):
+  images = []
+  for image in profile['images']:
+      images.append({'name': image['name'], 'type': image['type']})
+
+  if args.change_prefix:
+      change_prefix(images, 'openwrt-', args.change_prefix)
+
+  for title in profile['titles']:
+    name = get_title_name(title)
+
+    if len(name) == 0:
+      sys.stderr.write("Empty title. Skip title in {}\n".format(path))
+      continue
+
+    output['models'][name] = {'id': id, 'target': target, 'images': images}
+
 for path in paths:
   with open(path, "r") as file:
+    obj = json.load(file)
+
+    if obj['metadata_version'] != SUPPORTED_METADATA_VERSION:
+      sys.stderr.write('{} has unsupported metadata version: {} => skip\n'.format(path, obj['metadata_version']))
+      continue
+
+    code = obj.get('version_code', obj.get('version_commit'))
+
+    if not 'version_code' in output:
+      output = {
+        'version_code': code,
+        'url': args.url,
+        'models' : {}
+      }
+
+    # only support a version_number with images of a single version_commit
+    if output['version_code'] != code:
+      sys.stderr.write('mixed revisions for a release ({} and {}) => abort\n'.format(output['version_code'], commit))
+      exit(1)
+
     try:
-      obj = json.load(file)
-
-      if obj['metadata_version'] != SUPPORTED_METADATA_VERSION:
-        sys.stderr.write('{} has unsupported metadata version: {} => skip\n'.format(path, obj['metadata_version']))
-        continue
-
-      code = obj.get('version_code', obj.get('version_commit'))
-
-      if not 'version_code' in output:
-        output = {
-          'version_code': code,
-          'url': args.url,
-          'models' : {}
-        }
-
-      # only support a version_number with images of a single version_commit
-      if output['version_code'] != code:
-        sys.stderr.write('mixed revisions for a release ({} and {}) => abort\n'.format(output['version_code'], commit))
-        exit(1)
-
-      images = []
-      for image in obj['images']:
-          images.append({'name': image['name'], 'type': image['type']})
-
-      if args.change_prefix:
-          change_prefix(images, 'openwrt-', args.change_prefix)
-
-      target = obj['target']
-      id = obj['id']
-      for title in obj['titles']:
-        name = get_title_name(title)
-
-        if len(name) == 0:
-          sys.stderr.write("Empty title. Skip title in {}\n".format(path))
-          continue
-
-        output['models'][name] = {'id': id, 'target': target, 'images': images}
-
+      if 'profiles' in obj:
+        for id in obj['profiles']:
+          add_profile(id, obj['target'], obj['profiles'][id])
+      else:
+        add_profile(obj['id'], obj['target'], obj)
     except json.decoder.JSONDecodeError as e:
       sys.stderr.write("Skip {}\n   {}\n".format(path, e))
-      continue
     except KeyError as e:
       sys.stderr.write("Abort on {}\n   Missing key {}\n".format(path, e))
       exit(1)
