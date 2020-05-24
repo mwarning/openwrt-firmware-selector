@@ -36,7 +36,7 @@ for path in args.input_path:
     for file in Path(path).rglob('*.json'):
       paths.append(file)
   else:
-    if not path.ends_with('.json'):
+    if not path.endswith('.json'):
       sys.stderr.write("Folder does not exists: {}\n".format(path))
       exit(1)
     paths.append(path)
