@@ -52,6 +52,9 @@ def add_profile(id, target, profile):
   for image in profile['images']:
       images.append({'name': image['name'], 'type': image['type']})
 
+  if target is None:
+    target = profile['target']
+
   if args.change_prefix:
       change_prefix(images, 'openwrt-', args.change_prefix)
 
@@ -89,7 +92,7 @@ for path in paths:
     try:
       if 'profiles' in obj:
         for id in obj['profiles']:
-          add_profile(id, obj['target'], obj['profiles'][id])
+          add_profile(id, obj.get('target'), obj['profiles'][id])
       else:
         add_profile(obj['id'], obj['target'], obj)
     except json.decoder.JSONDecodeError as e:
