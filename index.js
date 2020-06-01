@@ -353,8 +353,8 @@ function init() {
       data.json().then(obj => {
         setupAutocompleteList($('models'), Object.keys(obj['models']), model => {
           if (model in obj['models']) {
-            var url = obj.url;
-            var code = obj.version_code;
+            var url = obj.url || 'unknown';
+            var code = obj.version_code || 'unknown';
             var date = obj.build_data || 'unknown';
             var mobj = obj['models'][model];
             updateImages(version, code, date, model, url, mobj, false);
