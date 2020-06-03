@@ -4,10 +4,13 @@ body {
   margin: 0px;
 }
 
-/*the container must be positioned relative:*/
+#models-autocomplete {
+  width: 20em;
+  display: inline-block;
+}
+
 .autocomplete {
   position: relative;
-  display: inline-block;
 }
 
 .autocomplete > input {
@@ -16,10 +19,6 @@ body {
   padding: 10px;
   width: 100%;
   border-radius: 4px;
-}
-
-.autocomplete {
-  width: 20em;
 }
 
 .autocomplete-items {

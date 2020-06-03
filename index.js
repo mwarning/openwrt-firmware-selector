@@ -37,10 +37,6 @@ function build_asa_request() {
     return;
   }
 
-  function split(str) {
-    return str.match(/[^\s,]+/g) || [];
-  }
-
   function showStatus(text) {
     show('buildstatus');
     $('buildstatus').innerHTML = text;
@@ -140,9 +136,7 @@ function translate() {
   }
 }
 
-function setupAutocompleteList(input, items, onselection) {
-  // the setupAutocompleteList function takes two arguments,
-  // the text field element and an array of possible autocompleted values:
+function setupAutocompleteList(input, items, as_list, onbegin, onend) {
   var currentFocus = -1;
 
   // sort numbers and other characters separately
@@ -150,12 +144,20 @@ function setupAutocompleteList(input, items, onselection) {
 
   items.sort(collator.compare);
 
-  // execute a function when someone writes in the text field:
   input.oninput = function(e) {
-    // clear images
-    updateImages();
+    onbegin();
 
+    var offset = 0;
     var value = this.value;
+    var value_list = [];
+
+    if (as_list) {
+      // automcomplete last text item
+      offset = this.value.lastIndexOf(' ') + 1;
+      value = this.value.substr(offset);
+      value_list = split(this.value.substr(0, offset));
+    }
+
     // close any already open lists of autocompleted values
     closeAllLists();
 
@@ -170,7 +172,6 @@ function setupAutocompleteList(input, items, onselection) {
     // append the DIV element as a child of the autocomplete container:
     this.parentNode.appendChild(list);
 
-    // for each item in the array...
     var c = 0;
     for (var i = 0; i < items.length; i += 1) {
       var item = items[i];
@@ -178,6 +179,11 @@ function setupAutocompleteList(input, items, onselection) {
       // match
       var j = item.toUpperCase().indexOf(value.toUpperCase());
       if (j < 0) {
+        continue;
+      }
+
+      // do not offer a duplicate item
+      if (as_list && value_list.indexOf(item) != -1) {
         continue;
       }
 
@@ -196,13 +202,16 @@ function setupAutocompleteList(input, items, onselection) {
           + '<input type="hidden" value="' + item + '">';
 
         div.addEventListener('click', function(e) {
-          // set text field to selected value
-          input.value = this.getElementsByTagName('input')[0].value;
+          // include selected value
+          var selected = this.getElementsByTagName('input')[0].value;
+          if (as_list) {
+            input.value = value_list.join(' ') + ' ' + selected;
+          } else {
+            input.value = selected;
+          }
           // close the list of autocompleted values,
-          // (or any other open lists of autocompleted values:
           closeAllLists();
-          // callback
-          onselection(input.value);
+          onend(input);
         });
 
         list.appendChild(div);
@@ -234,7 +243,12 @@ function setupAutocompleteList(input, items, onselection) {
   };
 
   input.onfocus = function() {
-    onselection(input.value);
+    onend(input);
+  }
+
+  // focus lost
+  input.onblur = function() {
+    onend(input);
   }
 
   function setActive(x) {
@@ -264,6 +278,21 @@ function setupAutocompleteList(input, items, onselection) {
   // execute a function when someone clicks in the document:
   document.addEventListener('click', e => {
       closeAllLists(e.target);
+  });
+}
+
+// for attended sysupgrade
+function updatePackageList(target) {
+  // set available packages
+  fetch(config.asu_url + '/' + target + '/packages.json')
+  .then(response => response.json())
+  .then(all_packages => {
+    setupAutocompleteList($('packages'), all_packages, true, _ => {}, textarea => {
+      textarea.value = split(textarea.value)
+        .filter((value, index, self) => self.indexOf(value) === index) // make list unique
+        //.filter((value, index) => all_packages.indexOf(value) !== -1) // limit to available packages
+        .join(' ');
+    });
   });
 }
 
@@ -349,6 +378,10 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
       addLink(images[i].type, images[i].name);
     }
 
+    if (config.asu_url) {
+      updatePackageList(target);
+    }
+
     show('images');
   } else {
     hide('images');
@@ -369,10 +402,11 @@ function init() {
         }
         return obj 
       }).then(obj => {
-        setupAutocompleteList($('models'), Object.keys(obj['models']), model => {
+        setupAutocompleteList($('models'), Object.keys(obj['models']), false, updateImages, models => {
+          var model = models.value;
           if (model in obj['models']) {
-            var url = obj.url;
-            var code = obj.version_code;
+            var url = obj.url || 'unknown';
+            var code = obj.version_code || 'unknown';
             var date = obj.build_data || 'unknown';
             var mobj = obj['models'][model];
             updateImages(version, code, date, model, url, mobj, false);
