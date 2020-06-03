@@ -412,7 +412,7 @@ function init() {
           if (model in obj['models']) {
             var url = obj.url || 'unknown';
             var code = obj.version_code || 'unknown';
-            var date = obj.build_data || 'unknown';
+            var date = obj.build_date || 'unknown';
             var mobj = obj['models'][model];
             updateImages(version, code, date, model, url, mobj, false);
             current_model = mobj;
