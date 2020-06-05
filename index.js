@@ -27,14 +27,6 @@ function get_model_titles(titles) {
   }).join(' / ');
 }
 
-function get_version_url(version) {
-  if (version == 'SNAPSHOT') {
-    return config.base_url + '/snapshots/targets/{target}'
-  } else {
-    return config.base_url + '/releases/{version}/targets/{target}'.replace('{version}', version)
-  }
-}
-
 function build_asa_request() {
   if (!current_model || !current_model.id) {
     alert('bad profile');
@@ -398,7 +390,6 @@ function init() {
       data.json().then(obj => {
         // handle native openwrt json format
         if ('profiles' in obj) {
-          obj['url'] = get_version_url(version)
           obj['models'] = {}
           for (const [key, value] of Object.entries(obj['profiles'])) {
             obj['models'][get_model_titles(value.titles)] = value
