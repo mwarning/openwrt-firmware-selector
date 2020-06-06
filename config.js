@@ -1,4 +1,3 @@
-
 var config = {
   // Default language, see i18n.js
   language: 'en',
@@ -6,10 +5,9 @@ var config = {
   showHelp: true,
   // Files to get data from
   versions: {
-  //'SNAPSHOT': '/api/names/SNAPSHOT', // when using sasu backend
-    'SNAPSHOT': 'misc/names-SNAPSHOT.json',
-    '19.07.1': 'misc/names-19.07.1.json',
-    '18.06.7': 'misc/names-18.06.7.json'
+    'SNAPSHOT': 'misc/snapshot',
+    '19.07.1': 'misc/19.07.1',
+    '18.06.7': 'misc/18.06.7'
   },
   // Build custom images
   // See https://github.com/aparcar/asu

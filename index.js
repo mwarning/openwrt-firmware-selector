@@ -278,9 +278,9 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
 }
 
 // for attended sysupgrade
-function updatePackageList(target) {
+function updatePackageList(version, target) {
   // set available packages
-  fetch(config.asu_url + '/' + target + '/packages.json')
+  fetch(config.versions[version] + '/' + target +  '/index.json')
   .then(response => response.json())
   .then(all_packages => {
     setupAutocompleteList($('packages'), all_packages, true, _ => {}, textarea => {
@@ -375,7 +375,7 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
     }
 
     if (config.asu_url) {
-      updatePackageList(target);
+      updatePackageList(version, target);
     }
 
     show('images');
@@ -385,9 +385,14 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
 }
 
 function init() {
+  var build_date = "unknown"
   setupSelectList($('versions'), Object.keys(config.versions), version => {
-    fetch(config.versions[version]).then(data => {
-      data.json().then(obj => {
+    fetch(config.versions[version] + '/profiles.json')
+      .then(obj => {
+        build_date = obj.headers.get('last-modified');
+        return obj.json();
+      })
+      .then(obj => {
         // handle native openwrt json format
         if ('profiles' in obj) {
           obj['models'] = {}
@@ -397,15 +402,15 @@ function init() {
           }
         }
         return obj 
-      }).then(obj => {
+      })
+      .then(obj => {
         setupAutocompleteList($('models'), Object.keys(obj['models']), false, updateImages, models => {
           var model = models.value;
           if (model in obj['models']) {
             var url = obj.url || 'unknown';
             var code = obj.version_code || 'unknown';
-            var date = obj.build_date || 'unknown';
             var mobj = obj['models'][model];
-            updateImages(version, code, date, model, url, mobj, false);
+            updateImages(version, code, build_date, model, url, mobj, false);
             current_model = mobj;
           } else {
             updateImages();
@@ -417,7 +422,6 @@ function init() {
         $('models').onfocus();
       });
     });
-  });
 
   if (config.asu_url) {
     show('custom');
