@@ -285,8 +285,13 @@ function updatePackageList(version, target) {
   .then(all_packages => {
     setupAutocompleteList($('packages'), all_packages, true, _ => {}, textarea => {
       textarea.value = split(textarea.value)
-        .filter((value, index, self) => self.indexOf(value) === index) // make list unique
-        //.filter((value, index) => all_packages.indexOf(value) !== -1) // limit to available packages
+        // make list unique, ignore minus
+        .filter((value, index, self) => {
+          var i = self.indexOf(value.replace(/^\-/, ''));
+          return (i === index) || (i < 0);
+        })
+        // limit to available packages, ignore minus
+        .filter((value, index) => all_packages.indexOf(value.replace(/^\-/, '')) !== -1)
         .join(' ');
     });
   });
