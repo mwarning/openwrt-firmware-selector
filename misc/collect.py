@@ -15,6 +15,10 @@ parser.add_argument('--formatted', action="store_true",
   help="Output formatted JSON data.")
 parser.add_argument('--change-prefix',
   help="Change the openwrt- file name prefix.")
+parser.add_argument('--output',
+  help="Write output to a file.")
+parser.add_argument('--write-new-data-only', action='store_true',
+  help="Only write data if the input is newer than the output file.")
 
 args = parser.parse_args()
 
@@ -31,6 +35,7 @@ paths = []
 # json output data
 output = {}
 
+# collect json file paths
 for path in args.input_path:
   if os.path.isdir(path):
     for file in Path(path).rglob('*.json'):
@@ -40,6 +45,21 @@ for path in args.input_path:
       sys.stderr.write("Folder does not exists: {}\n".format(path))
       exit(1)
     paths.append(path)
+
+# do not write data if output file is never then input data
+if args.write_new_data_only and os.path.exists(args.output):
+  output_mtime = os.path.getmtime(args.output)
+  input_mtime = os.path.getmtime(paths[0])
+
+  # get newest path
+  for path in paths[1:]:
+    mtime = os.path.getmtime(path)
+    if mtime > input_mtime:
+      input_mtime = mtime
+
+  if output_mtime > input_mtime:
+    print('Output file is newer than input files => abort')
+    exit(0)
 
 def get_title_name(title):
   if 'title' in title:
@@ -101,7 +121,14 @@ for path in paths:
       sys.stderr.write("Abort on {}\n   Missing key {}\n".format(path, e))
       exit(1)
 
-if args.formatted:
-  json.dump(output, sys.stdout, indent="  ", sort_keys =  True)
+def write_output(data, file):
+  if args.formatted:
+    json.dump(data, file, indent="  ", sort_keys =  True)
+  else:
+    json.dump(data, file, sort_keys = True)
+
+if args.output:
+  with open(args.output, 'w+') as file:
+    write_output(output, file)
 else:
-  json.dump(output, sys.stdout, sort_keys = True)
+  write_output(output, sys.stdout)
