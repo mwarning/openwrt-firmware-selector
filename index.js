@@ -33,32 +33,22 @@ function build_asa_request() {
     return;
   }
 
-  function showStatus(text) {
+  function showStatus(message, url) {
     show('buildstatus');
-    $('buildstatus').innerHTML = text;
+    var tr = message.startsWith('tr-') ? message : '';
+    if (url) {
+      $('buildstatus').innerHTML = '<a href="' + url + '" class="' + tr + '">' + message + '</a>';
+    } else {
+      $('buildstatus').innerHTML = '<span class="' + tr + '"></span>';
+    }
     translate();
-  }
-
-  function handleError(response) {
-    hide('buildspinner');
-
-    response.json()
-      .then(mobj => {
-        var message = mobj['message'] || '<span class="tr-build-failed"></span>';
-        if (mobj.buildlog == true) {
-          var url = config.asu_url + '/store/' + mobj.bin_dir + '/buildlog.txt';
-          showStatus('<a href="' + url + '">' + message + '</a>');
-        } else {
-          showStatus(message);
-        }
-      });
   }
 
   // hide image view
   updateImages();
 
   show('buildspinner');
-  showStatus('<span class="tr-request-image"></span>');
+  showStatus('tr-request-image');
 
   var request_data = {
     'target': current_model.target,
@@ -76,11 +66,12 @@ function build_asa_request() {
     switch (response.status) {
       case 200:
         hide('buildspinner');
-        showStatus('<span class="tr-build-successful"></span>');
+        showStatus('tr-build-successful');
 
         response.json()
         .then(mobj => {
           var download_url = config.asu_url + '/store/' + mobj.bin_dir;
+          showStatus('tr-build-successful', download_url + '/buildlog.txt');
           updateImages(
             mobj.version_number,
             mobj.version_code,
@@ -91,13 +82,19 @@ function build_asa_request() {
         });
         break;
       case 202:
-        showStatus('<span class="tr-check-again"></span>');
+        showStatus('tr-check-again');
         setTimeout(_ => { build_asa_request() }, 5000);
         break;
       case 400: // bad request
       case 422: // bad package
       case 500: // build failed
-        handleError(response);
+        hide('buildspinner');
+        response.json()
+        .then(mobj => {
+          var message = mobj['message'] || 'tr-build-failed';
+          var url = mobj.buildlog ? (config.asu_url + '/store/' + mobj.bin_dir + '/buildlog.txt') : undefined;
+          showStatus(message, url);
+        })
         break;
     }
   })
