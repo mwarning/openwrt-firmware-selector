@@ -48,9 +48,7 @@ def get_title_name(title):
     return "{} {} {}".format(title.get('vendor', ''), title['model'], title.get('variant', '')).strip()
 
 def add_profile(id, target, profile):
-  images = []
-  for image in profile['images']:
-      images.append({'name': image['name'], 'type': image['type']})
+  images = profile['images']
 
   if target is None:
     target = profile['target']
