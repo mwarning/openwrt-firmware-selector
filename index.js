@@ -392,7 +392,11 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
 function init() {
   var build_date = "unknown"
   setupSelectList($('versions'), Object.keys(config.versions), version => {
-    fetch(config.versions[version] + '/profiles.json')
+    var url = config.versions[version];
+    if (config.asu_url) {
+      url += "/profiles.json";
+    }
+    fetch(url)
       .then(obj => {
         build_date = obj.headers.get('last-modified');
         return obj.json();
