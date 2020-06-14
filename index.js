@@ -397,40 +397,40 @@ function init() {
       url = config.asu_url + '/' + url + '/profiles.json';
     }
     fetch(url)
-      .then(obj => {
-        build_date = obj.headers.get('last-modified');
-        return obj.json();
-      })
-      .then(obj => {
-        // handle native openwrt json format
-        if ('profiles' in obj) {
-          obj['models'] = {}
-          for (const [key, value] of Object.entries(obj['profiles'])) {
-            obj['models'][get_model_titles(value.titles)] = value
-            obj['models'][get_model_titles(value.titles)]['id'] = key
-          }
+    .then(obj => {
+      build_date = obj.headers.get('last-modified');
+      return obj.json();
+    })
+    .then(obj => {
+      // handle native openwrt json format
+      if ('profiles' in obj) {
+        obj['models'] = {}
+        for (const [key, value] of Object.entries(obj['profiles'])) {
+          obj['models'][get_model_titles(value.titles)] = value
+          obj['models'][get_model_titles(value.titles)]['id'] = key
         }
-        return obj 
-      })
-      .then(obj => {
-        setupAutocompleteList($('models'), Object.keys(obj['models']), false, updateImages, models => {
-          var model = models.value;
-          if (model in obj['models']) {
-            var url = obj.url || 'unknown';
-            var code = obj.version_code || 'unknown';
-            var mobj = obj['models'][model];
-            updateImages(version, code, build_date, model, url, mobj, false);
-            current_model = mobj;
-          } else {
-            updateImages();
-            current_model = {};
-          }
-        });
-
-        // trigger model update when selected version changes
-        $('models').onfocus();
+      }
+      return obj
+    })
+    .then(obj => {
+      setupAutocompleteList($('models'), Object.keys(obj['models']), false, updateImages, models => {
+        var model = models.value;
+        if (model in obj['models']) {
+          var url = obj.url || 'unknown';
+          var code = obj.version_code || 'unknown';
+          var mobj = obj['models'][model];
+          updateImages(version, code, build_date, model, url, mobj, false);
+          current_model = mobj;
+        } else {
+          updateImages();
+          current_model = {};
+        }
       });
+
+      // trigger model update when selected version changes
+      $('models').onfocus();
     });
+  });
 
   if (config.asu_url) {
     show('custom');
