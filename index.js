@@ -280,7 +280,7 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
 // for attended sysupgrade
 function updatePackageList(version, target) {
   // set available packages
-  fetch(config.versions[version] + '/' + target +  '/index.json')
+  fetch(config.asu_url + '/' + config.versions[version] + '/' + target +  '/index.json')
   .then(response => response.json())
   .then(all_packages => {
     setupAutocompleteList($('packages'), all_packages, true, _ => {}, textarea => {
@@ -394,7 +394,7 @@ function init() {
   setupSelectList($('versions'), Object.keys(config.versions), version => {
     var url = config.versions[version];
     if (config.asu_url) {
-      url += "/profiles.json";
+      url = config.asu_url + '/' + url + '/profiles.json';
     }
     fetch(url)
       .then(obj => {
