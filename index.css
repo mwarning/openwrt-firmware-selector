@@ -4,6 +4,10 @@ body {
   margin: 0px;
 }
 
+#buildstatus a {
+  color: inherit;
+}
+
 #models-autocomplete {
   width: 20em;
   display: inline-block;
