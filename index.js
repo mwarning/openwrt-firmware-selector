@@ -27,7 +27,7 @@ function get_model_titles(titles) {
   }).join(' / ');
 }
 
-function build_asa_request() {
+function build_asu_request() {
   if (!current_model || !current_model.id) {
     alert('bad profile');
     return;
@@ -83,7 +83,7 @@ function build_asa_request() {
         break;
       case 202:
         showStatus('tr-check-again');
-        setTimeout(_ => { build_asa_request() }, 5000);
+        setTimeout(_ => { build_asu_request() }, 5000);
         break;
       case 400: // bad request
       case 422: // bad package
