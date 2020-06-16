@@ -5,9 +5,9 @@ var config = {
   showHelp: true,
   // Image overview file or path to the ASU API
   versions: {
-    'SNAPSHOT': 'misc/snapshot/overview.json',
-    '19.07.1': 'misc/19.07.1/overview.json',
-    '18.06.7': 'misc/18.06.7/overview.json'
+    'SNAPSHOT': '../misc/snapshot/overview.json',
+    '19.07.1': '../misc/19.07.1/overview.json',
+    '18.06.7': '../misc/18.06.7/overview.json'
   },
   // Build custom images
   // See https://github.com/aparcar/asu

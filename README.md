@@ -1,18 +1,18 @@
 # Yet Another Firmware Selector
 
 A simple OpenWrt firmware selector using autocompletion. Uses plain
-HTML/CSS/JavaScript. Checkout the [Demo](https://mwarning.github.io/yet_another_firmware_selector/).
+HTML/CSS/JavaScript. Checkout the [Demo](https://mwarning.github.io/yet-another-firmware-selector/www/).
 
 ![image](misc/screenshot.png)
 
 
 ## Run
 
-* Download repository and change directory
+* Checkput the repository and change to the project directory
 * Start webserver (e.g. `python3 -m http.server`)
-* Go to `http://localhost:8000` in your web browser
+* Go to `http://localhost:8000/www/` in your web browser
 
-Configure with [config.js](config.js).
+Configure with [config.js](www/config.js).
 
 ## Attended Sysupgrade Support
 
