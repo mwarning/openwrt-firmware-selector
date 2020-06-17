@@ -1,7 +1,13 @@
 
+@media (min-resolution: 200dpi), (max-width: 1000px) {
+  .container {
+    width: 100% !important;
+  }
+}
+
 body {
   font-family: "Arial", sans-serif;
-  margin: 0px;
+  margin: 0em;
 }
 
 a {
@@ -18,17 +24,19 @@ a {
 }
 
 .autocomplete > input {
-  border: 1px solid transparent;
+  border: 0.06em solid transparent;
   background-color: #f1f1f1;
-  padding: 10px;
+  padding: 0.8em;
   width: 100%;
-  border-radius: 4px;
+  border-radius: 0.2em;
+  font-size: inherit;
 }
 
 .autocomplete-items {
   position: absolute;
-  border: 1px solid #d4d4d4;
+  border: 0.1em solid #d4d4d4;
   border-bottom: none;
+  font-size: inherit;
   border-top: none;
   z-index: 99;
   /*position the autocomplete items to be the same width as the container:*/
@@ -38,10 +46,10 @@ a {
 }
 
 .autocomplete-items div {
-  padding: 10px;
+  padding: 0.8em;
   cursor: pointer;
   background-color: #fff; 
-  border-bottom: 1px solid #d4d4d4; 
+  border-bottom: 0.1em solid #d4d4d4;
 }
 
 /*when hovering an item:*/
@@ -59,7 +67,7 @@ header {
   font-weight: 500;
   width: 100%;
   z-index: 1100;
-  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+  box-shadow: 0em 0.125em 0.25em -0.06em rgba(0,0,0,0.2),0em 0.25em 0.3em 0em rgba(0,0,0,0.14),0em 0.06em 0.625em 0em rgba(0,0,0,0.12);
   background-color: #00A3E1;
 }
 
@@ -72,9 +80,9 @@ h6 {
 }
 
 header > div {
-  padding-left: 24px;
-  padding-right: 24px;
-  min-height: 64px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  min-height: 4em;
 
   display: flex;
   position: relative;
@@ -83,62 +91,62 @@ header > div {
 }
 
 .container {
-  max-width: 1280px;
-  padding-left: 32px;
-  padding-right: 32px;
-  width: 100%;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  width: 60%;
   box-sizing: border-box;
-  margin-top: 30px;
+  margin-top: 1.2em;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 100px;
 }
 
 .container > div {
-  padding: 10px 20px;
+  padding: 0.625em 20px;
   text-align: left;
-  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12);
-  border-radius: 4px;
+  box-shadow: 0em 0.06em 0.19em 0em rgba(0,0,0,0.2),0em 0.06em 0.06em 0em rgba(0,0,0,0.14),0em 0.125em 0.06em -0.06em rgba(0,0,0,0.12);
+  border-radius: 0.25em;
   color: rgba(0, 0, 0, 0.87);
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   background-color: #fff;
 }
 
 #versions {
-  border: 1px solid transparent;
+  border: 0.06em solid transparent;
   background-color: #f1f1f1;
-  padding: 10px;
+  padding: 0.8em;
   width: 10em;
-  border-radius: 4px;
+  border-radius: 0.25em;
+  font-size: inherit;
 }
 
 #language-selection {
   color: #fff;
   background-color: #1084b2;
-  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px
+  box-shadow: 0em 0.06em 0.3em 0em rgba(0,0,0,0.2),0em 0.125em 0.125em 0em rgba(0,0,0,0.14),0em 0.19em 0.06em -0.125em
   rgba(0,0,0,0.12);
   padding: 6px 16px;
-  border-radius: 4px;
+  border-radius: 0.25em;
   border: 0;
+  font-size: inherit;
 
   /* hide arrow */
   -webkit-appearance: none;
   -moz-appearance: none;
-  text-indent: 1px;
+  text-indent: 0.06em;
   text-overflow: '';
 }
 
 .download-link {
   text-decoration: none;
-  border-radius: 4px;
-  padding: 12px 16px;
-  margin: 5px;
-  font-size: 16px;
+  border-radius: 0.2em;
+  padding: 0.8em;
+  margin: 0.2em;
+  font-size: inherit;
   cursor: pointer;
   letter-spacing: 0.05em;
   display: inline-flex;
   align-items: center;
-  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+  box-shadow: 0em 0.06em 0.3em 0em rgba(0,0,0,0.2),0em 0.125em 0.125em 0em rgba(0,0,0,0.14),0em 0.19em 0.06em -0.125em rgba(0,0,0,0.12);
   color: #fff;
   background-color: #00A3E1;
 }
@@ -150,7 +158,7 @@ header > div {
 .download-link :first-child {
   width: 30px;
   margin-right: 15px;
-  margin-top: -2px;
+  margin-top: -0.125em;
   content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z' fill='%23fff'%3E%3C/path%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
 }
 
@@ -177,30 +185,29 @@ header > div {
 }
 
 #custom textarea {
-  width: 500px;
-  height: 120px;
-  font-size: 16px;
+  width: 30em;
+  height: 10em;
+  font-size: 1.5em;
   display: block;
 }
 
 #custom a :first-child {
-  width: 30px;
-  margin-right: 10px;
-  margin-top: 0px;
-  font-size: 36px;
+  margin-right: 0.625em;
+  margin-top: 0em;
+  font-size: 1.6em;
 }
 
 #custom a {
   text-decoration: none;
-  border-radius: 4px;
-  padding: 2px 10px;
-  margin: 5px;
-  font-size: 16px;
+  border-radius: 0.25em;
+  padding: 0.6em;
+  margin: 0.3em;
+  font-size: inherit;
   cursor: pointer;
   letter-spacing: 0.05em;
   display: inline-flex;
   align-items: center;
-  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+  box-shadow: 0em 0.06em 0.3em 0em rgba(0,0,0,0.2),0em 0.125em 0.125em 0em rgba(0,0,0,0.14),0em 0.19em 0.06em -0.125em rgba(0,0,0,0.12);
   color: #fff;
   background-color: #00A3E1;
 }
@@ -211,13 +218,13 @@ header > div {
 
 #buildspinner {
   float: left;
-  height: 40px;
-  padding-right: 12px;
+  height: 2.5em;
+  padding-right: 0.75em;
   display: none;
 }
 
 #buildstatus {
-  padding: 10px 0;
+  padding: 1em 0;
   display: none;
 }
 
