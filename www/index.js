@@ -165,12 +165,17 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
     // append the DIV element as a child of the autocomplete container:
     this.parentNode.appendChild(list);
 
+    function normalize(s) {
+      return s.toUpperCase().replace(/[-_.]/g, ' ');
+    }
+
+    var match = normalize(value);
     var c = 0;
     for (var i = 0; i < items.length; i += 1) {
       var item = items[i];
 
       // match
-      var j = item.toUpperCase().indexOf(value.toUpperCase());
+      var j = normalize(item).indexOf(match);
       if (j < 0) {
         continue;
       }
