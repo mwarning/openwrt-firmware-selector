@@ -5340,6 +5340,6 @@
       "target": "x86/64"
     }
   },
-  "url": "https://downloads.openwrt.org/releases/{version}/targets/{target}",
+  "download_url": "https://downloads.openwrt.org/releases/{version}/targets/{target}",
   "version_code": "r10911-c155900f66"
 }

@@ -11697,6 +11697,6 @@
       "target": "lantiq/xrx200"
     }
   },
-  "url": "https://downloads.openwrt.org/snapshots/targets/{target}",
+  "download_url": "https://downloads.openwrt.org/snapshots/targets/{target}",
   "version_code": "r13342-e35e40ad82"
 }
