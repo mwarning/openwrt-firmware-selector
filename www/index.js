@@ -418,7 +418,7 @@ function init() {
       setupAutocompleteList($('models'), Object.keys(obj['models']), false, updateImages, models => {
         var model = models.value;
         if (model in obj['models']) {
-          var url = obj.url || 'unknown';
+          var url = obj.download_url || 'unknown';
           var code = obj.version_code || 'unknown';
           var mobj = obj['models'][model];
           updateImages(version, code, build_date, model, url, mobj, false);

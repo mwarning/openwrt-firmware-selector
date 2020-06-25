@@ -9,7 +9,7 @@ import os
 parser = argparse.ArgumentParser()
 parser.add_argument("input_path", nargs='+',
   help="Input folder that is traversed for OpenWrt JSON device files.")
-parser.add_argument('--url', action="store", default="",
+parser.add_argument('--download-url', action="store", default="",
   help="Link to get the image from. May contain {target}, {version} and {commit}")
 parser.add_argument('--formatted', action="store_true",
   help="Output formatted JSON data.")
@@ -80,7 +80,7 @@ for path in paths:
     if not 'version_code' in output:
       output = {
         'version_code': code,
-        'url': args.url,
+        'download_url': args.download_url,
         'models' : {}
       }
 
