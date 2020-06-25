@@ -20,7 +20,7 @@ This firmware selector can speak to a [ASU server](https://github.com/aparcar/as
 
 ## Update Database
 
-The `names-<version>.json` files are based on JSON files created by OpenWrt
+The `overview.json` files are based on JSON files created by OpenWrt
 (master): `Global build settings  ---> [*] Create JSON info files per build
 image`.
 
