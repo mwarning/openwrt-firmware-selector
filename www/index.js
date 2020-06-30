@@ -1,16 +1,20 @@
 
 var current_model = {};
 
-function $(id) {
-  return document.getElementById(id);
+function $(query) {
+  if (typeof query === 'string') {
+    return document.querySelector(query);
+  } else {
+    return query;
+  }
 }
 
-function show(id) {
-  $(id).style.display = 'block';
+function show(query) {
+  $(query).style.display = 'block';
 }
 
-function hide(id) {
-  $(id).style.display = 'none';
+function hide(query) {
+  $(query).style.display = 'none';
 }
 
 function split(str) {
@@ -37,9 +41,9 @@ function build_asu_request() {
     show('buildstatus');
     var tr = message.startsWith('tr-') ? message : '';
     if (url) {
-      $('buildstatus').innerHTML = '<a href="' + url + '" class="' + tr + '">' + message + '</a>';
+      $('#buildstatus').innerHTML = '<a href="' + url + '" class="' + tr + '">' + message + '</a>';
     } else {
-      $('buildstatus').innerHTML = '<span class="' + tr + '"></span>';
+      $('#buildstatus').innerHTML = '<span class="' + tr + '"></span>';
     }
     translate();
   }
@@ -53,8 +57,8 @@ function build_asu_request() {
   var request_data = {
     'target': current_model.target,
     'profile': current_model.id,
-    'packages': split($('packages').value),
-    'version': $('versions').value
+    'packages': split($('#packages').value),
+    'version': $('#versions').value
   }
 
   fetch(config.asu_url + '/api/build', {
@@ -285,7 +289,7 @@ function updatePackageList(version, target) {
   fetch(config.asu_url + '/' + config.versions[version] + '/' + target +  '/index.json')
   .then(response => response.json())
   .then(all_packages => {
-    setupAutocompleteList($('packages'), all_packages, true, _ => {}, textarea => {
+    setupAutocompleteList($('#packages'), all_packages, true, _ => {}, textarea => {
       textarea.value = split(textarea.value)
         // make list unique, ignore minus
         .filter((value, index, self) => {
@@ -337,12 +341,12 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
       };
     }
 
-    $('download-links').appendChild(a);
+    $('#download-links').appendChild(a);
   }
 
-  function switchClass(id, from_class, to_class) {
-    $(id).classList.remove(from_class);
-    $(id).classList.add(to_class);
+  function switchClass(query, from_class, to_class) {
+    $(query).classList.remove(from_class);
+    $(query).classList.add(to_class);
   }
 
   // remove all download links
@@ -353,27 +357,28 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
   Array.from(document.getElementsByClassName('download-help'))
     .forEach(e => e.style.display = 'none');
 
-  if (version && code && date && model && url && mobj) {
+  if (model && url && mobj) {
     var target = mobj.target;
     var images = mobj.images;
 
     // change between "version" and "custom" title
     if (is_custom) {
-      switchClass('images-title', 'tr-version-build', 'tr-custom-build');
-      switchClass('downloads-title', 'tr-version-downloads', 'tr-custom-downloads');
+      switchClass('#images-title', 'tr-version-build', 'tr-custom-build');
+      switchClass('#downloads-title', 'tr-version-downloads', 'tr-custom-downloads');
     } else {
-      switchClass('images-title', 'tr-custom-build', 'tr-version-build');
-      switchClass('downloads-title', 'tr-custom-downloads', 'tr-version-downloads');
+      switchClass('#images-title', 'tr-custom-build', 'tr-version-build');
+      switchClass('#downloads-title', 'tr-custom-downloads', 'tr-version-downloads');
     }
+
     // update title translation
     translate();
 
     // fill out build info
-    $('image-model').innerText = model;
-    $('image-target').innerText = target;
-    $('image-version').innerText = version;
-    $('image-code').innerText = code;
-    $('image-date').innerText = date;
+    $('#image-model').innerText = model;
+    $('#image-target').innerText = target;
+    $('#image-version').innerText = version;
+    $('#image-code').innerText = code;
+    $('#image-date').innerText = date;
 
     images.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -385,15 +390,15 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
       updatePackageList(version, target);
     }
 
-    show('images');
+    show('#images');
   } else {
-    hide('images');
+    hide('#images');
   }
 }
 
 function init() {
   var build_date = "unknown"
-  setupSelectList($('versions'), Object.keys(config.versions), version => {
+  setupSelectList($('#versions'), Object.keys(config.versions), version => {
     var url = config.versions[version];
     if (config.asu_url) {
       url = config.asu_url + '/' + url + '/profiles.json';
@@ -415,7 +420,7 @@ function init() {
       return obj
     })
     .then(obj => {
-      setupAutocompleteList($('models'), Object.keys(obj['models']), false, updateImages, models => {
+      setupAutocompleteList($('#models'), Object.keys(obj['models']), false, updateImages, models => {
         var model = models.value;
         if (model in obj['models']) {
           var url = obj.url || 'unknown';
@@ -430,12 +435,12 @@ function init() {
       });
 
       // trigger model update when selected version changes
-      $('models').onfocus();
+      $('#models').onfocus();
     });
   });
 
   if (config.asu_url) {
-    show('custom');
+    show('#custom');
   }
 
   // hide fields
@@ -444,12 +449,12 @@ function init() {
   var user_lang = (navigator.language || navigator.userLanguage).split('-')[0];
   if (user_lang in translations) {
     config.language = user_lang;
-    $('language-selection').value = user_lang;
+    $('#language-selection').value = user_lang;
   }
 
   translate();
 
-  $('language-selection').onclick = function() {
+  $('#language-selection').onclick = function() {
     config.language = this.children[this.selectedIndex].value;
     translate();
   }
