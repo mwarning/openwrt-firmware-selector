@@ -373,12 +373,34 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
     // update title translation
     translate();
 
+    // hide field if value is not defined
+    function setData(id, value) {
+      var e = $(id);
+      hide(e.parentNode);
+      if (value !== undefined) {
+        e.innerText = value;
+        show(e.parentNode);
+        // show section
+        show(e.parentNode.parentNode);
+      }
+    }
+
+    // successful setData() shows section
+    hide('#hardware-info');
+    hide('#build-info');
+
+    // fill out spec info
+    setData('#hardware-cpu', mobj['cpu']);
+    setData('#hardware-flash', mobj['flash']);
+    setData('#hardware-ram', mobj['ram']);
+    setData('#hardware-other', mobj['other']);
+
     // fill out build info
-    $('#image-model').innerText = model;
-    $('#image-target').innerText = target;
-    $('#image-version').innerText = version;
-    $('#image-code').innerText = code;
-    $('#image-date').innerText = date;
+    setData('#image-model', model);
+    setData('#image-target', target);
+    setData('#image-version', version); // release version
+    setData('#image-code', code); // build code
+    setData('#image-date', date); // build date
 
     images.sort((a, b) => a.name.localeCompare(b.name));
 
