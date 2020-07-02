@@ -363,10 +363,10 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
 
     // change between "version" and "custom" title
     if (is_custom) {
-      switchClass('#images-title', 'tr-version-build', 'tr-custom-build');
+      switchClass('#build-title', 'tr-version-build', 'tr-custom-build');
       switchClass('#downloads-title', 'tr-version-downloads', 'tr-custom-downloads');
     } else {
-      switchClass('#images-title', 'tr-custom-build', 'tr-version-build');
+      switchClass('#build-title', 'tr-custom-build', 'tr-version-build');
       switchClass('#downloads-title', 'tr-custom-downloads', 'tr-version-downloads');
     }
 
