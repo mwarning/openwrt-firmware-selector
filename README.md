@@ -25,7 +25,7 @@ The `overview.json` files are based on JSON files created by OpenWrt
 image`.
 
 A [Python script](misc/collect.py) is included to merge the JSON files:
-`./collect.py bin/ --url
+`./collect.py bin/ --download-url
 'https://downloads.openwrt.org/releases/{version}/targets/{target}' >
 overview.json`.
 
