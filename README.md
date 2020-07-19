@@ -8,7 +8,7 @@ HTML/CSS/JavaScript. Checkout the [Demo](https://mwarning.github.io/yet-another-
 
 ## Run
 
-* Checkput the repository and change to the project directory
+* Download the sources and change the working directory
 * Start webserver (e.g. `python3 -m http.server`)
 * Go to `http://localhost:8000/www/` in your web browser
 
