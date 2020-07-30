@@ -377,7 +377,7 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
     $('#image-model').innerText = model;
     $('#image-target').innerText = target;
     $('#image-version').innerText = version;
-    $('#image-code').innerText = code;
+    $('#image-code').innerText = mobj['code'] || code;
     $('#image-date').innerText = date;
 
     images.sort((a, b) => a.name.localeCompare(b.name));

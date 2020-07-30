@@ -47,7 +47,7 @@ def get_title_name(title):
   else:
     return "{} {} {}".format(title.get('vendor', ''), title['model'], title.get('variant', '')).strip()
 
-def add_profile(id, target, profile):
+def add_profile(id, target, profile, code=None):
   images = []
   for image in profile['images']:
       images.append({'name': image['name'], 'type': image['type']})
@@ -67,6 +67,9 @@ def add_profile(id, target, profile):
 
     output['models'][name] = {'id': id, 'target': target, 'images': images}
 
+    if code is not None:
+      output['models'][name]['code'] = code
+
 for path in paths:
   with open(path, "r") as file:
     obj = json.load(file)
@@ -84,17 +87,16 @@ for path in paths:
         'models' : {}
       }
 
-    # only support a version_number with images of a single version_commit
-    if output['version_code'] != code:
-      sys.stderr.write('mixed revisions for a release ({output["version_code"]} and {code}) => abort\n')
-      exit(1)
+    # if we have mixed codes/commits, store in device object
+    if output['version_code'] == code:
+      code = None;
 
     try:
       if 'profiles' in obj:
         for id in obj['profiles']:
-          add_profile(id, obj.get('target'), obj['profiles'][id])
+          add_profile(id, obj.get('target'), obj['profiles'][id], code)
       else:
-        add_profile(obj['id'], obj['target'], obj)
+        add_profile(obj['id'], obj['target'], obj, code)
     except json.decoder.JSONDecodeError as e:
       sys.stderr.write(f'Skip {path}\n   {e}\n')
     except KeyError as e:
