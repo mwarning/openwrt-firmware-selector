@@ -7,14 +7,14 @@ import sys
 import os
 
 parser = argparse.ArgumentParser()
-parser.add_argument("input_path", nargs='+',
-  help="Input folder that is traversed for OpenWrt JSON device files.")
-parser.add_argument('--download-url', action="store", default="",
-  help="Link to get the image from. May contain {target}, {version} and {commit}")
-parser.add_argument('--formatted', action="store_true",
-  help="Output formatted JSON data.")
+parser.add_argument('input_path', nargs='+',
+  help='Input folder that is traversed for OpenWrt JSON device files.')
+parser.add_argument('--download-url', action='store', default='',
+  help='Link to get the image from. May contain {target}, {version} and {commit}')
+parser.add_argument('--formatted', action='store_true',
+  help='Output formatted JSON data.')
 parser.add_argument('--change-prefix',
-  help="Change the openwrt- file name prefix.")
+  help='Change the openwrt- file name prefix.')
 
 args = parser.parse_args()
 
@@ -37,7 +37,7 @@ for path in args.input_path:
       paths.append(file)
   else:
     if not path.endswith('.json'):
-      sys.stderr.write("Folder does not exists: {}\n".format(path))
+      sys.stderr.write(f'Folder does not exists: {path}\n')
       exit(1)
     paths.append(path)
 
@@ -62,7 +62,7 @@ def add_profile(id, target, profile):
     name = get_title_name(title)
 
     if len(name) == 0:
-      sys.stderr.write("Empty title. Skip title in {}\n".format(path))
+      sys.stderr.write(f'Empty title. Skip title in {path}\n')
       continue
 
     output['models'][name] = {'id': id, 'target': target, 'images': images}
@@ -72,7 +72,7 @@ for path in paths:
     obj = json.load(file)
 
     if obj['metadata_version'] != SUPPORTED_METADATA_VERSION:
-      sys.stderr.write('{} has unsupported metadata version: {} => skip\n'.format(path, obj['metadata_version']))
+      sys.stderr.write(f'{path} has unsupported metadata version: {obj["metadata_version"]} => skip\n')
       continue
 
     code = obj.get('version_code', obj.get('version_commit'))
@@ -86,7 +86,7 @@ for path in paths:
 
     # only support a version_number with images of a single version_commit
     if output['version_code'] != code:
-      sys.stderr.write('mixed revisions for a release ({} and {}) => abort\n'.format(output['version_code'], commit))
+      sys.stderr.write('mixed revisions for a release ({output["version_code"]} and {code}) => abort\n')
       exit(1)
 
     try:
@@ -96,12 +96,12 @@ for path in paths:
       else:
         add_profile(obj['id'], obj['target'], obj)
     except json.decoder.JSONDecodeError as e:
-      sys.stderr.write("Skip {}\n   {}\n".format(path, e))
+      sys.stderr.write(f'Skip {path}\n   {e}\n')
     except KeyError as e:
-      sys.stderr.write("Abort on {}\n   Missing key {}\n".format(path, e))
+      sys.stderr.write(f'Abort on {path}\n   Missing key {e}\n')
       exit(1)
 
 if args.formatted:
-  json.dump(output, sys.stdout, indent="  ", sort_keys =  True)
+  json.dump(output, sys.stdout, indent="  ", sort_keys=True)
 else:
-  json.dump(output, sys.stdout, sort_keys = True)
+  json.dump(output, sys.stdout, sort_keys=True)
