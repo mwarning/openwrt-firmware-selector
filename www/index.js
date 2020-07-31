@@ -38,7 +38,7 @@ function build_asu_request() {
   }
 
   function showStatus(message, url) {
-    show('buildstatus');
+    show('#buildstatus');
     var tr = message.startsWith('tr-') ? message : '';
     if (url) {
       $('#buildstatus').innerHTML = '<a href="' + url + '" class="' + tr + '">' + message + '</a>';
@@ -51,7 +51,7 @@ function build_asu_request() {
   // hide image view
   updateImages();
 
-  show('buildspinner');
+  show('#buildspinner');
   showStatus('tr-request-image');
 
   var request_data = {
@@ -69,7 +69,7 @@ function build_asu_request() {
   .then(response => {
     switch (response.status) {
       case 200:
-        hide('buildspinner');
+        hide('#buildspinner');
         showStatus('tr-build-successful');
 
         response.json()
@@ -92,7 +92,7 @@ function build_asu_request() {
       case 400: // bad request
       case 422: // bad package
       case 500: // build failed
-        hide('buildspinner');
+        hide('#buildspinner');
         response.json()
         .then(mobj => {
           var message = mobj['message'] || 'tr-build-failed';
@@ -103,7 +103,7 @@ function build_asu_request() {
     }
   })
   .catch(err => {
-    hide('buildspinner');
+    hide('#buildspinner');
     showStatus(err);
   })
 }
@@ -324,19 +324,19 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
           .forEach(e => e.style.display = 'none');
         var lc = type.toLowerCase();
         if (lc.includes('sysupgrade')) {
-          show('sysupgrade-help');
+          show('#sysupgrade-help');
         } else if (lc.includes('factory') || lc == 'trx' || lc == 'chk') {
-          show('factory-help');
+          show('#factory-help');
         } else if (lc.includes('kernel') || lc.includes('zimage') || lc.includes('uimage')) {
-          show('kernel-help');
+          show('#kernel-help');
         } else if (lc.includes('root')) {
-          show('rootfs-help');
+          show('#rootfs-help');
         } else if (lc.includes('sdcard')) {
-          show('sdcard-help');
+          show('#sdcard-help');
         } else if (lc.includes('tftp')) {
-          show('tftp-help');
+          show('#tftp-help');
         } else {
-          show('other-help');
+          show('#other-help');
         }
       };
     }
