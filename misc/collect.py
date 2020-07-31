@@ -119,7 +119,11 @@ def update_config(config_path, versions):
     # save updated config
     file.write(content)
 
-# use faster ?json feature of downloads.openwrt.org
+'''
+Scrape profiles.json using links like https://downloads.openwrt.org/releases/19.07.3/targets/?json
+Merge into overview.json files.
+Update config.json.
+'''
 def scrape(url, selector_path):
   config_path = f"{selector_path}/config.js"
   data_path = f"{selector_path}/data"
@@ -161,14 +165,17 @@ def scrape(url, selector_path):
 
   update_config(config_path, versions)
 
-# use wget (slower but generic)
+'''
+Scrape profiles.json using wget (slower but more generic).
+Merge into overview.json files.
+Update config.json.
+'''
 def scrape_wget(url, selector_path):
   config_path = f"{selector_path}/config.js"
   data_path = f"{selector_path}/data"
   versions = {}
 
   with tempfile.TemporaryDirectory() as tmp_dir:
-    #tmp_dir = "/tmp/foo"
     # download all profiles.json files
     os.system(f"wget -c -r -P {tmp_dir} -A 'profiles.json' --reject-regex 'kmods|packages' --no-parent {url}")
 
@@ -183,7 +190,6 @@ def scrape_wget(url, selector_path):
       versions[release.upper()] = f"data/{release}/overview.json"
       os.system(f"mkdir -p {selector_path}/data/{release}/")
 
-      #print(f'path: {path}, base: {base}')
       profiles = {}
       for ppath in Path(path).rglob('profiles.json'):
         with open(ppath, "r") as file:
@@ -208,6 +214,9 @@ def change_prefix(images, old_prefix, new_prefix):
             image["name"] = new_prefix + image["name"][len(old_prefix):]
 '''
 
+'''
+Find and merge json files for a single release.
+'''
 def merge(input_paths):
   # OpenWrt JSON device files
   profiles = {}
