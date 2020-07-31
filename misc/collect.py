@@ -3,7 +3,6 @@
 from pathlib import Path
 import urllib.request
 import argparse
-import shutil
 import json
 import sys
 import os
@@ -131,8 +130,6 @@ def scrape(url, selector_path):
   if not os.path.isfile(config_path):
       print(f"file not found: {config_path}")
       exit(1)
-
-  shutil.rmtree(data_path, ignore_errors=True)
 
   # fetch release URLs
   with urllib.request.urlopen(url) as infile:
