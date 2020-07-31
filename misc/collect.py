@@ -2,20 +2,25 @@
 
 from pathlib import Path
 import urllib.request
+import tempfile
 import argparse
 import json
+import glob
 import sys
 import os
 import re
 
+'''
+Tool to create overview.json files and update the config.js.
+'''
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--formatted", action="store_true",
   help="Output formatted JSON data.")
-subparsers = parser.add_subparsers(dest='action', required=True)
+subparsers = parser.add_subparsers(dest="action", required=True)
 
-parser_merge = subparsers.add_parser('merge',
-  help='Create a grid structure with horizontal and vertical connections.')
+parser_merge = subparsers.add_parser("merge",
+  help="Create a grid structure with horizontal and vertical connections.")
 parser_merge.add_argument("input_path", nargs="+",
   help="Input folder that is traversed for OpenWrt JSON device files.")
 parser_merge.add_argument("--download-url", action="store", default="",
@@ -23,12 +28,14 @@ parser_merge.add_argument("--download-url", action="store", default="",
 #parser_merge.add_argument("--change-prefix",
 #  help="Change the openwrt- file name prefix.")
 
-parser_scrape = subparsers.add_parser('scrape',
-  help='Create a grid structure of horizontal, vertical and vertical connections.')
-parser_scrape.add_argument('domain',
-  help='Domain to scrape. E.g. https://downloads.openwrt.org')
-parser_scrape.add_argument('selector',
-  help='Path the config.js file is in.')
+parser_scrape = subparsers.add_parser("scrape",
+  help="Create a grid structure of horizontal, vertical and vertical connections.")
+parser_scrape.add_argument("domain",
+  help="Domain to scrape. E.g. https://downloads.openwrt.org")
+parser_scrape.add_argument("selector",
+  help="Path the config.js file is in.")
+parser_scrape.add_argument("--use-wget", action="store_true",
+  help="Use wget to scrape the site.")
 
 args = parser.parse_args()
 
@@ -102,26 +109,27 @@ def merge_profiles(profiles, download_url):
 
   return output
 
+def update_config(config_path, versions):
+  content = ""
+  with open(config_path, "r") as file:
+    content = file.read()
+
+  content = re.sub("versions:[\\s]*{[^}]*}", f"versions: {versions}" , content)
+  with open(config_path, "w+") as file:
+    # save updated config
+    file.write(content)
+
+# use faster ?json feature of downloads.openwrt.org
 def scrape(url, selector_path):
   config_path = f"{selector_path}/config.js"
   data_path = f"{selector_path}/data"
   versions = {}
 
-  def update_config(config_path, versions):
-    content = ''
-    with open(config_path, 'r') as file:
-      content = file.read()
-
-    content = re.sub('versions:[\\s]*{[^}]*}', f'versions: {versions}' , content)
-    with open(config_path, 'w+') as file:
-      # save updated config
-      file.write(content)
-
   def handle_release(target):
     profiles = {}
     with urllib.request.urlopen(f"{target}/?json") as file:
-      array = json.loads(file.read().decode('utf-8'))
-      for profile in filter(lambda x: x.endswith('/profiles.json'), array):
+      array = json.loads(file.read().decode("utf-8"))
+      for profile in filter(lambda x: x.endswith("/profiles.json"), array):
         #print(profile)
         with urllib.request.urlopen(f"{target}/{profile}") as file:
           profiles[f"{target}/{profile}"] = file.read()
@@ -133,9 +141,9 @@ def scrape(url, selector_path):
 
   # fetch release URLs
   with urllib.request.urlopen(url) as infile:
-    for path in re.findall(r'href=["\']?([^\'" >]+)', str(infile.read())):
-      if not path.startswith('/') and path.endswith('targets/'):
-        release = path.strip('/').split('/')[-2]
+    for path in re.findall(r"href=[\"']?([^'\" >]+)", str(infile.read())):
+      if not path.startswith("/") and path.endswith("targets/"):
+        release = path.strip("/").split("/")[-2]
         download_url = f"{url}/{path}/{{target}}"
 
         profiles = handle_release(f"{url}/{path}")
@@ -143,7 +151,7 @@ def scrape(url, selector_path):
         if len(output) > 0:
           Path(f"{data_path}/{release}").mkdir(parents=True, exist_ok=True)
           # write overview.json
-          with open(f"{data_path}/{release}/overview.json", 'w') as outfile:
+          with open(f"{data_path}/{release}/overview.json", "w") as outfile:
             if args.formatted:
               json.dump(output, outfile, indent="  ", sort_keys=True)
             else:
@@ -152,6 +160,46 @@ def scrape(url, selector_path):
           versions[release.upper()] = f"data/{release}/overview.json"
 
   update_config(config_path, versions)
+
+# use wget (slower but generic)
+def scrape_wget(url, selector_path):
+  config_path = f"{selector_path}/config.js"
+  data_path = f"{selector_path}/data"
+  versions = {}
+
+  with tempfile.TemporaryDirectory() as tmp_dir:
+    #tmp_dir = "/tmp/foo"
+    # download all profiles.json files
+    os.system(f"wget -c -r -P {tmp_dir} -A 'profiles.json' --reject-regex 'kmods|packages' --no-parent {url}")
+
+    # delete empty folders
+    os.system(f"find {tmp_dir}/* -type d -empty -delete")
+
+    # create overview.json files
+    for path in glob.glob(f"{tmp_dir}/*/snapshots") + glob.glob(f"{tmp_dir}/*/releases/*"):
+      release = os.path.basename(path)
+      base = path[len(tmp_dir)+1:]
+
+      versions[release.upper()] = f"data/{release}/overview.json"
+      os.system(f"mkdir -p {selector_path}/data/{release}/")
+
+      #print(f'path: {path}, base: {base}')
+      profiles = {}
+      for ppath in Path(path).rglob('profiles.json'):
+        with open(ppath, "r") as file:
+          profiles[ppath] = file.read()
+
+      output = merge_profiles(profiles, f"https://{base}/targets/{{target}}")
+      Path(f"{data_path}/{release}").mkdir(parents=True, exist_ok=True)
+
+      # write overview.json
+      with open(f"{data_path}/{release}/overview.json", "w") as outfile:
+        if args.formatted:
+          json.dump(output, outfile, indent="  ", sort_keys=True)
+        else:
+          json.dump(output, outfile, sort_keys=True)
+
+    update_config(config_path, versions)
 
 '''
 def change_prefix(images, old_prefix, new_prefix):
@@ -190,4 +238,7 @@ if args.action == "merge":
   merge(args.input_path)
 
 if args.action == "scrape":
-  scrape(args.domain, args.selector)
+  if args.use_wget:
+    scrape_wget(args.domain, args.selector)
+  else:
+    scrape(args.domain, args.selector)
