@@ -29,7 +29,7 @@ A [Python script](misc/collect.py) is included to merge the JSON files into a si
 ./collect.py merge bin/ --download-url 'https://downloads.openwrt.org/releases/{version}/targets/{target}' > overview.json
 ```
 
-If you want to scrape the OpenWrt download website and update the config.js automatically:
+If you want to scrape the OpenWrt download website and update the config.js:
 ```
 ./collect.py scrape https://downloads.openwrt.org /var/www/firmware_selector
 ```
