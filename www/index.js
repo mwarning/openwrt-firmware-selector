@@ -413,8 +413,8 @@ function init() {
       if ('profiles' in obj) {
         obj['models'] = {}
         for (const [key, value] of Object.entries(obj['profiles'])) {
+          value['id'] = key
           obj['models'][get_model_titles(value.titles)] = value
-          obj['models'][get_model_titles(value.titles)]['id'] = key
         }
       }
       return obj

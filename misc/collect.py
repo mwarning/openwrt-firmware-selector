@@ -46,7 +46,7 @@ def merge_profiles(profiles, download_url):
   # json output data
   output = {}
 
-  def get_title_name(title):
+  def get_title(title):
     if "title" in title:
       return title["title"]
     else:
@@ -63,17 +63,17 @@ def merge_profiles(profiles, download_url):
     #if args.change_prefix:
     #    change_prefix(images, "openwrt-", args.change_prefix)
 
-    for title in profile["titles"]:
-      name = get_title_name(title)
+    for entry in profile["titles"]:
+      title = get_title(entry)
 
-      if len(name) == 0:
+      if len(title) == 0:
         sys.stderr.write(f"Empty title. Skip title in {path}\n")
         continue
 
-      output["models"][name] = {"id": id, "target": target, "images": images}
+      output["models"][title] = {"id": id, "target": target, "images": images}
 
       if code is not None:
-        output["models"][name]["code"] = code
+        output["models"][title]["code"] = code
 
   for path, content in profiles.items():
       obj = json.loads(content)
