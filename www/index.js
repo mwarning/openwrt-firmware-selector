@@ -303,6 +303,19 @@ function updatePackageList(version, target) {
   });
 }
 
+function updateIntro(obj) {
+  function count(array, key) {
+    var set = new Set();
+    for (var i = 0; i < array.length; i += 1) {
+      set.add(array[i][key]);
+    }
+    return set.size;
+  };
+  var entries = Object.values(obj['models'])
+  $('#model-count').innerText = entries.length;
+  $('#target-count').innerText = count(entries, 'target');
+}
+
 function updateImages(version, code, date, model, url, mobj, is_custom) {
   // add download button for image
   function addLink(type, file) {
@@ -391,8 +404,10 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
     }
 
     show('#images');
+    hide('#intro');
   } else {
     hide('#images');
+    show('#intro');
   }
 }
 
@@ -420,6 +435,7 @@ function init() {
       return obj
     })
     .then(obj => {
+      updateIntro(obj);
       setupAutocompleteList($('#models'), Object.keys(obj['models']), false, updateImages, models => {
         var model = models.value;
         if (model in obj['models']) {

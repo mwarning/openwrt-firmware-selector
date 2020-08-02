@@ -3,6 +3,8 @@ var config = {
   language: 'en',
   // Show help text for images
   showHelp: true,
+  // Show Introduction text
+  showIntro: false,
   // Image overview file or path to the ASU API
   versions: {
     'SNAPSHOT': '../misc/snapshot/overview.json',
