@@ -446,6 +446,7 @@ function init() {
   // hide fields
   updateImages();
 
+  // default to browser language
   var user_lang = (navigator.language || navigator.userLanguage).split('-')[0];
   if (user_lang in translations) {
     config.language = user_lang;
