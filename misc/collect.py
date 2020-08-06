@@ -34,8 +34,6 @@ parser_merge.add_argument(
     default="",
     help="Link to get the image from. May contain {target}, {version} and {commit}",
 )
-# parser_merge.add_argument("--change-prefix",
-#  help="Change the openwrt- file name prefix.")
 
 parser_scrape = subparsers.add_parser(
     "scrape",
@@ -73,9 +71,6 @@ def merge_profiles(profiles, download_url):
 
         if target is None:
             target = profile["target"]
-
-        # if args.change_prefix:
-        #    change_prefix(images, "openwrt-", args.change_prefix)
 
         for entry in profile["titles"]:
             title = get_title(entry)
@@ -129,7 +124,6 @@ def update_config(config_path, versions):
 
     content = re.sub("versions:[\\s]*{[^}]*}", f"versions: {versions}", content)
     with open(config_path, "w+") as file:
-        # save updated config
         file.write(content)
 
 
@@ -150,7 +144,6 @@ def scrape(url, selector_path):
         with urllib.request.urlopen(f"{target}/?json") as file:
             array = json.loads(file.read().decode("utf-8"))
             for profile in filter(lambda x: x.endswith("/profiles.json"), array):
-                # print(profile)
                 with urllib.request.urlopen(f"{target}/{profile}") as file:
                     profiles[f"{target}/{profile}"] = file.read()
         return profiles
@@ -232,13 +225,6 @@ def scrape_wget(url, selector_path):
 
 
 """
-def change_prefix(images, old_prefix, new_prefix):
-    for image in images:
-        if image["name"].startswith(old_prefix):
-            image["name"] = new_prefix + image["name"][len(old_prefix):]
-"""
-
-"""
 Find and merge json files for a single release.
 """
 
@@ -248,7 +234,6 @@ def merge(input_paths):
     profiles = {}
 
     def add_path(path):
-        # paths.append(path)
         with open(path, "r") as file:
             profiles[path] = file.read()
 
