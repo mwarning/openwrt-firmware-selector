@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+Tool to create overview.json files and update the config.js.
+"""
 
 from pathlib import Path
 import urllib.request
@@ -10,46 +13,8 @@ import sys
 import os
 import re
 
-"""
-Tool to create overview.json files and update the config.js.
-"""
-
-parser = argparse.ArgumentParser()
-parser.add_argument(
-    "--formatted", action="store_true", help="Output formatted JSON data."
-)
-subparsers = parser.add_subparsers(dest="action", required=True)
-
-parser_merge = subparsers.add_parser(
-    "merge", help="Create a grid structure with horizontal and vertical connections."
-)
-parser_merge.add_argument(
-    "input_path",
-    nargs="+",
-    help="Input folder that is traversed for OpenWrt JSON device files.",
-)
-parser_merge.add_argument(
-    "--download-url",
-    action="store",
-    default="",
-    help="Link to get the image from. May contain {target}, {version} and {commit}",
-)
-
-parser_scrape = subparsers.add_parser(
-    "scrape",
-    help="Create a grid structure of horizontal, vertical and vertical connections.",
-)
-parser_scrape.add_argument(
-    "domain", help="Domain to scrape. E.g. https://downloads.openwrt.org"
-)
-parser_scrape.add_argument("selector", help="Path the config.js file is in.")
-parser_scrape.add_argument(
-    "--use-wget", action="store_true", help="Use wget to scrape the site."
-)
-
-args = parser.parse_args()
-
 SUPPORTED_METADATA_VERSION = 1
+
 
 # accepts {<file-path>: <file-content>}
 def merge_profiles(profiles, download_url):
@@ -95,7 +60,7 @@ def merge_profiles(profiles, download_url):
 
         code = obj.get("version_code", obj.get("version_commit"))
 
-        if not "version_code" in output:
+        if "version_code" not in output:
             output = {"version_code": code, "download_url": download_url, "models": {}}
 
         # if we have mixed codes/commits, store in device object
@@ -134,7 +99,9 @@ Update config.json.
 """
 
 
-def scrape(url, selector_path):
+def scrape(args):
+    url = args.domain
+    selector_path = args.selector
     config_path = f"{selector_path}/config.js"
     data_path = f"{selector_path}/data"
     versions = {}
@@ -182,7 +149,9 @@ Update config.json.
 """
 
 
-def scrape_wget(url, selector_path):
+def scrape_wget(args):
+    url = args.domain
+    selector_path = args.selector
     config_path = f"{selector_path}/config.js"
     data_path = f"{selector_path}/data"
     versions = {}
@@ -229,7 +198,8 @@ Find and merge json files for a single release.
 """
 
 
-def merge(input_paths):
+def merge(args):
+    input_paths = args.input_path
     # OpenWrt JSON device files
     profiles = {}
 
@@ -255,11 +225,52 @@ def merge(input_paths):
         json.dump(output, sys.stdout, sort_keys=True)
 
 
-if args.action == "merge":
-    merge(args.input_path)
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--formatted", action="store_true", help="Output formatted JSON data."
+    )
+    subparsers = parser.add_subparsers(dest="action", required=True)
 
-if args.action == "scrape":
-    if args.use_wget:
-        scrape_wget(args.domain, args.selector)
-    else:
-        scrape(args.domain, args.selector)
+    parser_merge = subparsers.add_parser(
+        "merge",
+        help="Create a grid structure with horizontal and vertical connections.",
+    )
+    parser_merge.add_argument(
+        "input_path",
+        nargs="+",
+        help="Input folder that is traversed for OpenWrt JSON device files.",
+    )
+    parser_merge.add_argument(
+        "--download-url",
+        action="store",
+        default="",
+        help="Link to get the image from. May contain {target}, {version} and {commit}",
+    )
+
+    parser_scrape = subparsers.add_parser(
+        "scrape",
+        help="Create a grid structure of horizontal, vertical and vertical connections.",
+    )
+    parser_scrape.add_argument(
+        "domain", help="Domain to scrape. E.g. https://downloads.openwrt.org"
+    )
+    parser_scrape.add_argument("selector", help="Path the config.js file is in.")
+    parser_scrape.add_argument(
+        "--use-wget", action="store_true", help="Use wget to scrape the site."
+    )
+
+    args = parser.parse_args()
+
+    if args.action == "merge":
+        merge(args)
+
+    if args.action == "scrape":
+        if args.use_wget:
+            scrape_wget(args)
+        else:
+            scrape(args)
+
+
+if __name__ == "__main__":
+    main()
