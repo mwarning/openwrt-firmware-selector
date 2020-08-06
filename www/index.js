@@ -378,7 +378,7 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
     $('#image-target').innerText = target;
     $('#image-version').innerText = version;
     $('#image-code').innerText = mobj['code'] || code;
-    $('#image-date').innerText = date;
+    $('#image-date').innerText = mobj['date'] || date;
 
     images.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -397,7 +397,6 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
 }
 
 function init() {
-  var build_date = "unknown"
   setupSelectList($('#versions'), Object.keys(config.versions), version => {
     var url = config.versions[version];
     if (config.asu_url) {
@@ -405,7 +404,6 @@ function init() {
     }
     fetch(url)
     .then(obj => {
-      build_date = obj.headers.get('last-modified');
       return obj.json();
     })
     .then(obj => {
@@ -426,7 +424,8 @@ function init() {
           var url = obj.download_url || 'unknown';
           var code = obj.version_code || 'unknown';
           var mobj = obj['models'][model];
-          updateImages(version, code, build_date, model, url, mobj, false);
+          var date = obj.build_date || 'unknown';
+          updateImages(version, code, date, model, url, mobj, false);
           current_model = mobj;
         } else {
           updateImages();

@@ -3,7 +3,10 @@
 from pathlib import Path
 import urllib.request
 import tempfile
+import datetime
 import argparse
+import email
+import pytz
 import json
 import glob
 import sys
@@ -13,6 +16,9 @@ import re
 '''
 Tool to create overview.json files and update the config.js.
 '''
+
+SUPPORTED_METADATA_VERSION = 1
+BUILD_DATE_FORMAT = "%Y-%m-%d %H:%M:%S %Z"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--formatted", action="store_true",
@@ -39,8 +45,6 @@ parser_scrape.add_argument("--use-wget", action="store_true",
 
 args = parser.parse_args()
 
-SUPPORTED_METADATA_VERSION = 1
-
 # accepts {<file-path>: <file-content>}
 def merge_profiles(profiles, download_url):
   # json output data
@@ -52,7 +56,7 @@ def merge_profiles(profiles, download_url):
     else:
       return "{} {} {}".format(title.get("vendor", ""), title["model"], title.get("variant", "")).strip()
 
-  def add_profile(id, target, profile, code=None):
+  def add_profile(id, target, profile, code=None, build_date=None):
     images = []
     for image in profile["images"]:
         images.append({"name": image["name"], "type": image["type"]})
@@ -73,23 +77,32 @@ def merge_profiles(profiles, download_url):
       output["models"][title] = {"id": id, "target": target, "images": images}
 
       if code is not None:
-        output["models"][title]["code"] = code
+        output["models"][title]["version_code"] = code
 
-  for path, content in profiles.items():
-      obj = json.loads(content)
+      if build_date is not None:
+        output["models"][title]["build_date"] = build_date
+
+  for profile in profiles:
+      obj = json.loads(profile["file_content"])
 
       if obj["metadata_version"] != SUPPORTED_METADATA_VERSION:
-        sys.stderr.write(f"{path} has unsupported metadata version: {obj['metadata_version']} => skip\n")
+        sys.stderr.write(f"{profile['file_path']} has unsupported metadata version: {obj['metadata_version']} => skip\n")
         continue
 
       code = obj.get("version_code", obj.get("version_commit"))
+      build_date = profile["last_modified"]
 
+      # initialize output
       if not "version_code" in output:
         output = {
           "version_code": code,
           "download_url": download_url,
+          "build_date": build_date,
           "models" : {}
         }
+
+      if output["build_date"] == build_date:
+        build_date = None
 
       # if we have mixed codes/commits, store in device object
       if output["version_code"] == code:
@@ -98,9 +111,9 @@ def merge_profiles(profiles, download_url):
       try:
         if "profiles" in obj:
           for id in obj["profiles"]:
-            add_profile(id, obj.get("target"), obj["profiles"][id], code)
+            add_profile(id, obj.get("target"), obj["profiles"][id], code, build_date)
         else:
-          add_profile(obj["id"], obj["target"], obj, code)
+          add_profile(obj["id"], obj["target"], obj, code, build_date)
       except json.decoder.JSONDecodeError as e:
         sys.stderr.write(f"Skip {path}\n   {e}\n")
       except KeyError as e:
@@ -130,13 +143,18 @@ def scrape(url, selector_path):
   versions = {}
 
   def handle_release(target):
-    profiles = {}
+    profiles = []
     with urllib.request.urlopen(f"{target}/?json") as file:
       array = json.loads(file.read().decode("utf-8"))
       for profile in filter(lambda x: x.endswith("/profiles.json"), array):
-        #print(profile)
         with urllib.request.urlopen(f"{target}/{profile}") as file:
-          profiles[f"{target}/{profile}"] = file.read()
+          last_modified = datetime.datetime(
+            *email.utils.parsedate(file.headers.get('last-modified'))[:6],
+            tzinfo=pytz.UTC # UTC == GMT
+          ).strftime(BUILD_DATE_FORMAT)
+          profiles.append(
+            {"file_path": f"{target}/{profile}", "file_content": file.read(), "last_modified": last_modified}
+          )
     return profiles
 
   if not os.path.isfile(config_path):
@@ -190,10 +208,14 @@ def scrape_wget(url, selector_path):
       versions[release.upper()] = f"data/{release}/overview.json"
       os.system(f"mkdir -p {selector_path}/data/{release}/")
 
-      profiles = {}
+      profiles = []
       for ppath in Path(path).rglob('profiles.json'):
         with open(ppath, "r") as file:
-          profiles[ppath] = file.read()
+          # we assume local timezone is UTC/GMT
+          last_modified = datetime.datetime.fromtimestamp(os.path.getmtime(ppath), tz=pytz.UTC).strftime(BUILD_DATE_FORMAT)
+          profiles.append(
+            {"file_path": ppath, "file_content": file.read(), "last_modified": last_modified}
+          )
 
       output = merge_profiles(profiles, f"https://{base}/targets/{{target}}")
       Path(f"{data_path}/{release}").mkdir(parents=True, exist_ok=True)
