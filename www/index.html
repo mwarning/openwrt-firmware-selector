@@ -1,96 +1,144 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-	<meta charset="utf-8"/>
-	<title>OpenWrt Firmware Selector</title>
-	<link rel="stylesheet" href="index.css" />
-	<script src="i18n.js"></script>
-	<script src="config.js"></script>
-	<script src="index.js"></script>
-</head>
-<body onload="init()">
-
-<header>
-	<div>
-<!--
+  <head>
+    <meta charset="utf-8" />
+    <title>OpenWrt Firmware Selector</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="i18n.js"></script>
+    <script src="config.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body onload="init()">
+    <header>
+      <div>
+        <!--
 		<h6 class="tr-title">OpenWrt Firmware Selector</h6>
 -->
-		<img src="logo.svg" width="180px" alt="Logo">
-		<div style="flex-grow: 1;"></div>
+        <img src="logo.svg" width="180px" alt="Logo" />
+        <div style="flex-grow: 1;"></div>
 
-		<select id="language-selection" size="1">
-			<option value="ca">Català</option>
-			<option value="en">English</option>
-			<option value="es">Español</option>
-			<option value="de">Deutsch</option>
-			<option value="fr">Français</option>
-			<option value="it">Italiano</option>
-			<option value="no">Norsk</option>
-			<option value="pl">Polski</option>
-			<option value="tr">Türkçe</option>
-		</select>
-	</div>
-</header>
+        <select id="language-selection" size="1">
+          <option value="ca">Català</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="de">Deutsch</option>
+          <option value="fr">Français</option>
+          <option value="it">Italiano</option>
+          <option value="no">Norsk</option>
+          <option value="pl">Polski</option>
+          <option value="tr">Türkçe</option>
+        </select>
+      </div>
+    </header>
 
-<div class="container">
-	<div>
-		<h2 class="tr-load">Download OpenWrt firmware for your device!</h2>
-		<p class="tr-message">Please use the input below to download firmware for your device!</p>
-		<br>
+    <div class="container">
+      <div>
+        <h2 class="tr-load">Download OpenWrt firmware for your device!</h2>
+        <p class="tr-message">
+          Please use the input below to download firmware for your device!
+        </p>
+        <br />
 
-		<select id="versions" size="1"></select>
-		<div id="models-autocomplete" class="autocomplete">
-			<input id="models" type="text" placeholder="Model" spellcheck="false" autocapitalize="off" autocorrect="off">
-		</div>
+        <select id="versions" size="1"></select>
+        <div id="models-autocomplete" class="autocomplete">
+          <input
+            id="models"
+            type="text"
+            placeholder="Model"
+            spellcheck="false"
+            autocapitalize="off"
+            autocorrect="off"
+          />
+        </div>
 
-		<br />
-		<br />
+        <br />
+        <br />
 
-		<div>
-			<img id="buildspinner" src="spinner.gif" alt="Logo">
-			<div id="buildstatus"></div>
-		</div>
+        <div>
+          <img id="buildspinner" src="spinner.gif" alt="Logo" />
+          <div id="buildstatus"></div>
+        </div>
 
-		<div id="images">
-			<div id="custom">
-				<h3 class="tr-customize">Customize</h3>
-				<div class="autocomplete">
-					<textarea id="packages" spellcheck="false" autocapitalize="off" autocorrect="off"></textarea>
-				</div>
-				<a href="javascript:build_asu_request()" class="custom-link">
-					<span>&#9881;</span><span class="tr-request-build">Request Build</span>
-				</a>
-			</div>
+        <div id="images">
+          <div id="custom">
+            <h3 class="tr-customize">Customize</h3>
+            <div class="autocomplete">
+              <textarea
+                id="packages"
+                spellcheck="false"
+                autocapitalize="off"
+                autocorrect="off"
+              ></textarea>
+            </div>
+            <a href="javascript:build_asu_request()" class="custom-link">
+              <span>&#9881;</span
+              ><span class="tr-request-build">Request Build</span>
+            </a>
+          </div>
 
-			<div>
-				<h3 id="build-title" class="tr-version-build">Release Build</h3>
-				<div><span class="column tr-model">Model:</span> <span id="image-model"></span></div>
-				<div><span class="column tr-target">Target:</span> <span id="image-target"></span></div>
-				<div><span class="column tr-version">Version:</span> <span id="image-version"></span> (<span id="image-code"></span>)</div>
-				<div><span class="column tr-date">Date:</span> <span id="image-date"></span></div>
-			</div>
+          <div>
+            <h3 id="build-title" class="tr-version-build">Release Build</h3>
+            <div>
+              <span class="column tr-model">Model:</span>
+              <span id="image-model"></span>
+            </div>
+            <div>
+              <span class="column tr-target">Target:</span>
+              <span id="image-target"></span>
+            </div>
+            <div>
+              <span class="column tr-version">Version:</span>
+              <span id="image-version"></span> (<span id="image-code"></span>)
+            </div>
+            <div>
+              <span class="column tr-date">Date:</span>
+              <span id="image-date"></span>
+            </div>
+          </div>
 
-			<div id="download-links">
-				<h3 id="downloads-title" class="tr-downloads">Downloads</h3>
-			</div>
+          <div id="download-links">
+            <h3 id="downloads-title" class="tr-downloads">Downloads</h3>
+          </div>
 
-			<div>
-				<span id="factory-help" class="download-help tr-factory-help">Factory images are for flashing routers with OpenWrt for the first time using the web interface of the original firmware.</span>
-				<span id="sysupgrade-help" class="download-help tr-sysupgrade-help">Sysupgrade images are for flashing routers that already run OpenWrt. The image can be applied using the web interface or the console.</span>
-				<span id="kernel-help" class="download-help tr-kernel-help">Linux kernel as a separate image.</span>
-				<span id="rootfs-help" class="download-help tr-rootfs-help">Root file system as a separate image.</span>
-				<span id="sdcard-help" class="download-help tr-sdcard-help">Image that is meant to be flashed on an SD-Card.</span>
-				<span id="tftp-help" class="download-help tr-tftp-help">Image that can be applied using the TFTP meachnism of the bootloader</span>
-				<span id="other-help" class="download-help tr-other-help">Image of unknown purpose.</span>
-			</div>
-		</div>
+          <div>
+            <span id="factory-help" class="download-help tr-factory-help"
+              >Factory images are for flashing routers with OpenWrt for the
+              first time using the web interface of the original firmware.</span
+            >
+            <span id="sysupgrade-help" class="download-help tr-sysupgrade-help"
+              >Sysupgrade images are for flashing routers that already run
+              OpenWrt. The image can be applied using the web interface or the
+              console.</span
+            >
+            <span id="kernel-help" class="download-help tr-kernel-help"
+              >Linux kernel as a separate image.</span
+            >
+            <span id="rootfs-help" class="download-help tr-rootfs-help"
+              >Root file system as a separate image.</span
+            >
+            <span id="sdcard-help" class="download-help tr-sdcard-help"
+              >Image that is meant to be flashed on an SD-Card.</span
+            >
+            <span id="tftp-help" class="download-help tr-tftp-help"
+              >Image that can be applied using the TFTP meachnism of the
+              bootloader</span
+            >
+            <span id="other-help" class="download-help tr-other-help"
+              >Image of unknown purpose.</span
+            >
+          </div>
+        </div>
 
-		<div id="footer">
-			<span><a href="https://github.com/mwarning/yet-another-firmware-selector">YAFS</a> v2.2.2</span>
-		</div>
-	</div>
-</div>
-
-</body>
+        <div id="footer">
+          <span
+            ><a href="https://github.com/mwarning/yet-another-firmware-selector"
+              >YAFS</a
+            >
+            v2.2.2</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
