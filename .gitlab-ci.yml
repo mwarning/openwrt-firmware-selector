@@ -6,6 +6,17 @@ stages:
   - pre-build
   - test
 
+check HTML, JS, CSS with eslint and prettier:
+  stage: pre-build
+  image: node
+  cache:
+    paths:
+      - node_modules/
+  script:
+    - yarn install
+    - yarn prettier --check www/
+    - yarn eslint www/
+
 check HTML, CSS and SVG with html5validator:
   stage: pre-build
   image: cyb3rjak3/html5validator:latest
