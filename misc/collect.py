@@ -50,7 +50,7 @@ def merge_profiles(profiles, download_url):
                 output["models"][title]["code"] = code
 
     for path, content in profiles.items():
-        obj = json.loads(content)
+        obj = json.loads(content.decode("utf-8"))
 
         if obj["metadata_version"] != SUPPORTED_METADATA_VERSION:
             sys.stderr.write(
