@@ -23,9 +23,9 @@ check HTML, CSS and SVG with html5validator:
   script:
     - html5validator --root www --also-check-css --also-check-svg --show-warnings --log INFO
 
-build site on Python 3.8:
+.build python:
   stage: pre-build
-  image: python:3.8-slim-buster
+  image: python:$CI_PYTHON_VERSION-slim-buster
   before_script:
     - apt-get update; apt-get install -y make
   script:
@@ -36,6 +36,16 @@ build site on Python 3.8:
     when: always
     paths:
       - build
+
+build site on Python 3.6:
+  extends: .build python
+  variables:
+    CI_PYTHON_VERSION: "3.6"
+
+build site on Python 3.8:
+  extends: .build python
+  variables:
+    CI_PYTHON_VERSION: "3.8"
 
 test site with selenium:
   stage: test
