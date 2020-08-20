@@ -41,7 +41,7 @@ def merge_profiles(profiles, download_url):
             title = get_title(entry)
 
             if len(title) == 0:
-                sys.stderr.write(f"Empty title. Skip title in {path}\n")
+                sys.stderr.write("Empty title. Skip title for {}".format(id))
                 continue
 
             output["models"][title] = {"id": id, "target": target, "images": images}
@@ -54,7 +54,9 @@ def merge_profiles(profiles, download_url):
 
         if obj["metadata_version"] != SUPPORTED_METADATA_VERSION:
             sys.stderr.write(
-                f"{path} has unsupported metadata version: {obj['metadata_version']} => skip\n"
+                "{} has unsupported metadata version: {} => skip".format(
+                    path, obj["metadata_version"]
+                )
             )
             continue
 
@@ -74,9 +76,9 @@ def merge_profiles(profiles, download_url):
             else:
                 add_profile(obj["id"], obj["target"], obj, code)
         except json.decoder.JSONDecodeError as e:
-            sys.stderr.write(f"Skip {path}\n   {e}\n")
+            sys.stderr.write("Skip {}\n   {}\n".format(path, e))
         except KeyError as e:
-            sys.stderr.write(f"Abort on {path}\n   Missing key {e}\n")
+            sys.stderr.write("Abort on {}\n   Missing key {}\n".format(path, e))
             exit(1)
 
     return output
@@ -87,7 +89,7 @@ def update_config(config_path, versions):
     with open(config_path, "r") as file:
         content = file.read()
 
-    content = re.sub("versions:[\\s]*{[^}]*}", f"versions: {versions}", content)
+    content = re.sub("versions:[\\s]*{[^}]*}", "versions: {}".format(versions), content)
     with open(config_path, "w+") as file:
         file.write(content)
 
@@ -102,21 +104,21 @@ Update config.json.
 def scrape(args):
     url = args.domain
     selector_path = args.selector
-    config_path = f"{selector_path}/config.js"
-    data_path = f"{selector_path}/data"
+    config_path = "{}/config.js".format(selector_path)
+    data_path = "{}/data".format(selector_path)
     versions = {}
 
     def handle_release(target):
         profiles = {}
-        with urllib.request.urlopen(f"{target}/?json") as file:
+        with urllib.request.urlopen("{}/?json".format(target)) as file:
             array = json.loads(file.read().decode("utf-8"))
             for profile in filter(lambda x: x.endswith("/profiles.json"), array):
-                with urllib.request.urlopen(f"{target}/{profile}") as file:
-                    profiles[f"{target}/{profile}"] = file.read()
+                with urllib.request.urlopen("{}/{}".format(target, profile)) as file:
+                    profiles["{}/{}".format(target, profile)] = file.read()
         return profiles
 
     if not os.path.isfile(config_path):
-        print(f"file not found: {config_path}")
+        print("file not found: {}".format(config_path))
         exit(1)
 
     # fetch release URLs
@@ -124,20 +126,22 @@ def scrape(args):
         for path in re.findall(r"href=[\"']?([^'\" >]+)", str(infile.read())):
             if not path.startswith("/") and path.endswith("targets/"):
                 release = path.strip("/").split("/")[-2]
-                download_url = f"{url}/{path}/{{target}}"
+                download_url = "{}/{}/{{target}}".format(url, path)
 
-                profiles = handle_release(f"{url}/{path}")
+                profiles = handle_release("{}/{}".format(url, path))
                 output = merge_profiles(profiles, download_url)
                 if len(output) > 0:
-                    os.makedirs(f"{data_path}/{release}", exist_ok=True)
+                    os.makedirs("{}/{}".format(data_path, release), exist_ok=True)
                     # write overview.json
-                    with open(f"{data_path}/{release}/overview.json", "w") as outfile:
+                    with open(
+                        "{}/{}/overview.json".format(data_path, release), "w"
+                    ) as outfile:
                         if args.formatted:
                             json.dump(output, outfile, indent="  ", sort_keys=True)
                         else:
                             json.dump(output, outfile, sort_keys=True)
 
-                    versions[release.upper()] = f"data/{release}/overview.json"
+                    versions[release.upper()] = "data/{}/overview.json".format(release)
 
     update_config(config_path, versions)
 
@@ -152,22 +156,24 @@ Update config.json.
 def scrape_wget(args):
     url = args.domain
     selector_path = args.selector
-    config_path = f"{selector_path}/config.js"
-    data_path = f"{selector_path}/data"
+    config_path = "{}/config.js".format(selector_path)
+    data_path = "{}/data".format(selector_path)
     versions = {}
 
     with tempfile.TemporaryDirectory() as tmp_dir:
         # download all profiles.json files
         os.system(
-            f"wget -c -r -P {tmp_dir} -A 'profiles.json' --reject-regex 'kmods|packages' --no-parent {url}"
+            "wget -c -r -P {} -A 'profiles.json' --reject-regex 'kmods|packages' --no-parent {}".format(
+                tmp_dir, url
+            )
         )
 
         # delete empty folders
-        os.system(f"find {tmp_dir}/* -type d -empty -delete")
+        os.system("find {}/* -type d -empty -delete".format(tmp_dir))
 
         # create overview.json files
-        for path in glob.glob(f"{tmp_dir}/*/snapshots") + glob.glob(
-            f"{tmp_dir}/*/releases/*"
+        for path in glob.glob("{}/*/snapshots".format(tmp_dir)) + glob.glob(
+            "{}/*/releases/*".format(tmp_dir)
         ):
             release = os.path.basename(path)
             base = path[len(tmp_dir) + 1 :]
@@ -180,13 +186,15 @@ def scrape_wget(args):
             if len(profiles) == 0:
                 continue
 
-            versions[release.upper()] = f"data/{release}/overview.json"
+            versions[release.upper()] = "data/{}/overview.json".format(release)
 
-            output = merge_profiles(profiles, f"https://{base}/targets/{{target}}")
-            os.makedirs(f"{data_path}/{release}", exist_ok=True)
+            output = merge_profiles(
+                profiles, "https://{}/targets/{{target}}".format(base)
+            )
+            os.makedirs("{}/{}".format(data_path, release), exist_ok=True)
 
             # write overview.json
-            with open(f"{data_path}/{release}/overview.json", "w") as outfile:
+            with open("{}/{}/overview.json".format(data_path, release), "w") as outfile:
                 if args.formatted:
                     json.dump(output, outfile, indent="  ", sort_keys=True)
                 else:
@@ -215,7 +223,7 @@ def merge(args):
                 add_path(filepath)
         else:
             if not path.endswith(".json"):
-                sys.stderr.write(f"Folder does not exists: {path}\n")
+                sys.stderr.write("Folder does not exists: {}\n".format(path))
                 exit(1)
             add_path(path)
 
@@ -236,13 +244,13 @@ Update config.json.
 
 def scan(args):
     selector_path = args.selector
-    config_path = f"{selector_path}/config.js"
-    data_path = f"{selector_path}/data"
+    config_path = "{}/config.js".format(selector_path)
+    data_path = "{}/data".format(selector_path)
     versions = {}
 
     # create overview.json files
-    for path in glob.glob(f"{args.directory}/snapshots") + glob.glob(
-        f"{args.directory}/releases/*"
+    for path in glob.glob("{}/snapshots".format(args.directory)) + glob.glob(
+        "{}/releases/*".format(args.directory)
     ):
         release = os.path.basename(path)
         base_dir = path[len(args.directory) + 1 :]
@@ -255,15 +263,15 @@ def scan(args):
         if len(profiles) == 0:
             continue
 
-        versions[release.upper()] = f"data/{release}/overview.json"
+        versions[release.upper()] = "data/{}/overview.json".format(release)
 
         output = merge_profiles(
-            profiles, f"https://{args.domain}/{base_dir}/targets/{{target}}"
+            profiles, "https://{}/{}/targets/{{target}}".format(args.domain, base_dir)
         )
-        os.makedirs(f"{data_path}/{release}", exist_ok=True)
+        os.makedirs("{}/{}".format(data_path, release), exist_ok=True)
 
         # write overview.json
-        with open(f"{data_path}/{release}/overview.json", "w") as outfile:
+        with open("{}/{}/overview.json".format(data_path, release), "w") as outfile:
             if args.formatted:
                 json.dump(output, outfile, indent="  ", sort_keys=True)
             else:
