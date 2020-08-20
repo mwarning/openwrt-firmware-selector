@@ -129,7 +129,7 @@ def scrape(args):
                 profiles = handle_release(f"{url}/{path}")
                 output = merge_profiles(profiles, download_url)
                 if len(output) > 0:
-                    Path(f"{data_path}/{release}").mkdir(parents=True, exist_ok=True)
+                    os.makedirs(f"{data_path}/{release}", exist_ok=True)
                     # write overview.json
                     with open(f"{data_path}/{release}/overview.json", "w") as outfile:
                         if args.formatted:
@@ -181,10 +181,9 @@ def scrape_wget(args):
                 continue
 
             versions[release.upper()] = f"data/{release}/overview.json"
-            os.system(f"mkdir -p {selector_path}/data/{release}/")
 
             output = merge_profiles(profiles, f"https://{base}/targets/{{target}}")
-            Path(f"{data_path}/{release}").mkdir(parents=True, exist_ok=True)
+            os.makedirs(f"{data_path}/{release}", exist_ok=True)
 
             # write overview.json
             with open(f"{data_path}/{release}/overview.json", "w") as outfile:
@@ -257,12 +256,11 @@ def scan(args):
             continue
 
         versions[release.upper()] = f"data/{release}/overview.json"
-        os.system(f"mkdir -p {selector_path}/data/{release}/")
 
         output = merge_profiles(
             profiles, f"https://{args.domain}/{base_dir}/targets/{{target}}"
         )
-        Path(f"{data_path}/{release}").mkdir(parents=True, exist_ok=True)
+        os.makedirs(f"{data_path}/{release}", exist_ok=True)
 
         # write overview.json
         with open(f"{data_path}/{release}/overview.json", "w") as outfile:
