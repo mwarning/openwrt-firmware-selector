@@ -172,13 +172,16 @@ def scrape_wget(args):
             release = os.path.basename(path)
             base = path[len(tmp_dir) + 1 :]
 
-            versions[release.upper()] = f"data/{release}/overview.json"
-            os.system(f"mkdir -p {selector_path}/data/{release}/")
-
             profiles = {}
             for ppath in Path(path).rglob("profiles.json"):
                 with open(ppath, "r") as file:
                     profiles[ppath] = file.read()
+
+            if len(profiles) == 0:
+                continue
+
+            versions[release.upper()] = f"data/{release}/overview.json"
+            os.system(f"mkdir -p {selector_path}/data/{release}/")
 
             output = merge_profiles(profiles, f"https://{base}/targets/{{target}}")
             Path(f"{data_path}/{release}").mkdir(parents=True, exist_ok=True)
