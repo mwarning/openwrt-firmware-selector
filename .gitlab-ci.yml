@@ -51,7 +51,7 @@ build site for target environment:
   stage: test
   image: debian:9
   before_script:
-    - apt-get update; apt-get install -y make python3
+    - apt-get update; apt-get install -y make python3 ca-certificates
   script:
     - cp -R ./www ./build
     - misc/collect.py scrape https://downloads.openwrt.org build
