@@ -47,16 +47,6 @@ build site on Python 3.8:
   variables:
     CI_PYTHON_VERSION: "3.8"
 
-test site with selenium:
-  stage: test
-  image: selenium/standalone-firefox:latest
-  script:
-    - /opt/bin/entry_point.sh &
-    - sudo apt-get update; sudo apt-get install -y python3-pip python3-pytest
-    - pip3 install selenium-firefox
-    - (cd build; python3 -m http.server &)
-    - pytest-3 tests
-
 build site for target environment:
   stage: test
   image: debian:9
@@ -65,3 +55,20 @@ build site for target environment:
   script:
     - cp -R ./www ./build
     - misc/collect.py scrape https://downloads.openwrt.org build
+  artifacts:
+    expire_in: 1 week
+    when: always
+    paths:
+      - build
+
+test site with selenium:
+  stage: test
+  image: selenium/standalone-firefox:latest
+  dependencies:
+    - build site for target environment
+  script:
+    - /opt/bin/entry_point.sh &
+    - sudo apt-get update; sudo apt-get install -y python3-pip python3-pytest
+    - pip3 install selenium-firefox
+    - (cd build; python3 -m http.server &)
+    - pytest-3 tests
