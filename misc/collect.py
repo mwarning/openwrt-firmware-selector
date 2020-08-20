@@ -228,6 +228,52 @@ def merge(args):
         json.dump(output, sys.stdout, sort_keys=True)
 
 
+"""
+Scan local directory for releases with profiles.json.
+Merge into overview.json files.
+Update config.json.
+"""
+
+
+def scan(args):
+    selector_path = args.selector
+    config_path = f"{selector_path}/config.js"
+    data_path = f"{selector_path}/data"
+    versions = {}
+
+    # create overview.json files
+    for path in glob.glob(f"{args.directory}/snapshots") + glob.glob(
+        f"{args.directory}/releases/*"
+    ):
+        release = os.path.basename(path)
+        base_dir = path[len(args.directory) + 1 :]
+
+        profiles = {}
+        for ppath in Path(path).rglob("profiles.json"):
+            with open(ppath, "r") as file:
+                profiles[ppath] = file.read()
+
+        if len(profiles) == 0:
+            continue
+
+        versions[release.upper()] = f"data/{release}/overview.json"
+        os.system(f"mkdir -p {selector_path}/data/{release}/")
+
+        output = merge_profiles(
+            profiles, f"https://{args.domain}/{base_dir}/targets/{{target}}"
+        )
+        Path(f"{data_path}/{release}").mkdir(parents=True, exist_ok=True)
+
+        # write overview.json
+        with open(f"{data_path}/{release}/overview.json", "w") as outfile:
+            if args.formatted:
+                json.dump(output, outfile, indent="  ", sort_keys=True)
+            else:
+                json.dump(output, outfile, sort_keys=True)
+
+    update_config(config_path, versions)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -251,9 +297,7 @@ def main():
         help="Link to get the image from. May contain {target}, {version} and {commit}",
     )
 
-    parser_scrape = subparsers.add_parser(
-        "scrape", help="Scrape webpage for releases.",
-    )
+    parser_scrape = subparsers.add_parser("scrape", help="Scrape webpage for releases.")
     parser_scrape.add_argument(
         "domain", help="Domain to scrape. E.g. https://downloads.openwrt.org"
     )
@@ -262,10 +306,21 @@ def main():
         "--use-wget", action="store_true", help="Use wget to scrape the site."
     )
 
+    parser_scan = subparsers.add_parser("scan", help="Scan directory for releases.")
+    parser_scan.add_argument(
+        "domain",
+        help="Domain for download_url attribute in overview.json. E.g. https://downloads.openwrt.org",
+    )
+    parser_scan.add_argument("directory", help="Directory to scan for releases.")
+    parser_scan.add_argument("selector", help="Path the config.js file is in.")
+
     args = parser.parse_args()
 
     if args.action == "merge":
         merge(args)
+
+    if args.action == "scan":
+        scan(args)
 
     if args.action == "scrape":
         if args.use_wget:
