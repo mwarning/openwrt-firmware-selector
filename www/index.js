@@ -1,3 +1,6 @@
+/* global translations, config */
+/* exported build_asu_request, init */
+
 var current_model = {};
 
 function $(query) {
@@ -96,7 +99,7 @@ function build_asu_request() {
           break;
         case 202:
           showStatus("tr-check-again");
-          setTimeout((_) => {
+          setTimeout(() => {
             build_asu_request();
           }, 5000);
           break;
@@ -127,7 +130,7 @@ function setupSelectList(select, items, onselection) {
     select.appendChild(option);
   }
 
-  select.addEventListener("change", (e) => {
+  select.addEventListener("change", () => {
     onselection(items[select.selectedIndex]);
   });
 
@@ -157,7 +160,7 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
 
   items.sort(collator.compare);
 
-  input.oninput = function (e) {
+  input.oninput = function () {
     onbegin();
 
     var offset = 0;
@@ -207,12 +210,12 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
 
       c += 1;
       if (c >= 15) {
-        var div = document.createElement("DIV");
+        let div = document.createElement("DIV");
         div.innerHTML = "...";
         list.appendChild(div);
         break;
       } else {
-        var div = document.createElement("DIV");
+        let div = document.createElement("DIV");
         // make the matching letters bold:
         div.innerHTML =
           item.substr(0, j) +
@@ -224,7 +227,7 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
           item +
           '">';
 
-        div.addEventListener("click", function (e) {
+        div.addEventListener("click", function () {
           // include selected value
           var selected = this.getElementsByTagName("input")[0].value;
           if (as_list) {
@@ -321,18 +324,17 @@ function updatePackageList(version, target) {
         $("#packages"),
         all_packages,
         true,
-        (_) => {},
+        () => {},
         (textarea) => {
           textarea.value = split(textarea.value)
             // make list unique, ignore minus
             .filter((value, index, self) => {
-              var i = self.indexOf(value.replace(/^\-/, ""));
+              var i = self.indexOf(value.replace(/^-/, ""));
               return i === index || i < 0;
             })
             // limit to available packages, ignore minus
             .filter(
-              (value, index) =>
-                all_packages.indexOf(value.replace(/^\-/, "")) !== -1
+              (value) => all_packages.indexOf(value.replace(/^-/, "")) !== -1
             )
             .join(" ");
         }

@@ -1,3 +1,5 @@
+/* exported translations */
+
 var translations = {
   ca: {
     "tr-load":
