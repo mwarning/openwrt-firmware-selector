@@ -277,7 +277,8 @@ def main():
     parser.add_argument(
         "--formatted", action="store_true", help="Output formatted JSON data."
     )
-    subparsers = parser.add_subparsers(dest="action", required=True)
+    subparsers = parser.add_subparsers(dest="action")
+    subparsers.required = True
 
     parser_merge = subparsers.add_parser(
         "merge",
