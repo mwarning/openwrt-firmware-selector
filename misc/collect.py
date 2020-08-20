@@ -252,8 +252,7 @@ def main():
     )
 
     parser_scrape = subparsers.add_parser(
-        "scrape",
-        help="Create a grid structure of horizontal, vertical and vertical connections.",
+        "scrape", help="Scrape webpage for releases.",
     )
     parser_scrape.add_argument(
         "domain", help="Domain to scrape. E.g. https://downloads.openwrt.org"
