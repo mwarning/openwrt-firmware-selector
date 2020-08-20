@@ -21,7 +21,7 @@ check HTML, CSS and SVG with html5validator:
   stage: pre-build
   image: cyb3rjak3/html5validator:latest
   script:
-    - html5validator --root www --also-check-css --also-check-svg --show-warnings --log INFO
+    - html5validator --root www --also-check-css --show-warnings --log INFO
 
 .build python:
   stage: pre-build
