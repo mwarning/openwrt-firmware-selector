@@ -48,7 +48,7 @@ build site on Python 3.8:
     CI_PYTHON_VERSION: "3.8"
 
 build site for target environment:
-  stage: test
+  stage: pre-build
   image: debian:9
   before_script:
     - apt-get update; apt-get install -y make python3 ca-certificates
