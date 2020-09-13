@@ -147,7 +147,7 @@ def scrape(args):
                         else:
                             json.dump(output, outfile, sort_keys=True)
 
-                    versions[release.upper()] = "data/{}/overview.json".format(release)
+                    versions[release] = "data/{}/overview.json".format(release)
 
     update_config(config_path, versions)
 
@@ -192,7 +192,7 @@ def scrape_wget(args):
             if len(profiles) == 0:
                 continue
 
-            versions[release.upper()] = "data/{}/overview.json".format(release)
+            versions[release] = "data/{}/overview.json".format(release)
 
             output = merge_profiles(
                 profiles, "https://{}/targets/{{target}}".format(base)
@@ -269,7 +269,7 @@ def scan(args):
         if len(profiles) == 0:
             continue
 
-        versions[release.upper()] = "data/{}/overview.json".format(release)
+        versions[release] = "data/{}/overview.json".format(release)
 
         output = merge_profiles(
             profiles, "https://{}/{}/targets/{{target}}".format(args.domain, base_dir)
