@@ -47,28 +47,45 @@ build site on Python 3.8:
   variables:
     CI_PYTHON_VERSION: "3.8"
 
-build site for target environment:
+.build site:
   stage: pre-build
   image: debian:9
   before_script:
     - apt-get update; apt-get install -y make python3 ca-certificates
-  script:
-    - cp -R ./www ./build
-    - misc/collect.py scrape https://downloads.openwrt.org build
   artifacts:
     expire_in: 1 week
     when: always
     paths:
       - build
 
-test site with selenium:
+build site for target environment using scrape method:
+  extends: .build site
+  script:
+    - cp -R ./www ./build
+    - misc/collect.py scrape https://downloads.openwrt.org build
+
+build site for target environment using scan method:
+  extends: .build site
+  script:
+    - cp -R ./www ./build
+    - misc/collect.py scan downloads.openwrt.org tests/profiles build
+
+.test site:
   stage: test
   image: selenium/standalone-firefox:latest
-  dependencies:
-    - build site for target environment
   script:
     - /opt/bin/entry_point.sh &
     - sudo apt-get update; sudo apt-get install -y python3-pip python3-pytest
     - pip3 install selenium-firefox
     - (cd build; python3 -m http.server &)
     - pytest-3 tests
+
+test scraped site with selenium:
+  extends: .test site
+  dependencies:
+    - build site for target environment using scrape method
+
+test scaned site with selenium:
+  extends: .test site
+  dependencies:
+    - build site for target environment using scan method
