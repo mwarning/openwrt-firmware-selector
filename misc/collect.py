@@ -48,6 +48,14 @@ def merge_profiles(profiles, download_url):
                 )
                 continue
 
+            """
+                Some devices are in ar71xx and ath79. But use TP-LINK" and "TP-Link".
+                E.g:  `TP-LINK Archer C7 v5` and `TP-Link Archer C7 v5`
+                To be able to detect this, we need to make "same" titles identical.
+            """
+            if title.startswith("TP-LINK "):
+                title = "TP-Link {}".format(title[8:])
+
             # device is a duplicate, try to differentiate by target
             if title in output["models"]:
                 title = "{} ({})".format(title, target)
