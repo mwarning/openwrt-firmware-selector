@@ -86,11 +86,11 @@ def merge_profiles(profiles, download_url):
 
 def update_config(config_path, versions):
     content = ""
-    with open(config_path, "r") as file:
+    with open(str(config_path), "r") as file:
         content = file.read()
 
     content = re.sub("versions:[\\s]*{[^}]*}", "versions: {}".format(versions), content)
-    with open(config_path, "w+") as file:
+    with open(str(config_path), "w+") as file:
         file.write(content)
 
 
@@ -182,7 +182,7 @@ def scrape_wget(args):
 
             profiles = {}
             for ppath in Path(path).rglob("profiles.json"):
-                with open(ppath, "r") as file:
+                with open(str(ppath), "r") as file:
                     profiles[ppath] = file.read()
 
             if len(profiles) == 0:
@@ -216,7 +216,7 @@ def merge(args):
     profiles = {}
 
     def add_path(path):
-        with open(path, "r") as file:
+        with open(str(path), "r") as file:
             profiles[path] = file.read()
 
     for path in input_paths:
@@ -259,7 +259,7 @@ def scan(args):
 
         profiles = {}
         for ppath in Path(path).rglob("profiles.json"):
-            with open(ppath, "r", encoding="utf-8") as file:
+            with open(str(ppath), "r", encoding="utf-8") as file:
                 profiles[ppath] = file.read()
 
         if len(profiles) == 0:
