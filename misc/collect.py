@@ -90,7 +90,7 @@ def merge_profiles(profiles, download_url):
 
 def update_config(config_path, versions):
     content = ""
-    with open(str(config_path), "r") as file:
+    with open(str(config_path), "r", encoding="utf-8") as file:
         content = file.read()
 
     content = re.sub("versions:[\\s]*{[^}]*}", "versions: {}".format(versions), content)
@@ -107,9 +107,9 @@ Update config.json.
 
 def scrape(args):
     url = args.domain
-    selector_path = args.selector
-    config_path = "{}/config.js".format(selector_path)
-    data_path = "{}/data".format(selector_path)
+    www_path = args.www_path
+    config_path = "{}/config.js".format(www_path)
+    data_path = "{}/data".format(www_path)
     versions = {}
 
     def handle_release(target):
@@ -161,9 +161,9 @@ Update config.json.
 
 def scrape_wget(args):
     url = args.domain
-    selector_path = args.selector
-    config_path = "{}/config.js".format(selector_path)
-    data_path = "{}/data".format(selector_path)
+    www_path = args.www_path
+    config_path = "{}/config.js".format(www_path)
+    data_path = "{}/data".format(www_path)
     versions = {}
 
     with tempfile.TemporaryDirectory() as tmp_dir:
@@ -186,7 +186,7 @@ def scrape_wget(args):
 
             profiles = {}
             for ppath in Path(path).rglob("profiles.json"):
-                with open(str(ppath), "r") as file:
+                with open(str(ppath), "r", encoding="utf-8") as file:
                     profiles[ppath] = file.read()
 
             if len(profiles) == 0:
@@ -220,7 +220,7 @@ def merge(args):
     profiles = {}
 
     def add_path(path):
-        with open(str(path), "r") as file:
+        with open(str(path), "r", encoding="utf-8") as file:
             profiles[path] = file.read()
 
     for path in input_paths:
@@ -249,31 +249,25 @@ Update config.json.
 
 
 def scan(args):
-    selector_path = args.selector
-    config_path = "{}/config.js".format(selector_path)
-    data_path = "{}/data".format(selector_path)
+    # firmware selector config
+    config_path = "{}/config.js".format(args.www_path)
+    # the overview.json files are placed here
+    data_path = "{}/data".format(args.www_path)
     versions = {}
 
-    # create overview.json files
-    for path in glob.glob("{}/snapshots".format(args.directory)) + glob.glob(
-        "{}/releases/*".format(args.directory)
-    ):
-        release = os.path.basename(path)
-        base_dir = path[len(args.directory) + 1 :]
+    # args.images_path => args.releases_path
+    releases = {}
+    for path in Path(args.images_path).rglob("profiles.json"):
+        with open(str(path), "r", encoding="utf-8") as file:
+            content = file.read()
+            obj = json.loads(content)
+            release = obj["version_number"]
+            releases.setdefault(release, {})[path] = content
 
-        profiles = {}
-        for ppath in Path(path).rglob("profiles.json"):
-            with open(str(ppath), "r", encoding="utf-8") as file:
-                profiles[ppath] = file.read()
-
-        if len(profiles) == 0:
-            continue
+    for release, profiles in releases.items():
+        output = merge_profiles(profiles, args.download_url)
 
         versions[release] = "data/{}/overview.json".format(release)
-
-        output = merge_profiles(
-            profiles, "https://{}/{}/targets/{{target}}".format(args.domain, base_dir)
-        )
         os.makedirs("{}/{}".format(data_path, release), exist_ok=True)
 
         # write overview.json
@@ -295,8 +289,7 @@ def main():
     subparsers.required = True
 
     parser_merge = subparsers.add_parser(
-        "merge",
-        help="Create a grid structure with horizontal and vertical connections.",
+        "merge", help="Search for profiles.json files and output an overview.json."
     )
     parser_merge.add_argument(
         "input_path",
@@ -307,25 +300,24 @@ def main():
         "--download-url",
         action="store",
         default="",
-        help="Link to get the image from. May contain {target}, {version} and {commit}",
+        help="Link to get the image from. May contain {target} (replaced by e.g. ath79/generic), {version} (replace by the version key from config.js) and {commit} (git commit in hex notation).",
     )
 
     parser_scrape = subparsers.add_parser("scrape", help="Scrape webpage for releases.")
     parser_scrape.add_argument(
         "domain", help="Domain to scrape. E.g. https://downloads.openwrt.org"
     )
-    parser_scrape.add_argument("selector", help="Path the config.js file is in.")
+    parser_scrape.add_argument("www_path", help="Path the config.js file is in.")
     parser_scrape.add_argument(
         "--use-wget", action="store_true", help="Use wget to scrape the site."
     )
 
     parser_scan = subparsers.add_parser("scan", help="Scan directory for releases.")
     parser_scan.add_argument(
-        "domain",
-        help="Domain for download_url attribute in overview.json. E.g. https://downloads.openwrt.org",
+        "download_url", help="Download for images. E.g. https://downloads.openwrt.org"
     )
-    parser_scan.add_argument("directory", help="Directory to scan for releases.")
-    parser_scan.add_argument("selector", help="Path the config.js file is in.")
+    parser_scan.add_argument("images_path", help="Directory to scan for releases.")
+    parser_scan.add_argument("www_path", help="Path the config.js file is in.")
 
     args = parser.parse_args()
 
