@@ -50,7 +50,7 @@ def merge_profiles(profiles, download_url):
                 output["models"][title]["code"] = code
 
     for path, content in profiles.items():
-        obj = json.loads(content.decode("utf-8"))
+        obj = json.loads(content)
 
         if obj["metadata_version"] != SUPPORTED_METADATA_VERSION:
             sys.stderr.write(
@@ -114,7 +114,9 @@ def scrape(args):
             array = json.loads(file.read().decode("utf-8"))
             for profile in filter(lambda x: x.endswith("/profiles.json"), array):
                 with urllib.request.urlopen("{}/{}".format(target, profile)) as file:
-                    profiles["{}/{}".format(target, profile)] = file.read()
+                    profiles["{}/{}".format(target, profile)] = file.read().decode(
+                        "utf-8"
+                    )
         return profiles
 
     if not os.path.isfile(config_path):
@@ -257,7 +259,7 @@ def scan(args):
 
         profiles = {}
         for ppath in Path(path).rglob("profiles.json"):
-            with open(ppath, "r") as file:
+            with open(ppath, "r", encoding="utf-8") as file:
                 profiles[ppath] = file.read()
 
         if len(profiles) == 0:
