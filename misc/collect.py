@@ -18,11 +18,7 @@ SUPPORTED_METADATA_VERSION = 1
 assert sys.version_info >= (3, 5), "Python version too old. Python >=3.5.0 needed."
 
 
-# accepts {<file-path>: <file-content>}
-def merge_profiles(profiles, download_url):
-    # json output data
-    output = {}
-
+def add_profile(output, path, id, target, profile, code=None):
     def get_title(title):
         if "title" in title:
             return title["title"]
@@ -31,39 +27,42 @@ def merge_profiles(profiles, download_url):
                 title.get("vendor", ""), title["model"], title.get("variant", "")
             ).strip()
 
-    def add_profile(path, id, target, profile, code=None):
-        images = []
-        for image in profile["images"]:
-            images.append({"name": image["name"], "type": image["type"]})
+    images = []
+    for image in profile["images"]:
+        images.append({"name": image["name"], "type": image["type"]})
 
-        if target is None:
-            target = profile["target"]
+    if target is None:
+        target = profile["target"]
 
-        for entry in profile["titles"]:
-            title = get_title(entry)
+    for entry in profile["titles"]:
+        title = get_title(entry)
 
-            if len(title) == 0:
-                sys.stderr.write(
-                    "Empty title. Skip title for {} in {}\n".format(id, path)
-                )
-                continue
+        if len(title) == 0:
+            sys.stderr.write("Empty title. Skip title for {} in {}\n".format(id, path))
+            continue
 
-            """
-                Some devices are in ar71xx and ath79. But use TP-LINK" and "TP-Link".
-                E.g:  `TP-LINK Archer C7 v5` and `TP-Link Archer C7 v5`
-                To be able to detect this, we need to make "same" titles identical.
-            """
-            if title.startswith("TP-LINK "):
-                title = "TP-Link {}".format(title[8:])
+        """
+            Some devices are in ar71xx and ath79. But use TP-LINK" and "TP-Link".
+            E.g:  `TP-LINK Archer C7 v5` and `TP-Link Archer C7 v5`
+            To be able to detect this, we need to make "same" titles identical.
+        """
+        if title.startswith("TP-LINK "):
+            title = "TP-Link {}".format(title[8:])
 
-            # device is a duplicate, try to differentiate by target
-            if title in output["models"]:
-                title = "{} ({})".format(title, target)
+        # device is a duplicate, try to differentiate by target
+        if title in output["models"]:
+            title = "{} ({})".format(title, target)
 
-            output["models"][title] = {"id": id, "target": target, "images": images}
+        output["models"][title] = {"id": id, "target": target, "images": images}
 
-            if code is not None:
-                output["models"][title]["code"] = code
+        if code is not None:
+            output["models"][title]["code"] = code
+
+
+# accepts {<file-path>: <file-content>}
+def merge_profiles(profiles, download_url):
+    # json output data
+    output = {}
 
     for path, content in profiles.items():
         obj = json.loads(content)
@@ -88,9 +87,11 @@ def merge_profiles(profiles, download_url):
         try:
             if "profiles" in obj:
                 for id in obj["profiles"]:
-                    add_profile(path, id, obj.get("target"), obj["profiles"][id], code)
+                    add_profile(
+                        output, path, id, obj.get("target"), obj["profiles"][id], code
+                    )
             else:
-                add_profile(path, obj["id"], obj["target"], obj, code)
+                add_profile(output, path, obj["id"], obj["target"], obj, code)
         except json.decoder.JSONDecodeError as e:
             sys.stderr.write("Skip {}\n   {}\n".format(path, e))
         except KeyError as e:
