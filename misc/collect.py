@@ -15,6 +15,8 @@ import re
 
 SUPPORTED_METADATA_VERSION = 1
 
+assert sys.version_info >= (3, 5), "Python version too old. Python >=3.5.0 needed."
+
 
 # accepts {<file-path>: <file-content>}
 def merge_profiles(profiles, download_url):
