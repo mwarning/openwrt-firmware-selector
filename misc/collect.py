@@ -48,6 +48,10 @@ def merge_profiles(profiles, download_url):
                 )
                 continue
 
+            # device is a duplicate, try to differentiate by target
+            if title in output["models"]:
+                title = "{} ({})".format(title, target)
+
             output["models"][title] = {"id": id, "target": target, "images": images}
 
             if code is not None:
