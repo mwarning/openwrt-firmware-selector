@@ -6,7 +6,7 @@ HTML/CSS/JavaScript. Checkout the [Demo](https://mwarning.github.io/yet-another-
 ![image](misc/screenshot.png)
 
 
-## Run
+## Quick Run
 
 * Download the sources and change the working directory
 * Start webserver (e.g. `python3 -m http.server`)
@@ -18,23 +18,32 @@ Configure with [config.js](www/config.js).
 
 This firmware selector can speak to a [ASU server](https://github.com/aparcar/asu) to build custom images. To enable the feature, the `asu_url` option in the config.js needs to be set.
 
-## Update Database
+## Installation
 
-The `overview.json` files are based on JSON files created by OpenWrt
-(master): `Global build settings  ---> [*] Create JSON info files per build
-image`.
+Place the `www/` folder somewhere web accessible. Then use the `collect.py` script to update the `config.json` file:
 
-A [Python script](misc/collect.py) is included to merge the JSON files into a single overview.json:
 ```
-./collect.py merge bin/ --download-url 'https://downloads.openwrt.org/releases/{version}/targets/{target}' > overview.json
+./misc/collect.py scan "https://firmware.example.com/{version}/targets/{target}" ~/openwrt/bin/ www/
 ```
 
-If you want to scrape the OpenWrt download website and update the config.js:
-```
-./collect.py scrape https://downloads.openwrt.org /var/www/firmware_selector
-```
+This should do it.
 
-For the OpenWrt 18.06 and 19.07 releases, you need to patch OpenWrt to output JSON files for collect.py (commit [openwrt/openwrt@881ed09](https://github.com/openwrt/openwrt/commit/881ed09ee6e23f6c224184bb7493253c4624fb9f)).
+The https link is used to access image files. `{version}` will be replaced by the name of the release, e.g. `19.07.4`. `{taget}` will be replaced by the main- and sub target, e.g. `ath79/generic`.
+
+The `collect.py` script searches the `~/openwrt/bin/` directory for `profile.json` files. These are merged into `overview.json` files (one per release). The `overview.json` files are then placed into `www/data/` and `www/config.js` is updated.
+
+To let OpenWrt create `profile.json` files, enable the build setting (`make menuconfig`):
+`Global build settings  ---> [*] Create JSON info files per build image`.
+
+If the option is not available (OpenWrt 18.06 or 19.07.3), apply commit [openwrt/openwrt@881ed09](https://github.com/openwrt/openwrt/commit/881ed09ee6e23f6c224184bb7493253c4624fb9f).
+
+### Scrape
+
+If you want to scrape the OpenWrt download website and update the `config.js`:
+
+```
+./collect.py --download-url "https://firmware.example.com/{version}/targets/{target}" scrape https://downloads.openwrt.org /var/www/firmware_selector
+```
 
 ## Similar Projects
 
