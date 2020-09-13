@@ -31,7 +31,7 @@ def merge_profiles(profiles, download_url):
                 title.get("vendor", ""), title["model"], title.get("variant", "")
             ).strip()
 
-    def add_profile(id, target, profile, code=None):
+    def add_profile(path, id, target, profile, code=None):
         images = []
         for image in profile["images"]:
             images.append({"name": image["name"], "type": image["type"]})
@@ -43,7 +43,9 @@ def merge_profiles(profiles, download_url):
             title = get_title(entry)
 
             if len(title) == 0:
-                sys.stderr.write("Empty title. Skip title for {}".format(id))
+                sys.stderr.write(
+                    "Empty title. Skip title for {} in {}\n".format(id, path)
+                )
                 continue
 
             output["models"][title] = {"id": id, "target": target, "images": images}
@@ -56,7 +58,7 @@ def merge_profiles(profiles, download_url):
 
         if obj["metadata_version"] != SUPPORTED_METADATA_VERSION:
             sys.stderr.write(
-                "{} has unsupported metadata version: {} => skip".format(
+                "{} has unsupported metadata version: {} => skip\n".format(
                     path, obj["metadata_version"]
                 )
             )
@@ -74,9 +76,9 @@ def merge_profiles(profiles, download_url):
         try:
             if "profiles" in obj:
                 for id in obj["profiles"]:
-                    add_profile(id, obj.get("target"), obj["profiles"][id], code)
+                    add_profile(path, id, obj.get("target"), obj["profiles"][id], code)
             else:
-                add_profile(obj["id"], obj["target"], obj, code)
+                add_profile(path, obj["id"], obj["target"], obj, code)
         except json.decoder.JSONDecodeError as e:
             sys.stderr.write("Skip {}\n   {}\n".format(path, e))
         except KeyError as e:
