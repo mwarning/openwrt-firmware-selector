@@ -1,7 +1,7 @@
 /* global translations, config */
 /* exported build_asu_request, init */
 
-var current_model = {};
+let current_model = {};
 
 function $(query) {
   if (typeof query === "string") {
@@ -49,7 +49,7 @@ function build_asu_request() {
 
   function showStatus(message, url) {
     show("#buildstatus");
-    var tr = message.startsWith("tr-") ? message : "";
+    const tr = message.startsWith("tr-") ? message : "";
     if (url) {
       $("#buildstatus").innerHTML =
         '<a href="' + url + '" class="' + tr + '">' + message + "</a>";
@@ -65,7 +65,7 @@ function build_asu_request() {
   show("#buildspinner");
   showStatus("tr-request-image");
 
-  var request_data = {
+  const request_data = {
     target: current_model.target,
     profile: current_model.id,
     packages: split($("#packages").value),
@@ -84,7 +84,7 @@ function build_asu_request() {
           showStatus("tr-build-successful");
 
           response.json().then((mobj) => {
-            var download_url = config.asu_url + "/store/" + mobj.bin_dir;
+            const download_url = config.asu_url + "/store/" + mobj.bin_dir;
             showStatus("tr-build-successful", download_url + "/buildlog.txt");
             updateImages(
               mobj.version_number,
@@ -108,8 +108,8 @@ function build_asu_request() {
         case 500: // build failed
           hide("#buildspinner");
           response.json().then((mobj) => {
-            var message = mobj["message"] || "tr-build-failed";
-            var url = mobj.buildlog
+            const message = mobj["message"] || "tr-build-failed";
+            const url = mobj.buildlog
               ? config.asu_url + "/store/" + mobj.bin_dir + "/buildlog.txt"
               : undefined;
             showStatus(message, url);
@@ -124,8 +124,8 @@ function build_asu_request() {
 }
 
 function setupSelectList(select, items, onselection) {
-  for (var i = 0; i < items.length; i += 1) {
-    var option = document.createElement("OPTION");
+  for (let i = 0; i < items.length; i += 1) {
+    const option = document.createElement("OPTION");
     option.innerHTML = items[i];
     select.appendChild(option);
   }
@@ -141,8 +141,8 @@ function setupSelectList(select, items, onselection) {
 
 // Change the translation of the entire document
 function translate() {
-  var mapping = translations[config.language];
-  for (var tr in mapping) {
+  const mapping = translations[config.language];
+  for (const tr in mapping) {
     Array.from(document.getElementsByClassName(tr)).forEach((e) => {
       e.innerText = mapping[tr];
     });
@@ -150,10 +150,10 @@ function translate() {
 }
 
 function setupAutocompleteList(input, items, as_list, onbegin, onend) {
-  var currentFocus = -1;
+  let currentFocus = -1;
 
   // sort numbers and other characters separately
-  var collator = new Intl.Collator(undefined, {
+  const collator = new Intl.Collator(undefined, {
     numeric: true,
     sensitivity: "base",
   });
@@ -163,9 +163,9 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
   input.oninput = function () {
     onbegin();
 
-    var offset = 0;
-    var value = this.value;
-    var value_list = [];
+    let offset = 0;
+    let value = this.value;
+    let value_list = [];
 
     if (as_list) {
       // automcomplete last text item
@@ -182,7 +182,7 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
     }
 
     // create a DIV element that will contain the items (values):
-    var list = document.createElement("DIV");
+    const list = document.createElement("DIV");
     list.setAttribute("id", this.id + "-autocomplete-list");
     list.setAttribute("class", "autocomplete-items");
     // append the DIV element as a child of the autocomplete container:
@@ -192,13 +192,13 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
       return s.toUpperCase().replace(/[-_.]/g, " ");
     }
 
-    var match = normalize(value);
-    var c = 0;
-    for (var i = 0; i < items.length; i += 1) {
-      var item = items[i];
+    const match = normalize(value);
+    let c = 0;
+    for (let i = 0; i < items.length; i += 1) {
+      const item = items[i];
 
       // match
-      var j = normalize(item).indexOf(match);
+      let j = normalize(item).indexOf(match);
       if (j < 0) {
         continue;
       }
@@ -229,7 +229,7 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
 
         div.addEventListener("click", function () {
           // include selected value
-          var selected = this.getElementsByTagName("input")[0].value;
+          const selected = this.getElementsByTagName("input")[0].value;
           if (as_list) {
             input.value = value_list.join(" ") + " " + selected;
           } else {
@@ -246,7 +246,7 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
   };
 
   input.onkeydown = function (e) {
-    var x = document.getElementById(this.id + "-autocomplete-list");
+    let x = document.getElementById(this.id + "-autocomplete-list");
     if (x) x = x.getElementsByTagName("div");
     if (e.keyCode == 40) {
       // key down
@@ -281,7 +281,7 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
     // a function to classify an item as 'active':
     if (!x) return false;
     // start by removing the 'active' class on all items:
-    for (var i = 0; i < x.length; i++) {
+    for (let i = 0; i < x.length; i++) {
       x[i].classList.remove("autocomplete-active");
     }
     if (currentFocus >= x.length) currentFocus = 0;
@@ -293,8 +293,8 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
   function closeAllLists(elmnt) {
     // close all autocomplete lists in the document,
     // except the one passed as an argument:
-    var x = document.getElementsByClassName("autocomplete-items");
-    for (var i = 0; i < x.length; i++) {
+    const x = document.getElementsByClassName("autocomplete-items");
+    for (let i = 0; i < x.length; i++) {
       if (elmnt != x[i] && elmnt != input) {
         x[i].parentNode.removeChild(x[i]);
       }
@@ -329,7 +329,7 @@ function updatePackageList(version, target) {
           textarea.value = split(textarea.value)
             // make list unique, ignore minus
             .filter((value, index, self) => {
-              var i = self.indexOf(value.replace(/^-/, ""));
+              const i = self.indexOf(value.replace(/^-/, ""));
               return i === index || i < 0;
             })
             // limit to available packages, ignore minus
@@ -345,13 +345,13 @@ function updatePackageList(version, target) {
 function updateImages(version, code, date, model, url, mobj, is_custom) {
   // add download button for image
   function addLink(type, file) {
-    var a = document.createElement("A");
+    const a = document.createElement("A");
     a.classList.add("download-link");
     a.href =
       url.replace("{target}", mobj.target).replace("{version}", version) +
       "/" +
       file;
-    var span = document.createElement("SPAN");
+    const span = document.createElement("SPAN");
     span.appendChild(document.createTextNode(""));
     a.appendChild(span);
     a.appendChild(document.createTextNode(type.toUpperCase()));
@@ -362,7 +362,7 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
         Array.from(document.getElementsByClassName("download-help")).forEach(
           (e) => (e.style.display = "none")
         );
-        var lc = type.toLowerCase();
+        const lc = type.toLowerCase();
         if (lc.includes("sysupgrade")) {
           show("#sysupgrade-help");
         } else if (lc.includes("factory") || lc == "trx" || lc == "chk") {
@@ -404,8 +404,8 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
   );
 
   if (model && url && mobj) {
-    var target = mobj.target;
-    var images = mobj.images;
+    const target = mobj.target;
+    const images = mobj.images;
 
     // change between "version" and "custom" title
     if (is_custom) {
@@ -436,7 +436,7 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
 
     images.sort((a, b) => a.name.localeCompare(b.name));
 
-    for (var i in images) {
+    for (const i in images) {
       addLink(images[i].type, images[i].name);
     }
 
@@ -451,9 +451,9 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
 }
 
 function init() {
-  var build_date = "unknown";
+  let build_date = "unknown";
   setupSelectList($("#versions"), Object.keys(config.versions), (version) => {
-    var url = config.versions[version];
+    let url = config.versions[version];
     if (config.asu_url) {
       url = config.asu_url + "/" + url + "/profiles.json";
     }
@@ -480,11 +480,11 @@ function init() {
           false,
           updateImages,
           (models) => {
-            var model = models.value;
+            const model = models.value;
             if (model in obj["models"]) {
-              var url = obj.download_url || "unknown";
-              var code = obj.version_code || "unknown";
-              var mobj = obj["models"][model];
+              const url = obj.download_url || "unknown";
+              const code = obj.version_code || "unknown";
+              const mobj = obj["models"][model];
               updateImages(version, code, build_date, model, url, mobj, false);
               current_model = mobj;
             } else {
@@ -507,7 +507,9 @@ function init() {
   updateImages();
 
   // default to browser language
-  var user_lang = (navigator.language || navigator.userLanguage).split("-")[0];
+  const user_lang = (navigator.language || navigator.userLanguage).split(
+    "-"
+  )[0];
   if (user_lang in translations) {
     config.language = user_lang;
     $("#language-selection").value = user_lang;
