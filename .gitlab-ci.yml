@@ -5,6 +5,7 @@ include:
 stages:
   - pre-build
   - test
+  - deploy
 
 check HTML, JS, CSS with eslint and prettier:
   stage: pre-build
@@ -89,3 +90,28 @@ test scaned site with selenium:
   extends: .test site
   dependencies:
     - build site for target environment using scan method
+
+.deploy:
+  stage: deploy
+  image: alpine
+  dependencies:
+    - build site for target environment using scrape method
+  before_script:
+    - apk update && apk add rsync
+  only:
+    - master
+  script:
+    - rsync -rlptvz build/ "rsync://firmware_selector@mirror-02.infra.openwrt.org/$RSYNC_TARGET/www/"
+
+deploy to firmware-selector.staging.openwrt.org:
+  extends: .deploy
+  variables:
+    RSYNC_TARGET: firmware-selector-staging-upload
+
+deploy to firmware-selector.openwrt.org:
+  extends: .deploy
+  variables:
+    RSYNC_TARGET: firmware-selector-upload
+  when: manual
+  before_script:
+    - apk update && apk add rsync
