@@ -102,6 +102,7 @@ test scaned site with selenium:
     - apk update && apk add rsync
   only:
     - master
+    - tags
   script:
     - rsync -rlptvz build/ "rsync://firmware_selector@mirror-02.infra.openwrt.org/$RSYNC_TARGET/www/"
 
@@ -117,3 +118,5 @@ deploy to firmware-selector.openwrt.org:
   when: manual
   before_script:
     - apk update && apk add rsync
+  only:
+    - tags
