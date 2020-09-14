@@ -52,7 +52,7 @@ build site on Python 3.8:
   stage: pre-build
   image: debian:9
   before_script:
-    - apt-get update; apt-get install -y make python3 ca-certificates
+    - apt-get update; apt-get install -y make python3 ca-certificates git
   artifacts:
     expire_in: 1 week
     when: always
@@ -63,12 +63,14 @@ build site for target environment using scrape method:
   extends: .build site
   script:
     - cp -R ./www ./build
+    - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html
     - misc/collect.py scrape https://downloads.openwrt.org build
 
 build site for target environment using scan method:
   extends: .build site
   script:
     - cp -R ./www ./build
+    - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html
     - misc/collect.py scan downloads.openwrt.org tests/profiles build
 
 .test site:
