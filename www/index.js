@@ -124,9 +124,9 @@ function build_asu_request() {
 }
 
 function setupSelectList(select, items, onselection) {
-  for (let i = 0; i < items.length; i += 1) {
+  for (const item of items) {
     const option = document.createElement("OPTION");
-    option.innerHTML = items[i];
+    option.innerHTML = item;
     select.appendChild(option);
   }
 
@@ -194,9 +194,7 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
 
     const match = normalize(value);
     let c = 0;
-    for (let i = 0; i < items.length; i += 1) {
-      const item = items[i];
-
+    for (const item of items) {
       // match
       let j = normalize(item).indexOf(match);
       if (j < 0) {
@@ -277,26 +275,26 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
     onend(input);
   };
 
-  function setActive(x) {
+  function setActive(xs) {
     // a function to classify an item as 'active':
-    if (!x) return false;
+    if (!xs) return false;
     // start by removing the 'active' class on all items:
-    for (let i = 0; i < x.length; i++) {
-      x[i].classList.remove("autocomplete-active");
+    for (const x of xs) {
+      x.classList.remove("autocomplete-active");
     }
-    if (currentFocus >= x.length) currentFocus = 0;
-    if (currentFocus < 0) currentFocus = x.length - 1;
+    if (currentFocus >= xs.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = xs.length - 1;
     // add class 'autocomplete-active':
-    x[currentFocus].classList.add("autocomplete-active");
+    xs[currentFocus].classList.add("autocomplete-active");
   }
 
   function closeAllLists(elmnt) {
     // close all autocomplete lists in the document,
     // except the one passed as an argument:
-    const x = document.getElementsByClassName("autocomplete-items");
-    for (let i = 0; i < x.length; i++) {
-      if (elmnt != x[i] && elmnt != input) {
-        x[i].parentNode.removeChild(x[i]);
+    const xs = document.getElementsByClassName("autocomplete-items");
+    for (const x of xs) {
+      if (elmnt != x && elmnt != input) {
+        x.parentNode.removeChild(x);
       }
     }
   }
