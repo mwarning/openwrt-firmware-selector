@@ -2,6 +2,7 @@
 /* exported build_asu_request, init */
 
 let current_model = {};
+let url_params = undefined;
 
 function $(query) {
   if (typeof query === "string") {
@@ -130,8 +131,8 @@ function setupSelectList(select, items, onselection) {
     select.appendChild(option);
   }
 
-  // pre-select version from config.json
-  const preselect = config.default_version;
+  // pre-select version from URL or config.json
+  const preselect = url_params.get("version") || config.default_version;
   if (preselect) {
     $("#versions").value = preselect;
   }
@@ -448,6 +449,17 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
       updatePackageList(version, target);
     }
 
+    // set current selection in URL
+    history.pushState(
+      null,
+      null,
+      document.location.href.split("?")[0] +
+        "?version=" +
+        encodeURIComponent(version) +
+        "&id=" +
+        encodeURIComponent(mobj["id"])
+    );
+
     show("#images");
   } else {
     hide("#images");
@@ -477,6 +489,7 @@ function setModel(obj, id, model) {
 }
 
 function init() {
+  url_params = new URLSearchParams(window.location.search);
   let build_date = "unknown";
 
   setupSelectList($("#versions"), Object.keys(config.versions), (version) => {
@@ -530,7 +543,11 @@ function init() {
         );
 
         // set model when selected version changes
-        setModel(obj, current_model["id"], current_model["model"]);
+        setModel(
+          obj,
+          current_model["id"] || url_params.get("id"),
+          current_model["model"] || url_params.get("model")
+        );
 
         // trigger update of current selected model
         $("#models").onfocus();
