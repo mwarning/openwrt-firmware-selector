@@ -454,13 +454,38 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
   }
 }
 
+// Update model title in search box.
+// Device id and model title might change between releases.
+function setModel(obj, id, model) {
+  if (id) {
+    for (const mobj of Object.values(obj["models"])) {
+      if (mobj["id"] == id) {
+        $("#models").value = mobj["model"];
+        return;
+      }
+    }
+  }
+
+  if (model) {
+    for (const mobj of Object.values(obj["models"])) {
+      if (mobj["model"].toLowerCase() == model.toLowerCase()) {
+        $("#models").value = mobj["model"];
+        return;
+      }
+    }
+  }
+}
+
 function init() {
   let build_date = "unknown";
+
   setupSelectList($("#versions"), Object.keys(config.versions), (version) => {
+    // A new version was selected
     let url = config.versions[version];
     if (config.asu_url) {
       url = config.asu_url + "/" + url + "/profiles.json";
     }
+
     fetch(url)
       .then((obj) => {
         build_date = obj.headers.get("last-modified");
@@ -475,6 +500,12 @@ function init() {
             obj["models"][get_model_titles(value.titles)] = value;
           }
         }
+
+        // add key (title) to each model object
+        for (const [title, mobj] of Object.entries(obj["models"])) {
+          mobj["model"] = title;
+        }
+
         return obj;
       })
       .then((obj) => {
@@ -498,7 +529,10 @@ function init() {
           }
         );
 
-        // trigger model update when selected version changes
+        // set model when selected version changes
+        setModel(obj, current_model["id"], current_model["model"]);
+
+        // trigger update of current selected model
         $("#models").onfocus();
       });
   });
