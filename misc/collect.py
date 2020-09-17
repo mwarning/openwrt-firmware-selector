@@ -329,8 +329,30 @@ def scan(args):
                 }
             )
 
+    """
+        Replace {base} variable in download URL with the intersection
+        of all profile.json paths. E.g.:
+        ../tmp/releases/18.06.8/targets => base is releases/18.06.8/targets
+        ../tmp/snapshots/targets => base in snapshots/targets
+    """
+
+    def replace_base(releases, target_release, download_url):
+        if "{base}" in download_url:
+            # release => base path (of profiles.json locations)
+            paths = {}
+            for release, profiles in releases.items():
+                paths[release] = os.path.commonpath(profiles.keys())
+            # base path of all releases
+            release_path_base = os.path.commonpath(paths.values())
+            # get path intersection
+            base = str(paths[target_release])[len(release_path_base) + 1 :]
+            return download_url.replace("{base}", base)
+        else:
+            return download_url
+
     for release, profiles in releases.items():
-        output = merge_profiles(profiles, args.download_url)
+        download_url = replace_base(releases, release, args.download_url)
+        output = merge_profiles(profiles, download_url)
 
         versions[release] = "data/{}/overview.json".format(release)
         os.makedirs("{}/{}".format(data_path, release), exist_ok=True)
