@@ -124,10 +124,16 @@ function build_asu_request() {
 }
 
 function setupSelectList(select, items, onselection) {
-  for (const item of items) {
+  for (const item of items.sort().reverse()) {
     const option = document.createElement("OPTION");
     option.innerHTML = item;
     select.appendChild(option);
+  }
+
+  // pre-select version from config.json
+  const preselect = config.default_version;
+  if (preselect) {
+    $("#versions").value = preselect;
   }
 
   select.addEventListener("change", () => {
