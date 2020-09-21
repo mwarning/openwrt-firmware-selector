@@ -64,18 +64,19 @@ def merge_profiles(profiles, download_url):
     # json output data
     output = {}
 
-    for path, content in profiles.items():
-        obj = json.loads(content)
+    for profile in profiles:
+        obj = json.loads(profile["file_content"])
 
         if obj["metadata_version"] != SUPPORTED_METADATA_VERSION:
             sys.stderr.write(
                 "{} has unsupported metadata version: {} => skip\n".format(
-                    path, obj["metadata_version"]
+                    profile["file_path"], obj["metadata_version"]
                 )
             )
             continue
 
         code = obj.get("version_code", obj.get("version_commit"))
+        file_path = profile["file_path"]
 
         if "version_code" not in output:
             output = {"version_code": code, "download_url": download_url, "models": {}}
@@ -88,14 +89,19 @@ def merge_profiles(profiles, download_url):
             if "profiles" in obj:
                 for id in obj["profiles"]:
                     add_profile(
-                        output, path, id, obj.get("target"), obj["profiles"][id], code
+                        output,
+                        file_path,
+                        id,
+                        obj.get("target"),
+                        obj["profiles"][id],
+                        code,
                     )
             else:
-                add_profile(output, path, obj["id"], obj["target"], obj, code)
+                add_profile(output, file_path, obj["id"], obj["target"], obj, code)
         except json.decoder.JSONDecodeError as e:
-            sys.stderr.write("Skip {}\n   {}\n".format(path, e))
+            sys.stderr.write("Skip {}\n   {}\n".format(file_path, e))
         except KeyError as e:
-            sys.stderr.write("Abort on {}\n   Missing key {}\n".format(path, e))
+            sys.stderr.write("Abort on {}\n   Missing key {}\n".format(file_path, e))
             exit(1)
 
     return output
@@ -126,13 +132,16 @@ def scrape(args):
     versions = {}
 
     def handle_release(target):
-        profiles = {}
+        profiles = []
         with urllib.request.urlopen("{}/?json".format(target)) as file:
             array = json.loads(file.read().decode("utf-8"))
             for profile in filter(lambda x: x.endswith("/profiles.json"), array):
                 with urllib.request.urlopen("{}/{}".format(target, profile)) as file:
-                    profiles["{}/{}".format(target, profile)] = file.read().decode(
-                        "utf-8"
+                    profiles.append(
+                        {
+                            "file_path": "{}/{}".format(target, profile),
+                            "file_content": file.read().decode("utf-8"),
+                        }
                     )
         return profiles
 
@@ -197,10 +206,12 @@ def scrape_wget(args):
             release = os.path.basename(path)
             base = path[len(tmp_dir) + 1 :]
 
-            profiles = {}
+            profiles = []
             for ppath in Path(path).rglob("profiles.json"):
                 with open(str(ppath), "r", encoding="utf-8") as file:
-                    profiles[ppath] = file.read()
+                    profiles.append(
+                        {"file_path": str(ppath), "file_content": file.read()}
+                    )
 
             if len(profiles) == 0:
                 continue
@@ -230,11 +241,11 @@ Find and merge json files for a single release.
 def merge(args):
     input_paths = args.input_path
     # OpenWrt JSON device files
-    profiles = {}
+    profiles = []
 
     def add_path(path):
         with open(str(path), "r", encoding="utf-8") as file:
-            profiles[path] = file.read()
+            profiles.append({"file_path": str(path), "file_content": file.read()})
 
     for path in input_paths:
         if os.path.isdir(path):
@@ -275,7 +286,9 @@ def scan(args):
             content = file.read()
             obj = json.loads(content)
             release = obj["version_number"]
-            releases.setdefault(release, {})[path] = content
+            releases.setdefault(release, []).append(
+                {"file_path": str(path), "file_content": content}
+            )
 
     for release, profiles in releases.items():
         output = merge_profiles(profiles, args.download_url)
