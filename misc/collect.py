@@ -6,7 +6,10 @@ Tool to create overview.json files and update the config.js.
 from pathlib import Path
 import urllib.request
 import tempfile
+import datetime
 import argparse
+import email
+import time
 import json
 import glob
 import sys
@@ -14,11 +17,12 @@ import os
 import re
 
 SUPPORTED_METADATA_VERSION = 1
+BUILD_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 
 assert sys.version_info >= (3, 5), "Python version too old. Python >=3.5.0 needed."
 
 
-def add_profile(output, path, id, target, profile, code=None):
+def add_profile(output, path, id, target, profile, code=None, build_date=None):
     def get_title(title):
         if "title" in title:
             return title["title"]
@@ -55,6 +59,9 @@ def add_profile(output, path, id, target, profile, code=None):
 
         output["models"][title] = {"id": id, "target": target, "images": images}
 
+        if build_date is not None:
+            output["models"][title]["build_date"] = build_date
+
         if code is not None:
             output["models"][title]["code"] = code
 
@@ -77,6 +84,7 @@ def merge_profiles(profiles, download_url):
 
         code = obj.get("version_code", obj.get("version_commit"))
         file_path = profile["file_path"]
+        build_date = profile["last_modified"]
 
         if "version_code" not in output:
             output = {"version_code": code, "download_url": download_url, "models": {}}
@@ -95,9 +103,12 @@ def merge_profiles(profiles, download_url):
                         obj.get("target"),
                         obj["profiles"][id],
                         code,
+                        build_date,
                     )
             else:
-                add_profile(output, file_path, obj["id"], obj["target"], obj, code)
+                add_profile(
+                    output, file_path, obj["id"], obj["target"], obj, code, build_date
+                )
         except json.decoder.JSONDecodeError as e:
             sys.stderr.write("Skip {}\n   {}\n".format(file_path, e))
         except KeyError as e:
@@ -137,10 +148,14 @@ def scrape(args):
             array = json.loads(file.read().decode("utf-8"))
             for profile in filter(lambda x: x.endswith("/profiles.json"), array):
                 with urllib.request.urlopen("{}/{}".format(target, profile)) as file:
+                    last_modified = datetime.datetime(
+                        *email.utils.parsedate(file.headers.get("last-modified"))[:6]
+                    ).strftime(BUILD_DATE_FORMAT)
                     profiles.append(
                         {
                             "file_path": "{}/{}".format(target, profile),
                             "file_content": file.read().decode("utf-8"),
+                            "last_modified": last_modified,
                         }
                     )
         return profiles
@@ -209,8 +224,16 @@ def scrape_wget(args):
             profiles = []
             for ppath in Path(path).rglob("profiles.json"):
                 with open(str(ppath), "r", encoding="utf-8") as file:
+                    # we assume local timezone is UTC/GMT
+                    last_modified = datetime.datetime.fromtimestamp(
+                        os.path.getmtime(ppath)
+                    ).strftime(BUILD_DATE_FORMAT)
                     profiles.append(
-                        {"file_path": str(ppath), "file_content": file.read()}
+                        {
+                            "file_path": str(ppath),
+                            "file_content": file.read(),
+                            "last_modified": last_modified,
+                        }
                     )
 
             if len(profiles) == 0:
@@ -245,7 +268,16 @@ def merge(args):
 
     def add_path(path):
         with open(str(path), "r", encoding="utf-8") as file:
-            profiles.append({"file_path": str(path), "file_content": file.read()})
+            last_modified = time.strftime(
+                BUILD_DATE_FORMAT, time.gmtime(os.path.getmtime(str(path)))
+            )
+            profiles.append(
+                {
+                    "file_path": str(path),
+                    "file_content": file.read(),
+                    "last_modified": last_modified,
+                }
+            )
 
     for path in input_paths:
         if os.path.isdir(path):
@@ -286,8 +318,15 @@ def scan(args):
             content = file.read()
             obj = json.loads(content)
             release = obj["version_number"]
+            last_modified = time.strftime(
+                BUILD_DATE_FORMAT, time.gmtime(os.path.getmtime(str(path)))
+            )
             releases.setdefault(release, []).append(
-                {"file_path": str(path), "file_content": content}
+                {
+                    "file_path": str(path),
+                    "file_content": content,
+                    "last_modified": last_modified,
+                }
             )
 
     for release, profiles in releases.items():
