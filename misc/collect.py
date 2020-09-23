@@ -338,7 +338,8 @@ def scan(args):
             # release => base path (of profiles.json locations)
             paths = {}
             for release, profiles in releases.items():
-                paths[release] = os.path.commonpath(profiles.keys())
+                profile_paths = [profile["file_path"] for profile in profiles]
+                paths[release] = os.path.commonpath(profile_paths)
             # base path of all releases
             release_path_base = os.path.commonpath(paths.values())
             # get path intersection
