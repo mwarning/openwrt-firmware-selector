@@ -28,7 +28,11 @@ Place the `www/` folder somewhere web accessible. Then use the `collect.py` scri
 
 This should do it.
 
-The https link is used to access image files. `{version}` will be replaced by the name of the release, e.g. `19.07.4`. `{taget}` will be replaced by the main- and sub target, e.g. `ath79/generic`.
+The https link is used to access image files. There are different variables available:
+
+* `{version}`: Version in the profiles.json files. E.g. `19.07.4` or `SNAPSHOT`.
+* `{target}`: Main- and sub target, E.g. `ath79/generic`.
+* `{base}`: Distinct path to the targets directory. E.g. `releases/18.06.8/targets/`
 
 The `collect.py` script searches the `~/openwrt/bin/` directory for `profile.json` files. These are merged into `overview.json` files (one per release). The `overview.json` files are then placed into `www/data/` and `www/config.js` is updated.
 
