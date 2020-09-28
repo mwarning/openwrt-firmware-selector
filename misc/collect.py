@@ -120,13 +120,19 @@ def merge_profiles(profiles, download_url):
 
 def update_config(www_path, versions):
     config_path = "{}/config.js".format(www_path)
-    content = ""
-    with open(str(config_path), "r", encoding="utf-8") as file:
-        content = file.read()
 
-    content = re.sub("versions:[\\s]*{[^}]*}", "versions: {}".format(versions), content)
-    with open(str(config_path), "w+") as file:
-        file.write(content)
+    if os.path.isfile(config_path):
+        content = ""
+        with open(str(config_path), "r", encoding="utf-8") as file:
+            content = file.read()
+
+        content = re.sub(
+            "versions:[\\s]*{[^}]*}", "versions: {}".format(versions), content
+        )
+        with open(str(config_path), "w+") as file:
+            file.write(content)
+    else:
+        sys.stderr.write("Warning: File not found: {}\n".format(config_path))
 
 
 """
@@ -158,10 +164,6 @@ def scrape(args):
                         }
                     )
         return profiles
-
-    if not os.path.isfile(config_path):
-        print("file not found: {}".format(config_path))
-        exit(1)
 
     # fetch release URLs
     with urllib.request.urlopen(url) as infile:
