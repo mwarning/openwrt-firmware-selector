@@ -118,7 +118,8 @@ def merge_profiles(profiles, download_url):
     return output
 
 
-def update_config(config_path, versions):
+def update_config(www_path, versions):
+    config_path = "{}/config.js".format(www_path)
     content = ""
     with open(str(config_path), "r", encoding="utf-8") as file:
         content = file.read()
@@ -137,9 +138,7 @@ Update config.json.
 
 def scrape(args):
     url = args.domain
-    www_path = args.www_path
-    config_path = "{}/config.js".format(www_path)
-    data_path = "{}/data".format(www_path)
+    data_path = "{}/data".format(args.www_path)
     versions = {}
 
     def handle_release(target):
@@ -186,7 +185,7 @@ def scrape(args):
 
                     versions[release] = "data/{}/overview.json".format(release)
 
-    update_config(config_path, versions)
+    update_config(args.www_path, versions)
 
 
 """
@@ -198,9 +197,7 @@ Update config.json.
 
 def scrape_wget(args):
     url = args.domain
-    www_path = args.www_path
-    config_path = "{}/config.js".format(www_path)
-    data_path = "{}/data".format(www_path)
+    data_path = "{}/data".format(args.www_path)
     versions = {}
 
     with tempfile.TemporaryDirectory() as tmp_dir:
@@ -253,7 +250,7 @@ def scrape_wget(args):
                 else:
                     json.dump(output, outfile, sort_keys=True)
 
-        update_config(config_path, versions)
+        update_config(args.www_path, versions)
 
 
 """
@@ -305,8 +302,6 @@ Update config.json.
 
 
 def scan(args):
-    # firmware selector config
-    config_path = "{}/config.js".format(args.www_path)
     # the overview.json files are placed here
     data_path = "{}/data".format(args.www_path)
     versions = {}
@@ -365,7 +360,7 @@ def scan(args):
             else:
                 json.dump(output, outfile, sort_keys=True)
 
-    update_config(config_path, versions)
+    update_config(args.www_path, versions)
 
 
 def main():
