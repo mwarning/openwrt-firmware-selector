@@ -46,7 +46,7 @@ If the option is not available (OpenWrt 18.06 or 19.07.3), apply commit [openwrt
 If you want to scrape the OpenWrt download website and update the `config.js`:
 
 ```
-./collect.py --download-url "https://firmware.example.com/{version}/targets/{target}" scrape https://downloads.openwrt.org /var/www/firmware_selector
+./misc/collect.py scrape https://downloads.openwrt.org www/
 ```
 
 ## Similar Projects
