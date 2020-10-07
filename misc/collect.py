@@ -15,6 +15,7 @@ import glob
 import sys
 import os
 import re
+from distutils.version import StrictVersion
 
 SUPPORTED_METADATA_VERSION = 1
 BUILD_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
@@ -126,8 +127,22 @@ def update_config(www_path, versions):
         with open(str(config_path), "r", encoding="utf-8") as file:
             content = file.read()
 
+        latest_version = "0.0.0"
+        for version in versions.keys():
+            try:
+                if StrictVersion(version) > StrictVersion(latest_version):
+                    latest_version = version
+            except ValueError:
+                print("Non numeric version: {}".format(version))
+                continue
+
         content = re.sub(
             "versions:[\\s]*{[^}]*}", "versions: {}".format(versions), content
+        )
+        content = re.sub(
+            "default_version:.*,",
+            'default_version: "{}",'.format(latest_version),
+            content,
         )
         with open(str(config_path), "w+") as file:
             file.write(content)
