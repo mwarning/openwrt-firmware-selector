@@ -12,7 +12,7 @@ var config = {
     "18.06.7": "../misc/18.06.7/overview.json",
   },
   // Pre-selected version
-  //default_version: "19.07.1",
+  default_version: "19.07.1",
   // Build custom images
   // See https://github.com/aparcar/asu
   //asu_url: 'https://chef.libremesh.org'
