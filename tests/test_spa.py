@@ -16,6 +16,10 @@ def test_spa():
     driver.get("http://localhost:8000")
     assert "OpenWrt Firmware Selector" in driver.title
 
+    versions = Select(driver.find_element_by_id("versions"))
+    selected_version = versions.first_selected_option.get_attribute("value")
+    assert "snapshot" not in selected_version.lower()
+
     model = driver.find_element_by_id("models")
     model.clear()
     model.send_keys("a7 v5")
