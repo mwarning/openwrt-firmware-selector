@@ -33,10 +33,10 @@ var translations = {
     "tr-check-again": "Proveu de nou d'aquí 5 segons...",
   },
   en: {
-    "tr-load": "Download OpenWrt firmware for your device!",
+    "tr-load": "Download OpenWrt Firmware for your Device!",
     "tr-title": "OpenWrt Firmware Selector",
     "tr-message":
-      "Please use the input below to download firmware for your device!",
+      'Enter the name/model of your device, then select the Stable version (default) or the nightly "snapshot" image.',
     "tr-version-build": "Build",
     "tr-custom-build": "Custom Build",
     "tr-customize": "Customize",
@@ -48,9 +48,9 @@ var translations = {
     "tr-downloads": "Downloads",
     "tr-custom-downloads": "Custom Downloads",
     "tr-factory-help":
-      "Factory images are for flashing routers with OpenWrt for the first time. Usually via the web interface of the original firmware.",
+      "Use a Factory image to flash a router with OpenWrt for the first time. You normally do this via the web interface of the original firmware.",
     "tr-sysupgrade-help":
-      "Sysupgrade images are for flashing routers that already run OpenWrt. The image can be applied using the web interface or the terminal.",
+      "Use a Sysupgrade image to update a router that already runs OpenWrt. The image can be used with the LuCI web interface or the terminal.",
     "tr-kernel-help": "Linux kernel as a separate image.",
     "tr-rootfs-help": "Root file system as a separate image.",
     "tr-sdcard-help": "Image that is meant to be flashed onto a SD-Card.",
