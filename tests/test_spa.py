@@ -28,7 +28,7 @@ def test_spa():
     assert "TP-Link Archer A7 v5" in models.text
 
     message = driver.find_element_by_xpath("/html/body/div/div/p")
-    assert "use the input below to download firmware" in message.text
+    assert "Enter the name/model of your device" in message.text
 
     lang = Select(driver.find_element_by_id("language-selection"))
 
