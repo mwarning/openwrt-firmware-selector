@@ -246,7 +246,7 @@ var translations = {
     "tr-load": "Cihazınız için OpenWrt yazılımını indirin!",
     "tr-title": "OpenWrt Yazılım Seçicisi",
     "tr-message":
-      "Cihazınız için yazılımı indirmek için lütfen aşağıdaki girişi kullanın!",
+      'Cihazınızın adını/modelini girin, ardından Stabil sürümü(varsayılan) veya nightly "snapshot" imajini seçin.',
     "tr-version-build": "Sürüm",
     "tr-custom-build": "Özel Sürüm",
     "tr-customize": "Özelleştir",
@@ -258,9 +258,9 @@ var translations = {
     "tr-downloads": "İndirmeler",
     "tr-custom-downloads": "Özel İndirmeler",
     "tr-factory-help":
-      "Fabrika imajları, ilk kez OpenWrt yüklenen cihazlar içindir. Genellikle orijinal ürün yazılımının web arayüzü üzerinden yüklenir.",
+      "Bir yönlendiriciyi OpenWrt ile ilk kez flashlamak için bir Fabrika imaji kullanın. Bu normalde orijinal aygıt yazılımının web arayüzü aracılığıyla yapılır.",
     "tr-sysupgrade-help":
-      "Sysupgrade imajları, zaten OpenWrt kurulu cihazlar içindir. İmaj, web arayüzü veya terminal kullanılarak yüklenebilir.",
+      "Zaten OpenWrt çalıştıran bir yönlendiriciyi güncellemek için bir Sysupgrade imajı kullanın. Imaj, LuCI web arayüzü veya terminal ile kullanılabilir.",
     "tr-kernel-help": "Linux kernel ayrı bir imaj olarak.",
     "tr-rootfs-help": "Kök Dosya Sistemi ayrı bir imaj olarak.",
     "tr-sdcard-help": "SD-Kart 'a kurulması planlanan imaj",
