@@ -116,7 +116,5 @@ deploy to firmware-selector.openwrt.org:
   variables:
     RSYNC_TARGET: firmware-selector-upload
   when: manual
-  before_script:
-    - apk update && apk add rsync
   only:
     - tags
