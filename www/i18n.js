@@ -216,7 +216,7 @@ var translations = {
     "tr-load": "Pobieranie oprogramowania OpenWrt!",
     "tr-title": "OpenWrt Firmware Selector",
     "tr-message":
-      "Użyj pola poniżej żeby znaleźć obraz dla swojego urządzenia!",
+      "Wprowadź nazwę/model swojego urządzenia, a następnie wybierz wersję stabilną (domyślną) lub wersję rozwojową obrazu.",
     "tr-version-build": "Informacje o obrazie",
     "tr-custom-build": "Informacje o zmodyfikowanym obrazie",
     "tr-customize": "Modyfikacja",
@@ -228,9 +228,9 @@ var translations = {
     "tr-downloads": "Obrazy do pobrania",
     "tr-custom-downloads": "Zmodyfikowane obrazy do pobrania",
     "tr-factory-help":
-      "Obraz factory używany jest do pierwszej instalacji OpenWrt. Zwykle można go użyć wykorzystując interfejs graficzny oryginalnego oprogramowania.",
+      "Użyj obrazu factory do pierwszej instalacji OpenWrt. Zwykle można go użyć wykorzystując interfejs graficzny oryginalnego oprogramowania.",
     "tr-sysupgrade-help":
-      "Obraz sysuprade używany jest do aktualizacji routerów z zainstalowanym już OpenWrt. Obraz można użyć przez GUI lub konsolę.",
+      "Użyj obrazu sysuprade do aktualizacji routera z zainstalowanym już OpenWrt. Obraz można użyć przez interfejs graficzny LuCI lub konsolę.",
     "tr-kernel-help": "Osobny obraz z kernelem linuksowym.",
     "tr-rootfs-help": "Osobny obraz z system plików.",
     "tr-sdcard-help": "Obraz do wgrania na kartę SD.",
