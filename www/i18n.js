@@ -3,10 +3,10 @@
 var translations = {
   ca: {
     "tr-load":
-      "Descarregueu el microprogramari OpenWrt per al vostre dispositiu!",
+      "Descarregueu el microprogramari OpenWrt per al vostre dispositiu",
     "tr-title": "Selector de microprogramari OpenWrt",
     "tr-message":
-      "Feu servir el formulari de sota per seleccionar i descarregar el microprogramari per al vostre dispositiu!",
+      'Introduïu el nom o el model del vostre dispositiu i seleccioneu la versió estable (per defecte) o la darrera imatge compilada ("snapshot")',
     "tr-version-build": "Compilació",
     "tr-custom-build": "Compilació personalitzada",
     "tr-customize": "Personalitzar",
@@ -18,9 +18,9 @@ var translations = {
     "tr-downloads": "Descàrregues",
     "tr-custom-downloads": "Descàrregues personalitzades",
     "tr-factory-help":
-      "Les imatges Factory són per instal·lar OpenWrt als dispositius per primera vegada. Usualment, això es fa a través de la interfície web del microprogramari original.",
+      'Empreu la imatge "factory" per instal·lar OpenWrt a un dispositius per primera vegada. Normalment ho podreu fer través de la interfície web del microprogramari original.',
     "tr-sysupgrade-help":
-      "Les imatges Sysupgrade són per instal·lar-les als dispositius que ja tenen OpenWrt. La imatge es pot instal·lar a través de la interfície web o del terminal.",
+      'Empreu la imatge "sysupgrade" per actualitzar un dispositiu que ja tingui OpenWrt instal·lat. La imatge es pot instal·lar a través de la interfície web LuCI o del terminal.',
     "tr-kernel-help": "El nucli de Linux en una imatge separada.",
     "tr-rootfs-help": "El sistema de fitxers arrel en una imatge separada.",
     "tr-sdcard-help": "Una imatge feta per escriure-la a una targeta SD.",
