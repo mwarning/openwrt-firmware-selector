@@ -10,6 +10,7 @@
     <script src="index.js"></script>
   </head>
   <body onload="init()">
+    <!-- header across the whole page -->
     <header>
       <div>
         <img src="logo.svg" width="180" alt="Logo" />
@@ -31,13 +32,13 @@
 
     <div class="container">
       <div>
-        <h2 class="tr-load">Download OpenWrt Firmware for your Device!</h2>
+        <h2 class="tr-load">Download OpenWrt Firmware for your Device</h2>
         <p class="tr-message">
-          Enter the name/model of your device, then select the Stable version
-          (default) or the nightly "snapshot" image.
+          Type the name or model of your device, then select a stable build or
+          the nightly "snapshot" build.
         </p>
-        <br />
 
+        <!-- Model name and Build dropdown -->
         <div id="models-autocomplete" class="autocomplete">
           <input
             id="models"
@@ -45,12 +46,10 @@
             placeholder="Model"
             spellcheck="false"
             autocapitalize="off"
+            autofocus
           />
+          <select id="versions" size="1"></select>
         </div>
-        <select id="versions" size="1"></select>
-
-        <br />
-        <br />
 
         <div>
           <img id="buildspinner" src="spinner.gif" alt="Logo" />
@@ -73,8 +72,9 @@
             </a>
           </div>
 
+          <!-- static information about the selected build -->
           <div>
-            <h3 id="build-title" class="tr-version-build">Release Build</h3>
+            <h3 id="build-title" class="tr-version-build">About this build</h3>
             <div>
               <span class="column tr-model">Model:</span>
               <span id="image-model"></span>
@@ -94,19 +94,22 @@
           </div>
 
           <div id="download-links">
-            <h3 id="downloads-title" class="tr-downloads">Downloads</h3>
+            <h3 id="downloads-title" class="tr-downloads">Download an image</h3>
+            <!-- download buttons created dynamically and inserted here -->
           </div>
 
+          <!-- Explanatory text for each download button: make visible when hovering -->
           <div>
-            <span id="factory-help" class="download-help tr-factory-help"
-              >Factory images are for flashing routers with OpenWrt for the
-              first time using the web interface of the original firmware.</span
-            >
-            <span id="sysupgrade-help" class="download-help tr-sysupgrade-help"
-              >Sysupgrade images are for flashing routers that already run
-              OpenWrt. The image can be applied using the web interface or the
-              console.</span
-            >
+            <span id="factory-help" class="download-help tr-factory-help">
+              Use a Factory image to flash a router with OpenWrt for the first
+              time. You normally do this via the web interface of the original
+              firmware.
+            </span>
+            <span id="sysupgrade-help" class="download-help tr-sysupgrade-help">
+              Use a Sysupgrade image to update a router that already runs
+              OpenWrt. The image can be used with the LuCI web interface or the
+              terminal.
+            </span>
             <span id="kernel-help" class="download-help tr-kernel-help"
               >Linux kernel as a separate image.</span
             >

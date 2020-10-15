@@ -33,11 +33,11 @@ var translations = {
     "tr-check-again": "Proveu de nou d'aquí 5 segons...",
   },
   en: {
-    "tr-load": "Download OpenWrt Firmware for your Device!",
+    "tr-load": "Download OpenWrt Firmware for your Device",
     "tr-title": "OpenWrt Firmware Selector",
     "tr-message":
-      'Enter the name/model of your device, then select the Stable version (default) or the nightly "snapshot" image.',
-    "tr-version-build": "Build",
+      'Type the name or model of your device, then select a stable build or the nightly "snapshot" build.',
+    "tr-version-build": "About this build",
     "tr-custom-build": "Custom Build",
     "tr-customize": "Customize",
     "tr-request-build": "Request Build",
@@ -45,7 +45,7 @@ var translations = {
     "tr-target": "Platform:",
     "tr-version": "Version:",
     "tr-date": "Date:",
-    "tr-downloads": "Downloads",
+    "tr-downloads": "Download an image",
     "tr-custom-downloads": "Custom Downloads",
     "tr-factory-help":
       "Use a Factory image to flash a router with OpenWrt for the first time. You normally do this via the web interface of the original firmware.",
