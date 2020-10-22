@@ -34,7 +34,7 @@ def add_profile(output, path, id, target, profile, code=None, build_date=None):
 
     images = []
     for image in profile["images"]:
-        images.append({"name": image["name"], "type": image["type"]})
+        images.append({"name": image["name"], "type": image["type"], "sha256": image["sha256"]})
 
     if target is None:
         target = profile["target"]

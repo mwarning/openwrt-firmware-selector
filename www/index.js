@@ -347,50 +347,57 @@ function updatePackageList(version, target) {
     });
 }
 
+function setValue(id, value) {
+  const root = $(id).parentNode;
+  if (value !== undefined) {
+    $(id).innerText = value;
+    show(root);
+  } else {
+    hide(root);
+  }
+}
+
 function updateImages(version, code, date, model, url, mobj, is_custom) {
+  function displayHelp(image) {
+    // hide all help texts
+    Array.from(document.getElementsByClassName("download-help")).forEach(
+      (e) => (e.style.display = "none")
+    );
+    const lc = image.type.toLowerCase();
+    if (lc.includes("sysupgrade")) {
+      show("#sysupgrade-help");
+    } else if (lc.includes("factory") || lc == "trx" || lc == "chk") {
+      show("#factory-help");
+    } else if (
+      lc.includes("kernel") ||
+      lc.includes("zimage") ||
+      lc.includes("uimage")
+    ) {
+      show("#kernel-help");
+    } else if (lc.includes("root")) {
+      show("#rootfs-help");
+    } else if (lc.includes("sdcard")) {
+      show("#sdcard-help");
+    } else if (lc.includes("tftp")) {
+      show("#tftp-help");
+    } else {
+      show("#other-help");
+    }
+  }
+
   // add download button for image
-  function addLink(type, file) {
+  function createLink(image) {
     const a = document.createElement("A");
     a.classList.add("download-link");
     a.href =
       url.replace("{target}", mobj.target).replace("{version}", version) +
       "/" +
-      file;
+      image.file;
     const span = document.createElement("SPAN");
     span.appendChild(document.createTextNode(""));
     a.appendChild(span);
-    a.appendChild(document.createTextNode(type.toUpperCase()));
-
-    if (config.showHelp) {
-      a.onmouseover = function () {
-        // hide all help texts
-        Array.from(document.getElementsByClassName("download-help")).forEach(
-          (e) => (e.style.display = "none")
-        );
-        const lc = type.toLowerCase();
-        if (lc.includes("sysupgrade")) {
-          show("#sysupgrade-help");
-        } else if (lc.includes("factory") || lc == "trx" || lc == "chk") {
-          show("#factory-help");
-        } else if (
-          lc.includes("kernel") ||
-          lc.includes("zimage") ||
-          lc.includes("uimage")
-        ) {
-          show("#kernel-help");
-        } else if (lc.includes("root")) {
-          show("#rootfs-help");
-        } else if (lc.includes("sdcard")) {
-          show("#sdcard-help");
-        } else if (lc.includes("tftp")) {
-          show("#tftp-help");
-        } else {
-          show("#other-help");
-        }
-      };
-    }
-
-    $("#download-links").appendChild(a);
+    a.appendChild(document.createTextNode(image.type.toUpperCase()));
+    return a;
   }
 
   function switchClass(query, from_class, to_class) {
@@ -438,11 +445,22 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
     $("#image-version").innerText = version;
     $("#image-code").innerText = mobj["code"] || code;
     $("#image-date").innerText = date;
+    setValue("#image-sha256", undefined);
 
     images.sort((a, b) => a.name.localeCompare(b.name));
 
-    for (const i in images) {
-      addLink(images[i].type, images[i].name);
+    for (const image of images) {
+      const a = createLink(image);
+
+      a.onmouseover = function () {
+        setValue("#image-sha256", image.sha256);
+
+        if (config.showHelp) {
+          displayHelp(image);
+        }
+      };
+
+      $("#download-links").appendChild(a);
     }
 
     if (config.asu_url) {
