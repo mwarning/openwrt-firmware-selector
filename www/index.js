@@ -440,11 +440,11 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
     translate();
 
     // fill out build info
-    $("#image-model").innerText = model;
-    $("#image-target").innerText = target;
-    $("#image-version").innerText = version;
-    $("#image-code").innerText = mobj["code"] || code;
-    $("#image-date").innerText = date;
+    setValue("#image-model", model);
+    setValue("#image-target", target);
+    setValue("#image-version", version);
+    setValue("#image-code", mobj["code"] || code);
+    setValue("#image-date", date);
     setValue("#image-sha256", undefined);
 
     images.sort((a, b) => a.name.localeCompare(b.name));
