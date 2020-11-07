@@ -23,27 +23,34 @@ BUILD_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 assert sys.version_info >= (3, 5), "Python version too old. Python >=3.5.0 needed."
 
 
-def add_profile(output, path, id, target, profile, code=None, build_date=None):
-    def get_title(title):
-        if "title" in title:
-            return title["title"]
-        else:
-            return "{} {} {}".format(
-                title.get("vendor", ""), title["model"], title.get("variant", "")
-            ).strip()
+def get_title(title):
+    if "title" in title:
+        # for OpenWrt with old patches
+        return title["title"]
+    else:
+        return "{} {} {}".format(
+            title.get("vendor", ""), title["model"], title.get("variant", "")
+        ).strip()
 
+
+def add_profile(output, path, id, target, profile, version_code=None, build_date=None):
+
+    """
     images = []
     for image in profile["images"]:
         images.append({"name": image["name"], "type": image["type"]})
+    """
 
-    if target is None:
-        target = profile["target"]
+    # if target is None:
+    #    target = profile["target"]
 
     for entry in profile["titles"]:
         title = get_title(entry)
 
         if len(title) == 0:
-            sys.stderr.write("Empty title. Skip title for {} in {}\n".format(id, path))
+            sys.stderr.write(
+                "Warning: Skip empty title for {} in {}\n".format(id, path)
+            )
             continue
 
         """
@@ -58,17 +65,19 @@ def add_profile(output, path, id, target, profile, code=None, build_date=None):
         if title in output["models"]:
             title = "{} ({})".format(title, target)
 
-        output["models"][title] = {"id": id, "target": target, "images": images}
+        output["models"][title] = {"id": id, "target": target}
 
+        """
         if build_date is not None:
             output["models"][title]["build_date"] = build_date
 
-        if code is not None:
-            output["models"][title]["code"] = code
+        if version_code is not None:
+            output["models"][title]["version_code"] = version_code
+        """
 
 
 # accepts {<file-path>: <file-content>}
-def merge_profiles(profiles, download_url):
+def merge_profiles(profiles, image_url):
     # json output data
     output = {}
 
@@ -83,15 +92,19 @@ def merge_profiles(profiles, download_url):
             )
             continue
 
-        code = obj.get("version_code", obj.get("version_commit"))
+        version_code = obj.get("version_code", obj.get("version_commit"))
         file_path = profile["file_path"]
         build_date = profile["last_modified"]
 
         if "version_code" not in output:
-            output = {"version_code": code, "download_url": download_url, "models": {}}
+            output = {
+                "version_code": version_code,
+                "image_url": image_url,
+                "models": {},
+            }
 
         # if we have mixed codes/commits, store in device object
-        if output["version_code"] == code:
+        if output["version_code"] == version_code:
             code = None
 
         try:
@@ -103,12 +116,18 @@ def merge_profiles(profiles, download_url):
                         id,
                         obj.get("target"),
                         obj["profiles"][id],
-                        code,
+                        version_code,
                         build_date,
                     )
             else:
                 add_profile(
-                    output, file_path, obj["id"], obj["target"], obj, code, build_date
+                    output,
+                    file_path,
+                    obj["id"],
+                    obj["target"],
+                    obj,
+                    version_code,
+                    build_date,
                 )
         except json.decoder.JSONDecodeError as e:
             sys.stderr.write("Skip {}\n   {}\n".format(file_path, e))
@@ -133,7 +152,7 @@ def update_config(www_path, versions):
                 if StrictVersion(version) > StrictVersion(latest_version):
                     latest_version = version
             except ValueError:
-                print("Non numeric version: {}".format(version))
+                print("Warning: Non numeric version: {}".format(version))
                 continue
 
         content = re.sub(
@@ -185,10 +204,10 @@ def scrape(args):
         for path in re.findall(r"href=[\"']?([^'\" >]+)", str(infile.read())):
             if not path.startswith("/") and path.endswith("targets/"):
                 release = path.strip("/").split("/")[-2]
-                download_url = "{}/{}/{{target}}".format(url, path)
+                image_url = "{}/{}/{{target}}".format(url, path)
 
                 profiles = handle_release("{}/{}".format(url, path))
-                output = merge_profiles(profiles, download_url)
+                output = merge_profiles(profiles, image_url)
                 if len(output) > 0:
                     os.makedirs("{}/{}".format(data_path, release), exist_ok=True)
                     # write overview.json
@@ -303,7 +322,7 @@ def merge(args):
                 exit(1)
             add_path(path)
 
-    output = merge_profiles(profiles, args.download_url)
+    output = merge_profiles(profiles, args.image_url)
 
     if args.formatted:
         json.dump(output, sys.stdout, indent="  ", sort_keys=True)
@@ -319,11 +338,10 @@ Update config.json.
 
 
 def scan(args):
-    # the overview.json files are placed here
+    # the overview.json files are placed there
     data_path = "{}/data".format(args.www_path)
     versions = {}
 
-    # args.images_path => args.releases_path
     releases = {}
     for path in Path(args.images_path).rglob("profiles.json"):
         with open(str(path), "r", encoding="utf-8") as file:
@@ -336,7 +354,7 @@ def scan(args):
             releases.setdefault(release, []).append(
                 {
                     "file_path": str(path),
-                    "file_content": content,
+                    "file_content": json.loads(content),
                     "last_modified": last_modified,
                 }
             )
@@ -348,8 +366,8 @@ def scan(args):
         ../tmp/snapshots/targets => base in snapshots/targets
     """
 
-    def replace_base(releases, target_release, download_url):
-        if "{base}" in download_url:
+    def replace_base(releases, target_release, image_url):
+        if "{base}" in image_url:
             # release => base path (of profiles.json locations)
             paths = {}
             for release, profiles in releases.items():
@@ -359,23 +377,52 @@ def scan(args):
             release_path_base = os.path.commonpath(paths.values())
             # get path intersection
             base = str(paths[target_release])[len(release_path_base) + 1 :]
-            return download_url.replace("{base}", base)
+            return image_url.replace("{base}", base)
         else:
-            return download_url
+            return image_url
+
+    # generate an overview of all models of a build
+    def get_overview_json(release, profiles, image_url):
+        models = {"models": {}, "image_url": image_url, "release": release}
+        for profile in profiles:
+            obj = profile["file_content"]
+            for model_id, model_obj in obj["profiles"].items():
+                models["models"][model_id] = {
+                    "target": obj["target"],
+                    "titles": model_obj["titles"],
+                }
+
+        return models
+
+    def write_json(path, content):
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w") as file:
+            if args.formatted:
+                json.dump(content, file, indent="  ", sort_keys=True)
+            else:
+                json.dump(content, file, sort_keys=True)
 
     for release, profiles in releases.items():
-        download_url = replace_base(releases, release, args.download_url)
-        output = merge_profiles(profiles, download_url)
+        image_url = replace_base(releases, release, args.image_url)
+        overview_json = get_overview_json(release, profiles, image_url)
 
-        versions[release] = "data/{}/overview.json".format(release)
-        os.makedirs("{}/{}".format(data_path, release), exist_ok=True)
+        overview_path = "{}/overview.json".format(release)
+        write_json("{}/{}".format(data_path, overview_path), overview_json)
 
-        # write overview.json
-        with open("{}/{}/overview.json".format(data_path, release), "w") as outfile:
-            if args.formatted:
-                json.dump(output, outfile, indent="  ", sort_keys=True)
-            else:
-                json.dump(output, outfile, sort_keys=True)
+        # write profiles.json files
+        for profile in profiles:
+            obj = profile["file_content"]
+            for model_id, model_obj in obj["profiles"].items():
+                c = {**obj, **model_obj}
+                c["build_at"] = profile["last_modified"]
+                c["id"] = model_id
+                del c["profiles"]
+                profiles_path = "{}/{}/{}/{}.json".format(
+                    data_path, release, obj["target"], model_id
+                )
+                write_json(profiles_path, c)
+
+        versions[release] = "data/" + overview_path
 
     update_config(args.www_path, versions)
 
@@ -414,7 +461,7 @@ def main():
 
     parser_scan = subparsers.add_parser("scan", help="Scan directory for releases.")
     parser_scan.add_argument(
-        "download_url", help="Download for images. E.g. https://downloads.openwrt.org"
+        "image_url", help="Download for images. E.g. https://downloads.openwrt.org"
     )
     parser_scan.add_argument("images_path", help="Directory to scan for releases.")
     parser_scan.add_argument("www_path", help="Path the config.js file is in.")

@@ -1,7 +1,7 @@
 /* global translations, config */
-/* exported build_asu_request, init */
+/* exported buildAsuRequest, init */
 
-let current_model = {};
+let current_device = {};
 let url_params = undefined;
 
 function $(query) {
@@ -24,26 +24,24 @@ function split(str) {
   return str.match(/[^\s,]+/g) || [];
 }
 
-function get_model_titles(titles) {
-  return titles
-    .map((e) => {
-      if (e.title) {
-        return e.title;
-      } else {
-        return (
-          (e.vendor || "") +
-          " " +
-          (e.model || "") +
-          " " +
-          (e.variant || "")
-        ).trim();
-      }
-    })
-    .join(" / ");
+function getModelTitles(titles) {
+  return titles.map((e) => {
+    if (e.title) {
+      return e.title;
+    } else {
+      return (
+        (e.vendor || "") +
+        " " +
+        (e.model || "") +
+        " " +
+        (e.variant || "")
+      ).trim();
+    }
+  });
 }
 
-function build_asu_request() {
-  if (!current_model || !current_model.id) {
+function buildAsuRequest() {
+  if (!current_device || !current_device.id) {
     alert("bad profile");
     return;
   }
@@ -67,8 +65,8 @@ function build_asu_request() {
   showStatus("tr-request-image");
 
   const request_data = {
-    target: current_model.target,
-    profile: current_model.id,
+    target: current_device.target,
+    profile: current_device.id,
     packages: split($("#packages").value),
     version: $("#versions").value,
   };
@@ -85,23 +83,15 @@ function build_asu_request() {
           showStatus("tr-build-successful");
 
           response.json().then((mobj) => {
-            const download_url = config.asu_url + "/store/" + mobj.bin_dir;
-            showStatus("tr-build-successful", download_url + "/buildlog.txt");
-            updateImages(
-              mobj.version_number,
-              mobj.version_code,
-              mobj.build_at,
-              get_model_titles(mobj.titles),
-              download_url,
-              mobj,
-              true
-            );
+            const image_url = config.asu_url + "/store/" + mobj.bin_dir;
+            showStatus("tr-build-successful", image_url + "/buildlog.txt");
+            updateImages(mobj, image_url, true);
           });
           break;
         case 202:
           showStatus("tr-check-again");
           setTimeout(() => {
-            build_asu_request();
+            buildAsuRequest();
           }, 5000);
           break;
         case 400: // bad request
@@ -347,13 +337,15 @@ function updatePackageList(version, target) {
     });
 }
 
-function updateImages(version, code, date, model, url, mobj, is_custom) {
+function updateImages(mobj, image_url, is_custom) {
   // add download button for image
   function addLink(type, file) {
     const a = document.createElement("A");
     a.classList.add("download-link");
     a.href =
-      url.replace("{target}", mobj.target).replace("{version}", version) +
+      image_url
+        .replace("{target}", mobj.target)
+        .replace("{version}", mobj.version_number) +
       "/" +
       file;
     const span = document.createElement("SPAN");
@@ -408,8 +400,7 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
     (e) => (e.style.display = "none")
   );
 
-  if (model && url && mobj) {
-    const target = mobj.target;
+  if (image_url && mobj) {
     const images = mobj.images;
 
     // change between "version" and "custom" title
@@ -433,11 +424,11 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
     translate();
 
     // fill out build info
-    $("#image-model").innerText = model;
-    $("#image-target").innerText = target;
-    $("#image-version").innerText = version;
-    $("#image-code").innerText = mobj["code"] || code;
-    $("#image-date").innerText = date;
+    $("#image-model").innerText = getModelTitles(mobj.titles).join(" / ");
+    $("#image-target").innerText = mobj.target;
+    $("#image-version").innerText = mobj.version_number;
+    $("#image-code").innerText = mobj.version_code;
+    $("#image-date").innerText = mobj.build_at;
 
     images.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -446,7 +437,7 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
     }
 
     if (config.asu_url) {
-      updatePackageList(version, target);
+      updatePackageList(version, mobj.target);
     }
 
     // set current selection in URL
@@ -455,9 +446,9 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
       null,
       document.location.href.split("?")[0] +
         "?version=" +
-        encodeURIComponent(version) +
+        encodeURIComponent(mobj.version_number) +
         "&id=" +
-        encodeURIComponent(mobj["id"])
+        encodeURIComponent(mobj.id)
     );
 
     show("#images");
@@ -468,58 +459,75 @@ function updateImages(version, code, date, model, url, mobj, is_custom) {
 
 // Update model title in search box.
 // Device id and model title might change between releases.
-function setModel(obj, id, model) {
+function setModel(obj, id, title) {
   if (id) {
     for (const mobj of Object.values(obj["models"])) {
       if (mobj["id"] == id) {
-        $("#models").value = mobj["model"];
-        return;
+        for (const title1 of getModelTitles(mobj["titles"])) {
+          $("#models").value = title1;
+          return;
+        }
       }
     }
   }
 
-  if (model) {
+  if (title) {
     for (const mobj of Object.values(obj["models"])) {
-      if (mobj["model"].toLowerCase() == model.toLowerCase()) {
-        $("#models").value = mobj["model"];
-        return;
+      for (const title1 of getModelTitles(mobj["titles"])) {
+        if (title1.toLowerCase() == title.toLowerCase()) {
+          $("#models").value = title1;
+          return;
+        }
       }
     }
   }
 }
 
+function changeModel(version, overview, model) {
+  if (model in overview["models"]) {
+    let build_date = "unknown";
+    const id = overview["models"][model]["id"];
+    const target = overview["models"][model]["target"];
+    const profiles_url = "data/" + version + "/" + target + "/" + id + ".json";
+
+    fetch(profiles_url)
+      .then((obj) => {
+        return obj.json();
+      })
+      .then((mobj) => {
+        updateImages(mobj, overview.image_url, false);
+        current_device = { version: version, id: id, target: target };
+      });
+  } else {
+    updateImages();
+    current_device = {};
+  }
+}
+
 function init() {
   url_params = new URLSearchParams(window.location.search);
-  let build_date = "unknown";
 
   setupSelectList($("#versions"), Object.keys(config.versions), (version) => {
     // A new version was selected
-    let url = config.versions[version];
+    let overview_url = config.versions[version];
     if (config.asu_url) {
-      url = config.asu_url + "/" + url + "/profiles.json";
+      overview_url = config.asu_url + "/" + overview_url + "/profiles.json";
     }
 
-    fetch(url)
+    fetch(overview_url)
       .then((obj) => {
-        build_date = obj.headers.get("last-modified");
         return obj.json();
       })
       .then((obj) => {
-        // handle native openwrt json format
-        if ("profiles" in obj) {
-          obj["models"] = {};
-          for (const [key, value] of Object.entries(obj["profiles"])) {
-            value["id"] = key;
-            obj["models"][get_model_titles(value.titles)] = value;
+        // change models format
+        let models = {};
+        for (const [id, value] of Object.entries(obj["models"])) {
+          for (const title of getModelTitles(value["titles"])) {
+            value["id"] = id;
+            models[title] = value;
           }
         }
-
-        // add key (title) to each model object
-        for (const [title, mobj] of Object.entries(obj["models"])) {
-          mobj["model"] = title;
-        }
-
-        return obj;
+        return { models: models, image_url: obj["image_url"] };
       })
       .then((obj) => {
         setupAutocompleteList(
@@ -527,26 +535,16 @@ function init() {
           Object.keys(obj["models"]),
           false,
           updateImages,
-          (models) => {
-            const model = models.value;
-            if (model in obj["models"]) {
-              const url = obj.download_url || "unknown";
-              const code = obj.version_code || "unknown";
-              const mobj = obj["models"][model];
-              updateImages(version, code, build_date, model, url, mobj, false);
-              current_model = mobj;
-            } else {
-              updateImages();
-              current_model = {};
-            }
+          (selectList) => {
+            changeModel(version, obj, selectList.value);
           }
         );
 
         // set model when selected version changes
         setModel(
           obj,
-          current_model["id"] || url_params.get("id"),
-          current_model["model"] || url_params.get("model")
+          current_device["id"] || url_params.get("id"),
+          current_device["title"] || url_params.get("title")
         );
 
         // trigger update of current selected model
