@@ -1,0 +1,57 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-mt76",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "id": "mac1200r-v2",
+  "image_prefix": "openwrt-18.06.8-ramips-mt76x8-mac1200r-v2",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ramips-mt76x8-mac1200r-v2-squashfs-sysupgrade.bin",
+      "sha256": "f8f9836d824c48b82d7b828e1d1dbe97bca5596685aa34d7656235b14cda0783",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mac1200rv2"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "title": "Mercury MAC1200R v2.0"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

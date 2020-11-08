@@ -1,0 +1,77 @@
+{
+  "arch_packages": "powerpc_8540",
+  "build_at": "2020-09-11 00:49:48",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "kmod-usb2"
+  ],
+  "device_packages": [
+    "kmod-tpm-i2c-atmel"
+  ],
+  "id": "aerohive_hiveap-330",
+  "image_prefix": "openwrt-mpc85xx-p1020-aerohive_hiveap-330",
+  "images": [
+    {
+      "name": "openwrt-mpc85xx-p1020-aerohive_hiveap-330-squashfs-sysupgrade.bin",
+      "sha256": "7bb9f869f6b02a9b325e916d6dad82a6001b65e206b60080d85d193a191e10f6",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-mpc85xx-p1020-aerohive_hiveap-330-squashfs-fdt.bin",
+      "sha256": "65c6edce3077727395753574f92dbf4bd8dda8142b0459200000b714189aaac1",
+      "type": "fdt"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "aerohive,hiveap-330"
+  ],
+  "target": "mpc85xx/p1020",
+  "titles": [
+    {
+      "model": "HiveAP-330",
+      "vendor": "Aerohive"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

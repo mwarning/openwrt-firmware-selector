@@ -1,0 +1,58 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 01:31:52",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-heartbeat",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [],
+  "id": "lantiq_easy98020",
+  "image_prefix": "openwrt-lantiq-falcon-lantiq_easy98020",
+  "images": [
+    {
+      "name": "openwrt-lantiq-falcon-lantiq_easy98020-squashfs-sysupgrade.bin",
+      "sha256": "4143c7565c0a7321d4c241011707a0c151a7f6aba7da0a0cec118a1a62faddcd",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lantiq,easy98020"
+  ],
+  "target": "lantiq/falcon",
+  "titles": [
+    {
+      "model": "Falcon SFU Reference Board (EASY98020)",
+      "variant": "v1.0-v1.7",
+      "vendor": "Lantiq"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

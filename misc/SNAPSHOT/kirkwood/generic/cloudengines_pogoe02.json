@@ -1,0 +1,64 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2020-09-11 23:18:05",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-usb2",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-usb2"
+  ],
+  "device_packages": [],
+  "id": "cloudengines_pogoe02",
+  "image_prefix": "openwrt-kirkwood-cloudengines_pogoe02",
+  "images": [
+    {
+      "name": "openwrt-kirkwood-cloudengines_pogoe02-squashfs-sysupgrade.bin",
+      "sha256": "bc8b2926985dcbca66be6d316cff965050d3edbb0529379f2cab1424a17e0c58",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-kirkwood-cloudengines_pogoe02-squashfs-factory.bin",
+      "sha256": "fa7567a3870162e8382ae968c8083f94186dcc92a0ba6fa9727bc7b80afbee23",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cloudengines,pogoe02",
+    "pogo_e02"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "Pogoplug E02",
+      "vendor": "Cloud Engines"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

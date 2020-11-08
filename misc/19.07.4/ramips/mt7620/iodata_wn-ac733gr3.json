@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 16:30:04",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e",
+    "kmod-switch-rtl8367b"
+  ],
+  "id": "iodata_wn-ac733gr3",
+  "image_prefix": "openwrt-19.07.4-ramips-mt7620-iodata_wn-ac733gr3",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt7620-iodata_wn-ac733gr3-squashfs-factory.bin",
+      "sha256": "2f46513a28962c5abe44dd3245b3a3fc1b86acf9b32438142c83ef11541173dd",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-mt7620-iodata_wn-ac733gr3-squashfs-sysupgrade.bin",
+      "sha256": "1507a3181ea9179e691f677cbbb66966e4bd1ae907121453b794d98a833c20cd",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iodata,wn-ac733gr3"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "title": "I-O DATA WN-AC733GR3"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

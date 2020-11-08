@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "id": "librerouter_librerouter-v1",
+  "image_prefix": "openwrt-ath79-generic-librerouter_librerouter-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-librerouter_librerouter-v1-squashfs-sysupgrade.bin",
+      "sha256": "4ff6e4164aab39b928e091fd7f01544f17ed9afda50b8a1ec1811e7eabbcd928",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "librerouter,librerouter-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "LibreRouter",
+      "variant": "v1",
+      "vendor": "Librerouter"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

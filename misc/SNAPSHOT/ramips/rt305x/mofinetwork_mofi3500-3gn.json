@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:12:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "mofinetwork_mofi3500-3gn",
+  "image_prefix": "openwrt-ramips-rt305x-mofinetwork_mofi3500-3gn",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-mofinetwork_mofi3500-3gn-squashfs-sysupgrade.bin",
+      "sha256": "4803bad72406ae3f9c8aa078f1139c3cc993e54548a11232f5a9ef15cb16e44c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mofinetwork,mofi3500-3gn",
+    "mofi3500-3gn"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "MOFI3500-3GN",
+      "vendor": "MoFi Network"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

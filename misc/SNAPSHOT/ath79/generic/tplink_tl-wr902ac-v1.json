@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath10k-ct-smallbuffers",
+    "ath10k-firmware-qca9887-ct",
+    "-swconfig",
+    "-uboot-envtools"
+  ],
+  "id": "tplink_tl-wr902ac-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_tl-wr902ac-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr902ac-v1-squashfs-factory.bin",
+      "sha256": "2d5468ba5fb9aeee19a8bd217e93d234c7cb6f754306d58783745c9f77a55196",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr902ac-v1-squashfs-sysupgrade.bin",
+      "sha256": "59db776ff056eefd170d7e37609d6ed13e33aa359a4d27fd536c8af6e16ed733",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr902ac-v1",
+    "tl-wr902ac-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WR902AC",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

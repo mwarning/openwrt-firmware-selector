@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "tplink_tl-wr842n-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_tl-wr842n-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr842n-v1-squashfs-factory.bin",
+      "sha256": "51e88ef4f4a371e8ca9829d9fe02440d65c64b4f95439ef4541d448e6d152917",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr842n-v1-squashfs-sysupgrade.bin",
+      "sha256": "e43de4e768411990a36c0b4fbe18cdc1425e44acdae3e5e1921624e74c215196",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr842n-v1",
+    "tl-mr3420"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WR842N/ND",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

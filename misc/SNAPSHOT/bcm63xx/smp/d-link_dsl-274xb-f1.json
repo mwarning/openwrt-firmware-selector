@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 16:37:12",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "d-link_dsl-274xb-f1",
+  "image_prefix": "openwrt-bcm63xx-smp-d-link_dsl-274xb-f1",
+  "images": [
+    {
+      "name": "openwrt-bcm63xx-smp-d-link_dsl-274xb-f1-squashfs-cfe-EU.bin",
+      "sha256": "0e6b1682c94387699730ccfff89b7e949a4f05d73ffaeb892b804eb4c6c2fa77",
+      "type": "cfe-EU"
+    },
+    {
+      "name": "openwrt-bcm63xx-smp-d-link_dsl-274xb-f1-squashfs-cfe-AU.bin",
+      "sha256": "6ca65568f29a32987c248bf7500b4ef18ed3e9b4e469c185393487b032542dab",
+      "type": "cfe-AU"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "DSL-2740B",
+      "variant": "F1",
+      "vendor": "D-Link"
+    },
+    {
+      "model": "DSL-2741B",
+      "variant": "F1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

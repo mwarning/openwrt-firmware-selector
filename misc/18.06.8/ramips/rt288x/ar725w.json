@@ -1,0 +1,57 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "id": "ar725w",
+  "image_prefix": "openwrt-18.06.8-ramips-rt288x-ar725w",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ramips-rt288x-ar725w-squashfs-sysupgrade.bin",
+      "sha256": "82cf1f313130b7f14b4872ab5e9c27ba8a20f51e7d720bec8d6e7c5b63f81526",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ar725w"
+  ],
+  "target": "ramips/rt288x",
+  "titles": [
+    {
+      "title": "Airlink AR725W"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

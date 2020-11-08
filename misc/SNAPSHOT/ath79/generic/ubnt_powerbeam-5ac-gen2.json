@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct-smallbuffers",
+    "ath10k-firmware-qca988x-ct",
+    "rssileds"
+  ],
+  "id": "ubnt_powerbeam-5ac-gen2",
+  "image_prefix": "openwrt-ath79-generic-ubnt_powerbeam-5ac-gen2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-ubnt_powerbeam-5ac-gen2-squashfs-factory.bin",
+      "sha256": "82763d567f9a96733b87278fb976d5dfbcc60c283aac3497f6a94601318b3b6f",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-ubnt_powerbeam-5ac-gen2-squashfs-sysupgrade.bin",
+      "sha256": "8ea3f3a871ec569711a134891e1d04f37b5fce17b42bb375b18de8cfff5151d6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubnt,powerbeam-5ac-gen2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "PowerBeam 5AC",
+      "variant": "Gen2",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

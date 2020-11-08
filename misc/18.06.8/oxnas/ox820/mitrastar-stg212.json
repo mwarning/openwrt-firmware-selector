@@ -1,0 +1,75 @@
+{
+  "arch_packages": "arm_mpcore",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools",
+    "uboot-oxnas-ox820",
+    "block-mount",
+    "fdisk",
+    "lsblk",
+    "mdadm",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2-oxnas",
+    "kmod-ata-oxnas-sata",
+    "kmod-ledtrig-usbdev"
+  ],
+  "id": "mitrastar-stg212",
+  "image_prefix": "openwrt-18.06.8-oxnas-ox820-mitrastar-stg212",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-oxnas-ox820-mitrastar-stg212-squashfs-ubinized.bin",
+      "sha256": "d66f085c13ec4960bf1c5b371cf4ee6847fe837b909e8a162f3487c46fb69cc9",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-18.06.8-oxnas-ox820-mitrastar-stg212-squashfs-sysupgrade.tar",
+      "sha256": "a1628e007a4487cf45d4d8feaf1f6f8b05c6d7be5b155fe36dfe97f00bee1132",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-oxnas-ox820-mitrastar-stg212-ubifs-ubinized.bin",
+      "sha256": "b4541de567d07e16d710354f70cb316e32924aeb55f95c5db3710e2b12f61715",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-18.06.8-oxnas-ox820-mitrastar-stg212-ubifs-sysupgrade.tar",
+      "sha256": "c7d3dbf4cc7bf6c1d44138161c1151b22d566ee14170326ce6188d174fd469f1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mitrastar,stg-212",
+    "stg212"
+  ],
+  "target": "oxnas/ox820",
+  "titles": [
+    {
+      "title": "MitraStar STG-212"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

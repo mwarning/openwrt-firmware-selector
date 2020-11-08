@@ -1,0 +1,80 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-10 21:23:47",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-dwc3-qcom",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic-wolfssl",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-usb-dwc3-qcom",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic-wolfssl",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct"
+  ],
+  "device_packages": [
+    "fritz-tffs",
+    "fritz-caldata"
+  ],
+  "id": "avm_fritzbox-4040",
+  "image_prefix": "openwrt-ipq40xx-generic-avm_fritzbox-4040",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-avm_fritzbox-4040-squashfs-eva.bin",
+      "sha256": "2f756461b06273fb11eada94d2bbebd19049e3e4b12b3badc2a05c4ca013b5dd",
+      "type": "eva"
+    },
+    {
+      "name": "openwrt-ipq40xx-generic-avm_fritzbox-4040-squashfs-sysupgrade.bin",
+      "sha256": "290fabfa5c799757ca32341312449ccac51885e15c24bddc51ec2283766c647b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "avm,fritzbox-4040"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "FRITZ!Box 4040",
+      "vendor": "AVM"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

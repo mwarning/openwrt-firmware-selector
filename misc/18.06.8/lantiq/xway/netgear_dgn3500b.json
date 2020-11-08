@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath9k",
+    "kmod-owl-loader",
+    "wpad-mini",
+    "kmod-ltq-adsl-ar9-mei",
+    "kmod-ltq-adsl-ar9",
+    "kmod-ltq-adsl-ar9-fw-b",
+    "kmod-ltq-atm-ar9",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ltq-deu-ar9",
+    "iwinfo"
+  ],
+  "id": "netgear_dgn3500b",
+  "image_prefix": "openwrt-18.06.8-lantiq-xway-netgear_dgn3500b",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-lantiq-xway-netgear_dgn3500b-squashfs-factory.img",
+      "sha256": "8be057d2cd8fb8fe948b495f684b5512f05c38b3262ecc6bede91451aa201b8c",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-lantiq-xway-netgear_dgn3500b-squashfs-sysupgrade.bin",
+      "sha256": "8c609faa873b05525b568478de60249e14860b47af0bc0f7ab4fbb6635edbc4f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,dgn3500b",
+    "DGN3500B"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "title": "Netgear DGN3500B"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

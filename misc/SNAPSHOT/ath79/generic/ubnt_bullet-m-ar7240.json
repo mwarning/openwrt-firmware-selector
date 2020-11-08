@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "rssileds"
+  ],
+  "id": "ubnt_bullet-m-ar7240",
+  "image_prefix": "openwrt-ath79-generic-ubnt_bullet-m-ar7240",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-ubnt_bullet-m-ar7240-squashfs-factory.bin",
+      "sha256": "496229a23499a05302196848aab775cbbd2061571fe1000386a2f3db8d624860",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-ubnt_bullet-m-ar7240-squashfs-sysupgrade.bin",
+      "sha256": "1e411c0ca3d381736c1766412e421a9be95dc725bcbe23d4398a79e5f6decfdd",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubnt,bullet-m-ar7240",
+    "bullet-m"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Bullet M",
+      "variant": "XM (AR7240)",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

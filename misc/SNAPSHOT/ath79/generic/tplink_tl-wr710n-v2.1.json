@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "tplink_tl-wr710n-v2.1",
+  "image_prefix": "openwrt-ath79-generic-tplink_tl-wr710n-v2.1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr710n-v2.1-squashfs-factory.bin",
+      "sha256": "1485b358584d94f7d8bf6fee1c878c6befbf33ef8d4e3165f5e249825d8b5d4a",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wr710n-v2.1-squashfs-sysupgrade.bin",
+      "sha256": "910bbe989c4e06f7d2d3815c804ad773a818f3e685a2501c5144ec3f8b04ab14",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr710n-v2.1",
+    "tl-wr710n"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WR710N",
+      "variant": "v2.1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

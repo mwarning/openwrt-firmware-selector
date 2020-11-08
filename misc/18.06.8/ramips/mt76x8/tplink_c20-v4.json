@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-mt76",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "id": "tplink_c20-v4",
+  "image_prefix": "openwrt-18.06.8-ramips-mt76x8-tplink_c20-v4",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ramips-mt76x8-tplink_c20-v4-squashfs-tftp-recovery.bin",
+      "sha256": "21673b6f5242e9c3fd2b014868a9d916658599435dc9b48dcec18af8849fdb7e",
+      "type": "tftp-recovery"
+    },
+    {
+      "name": "openwrt-18.06.8-ramips-mt76x8-tplink_c20-v4-squashfs-sysupgrade.bin",
+      "sha256": "23efb29ad24222fa1a3743acf6cb162276016a17a5cd52316600cf3ba6fd7f8a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,c20-v4"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "title": "TP-Link ArcherC20 v4"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 01:31:52",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-heartbeat",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [
+    "kmod-dm9000",
+    "kmod-i2c-lantiq",
+    "kmod-eeprom-at24"
+  ],
+  "id": "lantiq_easy98000-sflash",
+  "image_prefix": "openwrt-lantiq-falcon-lantiq_easy98000-sflash",
+  "images": [
+    {
+      "name": "openwrt-lantiq-falcon-lantiq_easy98000-sflash-squashfs-sysupgrade.bin",
+      "sha256": "ab672989866951346a6f36688edfd8011e438ffb83965a0716111f60ad8a455f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lantiq,easy98000-sflash"
+  ],
+  "target": "lantiq/falcon",
+  "titles": [
+    {
+      "model": "EASY98000 Falcon Eval Board",
+      "variant": "SFLASH",
+      "vendor": "Lantiq"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,70 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-11 00:09:06",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "kmod-usb-storage",
+    "partx-utils",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "kmod-usb-storage",
+    "partx-utils"
+  ],
+  "device_packages": [
+    "layerscape-rcw"
+  ],
+  "id": "fsl_ls1021a-twr",
+  "image_prefix": "openwrt-layerscape-armv7-fsl_ls1021a-twr",
+  "images": [
+    {
+      "name": "openwrt-layerscape-armv7-fsl_ls1021a-twr-squashfs-sysupgrade.bin",
+      "sha256": "e61844c47b0fe72c6881c5fb737186af9fb7fc4d57aa673539520cec4864d554",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-layerscape-armv7-fsl_ls1021a-twr-squashfs-firmware.bin",
+      "sha256": "a30366c52fe8a8520bb265fdf13d1c16223a3936bfc7c107dd948a8f84e45bcc",
+      "type": "firmware"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "fsl,ls1021a-twr"
+  ],
+  "target": "layerscape/armv7",
+  "titles": [
+    {
+      "model": "TWR-LS1021A",
+      "variant": "Default",
+      "vendor": "NXP"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

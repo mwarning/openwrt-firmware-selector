@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 16:37:12",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "nand-utils",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "comtrend_vg-8050",
+  "image_prefix": "openwrt-bcm63xx-smp-comtrend_vg-8050",
+  "images": [
+    {
+      "name": "openwrt-bcm63xx-smp-comtrend_vg-8050-squashfs-cfe.bin",
+      "sha256": "d33500e48df4c1223293069bbf2a29f49e31fae14fc45d7a3d0690b68b8079f3",
+      "type": "cfe"
+    },
+    {
+      "name": "openwrt-bcm63xx-smp-comtrend_vg-8050-squashfs-sysupgrade.bin",
+      "sha256": "9342ef2738bff29674a372ffa172fe335f01319ee026a5991e71cded929db034",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "comtrend,vg-8050"
+  ],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "VG-8050",
+      "vendor": "Comtrend"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

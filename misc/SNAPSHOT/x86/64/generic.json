@@ -1,0 +1,92 @@
+{
+  "arch_packages": "x86_64",
+  "build_at": "2020-09-11 01:19:58",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-bnx2",
+    "kmod-e1000e",
+    "kmod-e1000",
+    "kmod-forcedeth",
+    "kmod-igb",
+    "kmod-ixgbe",
+    "kmod-r8169"
+  ],
+  "id": "generic",
+  "image_prefix": "openwrt-x86-64-generic",
+  "images": [
+    {
+      "name": "openwrt-x86-64-generic-squashfs-rootfs.img.gz",
+      "sha256": "459818ed023aea841cb94ec44027896e5874dec81b074addc65b206d2a88972f",
+      "type": "rootfs"
+    },
+    {
+      "name": "openwrt-x86-64-generic-ext4-rootfs.img.gz",
+      "sha256": "1f4800dc44f86bf7352e39ebfbfb79601295dc72f89c935725b98fb7a03bbf59",
+      "type": "rootfs"
+    },
+    {
+      "name": "openwrt-x86-64-generic-squashfs-combined-efi.img.gz",
+      "sha256": "ae60f8338cc368e703b46cba405c62dbfe2cc2b0672a956b6493aa6749e5f1e3",
+      "type": "combined-efi"
+    },
+    {
+      "name": "openwrt-x86-64-generic-ext4-combined-efi.img.gz",
+      "sha256": "8080a9ac37049138295d5a4f70b37dbd0a15971723eaf20f9fdcb7b1c04ab813",
+      "type": "combined-efi"
+    },
+    {
+      "name": "openwrt-x86-64-generic-ext4-combined.img.gz",
+      "sha256": "03374529c26166517ad13726e7069075fa487be5f454ee579b96dbcc46a44b3c",
+      "type": "combined"
+    },
+    {
+      "name": "openwrt-x86-64-generic-squashfs-combined.img.gz",
+      "sha256": "8f99c5f5ab1a50a6280604b96f455a77058478dd23311425155f3ba63987c471",
+      "type": "combined"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "x86/64",
+  "titles": [
+    {
+      "title": "Generic x86/64"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

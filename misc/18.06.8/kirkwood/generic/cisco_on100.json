@@ -1,0 +1,58 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-i2c-mv64xxx"
+  ],
+  "id": "cisco_on100",
+  "image_prefix": "openwrt-18.06.8-kirkwood-cisco_on100",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-kirkwood-cisco_on100-squashfs-factory.bin",
+      "sha256": "989765653a8cc33329fbb7fa5641e90d433f62bb77eb95d5f89aa3d6d5077340",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-kirkwood-cisco_on100-squashfs-sysupgrade.bin",
+      "sha256": "69b494e151ac6a5f8795d92426c874bf452e002efb742944397c13a7998eb2df",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cisco,on100"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "title": "Cisco Systems ON100"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

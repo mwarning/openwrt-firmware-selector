@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-07 22:44:06",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca9887-ct",
+    "kmod-ath10k-ct",
+    "kmod-usb-core",
+    "kmod-usb2"
+  ],
+  "id": "oolite-v5.2",
+  "image_prefix": "openwrt-19.07.4-ar71xx-generic-oolite-v5.2",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ar71xx-generic-oolite-v5.2-squashfs-sysupgrade.bin",
+      "sha256": "7a8c7c36abe7cbc44ac4d58ef79f450571adf3df22f70b9baa3af280890ce8be",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "GainStrong Oolite V5.2"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,65 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-10 20:46:39",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "calao_tny-a9g20",
+  "image_prefix": "openwrt-at91-sam9x-calao_tny-a9g20",
+  "images": [
+    {
+      "name": "openwrt-at91-sam9x-calao_tny-a9g20-squashfs-factory.bin",
+      "sha256": "9552b0bfa3fa01b2c0d1e01883e9a6366c04bef6f0dcfef728aef00d78a57e02",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-at91-sam9x-calao_tny-a9g20-ubifs-factory.bin",
+      "sha256": "6ef7842b9bb0db19b2aff35976fe3051552e6cf002029e22e9c4674e3b4cec13",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "calao,tny-a9g20"
+  ],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "TNY A9G20",
+      "vendor": "Calao"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,81 @@
+{
+  "arch_packages": "arm_mpcore",
+  "build_at": "2020-09-12 00:15:28",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools",
+    "block-mount",
+    "fdisk",
+    "lsblk",
+    "mdadm",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ata-oxnas-sata",
+    "kmod-fs-ext4",
+    "kmod-fs-xfs",
+    "kmod-usb2-oxnas",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "mitrastar_stg-212",
+  "image_prefix": "openwrt-oxnas-ox820-mitrastar_stg-212",
+  "images": [
+    {
+      "name": "openwrt-oxnas-ox820-mitrastar_stg-212-squashfs-sysupgrade.tar",
+      "sha256": "56a7a9c941a62e8c83d42853a748fd51601708f8928a081db92602ad15cded05",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-mitrastar_stg-212-squashfs-ubinized.bin",
+      "sha256": "0822803efb985d2adbba5ee615a2da547be57e6ce78d6afadf43652b78e8bf19",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-mitrastar_stg-212-ubifs-sysupgrade.tar",
+      "sha256": "4b637c6c633c22ee9d2daeab9d539e96f5e6994845c9d79ded42b46fa19e875a",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-mitrastar_stg-212-ubifs-ubinized.bin",
+      "sha256": "13d3b18892ba399f07b82d9ec54147def8736fa2bbe53ea21b104af13622990c",
+      "type": "ubinized"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mitrastar,stg-212",
+    "stg212"
+  ],
+  "target": "oxnas/ox820",
+  "titles": [
+    {
+      "model": "STG-212",
+      "vendor": "MitraStar"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,62 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2020-09-08 10:12:22",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-gpio-button-hotplug",
+    "kmod-i2c-mv64xxx",
+    "kmod-hwmon-lm63"
+  ],
+  "id": "iom_ix2_200",
+  "image_prefix": "openwrt-19.07.4-kirkwood-iom_ix2_200",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-kirkwood-iom_ix2_200-squashfs-factory.bin",
+      "sha256": "1fe3b4cac6251b2e87ebd8c3818c33849744f92e12c8075b24f4547d12129f85",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-kirkwood-iom_ix2_200-squashfs-sysupgrade.bin",
+      "sha256": "6fe19ce7209af18c58b5d220340c5f4be1014ed32596cf665653c80e2aa15b43",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iom,ix2,200"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "title": "Iomega StorCenter ix2-200"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

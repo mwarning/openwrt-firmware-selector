@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "-wpad-basic-wolfssl"
+  ],
+  "id": "planex_vr500",
+  "image_prefix": "openwrt-ramips-mt7621-planex_vr500",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-planex_vr500-squashfs-sysupgrade.bin",
+      "sha256": "52c9518a9e771349ff1dd998d3278be10b1dcfa8859a6eab862d6c598873e45d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "planex,vr500",
+    "vr500"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "VR500",
+      "vendor": "Planex"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

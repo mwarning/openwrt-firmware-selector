@@ -1,0 +1,78 @@
+{
+  "arch_packages": "arm_mpcore",
+  "build_at": "2020-09-08 17:37:12",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools",
+    "block-mount",
+    "fdisk",
+    "lsblk",
+    "mdadm",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2-oxnas",
+    "kmod-ata-oxnas-sata",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-i2c-gpio",
+    "kmod-rtc-ds1307"
+  ],
+  "id": "akitio_mycloud",
+  "image_prefix": "openwrt-19.07.4-oxnas-ox820-akitio_mycloud",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-oxnas-ox820-akitio_mycloud-ubifs-sysupgrade.tar",
+      "sha256": "1baf82a2ea51f23e06af72ada9ad8982cedaa1002e95de01c2a7d5578521146a",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-oxnas-ox820-akitio_mycloud-squashfs-sysupgrade.tar",
+      "sha256": "005b93cb553651bcdc739aee5fa4edb3eb8d6bdb8c97a05c4d3c9ef59a5d1ca1",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-oxnas-ox820-akitio_mycloud-squashfs-ubinized.bin",
+      "sha256": "87967c0341ce5672b44952a4f1d8e4b67e40e3f7a2e497021328cedb22539750",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-19.07.4-oxnas-ox820-akitio_mycloud-ubifs-ubinized.bin",
+      "sha256": "a6809d6c194b8be87848998d15131b328ffa2b7e44f3369a5ec2c149efb769ba",
+      "type": "ubinized"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "akitio,mycloud",
+    "akitio"
+  ],
+  "target": "oxnas/ox820",
+  "titles": [
+    {
+      "title": "Akition myCloud (mini) / SilverStone DC01"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

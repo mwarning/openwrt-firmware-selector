@@ -1,0 +1,67 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "at91sam9g20ek_2mmc",
+  "image_prefix": "openwrt-18.06.8-at91-legacy-at91sam9g20ek_2mmc",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-at91-legacy-at91sam9g20ek_2mmc-ubifs-root.ubi",
+      "sha256": "02eb2281670d2f3aa71ab675624b3778e6765a7659f20696881c3fa79d64fb2e",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-18.06.8-at91-legacy-at91sam9g20ek_2mmc-squashfs-zImage",
+      "sha256": "cbe7539edd2f6c5e880110a5fc5171844d8e3be46c0b44b22c3b6666db1b4500",
+      "type": "zImage"
+    },
+    {
+      "name": "openwrt-18.06.8-at91-legacy-at91sam9g20ek_2mmc-squashfs-root.ubi",
+      "sha256": "c0f6db36f574027497b267060f74801a54bcbb8c53140d372c7f7634ca9de934",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-18.06.8-at91-legacy-at91sam9g20ek_2mmc-ubifs-zImage",
+      "sha256": "cbe7539edd2f6c5e880110a5fc5171844d8e3be46c0b44b22c3b6666db1b4500",
+      "type": "zImage"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/legacy",
+  "titles": [
+    {
+      "title": "Atmel AT91SAM9G20-EK 2MMC"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

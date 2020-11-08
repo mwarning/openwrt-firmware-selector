@@ -1,0 +1,55 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-heartbeat",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c"
+  ],
+  "device_packages": [
+    "kmod-dm9000",
+    "kmod-i2c-lantiq",
+    "kmod-eeprom-at24"
+  ],
+  "id": "lantiq_easy98000-nor",
+  "image_prefix": "openwrt-18.06.8-lantiq-falcon-lantiq_easy98000-nor",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-lantiq-falcon-lantiq_easy98000-nor-squashfs-sysupgrade.bin",
+      "sha256": "7155e208192bf6597d9f3623c89b4720c76a95d6d119981dc3e8a6c980713e06",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lantiq,easy98000-nor"
+  ],
+  "target": "lantiq/falcon",
+  "titles": [
+    {
+      "title": "EASY98000 - Lantiq Falcon Eval Board NOR"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

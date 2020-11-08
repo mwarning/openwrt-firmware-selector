@@ -1,0 +1,51 @@
+{
+  "arch_packages": "mips64_octeon",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [],
+  "id": "er",
+  "image_prefix": "openwrt-18.06.8-octeon-er",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-octeon-er-squashfs-sysupgrade.tar",
+      "sha256": "a41703bdd19cfc7b34750390a39cc51f415e97f3f116c5d546be998382f50a85",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "octeon/generic",
+  "titles": [
+    {
+      "title": "Ubiquiti EdgeRouter"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

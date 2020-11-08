@@ -1,0 +1,66 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-08 16:40:12",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-rtc-sunxi"
+  ],
+  "id": "sun8i-h2-plus-orangepi-zero",
+  "image_prefix": "openwrt-19.07.4-sunxi-cortexa7-sun8i-h2-plus-orangepi-zero",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-sunxi-cortexa7-sun8i-h2-plus-orangepi-zero-squashfs-sdcard.img.gz",
+      "sha256": "f58e787ad14912e453c1d1638203982f400436961c9d0dc9e745f883d6535743",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-19.07.4-sunxi-cortexa7-sun8i-h2-plus-orangepi-zero-ext4-sdcard.img.gz",
+      "sha256": "61e30dbabf2c5ee8223f781eff90573bb7bec419775371a7a5ed4ccfc7a869c9",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xunlong,orangepi-zero"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "title": "Xunlong Orange Pi Zero"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

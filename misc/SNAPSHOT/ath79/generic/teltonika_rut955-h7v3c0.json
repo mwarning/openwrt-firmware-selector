@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-acm",
+    "kmod-usb-net-qmi-wwan",
+    "kmod-usb-serial-option",
+    "kmod-hwmon-mcp3021",
+    "uqmi",
+    "-uboot-envtools"
+  ],
+  "id": "teltonika_rut955-h7v3c0",
+  "image_prefix": "openwrt-ath79-generic-teltonika_rut955-h7v3c0",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-teltonika_rut955-h7v3c0-squashfs-factory.bin",
+      "sha256": "29259ef6ae587367aa1f298f45361c152fe08b736500574ad3ff9a82fc4a6d8a",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-teltonika_rut955-h7v3c0-squashfs-sysupgrade.bin",
+      "sha256": "8385493f66c688c674e78114a705fca12194a75bb6c4d3ea1203a24936465d00",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "teltonika,rut955-h7v3c0"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "RUT955",
+      "variant": "H7V3C0",
+      "vendor": "Teltonika"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

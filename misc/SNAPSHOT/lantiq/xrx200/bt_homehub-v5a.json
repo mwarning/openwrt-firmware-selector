@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 21:54:15",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "ltq-vdsl-vr9-vectoring-fw-installer",
+    "kmod-ltq-vdsl-vr9-mei",
+    "kmod-ltq-vdsl-vr9",
+    "kmod-ltq-atm-vr9",
+    "kmod-ltq-ptm-vr9",
+    "kmod-ltq-deu-vr9",
+    "ltq-vdsl-app",
+    "dsl-vrx200-firmware-xdsl-a",
+    "dsl-vrx200-firmware-xdsl-b-patch",
+    "ppp-mod-pppoa",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [
+    "kmod-ath9k",
+    "kmod-owl-loader",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct",
+    "wpad-basic-wolfssl",
+    "kmod-usb-dwc2",
+    "iwinfo"
+  ],
+  "id": "bt_homehub-v5a",
+  "image_prefix": "openwrt-lantiq-xrx200-bt_homehub-v5a",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-bt_homehub-v5a-squashfs-sysupgrade.bin",
+      "sha256": "24df807fd0b16e080e6e5015fe20e1a386a74e3d9f3dd2a147414151a4e71b31",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "bt,homehub-v5a",
+    "BTHOMEHUBV5A"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "Home Hub 5",
+      "variant": "Type A",
+      "vendor": "British Telecom"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

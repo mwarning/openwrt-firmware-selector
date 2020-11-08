@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-i2c-ralink"
+  ],
+  "id": "hootoo_ht-tm05",
+  "image_prefix": "openwrt-ramips-mt7620-hootoo_ht-tm05",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-hootoo_ht-tm05-squashfs-rootfs.bin",
+      "sha256": "3da1fa70a70a414b951bb3d7af051457ed37e502e6883d3671d1c22c7ce8fb88",
+      "type": "rootfs"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-hootoo_ht-tm05-squashfs-sysupgrade.bin",
+      "sha256": "d4528a6ce9a2f0c7a01176f5524d422b95e6b58d7c8ba93e9a2894c5bbc36b21",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-hootoo_ht-tm05-squashfs-kernel.bin",
+      "sha256": "76db3aadd05741ac68c920d6fe827666402fcdeb832d3b32ad8952a5e3b8921d",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "hootoo,ht-tm05"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "HT-TM05",
+      "vendor": "HooToo"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

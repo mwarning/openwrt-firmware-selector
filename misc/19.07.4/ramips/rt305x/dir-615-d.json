@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 16:38:17",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "id": "dir-615-d",
+  "image_prefix": "openwrt-19.07.4-ramips-rt305x-dir-615-d",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-rt305x-dir-615-d-squashfs-sysupgrade.bin",
+      "sha256": "838d877c0c34d862e75b52d815fdfc5976c285ba19f9d0f5e93eb5d2e9c90b76",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-rt305x-dir-615-d-squashfs-factory.bin",
+      "sha256": "9596f6958877f6191e40116bedac8c39e024d81aae768c682d30e2be1172b84b",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dir-615-d"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "title": "D-Link DIR-615 D"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

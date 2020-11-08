@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 02:06:13",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload"
+  ],
+  "device_packages": [
+    "kmod-ltq-adsl-danube-mei",
+    "kmod-ltq-adsl-danube",
+    "kmod-ltq-adsl-danube-fw-b",
+    "kmod-ltq-atm-danube",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-rt2800-pci",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "id": "arcadyan_arv7506pw11",
+  "image_prefix": "openwrt-19.07.4-lantiq-xway-arcadyan_arv7506pw11",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-lantiq-xway-arcadyan_arv7506pw11-squashfs-sysupgrade.bin",
+      "sha256": "87acc6ede80cf5c2881b95c7330cb8146c32ca72f6b2d17be9d5d51cee5ce5ea",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "arcadyan,arv7506pw11",
+    "ARV7506PW11"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "title": "Alice/O2 IAD 4421 - ARV7506PW11"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

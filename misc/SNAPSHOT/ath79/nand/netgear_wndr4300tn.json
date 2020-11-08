@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 17:37:26",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "netgear_wndr4300tn",
+  "image_prefix": "openwrt-ath79-nand-netgear_wndr4300tn",
+  "images": [
+    {
+      "name": "openwrt-ath79-nand-netgear_wndr4300tn-squashfs-factory.img",
+      "sha256": "9ba91649261a7ae351a1df6a32060af20666ec72d5089b146349106a03a195c8",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-nand-netgear_wndr4300tn-squashfs-sysupgrade.bin",
+      "sha256": "c07df636c83738499bf3b8c875ba7cf1780e0fde6af4a28420995854947b7a64",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wndr4300tn"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "WNDR4300TN",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

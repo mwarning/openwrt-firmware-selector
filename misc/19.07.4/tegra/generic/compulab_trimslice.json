@@ -1,0 +1,69 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2020-09-07 21:41:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "e2fsprogs",
+    "mkf2fs",
+    "partx-utils",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "e2fsprogs",
+    "mkf2fs",
+    "partx-utils"
+  ],
+  "device_packages": [
+    "kmod-r8169",
+    "kmod-rt2800-usb",
+    "kmod-rtc-em3027",
+    "kmod-usb-storage",
+    "wpad-mini",
+    "iwinfo"
+  ],
+  "id": "compulab_trimslice",
+  "image_prefix": "openwrt-19.07.4-tegra-compulab_trimslice",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-tegra-compulab_trimslice-squashfs-sdcard.img.gz",
+      "sha256": "f048c66d54971238e1fb15687f09c79b039ee12146dbbbcee7d8602999caef56",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-19.07.4-tegra-compulab_trimslice-ext4-sdcard.img.gz",
+      "sha256": "4e6e40f625104e0cc03d33fd29f81cd47b61c06ef14f47ceb4f72d61a397927e",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "compulab,trimslice"
+  ],
+  "target": "tegra/generic",
+  "titles": [
+    {
+      "title": "CompuLab TrimSlice"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

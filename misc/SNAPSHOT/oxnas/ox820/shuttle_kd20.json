@@ -1,0 +1,90 @@
+{
+  "arch_packages": "arm_mpcore",
+  "build_at": "2020-09-12 00:15:28",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools",
+    "block-mount",
+    "fdisk",
+    "lsblk",
+    "mdadm",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2-oxnas",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-i2c-gpio",
+    "kmod-rtc-pcf8563",
+    "kmod-gpio-beeper",
+    "kmod-hwmon-drivetemp",
+    "kmod-hwmon-gpiofan",
+    "kmod-ata-oxnas-sata",
+    "kmod-md-mod",
+    "kmod-md-raid0",
+    "kmod-md-raid1",
+    "kmod-fs-ext4",
+    "kmod-fs-xfs"
+  ],
+  "id": "shuttle_kd20",
+  "image_prefix": "openwrt-oxnas-ox820-shuttle_kd20",
+  "images": [
+    {
+      "name": "openwrt-oxnas-ox820-shuttle_kd20-squashfs-sysupgrade.tar",
+      "sha256": "c5d20d806732ed1ee7d310729273a07a3f15933f04ff5f483d1af4b63d210692",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-shuttle_kd20-squashfs-ubinized.bin",
+      "sha256": "e31866281e8044e6867132ffbfc44f97f7743eb34ef4a01d9044497cf83e60db",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-shuttle_kd20-ubifs-sysupgrade.tar",
+      "sha256": "cbce3c3b75eb80af41f9d98540ef4f2a987a30541e9f4be25cd378c350724694",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-shuttle_kd20-ubifs-ubinized.bin",
+      "sha256": "e13281170e186e5d5d4918ef0d2986e9ac19d91a79ccef6a2a5f7583c42face6",
+      "type": "ubinized"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "shuttle,kd20",
+    "kd20"
+  ],
+  "target": "oxnas/ox820",
+  "titles": [
+    {
+      "model": "KD20",
+      "vendor": "Shuttle"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

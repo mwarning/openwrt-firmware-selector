@@ -1,0 +1,73 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2020-09-11 22:33:44",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "e2fsprogs",
+    "ethtool",
+    "mkf2fs",
+    "partx-utils",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "globalscale_espressobin-emmc",
+  "image_prefix": "openwrt-mvebu-cortexa53-globalscale_espressobin-emmc",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa53-globalscale_espressobin-emmc-squashfs-sdcard.img.gz",
+      "sha256": "cf54fceddd184930ffad69a6cf8a66e0fdeb9709e88eb3733bc2b8a2ce5fa551",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-mvebu-cortexa53-globalscale_espressobin-emmc-ext4-sdcard.img.gz",
+      "sha256": "565620d975cc877f16dd7eee803d650ae3ac49c496ad8a84322ca9be4bb0a0c8",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "globalscale,espressobin-emmc"
+  ],
+  "target": "mvebu/cortexa53",
+  "titles": [
+    {
+      "model": "ESPRESSObin",
+      "variant": "eMMC",
+      "vendor": "Marvell"
+    },
+    {
+      "model": "Armada 3700 Community Board",
+      "variant": "eMMC",
+      "vendor": "Marvell"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

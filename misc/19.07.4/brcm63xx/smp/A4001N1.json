@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-08 14:32:26",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-b43",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "id": "A4001N1",
+  "image_prefix": "openwrt-19.07.4-brcm63xx-smp-A4001N1",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-brcm63xx-smp-A4001N1-squashfs-cfe.bin",
+      "sha256": "c9555f21f401df55b6aac0de091ed96921a7a30ce241fb8712377c6df63d386b",
+      "type": "cfe"
+    },
+    {
+      "name": "openwrt-19.07.4-brcm63xx-smp-A4001N1-squashfs-sysupgrade.bin",
+      "sha256": "593723b2647cd5e69681cf33fc95c47486c97b92a56b3f83954894a0ae950ed1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "title": "ADB P.DG A4001N1"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

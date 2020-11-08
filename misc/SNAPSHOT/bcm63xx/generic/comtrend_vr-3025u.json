@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 22:36:24",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "comtrend_vr-3025u",
+  "image_prefix": "openwrt-bcm63xx-generic-comtrend_vr-3025u",
+  "images": [
+    {
+      "name": "openwrt-bcm63xx-generic-comtrend_vr-3025u-squashfs-cfe.bin",
+      "sha256": "ab8039a56131a7287d82399ff8ee57c0ee16cba66b22da9303cf644797536f72",
+      "type": "cfe"
+    },
+    {
+      "name": "openwrt-bcm63xx-generic-comtrend_vr-3025u-squashfs-sysupgrade.bin",
+      "sha256": "1bfb64242478d6d9b9bb255d0e6333c316b7eb908f306aede3089196f0a79fd4",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "VR-3025u",
+      "vendor": "Comtrend"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

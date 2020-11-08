@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-reset",
+    "kmod-owl-loader"
+  ],
+  "id": "netgear_wndr3800ch",
+  "image_prefix": "openwrt-ath79-generic-netgear_wndr3800ch",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-netgear_wndr3800ch-squashfs-factory.img",
+      "sha256": "774c30e28fd94b5e6c9cb95b04d771e71e343df25b8ce090dadc0826fc97470a",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-netgear_wndr3800ch-squashfs-sysupgrade.bin",
+      "sha256": "c205004e4c33e3de0a9c4c4894e41179e6f5a46ee14c0878a4116119f19a2baf",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wndr3800ch",
+    "wndr3700"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WNDR3800CH",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

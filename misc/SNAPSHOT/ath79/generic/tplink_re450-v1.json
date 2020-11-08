@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct-smallbuffers",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "id": "tplink_re450-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_re450-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_re450-v1-squashfs-factory.bin",
+      "sha256": "ba44f5d825592af7c973ca152bf001f4161058af9aa7c820c10fa921b8681006",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_re450-v1-squashfs-sysupgrade.bin",
+      "sha256": "f98f0e1acaaff7a4ae1a3e6a8ed4edef0133ff9b0dbcab5626b311b65a7f84d5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,re450-v1",
+    "re450"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "RE450",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

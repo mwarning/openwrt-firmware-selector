@@ -1,0 +1,57 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-08 14:32:26",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "id": "AR1004G",
+  "image_prefix": "openwrt-19.07.4-brcm63xx-smp-AR1004G",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-brcm63xx-smp-AR1004G-squashfs-cfe.bin",
+      "sha256": "06c500bac541a1bb72e2f3ac7c709fb74eead9c99567f3e944a773272d6c0ac5",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "title": "Asmax AR 1004g"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

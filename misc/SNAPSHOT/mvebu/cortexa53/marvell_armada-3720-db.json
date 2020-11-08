@@ -1,0 +1,67 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2020-09-11 22:33:44",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "e2fsprogs",
+    "ethtool",
+    "mkf2fs",
+    "partx-utils",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "marvell_armada-3720-db",
+  "image_prefix": "openwrt-mvebu-cortexa53-marvell_armada-3720-db",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa53-marvell_armada-3720-db-ext4-sdcard.img.gz",
+      "sha256": "ed6e0b2fbebb494f04e44721055bb5bf7bc01eb0b36a845bd678ba102b5c49b2",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-mvebu-cortexa53-marvell_armada-3720-db-squashfs-sdcard.img.gz",
+      "sha256": "42b09a7394004a51a98ab05896b00a23009bfca032bf0bc670ae5525af44fd18",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "marvell,armada-3720-db"
+  ],
+  "target": "mvebu/cortexa53",
+  "titles": [
+    {
+      "model": "Armada 3720 Development Board (DB-88F3720-DDR3)",
+      "vendor": "Marvell"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

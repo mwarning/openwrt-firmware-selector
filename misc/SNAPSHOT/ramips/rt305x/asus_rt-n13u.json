@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:12:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-leds-gpio",
+    "kmod-rt2800-pci",
+    "kmod-usb-dwc2"
+  ],
+  "id": "asus_rt-n13u",
+  "image_prefix": "openwrt-ramips-rt305x-asus_rt-n13u",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-asus_rt-n13u-squashfs-sysupgrade.bin",
+      "sha256": "8dac8c68785b1ff2e50cc3b05ba4526e125ca2ae3fc153cb8d86ae0524b90bff",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "asus,rt-n13u",
+    "rt-n13u"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "RT-N13U",
+      "vendor": "Asus"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

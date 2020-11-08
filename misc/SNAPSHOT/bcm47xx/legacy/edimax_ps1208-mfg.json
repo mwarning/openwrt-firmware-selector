@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mipsel_mips32",
+  "build_at": "2020-09-11 22:48:52",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "kmod-usb-ohci",
+    "kmod-usb2"
+  ],
+  "id": "edimax_ps1208-mfg",
+  "image_prefix": "openwrt-bcm47xx-legacy-edimax_ps1208-mfg",
+  "images": [
+    {
+      "name": "openwrt-bcm47xx-legacy-edimax_ps1208-mfg-squashfs.bin",
+      "sha256": "e3fda72e44bc6b7166efc61ab95796d09e76f86dd47c2406793c86978afe1665",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm47xx/legacy",
+  "titles": [
+    {
+      "model": "PS-1208MFg",
+      "vendor": "Edimax"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

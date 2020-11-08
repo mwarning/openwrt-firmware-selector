@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e"
+  ],
+  "id": "tplink_re210-v1",
+  "image_prefix": "openwrt-ramips-mt7620-tplink_re210-v1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-tplink_re210-v1-squashfs-factory.bin",
+      "sha256": "c16eba000cc38b3b50e1c6c6af51c12849ae8591abdea6fa1d3f7c0a34945d6c",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-tplink_re210-v1-squashfs-sysupgrade.bin",
+      "sha256": "2ad1db0edcc1fe4a85a7db5135057c2ef74b10839c508fe3e3274196afaf7c91",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,re210-v1"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "RE210",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

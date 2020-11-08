@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "-wpad-basic-wolfssl"
+  ],
+  "id": "mikrotik_routerboard-750gr3",
+  "image_prefix": "openwrt-ramips-mt7621-mikrotik_routerboard-750gr3",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-mikrotik_routerboard-750gr3-squashfs-sysupgrade.bin",
+      "sha256": "d8864551374ebb9a46603c9490f1801452233eeeb5b1b25a08b508ca844c917c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mikrotik,routerboard-750gr3",
+    "mikrotik,rb750gr3"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RouterBOARD 750Gr3",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

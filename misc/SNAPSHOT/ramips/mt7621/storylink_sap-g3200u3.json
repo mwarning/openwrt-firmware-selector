@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "storylink_sap-g3200u3",
+  "image_prefix": "openwrt-ramips-mt7621-storylink_sap-g3200u3",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-storylink_sap-g3200u3-squashfs-sysupgrade.bin",
+      "sha256": "1c72a2a7c54f8b39c9bf0962f878c2f49633b2d4eb6b188557ba0188c711b79d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "storylink,sap-g3200u3",
+    "sap-g3200u3"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "SAP-G3200U3",
+      "vendor": "STORYLiNK"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

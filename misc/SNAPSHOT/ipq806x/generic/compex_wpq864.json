@@ -1,0 +1,89 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2020-09-11 16:48:36",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-phy-qcom-ipq806x-usb",
+    "kmod-usb3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-ath10k-ct",
+    "wpad-basic-wolfssl",
+    "uboot-envtools",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-phy-qcom-ipq806x-usb",
+    "kmod-usb3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-ath10k-ct",
+    "wpad-basic-wolfssl",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-gpio-beeper"
+  ],
+  "id": "compex_wpq864",
+  "image_prefix": "openwrt-ipq806x-generic-compex_wpq864",
+  "images": [
+    {
+      "name": "openwrt-ipq806x-generic-compex_wpq864-squashfs-nand-sysupgrade.bin",
+      "sha256": "4ca555cdb4190bcd7beb13ed819863364a7f67d234e14830a30fbc4ecb91f458",
+      "type": "nand-sysupgrade"
+    },
+    {
+      "name": "openwrt-ipq806x-generic-compex_wpq864-squashfs-nand-factory.bin",
+      "sha256": "ce1a194bae0b77f5ad6ee335ac192b7fcd13f4e5086970a970812a7a3694da27",
+      "type": "nand-factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "compex,wpq864"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "WPQ864",
+      "vendor": "Compex"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

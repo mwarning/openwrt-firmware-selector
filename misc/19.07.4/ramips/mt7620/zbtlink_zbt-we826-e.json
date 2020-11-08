@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 16:30:04",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-sdhci-mt7620",
+    "uqmi",
+    "kmod-usb-serial",
+    "kmod-usb-serial-option"
+  ],
+  "id": "zbtlink_zbt-we826-e",
+  "image_prefix": "openwrt-19.07.4-ramips-mt7620-zbtlink_zbt-we826-e",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt7620-zbtlink_zbt-we826-e-squashfs-sysupgrade.bin",
+      "sha256": "bbe8071ca5f504f228762fdbec4c656bc8c230f0d1c363150191e12158475c34",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-we826-e"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "title": "Zbtlink ZBT-WE826-E"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

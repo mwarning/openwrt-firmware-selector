@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "id": "linksys_re6500",
+  "image_prefix": "openwrt-ramips-mt7621-linksys_re6500",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-linksys_re6500-squashfs-sysupgrade.bin",
+      "sha256": "1cc5ffdbf8f5c229c0bbf49009d241db45a58cf782980f7235bd1aa83a9ddb71",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "linksys,re6500",
+    "re6500"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RE6500",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

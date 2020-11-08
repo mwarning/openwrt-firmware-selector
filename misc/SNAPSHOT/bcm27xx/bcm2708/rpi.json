@@ -1,0 +1,106 @@
+{
+  "arch_packages": "arm_arm1176jzf-s_vfp",
+  "build_at": "2020-09-11 18:57:39",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "bcm27xx-gpu-fw",
+    "kmod-usb-hid",
+    "kmod-sound-core",
+    "kmod-sound-arm-bcm2835",
+    "kmod-fs-vfat",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "bcm27xx-gpu-fw",
+    "kmod-usb-hid",
+    "kmod-sound-core",
+    "kmod-sound-arm-bcm2835",
+    "kmod-fs-vfat",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "cypress-firmware-43430-sdio",
+    "cypress-nvram-43430-sdio-rpi-zero-w",
+    "kmod-brcmfmac",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "rpi",
+  "image_prefix": "openwrt-bcm27xx-bcm2708-rpi",
+  "images": [
+    {
+      "name": "openwrt-bcm27xx-bcm2708-rpi-squashfs-sysupgrade.img.gz",
+      "sha256": "e3c06e3d20743ee36d841fdc490263530dfa89ff22ccffc94af3f10a595a4f90",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-bcm27xx-bcm2708-rpi-ext4-sysupgrade.img.gz",
+      "sha256": "6ed946155fb6cb157da6809875546bca7fbead30a9aea6c062ec110c32a559b4",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-bcm27xx-bcm2708-rpi-squashfs-factory.img.gz",
+      "sha256": "e3d4bbd51f7caa0f6330754b47ec4b50eb96bc23233196f7224fe6890c01a3a2",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-bcm27xx-bcm2708-rpi-ext4-factory.img.gz",
+      "sha256": "d4429b7b6b74f8798499ec6669b92701a2633e94f1239004370a36f213b6ab1f",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "rpi-b",
+    "rpi-b-plus",
+    "rpi-cm",
+    "rpi-zero",
+    "rpi-zero-w",
+    "raspberrypi,model-b",
+    "raspberrypi,model-b-plus",
+    "raspberrypi,model-b-rev2",
+    "raspberrypi,compute-module",
+    "raspberrypi,compute-module-1",
+    "raspberrypi,model-zero",
+    "raspberrypi,model-zero-w"
+  ],
+  "target": "bcm27xx/bcm2708",
+  "titles": [
+    {
+      "model": "B/B+/CM/Zero/ZeroW",
+      "vendor": "Raspberry Pi"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

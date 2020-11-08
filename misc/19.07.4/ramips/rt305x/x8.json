@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 16:38:17",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-ledtrig-netdev",
+    "kmod-ledtrig-timer"
+  ],
+  "id": "x8",
+  "image_prefix": "openwrt-19.07.4-ramips-rt305x-x8",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-rt305x-x8-squashfs-factory.bin",
+      "sha256": "e3e178b78cee7a11195edf251b2ee9f8c2537d9d50506dacc563d2b6c5918c6b",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-rt305x-x8-squashfs-sysupgrade.bin",
+      "sha256": "0f6e1ed54de740eccf98f405e612054262474f811a0af1ff0a9f6a808517806b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "x8"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "title": "Poray X8"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

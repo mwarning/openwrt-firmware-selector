@@ -1,0 +1,79 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-10 21:23:47",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-dwc3-qcom",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic-wolfssl",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-usb-dwc3-qcom",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic-wolfssl",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct"
+  ],
+  "device_packages": [
+    "kmod-gpio-beeper"
+  ],
+  "id": "compex_wpj428",
+  "image_prefix": "openwrt-ipq40xx-generic-compex_wpj428",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-compex_wpj428-squashfs-sysupgrade.bin",
+      "sha256": "3309ad927cbf5d1cf25cceb370681a7bf6ec3541eacf7c727d5fdd2022aed337",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ipq40xx-generic-compex_wpj428-squashfs-cpximg-6a04.bin",
+      "sha256": "972a1a60e9ccb19b91f54790b2dea2b65c9023b4a30d631a2d65ba4d23fdd0c9",
+      "type": "cpximg-6a04"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "compex,wpj428"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "WPJ428",
+      "vendor": "Compex"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

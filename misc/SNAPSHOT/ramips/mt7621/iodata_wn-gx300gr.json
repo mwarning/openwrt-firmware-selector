@@ -1,0 +1,61 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7603"
+  ],
+  "id": "iodata_wn-gx300gr",
+  "image_prefix": "openwrt-ramips-mt7621-iodata_wn-gx300gr",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-iodata_wn-gx300gr-squashfs-sysupgrade.bin",
+      "sha256": "8fba332d9d5e3e2865879e348385c3e0ae2a5811e4d628a877003afac06bcfdf",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iodata,wn-gx300gr"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WN-GX300GR",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

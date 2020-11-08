@@ -1,0 +1,57 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-brcm-wl",
+    "nas",
+    "wlc",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "GW6200",
+  "image_prefix": "openwrt-18.06.8-brcm63xx-generic-GW6200",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-brcm63xx-generic-GW6200-squashfs-cfe.bin",
+      "sha256": "14b9b5d62328128b30703a8f3398a1137b7f353cdd6e22b0d946d99ea1eb15a2",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "title": "Tecom GW6200"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

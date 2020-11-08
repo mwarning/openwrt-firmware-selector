@@ -1,0 +1,90 @@
+{
+  "arch_packages": "i386_pentium-mmx",
+  "build_at": "2020-09-11 23:21:28",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-crypto-cbc",
+    "kmod-crypto-hw-geode",
+    "kmod-ledtrig-gpio",
+    "kmod-ledtrig-heartbeat",
+    "kmod-ledtrig-netdev"
+  ],
+  "id": "generic",
+  "image_prefix": "openwrt-x86-geode-generic",
+  "images": [
+    {
+      "name": "openwrt-x86-geode-generic-ext4-combined-efi.img.gz",
+      "sha256": "ef1262b18555d2f1ecb55bd518da0b7a803d93d73fcb8d38ed8d1b6a6eebabb0",
+      "type": "combined-efi"
+    },
+    {
+      "name": "openwrt-x86-geode-generic-ext4-combined.img.gz",
+      "sha256": "7e537180b45b70f7e9ce388571bb4113d97b0bbeda4ee84e91575911ac0d9b0a",
+      "type": "combined"
+    },
+    {
+      "name": "openwrt-x86-geode-generic-squashfs-rootfs.img.gz",
+      "sha256": "a09df3856bcf54cff0aaf7c21f74f22c0eaf52fb771926973dac0b92cbf12914",
+      "type": "rootfs"
+    },
+    {
+      "name": "openwrt-x86-geode-generic-squashfs-combined-efi.img.gz",
+      "sha256": "1ba5e5b79b1d17772268d6d72122cd9e08dd68c9a62a15f3ede5d350ddea6c6c",
+      "type": "combined-efi"
+    },
+    {
+      "name": "openwrt-x86-geode-generic-squashfs-combined.img.gz",
+      "sha256": "430201be7d6397746e1bb5d2234c39153b0df559c2a024d8088e9ec0386461ad",
+      "type": "combined"
+    },
+    {
+      "name": "openwrt-x86-geode-generic-ext4-rootfs.img.gz",
+      "sha256": "05eb122649f13577c1ddf686b316df309c075ece55d1a6b79dd51655791c0429",
+      "type": "rootfs"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "x86/geode",
+  "titles": [
+    {
+      "title": "Generic x86/Geode"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

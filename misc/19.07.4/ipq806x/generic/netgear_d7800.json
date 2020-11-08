@@ -1,0 +1,91 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2020-09-08 08:42:59",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ata-core",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-usb-phy-qcom-dwc3",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ata-core",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-usb-phy-qcom-dwc3",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca99x0-ct"
+  ],
+  "id": "netgear_d7800",
+  "image_prefix": "openwrt-19.07.4-ipq806x-generic-netgear_d7800",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ipq806x-generic-netgear_d7800-squashfs-factory.img",
+      "sha256": "ced9e4a4b73d035fe0b7bf61d1430dd7d245325746291012d724d7943c0dc56d",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ipq806x-generic-netgear_d7800-squashfs-sysupgrade.bin",
+      "sha256": "75025e8d4085b38065aaa4e1a6b91001582c46251f277cb0cd3730e1833909e7",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,d7800",
+    "d7800"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "title": "Netgear Nighthawk X4 D7800"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

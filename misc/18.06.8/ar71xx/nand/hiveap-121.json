@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-i2c-gpio-custom",
+    "kmod-spi-gpio",
+    "kmod-ath9k",
+    "kmod-tpm-i2c-atmel"
+  ],
+  "id": "hiveap-121",
+  "image_prefix": "openwrt-18.06.8-ar71xx-nand-hiveap-121",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-nand-hiveap-121-squashfs-factory.bin",
+      "sha256": "98e67226c8e492e3531656821f29c08a40f49a558777ae5df50fa505fe961890",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-nand-hiveap-121-squashfs-sysupgrade.tar",
+      "sha256": "b2539aaa0465c563a030f94c4727bbad3f85cdb16e77da3d632e2aca199e0a80",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/nand",
+  "titles": [
+    {
+      "title": "Aerohive HiveAP-121"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

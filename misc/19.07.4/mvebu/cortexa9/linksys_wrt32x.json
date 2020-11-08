@@ -1,0 +1,69 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2020-09-08 09:26:07",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mwlwifi",
+    "swconfig",
+    "wpad-basic",
+    "kmod-btmrvl",
+    "kmod-mwifiex-sdio",
+    "mwlwifi-firmware-88w8964",
+    "iwinfo"
+  ],
+  "id": "linksys_wrt32x",
+  "image_prefix": "openwrt-19.07.4-mvebu-cortexa9-linksys_wrt32x",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-mvebu-cortexa9-linksys_wrt32x-squashfs-sysupgrade.bin",
+      "sha256": "d7d55a7ab06133b2fa090a8ec285787151ed6ac709811299edfdb09154d8092a",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-mvebu-cortexa9-linksys_wrt32x-squashfs-factory.img",
+      "sha256": "da66bf597e9261ef4a4efea2f3d1c5342887b23465595541f5e8269b983796c4",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "armada-385-linksys-venom",
+    "linksys,venom"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "title": "Linksys WRT32X (Venom)"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

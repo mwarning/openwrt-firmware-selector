@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 02:06:13",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-ltq-adsl-danube-mei",
+    "kmod-ltq-adsl-danube",
+    "kmod-ltq-adsl-danube-fw-a",
+    "kmod-ltq-atm-danube",
+    "kmod-ltq-deu-danube",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ath9k",
+    "kmod-owl-loader",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "id": "bt_homehub-v2b",
+  "image_prefix": "openwrt-19.07.4-lantiq-xway-bt_homehub-v2b",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-lantiq-xway-bt_homehub-v2b-squashfs-sysupgrade.bin",
+      "sha256": "db5b6002847c462a616e0f629bf9c7c2e275b3f639ae9dd2ecb2c6e6a6289d1c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "bt,homehub-v2b",
+    "BTHOMEHUBV2B"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "title": "BT Home Hub 2B"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

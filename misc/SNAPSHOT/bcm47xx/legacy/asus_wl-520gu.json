@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mipsel_mips32",
+  "build_at": "2020-09-11 22:48:52",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "kmod-usb-ohci",
+    "kmod-usb2"
+  ],
+  "id": "asus_wl-520gu",
+  "image_prefix": "openwrt-bcm47xx-legacy-asus_wl-520gu",
+  "images": [
+    {
+      "name": "openwrt-bcm47xx-legacy-asus_wl-520gu-squashfs.trx",
+      "sha256": "595bed26f37be727e6085146eb1e5b4e3de7e1f0513906958f440041d359079a",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WL-520gU",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

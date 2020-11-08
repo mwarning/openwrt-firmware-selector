@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "id": "elecom_wrc-1900gst",
+  "image_prefix": "openwrt-ramips-mt7621-elecom_wrc-1900gst",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-elecom_wrc-1900gst-squashfs-sysupgrade.bin",
+      "sha256": "e2ca184a6444a9b7447ddc19a6ecdc6db29d7ef6bc10edc27ac1174b0f6f151a",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-elecom_wrc-1900gst-squashfs-factory.bin",
+      "sha256": "09593d3eda481b717e442db0b3e870e2e27004e0ea39dd9983dc187d9673ddef",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "elecom,wrc-1900gst"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WRC-1900GST",
+      "vendor": "ELECOM"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

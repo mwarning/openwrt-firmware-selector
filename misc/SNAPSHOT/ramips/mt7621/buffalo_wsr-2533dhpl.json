@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "id": "buffalo_wsr-2533dhpl",
+  "image_prefix": "openwrt-ramips-mt7621-buffalo_wsr-2533dhpl",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-buffalo_wsr-2533dhpl-squashfs-sysupgrade.bin",
+      "sha256": "17787c5f9d07ed8708d64e32244c7def6fe935e700f23955426c1ccec5822b95",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,wsr-2533dhpl"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WSR-2533DHPL",
+      "vendor": "Buffalo"
+    },
+    {
+      "model": "WSR-2533DHP",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

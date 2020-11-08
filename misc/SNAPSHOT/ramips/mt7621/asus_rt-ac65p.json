@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "uboot-envtools"
+  ],
+  "id": "asus_rt-ac65p",
+  "image_prefix": "openwrt-ramips-mt7621-asus_rt-ac65p",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-asus_rt-ac65p-squashfs-factory.bin",
+      "sha256": "a44b3b1cd6d7966994e1ba4bdf73f56fbaa06c3061652d2e56127205b25f1924",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-asus_rt-ac65p-squashfs-sysupgrade.bin",
+      "sha256": "6529694f12a8b58c5e4a60f8287ef8aa8b3e16eb6bfb7e180bb4260c70d91815",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "asus,rt-ac65p"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RT-AC65P",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

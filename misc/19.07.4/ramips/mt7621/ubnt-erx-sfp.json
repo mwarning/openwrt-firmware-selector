@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 15:31:33",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-i2c-algo-pca",
+    "kmod-gpio-pca953x",
+    "kmod-i2c-gpio-custom"
+  ],
+  "id": "ubnt-erx-sfp",
+  "image_prefix": "openwrt-19.07.4-ramips-mt7621-ubnt-erx-sfp",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-ubnt-erx-sfp-squashfs-sysupgrade.bin",
+      "sha256": "a999727d2ce066a1b1d6c5e8c8fee35a089f8e9fb2bc40a606832073d1a9dc33",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubnt-erx-sfp",
+    "ubiquiti,edgerouterx",
+    "ubiquiti,edgerouterx-sfp"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "Ubiquiti EdgeRouter X-SFP"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

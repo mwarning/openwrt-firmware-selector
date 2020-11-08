@@ -1,0 +1,82 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 18:49:19",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "id": "tplink_archer-c7-v2",
+  "image_prefix": "openwrt-19.07.4-ath79-generic-tplink_archer-c7-v2",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ath79-generic-tplink_archer-c7-v2-squashfs-factory-eu.bin",
+      "sha256": "e32c5cd66271112806429e38df093ae16ef78370a1c1f759d62ecf6a496fd001",
+      "type": "factory-eu"
+    },
+    {
+      "name": "openwrt-19.07.4-ath79-generic-tplink_archer-c7-v2-squashfs-sysupgrade.bin",
+      "sha256": "ceca934b39d35c41d4488812d02562015227257c7a1226d6494aac2329b82e1d",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-ath79-generic-tplink_archer-c7-v2-squashfs-factory.bin",
+      "sha256": "e83845e0790d899ef2fa27b242b5c0b4afb44ae882f25608e4a27a2fedbeb000",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ath79-generic-tplink_archer-c7-v2-squashfs-factory-us.bin",
+      "sha256": "2d023f1d2d32d20bdcfaf89d2466ec5ada7063a7c0b61d814bfd35940f7f47bc",
+      "type": "factory-us"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c7-v2",
+    "archer-c7"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "title": "TP-Link Archer C7 v2"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

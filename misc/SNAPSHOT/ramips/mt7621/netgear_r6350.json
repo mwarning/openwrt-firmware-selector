@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "id": "netgear_r6350",
+  "image_prefix": "openwrt-ramips-mt7621-netgear_r6350",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6350-squashfs-rootfs.bin",
+      "sha256": "dc73bf33cffec7abc8f8325e7d01224158bb7758c0e847684b0526add1c70159",
+      "type": "rootfs"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6350-squashfs-sysupgrade.bin",
+      "sha256": "18bf0760827b1a278a2aadea18d7f2d38e06546a3c8ea9ed3cee550ea56b4d34",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6350-squashfs-factory.img",
+      "sha256": "5653fa7df9a2c99b718ae7b4748710985804ff7d0c94a1cb65e95f7a13cd22db",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6350-squashfs-kernel.bin",
+      "sha256": "de3ba67221baaf25308f6183205d857d12d874d444d27524972ffc03f29746f0",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,r6350"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "R6350",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

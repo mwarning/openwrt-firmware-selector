@@ -1,0 +1,58 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-08-20 07:43:43",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "wpad-mini",
+    "kmod-ath5k",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "wpad-mini",
+    "kmod-ath5k",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "ubnt2",
+  "image_prefix": "openwrt-ath25-ubnt2",
+  "images": [
+    {
+      "name": "openwrt-ath25-ubnt2-squashfs-sysupgrade.bin",
+      "sha256": "b9636586bb12983ca02feede3ea926028924fc2e0272bf185780171870621641",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ath25/generic",
+  "titles": [
+    {
+      "model": "XS2",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r14200-bcf0704bd2",
+  "version_number": "SNAPSHOT"
+}

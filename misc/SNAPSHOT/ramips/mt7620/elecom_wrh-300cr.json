@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "id": "elecom_wrh-300cr",
+  "image_prefix": "openwrt-ramips-mt7620-elecom_wrh-300cr",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-elecom_wrh-300cr-squashfs-factory.bin",
+      "sha256": "0a3ce4cc6334bbabea2e90320aa8b6afcb8e7229fd20ab44d20aac8ebb55c2d2",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-elecom_wrh-300cr-squashfs-sysupgrade.bin",
+      "sha256": "e66b6cee4931bb9261ccdd11358c5879cc590b792fe7eafdb8120e6ff4f71f57",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "elecom,wrh-300cr",
+    "wrh-300cr"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "WRH-300CR",
+      "vendor": "Elecom"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

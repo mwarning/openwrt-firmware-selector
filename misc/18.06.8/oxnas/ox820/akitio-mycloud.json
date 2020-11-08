@@ -1,0 +1,77 @@
+{
+  "arch_packages": "arm_mpcore",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools",
+    "uboot-oxnas-ox820",
+    "block-mount",
+    "fdisk",
+    "lsblk",
+    "mdadm",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2-oxnas",
+    "kmod-ata-oxnas-sata",
+    "kmod-ledtrig-usbdev",
+    "kmod-i2c-gpio",
+    "kmod-rtc-ds1307"
+  ],
+  "id": "akitio-mycloud",
+  "image_prefix": "openwrt-18.06.8-oxnas-ox820-akitio-mycloud",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-oxnas-ox820-akitio-mycloud-squashfs-ubinized.bin",
+      "sha256": "a8d08cda65f69a7616e0a0c36ed88e6019a9498db5334733ab44a12078fac050",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-18.06.8-oxnas-ox820-akitio-mycloud-squashfs-sysupgrade.tar",
+      "sha256": "7ed05bc15a8c4051660bac76e40a400c8a66abe10682ac99ab3437bdc78eee02",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-oxnas-ox820-akitio-mycloud-ubifs-sysupgrade.tar",
+      "sha256": "7a273e2b03f742986fa0f83c4e54aea987feb6beaff9c1530eb86042d97e4422",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-oxnas-ox820-akitio-mycloud-ubifs-ubinized.bin",
+      "sha256": "58f1e31a8d57150af6975ab9016efd140324067f1d68ef34557f5bc051c42cf5",
+      "type": "ubinized"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "akitio,mycloud",
+    "akitio"
+  ],
+  "target": "oxnas/ox820",
+  "titles": [
+    {
+      "title": "Akition myCloud (mini) / SilverStone DC01"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

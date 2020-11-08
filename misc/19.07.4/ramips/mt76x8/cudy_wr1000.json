@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 01:16:49",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-mt7603",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "id": "cudy_wr1000",
+  "image_prefix": "openwrt-19.07.4-ramips-mt76x8-cudy_wr1000",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt76x8-cudy_wr1000-squashfs-sysupgrade.bin",
+      "sha256": "807a569201df3875f2e365238c104b4e4cd6b073f856c093de95bcc9b57bedac",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-mt76x8-cudy_wr1000-squashfs-factory.bin",
+      "sha256": "e7c4293a51b535f277a57f7292addc406790a8bb6dc17a4137d58bb3a3617764",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cudy,wr1000",
+    "wr1000"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "title": "Cudy WR1000"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

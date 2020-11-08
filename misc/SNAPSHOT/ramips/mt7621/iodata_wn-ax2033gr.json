@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "id": "iodata_wn-ax2033gr",
+  "image_prefix": "openwrt-ramips-mt7621-iodata_wn-ax2033gr",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-iodata_wn-ax2033gr-squashfs-sysupgrade.bin",
+      "sha256": "0e6328a9c6f676ddb03727083bab1990e70cd1de42f87ed5ca525401259b7413",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iodata,wn-ax2033gr"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WN-AX2033GR",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

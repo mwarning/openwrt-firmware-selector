@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 18:49:19",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "id": "iodata_wn-ac1600dgr",
+  "image_prefix": "openwrt-19.07.4-ath79-generic-iodata_wn-ac1600dgr",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ath79-generic-iodata_wn-ac1600dgr-squashfs-factory.bin",
+      "sha256": "ce49fe24505aa037135165e129844cb78c3cd2ace63f892823bebd867bf4a358",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ath79-generic-iodata_wn-ac1600dgr-squashfs-sysupgrade.bin",
+      "sha256": "8617a79a3c1b92b44745f4b536942dec6c903b7d88ad738e8d2b69838ba84895",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iodata,wn-ac1600dgr"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "title": "I-O DATA WN-AC1600DGR"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

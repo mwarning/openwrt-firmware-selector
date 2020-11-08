@@ -1,0 +1,99 @@
+{
+  "arch_packages": "arm_arm1176jzf-s_vfp",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "brcm2708-gpu-fw",
+    "kmod-usb-hid",
+    "kmod-sound-core",
+    "kmod-sound-arm-bcm2835",
+    "kmod-fs-vfat",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "brcmfmac-firmware-43430-sdio",
+    "kmod-brcmfmac",
+    "wpad-mini",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "brcm2708-gpu-fw",
+    "kmod-usb-hid",
+    "kmod-sound-core",
+    "kmod-sound-arm-bcm2835",
+    "kmod-fs-vfat",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "brcmfmac-firmware-43430-sdio",
+    "kmod-brcmfmac",
+    "wpad-mini",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [],
+  "id": "rpi",
+  "image_prefix": "openwrt-18.06.8-brcm2708-bcm2708-rpi",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-brcm2708-bcm2708-rpi-squashfs-sysupgrade.img.gz",
+      "sha256": "4fe88fc1e13115bbd4fd7d988bd2481d8b1bbba7af426e2e758fcc3ba21111ce",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-brcm2708-bcm2708-rpi-squashfs-factory.img.gz",
+      "sha256": "c25389a0bf08cb60df183b065d002ee6081765b4c4cc06aa1f0943763a1e583d",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-brcm2708-bcm2708-rpi-ext4-sysupgrade.img.gz",
+      "sha256": "889a7482eb0fbb7a0e474645c69951e4a0f7615c190c95b0b07b676d7563b3b8",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-brcm2708-bcm2708-rpi-ext4-factory.img.gz",
+      "sha256": "b5d498d6fbda70226b655bb35bb013e733f738bc5552152f1eb59b8c992f1004",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "rpi-b",
+    "rpi-b-plus",
+    "rpi-cm",
+    "rpi-zero",
+    "rpi-zero-w",
+    "raspberrypi,model-b",
+    "raspberrypi,model-b-plus",
+    "raspberrypi,compute-module-1",
+    "raspberrypi,model-b-rev2",
+    "raspberrypi,model-zero",
+    "raspberrypi,model-zero-w"
+  ],
+  "target": "brcm2708/bcm2708",
+  "titles": [
+    {
+      "title": "Raspberry Pi B/B+/CM/Zero/ZeroW"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

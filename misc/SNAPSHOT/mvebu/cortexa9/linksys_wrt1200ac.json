@@ -1,0 +1,74 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2020-09-10 22:18:45",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mwlwifi",
+    "wpad-basic-wolfssl",
+    "mwlwifi-firmware-88w8864",
+    "iwinfo"
+  ],
+  "id": "linksys_wrt1200ac",
+  "image_prefix": "openwrt-mvebu-cortexa9-linksys_wrt1200ac",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa9-linksys_wrt1200ac-squashfs-factory.img",
+      "sha256": "9bedb1e174c3ff2c5812f34542ea8a72a396cb4e93aa1c1348f01a86fb8e6d1d",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-mvebu-cortexa9-linksys_wrt1200ac-squashfs-sysupgrade.bin",
+      "sha256": "682d7f80962d196a32d6d0820f770ea73a65acb5394d9732c0a2323f88af5663",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "linksys,wrt1200ac",
+    "armada-385-linksys-caiman",
+    "linksys,caiman"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "WRT1200AC",
+      "vendor": "Linksys"
+    },
+    {
+      "model": "Caiman",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

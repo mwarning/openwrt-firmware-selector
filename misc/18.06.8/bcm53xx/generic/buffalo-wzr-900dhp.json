@@ -1,0 +1,85 @@
+{
+  "arch_packages": "arm_cortex-a9",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "swconfig",
+    "nvram",
+    "osafeloader",
+    "oseama",
+    "otrx",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "nvram",
+    "osafeloader",
+    "oseama",
+    "otrx",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer"
+  ],
+  "device_packages": [
+    "wpad-mini",
+    "kmod-b43",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-phy-bcm-ns-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-phy-bcm-ns-usb3",
+    "iwinfo"
+  ],
+  "id": "buffalo-wzr-900dhp",
+  "image_prefix": "openwrt-18.06.8-bcm53xx-buffalo-wzr-900dhp",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-bcm53xx-buffalo-wzr-900dhp-squashfs.factory-DHP2-JP.bin",
+      "sha256": "91cffb6e8fb33eaa58be139236dc65a618a3ecba06421c9b6066cf30508454ae",
+      "type": "factory-DHP2-JP"
+    },
+    {
+      "name": "openwrt-18.06.8-bcm53xx-buffalo-wzr-900dhp-squashfs.trx",
+      "sha256": "c874afc2b2c9a20498e4c815c79a86918a1c34f2e91f85cb2c9e7678a649da51",
+      "type": "trx"
+    },
+    {
+      "name": "openwrt-18.06.8-bcm53xx-buffalo-wzr-900dhp-squashfs.factory-DHP-EU.bin",
+      "sha256": "8f6242153d9d0369e140528a088829d3e02619b36eaf4e886172a32da7a1b77c",
+      "type": "factory-DHP-EU"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "title": "Buffalo WZR-900DHP"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

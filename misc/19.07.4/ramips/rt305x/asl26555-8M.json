@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 16:38:17",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "asl26555-8M",
+  "image_prefix": "openwrt-19.07.4-ramips-rt305x-asl26555-8M",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-rt305x-asl26555-8M-squashfs-sysupgrade.bin",
+      "sha256": "d4efa83dead1624eac36240e649ce3b324ccaaa15e8697225446f79ee4a2906a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "asl26555-8M",
+    "asl26555"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "title": "Alpha ASL26555 "
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

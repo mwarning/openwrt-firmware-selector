@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 19:53:19",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-ltq-adsl-danube-mei",
+    "kmod-ltq-adsl-danube",
+    "kmod-ltq-adsl-danube-fw-a",
+    "kmod-ltq-atm-danube",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-rt2800-pci",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "arcadyan_arv7519pw",
+  "image_prefix": "openwrt-lantiq-xway-arcadyan_arv7519pw",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-arcadyan_arv7519pw-squashfs-sysupgrade.bin",
+      "sha256": "4eb293b67e9ae727bb411df5427ecea5374bb2495eadce897121fdaa05eebe30",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "arcadyan,arv7519pw",
+    "ARV7519PW"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "ARV7519PW",
+      "vendor": "Arcadyan"
+    },
+    {
+      "model": "ARV7519PW",
+      "vendor": "Astoria Networks"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}
