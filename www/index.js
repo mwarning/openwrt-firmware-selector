@@ -437,7 +437,7 @@ function updateImages(mobj, image_url, is_custom) {
     }
 
     if (config.asu_url) {
-      updatePackageList(version, mobj.target);
+      updatePackageList(mobj.version_number, mobj.target);
     }
 
     // set current selection in URL
