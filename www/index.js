@@ -520,7 +520,7 @@ function init() {
       .then((obj) => {
         // change models format
         let models = {};
-        for (const [id, value] of Object.entries(obj["models"])) {
+        for (const [id, value] of Object.entries(obj["profiles"])) {
           for (const title of getModelTitles(value["titles"])) {
             value["id"] = id;
             models[title] = value;
