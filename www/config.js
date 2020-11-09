@@ -7,9 +7,9 @@ var config = {
   showHelp: true,
   // Image overview file or path to the ASU API
   versions: {
-    '18.06.8': '../misc/18.06.8/overview.json',
-    '19.07.4': '../misc/19.07.4/overview.json',
-    'SNAPSHOT': '../misc/SNAPSHOT/overview.json'
+    '18.06.8': '../misc/18.06.8/',
+    '19.07.4': '../misc/19.07.4/',
+    'SNAPSHOT': '../misc/SNAPSHOT/'
   },
   // Pre-selected version
   //default_version: "19.07.4",

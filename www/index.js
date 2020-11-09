@@ -483,14 +483,13 @@ function setModel(obj, id, title) {
   }
 }
 
-function changeModel(version, overview, model) {
+function changeModel(version, overview, model, base_url) {
   if (model in overview["models"]) {
     let build_date = "unknown";
     const id = overview["models"][model]["id"];
     const target = overview["models"][model]["target"];
-    const profiles_url = "data/" + version + "/" + target + "/" + id + ".json";
 
-    fetch(profiles_url)
+    fetch(base_url + "/" + target + "/" + id + ".json")
       .then((obj) => {
         return obj.json();
       })
@@ -509,12 +508,12 @@ function init() {
 
   setupSelectList($("#versions"), Object.keys(config.versions), (version) => {
     // A new version was selected
-    let overview_url = config.versions[version];
+    let base_url = config.versions[version];
     if (config.asu_url) {
-      overview_url = config.asu_url + "/" + overview_url + "/profiles.json";
+      base_url = config.asu_url + "/" + base_url;
     }
 
-    fetch(overview_url)
+    fetch(base_url + "/overview.json")
       .then((obj) => {
         return obj.json();
       })
@@ -536,7 +535,7 @@ function init() {
           false,
           updateImages,
           (selectList) => {
-            changeModel(version, obj, selectList.value);
+            changeModel(version, obj, selectList.value, base_url);
           }
         );
 
