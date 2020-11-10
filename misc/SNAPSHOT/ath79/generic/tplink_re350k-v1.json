@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "id": "tplink_re350k-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_re350k-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_re350k-v1-squashfs-factory.bin",
+      "sha256": "94c5c8a8805bc07e1740d574b93960e6130d520bbfd48fcbab1b98946d0362e9",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_re350k-v1-squashfs-sysupgrade.bin",
+      "sha256": "1cfa616c719ac88b162d8a25483ab9aa7167d0ee520bf51a1cac63ab57fbaf4a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,re350k-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "RE350K",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

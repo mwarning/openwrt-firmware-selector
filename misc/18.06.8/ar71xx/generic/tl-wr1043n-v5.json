@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "id": "tl-wr1043n-v5",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-tl-wr1043n-v5",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-tl-wr1043n-v5-squashfs-sysupgrade.bin",
+      "sha256": "9961d8798cd1ff7ba65efc0f353faf8f5225791ce08f7dd6369ca48a8b454374",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-tl-wr1043n-v5-squashfs-factory.bin",
+      "sha256": "21b435f10de4a137c2fb890fab69291e0abf8f9dc9aa9e47a6df983265b4954b",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tl-wr1043n-v5"
+  ],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WR1043N v5"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

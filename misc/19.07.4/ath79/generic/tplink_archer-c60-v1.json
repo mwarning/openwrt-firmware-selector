@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 18:49:19",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct-smallbuffers",
+    "ath10k-firmware-qca9888-ct"
+  ],
+  "id": "tplink_archer-c60-v1",
+  "image_prefix": "openwrt-19.07.4-ath79-generic-tplink_archer-c60-v1",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ath79-generic-tplink_archer-c60-v1-squashfs-sysupgrade.bin",
+      "sha256": "a5ab98c8daa35160e023ce20a18e8f3a61d8e2509f9ffc608ffa0c5b96660e50",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-ath79-generic-tplink_archer-c60-v1-squashfs-factory.bin",
+      "sha256": "f425b8a61703679ef0c1f2bcc2e1b5966c75a051f3516d717d15c429baff7a58",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c60-v1",
+    "archer-c60-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "title": "TP-Link Archer C60 v1"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 19:11:10",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-mt7603",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-sdhci-mt7620",
+    "kmod-i2c-mt7628",
+    "ravpower-mcu"
+  ],
+  "id": "ravpower_rp-wd009",
+  "image_prefix": "openwrt-ramips-mt76x8-ravpower_rp-wd009",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-ravpower_rp-wd009-squashfs-factory.bin",
+      "sha256": "1fe5b3bcbbf8198fc25df59ac6ad1dcb60f963009d4de22de424b6b67ceb4e98",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-ravpower_rp-wd009-squashfs-sysupgrade.bin",
+      "sha256": "c5aea14ba88ce02f62a5c5c188477dd4cae0b6fc5778216a9014573d0a9d82b6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ravpower,rp-wd009"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "RP-WD009",
+      "vendor": "RAVPower"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

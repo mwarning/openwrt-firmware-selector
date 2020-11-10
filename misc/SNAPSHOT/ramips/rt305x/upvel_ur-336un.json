@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:12:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "upvel_ur-336un",
+  "image_prefix": "openwrt-ramips-rt305x-upvel_ur-336un",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-upvel_ur-336un-squashfs-sysupgrade.bin",
+      "sha256": "e644cb7c903f94a7660cf1f7e3453b6350b49a5221a96ff1235b04a8cfb1653b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "upvel,ur-336un",
+    "ur-336un"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "UR-336UN",
+      "vendor": "UPVEL"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

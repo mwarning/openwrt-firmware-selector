@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "jboot-tools",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-net-qmi-wwan",
+    "kmod-usb-serial-option",
+    "uqmi",
+    "kmod-mt76x0e"
+  ],
+  "id": "dlink_dwr-960",
+  "image_prefix": "openwrt-ramips-mt7620-dlink_dwr-960",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dwr-960-squashfs-factory.bin",
+      "sha256": "bd0df31c4942c14640d5941edcd059c8ddb90bde14fb1fbf781a9f45abeef9ca",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dwr-960-squashfs-sysupgrade.bin",
+      "sha256": "fcdf18161626b258c5316e5197c4d727f9701d1da73eb0b5e23fcb473dca8483",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dwr-960"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "DWR-960",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

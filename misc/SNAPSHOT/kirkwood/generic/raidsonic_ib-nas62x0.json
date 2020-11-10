@@ -1,0 +1,67 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2020-09-11 23:18:05",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-usb2",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-usb2"
+  ],
+  "device_packages": [
+    "kmod-ata-marvell-sata",
+    "kmod-fs-ext4"
+  ],
+  "id": "raidsonic_ib-nas62x0",
+  "image_prefix": "openwrt-kirkwood-raidsonic_ib-nas62x0",
+  "images": [
+    {
+      "name": "openwrt-kirkwood-raidsonic_ib-nas62x0-squashfs-sysupgrade.bin",
+      "sha256": "ebe715abc1eff3bfe9611a8c1b2d2d5aa61bcd19c4c8468d0f09fc33a04f8a02",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-kirkwood-raidsonic_ib-nas62x0-squashfs-factory.bin",
+      "sha256": "d3f21404fc78ccbb5c80db743daf51a68b5fbb6cff484e557310d8fc4d728931",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "raidsonic,ib-nas62x0",
+    "ib62x0"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "ICY BOX IB-NAS62x0",
+      "vendor": "RaidSonic"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

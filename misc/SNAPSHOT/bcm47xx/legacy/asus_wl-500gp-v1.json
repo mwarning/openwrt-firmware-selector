@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_mips32",
+  "build_at": "2020-09-11 22:48:52",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "kmod-usb-ohci",
+    "kmod-usb2"
+  ],
+  "id": "asus_wl-500gp-v1",
+  "image_prefix": "openwrt-bcm47xx-legacy-asus_wl-500gp-v1",
+  "images": [
+    {
+      "name": "openwrt-bcm47xx-legacy-asus_wl-500gp-v1-squashfs.trx",
+      "sha256": "44a24ee5ce35e7d1c394c4e02149adaa4375766958c622af1e8d96c2fcc2f8d3",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WL-500gP",
+      "variant": "v1",
+      "vendor": "ASUS"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

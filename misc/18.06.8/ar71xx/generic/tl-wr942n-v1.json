@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "tl-wr942n-v1",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-tl-wr942n-v1",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-tl-wr942n-v1-squashfs-sysupgrade.bin",
+      "sha256": "e570886ef5525231c4a4cd2470689fb66eb46bd5cb70c0840bbf65387ac1f32a",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-tl-wr942n-v1-squashfs-factory.bin",
+      "sha256": "0bfefeded67bb8a943ef97161533f5d84c2fe7ff80ce08b5cdd459bfcf48b72c",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tl-wr942n-v1"
+  ],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WR942N v1"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

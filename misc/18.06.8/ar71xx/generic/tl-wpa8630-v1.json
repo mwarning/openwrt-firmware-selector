@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k",
+    "ath10k-firmware-qca988x"
+  ],
+  "id": "tl-wpa8630-v1",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-tl-wpa8630-v1",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-tl-wpa8630-v1-squashfs-sysupgrade.bin",
+      "sha256": "5090689e5513e241669c6316bea573d9737585049a8d2262ca38fc9eca6a9d99",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-tl-wpa8630-v1-squashfs-factory.bin",
+      "sha256": "33f11f30af42515de81c2f9b6257ec7c008a98ae5f3254d83f5664d2c0dea8fc",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WPA8630 v1"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

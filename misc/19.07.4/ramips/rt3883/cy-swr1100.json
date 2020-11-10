@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2020-09-08 06:22:21",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-pci",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "swconfig"
+  ],
+  "id": "cy-swr1100",
+  "image_prefix": "openwrt-19.07.4-ramips-rt3883-cy-swr1100",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-rt3883-cy-swr1100-squashfs-factory.bin",
+      "sha256": "b71cbf8f3d7b40ebe178f9ee3c156a2a25a6815dd3233ab75607f012c50fa2c2",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-rt3883-cy-swr1100-squashfs-sysupgrade.bin",
+      "sha256": "62718b7acd93b35067838c52fd916e11460aa1f3db754ac06b8d2bb0b26041bc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cy-swr1100"
+  ],
+  "target": "ramips/rt3883",
+  "titles": [
+    {
+      "title": "Samsung CY-SWR1100"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

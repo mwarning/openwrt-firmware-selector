@@ -1,0 +1,71 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2020-09-11 16:34:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-rtl8723bs",
+    "rtl8723bs-firmware"
+  ],
+  "id": "olimex_a64-olinuxino-emmc",
+  "image_prefix": "openwrt-sunxi-cortexa53-olimex_a64-olinuxino-emmc",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa53-olimex_a64-olinuxino-emmc-ext4-sdcard.img.gz",
+      "sha256": "4065bc8692c92b50cb6f0168b52adb8d657e2257a09aa0ebaec3433a8193f5fa",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa53-olimex_a64-olinuxino-emmc-squashfs-sdcard.img.gz",
+      "sha256": "c18a9f24da16c0d5e34a73288be364cd35154ec17f563a595d1f03dfe3b7bdfc",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "olimex,a64-olinuxino-emmc"
+  ],
+  "target": "sunxi/cortexa53",
+  "titles": [
+    {
+      "model": "A64-Olinuxino",
+      "variant": "eMMC",
+      "vendor": "Olimex"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "tplink_tl-wdr3600-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_tl-wdr3600-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wdr3600-v1-squashfs-factory.bin",
+      "sha256": "fc6bb60577b655816596fbf545f664041a71c22485c5097986c3143a593c8ecd",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wdr3600-v1-squashfs-sysupgrade.bin",
+      "sha256": "878d4faaaccb7dfbbabbc55207c041d3e19745d0c5116636dca5ba4b1bb37eb5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wdr3600-v1",
+    "tl-wdr4300"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WDR3600",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

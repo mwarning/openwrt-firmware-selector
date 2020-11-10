@@ -1,0 +1,66 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-sun4i-emac",
+    "kmod-rtc-sunxi",
+    "kmod-rtl8192cu"
+  ],
+  "id": "sun4i-a10-pcduino",
+  "image_prefix": "openwrt-18.06.8-sunxi-cortexa8-sun4i-a10-pcduino",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-sunxi-cortexa8-sun4i-a10-pcduino-squashfs-sdcard.img.gz",
+      "sha256": "613d7652b671977148956e668d1d99209ac75ecede69a68ecc7077e4c32eb9b1",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-18.06.8-sunxi-cortexa8-sun4i-a10-pcduino-ext4-sdcard.img.gz",
+      "sha256": "3aebd132e6c08404290dc3c86ef86a01ee85c358d7e5ce951be6ad1faa8f6eb9",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "linksprite,a10-pcduino"
+  ],
+  "target": "sunxi/cortexa8",
+  "titles": [
+    {
+      "title": "LinkSprite pcDuino"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

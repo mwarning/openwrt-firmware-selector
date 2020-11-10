@@ -1,0 +1,80 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-10 21:23:47",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-dwc3-qcom",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic-wolfssl",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-usb-dwc3-qcom",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic-wolfssl",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct"
+  ],
+  "device_packages": [
+    "uboot-envtools",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "zyxel_nbg6617",
+  "image_prefix": "openwrt-ipq40xx-generic-zyxel_nbg6617",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-zyxel_nbg6617-squashfs-sysupgrade.bin",
+      "sha256": "6144037bbdf3fc80aa608e3abbe2e95f2899e7e8adaddf95d3fa9faca2bbbf75",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ipq40xx-generic-zyxel_nbg6617-squashfs-factory.bin",
+      "sha256": "7d3d686744039659d377cf86ec2b118a7e5363edad0c10a6466d487b251caea1",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zyxel,nbg6617"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "NBG6617",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

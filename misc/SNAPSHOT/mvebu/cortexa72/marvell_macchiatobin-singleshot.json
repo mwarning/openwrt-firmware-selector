@@ -1,0 +1,75 @@
+{
+  "arch_packages": "aarch64_cortex-a72",
+  "build_at": "2020-09-11 21:00:34",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "e2fsprogs",
+    "ethtool",
+    "mkf2fs",
+    "partx-utils",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-i2c-mux-pca954x"
+  ],
+  "id": "marvell_macchiatobin-singleshot",
+  "image_prefix": "openwrt-mvebu-cortexa72-marvell_macchiatobin-singleshot",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa72-marvell_macchiatobin-singleshot-squashfs-sdcard.img.gz",
+      "sha256": "f52f4c5c2c053518d3117d51b5c42503b6be0229980cc5663037381524cc0882",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-mvebu-cortexa72-marvell_macchiatobin-singleshot-ext4-sdcard.img.gz",
+      "sha256": "e5d59802921f5d12ba6c1c6f19fe3d497fc8266eea5d9c07299c5d2fb68d3046",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "marvell,armada8040-mcbin-singleshot"
+  ],
+  "target": "mvebu/cortexa72",
+  "titles": [
+    {
+      "model": "MACCHIATObin",
+      "variant": "Single Shot",
+      "vendor": "SolidRun"
+    },
+    {
+      "model": "Armada 8040 Community Board",
+      "variant": "Single Shot",
+      "vendor": "SolidRun"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

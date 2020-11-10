@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 19:11:10",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-mt7603",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e"
+  ],
+  "id": "tplink_re220-v2",
+  "image_prefix": "openwrt-ramips-mt76x8-tplink_re220-v2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_re220-v2-squashfs-factory.bin",
+      "sha256": "1de2a859bb705b326667d4fb17ebca0a268b4f7bac6458613c6e664c2169b7ea",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_re220-v2-squashfs-sysupgrade.bin",
+      "sha256": "c91bd7ee074229f2c9ed32f45b32cf659234a6ea87b3134651d1c1d26d7d79a6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,re220-v2"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "RE220",
+      "variant": "v2",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

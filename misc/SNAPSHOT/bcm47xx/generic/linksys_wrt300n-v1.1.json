@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mipsel_mips32",
+  "build_at": "2020-09-11 16:34:14",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev"
+  ],
+  "device_packages": [
+    "kmod-tg3",
+    "kmod-b43"
+  ],
+  "id": "linksys_wrt300n-v1.1",
+  "image_prefix": "openwrt-bcm47xx-generic-linksys_wrt300n-v1.1",
+  "images": [
+    {
+      "name": "openwrt-bcm47xx-generic-linksys_wrt300n-v1.1-squashfs.bin",
+      "sha256": "dc8a32d5b27aeef3fd2f98c2d24b2c3413f0c43603acbb6eaa29bf1601f80587",
+      "type": "bin"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm47xx/generic",
+  "titles": [
+    {
+      "model": "WRT300N",
+      "variant": "v1.1",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

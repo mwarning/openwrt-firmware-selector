@@ -1,0 +1,65 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-10 20:46:39",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "egnite_ethernut5",
+  "image_prefix": "openwrt-at91-sam9x-egnite_ethernut5",
+  "images": [
+    {
+      "name": "openwrt-at91-sam9x-egnite_ethernut5-squashfs-root.ubi",
+      "sha256": "4fb9b8614ba806f998d0f579ae33b83594a9ce40c4891347ac0717745f06e0ed",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-at91-sam9x-egnite_ethernut5-ubifs-root.ubi",
+      "sha256": "96fa61683c61034e1d7a23eb82e4b14c3e65c6367d6f9f5e2bc7f7e760c55374",
+      "type": "root"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "egnite,ethernut5"
+  ],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "Ethernut 5",
+      "vendor": "egnite"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

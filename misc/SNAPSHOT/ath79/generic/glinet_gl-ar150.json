@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2"
+  ],
+  "id": "glinet_gl-ar150",
+  "image_prefix": "openwrt-ath79-generic-glinet_gl-ar150",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-glinet_gl-ar150-squashfs-sysupgrade.bin",
+      "sha256": "b7676316ba2f9f2574a640a4b1196381af9dcdfab1b3473b6b050d15a592acb5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,gl-ar150",
+    "gl-ar150"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "GL-AR150",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

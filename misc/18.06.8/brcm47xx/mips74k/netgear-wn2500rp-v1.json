@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "swconfig",
+    "wpad-mini",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "wpad-mini",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev"
+  ],
+  "device_packages": [
+    "kmod-b43"
+  ],
+  "id": "netgear-wn2500rp-v1",
+  "image_prefix": "openwrt-18.06.8-brcm47xx-mips74k-netgear-wn2500rp-v1",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-brcm47xx-mips74k-netgear-wn2500rp-v1-squashfs.chk",
+      "sha256": "f7377ca47932d6b8d31e185317d67de72ad333f2e87d0862afb7ede4300ed92f",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm47xx/mips74k",
+  "titles": [
+    {
+      "title": "Netgear WN2500RP v1"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

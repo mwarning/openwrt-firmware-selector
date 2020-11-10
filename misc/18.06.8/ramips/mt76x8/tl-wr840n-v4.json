@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-mt76",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "id": "tl-wr840n-v4",
+  "image_prefix": "openwrt-18.06.8-ramips-mt76x8-tl-wr840n-v4",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ramips-mt76x8-tl-wr840n-v4-squashfs-sysupgrade.bin",
+      "sha256": "8b85a5ecc327ccc4a5951a560a5e38912b5ada7e6ca06a443fcf96127ccad199",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ramips-mt76x8-tl-wr840n-v4-squashfs-tftp-recovery.bin",
+      "sha256": "d3d5b20a5c77ca94f0f6b122230e91e16cb222f24573a5651904659738893600",
+      "type": "tftp-recovery"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tl-wr840n-v4"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "title": "TP-Link TL-WR840N v4"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

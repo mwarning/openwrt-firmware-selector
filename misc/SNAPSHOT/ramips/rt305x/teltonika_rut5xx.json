@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:12:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "om-watchdog"
+  ],
+  "id": "teltonika_rut5xx",
+  "image_prefix": "openwrt-ramips-rt305x-teltonika_rut5xx",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-teltonika_rut5xx-squashfs-sysupgrade.bin",
+      "sha256": "89e302deaf22e25aa9bae25bb6102bbd33e06b36a924f998522e065080feda38",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "teltonika,rut5xx",
+    "rut5xx"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "RUT5XX",
+      "vendor": "Teltonika"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

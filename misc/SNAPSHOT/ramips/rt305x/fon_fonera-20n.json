@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:12:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "fon_fonera-20n",
+  "image_prefix": "openwrt-ramips-rt305x-fon_fonera-20n",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-fon_fonera-20n-squashfs-sysupgrade.bin",
+      "sha256": "8145d8d54cb6d7672fd6e88745c7571bb2262a14b7084c99680e6231b57f1854",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-fon_fonera-20n-squashfs-factory.bin",
+      "sha256": "ed72f4e4d02e14cda5a2c1040e0119a160dcd9a938aab9d1cec0e9237a78df3d",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "fon,fonera-20n",
+    "fonera20n"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "Fonera 2.0N",
+      "vendor": "Fon"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

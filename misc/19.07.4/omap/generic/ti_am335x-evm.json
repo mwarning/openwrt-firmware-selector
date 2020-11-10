@@ -1,0 +1,62 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2020-09-08 04:30:49",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [],
+  "id": "ti_am335x-evm",
+  "image_prefix": "openwrt-19.07.4-omap-ti_am335x-evm",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-omap-ti_am335x-evm-squashfs-sdcard.img.gz",
+      "sha256": "10b3143d878168120858a6a316d10234524bb832f5d9e193dd50c21b6ca62d26",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-19.07.4-omap-ti_am335x-evm-ext4-sdcard.img.gz",
+      "sha256": "19ba6b561a6f3c212452a3c29c0ac5a4fce39406c1629075e69142a29b7d0a12",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ti,am335x-evm"
+  ],
+  "target": "omap/generic",
+  "titles": [
+    {
+      "title": "TI AM335x EVM"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

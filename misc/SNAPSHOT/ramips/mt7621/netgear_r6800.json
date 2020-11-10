@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "id": "netgear_r6800",
+  "image_prefix": "openwrt-ramips-mt7621-netgear_r6800",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6800-squashfs-factory.img",
+      "sha256": "70647b76e815d9e54c9536e4da4fb77b959791d6f335a582f712faca3f6a3692",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6800-squashfs-rootfs.bin",
+      "sha256": "dc73bf33cffec7abc8f8325e7d01224158bb7758c0e847684b0526add1c70159",
+      "type": "rootfs"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6800-squashfs-kernel.bin",
+      "sha256": "e37da09556b5575d89d4cf1d3585f25c323c963a6c0b1841b196c8434ce886f8",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6800-squashfs-sysupgrade.bin",
+      "sha256": "e8f7afca6c0189b6a6acbe79ba8a334e3ca7c1e07e95513eb874ffef7f0857e5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,r6800"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "R6800",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

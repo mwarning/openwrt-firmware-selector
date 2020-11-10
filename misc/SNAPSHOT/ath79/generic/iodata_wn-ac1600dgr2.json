@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "id": "iodata_wn-ac1600dgr2",
+  "image_prefix": "openwrt-ath79-generic-iodata_wn-ac1600dgr2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr2-squashfs-dgr2-dgr3-factory.bin",
+      "sha256": "51a515437bf9046049c54955a6c181bd6dd5d925fd47bd3a2a814afb17ee7a7c",
+      "type": "dgr2-dgr3-factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr2-squashfs-sysupgrade.bin",
+      "sha256": "5dcc7a382af7cfc8a91e987a23c2dc2f0f72631c84e32477e64d7422c5856908",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iodata,wn-ac1600dgr2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WN-AC1600DGR2/DGR3",
+      "vendor": "I-O DATA"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 19:11:10",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-mt7603",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "glinet_vixmini",
+  "image_prefix": "openwrt-ramips-mt76x8-glinet_vixmini",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-glinet_vixmini-squashfs-sysupgrade.bin",
+      "sha256": "ad52467038cac22d30de55c3a63f57c044e03db5100224cfa08db96a53160c4a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,vixmini",
+    "vixmini"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "VIXMINI",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 22:36:24",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "pirelli_a226g",
+  "image_prefix": "openwrt-bcm63xx-generic-pirelli_a226g",
+  "images": [
+    {
+      "name": "openwrt-bcm63xx-generic-pirelli_a226g-squashfs-cfe.bin",
+      "sha256": "f1de769b95fb52a8a16504abc1d7e77ab81fd14184b8d9b9c1a0149d2b43f021",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "A226G",
+      "vendor": "Pirelli"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

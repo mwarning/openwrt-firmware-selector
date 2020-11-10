@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c"
+  ],
+  "device_packages": [
+    "kmod-ath9k-htc",
+    "wpad-mini",
+    "kmod-ltq-adsl-ar9-mei",
+    "kmod-ltq-adsl-ar9",
+    "kmod-ltq-adsl-ar9-fw-b",
+    "kmod-ltq-atm-ar9",
+    "ltq-adsl-app",
+    "ppp-mod-pppoe",
+    "kmod-ltq-deu-ar9",
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ltq-tapi",
+    "kmod-ltq-vmmc",
+    "iwinfo"
+  ],
+  "id": "zte_h201l",
+  "image_prefix": "openwrt-18.06.8-lantiq-xway-zte_h201l",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-lantiq-xway-zte_h201l-squashfs-sysupgrade.bin",
+      "sha256": "1cf99ec662357a48cb04cdd0eaedf3e7ff08c62444b1f649f8ce47181b61876b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zte,h201l",
+    "H201L"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "title": "ZTE H201L - H201L"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

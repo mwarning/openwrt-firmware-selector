@@ -1,0 +1,74 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-08 12:02:16",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-usb-dwc3-of-simple",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct"
+  ],
+  "device_packages": [],
+  "id": "netgear_ex6150v2",
+  "image_prefix": "openwrt-19.07.4-ipq40xx-generic-netgear_ex6150v2",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ipq40xx-generic-netgear_ex6150v2-squashfs-factory.img",
+      "sha256": "819117f8e1565db43477a16cd818a2eb05586f5394a03dac8e4824ab1a26e8c1",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ipq40xx-generic-netgear_ex6150v2-squashfs-sysupgrade.bin",
+      "sha256": "f7739ed4ee6e69b23a0a2d9fc7d307fc300a7778061c43871686521528929e0e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,ex6150v2"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "title": "Netgear EX6150v2"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3"
+  ],
+  "id": "hiwifi_hc5962",
+  "image_prefix": "openwrt-ramips-mt7621-hiwifi_hc5962",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-hiwifi_hc5962-squashfs-sysupgrade.bin",
+      "sha256": "bee3ee45cba2b949ce9081a520738d86e369a2ee3abac6438edb39126491bf30",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-hiwifi_hc5962-squashfs-factory.bin",
+      "sha256": "16eb3144f9ab1d499b5d4e9a687c90388204eafa20b747197b5bea7aa34c9640",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "hiwifi,hc5962"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "HC5962",
+      "vendor": "HiWiFi"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

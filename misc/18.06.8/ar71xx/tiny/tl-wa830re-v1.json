@@ -1,0 +1,61 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "id": "tl-wa830re-v1",
+  "image_prefix": "openwrt-18.06.8-ar71xx-tiny-tl-wa830re-v1",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wa830re-v1-squashfs-factory.bin",
+      "sha256": "39b563dc90b9a6c0d5e5313a656cdc5b0e8fb1681b2e70c9c30527958599b624",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wa830re-v1-squashfs-sysupgrade.bin",
+      "sha256": "549db93178c1dc3232e8e763ea8ab61c83cbfa31c953d67b2a73f626973a76ba",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/tiny",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WA830RE v1"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

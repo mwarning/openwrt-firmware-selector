@@ -1,0 +1,66 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2020-09-11 23:18:05",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-usb2",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-usb2"
+  ],
+  "device_packages": [
+    "kmod-mvsdio"
+  ],
+  "id": "cisco_on100",
+  "image_prefix": "openwrt-kirkwood-cisco_on100",
+  "images": [
+    {
+      "name": "openwrt-kirkwood-cisco_on100-squashfs-sysupgrade.bin",
+      "sha256": "9277a832fb63db61de1f0fa76e94285b51cabe68c8c58c37abcf3f826721713f",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-kirkwood-cisco_on100-squashfs-factory.bin",
+      "sha256": "95b32993e8d910bda37b09bf2569dcb430d5e1cbfb52a3c7943c3a51b4553a9c",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cisco,on100",
+    "on100"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "ON100",
+      "vendor": "Cisco Systems"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

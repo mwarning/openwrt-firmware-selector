@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "dlink_dir-2660-a1",
+  "image_prefix": "openwrt-ramips-mt7621-dlink_dir-2660-a1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-dlink_dir-2660-a1-squashfs-sysupgrade.bin",
+      "sha256": "75af557b97d27f12759589381b11b90ab1249f9998765d41aa87434b1e0856af",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-dlink_dir-2660-a1-squashfs-factory.bin",
+      "sha256": "44ad098b7e5a3ee550c12feabbae63237a506fcd759f2ef9ccd6b0d462ef4c60",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dir-2660-a1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "DIR-2660",
+      "variant": "A1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

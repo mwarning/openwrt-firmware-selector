@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-i2c-gpio",
+    "kmod-rtc-pcf8563",
+    "kmod-usb-serial",
+    "kmod-usb-serial-cp210x",
+    "uqmi"
+  ],
+  "id": "zbtlink_zbt-wd323",
+  "image_prefix": "openwrt-ath79-generic-zbtlink_zbt-wd323",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-zbtlink_zbt-wd323-squashfs-sysupgrade.bin",
+      "sha256": "03a7a8e82aa8504f5f29e0961af60898253bdededc79ca97c4320df5fbe89d02",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-wd323"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WD323",
+      "vendor": "ZBT"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

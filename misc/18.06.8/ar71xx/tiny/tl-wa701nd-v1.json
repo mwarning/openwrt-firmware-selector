@@ -1,0 +1,61 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "id": "tl-wa701nd-v1",
+  "image_prefix": "openwrt-18.06.8-ar71xx-tiny-tl-wa701nd-v1",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wa701nd-v1-squashfs-sysupgrade.bin",
+      "sha256": "2cc38ed082094104c8ed2d067308a887faf2dd4f52c974b3d3139df79dbc04a0",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wa701nd-v1-squashfs-factory.bin",
+      "sha256": "1f379d86df0317225076ea0769f754c03d293027026d5b3f0dbcf083bb1a61a0",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/tiny",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WA701N/ND v1"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

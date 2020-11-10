@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-rt2800-pci",
+    "wpad-mini",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "HG622",
+  "image_prefix": "openwrt-18.06.8-brcm63xx-smp-HG622",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-brcm63xx-smp-HG622-squashfs-sysupgrade.bin",
+      "sha256": "27548cd8a640b36d2c6270a29c3011576f9d50931e9a4c75a939877bc15c954f",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-brcm63xx-smp-HG622-squashfs-cfe.bin",
+      "sha256": "5e2a17307ad2aa5d5a26194cb6590af4e8f82b6dc8591054fd22334f7d44f774",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "title": "Huawei EchoLife HG622"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

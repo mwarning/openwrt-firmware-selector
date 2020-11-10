@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-mini",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "VR-3025u",
+  "image_prefix": "openwrt-18.06.8-brcm63xx-smp-VR-3025u",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-brcm63xx-smp-VR-3025u-squashfs-sysupgrade.bin",
+      "sha256": "1c328e3b329f57738f11642b2ae4a1643d095f622e8023923973b416ceac7e69",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-brcm63xx-smp-VR-3025u-squashfs-cfe.bin",
+      "sha256": "94f7f8dc50aaf78cffded9d928be3b5f547dd2b2ad60e068e559ae8cbe56c7bc",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "title": "Comtrend VR-3025u"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

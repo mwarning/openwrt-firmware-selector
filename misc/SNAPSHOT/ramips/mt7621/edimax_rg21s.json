@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "id": "edimax_rg21s",
+  "image_prefix": "openwrt-ramips-mt7621-edimax_rg21s",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-edimax_rg21s-squashfs-sysupgrade.bin",
+      "sha256": "2e37c23eda9f95339463d8c05c31e6cde2ba9dfa575d36b7dc9c893289a7ad4b",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-edimax_rg21s-squashfs-factory.bin",
+      "sha256": "4dbd00aaf1e00e0d03f588e1a1551fa74a79ca9bf71d81f212e64e52e7a3f2dc",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "edimax,rg21s"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Gemini AC2600 RG21S",
+      "vendor": "Edimax"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

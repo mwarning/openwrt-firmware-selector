@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-rt2800-pci"
+  ],
+  "id": "buffalo_wsr-600dhp",
+  "image_prefix": "openwrt-ramips-mt7621-buffalo_wsr-600dhp",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-buffalo_wsr-600dhp-squashfs-sysupgrade.bin",
+      "sha256": "7c5b031aa0e9685a495656d332b68e0742715389837754bd8ac9b6a970f9aaec",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,wsr-600dhp",
+    "wsr-600"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WSR-600DHP",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

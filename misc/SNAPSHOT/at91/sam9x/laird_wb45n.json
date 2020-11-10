@@ -1,0 +1,73 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-10 20:46:39",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [
+    "kmod-mmc-at91",
+    "kmod-ath6kl-sdio",
+    "ath6k-firmware",
+    "kmod-usb-storage",
+    "kmod-fs-vfat",
+    "kmod-fs-msdos",
+    "kmod-leds-gpio"
+  ],
+  "id": "laird_wb45n",
+  "image_prefix": "openwrt-at91-sam9x-laird_wb45n",
+  "images": [
+    {
+      "name": "openwrt-at91-sam9x-laird_wb45n-squashfs-root.ubi",
+      "sha256": "eb08a47838addd13178cfe592804ccfe50b5963254ad509d877865271857e52b",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-at91-sam9x-laird_wb45n-ubifs-root.ubi",
+      "sha256": "bd543537a0f9eb1486b2f9db224fbb9985adb332dbe11040cf6c75ce5b478efe",
+      "type": "root"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "laird,wb45n"
+  ],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "WB45N",
+      "vendor": "Laird"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "jboot-tools",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-mt76x0e"
+  ],
+  "id": "lava_lr-25g001",
+  "image_prefix": "openwrt-ramips-mt7620-lava_lr-25g001",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-lava_lr-25g001-squashfs-factory.bin",
+      "sha256": "2de3e5749f731a72bc2e08d215f7c0eeb01bcc9500e34b613ce084e4c5e5761e",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-lava_lr-25g001-squashfs-sysupgrade.bin",
+      "sha256": "c44e8347047eeadbd1f05414b2b40823ed6ffd10cfe750344df55176c306f7ef",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lava,lr-25g001"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "LR-25G001",
+      "vendor": "LAVA"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

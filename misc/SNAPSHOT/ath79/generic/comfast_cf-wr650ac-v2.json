@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "id": "comfast_cf-wr650ac-v2",
+  "image_prefix": "openwrt-ath79-generic-comfast_cf-wr650ac-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-comfast_cf-wr650ac-v2-squashfs-sysupgrade.bin",
+      "sha256": "7b3f86791cedec6eb407b4223548774580765ded4bdfa764381c4ed5aced1090",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "comfast,cf-wr650ac-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CF-WR650AC",
+      "variant": "v2",
+      "vendor": "COMFAST"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

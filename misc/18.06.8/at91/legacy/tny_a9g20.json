@@ -1,0 +1,57 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "tny_a9g20",
+  "image_prefix": "openwrt-18.06.8-at91-legacy-tny_a9g20",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-at91-legacy-tny_a9g20-squashfs-factory.bin",
+      "sha256": "819fef98a83c1593aac242d7c63e1ef1199cfbb8fe3b6c9c80fc36bd353e199b",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-at91-legacy-tny_a9g20-ubifs-factory.bin",
+      "sha256": "7a8fc82b8888c7c7c264f8b4a1069698463371cbf86a67f29b739883efd27b85",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/legacy",
+  "titles": [
+    {
+      "title": "Calao TNYA9G20"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

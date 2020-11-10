@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 19:11:10",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-mt7603",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "tplink_tl-wr850n-v2",
+  "image_prefix": "openwrt-ramips-mt76x8-tplink_tl-wr850n-v2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-wr850n-v2-squashfs-tftp-recovery.bin",
+      "sha256": "306f96893a9b2f4f3ba4ab4007ca8440492a1a775fe95c5f45875e6288c25523",
+      "type": "tftp-recovery"
+    },
+    {
+      "name": "openwrt-ramips-mt76x8-tplink_tl-wr850n-v2-squashfs-sysupgrade.bin",
+      "sha256": "068671791292fc8bd4a59c442427983c1f2ce8859f3ce69a221ee4f5466f935a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr850n-v2"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "TL-WR850N",
+      "variant": "v2",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

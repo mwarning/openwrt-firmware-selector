@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-rt2800-pci"
+  ],
+  "id": "buffalo_whr-600d",
+  "image_prefix": "openwrt-ramips-mt7620-buffalo_whr-600d",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-buffalo_whr-600d-squashfs-sysupgrade.bin",
+      "sha256": "f82942a80aeb9a7be57f0221d807e804cf0283443a209242343d453cc01af771",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,whr-600d",
+    "whr-600d"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "WHR-600D",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,60 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 22:36:24",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "comtrend_vr-3026e",
+  "image_prefix": "openwrt-bcm63xx-generic-comtrend_vr-3026e",
+  "images": [
+    {
+      "name": "openwrt-bcm63xx-generic-comtrend_vr-3026e-squashfs-cfe.bin",
+      "sha256": "8607f2e9ac16176bdee8085bbf8aaf9930f5aae61de10dd6eac217dce7088689",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "VR-3026e",
+      "vendor": "Comtrend"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

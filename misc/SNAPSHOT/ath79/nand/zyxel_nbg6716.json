@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 17:37:26",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "id": "zyxel_nbg6716",
+  "image_prefix": "openwrt-ath79-nand-zyxel_nbg6716",
+  "images": [
+    {
+      "name": "openwrt-ath79-nand-zyxel_nbg6716-squashfs-factory.bin",
+      "sha256": "825072c4788951e6df908fdf6cc143d56239ce1592bad0a66dc940d2bb838e9c",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-nand-zyxel_nbg6716-squashfs-sysupgrade-4M-Kernel.bin",
+      "sha256": "9b360eb5e500abe77bdd64e3a6b9d41aca9e72bdca0e9d36ebe73e9a482c167b",
+      "type": "sysupgrade-4M-Kernel"
+    },
+    {
+      "name": "openwrt-ath79-nand-zyxel_nbg6716-squashfs-sysupgrade.tar",
+      "sha256": "70b333af0bd676aeacdad72e6619ccd8b334eb28168af0590444ed19f90cb4cc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zyxel,nbg6716"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "NBG6716",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

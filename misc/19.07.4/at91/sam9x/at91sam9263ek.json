@@ -1,0 +1,70 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-08 08:17:21",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "at91sam9263ek",
+  "image_prefix": "openwrt-19.07.4-at91-sam9x-at91sam9263ek",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-at91-sam9x-at91sam9263ek-squashfs-root.ubi",
+      "sha256": "55c6b18f21b08989bd3198c376b100f6e276efe85af1ed87ab9b8330ca0a7a3e",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-19.07.4-at91-sam9x-at91sam9263ek-ubifs-root.ubi",
+      "sha256": "0b4233b7f728e5ca72344991d35114b706245222cb2a2b7888102c256d7e81a7",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-19.07.4-at91-sam9x-at91sam9263ek-ubifs-zImage",
+      "sha256": "23526a66678b3a449232db1f9a4bbfd5846b5fbea8aa83220899dd6a99380d6f",
+      "type": "zImage"
+    },
+    {
+      "name": "openwrt-19.07.4-at91-sam9x-at91sam9263ek-squashfs-zImage",
+      "sha256": "23526a66678b3a449232db1f9a4bbfd5846b5fbea8aa83220899dd6a99380d6f",
+      "type": "zImage"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "title": "Atmel AT91SAM9263-EK"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

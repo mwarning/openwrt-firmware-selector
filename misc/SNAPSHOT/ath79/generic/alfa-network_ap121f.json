@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-chipidea2",
+    "kmod-usb-storage",
+    "-swconfig"
+  ],
+  "id": "alfa-network_ap121f",
+  "image_prefix": "openwrt-ath79-generic-alfa-network_ap121f",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-alfa-network_ap121f-squashfs-sysupgrade.bin",
+      "sha256": "b9e0334b6d5f252fa6653e4a77a3ca9afa07bd660d56476210cd4c817e5257cb",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "alfa-network,ap121f",
+    "ap121f"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "AP121F",
+      "vendor": "ALFA Network"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

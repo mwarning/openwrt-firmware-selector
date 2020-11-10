@@ -1,0 +1,71 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-11 01:37:12",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-sun4i-emac",
+    "kmod-rtc-sunxi",
+    "kmod-rtl8192cu"
+  ],
+  "id": "mele_m9",
+  "image_prefix": "openwrt-sunxi-cortexa7-mele_m9",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa7-mele_m9-squashfs-sdcard.img.gz",
+      "sha256": "1dc2ee77cebeae68ae5213f15cd6ad0dc49e513aed55dc2e88d1ca9396c8b2a8",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa7-mele_m9-ext4-sdcard.img.gz",
+      "sha256": "18f021c0b9d11c841f386f58e054777263f06e54e07b082c9169c8916416bcac",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mele,m9"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "M9",
+      "vendor": "Mele"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "id": "trendnet_tew-823dru",
+  "image_prefix": "openwrt-ath79-generic-trendnet_tew-823dru",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-trendnet_tew-823dru-squashfs-factory.bin",
+      "sha256": "8608cc0200fa26474e15968464d1660463e903aabd82107ae8a76c2b4624a6fe",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-trendnet_tew-823dru-squashfs-sysupgrade.bin",
+      "sha256": "cc0082157b02974d50d59180d462b8bad7e5fff0621d3447b1ffb91d7153433b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "trendnet,tew-823dru",
+    "tew-823dru"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TEW-823DRU",
+      "variant": "v1.0R",
+      "vendor": "Trendnet"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

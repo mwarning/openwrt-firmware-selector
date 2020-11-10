@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-sdhci-mt7620"
+  ],
+  "id": "zbtlink_zbt-we1326",
+  "image_prefix": "openwrt-ramips-mt7621-zbtlink_zbt-we1326",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-zbtlink_zbt-we1326-squashfs-sysupgrade.bin",
+      "sha256": "32e7f01a2745919413345d6f970677dfd8078e696ad78a37a58accd9f70e2ce4",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-we1326",
+    "zbt-we1326"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "ZBT-WE1326",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9888-ct"
+  ],
+  "id": "tplink_archer-c6-v2",
+  "image_prefix": "openwrt-ath79-generic-tplink_archer-c6-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_archer-c6-v2-squashfs-factory.bin",
+      "sha256": "a4b9c3c6f0345b41c1cebe525f022399e080993c4999850fbf0406f44ac3cd98",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_archer-c6-v2-squashfs-sysupgrade.bin",
+      "sha256": "3f55c60af107933102a37003735c8d52c6388d0b88a28988e235f6364087379d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c6-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Archer C6",
+      "variant": "v2 (EU/RU/JP)",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

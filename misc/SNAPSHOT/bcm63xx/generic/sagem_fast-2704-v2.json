@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 22:36:24",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "sagem_fast-2704-v2",
+  "image_prefix": "openwrt-bcm63xx-generic-sagem_fast-2704-v2",
+  "images": [
+    {
+      "name": "openwrt-bcm63xx-generic-sagem_fast-2704-v2-squashfs-cfe.bin",
+      "sha256": "b112acab1138852112722e9993901c51f96acfb927119990c8de4098a67c9244",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "F@st 2704",
+      "variant": "V2",
+      "vendor": "Sagemcom"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

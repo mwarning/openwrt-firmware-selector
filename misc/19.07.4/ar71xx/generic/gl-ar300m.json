@@ -1,0 +1,61 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-07 22:44:06",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2"
+  ],
+  "id": "gl-ar300m",
+  "image_prefix": "openwrt-19.07.4-ar71xx-generic-gl-ar300m",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ar71xx-generic-gl-ar300m-squashfs-sysupgrade.bin",
+      "sha256": "d19c333f64a1a0c800956b2cd1f164b7466dce513be8f76382b27eacf1e5af4c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "GL.iNet GL-AR300M"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-switch-rtl8366-smi",
+    "kmod-switch-rtl8367b"
+  ],
+  "id": "tplink_archer-c2-v1",
+  "image_prefix": "openwrt-ramips-mt7620-tplink_archer-c2-v1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-tplink_archer-c2-v1-squashfs-factory.bin",
+      "sha256": "0456c9213333a239314bf3c955a48857bc0de1bcaed1034cfe89d3b46a5e3605",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-tplink_archer-c2-v1-squashfs-sysupgrade.bin",
+      "sha256": "9f2cb76857b860b72358c0c54e01d2e3775ac1563c5c8e7299918c3357afaab3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c2-v1",
+    "tplink,c2-v1"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Archer C2",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

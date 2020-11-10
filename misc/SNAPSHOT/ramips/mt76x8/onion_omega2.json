@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 19:11:10",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-mt7603",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "uboot-envtools"
+  ],
+  "id": "onion_omega2",
+  "image_prefix": "openwrt-ramips-mt76x8-onion_omega2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-onion_omega2-squashfs-sysupgrade.bin",
+      "sha256": "ac1d1dd95a0acb248161075536d896a3cce25c2f8bd1753b3c8d004a5ccc9470",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "onion,omega2",
+    "omega2"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "Omega2",
+      "vendor": "Onion"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "dlink_dir-860l-b1",
+  "image_prefix": "openwrt-ramips-mt7621-dlink_dir-860l-b1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-dlink_dir-860l-b1-squashfs-factory.bin",
+      "sha256": "d85835c9de54dde98d11ee14468b4aed735605539ec3c5df6edb75da676540fb",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-dlink_dir-860l-b1-squashfs-sysupgrade.bin",
+      "sha256": "3385ef0b3f244781b02f8359d6fa64071a5143c03d132af52a4d7d050d6e134d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dir-860l-b1",
+    "dir-860l-b1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "DIR-860L",
+      "variant": "B1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

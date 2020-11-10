@@ -1,0 +1,84 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 21:54:15",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "ltq-vdsl-vr9-vectoring-fw-installer",
+    "kmod-ltq-vdsl-vr9-mei",
+    "kmod-ltq-vdsl-vr9",
+    "kmod-ltq-atm-vr9",
+    "kmod-ltq-ptm-vr9",
+    "kmod-ltq-deu-vr9",
+    "ltq-vdsl-app",
+    "dsl-vrx200-firmware-xdsl-a",
+    "dsl-vrx200-firmware-xdsl-b-patch",
+    "ppp-mod-pppoa",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "kmod-usb-dwc2",
+    "fritz-tffs",
+    "iwinfo"
+  ],
+  "id": "avm_fritz3370-rev2-micron",
+  "image_prefix": "openwrt-lantiq-xrx200-avm_fritz3370-rev2-micron",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-avm_fritz3370-rev2-micron-squashfs-eva-filesystem.bin",
+      "sha256": "4d0b8ba1cd53e18f7691619c9b76e4ebda18dbf56b827e2c5eb5f89403e41a6c",
+      "type": "eva-filesystem"
+    },
+    {
+      "name": "openwrt-lantiq-xrx200-avm_fritz3370-rev2-micron-squashfs-eva-kernel.bin",
+      "sha256": "9d16d22f164fbffb76e4da757a9aefb8cf13f9203eb6fca2f8c57b47d87539f5",
+      "type": "eva-kernel"
+    },
+    {
+      "name": "openwrt-lantiq-xrx200-avm_fritz3370-rev2-micron-squashfs-sysupgrade.bin",
+      "sha256": "e404b8eea9b5231510908f0e7ff021867b42cf41282c6e87f40ce519661a8c0b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "avm,fritz3370-rev2-micron"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "FRITZ!Box 3370",
+      "variant": "Rev. 2 (Micron NAND)",
+      "vendor": "AVM"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

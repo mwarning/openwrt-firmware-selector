@@ -1,0 +1,75 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-11 01:37:12",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-rtc-sunxi",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-heartbeat",
+    "kmod-brcmfmac",
+    "brcmfmac-firmware-43430a0-sdio",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "sinovoip_bananapi-m2-plus",
+  "image_prefix": "openwrt-sunxi-cortexa7-sinovoip_bananapi-m2-plus",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa7-sinovoip_bananapi-m2-plus-ext4-sdcard.img.gz",
+      "sha256": "48b57ba1e38f25032e9988556e232377fad91d4e30f5877ad6fe06a4eabd78e0",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa7-sinovoip_bananapi-m2-plus-squashfs-sdcard.img.gz",
+      "sha256": "f840a16adda68046185a586d064d2e5c8631179d46c32598ff3e6b1bdb7b81df",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "sinovoip,bananapi-m2-plus"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "Banana Pi M2+",
+      "vendor": "Sinovoip"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

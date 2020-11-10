@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "-wpad-basic-wolfssl"
+  ],
+  "id": "mikrotik_routerboard-m11g",
+  "image_prefix": "openwrt-ramips-mt7621-mikrotik_routerboard-m11g",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-mikrotik_routerboard-m11g-squashfs-sysupgrade.bin",
+      "sha256": "da34121059a3c97883cf53741163c30998f2cc3f6edf6e568d277407a50d0615",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mikrotik,routerboard-m11g",
+    "mikrotik,rbm11g"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RouterBOARD M11G",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

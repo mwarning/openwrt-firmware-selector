@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-07 22:44:06",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca988x-ct",
+    "kmod-ath10k-ct"
+  ],
+  "id": "dap-2695-a1",
+  "image_prefix": "openwrt-19.07.4-ar71xx-generic-dap-2695-a1",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ar71xx-generic-dap-2695-a1-squashfs-sysupgrade.bin",
+      "sha256": "124c6864455bf709bea988f51acac4dd3f27b439fc1cef2d63f47818c698b2d7",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-ar71xx-generic-dap-2695-a1-squashfs-factory.img",
+      "sha256": "116b43564d071a2b6dd2485c630125d3491126f897a3d469999f561bba5fb9fd",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "D-Link DAP-2695 rev. A1"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,61 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "id": "tl-wr740n-v3",
+  "image_prefix": "openwrt-18.06.8-ar71xx-tiny-tl-wr740n-v3",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr740n-v3-squashfs-factory.bin",
+      "sha256": "005556ef16cefa5462e963fcda2f8c8da634d08e01f9b3c8841d585231f44dcb",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr740n-v3-squashfs-sysupgrade.bin",
+      "sha256": "0196997b424130ba7d93752218b33ae45574cdd014f493c6abd15b666ec12eec",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/tiny",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WR740N/ND v3"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

@@ -1,0 +1,74 @@
+{
+  "arch_packages": "arm_cortex-a9",
+  "build_at": "2020-09-08 03:22:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "osafeloader",
+    "oseama",
+    "otrx",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "nvram",
+    "osafeloader",
+    "oseama",
+    "otrx",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-phy-bcm-ns-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-phy-bcm-ns-usb3"
+  ],
+  "id": "asus-rt-n18u",
+  "image_prefix": "openwrt-19.07.4-bcm53xx-asus-rt-n18u",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-bcm53xx-asus-rt-n18u-squashfs.trx",
+      "sha256": "40a265cbf76209cc8a5066e5c6621969cf73f31953c805e614000b4b44facffa",
+      "type": "trx"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "title": "Asus RT-N18U"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

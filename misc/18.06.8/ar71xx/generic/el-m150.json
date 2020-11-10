@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2"
+  ],
+  "id": "el-m150",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-el-m150",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-el-m150-squashfs-factory.bin",
+      "sha256": "08b38455c4595c66a5204157132359d746229ce99c4251d4e73843372c791391",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-el-m150-squashfs-sysupgrade.bin",
+      "sha256": "ec2fb22c6ebcafdff809451e3c667c6e49a954d2ba04d79dc42c23f417034eae",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "EasyLink EL-M150"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

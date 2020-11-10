@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9888-ct"
+  ],
+  "id": "yuncore_xd4200",
+  "image_prefix": "openwrt-ath79-generic-yuncore_xd4200",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-yuncore_xd4200-squashfs-tftp.bin",
+      "sha256": "a4a96e7566f955917f3d145b623e870fe4cb3c8ad3e9504ae089d622a3af3689",
+      "type": "tftp"
+    },
+    {
+      "name": "openwrt-ath79-generic-yuncore_xd4200-squashfs-sysupgrade.bin",
+      "sha256": "99b8bafe111c9e2f85ca962e3eb24c7d644cbb083e0277aed1c7751e2e52185f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "yuncore,xd4200"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "XD4200",
+      "vendor": "YunCore"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,60 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-08 11:17:34",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "NEUFBOX4-FXC",
+  "image_prefix": "openwrt-19.07.4-brcm63xx-generic-NEUFBOX4-FXC",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-brcm63xx-generic-NEUFBOX4-FXC-squashfs-cfe.bin",
+      "sha256": "941f751156cfa384f5c223cade1b0b4477a28eddd7567223ae1f7e81b25c8235",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "title": "SFR Neufbox4 (Foxconn)"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "id": "ocedo_raccoon",
+  "image_prefix": "openwrt-ath79-generic-ocedo_raccoon",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-ocedo_raccoon-squashfs-sysupgrade.bin",
+      "sha256": "54add33e6cb8d88e0f04ac8f9b6de7c0fffaaecd36717617a9a7a989bf7f96b6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ocedo,raccoon"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Raccoon",
+      "vendor": "Ocedo"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

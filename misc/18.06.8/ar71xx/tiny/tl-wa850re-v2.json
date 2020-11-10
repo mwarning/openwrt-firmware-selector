@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "id": "tl-wa850re-v2",
+  "image_prefix": "openwrt-18.06.8-ar71xx-tiny-tl-wa850re-v2",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wa850re-v2-squashfs-factory.bin",
+      "sha256": "bc0c6f8545566409fb0cc23c75d9b3dcd61ec8ea48bbef58b5df3d1bf8874518",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wa850re-v2-squashfs-sysupgrade.bin",
+      "sha256": "8ee6ed4f663c4cc530e2388e5c1636272bfdf9ecbc3879f33ec707b7584c187a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/tiny",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WA850RE v2"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

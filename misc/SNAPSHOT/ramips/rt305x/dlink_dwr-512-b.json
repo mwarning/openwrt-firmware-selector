@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:12:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "jboot-tools",
+    "kmod-usb2",
+    "kmod-spi-dev",
+    "kmod-usb-serial",
+    "kmod-usb-serial-option",
+    "kmod-usb-net-cdc-ether",
+    "comgt-ncm"
+  ],
+  "id": "dlink_dwr-512-b",
+  "image_prefix": "openwrt-ramips-rt305x-dlink_dwr-512-b",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-dlink_dwr-512-b-squashfs-factory.bin",
+      "sha256": "921e428e06e836303e9a8120c89acb728ef63ba15e105823c190e02fd438f3be",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-dlink_dwr-512-b-squashfs-sysupgrade.bin",
+      "sha256": "f436c42ece4b4999c45a826448f6585fa0757fec00c6b9cb3462c88d63de8839",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dwr-512-b",
+    "dwr-512-b"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "DWR-512",
+      "variant": "B",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

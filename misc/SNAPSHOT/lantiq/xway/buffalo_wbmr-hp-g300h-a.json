@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 19:53:19",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ltq-adsl-ar9-mei",
+    "kmod-ltq-adsl-ar9",
+    "kmod-ltq-adsl-ar9-fw-a",
+    "kmod-ltq-atm-ar9",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ath9k",
+    "kmod-owl-loader",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "buffalo_wbmr-hp-g300h-a",
+  "image_prefix": "openwrt-lantiq-xway-buffalo_wbmr-hp-g300h-a",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-buffalo_wbmr-hp-g300h-a-squashfs-sysupgrade.bin",
+      "sha256": "9be09d3d000fdc0c2c82b5986346f20181bc339f308bc09d5353b36669f92e09",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "WBMR",
+    "buffalo,wbmr-hp-g300h"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "WBMR-HP-G300H",
+      "variant": "A",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

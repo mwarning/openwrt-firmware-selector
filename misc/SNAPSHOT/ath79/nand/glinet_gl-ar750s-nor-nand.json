@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 17:37:26",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9887-ct",
+    "kmod-usb2",
+    "kmod-usb-storage",
+    "block-mount"
+  ],
+  "id": "glinet_gl-ar750s-nor-nand",
+  "image_prefix": "openwrt-ath79-nand-glinet_gl-ar750s-nor-nand",
+  "images": [
+    {
+      "name": "openwrt-ath79-nand-glinet_gl-ar750s-nor-nand-squashfs-sysupgrade.bin",
+      "sha256": "02655ce9696b3c652915e6d66603df23356b3a713fcca7ad9aae5a5d54f87ef5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,gl-ar750s-nor-nand",
+    "glinet,gl-ar750s-nor"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "GL-AR750S",
+      "variant": "NOR/NAND",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

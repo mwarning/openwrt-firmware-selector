@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "tplink_tl-wdr4310-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_tl-wdr4310-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wdr4310-v1-squashfs-factory.bin",
+      "sha256": "e887979a703c44f93b093dfd5320b108356aeaf1a914260a218e2e82ca0e06a2",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wdr4310-v1-squashfs-sysupgrade.bin",
+      "sha256": "8fc584b05518916b02992ef565dc80359f5ddcc7aa85d0dcc03ffbda7cbbabac",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wdr4310-v1",
+    "tl-wdr4300"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WDR4310",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,93 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2020-09-11 16:48:36",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-phy-qcom-ipq806x-usb",
+    "kmod-usb3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-ath10k-ct",
+    "wpad-basic-wolfssl",
+    "uboot-envtools",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ata-ahci",
+    "kmod-ata-ahci-platform",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-phy-qcom-ipq806x-usb",
+    "kmod-usb3",
+    "kmod-usb-dwc3-qcom",
+    "kmod-ath10k-ct",
+    "wpad-basic-wolfssl",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "ath10k-firmware-qca9984-ct",
+    "e2fsprogs",
+    "kmod-fs-ext4",
+    "losetup"
+  ],
+  "id": "zyxel_nbg6817",
+  "image_prefix": "openwrt-ipq806x-generic-zyxel_nbg6817",
+  "images": [
+    {
+      "name": "openwrt-ipq806x-generic-zyxel_nbg6817-squashfs-sysupgrade.bin",
+      "sha256": "027175460bf707d010b9da26213e07910ef008fe6e01d92f365fefe4e7751653",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ipq806x-generic-zyxel_nbg6817-squashfs-factory.bin",
+      "sha256": "cc61b21c1135e533af457b9ec4470643dedaf4ed6a32ce8f8dac2bcc7e8a8fce",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zyxel,nbg6817",
+    "nbg6817"
+  ],
+  "target": "ipq806x/generic",
+  "titles": [
+    {
+      "model": "NBG6817",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

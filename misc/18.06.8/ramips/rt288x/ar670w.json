@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "id": "ar670w",
+  "image_prefix": "openwrt-18.06.8-ramips-rt288x-ar670w",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ramips-rt288x-ar670w-squashfs-sysupgrade.bin",
+      "sha256": "340a73becfa64af01d34065b74fcee04e57c9bd1f65d63b778f22c6960649afb",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ramips-rt288x-ar670w-squashfs-factory.bin",
+      "sha256": "a38598ac6596c3568f7c4699e3283ee50bb0ac7f2b7535cb7c8a97eebb77b5f7",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ar670w"
+  ],
+  "target": "ramips/rt288x",
+  "titles": [
+    {
+      "title": "Airlink AR670W"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

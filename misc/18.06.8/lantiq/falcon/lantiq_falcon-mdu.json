@@ -1,0 +1,51 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-heartbeat",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c"
+  ],
+  "device_packages": [],
+  "id": "lantiq_falcon-mdu",
+  "image_prefix": "openwrt-18.06.8-lantiq-falcon-lantiq_falcon-mdu",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-lantiq-falcon-lantiq_falcon-mdu-squashfs-sysupgrade.bin",
+      "sha256": "99e38cc93f09ac107e0d2ae6895b62409d2b26aa547d18bfc27db3a0862f889d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lantiq,falcon-mdu"
+  ],
+  "target": "lantiq/falcon",
+  "titles": [
+    {
+      "title": "MDU - Lantiq Falcon / VINAXdp MDU Board"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

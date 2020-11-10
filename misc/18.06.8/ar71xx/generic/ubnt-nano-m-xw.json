@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2"
+  ],
+  "id": "ubnt-nano-m-xw",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-ubnt-nano-m-xw",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-ubnt-nano-m-xw-squashfs-factory.bin",
+      "sha256": "4aa82eeaf069851959cef58ac1c067c7aea80378780035dbcd52e6ab26ad1963",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-ubnt-nano-m-xw-squashfs-sysupgrade.bin",
+      "sha256": "17decf393387d1a244a0dbac496bd37711c95fb5016e48999432e26596d91529",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "Ubiquiti Nano M XW"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

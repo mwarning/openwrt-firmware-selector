@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "buffalo_wzr-hp-g450h",
+  "image_prefix": "openwrt-ath79-generic-buffalo_wzr-hp-g450h",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-tftp.bin",
+      "sha256": "cc5c50eff3727eec329ce49a7b4db91f078c54c615275c97f383c44e37fc8eb9",
+      "type": "tftp"
+    },
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-factory.bin",
+      "sha256": "db0e02c5369e34db3e5fb9de9f99589d5fd377ce10e0306942513879d5f5141e",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-sysupgrade.bin",
+      "sha256": "86897ff35c47d5228087c5b94027f4fda44927fe6b6cd1bc675bc8e00627f99f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,wzr-hp-g450h",
+    "wzr-hp-g450h"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WZR-HP-G450H/WZR-450HP",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

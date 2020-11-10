@@ -1,0 +1,71 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-11 01:37:12",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-ata-sunxi",
+    "kmod-sun4i-emac",
+    "kmod-rtc-sunxi"
+  ],
+  "id": "cubietech_cubieboard2",
+  "image_prefix": "openwrt-sunxi-cortexa7-cubietech_cubieboard2",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa7-cubietech_cubieboard2-ext4-sdcard.img.gz",
+      "sha256": "1f45205cc3589f9814fd00978bb914e12b19c48a90781cd2b34e2826f0411b54",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa7-cubietech_cubieboard2-squashfs-sdcard.img.gz",
+      "sha256": "26c955f5929906c46465d37d98efeeedf8db0bddcd61c05c9acf464291d205f5",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cubietech,cubieboard2"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "Cubieboard2",
+      "vendor": "Cubietech"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 00:58:43",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "id": "pqi_air-pen",
+  "image_prefix": "openwrt-ath79-tiny-pqi_air-pen",
+  "images": [
+    {
+      "name": "openwrt-ath79-tiny-pqi_air-pen-squashfs-sysupgrade.bin",
+      "sha256": "ae611aff2024ac4cc6bd9f2904d7a58bbc7abc9dcb608418ef6f0b2f491ba96b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "pqi,air-pen",
+    "pqi-air-pen"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "model": "Air-Pen",
+      "vendor": "PQI"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

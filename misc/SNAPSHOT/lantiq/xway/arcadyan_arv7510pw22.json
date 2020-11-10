@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 19:53:19",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ltq-adsl-danube-mei",
+    "kmod-ltq-adsl-danube",
+    "kmod-ltq-adsl-danube-fw-a",
+    "kmod-ltq-atm-danube",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ltq-tapi",
+    "kmod-ltq-vmmc",
+    "kmod-rt2800-pci",
+    "wpad-basic-wolfssl",
+    "kmod-usb-uhci",
+    "kmod-usb2",
+    "kmod-usb2-pci",
+    "iwinfo"
+  ],
+  "id": "arcadyan_arv7510pw22",
+  "image_prefix": "openwrt-lantiq-xway-arcadyan_arv7510pw22",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-arcadyan_arv7510pw22-squashfs-sysupgrade.bin",
+      "sha256": "a87be875effbfd9733d9490d425dd1fe0699b277907393c38b89d2e74879a536",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "arcadyan,arv7510pw22",
+    "ARV7510PW22"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "ARV7510PW22",
+      "vendor": "Arcadyan"
+    },
+    {
+      "model": "ARV7510PW22",
+      "vendor": "Astoria Networks"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

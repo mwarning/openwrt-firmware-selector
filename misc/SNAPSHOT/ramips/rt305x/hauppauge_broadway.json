@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:12:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "hauppauge_broadway",
+  "image_prefix": "openwrt-ramips-rt305x-hauppauge_broadway",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-hauppauge_broadway-squashfs-sysupgrade.bin",
+      "sha256": "e4ed4a56ba5e9e754edbd1a8c14e8910c83d67c714832ea571ef4cde7daa5295",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "hauppauge,broadway",
+    "broadway"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "Broadway",
+      "vendor": "Hauppauge"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

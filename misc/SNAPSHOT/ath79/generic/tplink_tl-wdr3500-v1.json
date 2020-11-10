@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "tplink_tl-wdr3500-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_tl-wdr3500-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wdr3500-v1-squashfs-factory.bin",
+      "sha256": "1af919edd4b977917e2bc6aca2a52cc09a44ea167e33eb002838c64c59d7b7aa",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_tl-wdr3500-v1-squashfs-sysupgrade.bin",
+      "sha256": "e9fbea0acbcf6828b6e90eabfafaeabc8ca1c052308c57732c39072fcb147038",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wdr3500-v1",
+    "tl-wdr3500"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "TL-WDR3500",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "id": "tl-wr802n-v2",
+  "image_prefix": "openwrt-18.06.8-ar71xx-tiny-tl-wr802n-v2",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr802n-v2-squashfs-factory.bin",
+      "sha256": "92a889d6f435e96138169722ded29cd42b1ab67beebbbed260d8abaef0478bb8",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr802n-v2-squashfs-factory-eu.bin",
+      "sha256": "6404cfa7dbc68e63bbf4f5b30e9b9e7bc43d489eb1d21845a4c09a3b66652147",
+      "type": "factory-eu"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr802n-v2-squashfs-sysupgrade.bin",
+      "sha256": "cbd70b41e53f5cbf7debf5ca3b50adae810b88312c90040c0d60fb440621c589",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr802n-v2-squashfs-factory-us.bin",
+      "sha256": "b601d0f3493536557cda22ffb4909ca07a54de0a85dcc36076c264e0c1fd3e1d",
+      "type": "factory-us"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/tiny",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WR802N v2"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

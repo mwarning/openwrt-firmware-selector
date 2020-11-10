@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-ata-ahci",
+    "kmod-sdhci-mt7620",
+    "kmod-usb3",
+    "uboot-envtools",
+    "-wpad-basic-wolfssl"
+  ],
+  "id": "alfa-network_quad-e4g",
+  "image_prefix": "openwrt-ramips-mt7621-alfa-network_quad-e4g",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-alfa-network_quad-e4g-squashfs-sysupgrade.bin",
+      "sha256": "94e9d16a75a27b2ccda02c408a2e90a278b19035af93731dd23439be6fdb3daa",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "alfa-network,quad-e4g"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Quad-E4G",
+      "vendor": "ALFA Network"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2020-09-10 23:06:13",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev"
+  ],
+  "device_packages": [],
+  "id": "netgear_wnr1000-v3",
+  "image_prefix": "openwrt-bcm47xx-mips74k-netgear_wnr1000-v3",
+  "images": [
+    {
+      "name": "openwrt-bcm47xx-mips74k-netgear_wnr1000-v3-squashfs.chk",
+      "sha256": "8a94ec1d5e4f2614c01c8a3b2e742e34970ece0d5ab0a96149e3b3f626befe45",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "WNR1000",
+      "variant": "v3",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

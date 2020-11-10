@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "uboot-envtools"
+  ],
+  "id": "xiaomi_redmi-router-ac2100",
+  "image_prefix": "openwrt-ramips-mt7621-xiaomi_redmi-router-ac2100",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-xiaomi_redmi-router-ac2100-squashfs-rootfs0.bin",
+      "sha256": "e8f260e6c6b84b25fd8c4ad99a2fcc8c3ac993a07c325397e15723adffc788fa",
+      "type": "rootfs0"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-xiaomi_redmi-router-ac2100-squashfs-kernel1.bin",
+      "sha256": "22121be3077c6369411977abda7eb4d7a031e43fd8a0c1865570e4124437c968",
+      "type": "kernel1"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-xiaomi_redmi-router-ac2100-squashfs-sysupgrade.bin",
+      "sha256": "4bce140b231049f90b084d0a23a77f1aaa61d8d826bc0bee19fb57e3aa6692b5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xiaomi,redmi-router-ac2100"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Redmi Router AC2100",
+      "vendor": "Xiaomi"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

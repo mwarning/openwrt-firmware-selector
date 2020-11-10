@@ -1,0 +1,61 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "id": "eap120-v1",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-eap120-v1",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-eap120-v1-squashfs-sysupgrade.bin",
+      "sha256": "88394f2986051bdf21b8fabf0d69d2d48a8a6bf64d7fd4c6eb08c548e540e667",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-eap120-v1-squashfs-factory.bin",
+      "sha256": "7fcb6370d21c2340950828dd632c7ed2a2b3f1ce7f563ffd9fc00cad8aae919d",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "TP-LINK EAP120 v1"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

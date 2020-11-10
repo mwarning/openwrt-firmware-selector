@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-08 14:32:26",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "963281TAN-generic",
+  "image_prefix": "openwrt-19.07.4-brcm63xx-smp-963281TAN-generic",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-brcm63xx-smp-963281TAN-generic-squashfs-cfe-4M.bin",
+      "sha256": "45da3752e50257c93dea6d27cbcd33dd856933aab99e13e32a9ac0cc1ae39b72",
+      "type": "cfe-4M"
+    },
+    {
+      "name": "openwrt-19.07.4-brcm63xx-smp-963281TAN-generic-squashfs-cfe-16M.bin",
+      "sha256": "1a98a03cc4eacada683c7878e9b3fff7662a9eb79c48c55ad68950da7eb57926",
+      "type": "cfe-16M"
+    },
+    {
+      "name": "openwrt-19.07.4-brcm63xx-smp-963281TAN-generic-squashfs-cfe-8M.bin",
+      "sha256": "ab11c22e9105f1aa2f0a957da5d575ff66b26825e60bffaf1d3a30c6ba60e238",
+      "type": "cfe-8M"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "title": "Generic 963281TAN"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

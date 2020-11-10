@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "id": "tl-wr841-v12",
+  "image_prefix": "openwrt-18.06.8-ar71xx-tiny-tl-wr841-v12",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr841-v12-squashfs-factory-eu.bin",
+      "sha256": "084950ed0e20176753021bff82ad050c6bd119bf0b6163c07752eeb67bf63110",
+      "type": "factory-eu"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr841-v12-squashfs-sysupgrade.bin",
+      "sha256": "11605c646847e55e95eeecabe1b97a8fe2f85bc341d757cbc78a3fa5a0151745",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr841-v12-squashfs-factory-us.bin",
+      "sha256": "ffff1e4aff5d6840fe75935a2e9e701fa5cac70b17bdc130639b06958c99e104",
+      "type": "factory-us"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr841-v12-squashfs-factory.bin",
+      "sha256": "e6d401e010ded3aceaa6250923c1da390b1ce3cd2039c79b0290f5bb5f1e659b",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/tiny",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WR841N/ND v12"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "id": "glinet_gl-ar300m16",
+  "image_prefix": "openwrt-ath79-generic-glinet_gl-ar300m16",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-glinet_gl-ar300m16-squashfs-sysupgrade.bin",
+      "sha256": "dd9d1fff81005b2c0554158f40c5b9391e5f827b78dddf67f11ed9f90429630d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,gl-ar300m16",
+    "gl-ar300m"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "GL-AR300M16",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

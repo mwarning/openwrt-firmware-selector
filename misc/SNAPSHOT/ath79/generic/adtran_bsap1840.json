@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "-swconfig",
+    "-uboot-envtools",
+    "fconfig"
+  ],
+  "id": "adtran_bsap1840",
+  "image_prefix": "openwrt-ath79-generic-adtran_bsap1840",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-adtran_bsap1840-squashfs-sysupgrade.bin",
+      "sha256": "2b1b31bc31375f9d77110fa112e114a2c2f65d7875daab9c9e161be4996c4583",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-adtran_bsap1840-squashfs-kernel.bin",
+      "sha256": "ebbcb903c601f97c5b112eecb4b6506bbb69f687b10c3db6c2ec51a6949b1198",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-ath79-generic-adtran_bsap1840-squashfs-rootfs.bin",
+      "sha256": "669c802d819fb2a5945ca6d9106fbdc186e3be8f242328040393217e07f6e4bb",
+      "type": "rootfs"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "adtran,bsap1840"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "BSAP-1840",
+      "vendor": "Adtran/Bluesocket"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

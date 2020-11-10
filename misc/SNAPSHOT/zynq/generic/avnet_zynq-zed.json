@@ -1,0 +1,62 @@
+{
+  "arch_packages": "arm_cortex-a9_neon",
+  "build_at": "2020-09-11 20:02:41",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-usb-storage",
+    "kmod-fs-msdos",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-usb-storage",
+    "kmod-fs-msdos"
+  ],
+  "device_packages": [],
+  "id": "avnet_zynq-zed",
+  "image_prefix": "openwrt-zynq-avnet_zynq-zed",
+  "images": [
+    {
+      "name": "openwrt-zynq-avnet_zynq-zed-squashfs-sdcard.img.gz",
+      "sha256": "289b71597fee34d459e21517517d148ce7621d87a57f75dbc60764d78214bd84",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "zynq/generic",
+  "titles": [
+    {
+      "model": "ZedBoard",
+      "vendor": "Avnet"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

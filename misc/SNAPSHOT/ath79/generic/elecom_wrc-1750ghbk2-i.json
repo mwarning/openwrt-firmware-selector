@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "id": "elecom_wrc-1750ghbk2-i",
+  "image_prefix": "openwrt-ath79-generic-elecom_wrc-1750ghbk2-i",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-elecom_wrc-1750ghbk2-i-squashfs-sysupgrade.bin",
+      "sha256": "881d11b6f25e8cc9f45f39d48f288022f489ea3ff10c9520d31b3dfd9560e1c7",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "elecom,wrc-1750ghbk2-i"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WRC-1750GHBK2-I/C",
+      "vendor": "ELECOM"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

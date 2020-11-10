@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-storage",
+    "kmod-scsi-core",
+    "kmod-fs-ext4",
+    "kmod-fs-vfat",
+    "block-mount"
+  ],
+  "id": "kimax_u25awf-h1",
+  "image_prefix": "openwrt-ramips-mt7620-kimax_u25awf-h1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-kimax_u25awf-h1-squashfs-sysupgrade.bin",
+      "sha256": "dbd52c7445341464e2c1bc6c6a855a3379372a477f35bdbb5ad6cf41bca50c70",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "kimax,u25awf-h1",
+    "u25awf-h1"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "U25AWF",
+      "variant": "H1",
+      "vendor": "Kimax"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

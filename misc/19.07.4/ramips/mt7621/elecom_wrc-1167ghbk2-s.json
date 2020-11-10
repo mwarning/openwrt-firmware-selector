@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 15:31:33",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "id": "elecom_wrc-1167ghbk2-s",
+  "image_prefix": "openwrt-19.07.4-ramips-mt7621-elecom_wrc-1167ghbk2-s",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-elecom_wrc-1167ghbk2-s-squashfs-sysupgrade.bin",
+      "sha256": "960524fe91acc21b54197242674089b01d000e478d6ade5f6ad1db5666be2f27",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-elecom_wrc-1167ghbk2-s-squashfs-factory.bin",
+      "sha256": "73098558b6db760394b884184ca48e2b0bbc3c1a3e45a5d1f0aed2b6f5d2bbe7",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "elecom,wrc-1167ghbk2-s"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "ELECOM WRC-1167GHBK2-S"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

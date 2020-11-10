@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 19:11:10",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-mt7603",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "wiznet_wizfi630s",
+  "image_prefix": "openwrt-ramips-mt76x8-wiznet_wizfi630s",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-wiznet_wizfi630s-squashfs-sysupgrade.bin",
+      "sha256": "50f35c69a9a26e1fac6c97ad7237f61863326d2a2ce3384210c41b55e2f9643b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wiznet,wizfi630s",
+    "wizfi630s"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "WizFi630S",
+      "vendor": "WIZnet"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

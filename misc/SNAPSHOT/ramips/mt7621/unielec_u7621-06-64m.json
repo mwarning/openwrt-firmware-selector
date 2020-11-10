@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-ata-ahci",
+    "kmod-sdhci-mt7620",
+    "kmod-usb3",
+    "-wpad-basic-wolfssl"
+  ],
+  "id": "unielec_u7621-06-64m",
+  "image_prefix": "openwrt-ramips-mt7621-unielec_u7621-06-64m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-unielec_u7621-06-64m-squashfs-sysupgrade.bin",
+      "sha256": "5d5e19fb3917287387b730b54c29767b29126e3cc0e792feeafe0f4cc0ef429f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "unielec,u7621-06-64m",
+    "unielec,u7621-06-512m-64m"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "U7621-06",
+      "variant": "64M",
+      "vendor": "UniElec"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-spi-gpio"
+  ],
+  "id": "mr12",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-mr12",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-mr12-squashfs-kernel.bin",
+      "sha256": "cb5bae07ea8e404760957b6ae14fa0e2c154a5d85e67b39327a81b2115ed0915",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-mr12-squashfs-sysupgrade.bin",
+      "sha256": "f6ef56073521db6500e6cce74c2c2a934f4c1df29635e668c77dcae90a86a49e",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-mr12-squashfs-rootfs.bin",
+      "sha256": "f4faf8e328abed192a2ce8bdd221c804ea5155f816daeda0900b800a747e344a",
+      "type": "rootfs"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "Meraki MR12"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

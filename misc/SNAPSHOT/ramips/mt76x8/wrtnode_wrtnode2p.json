@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 19:11:10",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-mt7603",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "wrtnode_wrtnode2p",
+  "image_prefix": "openwrt-ramips-mt76x8-wrtnode_wrtnode2p",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-wrtnode_wrtnode2p-squashfs-sysupgrade.bin",
+      "sha256": "f0f512270f530aa5ec2de003336a4e9fc82b9880fbe44efdb0f8bf494c9ff4ea",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wrtnode,wrtnode2p",
+    "wrtnode2p"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "WRTnode 2P",
+      "vendor": "WRTnode"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

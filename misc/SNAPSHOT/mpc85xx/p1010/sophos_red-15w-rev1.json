@@ -1,0 +1,71 @@
+{
+  "arch_packages": "powerpc_8540",
+  "build_at": "2020-09-11 23:24:06",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "kmod-usb2"
+  ],
+  "device_packages": [],
+  "id": "sophos_red-15w-rev1",
+  "image_prefix": "openwrt-mpc85xx-p1010-sophos_red-15w-rev1",
+  "images": [
+    {
+      "name": "openwrt-mpc85xx-p1010-sophos_red-15w-rev1-squashfs-sysupgrade.bin",
+      "sha256": "52f3b73dcf54d757623089f055f69a266391cad7d3d46f8118f822660f4026e8",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "sophos,red-15w-rev1"
+  ],
+  "target": "mpc85xx/p1010",
+  "titles": [
+    {
+      "model": "RED 15w",
+      "variant": "Rev.1",
+      "vendor": "Sophos"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

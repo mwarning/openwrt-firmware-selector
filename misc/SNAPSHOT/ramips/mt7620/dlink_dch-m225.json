@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-sound-core",
+    "kmod-sound-mt7620",
+    "kmod-i2c-ralink"
+  ],
+  "id": "dlink_dch-m225",
+  "image_prefix": "openwrt-ramips-mt7620-dlink_dch-m225",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dch-m225-squashfs-factory.bin",
+      "sha256": "3ff23ecd392a61035df66f811440563cbfad90f3dfc4e091c342dae7213e616c",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dch-m225-squashfs-sysupgrade.bin",
+      "sha256": "228a9bc52a3c22d987437e25c8f1292fb80d2a54f099923ccd8fa68adeef7f0d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dch-m225",
+    "dch-m225"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "DCH-M225",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

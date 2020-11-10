@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 19:11:10",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-mt7603",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "glinet_microuter-n300",
+  "image_prefix": "openwrt-ramips-mt76x8-glinet_microuter-n300",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-glinet_microuter-n300-squashfs-sysupgrade.bin",
+      "sha256": "fab3e223a9cda1c3b9e5e883685b53818ba4133424b4c8d0392ed89082e6c4de",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,microuter-n300",
+    "microuter-n300"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "microuter-N300",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

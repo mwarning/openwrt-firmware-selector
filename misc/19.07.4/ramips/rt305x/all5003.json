@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 16:38:17",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-i2c-core",
+    "kmod-i2c-gpio",
+    "kmod-hwmon-lm92",
+    "kmod-gpio-pcf857x"
+  ],
+  "id": "all5003",
+  "image_prefix": "openwrt-19.07.4-ramips-rt305x-all5003",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-rt305x-all5003-squashfs-sysupgrade.bin",
+      "sha256": "754c008636bba130e4ebce5e8e56960659f28300e25b4da62237213160767b69",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "all5003"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "title": "Allnet ALL5003"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

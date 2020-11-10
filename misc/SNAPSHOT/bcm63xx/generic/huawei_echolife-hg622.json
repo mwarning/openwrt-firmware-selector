@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 22:36:24",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-rt2800-pci",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "huawei_echolife-hg622",
+  "image_prefix": "openwrt-bcm63xx-generic-huawei_echolife-hg622",
+  "images": [
+    {
+      "name": "openwrt-bcm63xx-generic-huawei_echolife-hg622-squashfs-sysupgrade.bin",
+      "sha256": "c506dfc0779b2e0fd9eddd8b2a39aa3fcfc31f61d17c72591af7c0a56b0baa4b",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-bcm63xx-generic-huawei_echolife-hg622-squashfs-cfe.bin",
+      "sha256": "1ad1b44e0b43ec6ba19688b92437d41ea6606e35090df55885cc7537c3685051",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm63xx/generic",
+  "titles": [
+    {
+      "model": "EchoLife HG622",
+      "vendor": "Huawei"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

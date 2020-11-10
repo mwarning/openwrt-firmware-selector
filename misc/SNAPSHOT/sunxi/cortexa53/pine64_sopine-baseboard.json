@@ -1,0 +1,67 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2020-09-11 16:34:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [],
+  "id": "pine64_sopine-baseboard",
+  "image_prefix": "openwrt-sunxi-cortexa53-pine64_sopine-baseboard",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa53-pine64_sopine-baseboard-ext4-sdcard.img.gz",
+      "sha256": "48c7dcc4a9423be566c40249730a135c3a61c9e7530f79260259de6a66f4bd2f",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa53-pine64_sopine-baseboard-squashfs-sdcard.img.gz",
+      "sha256": "804a69e3883c0b7971fc57033f81a647529d7129d8d91d65c43ee70939d74ae6",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "pine64,sopine-baseboard"
+  ],
+  "target": "sunxi/cortexa53",
+  "titles": [
+    {
+      "model": "SoPine",
+      "vendor": "Pine64"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

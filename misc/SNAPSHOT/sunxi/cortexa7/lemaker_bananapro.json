@@ -1,0 +1,71 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-11 01:37:12",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-rtc-sunxi",
+    "kmod-ata-sunxi",
+    "kmod-brcmfmac"
+  ],
+  "id": "lemaker_bananapro",
+  "image_prefix": "openwrt-sunxi-cortexa7-lemaker_bananapro",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa7-lemaker_bananapro-squashfs-sdcard.img.gz",
+      "sha256": "b6933e48a7bc94505884f52fdcb45226263488c99b34230a06aaad4ec7d17f22",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa7-lemaker_bananapro-ext4-sdcard.img.gz",
+      "sha256": "d14112a097eeae37d6d454172e3776e60cbb0d882959642cd6157b777c4b8106",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lemaker,bananapro"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "Banana Pro",
+      "vendor": "LeMaker"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}
