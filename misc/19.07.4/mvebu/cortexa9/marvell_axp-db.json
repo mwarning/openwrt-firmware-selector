@@ -1,0 +1,56 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2020-09-08 09:26:07",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "marvell_axp-db",
+  "image_prefix": "openwrt-19.07.4-mvebu-cortexa9-marvell_axp-db",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-mvebu-cortexa9-marvell_axp-db-squashfs-sysupgrade.bin",
+      "sha256": "5ba2abb745c60723d813d5af6a156103bbdf6030cbeeead21c67d72606eeeb61",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "marvell,axp-db",
+    "armada-xp-db"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "title": "Marvell Armada XP DB (DB-78460-BP)"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

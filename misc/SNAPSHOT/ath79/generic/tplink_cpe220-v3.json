@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "id": "tplink_cpe220-v3",
+  "image_prefix": "openwrt-ath79-generic-tplink_cpe220-v3",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-sysupgrade.bin",
+      "sha256": "7fdbd924c95a4edd5b829b7083d12ac40ae369c0948614fcd784eac34fb7a3bf",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-factory.bin",
+      "sha256": "729a7383d9bb7ffd57df6e3b6e4faa67335c3064b843e2177c675e69f0721352",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,cpe220-v3"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CPE220",
+      "variant": "v3",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

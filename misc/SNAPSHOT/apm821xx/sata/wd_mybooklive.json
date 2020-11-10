@@ -1,0 +1,88 @@
+{
+  "arch_packages": "powerpc_464fp",
+  "build_at": "2020-09-11 21:11:19",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-i2c-core",
+    "kmod-gpio-button-hotplug",
+    "badblocks",
+    "block-mount",
+    "e2fsprogs",
+    "kmod-hwmon-drivetemp",
+    "kmod-dm",
+    "kmod-md-mod",
+    "partx-utils",
+    "mkf2fs",
+    "f2fsck",
+    "block-mount",
+    "fdisk",
+    "lsblk",
+    "mdadm",
+    "kmod-leds-gpio",
+    "kmod-i2c-core",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-storage",
+    "kmod-fs-vfat",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "wd_mybooklive",
+  "image_prefix": "openwrt-apm821xx-sata-wd_mybooklive",
+  "images": [
+    {
+      "name": "openwrt-apm821xx-sata-wd_mybooklive-squashfs-factory.img.gz",
+      "sha256": "87ab084d800e0cc0be2f3eafc6e9c3bb2ef130f3d7b15a9fc616a29a3d2da35a",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-apm821xx-sata-wd_mybooklive-ext4-sysupgrade.img.gz",
+      "sha256": "ff61680b1bb9c2f303742ca6b5f762d52c58d79e9cc64278e002aa5ef0e7626b",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-apm821xx-sata-wd_mybooklive-ext4-factory.img.gz",
+      "sha256": "ca30f408c8b478e7b1b03294f98ae1bda676b6eb39c0b0bac09c05a017a39624",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-apm821xx-sata-wd_mybooklive-squashfs-sysupgrade.img.gz",
+      "sha256": "6e42362cfeeab401b8c388562a7e3607163839c0a9145002fc2d4f5a79a46510",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wd,mybooklive",
+    "mbl",
+    "wd,mybooklive-duo"
+  ],
+  "target": "apm821xx/sata",
+  "titles": [
+    {
+      "model": "My Book Live Series (Single + Duo)",
+      "vendor": "Western Digital"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

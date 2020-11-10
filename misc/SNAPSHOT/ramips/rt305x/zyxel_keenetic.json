@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:12:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ehci",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-dwc2"
+  ],
+  "id": "zyxel_keenetic",
+  "image_prefix": "openwrt-ramips-rt305x-zyxel_keenetic",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-zyxel_keenetic-squashfs-sysupgrade.bin",
+      "sha256": "ab38356292a3e9d716d97f3449e7c6d924901a3944ceff7c396afecd7ff7f73f",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zyxel,keenetic",
+    "kn"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "Keenetic",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

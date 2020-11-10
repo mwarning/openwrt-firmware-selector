@@ -1,0 +1,79 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 15:31:33",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "id": "r6220",
+  "image_prefix": "openwrt-19.07.4-ramips-mt7621-r6220",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-r6220-squashfs-sysupgrade.bin",
+      "sha256": "42fc45441ee9c0d613f272cd386a8c65b13d31612ca9cc4aa83cf562aad16661",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-r6220-squashfs-kernel.bin",
+      "sha256": "d7cc2a43119e1a37f36743986efa309f2a0375fb0f9c99ddb455cbd51e972f21",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-r6220-squashfs-factory.img",
+      "sha256": "6c6f7b7e8426cf1c2718152f5b37ec0c2ae58287bcdeb7bb55c9de1d5f2b0675",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-r6220-squashfs-rootfs.bin",
+      "sha256": "8f4e36fd6ababa555aab00291173f2807d49f9d53670fa4f6cd49aeb9d6774df",
+      "type": "rootfs"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "r6220"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "Netgear R6220"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

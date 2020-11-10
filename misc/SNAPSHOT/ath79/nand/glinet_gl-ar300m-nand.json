@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 17:37:26",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "id": "glinet_gl-ar300m-nand",
+  "image_prefix": "openwrt-ath79-nand-glinet_gl-ar300m-nand",
+  "images": [
+    {
+      "name": "openwrt-ath79-nand-glinet_gl-ar300m-nand-squashfs-factory.img",
+      "sha256": "7ed6c8e0a5c02bc69ccfa2f11865ac7f3f75049e746a1b23664baca3fbe7d431",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-nand-glinet_gl-ar300m-nand-squashfs-sysupgrade.bin",
+      "sha256": "ecbf1bbf69784da091183e5d03bd2ea1d1659f9a485fb31a2f1dce194dda3da8",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "glinet,gl-ar300m-nand",
+    "glinet,gl-ar300m-nor"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "GL-AR300M",
+      "variant": "NAND",
+      "vendor": "GL.iNet"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

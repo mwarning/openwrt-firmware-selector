@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 22:57:10",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "nand-utils",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct",
+    "kmod-usb2"
+  ],
+  "id": "mikrotik_routerboard-922uags-5hpacd",
+  "image_prefix": "openwrt-ath79-mikrotik-mikrotik_routerboard-922uags-5hpacd",
+  "images": [
+    {
+      "name": "openwrt-ath79-mikrotik-mikrotik_routerboard-922uags-5hpacd-squashfs-sysupgrade.bin",
+      "sha256": "904d277f6054050608ebc87fbfc8a083124853fb45b23c7f8855844713fd77c7",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mikrotik,routerboard-922uags-5hpacd",
+    "rb-922uags-5hpacd"
+  ],
+  "target": "ath79/mikrotik",
+  "titles": [
+    {
+      "model": "RouterBOARD 922UAGS-5HPacD",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

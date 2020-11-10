@@ -1,0 +1,85 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "id": "tplink_archer-c7-v2",
+  "image_prefix": "openwrt-ath79-generic-tplink_archer-c7-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-eu.bin",
+      "sha256": "6ee446591dedac8f286f651280967faaadf61d473aec84416d599b740f0a84da",
+      "type": "factory-eu"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-us.bin",
+      "sha256": "63274c5211be23300fb814f5cf743d1b5a84b408c6d319e131911e9cab566e7b",
+      "type": "factory-us"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory.bin",
+      "sha256": "6319ca3b0053d5bfef1f8cdbc139d044681aad5d548227e8df53227d768fde39",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-sysupgrade.bin",
+      "sha256": "3babe86568d7953ad8f6e32fac17c18683ee1e37f59a5bfa82e637fac9a02db0",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c7-v2",
+    "archer-c7"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Archer C7",
+      "variant": "v2",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

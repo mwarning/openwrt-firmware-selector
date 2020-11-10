@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 17:43:34",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "id": "ens202ext",
+  "image_prefix": "openwrt-19.07.4-ar71xx-tiny-ens202ext",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ar71xx-tiny-ens202ext-squashfs-factory.bin",
+      "sha256": "1d2608bf08b4284d5fa6dc9770817fd5b83fea0edd523a38493de033a8e0c0ff",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ar71xx-tiny-ens202ext-squashfs-sysupgrade.bin",
+      "sha256": "dfe16daf8d5eb2e2ea6015ca5beebf7e7d0c22c27715e81b5c64af34628ac1b7",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/tiny",
+  "titles": [
+    {
+      "title": "EnGenius ENS202EXT"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

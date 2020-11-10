@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 16:37:12",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "sfr_neufbox-4-foxconn-r1",
+  "image_prefix": "openwrt-bcm63xx-smp-sfr_neufbox-4-foxconn-r1",
+  "images": [
+    {
+      "name": "openwrt-bcm63xx-smp-sfr_neufbox-4-foxconn-r1-squashfs-cfe.bin",
+      "sha256": "290ee841d1a0c7b0f75e661cb385eb8f7164b3421e8b4bae12b94cf0fb5a9697",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "Neufbox 4",
+      "variant": "Foxconn",
+      "vendor": "SFR"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

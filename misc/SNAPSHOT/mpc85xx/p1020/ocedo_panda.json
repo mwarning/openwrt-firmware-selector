@@ -1,0 +1,78 @@
+{
+  "arch_packages": "powerpc_8540",
+  "build_at": "2020-09-11 00:49:48",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "kmod-usb2"
+  ],
+  "device_packages": [
+    "kmod-rtc-ds1307",
+    "uboot-envtools"
+  ],
+  "id": "ocedo_panda",
+  "image_prefix": "openwrt-mpc85xx-p1020-ocedo_panda",
+  "images": [
+    {
+      "name": "openwrt-mpc85xx-p1020-ocedo_panda-squashfs-sysupgrade.bin",
+      "sha256": "c214083ce5ac344e80b89f6669ee7cef93d11accd04422fd2f572b7d6db86cf9",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-mpc85xx-p1020-ocedo_panda-squashfs-fdt.bin",
+      "sha256": "e31ead96b076b205707a55a6b96abc809ec7349408e1088dcaeed031c9ec45df",
+      "type": "fdt"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ocedo,panda"
+  ],
+  "target": "mpc85xx/p1020",
+  "titles": [
+    {
+      "model": "Panda",
+      "vendor": "OCEDO"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,73 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2020-09-10 21:26:39",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "mod-ata-core",
+    "kmod-ata-sunxi",
+    "kmod-sun4i-emac",
+    "kmod-rtc-sunxi",
+    "sound-soc-sunxi"
+  ],
+  "id": "marsboard_a10-marsboard",
+  "image_prefix": "openwrt-sunxi-cortexa8-marsboard_a10-marsboard",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa8-marsboard_a10-marsboard-squashfs-sdcard.img.gz",
+      "sha256": "bda4631ac4f031e4febee68aa78d853e5783288cce202dc9af9a0f10f551fa44",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa8-marsboard_a10-marsboard-ext4-sdcard.img.gz",
+      "sha256": "c645509bfa238d66872ec057e6bf9a733333bf39283f27007f506a982d2addc2",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "marsboard,a10-marsboard"
+  ],
+  "target": "sunxi/cortexa8",
+  "titles": [
+    {
+      "model": "MarsBoard A10",
+      "vendor": "HAOYU Electronics"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

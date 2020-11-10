@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 18:49:19",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "tplink_tl-wr810n-v1",
+  "image_prefix": "openwrt-19.07.4-ath79-generic-tplink_tl-wr810n-v1",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ath79-generic-tplink_tl-wr810n-v1-squashfs-factory.bin",
+      "sha256": "e7a9c1bfdcdce7dc5d78f23a35d543321bb6ff51c3d871893c86dd4c6c37f844",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ath79-generic-tplink_tl-wr810n-v1-squashfs-sysupgrade.bin",
+      "sha256": "d57e3259dbb222ae476902ce632fd28ae8c9dd84f5df74dfe1d155a5aa11a5b6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wr810n-v1",
+    "tl-wr810n"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "title": "TP-Link TL-WR810N v1"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

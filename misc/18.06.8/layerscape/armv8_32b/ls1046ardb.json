@@ -1,0 +1,49 @@
+{
+  "arch_packages": "arm_cortex-a15_neon-vfpv4",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "kmod-usb-storage",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "kmod-usb-storage"
+  ],
+  "device_packages": [
+    "rcw-layerscape-ls1046ardb",
+    "uboot-layerscape-armv8_32b-ls1046ardb",
+    "fman-layerscape-ls1046ardb",
+    "layerscape-ppa-ls1046ardb"
+  ],
+  "id": "ls1046ardb",
+  "image_prefix": "openwrt-18.06.8-layerscape-armv8_32b-ls1046ardb",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-layerscape-armv8_32b-ls1046ardb-ubifs-firmware.bin",
+      "sha256": "f4015d04ceda9ad57ec62232288df8725d7fd4a5cc6e6480880bdd652a833c14",
+      "type": "firmware"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "layerscape/armv8_32b",
+  "titles": [
+    {
+      "title": "ls1046ardb-armv8_32b"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-07 22:44:06",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "tl-wdr4900-v2",
+  "image_prefix": "openwrt-19.07.4-ar71xx-generic-tl-wdr4900-v2",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ar71xx-generic-tl-wdr4900-v2-squashfs-sysupgrade.bin",
+      "sha256": "e999cb3ecb8090de1879fdee6ff4f54fe7a7b9d07eb4e67c59153ae9a31a2468",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-ar71xx-generic-tl-wdr4900-v2-squashfs-factory.bin",
+      "sha256": "7d3adc887ba774d305eb1e03b57d3e310e2e73f4ba3f815825c6e14f40c20f8b",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WDR4900 v2"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

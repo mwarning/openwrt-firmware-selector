@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2"
+  ],
+  "id": "tl-wr710n-v1",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-tl-wr710n-v1",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-tl-wr710n-v1-squashfs-factory.bin",
+      "sha256": "d02d31024ae0662d448903f977bcd2f66a0e51d8d95e23e6368a74970d7ffd0c",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-tl-wr710n-v1-squashfs-sysupgrade.bin",
+      "sha256": "f0877364a91f10a301639016d0aeeb729ccac889dfc0a4d6b6182cd9acd6608a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WR710N v1"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

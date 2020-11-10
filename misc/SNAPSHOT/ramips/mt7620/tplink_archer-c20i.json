@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e",
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "id": "tplink_archer-c20i",
+  "image_prefix": "openwrt-ramips-mt7620-tplink_archer-c20i",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-tplink_archer-c20i-squashfs-factory.bin",
+      "sha256": "a32efefd3b5ab1f998cdce5684870dc01110add3c82f472ba57ec9dea1c1c571",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-tplink_archer-c20i-squashfs-sysupgrade.bin",
+      "sha256": "28fba574b88df72227e4a3704dda48f22a0a14474e2b22bb107144448adf2f54",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-c20i",
+    "c20i"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "Archer C20i",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-08 11:17:34",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "VH4032N",
+  "image_prefix": "openwrt-19.07.4-brcm63xx-generic-VH4032N",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-brcm63xx-generic-VH4032N-squashfs-cfe.bin",
+      "sha256": "8ca5d04a4a9d52042442071f0706885671ee7b8579abff224ca0f1139b6766ca",
+      "type": "cfe"
+    },
+    {
+      "name": "openwrt-19.07.4-brcm63xx-generic-VH4032N-squashfs-sysupgrade.bin",
+      "sha256": "c23bf1b3c23c8160e01dc5812dcf028e3e5f996ee4b066a6746b10ed65687b47",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "title": "Observa VH4032N"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

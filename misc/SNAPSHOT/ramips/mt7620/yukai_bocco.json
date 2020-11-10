@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-sound-core",
+    "kmod-sound-mt7620",
+    "kmod-i2c-ralink"
+  ],
+  "id": "yukai_bocco",
+  "image_prefix": "openwrt-ramips-mt7620-yukai_bocco",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-yukai_bocco-squashfs-sysupgrade.bin",
+      "sha256": "632119977db224a6b41f60144d5a172b40dc5253e7954c6ee6b9c8eb1bd6d288",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "yukai,bocco",
+    "bocco"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "BOCCO",
+      "vendor": "YUKAI Engineering"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

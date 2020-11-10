@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "id": "edimax_ra21s",
+  "image_prefix": "openwrt-ramips-mt7621-edimax_ra21s",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-edimax_ra21s-squashfs-factory.bin",
+      "sha256": "cdedfa3a0ebfb62fde08dfaf7008a25675a04e5649a96d68876af1a7c38c3ecc",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-edimax_ra21s-squashfs-sysupgrade.bin",
+      "sha256": "64be72f502d6dd3e018093831850b3ea53654e840e62602a13ba367a6fa26113",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "edimax,ra21s"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RA21S",
+      "vendor": "Edimax"
+    },
+    {
+      "model": "Gemini RA21S",
+      "vendor": "Edimax"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

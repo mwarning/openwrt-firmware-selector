@@ -1,0 +1,66 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-rtc-sunxi",
+    "kmod-ata-core",
+    "kmod-ata-sunxi"
+  ],
+  "id": "sun7i-a20-bananapi",
+  "image_prefix": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-bananapi",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-bananapi-squashfs-sdcard.img.gz",
+      "sha256": "9de92eec9eaffbaa6ce6823cda3949d8cd89ce6591758b2a6af8afea09c62311",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-bananapi-ext4-sdcard.img.gz",
+      "sha256": "a8262c3602da185412e1d5e8c8bdb98ea0dd0ed49fb00b29e1be9bb7c99813c3",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lemaker,bananapi"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "title": "LeMaker Banana Pi"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

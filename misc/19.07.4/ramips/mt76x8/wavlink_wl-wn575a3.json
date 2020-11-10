@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 01:16:49",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-mt7603",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "id": "wavlink_wl-wn575a3",
+  "image_prefix": "openwrt-19.07.4-ramips-mt76x8-wavlink_wl-wn575a3",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt76x8-wavlink_wl-wn575a3-squashfs-sysupgrade.bin",
+      "sha256": "b09b55eec8d74f3b9f0c21ac0e536f7a401c15fdd1dfb2a902ce21ace0100d36",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wavlink,wl-wn575a3",
+    "wl-wn575a3"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "title": "Wavlink WL-WN575A3"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

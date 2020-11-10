@@ -1,0 +1,59 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-08 11:17:34",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "livebox",
+  "image_prefix": "openwrt-19.07.4-brcm63xx-generic-livebox",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-brcm63xx-generic-livebox-squashfs-redboot.bin",
+      "sha256": "b331cce82caff53b6182faee9c2685694d2341575a6b6d9ce6ace1d7627508ac",
+      "type": "redboot"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "title": "Inventel Livebox 1"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

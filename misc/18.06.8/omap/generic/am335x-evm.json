@@ -1,0 +1,54 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload"
+  ],
+  "device_packages": [],
+  "id": "am335x-evm",
+  "image_prefix": "openwrt-18.06.8-omap-am335x-evm",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-omap-am335x-evm-ext4-sdcard.img.gz",
+      "sha256": "db35ebe5c3bcb7563163983c60d7b66bdf2a99b5d854bd19f9072313512ea2b6",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-18.06.8-omap-am335x-evm-ubifs-sdcard.img.gz",
+      "sha256": "87827616828c0ba7504a72b271b2aa3ed86eae4710eea4e71a15ed401f265670",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "am335x-evm"
+  ],
+  "target": "omap/generic",
+  "titles": [
+    {
+      "title": "TI AM335x EVM"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

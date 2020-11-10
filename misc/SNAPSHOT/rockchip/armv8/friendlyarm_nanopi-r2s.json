@@ -1,0 +1,71 @@
+{
+  "arch_packages": "aarch64_generic",
+  "build_at": "2020-09-11 18:15:51",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "e2fsprogs",
+    "mkf2fs",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "partx-utils",
+    "e2fsprogs",
+    "mkf2fs",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb-net-rtl8152"
+  ],
+  "id": "friendlyarm_nanopi-r2s",
+  "image_prefix": "openwrt-rockchip-armv8-friendlyarm_nanopi-r2s",
+  "images": [
+    {
+      "name": "openwrt-rockchip-armv8-friendlyarm_nanopi-r2s-ext4-sysupgrade.img.gz",
+      "sha256": "e40fb141b65014f214ef44c77b5913a3d1aeee0b430d25f66e80442164bf44a8",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-rockchip-armv8-friendlyarm_nanopi-r2s-squashfs-sysupgrade.img.gz",
+      "sha256": "3c18748bbd632adffd980508cb172c8e5bc591fdea805bc54eace75fd39cde66",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "friendlyarm,nanopi-r2s"
+  ],
+  "target": "rockchip/armv8",
+  "titles": [
+    {
+      "model": "NanoPi R2S",
+      "vendor": "FriendlyARM"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

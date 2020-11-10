@@ -1,0 +1,66 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-08 09:04:19",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-mt76",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-mt76",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic"
+  ],
+  "device_packages": [
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-fs-vfat",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "kmod-mmc"
+  ],
+  "id": "7623a-unielec-u7623-02-emmc-512m",
+  "image_prefix": "openwrt-19.07.4-mediatek-mt7623-7623a-unielec-u7623-02-emmc-512m",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-mediatek-mt7623-7623a-unielec-u7623-02-emmc-512m-squashfs-sysupgrade-emmc.bin.gz",
+      "sha256": "0b56ef4163725d1551155a93c7f54618e927192b749ac44463406be5bad1bea9",
+      "type": "sysupgrade-emmc"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "unielec,u7623-02-emmc-512m"
+  ],
+  "target": "mediatek/mt7623",
+  "titles": [
+    {
+      "title": "MTK7623a UniElec U7623-02 (eMMC/512MB RAM)"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 15:31:33",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt76x2",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "id": "netgear_ex6150",
+  "image_prefix": "openwrt-19.07.4-ramips-mt7621-netgear_ex6150",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-netgear_ex6150-squashfs-sysupgrade.bin",
+      "sha256": "32d313fe8beb15cb7160c8aa8933cdfa35e5df3b492393cf25f4aa422bca1f97",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-netgear_ex6150-squashfs-factory.chk",
+      "sha256": "86cfe20ce5989bee0e831e38b9a9e84d21ea546c28cd1f2814454fa0567e8cb6",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,ex6150"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "Netgear EX6150"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

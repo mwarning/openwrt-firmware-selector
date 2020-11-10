@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 19:53:19",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-ltq-adsl-ar9-mei",
+    "kmod-ltq-adsl-ar9",
+    "kmod-ltq-adsl-ar9-fw-a",
+    "kmod-ltq-atm-ar9",
+    "kmod-ltq-deu-ar9",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ath9k",
+    "kmod-owl-loader",
+    "wpad-basic-wolfssl",
+    "uboot-envtools",
+    "iwinfo"
+  ],
+  "id": "bt_homehub-v3a",
+  "image_prefix": "openwrt-lantiq-xway-bt_homehub-v3a",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-bt_homehub-v3a-squashfs-sysupgrade.bin",
+      "sha256": "ac5ee2b6a382cc28e2da7dba2c122bbc892f177bb0e8d37212a3c7b40adea8cc",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "bt,homehub-v3a",
+    "BTHOMEHUBV3A"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "Home Hub 3",
+      "variant": "Type A",
+      "vendor": "British Telecom"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,87 @@
+{
+  "arch_packages": "arm_fa526",
+  "build_at": "2020-09-08 00:59:33",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-core",
+    "kmod-usb-fotg210",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-heartbeat",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-usb-core",
+    "kmod-usb-fotg210",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-heartbeat",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-md-mod",
+    "kmod-md-linear",
+    "kmod-md-multipath",
+    "kmod-md-raid0",
+    "kmod-md-raid1",
+    "kmod-md-raid10",
+    "kmod-md-raid456",
+    "kmod-fs-btrfs",
+    "kmod-fs-cifs",
+    "kmod-fs-nfs",
+    "kmod-fs-nfsd",
+    "kmod-fs-ntfs",
+    "kmod-fs-reiserfs",
+    "kmod-fs-vfat",
+    "kmod-nls-utf8",
+    "kmod-usb-storage-extras",
+    "samba36-server",
+    "mdadm",
+    "cfdisk",
+    "fdisk",
+    "e2fsprogs",
+    "badblocks",
+    "partx-utils"
+  ],
+  "id": "dlink_dns-313",
+  "image_prefix": "openwrt-19.07.4-gemini-dlink_dns-313",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-gemini-dlink_dns-313-ext4-factory.bin.gz",
+      "sha256": "e0c448720863c7d7688ee9b8a321ed3d4592531a451483706d33ca227143c44e",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dns-313"
+  ],
+  "target": "gemini/generic",
+  "titles": [
+    {
+      "title": "D-Link DNS-313 1-Bay Network Storage Enclosure"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-reset",
+    "kmod-owl-loader"
+  ],
+  "id": "netgear_wndrmac-v1",
+  "image_prefix": "openwrt-ath79-generic-netgear_wndrmac-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-netgear_wndrmac-v1-squashfs-factory.img",
+      "sha256": "23695488b2e194d5acd573eae18dbf38175c0434d1117b65bd66335a22cd5770",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-netgear_wndrmac-v1-squashfs-sysupgrade.bin",
+      "sha256": "75ca4da462bf408adfff41af692232470b21ef3707650bce4ecac13df12e2253",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wndrmac-v1",
+    "wndr3700"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WNDRMAC",
+      "variant": "v1",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

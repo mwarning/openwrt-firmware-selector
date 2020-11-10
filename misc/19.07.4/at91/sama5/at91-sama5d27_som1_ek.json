@@ -1,0 +1,76 @@
+{
+  "arch_packages": "arm_cortex-a5_vfpv4",
+  "build_at": "2020-09-08 14:12:42",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "kmod-usb2",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "at91-sama5d27_som1_ek",
+  "image_prefix": "openwrt-19.07.4-at91-sama5-at91-sama5d27_som1_ek",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-at91-sama5-at91-sama5d27_som1_ek-ubifs-zImage",
+      "sha256": "8119a1afaf186bc999559df2a571fdfe00e2d0df6d9cbe8df6ab4ccba54328ff",
+      "type": "zImage"
+    },
+    {
+      "name": "openwrt-19.07.4-at91-sama5-at91-sama5d27_som1_ek-squashfs-root.ubi",
+      "sha256": "5110854b744870fb0bb56cfbbaac3be0c6a993dfe0a0c5be8f2b63d2d65e7ead",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-19.07.4-at91-sama5-at91-sama5d27_som1_ek-ext4-sdcard.img.gz",
+      "sha256": "c09f807b2f2adf8f6dab7f87c45b41d29805bab8298f83018db85ffc0188c7f1",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-19.07.4-at91-sama5-at91-sama5d27_som1_ek-squashfs-zImage",
+      "sha256": "8119a1afaf186bc999559df2a571fdfe00e2d0df6d9cbe8df6ab4ccba54328ff",
+      "type": "zImage"
+    },
+    {
+      "name": "openwrt-19.07.4-at91-sama5-at91-sama5d27_som1_ek-ubifs-root.ubi",
+      "sha256": "a48e03748e5b70bb5fe9be18842109f32227c6550ee11d56e428838d624bc22b",
+      "type": "root"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/sama5",
+  "titles": [
+    {
+      "title": "Microchip(Atmel AT91) SAMA5D27 SOM1 Ek"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

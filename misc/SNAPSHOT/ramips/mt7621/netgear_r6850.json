@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "id": "netgear_r6850",
+  "image_prefix": "openwrt-ramips-mt7621-netgear_r6850",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-rootfs.bin",
+      "sha256": "dc73bf33cffec7abc8f8325e7d01224158bb7758c0e847684b0526add1c70159",
+      "type": "rootfs"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-kernel.bin",
+      "sha256": "62e1383dee9aef8cb08757932b98db7798bc56b39ca2742d6f3bd9c9000491a8",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-sysupgrade.bin",
+      "sha256": "07be1e987ccc8ff0ce370d0275e5427d1d6fb8fe1f9d42077e5f9d9f222cc5e3",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-factory.img",
+      "sha256": "e893b7ee223cfccbdcfc7b83aaee8e5375372584980459ec8be51dba78526fdb",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,r6850"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "R6850",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

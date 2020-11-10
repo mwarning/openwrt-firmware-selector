@@ -1,0 +1,77 @@
+{
+  "arch_packages": "powerpc_8540",
+  "build_at": "2020-09-11 23:24:06",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "kmod-usb2"
+  ],
+  "device_packages": [],
+  "id": "tplink_tl-wdr4900-v1",
+  "image_prefix": "openwrt-mpc85xx-p1010-tplink_tl-wdr4900-v1",
+  "images": [
+    {
+      "name": "openwrt-mpc85xx-p1010-tplink_tl-wdr4900-v1-squashfs-factory.bin",
+      "sha256": "fbda20a38c6d02a41a520a62fc75113e4a05cddf413f2ed27dd4b8ef3634779f",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-mpc85xx-p1010-tplink_tl-wdr4900-v1-squashfs-sysupgrade.bin",
+      "sha256": "6f05ada3312a4dac269dcb82ebf8e78eaec3be05ec128d6f9a9a7a8b726dbd07",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,tl-wdr4900-v1",
+    "tl-wdr4900-v1"
+  ],
+  "target": "mpc85xx/p1010",
+  "titles": [
+    {
+      "model": "TL-WDR4900",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

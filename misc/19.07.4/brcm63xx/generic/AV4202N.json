@@ -1,0 +1,60 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-08 11:17:34",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-b43",
+    "wpad-basic",
+    "iwinfo"
+  ],
+  "id": "AV4202N",
+  "image_prefix": "openwrt-19.07.4-brcm63xx-generic-AV4202N",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-brcm63xx-generic-AV4202N-squashfs-cfe.bin",
+      "sha256": "7a620a23a08a2b7055fb8ed5ebd17321903fd98d2f248baef5e4066d2b3656aa",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "title": "ADB P.DG AV4202N"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

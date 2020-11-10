@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "fritz-tffs",
+    "-uboot-envtools",
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-usb-storage"
+  ],
+  "id": "fritz4020",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-fritz4020",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-fritz4020-squashfs-sysupgrade.bin",
+      "sha256": "25f2e6bd3d16486028879e09428ad7d495581440f80cd6670fdb6f871ae64bb7",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "fritz4020"
+  ],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "AVM FRITZ!Box 4020"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

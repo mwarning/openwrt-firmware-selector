@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 16:30:04",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "id": "e1700",
+  "image_prefix": "openwrt-19.07.4-ramips-mt7620-e1700",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt7620-e1700-squashfs-factory.bin",
+      "sha256": "4ac9f5b70c8d8c45c837910df084473068b137cf51622f9c3992342661a77cbb",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-mt7620-e1700-squashfs-sysupgrade.bin",
+      "sha256": "deb66ece17e338da13d9e83eb95696587262661cb988e24439ee7db968a284e6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "e1700"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "title": "Linksys E1700"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

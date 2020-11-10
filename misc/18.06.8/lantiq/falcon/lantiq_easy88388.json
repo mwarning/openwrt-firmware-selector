@@ -1,0 +1,51 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-heartbeat",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c"
+  ],
+  "device_packages": [],
+  "id": "lantiq_easy88388",
+  "image_prefix": "openwrt-18.06.8-lantiq-falcon-lantiq_easy88388",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-lantiq-falcon-lantiq_easy88388-squashfs-sysupgrade.bin",
+      "sha256": "fab9bfeb132f793f8b114e1bd82c7f80279f0c5cd266128d5c47ce620d79bc8a",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "lantiq,easy88388"
+  ],
+  "target": "lantiq/falcon",
+  "titles": [
+    {
+      "title": "EASY88388 - Lantiq Falcon FTTDP8 Reference Board"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

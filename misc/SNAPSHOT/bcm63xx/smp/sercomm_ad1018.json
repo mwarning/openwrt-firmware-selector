@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 16:37:12",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "nand-utils",
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "sercomm_ad1018",
+  "image_prefix": "openwrt-bcm63xx-smp-sercomm_ad1018",
+  "images": [
+    {
+      "name": "openwrt-bcm63xx-smp-sercomm_ad1018-squashfs-factory.img",
+      "sha256": "acc6829e9717bd2275d1efdbab07cfb4ac53f02ef98e57658c5a3c2946edcb71",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-bcm63xx-smp-sercomm_ad1018-squashfs-sysupgrade.bin",
+      "sha256": "ce60e32b28d21b2dbaf5cd39962a954657eeedc6e74280368a28ea231bb229f1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "sercomm,ad1018"
+  ],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "AD1018",
+      "vendor": "Sercomm"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

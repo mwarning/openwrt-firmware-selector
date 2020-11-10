@@ -1,0 +1,62 @@
+{
+  "arch_packages": "powerpc_464fp",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-i2c-core",
+    "kmod-gpio-button-hotplug",
+    "kmod-ath9k",
+    "swconfig",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-i2c-core",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-spi-gpio",
+    "-swconfig"
+  ],
+  "id": "meraki_mr24",
+  "image_prefix": "openwrt-18.06.8-apm821xx-nand-meraki_mr24",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-apm821xx-nand-meraki_mr24-squashfs-sysupgrade.tar",
+      "sha256": "3508114c84b982effe11bba37e65979602b338467f11226b85b11acf18bbc3be",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "meraki,mr24",
+    "mr24"
+  ],
+  "target": "apm821xx/nand",
+  "titles": [
+    {
+      "title": "Cisco Meraki MR24"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

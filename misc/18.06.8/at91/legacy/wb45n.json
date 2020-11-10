@@ -1,0 +1,65 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [
+    "kmod-mmc-at91",
+    "kmod-ath6kl-sdio",
+    "ath6k-firmware",
+    "kmod-usb-storage",
+    "kmod-fs-vfat",
+    "kmod-fs-msdos",
+    "kmod-leds-gpio"
+  ],
+  "id": "wb45n",
+  "image_prefix": "openwrt-18.06.8-at91-legacy-wb45n",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-at91-legacy-wb45n-squashfs-root.ubi",
+      "sha256": "70e461217a827c4f43b48b9243a8426bf37107b04122d1094f412a30f3444d90",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-18.06.8-at91-legacy-wb45n-ubifs-root.ubi",
+      "sha256": "8669c0a64735c824597021e37c50f65e5b3294ea48ebaef66609eda6d2e759e8",
+      "type": "root"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/legacy",
+  "titles": [
+    {
+      "title": "Laird WB45N"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

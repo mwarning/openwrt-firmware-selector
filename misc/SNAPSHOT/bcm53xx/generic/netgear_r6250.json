@@ -1,0 +1,80 @@
+{
+  "arch_packages": "arm_cortex-a9",
+  "build_at": "2020-09-11 02:02:23",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "osafeloader",
+    "oseama",
+    "otrx",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "nvram",
+    "osafeloader",
+    "oseama",
+    "otrx",
+    "kmod-gpio-button-hotplug",
+    "kmod-leds-gpio",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer"
+  ],
+  "device_packages": [
+    "wpad-basic-wolfssl",
+    "kmod-b43",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-phy-bcm-ns-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb3",
+    "kmod-phy-bcm-ns-usb3",
+    "iwinfo"
+  ],
+  "id": "netgear_r6250",
+  "image_prefix": "openwrt-bcm53xx-generic-netgear_r6250",
+  "images": [
+    {
+      "name": "openwrt-bcm53xx-generic-netgear_r6250-squashfs.chk",
+      "sha256": "fcafc3be9ee3bde97f67bd600e6407c9801995a213052fcf2f13b8107ec6dbbb",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm53xx/generic",
+  "titles": [
+    {
+      "model": "R6250",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,87 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 19:53:19",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath9k",
+    "kmod-owl-loader",
+    "wpad-basic-wolfssl",
+    "kmod-ltq-adsl-ar9-mei",
+    "kmod-ltq-adsl-ar9",
+    "kmod-ltq-adsl-ar9-fw-a",
+    "kmod-ltq-atm-ar9",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ltq-deu-ar9",
+    "iwinfo"
+  ],
+  "id": "netgear_dgn3500",
+  "image_prefix": "openwrt-lantiq-xway-netgear_dgn3500",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-netgear_dgn3500-squashfs-factory.img",
+      "sha256": "8e09b419f8b4eb0750271b87608bc4eaf64f55af9036daebb946045b507062ea",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-lantiq-xway-netgear_dgn3500-squashfs-sysupgrade.bin",
+      "sha256": "817a8eaccb2594c4859f9785b7d2741e0a4e102b2b531f9f7772481b4bff6381",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-lantiq-xway-netgear_dgn3500-squashfs-factory-na.img",
+      "sha256": "b48b99cc77bdbc2d90b6b28321c6a2fa30a6149ac56d148dd4aad2a113473a2a",
+      "type": "factory-na"
+    },
+    {
+      "name": "openwrt-lantiq-xway-netgear_dgn3500-squashfs-sysupgrade-na.bin",
+      "sha256": "c618b00e57b7825e48b9579a33b7870cd595b054db04884e2aaae27fb91ca5a0",
+      "type": "sysupgrade-na"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,dgn3500",
+    "DGN3500"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "DGN3500",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

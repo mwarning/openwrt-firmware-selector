@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-usb-ohci"
+  ],
+  "id": "rw2458n",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-rw2458n",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-rw2458n-squashfs-sysupgrade.bin",
+      "sha256": "61bc9fbc8a85328b04d4bcd381e4be0f04b3e24f2104e8a49f5c7c3b6a52d947",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-rw2458n-squashfs-factory.bin",
+      "sha256": "29ddd5df6f21c8fc72e8229c200448cf362acacaeb8bd56912125d065c07f682",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "Ubiquiti RW2458N"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

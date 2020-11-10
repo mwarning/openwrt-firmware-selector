@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 16:38:17",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-usb-ehci",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-dwc2"
+  ],
+  "id": "kn",
+  "image_prefix": "openwrt-19.07.4-ramips-rt305x-kn",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-rt305x-kn-squashfs-sysupgrade.bin",
+      "sha256": "93b419e582d20d112e44e30879dfc42135fb3b85c856080f75b7d851e1058687",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "kn"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "title": "ZyXEL Keenetic"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

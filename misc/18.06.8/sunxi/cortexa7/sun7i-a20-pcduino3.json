@@ -1,0 +1,69 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-sun4i-emac",
+    "kmod-rtc-sunxi",
+    "kmod-ata-core",
+    "kmod-ata-sunxi",
+    "kmod-rtl8xxxu",
+    "rtl8188eu-firmware"
+  ],
+  "id": "sun7i-a20-pcduino3",
+  "image_prefix": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-pcduino3",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-pcduino3-ext4-sdcard.img.gz",
+      "sha256": "ae2d5bd09119ccb1e22442d5763d61d63a88dfe2088b161a6aa8d43f9eeef1b2",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-pcduino3-squashfs-sdcard.img.gz",
+      "sha256": "d9c06f24b756bf35509b5e2de566b5a334fc9a9b795b7822dabcf1790f52f68e",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "linksprite,pcduino3"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "title": "LinkSprite pcDuino3"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

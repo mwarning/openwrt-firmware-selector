@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-08 14:32:26",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-rt2800-pci",
+    "wpad-basic",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "HG622",
+  "image_prefix": "openwrt-19.07.4-brcm63xx-smp-HG622",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-brcm63xx-smp-HG622-squashfs-cfe.bin",
+      "sha256": "c4aad7bc67ad4879f96eceb963db14c8247cc73f97abc5711ab05efa5cdabc31",
+      "type": "cfe"
+    },
+    {
+      "name": "openwrt-19.07.4-brcm63xx-smp-HG622-squashfs-sysupgrade.bin",
+      "sha256": "259f4a01c6b7a975216582467f493fde88337435b6b309b18db0b5b02a7386c6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "title": "Huawei EchoLife HG622"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

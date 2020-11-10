@@ -1,0 +1,58 @@
+{
+  "arch_packages": "mipsel_24kc_24kf",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-tpm-i2c-infineon"
+  ],
+  "id": "marduk",
+  "image_prefix": "openwrt-18.06.8-pistachio-marduk",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-pistachio-marduk-squashfs-factory.ubi",
+      "sha256": "4e591164e6d98f1da6e3e23acce4ba9880b6d1bb03fec64bb4653392374bb014",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-pistachio-marduk-squashfs-sysupgrade.tar",
+      "sha256": "2d3830d5e74fd6c76f82b8bec2cf87152820f9bd4e686a211fb2dacf355581a0",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "pistachio/generic",
+  "titles": [
+    {
+      "title": "Creator Ci40"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

@@ -1,0 +1,70 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "uboot-envtools"
+  ],
+  "id": "linksys_ea7300-v1",
+  "image_prefix": "openwrt-ramips-mt7621-linksys_ea7300-v1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-linksys_ea7300-v1-squashfs-sysupgrade.bin",
+      "sha256": "001eecaf2087642be4e3be9a2483a1ced6b473897e943d0e78259de220c664fd",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-linksys_ea7300-v1-squashfs-factory.bin",
+      "sha256": "b9ff1899b9bf4d32ffec24679117ba6c7bf273bec438cb264e267ffa9cdc14cd",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "linksys,ea7300-v1"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "EA7300",
+      "variant": "v1",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

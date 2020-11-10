@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "id": "dap-1330-a1",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-dap-1330-a1",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-dap-1330-a1-squashfs-sysupgrade.bin",
+      "sha256": "70991c5cefe1e61f365a9fc2cd9075c4870647d9d6a313f9485716efdc9ecbd0",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-dap-1330-a1-squashfs-factory.img",
+      "sha256": "eafad6c0d5d6530b32b614096c68e1adf06748a0ae9c7ba5ca988ef34751b351",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "D-Link DAP-1330 rev. A1"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

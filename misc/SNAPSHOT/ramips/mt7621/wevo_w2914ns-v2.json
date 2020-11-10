@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "wevo_w2914ns-v2",
+  "image_prefix": "openwrt-ramips-mt7621-wevo_w2914ns-v2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-wevo_w2914ns-v2-squashfs-sysupgrade.bin",
+      "sha256": "7d3f05e6984a7a5510609782c041e8c1a35cc511c1224457eae2eb4636643c24",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wevo,w2914ns-v2",
+    "w2914nsv2"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "W2914NS",
+      "variant": "v2",
+      "vendor": "WeVO"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

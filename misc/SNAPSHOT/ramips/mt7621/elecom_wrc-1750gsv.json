@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "id": "elecom_wrc-1750gsv",
+  "image_prefix": "openwrt-ramips-mt7621-elecom_wrc-1750gsv",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-elecom_wrc-1750gsv-squashfs-sysupgrade.bin",
+      "sha256": "53696cf28258a34251b1b88e8ce9371392ee32ee9766652da7866a7aefcc9970",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-elecom_wrc-1750gsv-squashfs-factory.bin",
+      "sha256": "e9bc5bfdd8c1a1265ba4cfbe568ab0cacb75e5f858a43cda62cee4add5c88dca",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "elecom,wrc-1750gsv"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "WRC-1750GSV",
+      "vendor": "ELECOM"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

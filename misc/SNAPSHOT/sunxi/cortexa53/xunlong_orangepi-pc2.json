@@ -1,0 +1,67 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2020-09-11 16:34:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [],
+  "id": "xunlong_orangepi-pc2",
+  "image_prefix": "openwrt-sunxi-cortexa53-xunlong_orangepi-pc2",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa53-xunlong_orangepi-pc2-ext4-sdcard.img.gz",
+      "sha256": "528b316f675a0674f63a602d21211a902d8a93af1ad55502b185afacf37760fb",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa53-xunlong_orangepi-pc2-squashfs-sdcard.img.gz",
+      "sha256": "d6f6fb41e251f885dccb33a5bddde35148e9d2b16a8ee1f8cf866140d8a19dc6",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xunlong,orangepi-pc2"
+  ],
+  "target": "sunxi/cortexa53",
+  "titles": [
+    {
+      "model": "Orange Pi PC 2",
+      "vendor": "Xunlong"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

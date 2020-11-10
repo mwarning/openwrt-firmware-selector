@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "id": "tplink_cpe610-v1",
+  "image_prefix": "openwrt-ath79-generic-tplink_cpe610-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_cpe610-v1-squashfs-sysupgrade.bin",
+      "sha256": "9466fb50db3bd57e727c876deca16dc6534cecc74ecf4e13071f6489236f1055",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_cpe610-v1-squashfs-factory.bin",
+      "sha256": "8b639119ffde0130a0f7b45920ecb0d75f323e04af7c8622d70bb45d18b191ae",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,cpe610-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CPE610",
+      "variant": "v1",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

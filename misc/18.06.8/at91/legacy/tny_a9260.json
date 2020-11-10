@@ -1,0 +1,57 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "tny_a9260",
+  "image_prefix": "openwrt-18.06.8-at91-legacy-tny_a9260",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-at91-legacy-tny_a9260-squashfs-factory.bin",
+      "sha256": "6f83ce55833610666af3e4919fa82f1f52f0f863257286d765fa4cb541139fc2",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-at91-legacy-tny_a9260-ubifs-factory.bin",
+      "sha256": "f1f835499778e3a72033709b42fe7a26a5143fb7486b628acc400f6b65845b82",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/legacy",
+  "titles": [
+    {
+      "title": "Calao TNYA9260"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

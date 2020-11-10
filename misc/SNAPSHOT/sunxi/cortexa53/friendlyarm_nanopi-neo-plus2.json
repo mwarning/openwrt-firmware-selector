@@ -1,0 +1,67 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2020-09-11 16:34:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [],
+  "id": "friendlyarm_nanopi-neo-plus2",
+  "image_prefix": "openwrt-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2-squashfs-sdcard.img.gz",
+      "sha256": "620065812248a679de5532595512437f45baec2ea1d1ea90e17c7be1daa60cb6",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2-ext4-sdcard.img.gz",
+      "sha256": "9ae83eced55743a5a3da6bf610efb1ff7186b10b7076fa41eaa0528feb088f59",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "nanopi-neo-plus2"
+  ],
+  "target": "sunxi/cortexa53",
+  "titles": [
+    {
+      "model": "NanoPi NEO Plus2",
+      "vendor": "FriendlyARM"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

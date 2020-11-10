@@ -1,0 +1,68 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 16:30:04",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "kn_rf",
+  "image_prefix": "openwrt-19.07.4-ramips-mt7620-kn_rf",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt7620-kn_rf-squashfs-sysupgrade.bin",
+      "sha256": "210248f1bd07140a961c8e275b76137991adc10d31c8650543dee5c1be8b4d63",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-mt7620-kn_rf-squashfs-factory.bin",
+      "sha256": "1e24876cb88ed6529f35d10f3eec22cbc7e58b48e7e78a371112ec9cf84b9c98",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "kn_rf"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "title": "ZyXEL Keenetic Omni II"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

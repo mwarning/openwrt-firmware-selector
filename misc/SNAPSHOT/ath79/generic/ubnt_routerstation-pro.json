@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "-kmod-ath9k",
+    "-wpad-basic-wolfssl",
+    "-uboot-envtools",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "fconfig"
+  ],
+  "id": "ubnt_routerstation-pro",
+  "image_prefix": "openwrt-ath79-generic-ubnt_routerstation-pro",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-ubnt_routerstation-pro-squashfs-factory.bin",
+      "sha256": "b8f97855285c912150b1fdfa8bbc1418342b28177092b1e63b98ef6106d39a8b",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubnt,routerstation-pro",
+    "routerstation-pro"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "RouterStation Pro",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

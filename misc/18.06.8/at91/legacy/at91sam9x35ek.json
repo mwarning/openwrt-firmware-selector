@@ -1,0 +1,57 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "at91sam9x35ek",
+  "image_prefix": "openwrt-18.06.8-at91-legacy-at91sam9x35ek",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-at91-legacy-at91sam9x35ek-squashfs-root.ubi",
+      "sha256": "7bc2688a2b15f05fb3e8cfd4c76b7db50876a7455c13b1fbbc91a7dffa782dbe",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-18.06.8-at91-legacy-at91sam9x35ek-ubifs-root.ubi",
+      "sha256": "de4848a22e66cd3d8763251d3c9092e4907ed3b5e434b5694d09abe3fa27bd2e",
+      "type": "root"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/legacy",
+  "titles": [
+    {
+      "title": "Atmel AT91SAM9X35-EK"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

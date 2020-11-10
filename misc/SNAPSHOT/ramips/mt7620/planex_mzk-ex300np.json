@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "planex_mzk-ex300np",
+  "image_prefix": "openwrt-ramips-mt7620-planex_mzk-ex300np",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-planex_mzk-ex300np-squashfs-sysupgrade.bin",
+      "sha256": "2885bfc26e40259d0eb5ee80832f3af37aca667f7294b04903caa10846c77a05",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "planex,mzk-ex300np",
+    "mzk-ex300np"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "MZK-EX300NP",
+      "vendor": "Planex"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

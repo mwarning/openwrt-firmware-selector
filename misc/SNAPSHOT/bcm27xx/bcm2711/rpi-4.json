@@ -1,0 +1,95 @@
+{
+  "arch_packages": "aarch64_cortex-a72",
+  "build_at": "2020-09-11 17:56:47",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "bcm27xx-gpu-fw",
+    "kmod-usb-hid",
+    "kmod-sound-core",
+    "kmod-sound-arm-bcm2835",
+    "kmod-fs-vfat",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "bcm27xx-gpu-fw",
+    "kmod-usb-hid",
+    "kmod-sound-core",
+    "kmod-sound-arm-bcm2835",
+    "kmod-fs-vfat",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "cypress-firmware-43455-sdio",
+    "cypress-nvram-43455-sdio-rpi-4b",
+    "kmod-brcmfmac",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "rpi-4",
+  "image_prefix": "openwrt-bcm27xx-bcm2711-rpi-4",
+  "images": [
+    {
+      "name": "openwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img.gz",
+      "sha256": "2208a1dd7c92596c29bdafa37c3b248ddb61ee8e9cfc7931a747d2eed28ce24c",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-bcm27xx-bcm2711-rpi-4-ext4-sysupgrade.img.gz",
+      "sha256": "ee7041d617ca60b61e87a21290796b005d7b812c6eba4c9fd2bc28e04b109d7c",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-bcm27xx-bcm2711-rpi-4-squashfs-factory.img.gz",
+      "sha256": "6bb8bf2653548bfa47c43f27a1bea52cd47d5cf90137224dc5f988fdc27eb573",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-bcm27xx-bcm2711-rpi-4-squashfs-sysupgrade.img.gz",
+      "sha256": "16affdc7a094624a9a246d20fa0c4e512e43b4d442440cfe7456200c52f41a85",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "raspberrypi,4-model-b"
+  ],
+  "target": "bcm27xx/bcm2711",
+  "titles": [
+    {
+      "model": "4B",
+      "vendor": "Raspberry Pi"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

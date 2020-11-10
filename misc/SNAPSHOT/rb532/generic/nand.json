@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_mips32",
+  "build_at": "2020-09-02 05:26:10",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl",
+    "kmod-ath5k",
+    "kmod-input-rb532",
+    "e2fsprogs",
+    "mkf2fs",
+    "nand-utils",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "wpad-basic-wolfssl",
+    "kmod-ath5k",
+    "kmod-input-rb532",
+    "e2fsprogs",
+    "mkf2fs",
+    "nand-utils"
+  ],
+  "device_packages": [],
+  "id": "nand",
+  "image_prefix": "openwrt-rb532-nand",
+  "images": [
+    {
+      "name": "openwrt-rb532-nand-squashfs-sysupgrade.bin",
+      "sha256": "16bd8947830087fd6b72302bbf9340c09ee5d3c5e54d8e5575a6e8d52140baff",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "rb532"
+  ],
+  "target": "rb532/generic",
+  "titles": [
+    {
+      "model": "RouterBOARD 532",
+      "vendor": "MikroTik"
+    }
+  ],
+  "version_code": "r14365-46abcb3ade",
+  "version_number": "SNAPSHOT"
+}

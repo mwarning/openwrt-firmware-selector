@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "-kmod-ath9k",
+    "-swconfig",
+    "-wpad-basic-wolfssl",
+    "-uboot-envtools",
+    "fconfig"
+  ],
+  "id": "jjplus_ja76pf2",
+  "image_prefix": "openwrt-ath79-generic-jjplus_ja76pf2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-jjplus_ja76pf2-squashfs-rootfs.bin",
+      "sha256": "5512e72e91fd73ed1401e0638de24f83411ae7fd246236fa11d130ba0ed515bb",
+      "type": "rootfs"
+    },
+    {
+      "name": "openwrt-ath79-generic-jjplus_ja76pf2-squashfs-kernel.bin",
+      "sha256": "46e222592d3f28c92481c78dee6118e8222b0df50570d55f22cd9bd00749d5c7",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "jjplus,ja76pf2",
+    "ja76pf2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "JA76PF2",
+      "vendor": "jjPlus"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

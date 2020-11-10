@@ -1,0 +1,61 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "id": "tl-wr941nd-v6-cn",
+  "image_prefix": "openwrt-18.06.8-ar71xx-tiny-tl-wr941nd-v6-cn",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr941nd-v6-cn-squashfs-factory.bin",
+      "sha256": "6a5a3a377b398335a3277e9fd5f18ace4b439608bd0389967619d6d82c59e959",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr941nd-v6-cn-squashfs-sysupgrade.bin",
+      "sha256": "6cb0df9cf86a5711ecd6cb975a1b6fe1e4c7f47c298c0f49d2df2047eb57a1b0",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/tiny",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WR941N/ND v6 (CN)"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

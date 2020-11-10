@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-sdhci-mt7620",
+    "kmod-ledtrig-netdev"
+  ],
+  "id": "zbtlink_zbt-we1026-h-32m",
+  "image_prefix": "openwrt-ramips-mt7620-zbtlink_zbt-we1026-h-32m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-zbtlink_zbt-we1026-h-32m-squashfs-sysupgrade.bin",
+      "sha256": "0a6ae0dd68ef2c5b11fc12712677370920deef29c9111bdaeabe6f1df057a489",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zbtlink,zbt-we1026-h-32m"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "ZBT-WE1026-H",
+      "variant": "32M",
+      "vendor": "Zbtlink"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

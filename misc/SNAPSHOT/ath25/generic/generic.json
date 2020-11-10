@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 23:48:19",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl",
+    "kmod-ath5k",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "wpad-basic-wolfssl",
+    "kmod-ath5k",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "generic",
+  "image_prefix": "openwrt-ath25-generic",
+  "images": [
+    {
+      "name": "openwrt-ath25-generic-kernel.elf",
+      "sha256": "86833722ece649b15077c356b7b8e16e69ead8151f2b6542cf80f32ef2f9b4d6",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-ath25-generic-squashfs-rootfs.bin",
+      "sha256": "32d05e9c5f0383ed36c79c6a8ec0c747ae646aaa536bcb7b3922461d77be69c6",
+      "type": "rootfs"
+    },
+    {
+      "name": "openwrt-ath25-generic-squashfs-sysupgrade.bin",
+      "sha256": "d98547569c2f26986c0d1f2690717c6e17ed33d122c7f7503686850526bd18c0",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath25-generic-kernel.gz",
+      "sha256": "2dec4a6a6be51c52844d0146be26e99339e4dc1f099524f1418f325bc854745f",
+      "type": "kernel"
+    },
+    {
+      "name": "openwrt-ath25-generic-kernel.lzma",
+      "sha256": "4e93fb49d3a171097485bbc858e63096f4ee33f3634b080a187782bc38bd3be9",
+      "type": "kernel"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ath25/generic",
+  "titles": [
+    {
+      "model": "Generic AR2xxx board",
+      "vendor": "Atheros"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

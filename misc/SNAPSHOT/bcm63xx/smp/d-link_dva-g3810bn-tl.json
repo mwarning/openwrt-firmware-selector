@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 16:37:12",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "d-link_dva-g3810bn-tl",
+  "image_prefix": "openwrt-bcm63xx-smp-d-link_dva-g3810bn-tl",
+  "images": [
+    {
+      "name": "openwrt-bcm63xx-smp-d-link_dva-g3810bn-tl-squashfs-cfe.bin",
+      "sha256": "e97cfd9e9c9092b4dac7b9340f7f7c740640adc6ce07ae1c6c44b4286e98dbb9",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "DVA-G3810BN/TL",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,70 @@
+{
+  "arch_packages": "powerpc_464fp",
+  "build_at": "2020-09-11 01:02:48",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-i2c-core",
+    "kmod-gpio-button-hotplug",
+    "kmod-ath9k",
+    "swconfig",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-i2c-core",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-spi-gpio",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-dwc2",
+    "kmod-usb-storage",
+    "block-mount"
+  ],
+  "id": "meraki_mx60",
+  "image_prefix": "openwrt-apm821xx-nand-meraki_mx60",
+  "images": [
+    {
+      "name": "openwrt-apm821xx-nand-meraki_mx60-squashfs-sysupgrade.bin",
+      "sha256": "2a4f6a5dcd7635d030aaa419ae54e632d9aa6546a8a286969d9eabdb30e16eb8",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "meraki,mx60",
+    "mx60"
+  ],
+  "target": "apm821xx/nand",
+  "titles": [
+    {
+      "model": "MX60/MX60W",
+      "vendor": "Cisco Meraki"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,64 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2020-09-11 23:18:05",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-usb2",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-usb2"
+  ],
+  "device_packages": [],
+  "id": "iom_iconnect-1.1",
+  "image_prefix": "openwrt-kirkwood-iom_iconnect-1.1",
+  "images": [
+    {
+      "name": "openwrt-kirkwood-iom_iconnect-1.1-squashfs-factory.bin",
+      "sha256": "c88bf1380ffe2aa1cc376b5be7cdc68693a4e71acd1cf1b3d60ff5e6b09e5dfc",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-kirkwood-iom_iconnect-1.1-squashfs-sysupgrade.bin",
+      "sha256": "838a0e386fe5282d8e56c25b285caae1d78cdb836e548f2459be026a63dd8463",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iom,iconnect-1.1",
+    "iconnect"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "Iconnect",
+      "vendor": "Iomega"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

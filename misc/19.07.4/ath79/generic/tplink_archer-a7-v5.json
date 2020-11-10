@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 18:49:19",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct"
+  ],
+  "id": "tplink_archer-a7-v5",
+  "image_prefix": "openwrt-19.07.4-ath79-generic-tplink_archer-a7-v5",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ath79-generic-tplink_archer-a7-v5-squashfs-sysupgrade.bin",
+      "sha256": "5ef9e1cf42875395e984e03ca24f7192b347b5e67342367cac3ee9cac04d3a26",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-ath79-generic-tplink_archer-a7-v5-squashfs-factory.bin",
+      "sha256": "bef6374996526fbe9c118c0d9d0b3488ee2f83435fecf50338ed8d7d883453f8",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,archer-a7-v5"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "title": "TP-Link Archer A7 v5"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

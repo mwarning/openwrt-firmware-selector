@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-wndr3700-usb"
+  ],
+  "id": "wndr3700",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-wndr3700",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-wndr3700-squashfs-factory-NA.img",
+      "sha256": "490ea73e842d39fcafcee706d2148ec47b27ca4238d1aeb74a70da80ffa04f3a",
+      "type": "factory-NA"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-wndr3700-squashfs-sysupgrade.bin",
+      "sha256": "c7dc57b2fd1da9ca549a176330bebe8d55beee149a7837de14f9111803d2ac37",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-wndr3700-squashfs-factory.img",
+      "sha256": "742bc980f6aa0459d5961e6f40ba537dd0acd4d87bcacd540528f1e23dff171d",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "NETGEAR WNDR3700"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

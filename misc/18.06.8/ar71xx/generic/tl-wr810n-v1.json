@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2"
+  ],
+  "id": "tl-wr810n-v1",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-tl-wr810n-v1",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-tl-wr810n-v1-squashfs-factory.bin",
+      "sha256": "bd58a2f1fee97836a69c9ea397cfa06b123a94f3d837cc712670282f9b8675c3",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-tl-wr810n-v1-squashfs-sysupgrade.bin",
+      "sha256": "aecbb6c0d54cbe5ec1dc8578a8b39c70b5241938ffea457428cdb600d5bc73ef",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "TP-LINK TL-WR810N v1"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

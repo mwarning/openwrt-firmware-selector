@@ -1,0 +1,58 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-08 11:17:34",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "96345GW2-generic",
+  "image_prefix": "openwrt-19.07.4-brcm63xx-generic-96345GW2-generic",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-brcm63xx-generic-96345GW2-generic-squashfs-cfe-bc221.bin",
+      "sha256": "99b8ab4fa10b7926ac159b8c60a4828d29a6295ea23536a12a24b6b59a220cf0",
+      "type": "cfe-bc221"
+    },
+    {
+      "name": "openwrt-19.07.4-brcm63xx-generic-96345GW2-generic-squashfs-cfe.bin",
+      "sha256": "d95ec15592ff37134b94acd23c97f1b2f76c95e2529a9a231f712fb3a006b7d2",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "title": "Generic 96345GW2"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,62 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "ralink_mt7620a-v22sg-evb",
+  "image_prefix": "openwrt-ramips-mt7620-ralink_mt7620a-v22sg-evb",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-ralink_mt7620a-v22sg-evb-squashfs-sysupgrade.bin",
+      "sha256": "a7bc52ef9a602e0f028aea7c5275217205f4fb9fc5a20e9e9624653f2daf152e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ralink,mt7620a-v22sg-evb",
+    "mt7620a_v22sg"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "MT7620a V22SG",
+      "vendor": "MediaTek"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

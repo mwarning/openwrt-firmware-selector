@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "id": "tplink_cpe210-v3",
+  "image_prefix": "openwrt-ath79-generic-tplink_cpe210-v3",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_cpe210-v3-squashfs-factory.bin",
+      "sha256": "54ede81bbec78fe4dde690ba26d90ce9eb38ea5344602609f7b47f99a2c4fe16",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_cpe210-v3-squashfs-sysupgrade.bin",
+      "sha256": "8acaf9fe6a14f2c25dbdc1401d7069d9df791f8e2b9e7b3cebacf843dcade532",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,cpe210-v3",
+    "cpe210-v3"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "CPE210",
+      "variant": "v3",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

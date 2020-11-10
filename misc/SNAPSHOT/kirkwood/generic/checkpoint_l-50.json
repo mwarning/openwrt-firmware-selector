@@ -1,0 +1,66 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2020-09-11 23:18:05",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-usb2",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-usb2"
+  ],
+  "device_packages": [
+    "kmod-ath9k",
+    "kmod-gpio-button-hotplug",
+    "kmod-mvsdio",
+    "kmod-rtc-s35390a",
+    "kmod-usb-ledtrig-usbport",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "checkpoint_l-50",
+  "image_prefix": "openwrt-kirkwood-checkpoint_l-50",
+  "images": [
+    {
+      "name": "openwrt-kirkwood-checkpoint_l-50-squashfs-sysupgrade.bin",
+      "sha256": "b12622d7962386a668a5e9459300e132b408bc61488944a8b6444dda8c9bd542",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "checkpoint,l-50"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "L-50",
+      "vendor": "Check Point"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

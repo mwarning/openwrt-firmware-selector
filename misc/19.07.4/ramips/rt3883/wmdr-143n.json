@@ -1,0 +1,60 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2020-09-08 06:22:21",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-pci",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "id": "wmdr-143n",
+  "image_prefix": "openwrt-19.07.4-ramips-rt3883-wmdr-143n",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-rt3883-wmdr-143n-squashfs-sysupgrade.bin",
+      "sha256": "c9bbccdbf0eab54449672dce4658ffb863553a0004bafc89938c4c9ac485201e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wmdr-143n"
+  ],
+  "target": "ramips/rt3883",
+  "titles": [
+    {
+      "title": "Loewe WMDR-143N"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

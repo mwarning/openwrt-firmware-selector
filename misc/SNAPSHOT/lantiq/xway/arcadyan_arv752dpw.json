@@ -1,0 +1,76 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 19:53:19",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ltq-adsl-danube-mei",
+    "kmod-ltq-adsl-danube",
+    "kmod-ltq-adsl-danube-fw-b",
+    "kmod-ltq-atm-danube",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ltq-tapi",
+    "kmod-ltq-vmmc",
+    "kmod-rt2800-pci",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "arcadyan_arv752dpw",
+  "image_prefix": "openwrt-lantiq-xway-arcadyan_arv752dpw",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-arcadyan_arv752dpw-squashfs-sysupgrade.bin",
+      "sha256": "2acc63784e1ea2f8992a0ba13716a6520f91adbc0586349e6009b63170a3cb16",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "arcadyan,arv752dpw",
+    "ARV752DPW"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "ARV752DPW",
+      "vendor": "Arcadyan"
+    },
+    {
+      "model": "Easybox 802",
+      "vendor": "Vodafone"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

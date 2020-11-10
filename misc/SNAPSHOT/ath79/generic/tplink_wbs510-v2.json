@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "id": "tplink_wbs510-v2",
+  "image_prefix": "openwrt-ath79-generic-tplink_wbs510-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-tplink_wbs510-v2-squashfs-factory.bin",
+      "sha256": "f26211caa719bda481f3f1d2c729fb5856bf68ac3b9eca8555441a4afce4ad85",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-tplink_wbs510-v2-squashfs-sysupgrade.bin",
+      "sha256": "1f5689d110ecdc97dd644e201904207072f3c2529927d9a34c04f0bd1fb667bd",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "tplink,wbs510-v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WBS510",
+      "variant": "v2",
+      "vendor": "TP-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

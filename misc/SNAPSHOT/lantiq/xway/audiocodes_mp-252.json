@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 19:53:19",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [
+    "kmod-ltq-adsl-danube-mei",
+    "kmod-ltq-adsl-danube",
+    "kmod-ltq-adsl-danube-fw-a",
+    "kmod-ltq-atm-danube",
+    "kmod-ltq-tapi",
+    "kmod-ltq-vmmc",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-usb-dwc2",
+    "kmod-rt2800-pci",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "audiocodes_mp-252",
+  "image_prefix": "openwrt-lantiq-xway-audiocodes_mp-252",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-audiocodes_mp-252-squashfs-sysupgrade.bin",
+      "sha256": "f9b08329ecbe016465f8857e752595de59a87858cf135b0373446cb835f22a8d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "audiocodes,mp-252",
+    "ACMP252"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "MediaPack MP-252",
+      "vendor": "AudioCodes"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

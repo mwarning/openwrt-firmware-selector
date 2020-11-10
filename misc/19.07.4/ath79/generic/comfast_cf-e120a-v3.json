@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 18:49:19",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "rssileds",
+    "kmod-leds-gpio",
+    "-uboot-envtools"
+  ],
+  "id": "comfast_cf-e120a-v3",
+  "image_prefix": "openwrt-19.07.4-ath79-generic-comfast_cf-e120a-v3",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ath79-generic-comfast_cf-e120a-v3-squashfs-sysupgrade.bin",
+      "sha256": "f1f69b76a36494f9b21cf4dcd632dbf41ba7650f67afa2877762f6756d48567d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "comfast,cf-e120a-v3"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "title": "COMFAST CF-E120A v3"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

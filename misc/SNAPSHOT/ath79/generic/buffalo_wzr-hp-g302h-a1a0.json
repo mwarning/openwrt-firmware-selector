@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "buffalo_wzr-hp-g302h-a1a0",
+  "image_prefix": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-tftp.bin",
+      "sha256": "a38adaf9c827aaae876fd0db002d74d9077f7db411baffe2c204000268c448b5",
+      "type": "tftp"
+    },
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-factory.bin",
+      "sha256": "f8cf8fe939ce9f492f4cf0203d6bdb3f2db472f1da0445453d00d5dc96bebe8c",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-sysupgrade.bin",
+      "sha256": "2f7a69780836e57c34c0eafdcbd7b98a18a02e5a560c029cab34d4501edf7564",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,wzr-hp-g302h-a1a0",
+    "wzr-hp-g300nh2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WZR-HP-G302H",
+      "variant": "A1A0",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

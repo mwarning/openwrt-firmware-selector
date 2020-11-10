@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-07 22:44:06",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2"
+  ],
+  "id": "ubnt-lbe-m5",
+  "image_prefix": "openwrt-19.07.4-ar71xx-generic-ubnt-lbe-m5",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ar71xx-generic-ubnt-lbe-m5-squashfs-factory.bin",
+      "sha256": "1256b307fc90a0f9a74a8320a11070382ccc2759f5f04572588cd0a75d7b479e",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ar71xx-generic-ubnt-lbe-m5-squashfs-sysupgrade.bin",
+      "sha256": "026869c125507a4d38432f4daa1e46a5bb94057e93cbf6403efbaa106e431784",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "Ubiquiti Litebeam M5"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

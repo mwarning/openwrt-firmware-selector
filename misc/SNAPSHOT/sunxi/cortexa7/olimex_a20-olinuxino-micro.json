@@ -1,0 +1,71 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-11 01:37:12",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "kmod-ata-sunxi",
+    "kmod-sun4i-emac",
+    "kmod-rtc-sunxi"
+  ],
+  "id": "olimex_a20-olinuxino-micro",
+  "image_prefix": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-micro",
+  "images": [
+    {
+      "name": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-micro-squashfs-sdcard.img.gz",
+      "sha256": "c8265d0b724f0c6c36d52f34c121da682546f8810ee9c3c6513c471f8394e7d6",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-micro-ext4-sdcard.img.gz",
+      "sha256": "cbbe9b786a2c5e553d44ba0a81d5ec093c66d008782b63f4560ae1b106563434",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "olimex,a20-olinuxino-micro"
+  ],
+  "target": "sunxi/cortexa7",
+  "titles": [
+    {
+      "model": "A20-OLinuXino-MICRO",
+      "vendor": "Olimex"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

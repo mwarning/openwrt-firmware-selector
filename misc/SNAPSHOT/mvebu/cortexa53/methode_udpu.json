@@ -1,0 +1,66 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2020-09-11 22:33:44",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "e2fsprogs",
+    "ethtool",
+    "mkf2fs",
+    "partx-utils",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "f2fs-tools",
+    "fdisk",
+    "kmod-i2c-pxa"
+  ],
+  "id": "methode_udpu",
+  "image_prefix": "openwrt-mvebu-cortexa53-methode_udpu",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa53-methode_udpu-firmware.tgz",
+      "sha256": "8c2dbd01c77eadff92839168619187792b2e6f26589af61d56bfaf36b3de5eb8",
+      "type": "firmware"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "methode,udpu"
+  ],
+  "target": "mvebu/cortexa53",
+  "titles": [
+    {
+      "model": "micro-DPU (uDPU)",
+      "vendor": "Methode"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

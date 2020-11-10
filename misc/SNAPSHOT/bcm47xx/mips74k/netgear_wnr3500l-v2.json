@@ -1,0 +1,73 @@
+{
+  "arch_packages": "mipsel_74kc",
+  "build_at": "2020-09-10 23:06:13",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2"
+  ],
+  "id": "netgear_wnr3500l-v2",
+  "image_prefix": "openwrt-bcm47xx-mips74k-netgear_wnr3500l-v2",
+  "images": [
+    {
+      "name": "openwrt-bcm47xx-mips74k-netgear_wnr3500l-v2-squashfs.chk",
+      "sha256": "728f3579b9702e846d671dacab00534d3558519484454e1253aed5f6860a24ef",
+      "type": "chk"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm47xx/mips74k",
+  "titles": [
+    {
+      "model": "WNR3500L",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

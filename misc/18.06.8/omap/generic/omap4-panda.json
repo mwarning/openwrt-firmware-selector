@@ -1,0 +1,56 @@
+{
+  "arch_packages": "arm_cortex-a8_vfpv3",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload"
+  ],
+  "device_packages": [
+    "kmod-usb-net-smsc95xx"
+  ],
+  "id": "omap4-panda",
+  "image_prefix": "openwrt-18.06.8-omap-omap4-panda",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-omap-omap4-panda-ext4-sdcard.img.gz",
+      "sha256": "24a85ba1a7fc0fe3c2ac59a7e622c2d8c21c52fa1806cd11be2c8298ba104e6b",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-18.06.8-omap-omap4-panda-ubifs-sdcard.img.gz",
+      "sha256": "0a9486230c5837bc81c1727b83a00aeeb9aa1655b8bd10aea88e081ccc85fc90",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "omap4-panda"
+  ],
+  "target": "omap/generic",
+  "titles": [
+    {
+      "title": "OMAP4 TI pandaboard"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

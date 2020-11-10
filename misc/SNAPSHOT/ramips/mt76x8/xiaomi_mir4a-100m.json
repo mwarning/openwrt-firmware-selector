@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 19:11:10",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-mt7603",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "id": "xiaomi_mir4a-100m",
+  "image_prefix": "openwrt-ramips-mt76x8-xiaomi_mir4a-100m",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-xiaomi_mir4a-100m-squashfs-sysupgrade.bin",
+      "sha256": "4ff2214e49e2d5e9eef964ca58a8b30d4aba51c55bf7526ec24f1311fa47e3bb",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xiaomi,mir4a-100m"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "Mi Router 4A",
+      "variant": "100M Edition",
+      "vendor": "Xiaomi"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "kmod-usb3"
+  ],
+  "id": "iptime_a8004t",
+  "image_prefix": "openwrt-ramips-mt7621-iptime_a8004t",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-iptime_a8004t-squashfs-sysupgrade.bin",
+      "sha256": "21e5a9d990a06b575660b61f04464f3163def81015e76de6e04a789d305e86aa",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "iptime,a8004t"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "A8004T",
+      "vendor": "ipTIME"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

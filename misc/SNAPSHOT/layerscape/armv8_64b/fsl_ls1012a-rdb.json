@@ -1,0 +1,71 @@
+{
+  "arch_packages": "aarch64_generic",
+  "build_at": "2020-09-11 20:09:48",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "kmod-usb-storage",
+    "partx-utils",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "kmod-usb-storage",
+    "partx-utils"
+  ],
+  "device_packages": [
+    "layerscape-ppfe",
+    "tfa-ls1012a-rdb",
+    "kmod-ppfe"
+  ],
+  "id": "fsl_ls1012a-rdb",
+  "image_prefix": "openwrt-layerscape-armv8_64b-fsl_ls1012a-rdb",
+  "images": [
+    {
+      "name": "openwrt-layerscape-armv8_64b-fsl_ls1012a-rdb-squashfs-firmware.bin",
+      "sha256": "43ded1a2c1bc468b5ba5faa2df5fd7f57c4a9861fe4da5e10c73af0ce97f055d",
+      "type": "firmware"
+    },
+    {
+      "name": "openwrt-layerscape-armv8_64b-fsl_ls1012a-rdb-squashfs-sysupgrade.bin",
+      "sha256": "4e92abdd87a8a276ae08d665fecb178c49dfac0284217d3fb0427fcad9b41a7e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "fsl,ls1012a-rdb"
+  ],
+  "target": "layerscape/armv8_64b",
+  "titles": [
+    {
+      "model": "LS1012A-RDB",
+      "vendor": "NXP"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

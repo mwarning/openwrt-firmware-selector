@@ -1,0 +1,53 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-08 14:32:26",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "96368MVWG-generic",
+  "image_prefix": "openwrt-19.07.4-brcm63xx-smp-96368MVWG-generic",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-brcm63xx-smp-96368MVWG-generic-squashfs-cfe.bin",
+      "sha256": "4092a6210bf1e463bb684cbcd9bade5b5235088630d551dd6d39dddbf5c5ff8c",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "title": "Generic 96368MVWG"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}
