@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "jboot-tools",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-net-qmi-wwan",
+    "kmod-usb-serial-option",
+    "uqmi"
+  ],
+  "id": "dlink_dwr-922-e2",
+  "image_prefix": "openwrt-ramips-mt7620-dlink_dwr-922-e2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dwr-922-e2-squashfs-factory.bin",
+      "sha256": "895986a0f1b0997589d7cf68c42fbbc119800196aa3efab29ef599298b81d863",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dwr-922-e2-squashfs-sysupgrade.bin",
+      "sha256": "6fe286899637910b205ac8f8c1a9e364de932b604789552ca79a1e8a8b87aba3",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dwr-922-e2"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "DWR-922",
+      "variant": "E2",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

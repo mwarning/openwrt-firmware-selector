@@ -1,0 +1,65 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-10 20:46:39",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "atmel_at91sam9g25ek",
+  "image_prefix": "openwrt-at91-sam9x-atmel_at91sam9g25ek",
+  "images": [
+    {
+      "name": "openwrt-at91-sam9x-atmel_at91sam9g25ek-squashfs-root.ubi",
+      "sha256": "d44cd53c994359b5159d53e62fde7554fc338580bfb6529305e3ee7bd7f5757b",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-at91-sam9x-atmel_at91sam9g25ek-ubifs-root.ubi",
+      "sha256": "bfdbd004512b973991dd9f0289092b31710382ad97520383ac7f5f4d19549ea4",
+      "type": "root"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "atmel,at91sam9g25ek"
+  ],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "AT91SAM9G25-EK",
+      "vendor": "Atmel"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

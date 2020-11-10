@@ -1,0 +1,77 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-reset",
+    "kmod-owl-loader"
+  ],
+  "id": "netgear_wndr3700-v2",
+  "image_prefix": "openwrt-ath79-generic-netgear_wndr3700-v2",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-netgear_wndr3700-v2-squashfs-factory.img",
+      "sha256": "e32c614f84474e85bf3fe9914640d81318b4ab642b0daf447c06c80dee411687",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-netgear_wndr3700-v2-squashfs-sysupgrade.bin",
+      "sha256": "604335ece4b059df3085cdb86c702c529a52d7c955737842641a517dfe3661ee",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wndr3700-v2",
+    "wndr3700",
+    "netgear,wndr3700v2"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WNDR3700",
+      "variant": "v2",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

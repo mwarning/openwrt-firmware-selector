@@ -1,0 +1,66 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2020-09-11 21:45:28",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb3",
+    "kmod-ata-ahci-mtk"
+  ],
+  "id": "bpi_bananapi-r64",
+  "image_prefix": "openwrt-mediatek-mt7622-bpi_bananapi-r64",
+  "images": [
+    {
+      "name": "openwrt-mediatek-mt7622-bpi_bananapi-r64-squashfs-sysupgrade.bin",
+      "sha256": "17eac21df9ae8856d6a3cb2837c7b157ad93cbfad7fcfb097aa6a0fef54a7ada",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "bananapi,bpi-r64"
+  ],
+  "target": "mediatek/mt7622",
+  "titles": [
+    {
+      "model": "Banana Pi R64",
+      "vendor": "Bpi"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

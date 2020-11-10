@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 18:49:19",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "rssileds"
+  ],
+  "id": "ubnt_nanostation-loco-m",
+  "image_prefix": "openwrt-19.07.4-ath79-generic-ubnt_nanostation-loco-m",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ath79-generic-ubnt_nanostation-loco-m-squashfs-factory.bin",
+      "sha256": "45459b957baadfe4abe88e37bdd833942f9363bfd1fd2738925e6e8afa34076e",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ath79-generic-ubnt_nanostation-loco-m-squashfs-sysupgrade.bin",
+      "sha256": "55c43c27561b8503d1fd264709986917e064d2a5893cd76fc271133dbe63cb54",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubnt,nanostation-loco-m",
+    "bullet-m"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "title": "Ubiquiti Nanostation Loco M"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

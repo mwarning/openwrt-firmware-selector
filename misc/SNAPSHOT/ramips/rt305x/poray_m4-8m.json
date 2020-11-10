@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:12:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-ledtrig-netdev",
+    "kmod-ledtrig-timer"
+  ],
+  "id": "poray_m4-8m",
+  "image_prefix": "openwrt-ramips-rt305x-poray_m4-8m",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-poray_m4-8m-squashfs-factory.bin",
+      "sha256": "eb446acc6432e4685d920075cc0b176c93d6f417efc085c84141dfd61b68a001",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-poray_m4-8m-squashfs-sysupgrade.bin",
+      "sha256": "0f9a65557f018f9725a960f3b71f2bea288c42c4310ae0f6b68f2dd2c74a01e1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "poray,m4-8m",
+    "m4-8M"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "M4",
+      "variant": "8M",
+      "vendor": "Poray"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 18:49:19",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2",
+    "kmod-usb-chipidea2"
+  ],
+  "id": "pisen_wmm003n",
+  "image_prefix": "openwrt-19.07.4-ath79-generic-pisen_wmm003n",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ath79-generic-pisen_wmm003n-squashfs-sysupgrade.bin",
+      "sha256": "3c202fac07f352637c0160dc6f53c80a2d20244be4ce9931e993d859bfa0ac48",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-ath79-generic-pisen_wmm003n-squashfs-factory.bin",
+      "sha256": "a10295a66807ea7e62eddb8526ff73e9657f41329358bd721dfec80f16b5672a",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "pisen,wmm003n"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "title": "Pisen WMM003N (Cloud Easy Power)"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

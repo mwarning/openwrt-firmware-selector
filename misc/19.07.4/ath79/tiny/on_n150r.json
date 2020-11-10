@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 11:27:23",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [],
+  "id": "on_n150r",
+  "image_prefix": "openwrt-19.07.4-ath79-tiny-on_n150r",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ath79-tiny-on_n150r-squashfs-factory.img",
+      "sha256": "8a36fcc915aa801f19cf6aa453afadcb09ff5f8297f855d6507e1ece253092c5",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ath79-tiny-on_n150r-squashfs-sysupgrade.bin",
+      "sha256": "705a3642075a83ee5f0345710cf75b75c201084c114d3e720befa5ba6c62e438",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "on,n150r",
+    "n150r"
+  ],
+  "target": "ath79/tiny",
+  "titles": [
+    {
+      "title": "ON Network N150R"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

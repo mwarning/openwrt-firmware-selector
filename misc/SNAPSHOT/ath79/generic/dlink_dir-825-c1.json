@@ -1,0 +1,75 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-reset",
+    "kmod-owl-loader"
+  ],
+  "id": "dlink_dir-825-c1",
+  "image_prefix": "openwrt-ath79-generic-dlink_dir-825-c1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-dlink_dir-825-c1-squashfs-factory.bin",
+      "sha256": "6f7a5675eb6db485e0b55a8222655c4e101fb1eee71e76c6109afa26bdb31892",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-dlink_dir-825-c1-squashfs-sysupgrade.bin",
+      "sha256": "f8358d1c7a148fbd7e2cce623e6e3abbf7fddc3b2a03913f721ec315c5770916",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dir-825-c1",
+    "dir-825-c1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "DIR-825",
+      "variant": "C1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

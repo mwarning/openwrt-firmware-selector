@@ -1,0 +1,63 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2020-09-10 22:18:45",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "mkf2fs",
+    "e2fsprogs",
+    "partx-utils"
+  ],
+  "id": "solidrun_clearfog-base-a1",
+  "image_prefix": "openwrt-mvebu-cortexa9-solidrun_clearfog-base-a1",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa9-solidrun_clearfog-base-a1-squashfs-sdcard.img.gz",
+      "sha256": "ac65bb6fb2df41927deebd722b911ebfb9caad8e6c0fc68799c96da21fbea92a",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "solidrun,clearfog-base-a1",
+    "armada-388-clearfog-base"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "ClearFog Base",
+      "vendor": "SolidRun"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

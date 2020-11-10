@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-08 11:17:34",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "wpad-basic",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport",
+    "iwinfo"
+  ],
+  "id": "AR5381u",
+  "image_prefix": "openwrt-19.07.4-brcm63xx-generic-AR5381u",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-brcm63xx-generic-AR5381u-squashfs-sysupgrade.bin",
+      "sha256": "59e13cd3d6a5ea08e19608e4dfbf5f1a16d31402d6572357632d0c0f54b7d24a",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-brcm63xx-generic-AR5381u-squashfs-cfe.bin",
+      "sha256": "7e36b709bd9a889a402a1698128c9ab4077399aed361cbed012744d54521fcd1",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/generic",
+  "titles": [
+    {
+      "title": "Comtrend AR-5381u"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

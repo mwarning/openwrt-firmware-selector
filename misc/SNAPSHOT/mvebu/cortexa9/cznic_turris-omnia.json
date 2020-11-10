@@ -1,0 +1,77 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2020-09-10 22:18:45",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-fs-vfat",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "wpad-basic-wolfssl",
+    "kmod-ath9k",
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca988x-ct",
+    "partx-utils",
+    "kmod-i2c-mux-pca954x",
+    "iwinfo"
+  ],
+  "id": "cznic_turris-omnia",
+  "image_prefix": "openwrt-mvebu-cortexa9-cznic_turris-omnia",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa9-cznic_turris-omnia-sysupgrade.img.gz",
+      "sha256": "081d8fd07ec5e0607b3acfb900fb8c12fe392d8d9c41dd6311af151b60d0657b",
+      "type": "openwrt-mvebu-cortexa9-cznic_turris-omnia-sysupgrade"
+    },
+    {
+      "name": "omnia-medkit-openwrt-mvebu-cortexa9-cznic_turris-omnia-initramfs.tar.gz",
+      "sha256": "714bd0d8810a30185e8d5ac2562902fcb19b8b69786da4bffb6e4f0821ad3f15",
+      "type": "omnia-medkit-openwrt-mvebu-cortexa9-cznic_turris-omnia-initramfs"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cznic,turris-omnia",
+    "armada-385-turris-omnia"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "Turris Omnia",
+      "vendor": "CZ.NIC"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

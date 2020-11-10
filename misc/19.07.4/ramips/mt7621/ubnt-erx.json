@@ -1,0 +1,58 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 15:31:33",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "id": "ubnt-erx",
+  "image_prefix": "openwrt-19.07.4-ramips-mt7621-ubnt-erx",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-ubnt-erx-squashfs-sysupgrade.bin",
+      "sha256": "76f4de93956d2a48f8edc939ca32f6455a1dfa32f15818f5477ae91674d9de17",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "ubnt-erx",
+    "ubiquiti,edgerouterx"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "Ubiquiti EdgeRouter X"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

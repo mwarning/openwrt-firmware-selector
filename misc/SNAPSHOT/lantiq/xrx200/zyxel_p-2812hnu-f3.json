@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 21:54:15",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "ltq-vdsl-vr9-vectoring-fw-installer",
+    "kmod-ltq-vdsl-vr9-mei",
+    "kmod-ltq-vdsl-vr9",
+    "kmod-ltq-atm-vr9",
+    "kmod-ltq-ptm-vr9",
+    "kmod-ltq-deu-vr9",
+    "ltq-vdsl-app",
+    "dsl-vrx200-firmware-xdsl-a",
+    "dsl-vrx200-firmware-xdsl-b-patch",
+    "ppp-mod-pppoa",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [
+    "kmod-rt2800-pci",
+    "wpad-basic-wolfssl",
+    "kmod-usb-dwc2",
+    "iwinfo"
+  ],
+  "id": "zyxel_p-2812hnu-f3",
+  "image_prefix": "openwrt-lantiq-xrx200-zyxel_p-2812hnu-f3",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xrx200-zyxel_p-2812hnu-f3-squashfs-sysupgrade.bin",
+      "sha256": "8fc612e76e951ab34900e287c2a05c4036e2a52fa7a6b3debcbb358680801477",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "zyxel,p-2812hnu-f3",
+    "P2812HNUF3"
+  ],
+  "target": "lantiq/xrx200",
+  "titles": [
+    {
+      "model": "P-2812HNU",
+      "variant": "F3",
+      "vendor": "ZyXEL"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

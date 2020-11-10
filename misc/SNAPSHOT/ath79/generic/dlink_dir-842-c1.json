@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca9888-ct"
+  ],
+  "id": "dlink_dir-842-c1",
+  "image_prefix": "openwrt-ath79-generic-dlink_dir-842-c1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-dlink_dir-842-c1-squashfs-factory.bin",
+      "sha256": "f8647443a648eb88c58bd15b232e99ba6da9796893d501b6c5fa8e837982de3e",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-dlink_dir-842-c1-squashfs-sysupgrade.bin",
+      "sha256": "88201fb0339b92e648d9ee72f434612d6b8424fb2f3463cf43a3d02728360104",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dir-842-c1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "DIR-842",
+      "variant": "C1",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

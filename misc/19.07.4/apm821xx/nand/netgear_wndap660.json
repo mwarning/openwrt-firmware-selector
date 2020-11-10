@@ -1,0 +1,67 @@
+{
+  "arch_packages": "powerpc_464fp",
+  "build_at": "2020-09-08 05:33:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-i2c-core",
+    "kmod-gpio-button-hotplug",
+    "kmod-ath9k",
+    "swconfig",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-i2c-core",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-eeprom-at24"
+  ],
+  "id": "netgear_wndap660",
+  "image_prefix": "openwrt-19.07.4-apm821xx-nand-netgear_wndap660",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-apm821xx-nand-netgear_wndap660-squashfs-factory.img",
+      "sha256": "a25678f5338846687d4ea9acccb99a0c3d510eaa402a71d6f65c62f43ddd2b0b",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-apm821xx-nand-netgear_wndap660-squashfs-sysupgrade.bin",
+      "sha256": "f242f842875395755622174dd6cf4ba92d64017842b486541ee1d44159557230",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,wndap660"
+  ],
+  "target": "apm821xx/nand",
+  "titles": [
+    {
+      "title": "Netgear WNDAP660 - Dual Radio Dual Band Wireless-N"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,62 @@
+{
+  "arch_packages": "arm_cortex-a9_neon",
+  "build_at": "2020-09-11 20:02:41",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-usb-storage",
+    "kmod-fs-msdos",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "mkf2fs",
+    "e2fsprogs",
+    "kmod-usb-storage",
+    "kmod-fs-msdos"
+  ],
+  "device_packages": [],
+  "id": "digilent_zynq-zybo",
+  "image_prefix": "openwrt-zynq-digilent_zynq-zybo",
+  "images": [
+    {
+      "name": "openwrt-zynq-digilent_zynq-zybo-squashfs-sdcard.img.gz",
+      "sha256": "73909ebfa1ab39b54367a8d6bb27543ced59571e483dd19e4ee35875080bb6eb",
+      "type": "sdcard"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "zynq/generic",
+  "titles": [
+    {
+      "model": "Zybo",
+      "vendor": "Digilent"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

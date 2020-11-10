@@ -1,0 +1,76 @@
+{
+  "arch_packages": "arm_cortex-a7_neon-vfpv4",
+  "build_at": "2020-09-10 21:23:47",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-dwc3-qcom",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic-wolfssl",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-usb-dwc3-qcom",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath10k-ct",
+    "wpad-basic-wolfssl",
+    "kmod-usb3",
+    "kmod-usb-dwc3",
+    "ath10k-firmware-qca4019-ct"
+  ],
+  "device_packages": [
+    "fritz-caldata",
+    "fritz-tffs-nand",
+    "ipq-wifi-avm_fritzrepeater-1200"
+  ],
+  "id": "avm_fritzrepeater-1200",
+  "image_prefix": "openwrt-ipq40xx-generic-avm_fritzrepeater-1200",
+  "images": [
+    {
+      "name": "openwrt-ipq40xx-generic-avm_fritzrepeater-1200-squashfs-sysupgrade.bin",
+      "sha256": "d2c9f6b0cb4acdd1c56d7e74f954433e98e78700454c8f6035a9422263712c97",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "avm,fritzrepeater-1200"
+  ],
+  "target": "ipq40xx/generic",
+  "titles": [
+    {
+      "model": "FRITZ!Repeater 1200",
+      "vendor": "AVM"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

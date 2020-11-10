@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-net-qmi-wwan",
+    "kmod-usb-serial-option",
+    "uqmi",
+    "-swconfig",
+    "-uboot-envtools"
+  ],
+  "id": "telco_t1",
+  "image_prefix": "openwrt-ath79-generic-telco_t1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-telco_t1-squashfs-sysupgrade.bin",
+      "sha256": "09470346fb2518e96a74492d7c48916cf31ffb6ef225a79a7fe32b93420d6ac5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "telco,t1",
+    "telco_electronics,tel-t1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "T1",
+      "vendor": "Telco"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

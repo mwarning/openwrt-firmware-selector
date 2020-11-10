@@ -1,0 +1,54 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "CPA-ZNTE60T",
+  "image_prefix": "openwrt-18.06.8-brcm63xx-smp-CPA-ZNTE60T",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-brcm63xx-smp-CPA-ZNTE60T-squashfs-cfe.bin",
+      "sha256": "990d5c8624a222b51181788f42d51b3d35843c32fe65b4854ab9ae42b07256ea",
+      "type": "cfe"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "brcm63xx/smp",
+  "titles": [
+    {
+      "title": "Telsey CPVA642-type (CPA-ZNTE60T)"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

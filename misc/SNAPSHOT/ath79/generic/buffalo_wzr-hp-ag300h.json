@@ -1,0 +1,80 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-reset",
+    "kmod-owl-loader"
+  ],
+  "id": "buffalo_wzr-hp-ag300h",
+  "image_prefix": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-tftp.bin",
+      "sha256": "90cf84aa5274a95787bc9b1bda80d3aab05f8a344640ee431307e916a7980d20",
+      "type": "tftp"
+    },
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-factory.bin",
+      "sha256": "c09bb7519fe42fdd50902204aa34532e262cca53b7359e11f687cee1c7773a19",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-sysupgrade.bin",
+      "sha256": "e418eec1a03fbbf291e6b5144a08112636b6282df084f78ed2ef0f01596e4be6",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,wzr-hp-ag300h",
+    "wzr-hp-ag300h"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WZR-HP-AG300H",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

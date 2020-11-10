@@ -1,0 +1,74 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 19:53:19",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe"
+  ],
+  "device_packages": [
+    "kmod-usb-dwc2",
+    "kmod-ltq-adsl-danube-mei",
+    "kmod-ltq-adsl-danube",
+    "kmod-ltq-adsl-danube-fw-b",
+    "kmod-ltq-atm-danube",
+    "ltq-adsl-app",
+    "ppp-mod-pppoa",
+    "kmod-ath9k",
+    "kmod-owl-loader",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "arcadyan_arv8539pw22",
+  "image_prefix": "openwrt-lantiq-xway-arcadyan_arv8539pw22",
+  "images": [
+    {
+      "name": "openwrt-lantiq-xway-arcadyan_arv8539pw22-squashfs-sysupgrade.bin",
+      "sha256": "0f69da8ce8a706320712db6e8f1cf19e34aa005cc66261e3e7221c78facbd8b5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "arcadyan,arv8539pw22",
+    "ARV8539PW22"
+  ],
+  "target": "lantiq/xway",
+  "titles": [
+    {
+      "model": "ARV8539PW22",
+      "vendor": "Arcadyan"
+    },
+    {
+      "model": "Speedport W504V Typ A",
+      "vendor": "Telekom"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

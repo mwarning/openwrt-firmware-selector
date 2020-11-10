@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-mt7615-firmware"
+  ],
+  "id": "edimax_re23s",
+  "image_prefix": "openwrt-ramips-mt7621-edimax_re23s",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-edimax_re23s-squashfs-sysupgrade.bin",
+      "sha256": "b3cb2fc95946f9e7b71545ae219e2159b86ffcf665dcaabaaf784e8003adc6ca",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-mt7621-edimax_re23s-squashfs-factory.bin",
+      "sha256": "81f976f813d68bd77150a0c66eab33a2f5362c7118a7e08b9e9dbf040deb79a4",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "edimax,re23s"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "RE23S",
+      "vendor": "Edimax"
+    },
+    {
+      "model": "Gemini RE23S",
+      "vendor": "Edimax"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

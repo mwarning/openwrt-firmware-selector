@@ -1,0 +1,60 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 23:48:19",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "wpad-basic-wolfssl",
+    "kmod-ath5k",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "wpad-basic-wolfssl",
+    "kmod-ath5k",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "ubnt_picostation-2",
+  "image_prefix": "openwrt-ath25-ubnt_picostation-2",
+  "images": [
+    {
+      "name": "openwrt-ath25-ubnt_picostation-2-squashfs-sysupgrade.bin",
+      "sha256": "8784cfcc611a180bcd634710135b5d54ed4a3958934cb632352f5c7991c6ccaa",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ath25/generic",
+  "titles": [
+    {
+      "model": "Picostation 2 (XS2-8)",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

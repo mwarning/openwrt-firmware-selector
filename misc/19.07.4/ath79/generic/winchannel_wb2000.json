@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-08 18:49:19",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-i2c-core",
+    "kmod-i2c-gpio",
+    "kmod-rtc-ds1307",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "winchannel_wb2000",
+  "image_prefix": "openwrt-19.07.4-ath79-generic-winchannel_wb2000",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ath79-generic-winchannel_wb2000-squashfs-sysupgrade.bin",
+      "sha256": "b78315a9473ca8e321f27886e3661154294c2db1468657d435810d857d010ad7",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "winchannel,wb2000"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "title": "Winchannel WB2000"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2",
+    "kmod-usb3"
+  ],
+  "id": "compex_wpj563",
+  "image_prefix": "openwrt-ath79-generic-compex_wpj563",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-compex_wpj563-squashfs-cpximg-7a02.bin",
+      "sha256": "d01832704c9221277abbd1f5c4ed5cc45ae93f85a4d4a42c5e77e63b1aecd3f1",
+      "type": "cpximg-7a02"
+    },
+    {
+      "name": "openwrt-ath79-generic-compex_wpj563-squashfs-sysupgrade.bin",
+      "sha256": "bb47edb0f85ffae78473709cd0b5671a351e890aa632fd5fe81288bad97d2c03",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "compex,wpj563",
+    "wpj563"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "WPJ563",
+      "vendor": "Compex"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

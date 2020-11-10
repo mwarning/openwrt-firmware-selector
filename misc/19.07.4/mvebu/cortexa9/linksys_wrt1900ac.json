@@ -1,0 +1,67 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2020-09-08 09:26:07",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mwlwifi",
+    "swconfig",
+    "wpad-basic",
+    "mwlwifi-firmware-88w8864",
+    "iwinfo"
+  ],
+  "id": "linksys_wrt1900ac",
+  "image_prefix": "openwrt-19.07.4-mvebu-cortexa9-linksys_wrt1900ac",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-mvebu-cortexa9-linksys_wrt1900ac-squashfs-sysupgrade.bin",
+      "sha256": "48d6d9d9816db785723be555b2f83537e46ade7b64f7074b2e99eb6cbfb35097",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-mvebu-cortexa9-linksys_wrt1900ac-squashfs-factory.img",
+      "sha256": "e1f467140ffb6e5b91ff9dd40c93ad7358a3fc22d6ba31470eb723e0688aa5e2",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "armada-xp-linksys-mamba",
+    "linksys,mamba"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "title": "Linksys WRT1900AC (Mamba)"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "linksys_e1700",
+  "image_prefix": "openwrt-ramips-mt7620-linksys_e1700",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-linksys_e1700-squashfs-factory.bin",
+      "sha256": "1b9dafe6ef4967523a3091fc252aabab3920b45a1bbca3e389943797f61dd6bc",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-linksys_e1700-squashfs-sysupgrade.bin",
+      "sha256": "3d273642c4fbf8576db6b9dad453846b5839068f0824fa6fe8dc628c5d259ed2",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "linksys,e1700",
+    "e1700"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "E1700",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

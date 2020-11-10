@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "rssileds"
+  ],
+  "id": "engenius_ens202ext-v1",
+  "image_prefix": "openwrt-ath79-generic-engenius_ens202ext-v1",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-engenius_ens202ext-v1-squashfs-factory.bin",
+      "sha256": "3382141909a72abe6d0dfdde9e04df5075b4070e2c253086a055729fc195e01a",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-engenius_ens202ext-v1-squashfs-sysupgrade.bin",
+      "sha256": "a5daeeec01c8c949ff7ebca74e7b6de955254c58e7b1b29c0d7477fac0adb8f1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "engenius,ens202ext-v1"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "ENS202EXT",
+      "variant": "v1",
+      "vendor": "EnGenius"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:12:20",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-video-core",
+    "kmod-video-uvc",
+    "kmod-usb-ohci"
+  ],
+  "id": "wansview_ncs601w",
+  "image_prefix": "openwrt-ramips-rt305x-wansview_ncs601w",
+  "images": [
+    {
+      "name": "openwrt-ramips-rt305x-wansview_ncs601w-squashfs-sysupgrade.bin",
+      "sha256": "5621bcd1f54c0fb13d49f0e1203c5230568893377869962d50b9ab89a4e9d86c",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wansview,ncs601w",
+    "ncs601w"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "model": "NCS601W",
+      "vendor": "Wansview"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

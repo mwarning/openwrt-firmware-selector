@@ -1,0 +1,59 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb3",
+    "kmod-sdhci-mt7620",
+    "kmod-sound-mt7620"
+  ],
+  "id": "mediatek_ap-mt7621a-v60",
+  "image_prefix": "openwrt-18.06.8-ramips-mt7621-mediatek_ap-mt7621a-v60",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ramips-mt7621-mediatek_ap-mt7621a-v60-squashfs-sysupgrade.bin",
+      "sha256": "d505301c8ddcbfa36ebcebc2689bb19a2adf4203f349169a5a79f992127ecadb",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mediatek,ap-mt7621a-v60"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "Mediatek AP-MT7621A-V60 EVB"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

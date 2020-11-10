@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-11 17:37:26",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2"
+  ],
+  "id": "aerohive_hiveap-121",
+  "image_prefix": "openwrt-ath79-nand-aerohive_hiveap-121",
+  "images": [
+    {
+      "name": "openwrt-ath79-nand-aerohive_hiveap-121-squashfs-sysupgrade.bin",
+      "sha256": "593dbf8728215d9d539e64fe7914c50da6378cf1a2e6bcab9042ee92eacc2722",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-nand-aerohive_hiveap-121-squashfs-factory.bin",
+      "sha256": "4f329a93342bfada05d002270201ca859439fd9d9ac94c57cda755eb3e8e6cef",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "aerohive,hiveap-121",
+    "hiveap-121"
+  ],
+  "target": "ath79/nand",
+  "titles": [
+    {
+      "model": "HiveAP 121",
+      "vendor": "Aerohive"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,59 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 15:31:33",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb3"
+  ],
+  "id": "mikrotik_rbm33g",
+  "image_prefix": "openwrt-19.07.4-ramips-mt7621-mikrotik_rbm33g",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-mikrotik_rbm33g-squashfs-sysupgrade.bin",
+      "sha256": "5ce75d8570bb8f44f93b02526c790000eae42298920354c6a41dd65e6f793ecd",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "mikrotik,rbm33g"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "MikroTik RouterBOARD M33G"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

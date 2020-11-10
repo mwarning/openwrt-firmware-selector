@@ -1,0 +1,71 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ath10k-ct",
+    "ath10k-firmware-qca99x0-ct"
+  ],
+  "id": "netgear_ex6400",
+  "image_prefix": "openwrt-ath79-generic-netgear_ex6400",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-netgear_ex6400-squashfs-sysupgrade.bin",
+      "sha256": "fccd8e4757f6354d22422751e9ffecffc1047e56314a8c6cab70fa281b22e785",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ath79-generic-netgear_ex6400-squashfs-factory.img",
+      "sha256": "3e095cdcdada835b3c857b33440836e22407fd6db48b590b1b64d442e08ce6fd",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,ex6400"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "EX6400",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

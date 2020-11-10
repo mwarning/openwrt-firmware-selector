@@ -1,0 +1,57 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "usb_a9263",
+  "image_prefix": "openwrt-18.06.8-at91-legacy-usb_a9263",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-at91-legacy-usb_a9263-squashfs-factory.bin",
+      "sha256": "93195656f3175f74062f2fe3be00a7cef4388a852a8ee5170477173c7c820330",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-at91-legacy-usb_a9263-ubifs-factory.bin",
+      "sha256": "3f1ce4882f285b8a6e8e4091615ebc4db8195d5a3602ba0876e8f1a3b6b3aa4d",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/legacy",
+  "titles": [
+    {
+      "title": "Calao USBA9263"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

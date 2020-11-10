@@ -1,0 +1,71 @@
+{
+  "arch_packages": "arm_cortex-a5_vfpv4",
+  "build_at": "2020-09-10 23:07:09",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "kmod-usb2",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "microchip_sama5d2-ptc-ek",
+  "image_prefix": "openwrt-at91-sama5-microchip_sama5d2-ptc-ek",
+  "images": [
+    {
+      "name": "openwrt-at91-sama5-microchip_sama5d2-ptc-ek-ext4-sdcard.img.gz",
+      "sha256": "6bcdea30fbca2b37c2ed6fa59c5648309429e1c4985463a3fa33e105b485e0f2",
+      "type": "sdcard"
+    },
+    {
+      "name": "openwrt-at91-sama5-microchip_sama5d2-ptc-ek-ubifs-root.ubi",
+      "sha256": "4d679f3d5ddd6102e4c6f1f1c8d35138dfd2812e34bd930dfaeaecc3dbcd243f",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-at91-sama5-microchip_sama5d2-ptc-ek-squashfs-root.ubi",
+      "sha256": "6294ffc25857db55bd847beea149abef8f0a583df732faedf3caa1e218b947cf",
+      "type": "root"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "atmel,sama5d2-ptc_ek"
+  ],
+  "target": "at91/sama5",
+  "titles": [
+    {
+      "model": "SAMA5D2 PTC Ek",
+      "vendor": "Microchip"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

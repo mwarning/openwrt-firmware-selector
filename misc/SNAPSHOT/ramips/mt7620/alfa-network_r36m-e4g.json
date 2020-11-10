@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-i2c-ralink",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "uboot-envtools",
+    "uqmi"
+  ],
+  "id": "alfa-network_r36m-e4g",
+  "image_prefix": "openwrt-ramips-mt7620-alfa-network_r36m-e4g",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-alfa-network_r36m-e4g-squashfs-sysupgrade.bin",
+      "sha256": "6303db500941573a7727ddb2af993ccec4b8a61c5a38066121c588db4a8bdf06",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "alfa-network,r36m-e4g"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "R36M-E4G",
+      "vendor": "ALFA Network"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

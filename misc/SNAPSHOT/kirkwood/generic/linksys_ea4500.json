@@ -1,0 +1,70 @@
+{
+  "arch_packages": "arm_xscale",
+  "build_at": "2020-09-11 23:18:05",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-usb2",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-usb2"
+  ],
+  "device_packages": [
+    "kmod-mwl8k",
+    "wpad-basic-wolfssl",
+    "kmod-gpio-button-hotplug",
+    "iwinfo"
+  ],
+  "id": "linksys_ea4500",
+  "image_prefix": "openwrt-kirkwood-linksys_ea4500",
+  "images": [
+    {
+      "name": "openwrt-kirkwood-linksys_ea4500-squashfs-sysupgrade.bin",
+      "sha256": "3a74b0bda864f6bb4bdeb627653d44de9f6786429021b91bc9ea3d414d1628bc",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-kirkwood-linksys_ea4500-squashfs-factory.bin",
+      "sha256": "a1c05edc15f8e73b5f89760ed25dd84f786266af75cd733867cbbc3483471424",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "linksys,ea4500",
+    "linksys,viper",
+    "linksys-viper"
+  ],
+  "target": "kirkwood/generic",
+  "titles": [
+    {
+      "model": "EA4500",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,103 @@
+{
+  "arch_packages": "aarch64_cortex-a53",
+  "build_at": "2020-09-11 17:51:47",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "bcm27xx-gpu-fw",
+    "kmod-usb-hid",
+    "kmod-sound-core",
+    "kmod-sound-arm-bcm2835",
+    "kmod-fs-vfat",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "bcm27xx-gpu-fw",
+    "kmod-usb-hid",
+    "kmod-sound-core",
+    "kmod-sound-arm-bcm2835",
+    "kmod-fs-vfat",
+    "kmod-nls-cp437",
+    "kmod-nls-iso8859-1",
+    "partx-utils",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [
+    "cypress-firmware-43430-sdio",
+    "cypress-nvram-43430-sdio-rpi-3b",
+    "cypress-firmware-43455-sdio",
+    "cypress-nvram-43455-sdio-rpi-3b-plus",
+    "kmod-brcmfmac",
+    "wpad-basic-wolfssl",
+    "iwinfo"
+  ],
+  "id": "rpi-3",
+  "image_prefix": "openwrt-bcm27xx-bcm2710-rpi-3",
+  "images": [
+    {
+      "name": "openwrt-bcm27xx-bcm2710-rpi-3-squashfs-sysupgrade.img.gz",
+      "sha256": "8249978484736be2f9bcc919dd12842e7ccf7b6e48331fe0fcd549327520135e",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-bcm27xx-bcm2710-rpi-3-squashfs-factory.img.gz",
+      "sha256": "1442bef4385479f7cbaeb9ed8c4720e8b17f3a84c82d960ba044f6b04102dc12",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-bcm27xx-bcm2710-rpi-3-ext4-factory.img.gz",
+      "sha256": "08aed8353fb65f52cee4aed114bb67490e6d0d64b4273ad270991969504e2c38",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-bcm27xx-bcm2710-rpi-3-ext4-sysupgrade.img.gz",
+      "sha256": "77ec78bd5a6d0ea3c4811665e2a8b355d44f4d3b22319d8e77d71766e53bb3b0",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "rpi-3-b",
+    "rpi-3-b-plus",
+    "raspberrypi,2-model-b-rev2",
+    "raspberrypi,3-model-b",
+    "raspberrypi,3-model-b-plus",
+    "raspberrypi,3-compute-module",
+    "raspberrypi,compute-module-3"
+  ],
+  "target": "bcm27xx/bcm2710",
+  "titles": [
+    {
+      "model": "2B-1.2/3B/3B+/3CM",
+      "vendor": "Raspberry Pi"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}

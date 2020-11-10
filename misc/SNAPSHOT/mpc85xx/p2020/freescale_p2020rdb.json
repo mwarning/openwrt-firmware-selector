@@ -1,0 +1,75 @@
+{
+  "arch_packages": "powerpc_8540",
+  "build_at": "2020-09-12 00:16:43",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "kmod-usb2",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-input-core",
+    "kmod-input-gpio-keys",
+    "kmod-button-hotplug",
+    "kmod-leds-gpio",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-basic-wolfssl",
+    "kmod-usb2"
+  ],
+  "device_packages": [
+    "kmod-hwmon-lm90",
+    "kmod-rtc-ds1307",
+    "kmod-gpio-pca953x",
+    "kmod-eeprom-at24"
+  ],
+  "id": "freescale_p2020rdb",
+  "image_prefix": "openwrt-mpc85xx-p2020-freescale_p2020rdb",
+  "images": [
+    {
+      "name": "openwrt-mpc85xx-p2020-freescale_p2020rdb-squashfs-sysupgrade.bin",
+      "sha256": "9071f440cc28c73cec6d8970886675a0b6c1a1aaf1d421b43285ffa006fd3c1d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "fsl,P2020RDB"
+  ],
+  "target": "mpc85xx/p2020",
+  "titles": [
+    {
+      "model": "P2020RDB",
+      "vendor": "Freescale"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

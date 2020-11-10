@@ -1,0 +1,72 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "jboot-tools",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-mt76x2"
+  ],
+  "id": "dlink_dwr-118-a2",
+  "image_prefix": "openwrt-ramips-mt7620-dlink_dwr-118-a2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dwr-118-a2-squashfs-factory.bin",
+      "sha256": "f8a520ee5f72a6909ebb58565ee094b0b8900fe419d412852cad0d34f353cf61",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-dlink_dwr-118-a2-squashfs-sysupgrade.bin",
+      "sha256": "4e54133a3b35254777db4d46d638c6907f351aa3171db63ce78436ad9092578b",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "dlink,dwr-118-a2"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "DWR-118",
+      "variant": "A2",
+      "vendor": "D-Link"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

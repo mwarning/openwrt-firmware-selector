@@ -1,0 +1,81 @@
+{
+  "arch_packages": "arm_mpcore",
+  "build_at": "2020-09-12 00:15:28",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools",
+    "block-mount",
+    "fdisk",
+    "lsblk",
+    "mdadm",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-ata-oxnas-sata",
+    "kmod-i2c-gpio",
+    "kmod-rtc-ds1307",
+    "kmod-usb2-oxnas",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "akitio_mycloud",
+  "image_prefix": "openwrt-oxnas-ox820-akitio_mycloud",
+  "images": [
+    {
+      "name": "openwrt-oxnas-ox820-akitio_mycloud-squashfs-sysupgrade.tar",
+      "sha256": "fc87f8865853cce4ff99d2f5e48b1cf7082dbbfb22779df70956bea0e15e2fa4",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-akitio_mycloud-squashfs-ubinized.bin",
+      "sha256": "792abb05636d1e7d3fc4a59b1542b64980b005bc331f682e293b9468fe1ea37f",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-akitio_mycloud-ubifs-sysupgrade.tar",
+      "sha256": "91d86c8a75fcb92490650a83f203fd92d7f999c8b1dc3916ead12e26b8d2128c",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-akitio_mycloud-ubifs-ubinized.bin",
+      "sha256": "9eadb8fe14becbc209c1b4ccba3f389d31ac34fa9dbf561f1cd4a67e93545448",
+      "type": "ubinized"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "akitio,mycloud",
+    "akitio"
+  ],
+  "target": "oxnas/ox820",
+  "titles": [
+    {
+      "model": "MyCloud Mini",
+      "vendor": "Akitio"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

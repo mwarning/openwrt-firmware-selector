@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 15:31:33",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt7615e",
+    "kmod-usb3",
+    "kmod-usb-ledtrig-usbport",
+    "wpad-basic",
+    "uboot-envtools",
+    "iwinfo"
+  ],
+  "id": "xiaomi_mir3p",
+  "image_prefix": "openwrt-19.07.4-ramips-mt7621-xiaomi_mir3p",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-xiaomi_mir3p-squashfs-factory.bin",
+      "sha256": "874e553fb8f71bcd8d5004152fc6dd6b169eb65dc6fad1add6372181496aa773",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin",
+      "sha256": "c6c61b283a69a1058b516d48f2c7b72a7e0443e74541c8e7886194944769dba1",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "xiaomi,mir3p"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "Xiaomi Mi Router 3 Pro"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,66 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-mt7603",
+    "kmod-mt76x2",
+    "kmod-usb3",
+    "wpad-mini",
+    "iwinfo"
+  ],
+  "id": "hc5962",
+  "image_prefix": "openwrt-18.06.8-ramips-mt7621-hc5962",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ramips-mt7621-hc5962-squashfs-sysupgrade.bin",
+      "sha256": "babee160506ee7f7fcca7bc1716b7b37d8e6f2737e511b5ad942cd43727cc9cc",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ramips-mt7621-hc5962-squashfs-factory.bin",
+      "sha256": "c8b63005c99b6e8febd9fac315152e636cbe96359ed232286db177a207613273",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "hc5962"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "HiWiFi HC5962"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

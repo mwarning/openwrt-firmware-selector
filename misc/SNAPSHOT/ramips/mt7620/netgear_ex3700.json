@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-10 23:59:27",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-rt2800-soc",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt76x2"
+  ],
+  "id": "netgear_ex3700",
+  "image_prefix": "openwrt-ramips-mt7620-netgear_ex3700",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7620-netgear_ex3700-squashfs-factory.chk",
+      "sha256": "a6c58081834d7c3bf15f92b8aa64a095be60650e29434ee3c4787e76d5941e8c",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-ramips-mt7620-netgear_ex3700-squashfs-sysupgrade.bin",
+      "sha256": "ccd9305a4eb8a4ba33a52dd3ae6ccd90f5c12454ce3a7d259f75a5984d717b78",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "netgear,ex3700",
+    "ex3700"
+  ],
+  "target": "ramips/mt7620",
+  "titles": [
+    {
+      "model": "EX3700/EX3800",
+      "vendor": "NETGEAR"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,69 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2020-09-08 09:26:07",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mwlwifi",
+    "swconfig",
+    "wpad-basic",
+    "kmod-btmrvl",
+    "kmod-mwifiex-sdio",
+    "mwlwifi-firmware-88w8964",
+    "iwinfo"
+  ],
+  "id": "linksys_wrt3200acm",
+  "image_prefix": "openwrt-19.07.4-mvebu-cortexa9-linksys_wrt3200acm",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-mvebu-cortexa9-linksys_wrt3200acm-squashfs-sysupgrade.bin",
+      "sha256": "4a3a05d5a1066e4fb51c7e978bb4c585499c3189bb650e716e8e43617d4b0f65",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-19.07.4-mvebu-cortexa9-linksys_wrt3200acm-squashfs-factory.img",
+      "sha256": "426f0ff014e9270ccfb147dcb5c59e3d0efccedde60de27094486e4916cb5246",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "armada-385-linksys-rango",
+    "linksys,rango"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "title": "Linksys WRT3200ACM (Rango)"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,78 @@
+{
+  "arch_packages": "mipsel_mips32",
+  "build_at": "2020-09-11 22:48:52",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "nvram",
+    "otrx",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-ledtrig-default-on",
+    "kmod-ledtrig-timer",
+    "kmod-ledtrig-netdev"
+  ],
+  "device_packages": [
+    "kmod-b43",
+    "kmod-usb-ohci",
+    "kmod-usb2"
+  ],
+  "id": "linksys_wrt54g3gv2-vf",
+  "image_prefix": "openwrt-bcm47xx-legacy-linksys_wrt54g3gv2-vf",
+  "images": [
+    {
+      "name": "openwrt-bcm47xx-legacy-linksys_wrt54g3gv2-vf-squashfs.bin",
+      "sha256": "f58260cc76c311e69e8bcbd4267bda0e297621a0e30ddfc3e61b81ab3b9bc914",
+      "type": "bin"
+    },
+    {
+      "name": "openwrt-bcm47xx-legacy-linksys_wrt54g3gv2-vf-squashfs.noheader.bin",
+      "sha256": "1711832d33b0d9f9ab6f24c861e61296ffbb32aea8d868cb1b0bd066063ebe37",
+      "type": "noheader"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "bcm47xx/legacy",
+  "titles": [
+    {
+      "model": "WRT54G3GV2-VF",
+      "vendor": "Linksys"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

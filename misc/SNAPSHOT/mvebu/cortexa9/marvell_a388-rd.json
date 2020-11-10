@@ -1,0 +1,59 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2020-09-10 22:18:45",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [],
+  "id": "marvell_a388-rd",
+  "image_prefix": "openwrt-mvebu-cortexa9-marvell_a388-rd",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa9-marvell_a388-rd-squashfs-firmware.bin",
+      "sha256": "329b26eda62ead14c5f13354d8fe2bcc5c7001770e7e8b4b30f5b555c5fe65e3",
+      "type": "firmware"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "armada-388-rd",
+    "marvell,a385-rd"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "Armada 388 RD (RD-88F6820-AP)",
+      "vendor": "Marvell"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

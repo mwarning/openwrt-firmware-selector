@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-08 16:38:17",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-rt2800-soc",
+    "wpad-mini",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [],
+  "id": "wt1520-4M",
+  "image_prefix": "openwrt-19.07.4-ramips-rt305x-wt1520-4M",
+  "images": [
+    {
+      "name": "openwrt-19.07.4-ramips-rt305x-wt1520-4M-squashfs-factory.bin",
+      "sha256": "a8f87120dbb83e9b5e5500a62c5c1fea103a8f22e1ffaa370898de4110f9a688",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-19.07.4-ramips-rt305x-wt1520-4M-squashfs-sysupgrade.bin",
+      "sha256": "d0d2f7affd2153bfb3dc74469a24d91b6ea609630d3df93d143759208c082ab5",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wt1520-4M"
+  ],
+  "target": "ramips/rt305x",
+  "titles": [
+    {
+      "title": "Nexx WT1520 (4MB)"
+    }
+  ],
+  "version_code": "r11208-ce6496d796",
+  "version_number": "19.07.4"
+}

@@ -1,0 +1,57 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-16 13:55:53",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "ethernut5",
+  "image_prefix": "openwrt-18.06.8-at91-legacy-ethernut5",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-at91-legacy-ethernut5-squashfs-root.ubi",
+      "sha256": "f3490a2d018c5bced4251802a9a1920237e948a2b81615934438b02a296c2301",
+      "type": "root"
+    },
+    {
+      "name": "openwrt-18.06.8-at91-legacy-ethernut5-ubifs-root.ubi",
+      "sha256": "61dbb8fd0e4a5c214b1a4175ea15e798e1d772bfab367c4faef9bd04e7c6f27e",
+      "type": "root"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "at91/legacy",
+  "titles": [
+    {
+      "title": "Ethernut 5"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb2"
+  ],
+  "id": "ubnt-rocket-m-xw",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-ubnt-rocket-m-xw",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-ubnt-rocket-m-xw-squashfs-sysupgrade.bin",
+      "sha256": "614075d79d5621c4abf58f8a4d3d55a4b1357ac485b6ba29cc73ccc511c66e0a",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-ubnt-rocket-m-xw-squashfs-factory.bin",
+      "sha256": "c34f452d031bd75d61ae7de1e2d71def0251f162dbdf6e97718f627ffd3b1277",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "Ubiquiti Rocket M XW"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

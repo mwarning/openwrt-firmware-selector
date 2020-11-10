@@ -1,0 +1,56 @@
+{
+  "arch_packages": "mips64_octeonplus",
+  "build_at": "2020-09-10 22:25:36",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [],
+  "id": "ubnt_edgerouter",
+  "image_prefix": "openwrt-octeon-ubnt_edgerouter",
+  "images": [
+    {
+      "name": "openwrt-octeon-ubnt_edgerouter-squashfs-sysupgrade.tar",
+      "sha256": "dff5dfe3409e6b60ec161c17d51c02f2efdfa78af196b37d3314f8e5134d9a54",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "octeon/generic",
+  "titles": [
+    {
+      "model": "EdgeRouter",
+      "vendor": "Ubiquiti"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

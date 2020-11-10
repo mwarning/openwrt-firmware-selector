@@ -1,0 +1,57 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-ipt-offload",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "swconfig"
+  ],
+  "device_packages": [
+    "kmod-usb3"
+  ],
+  "id": "timecloud",
+  "image_prefix": "openwrt-18.06.8-ramips-mt7621-timecloud",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ramips-mt7621-timecloud-squashfs-sysupgrade.bin",
+      "sha256": "38a1b03b9f72e7a2ded7e5ab5015c0a2ba58f954e919d6704554b837218f5b53",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "timecloud"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "title": "Thunder Timecloud"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

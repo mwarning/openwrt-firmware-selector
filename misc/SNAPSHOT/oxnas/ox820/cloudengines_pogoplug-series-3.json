@@ -1,0 +1,80 @@
+{
+  "arch_packages": "arm_mpcore",
+  "build_at": "2020-09-12 00:15:28",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools",
+    "block-mount",
+    "fdisk",
+    "lsblk",
+    "mdadm",
+    "kmod-button-hotplug",
+    "kmod-input-gpio-keys-polled",
+    "kmod-ledtrig-timer",
+    "kmod-leds-gpio",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb2-oxnas",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-ata-oxnas-sata"
+  ],
+  "id": "cloudengines_pogoplug-series-3",
+  "image_prefix": "openwrt-oxnas-ox820-cloudengines_pogoplug-series-3",
+  "images": [
+    {
+      "name": "openwrt-oxnas-ox820-cloudengines_pogoplug-series-3-squashfs-sysupgrade.tar",
+      "sha256": "345e15f7812958228847c4480bdf4a55e7e1bf3c6596fc13292a968bbeb76835",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-cloudengines_pogoplug-series-3-squashfs-ubinized.bin",
+      "sha256": "df07ae71e8923badf222c39b0943766db752379e15689320363ba0487c03fba8",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-cloudengines_pogoplug-series-3-ubifs-sysupgrade.tar",
+      "sha256": "089ba16b44cf9523c9d74010abf4d4297a23cf77b0002f95abafe47721e57b06",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-cloudengines_pogoplug-series-3-ubifs-ubinized.bin",
+      "sha256": "6da3715e0a651c5b4e7489831b638a20bb37fdb76a21e4d94dcc733ce016b948",
+      "type": "ubinized"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "cloudengines,pogoplug-series-3",
+    "cloudengines,pogoplugv3",
+    "pogoplug-v3"
+  ],
+  "target": "oxnas/ox820",
+  "titles": [
+    {
+      "model": "PogoPlug Series V3 (without mPCIe)",
+      "vendor": "Cloud Engines"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

@@ -1,0 +1,65 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-10 23:24:02",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-chipidea2"
+  ],
+  "id": "embeddedwireless_dorin",
+  "image_prefix": "openwrt-ath79-generic-embeddedwireless_dorin",
+  "images": [
+    {
+      "name": "openwrt-ath79-generic-embeddedwireless_dorin-squashfs-sysupgrade.bin",
+      "sha256": "8775e3bfbe5e4d081c91d4c5bbc957c4d8604f9e599133b1c93d44b226cc78c0",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "embeddedwireless,dorin"
+  ],
+  "target": "ath79/generic",
+  "titles": [
+    {
+      "model": "Dorin",
+      "vendor": "Embedded Wireless"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

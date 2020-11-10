@@ -1,0 +1,64 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 00:05:31",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "wpad-basic-wolfssl",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-ata-ahci",
+    "kmod-usb3",
+    "kmod-sdhci-mt7620",
+    "-wpad-basic-wolfssl"
+  ],
+  "id": "gnubee_gb-pc2",
+  "image_prefix": "openwrt-ramips-mt7621-gnubee_gb-pc2",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt7621-gnubee_gb-pc2-squashfs-sysupgrade.bin",
+      "sha256": "cd529a99897e5720c0d2e601656d942627e075a68ffd5b1ed1b930bc74484b35",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "gnubee,gb-pc2"
+  ],
+  "target": "ramips/mt7621",
+  "titles": [
+    {
+      "model": "Personal Cloud Two",
+      "vendor": "GnuBee"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

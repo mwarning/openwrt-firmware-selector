@@ -1,0 +1,56 @@
+{
+  "arch_packages": "mips64_octeonplus",
+  "build_at": "2020-09-10 22:25:36",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "mkf2fs",
+    "e2fsprogs",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "mkf2fs",
+    "e2fsprogs"
+  ],
+  "device_packages": [],
+  "id": "itus_shield-router",
+  "image_prefix": "openwrt-octeon-itus_shield-router",
+  "images": [
+    {
+      "name": "openwrt-octeon-itus_shield-router-squashfs-sysupgrade.tar",
+      "sha256": "72b0927aa7c6b6d17496a425339dd6e0dc38b4144de113fbdc01fc10d32a291e",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "octeon/generic",
+  "titles": [
+    {
+      "model": "Shield Router",
+      "vendor": "Itus Networks"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

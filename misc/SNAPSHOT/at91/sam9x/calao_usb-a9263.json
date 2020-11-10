@@ -1,0 +1,65 @@
+{
+  "arch_packages": "arm_arm926ej-s",
+  "build_at": "2020-09-10 20:46:39",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-usb-ohci",
+    "kmod-at91-udc",
+    "kmod-usb-gadget-eth"
+  ],
+  "device_packages": [],
+  "id": "calao_usb-a9263",
+  "image_prefix": "openwrt-at91-sam9x-calao_usb-a9263",
+  "images": [
+    {
+      "name": "openwrt-at91-sam9x-calao_usb-a9263-squashfs-factory.bin",
+      "sha256": "142bc404977d7557a1bb88c3ee343ec265105c566b7049ba6f9a7efd630a0cb2",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-at91-sam9x-calao_usb-a9263-ubifs-factory.bin",
+      "sha256": "d6da870ca846d65872e0847b4c42a361cfe0ef46f565f9ae998e7efeea5539bc",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "atmel,usb-a9263"
+  ],
+  "target": "at91/sam9x",
+  "titles": [
+    {
+      "model": "USB A9263",
+      "vendor": "Calao"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

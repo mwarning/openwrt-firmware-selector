@@ -1,0 +1,71 @@
+{
+  "arch_packages": "arm_cortex-a9_vfpv3-d16",
+  "build_at": "2020-09-10 22:18:45",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "uboot-envtools",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-rtc-rs5c372a",
+    "kmod-hwmon-gpiofan",
+    "kmod-hwmon-drivetemp",
+    "kmod-usb3",
+    "kmod-linkstation-poweroff",
+    "kmod-md-raid0",
+    "kmod-md-raid1",
+    "kmod-md-mod",
+    "kmod-fs-xfs",
+    "mkf2fs",
+    "e2fsprogs",
+    "partx-utils"
+  ],
+  "id": "buffalo_ls421de",
+  "image_prefix": "openwrt-mvebu-cortexa9-buffalo_ls421de",
+  "images": [
+    {
+      "name": "openwrt-mvebu-cortexa9-buffalo_ls421de-squashfs-sysupgrade.bin",
+      "sha256": "393aa3bb83b742cd121abb39b22ba26e8a2d0cd9c70b8f010897dd82e8d2fd0d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "buffalo,ls421de"
+  ],
+  "target": "mvebu/cortexa9",
+  "titles": [
+    {
+      "model": "LinkStation LS421DE",
+      "vendor": "Buffalo"
+    }
+  ],
+  "version_code": "r14443-f1bc66c765",
+  "version_number": "SNAPSHOT"
+}

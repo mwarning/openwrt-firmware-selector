@@ -1,0 +1,63 @@
+{
+  "arch_packages": "mipsel_24kc",
+  "build_at": "2020-09-11 19:11:10",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug",
+    "kmod-mt7603",
+    "wpad-basic-wolfssl",
+    "swconfig",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "kmod-leds-gpio",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "kmod-mt76x0e"
+  ],
+  "id": "wavlink_wl-wn570ha1",
+  "image_prefix": "openwrt-ramips-mt76x8-wavlink_wl-wn570ha1",
+  "images": [
+    {
+      "name": "openwrt-ramips-mt76x8-wavlink_wl-wn570ha1-squashfs-sysupgrade.bin",
+      "sha256": "83bfebe72328e7b42ec033c34fc3f78dbd10c9b893228abc339a47b805e8369d",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "wavlink,wl-wn570ha1"
+  ],
+  "target": "ramips/mt76x8",
+  "titles": [
+    {
+      "model": "WL-WN570HA1",
+      "vendor": "Wavlink"
+    }
+  ],
+  "version_code": "r14449-14024f6e0f",
+  "version_number": "SNAPSHOT"
+}

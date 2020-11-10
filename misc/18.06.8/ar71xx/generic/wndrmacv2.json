@@ -1,0 +1,67 @@
+{
+  "arch_packages": "mips_24kc",
+  "build_at": "2020-09-16 13:55:54",
+  "default_packages": [
+    "base-files",
+    "libc",
+    "libgcc",
+    "busybox",
+    "dropbear",
+    "mtd",
+    "uci",
+    "opkg",
+    "netifd",
+    "fstools",
+    "uclient-fetch",
+    "logd",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools",
+    "dnsmasq",
+    "iptables",
+    "ip6tables",
+    "ppp",
+    "ppp-mod-pppoe",
+    "firewall",
+    "odhcpd-ipv6only",
+    "odhcp6c",
+    "kmod-gpio-button-hotplug",
+    "swconfig",
+    "kmod-ath9k",
+    "wpad-mini",
+    "uboot-envtools"
+  ],
+  "device_packages": [
+    "kmod-usb-core",
+    "kmod-usb-ohci",
+    "kmod-usb2",
+    "kmod-usb-ledtrig-usbport",
+    "kmod-leds-wndr3700-usb"
+  ],
+  "id": "wndrmacv2",
+  "image_prefix": "openwrt-18.06.8-ar71xx-generic-wndrmacv2",
+  "images": [
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-wndrmacv2-squashfs-factory.img",
+      "sha256": "50e3618f1adc93d4d884fbfc4d79fd7bc458cee33627e31bf619205c7fba23f5",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-18.06.8-ar71xx-generic-wndrmacv2-squashfs-sysupgrade.bin",
+      "sha256": "842ebe5cdad8e96313e5124b5d5a17786b01265578128bb628b2beb61a7ea635",
+      "type": "sysupgrade"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [],
+  "target": "ar71xx/generic",
+  "titles": [
+    {
+      "title": "NETGEAR WNDRMAC v2"
+    }
+  ],
+  "version_code": "r7989-82fbd85747",
+  "version_number": "18.06.8"
+}

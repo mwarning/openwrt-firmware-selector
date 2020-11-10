@@ -1,0 +1,69 @@
+{
+  "arch_packages": "mips_mips32",
+  "build_at": "2020-09-11 16:37:12",
+  "default_packages": [
+    "base-files",
+    "busybox",
+    "ca-bundle",
+    "dropbear",
+    "fstools",
+    "libc",
+    "libgcc",
+    "libustream-wolfssl",
+    "logd",
+    "mtd",
+    "netifd",
+    "opkg",
+    "uci",
+    "uclient-fetch",
+    "urandom-seed",
+    "urngd",
+    "swconfig",
+    "kmod-gpio-button-hotplug",
+    "dnsmasq",
+    "firewall",
+    "ip6tables",
+    "iptables",
+    "kmod-ipt-offload",
+    "odhcp6c",
+    "odhcpd-ipv6only",
+    "ppp",
+    "ppp-mod-pppoe",
+    "swconfig",
+    "kmod-gpio-button-hotplug"
+  ],
+  "device_packages": [
+    "nand-utils",
+    "kmod-usb2",
+    "kmod-usb-ohci",
+    "kmod-usb-ledtrig-usbport"
+  ],
+  "id": "sercomm_h500-s-vfes",
+  "image_prefix": "openwrt-bcm63xx-smp-sercomm_h500-s-vfes",
+  "images": [
+    {
+      "name": "openwrt-bcm63xx-smp-sercomm_h500-s-vfes-squashfs-sysupgrade.bin",
+      "sha256": "10f0410b4e83345abb0290ddb79347adcb4d5b1b1a2eaefd83f07bbaf2c49003",
+      "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-bcm63xx-smp-sercomm_h500-s-vfes-squashfs-factory.img",
+      "sha256": "289026ecfed6710957566856e28264584922c863998a77c8e5348313238664b0",
+      "type": "factory"
+    }
+  ],
+  "metadata_version": 1,
+  "supported_devices": [
+    "sercomm,h500-s-vfes"
+  ],
+  "target": "bcm63xx/smp",
+  "titles": [
+    {
+      "model": "H500-s",
+      "variant": "vfes",
+      "vendor": "Sercomm"
+    }
+  ],
+  "version_code": "r14447-2e6c236abd",
+  "version_number": "SNAPSHOT"
+}
