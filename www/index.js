@@ -430,11 +430,11 @@ function updateImages(mobj, image_url, is_custom) {
     translate();
 
     // fill out build info
-    $("#image-model").innerText = getModelTitles(mobj.titles).join(" / ");
-    $("#image-target").innerText = mobj.target;
-    $("#image-version").innerText = mobj.version_number;
-    $("#image-code").innerText = mobj.version_code;
-    $("#image-date").innerText = mobj.build_at;
+    setValue("#image-model", getModelTitles(mobj.titles).join(" / "));
+    setValue("#image-target", mobj.target);
+    setValue("#image-version", mobj.version_number);
+    setValue("#image-code", mobj.version_code);
+    setValue("#image-date", mobj.build_at);
     setValue("#image-sha256", undefined); // not set by default
 
     images.sort((a, b) => a.name.localeCompare(b.name));
