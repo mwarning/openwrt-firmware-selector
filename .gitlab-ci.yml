@@ -31,7 +31,7 @@ check HTML, CSS and SVG with html5validator:
     - apt-get update; apt-get install -y make
   script:
     - cp -R ./www ./build
-    - misc/collect.py scrape https://downloads.openwrt.org build
+    - misc/collect.py https://downloads.openwrt.org 'https://downloads.openwrt.org/{base}/{target}' build
   artifacts:
     expire_in: 1 week
     when: always
@@ -59,19 +59,19 @@ build site on Python 3.8:
     paths:
       - build
 
-build site for target environment using scrape method:
+build site for target environment using remote directory:
   extends: .build site
   script:
     - cp -R ./www ./build
     - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html
-    - misc/collect.py scrape https://downloads.openwrt.org build
+    - misc/collect.py https://downloads.openwrt.org 'https://downloads.openwrt.org/{base}/{target}' build
 
-build site for target environment using scan method:
+build site for target environment using local directory:
   extends: .build site
   script:
     - cp -R ./www ./build
     - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html
-    - misc/collect.py scan downloads.openwrt.org tests/profiles build
+    - misc/collect.py tests/profiles 'https://downloads.openwrt.org/{base}/{target}' build
 
 .test site:
   stage: test
@@ -86,18 +86,18 @@ build site for target environment using scan method:
 test scraped site with selenium:
   extends: .test site
   dependencies:
-    - build site for target environment using scrape method
+    - build site for target environment using remote directory
 
 test scaned site with selenium:
   extends: .test site
   dependencies:
-    - build site for target environment using scan method
+    - build site for target environment using local directory
 
 .deploy:
   stage: deploy
   image: alpine
   dependencies:
-    - build site for target environment using scrape method
+    - build site for target environment using remote directory
   before_script:
     - apk update && apk add rsync
   only:
