@@ -337,9 +337,45 @@ function updatePackageList(version, target) {
     });
 }
 
+function setValue(query, value) {
+  const root = $(query).parentNode;
+  if (value !== undefined) {
+    $(query).innerText = value;
+    show(root);
+  } else {
+    hide(root);
+  }
+}
+
 function updateImages(mobj, image_url, is_custom) {
+  function displayHelp(image) {
+    // hide all help texts
+    Array.from(document.getElementsByClassName("download-help")).forEach(
+      (e) => (e.style.display = "none")
+    );
+    const lc = image.type.toLowerCase();
+    if (lc.includes("sysupgrade")) {
+      show("#sysupgrade-help");
+    } else if (lc.includes("factory") || lc == "trx" || lc == "chk") {
+      show("#factory-help");
+    } else if (
+      lc.includes("kernel") ||
+      lc.includes("zimage") ||
+      lc.includes("uimage")
+    ) {
+      show("#kernel-help");
+    } else if (lc.includes("root")) {
+      show("#rootfs-help");
+    } else if (lc.includes("sdcard")) {
+      show("#sdcard-help");
+    } else if (lc.includes("tftp")) {
+      show("#tftp-help");
+    } else {
+      show("#other-help");
+    }
+  }
   // add download button for image
-  function addLink(type, file) {
+  function createLink(image) {
     const a = document.createElement("A");
     a.classList.add("download-link");
     a.href =
@@ -347,42 +383,12 @@ function updateImages(mobj, image_url, is_custom) {
         .replace("{target}", mobj.target)
         .replace("{version}", mobj.version_number) +
       "/" +
-      file;
+      image.name;
     const span = document.createElement("SPAN");
     span.appendChild(document.createTextNode(""));
     a.appendChild(span);
-    a.appendChild(document.createTextNode(type.toUpperCase()));
-
-    if (config.showHelp) {
-      a.onmouseover = function () {
-        // hide all help texts
-        Array.from(document.getElementsByClassName("download-help")).forEach(
-          (e) => (e.style.display = "none")
-        );
-        const lc = type.toLowerCase();
-        if (lc.includes("sysupgrade")) {
-          show("#sysupgrade-help");
-        } else if (lc.includes("factory") || lc == "trx" || lc == "chk") {
-          show("#factory-help");
-        } else if (
-          lc.includes("kernel") ||
-          lc.includes("zimage") ||
-          lc.includes("uimage")
-        ) {
-          show("#kernel-help");
-        } else if (lc.includes("root")) {
-          show("#rootfs-help");
-        } else if (lc.includes("sdcard")) {
-          show("#sdcard-help");
-        } else if (lc.includes("tftp")) {
-          show("#tftp-help");
-        } else {
-          show("#other-help");
-        }
-      };
-    }
-
-    $("#download-links").appendChild(a);
+    a.appendChild(document.createTextNode(image.type.toUpperCase()));
+    return a;
   }
 
   function switchClass(query, from_class, to_class) {
@@ -429,11 +435,22 @@ function updateImages(mobj, image_url, is_custom) {
     $("#image-version").innerText = mobj.version_number;
     $("#image-code").innerText = mobj.version_code;
     $("#image-date").innerText = mobj.build_at;
+    setValue("#image-sha256", undefined); // not set by default
 
     images.sort((a, b) => a.name.localeCompare(b.name));
 
-    for (const i in images) {
-      addLink(images[i].type, images[i].name);
+    for (const image of images) {
+      const a = createLink(image);
+
+      a.onmouseover = function () {
+        setValue("#image-sha256", image.sha256);
+
+        if (config.showHelp) {
+          displayHelp(image);
+        }
+      };
+
+      $("#download-links").appendChild(a);
     }
 
     if (config.asu_url) {

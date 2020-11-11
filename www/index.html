@@ -98,8 +98,13 @@
             <!-- download buttons created dynamically and inserted here -->
           </div>
 
-          <!-- Explanatory text for each download button: make visible when hovering -->
+          <div style="font-size: 0.8em">
+            <span class="column">sha256sum:</span>
+            <span id="image-sha256"></span>
+          </div>
+
           <div>
+            <!-- Explanatory text for each download button: make visible when hovering -->
             <span id="factory-help" class="download-help tr-factory-help">
               Use a Factory image to flash a router with OpenWrt for the first
               time. You normally do this via the web interface of the original
