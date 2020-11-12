@@ -338,12 +338,21 @@ function updatePackageList(version, target) {
 }
 
 function setValue(query, value) {
-  const root = $(query).parentNode;
+  const e = $(query);
   if (value !== undefined) {
-    $(query).innerText = value;
-    show(root);
+    if (value.length > 42) {
+      e.innerText = value.substring(0, 42) + "...";
+      e.onclick = function () {
+        // show full length string
+        e.onclick = null;
+        e.innerText = value;
+      };
+    } else {
+      e.innerText = value;
+    }
+    show(e.parentNode);
   } else {
-    hide(root);
+    hide(e.parentNode);
   }
 }
 
