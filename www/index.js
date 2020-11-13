@@ -340,8 +340,8 @@ function updatePackageList(version, target) {
 function setValue(query, value) {
   const e = $(query);
   if (value !== undefined) {
-    if (value.length > 42) {
-      e.innerText = value.substring(0, 42) + "...";
+    if (value.length > 32) {
+      e.innerText = value.substring(0, 32) + "...";
       e.onclick = function () {
         // show full length string
         e.onclick = null;
