@@ -84,9 +84,9 @@ function buildAsuRequest() {
           showStatus("tr-build-successful");
 
           response.json().then((mobj) => {
-            const image_url = config.asu_url + "/store/" + mobj.bin_dir;
-            showStatus("tr-build-successful", image_url + "/buildlog.txt");
-            updateImages(mobj, image_url, true);
+            mobj.image_url = config.asu_url + "/store/" + mobj.bin_dir;
+            showStatus("tr-build-successful", mobj.image_url + "/buildlog.txt");
+            updateImages(mobj, true);
           });
           break;
         case 202:
@@ -340,8 +340,12 @@ function updatePackageList(version, target) {
 
 function setValue(query, value) {
   const e = $(query);
-  if (value !== undefined) {
-    e.innerText = value;
+  if (value !== undefined && value.length > 0) {
+    if (e.tagName == "A") {
+      e.href = value;
+    } else {
+      e.innerText = value;
+    }
     show(e.parentNode);
   } else {
     hide(e.parentNode);
@@ -355,7 +359,7 @@ function hideHelp() {
   );
 }
 
-function updateImages(mobj, image_url, is_custom) {
+function updateImages(mobj, is_custom) {
   function displayHelp(image) {
     hideHelp();
 
@@ -385,7 +389,7 @@ function updateImages(mobj, image_url, is_custom) {
     const a = document.createElement("A");
     a.classList.add("download-link");
     a.href =
-      image_url
+      mobj.image_url
         .replace("{target}", mobj.target)
         .replace("{version}", mobj.version_number) +
       "/" +
@@ -409,7 +413,7 @@ function updateImages(mobj, image_url, is_custom) {
 
   hideHelp();
 
-  if (image_url && mobj) {
+  if (mobj) {
     const images = mobj.images;
 
     // change between "version" and "custom" title
@@ -433,12 +437,21 @@ function updateImages(mobj, image_url, is_custom) {
     translate();
 
     // fill out build info
-    setValue("#image-model", getModelTitles(mobj.titles).join(" / "));
+    const titles = getModelTitles(mobj.titles);
+    setValue("#image-model", titles.join(" / "));
     setValue("#image-target", mobj.target);
     setValue("#image-version", mobj.version_number);
     setValue("#image-code", mobj.version_code);
     setValue("#image-date", mobj.build_at);
     setValue("#image-sha256", undefined); // not set by default
+    setValue(
+      "#image-info",
+      (mobj.info_url || "")
+        .replace("{title}", encodeURI(titles[0]))
+        .replace("{target}", mobj.target)
+        .replace("{id}", mobj.id)
+        .replace("{version}", mobj.version_number)
+    );
 
     images.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -508,7 +521,9 @@ function changeModel(version, overview, model, base_url) {
         return obj.json();
       })
       .then((mobj) => {
-        updateImages(mobj, overview.image_url, false);
+        mobj.image_url = mobj.image_url || overview.image_url;
+        mobj.wiki_url = mobj.wiki_url || overview.wiki_url;
+        updateImages(mobj, false);
         current_device = { version: version, id: id, target: target };
       });
   } else {
@@ -544,7 +559,11 @@ function init() {
             }
           }
         }
-        return { models: models, image_url: obj["image_url"] };
+        return {
+          models: models,
+          image_url: obj["image_url"],
+          wiki_url: obj["wiki_url"],
+        };
       })
       .then((obj) => {
         setupAutocompleteList(

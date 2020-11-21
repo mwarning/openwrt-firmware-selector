@@ -34,7 +34,12 @@ def write_json(path, content, formatted):
 
 # generate an overview of all models of a build
 def assemble_overview_json(release, profiles, image_url):
-    overview = {"profiles": {}, "release": release, "image_url": image_url}
+    overview = {
+        "profiles": {},
+        "release": release,
+        "image_url": image_url,
+        "wiki_url": "https://openwrt.org/start?do=search&id=toh&q={title}",
+    }
     for profile in profiles:
         obj = profile["file_content"]
         for model_id, model_obj in obj["profiles"].items():
