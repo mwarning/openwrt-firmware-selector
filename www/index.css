@@ -171,6 +171,7 @@ header > div {
 .row {
   display: flex;
   line-height: 1.5;
+  overflow: hidden;
 }
 
 .col1 {
@@ -180,6 +181,8 @@ header > div {
 
 .col2 {
   display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #images > div {

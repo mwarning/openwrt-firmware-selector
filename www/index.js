@@ -340,16 +340,7 @@ function updatePackageList(version, target) {
 function setValue(query, value) {
   const e = $(query);
   if (value !== undefined) {
-    if (value.length > 32) {
-      e.innerText = value.substring(0, 32) + "...";
-      e.onclick = function () {
-        // show full length string
-        e.onclick = null;
-        e.innerText = value;
-      };
-    } else {
-      e.innerText = value;
-    }
+    e.innerText = value;
     show(e.parentNode);
   } else {
     hide(e.parentNode);
