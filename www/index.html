@@ -52,12 +52,12 @@
         </div>
 
         <div>
-          <img id="buildspinner" src="spinner.gif" alt="Logo" />
-          <div id="buildstatus"></div>
+          <img id="buildspinner" class="hide" src="spinner.gif" alt="Logo" />
+          <div id="buildstatus" class="hide"></div>
         </div>
 
-        <div id="images">
-          <div id="custom">
+        <div id="images" class="hide">
+          <div id="custom" class="hide">
             <h3 class="tr-customize">Customize</h3>
             <div class="autocomplete">
               <textarea
@@ -75,21 +75,23 @@
           <!-- static information about the selected build -->
           <div>
             <h3 id="build-title" class="tr-version-build">About this build</h3>
-            <div>
-              <span class="column tr-model">Model:</span>
-              <span id="image-model"></span>
+            <div class="row">
+              <div class="col1 tr-model">Model:</div>
+              <div class="col2" id="image-model"></div>
             </div>
-            <div>
-              <span class="column tr-target">Target:</span>
-              <span id="image-target"></span>
+            <div class="row">
+              <div class="col1 tr-target">Target:</div>
+              <div class="col2" id="image-target"></div>
             </div>
-            <div>
-              <span class="column tr-version">Version:</span>
-              <span id="image-version"></span> (<span id="image-code"></span>)
+            <div class="row">
+              <div class="col1 tr-version">Version:</div>
+              <div class="col2">
+                <span id="image-version"></span> (<span id="image-code"></span>)
+              </div>
             </div>
-            <div>
-              <span class="column tr-date">Date:</span>
-              <span id="image-date"></span>
+            <div class="row">
+              <div class="col1 tr-date">Date:</div>
+              <div class="col2" id="image-date"></div>
             </div>
           </div>
 
@@ -98,37 +100,40 @@
             <!-- download buttons created dynamically and inserted here -->
           </div>
 
-          <div>
-            <span class="column">sha256sum:</span>
-            <span id="image-sha256"></span>
+          <div class="row">
+            <div class="col1">sha256sum:</div>
+            <div class="col2" id="image-sha256"></div>
           </div>
 
           <div>
             <!-- Explanatory text for each download button: make visible when hovering -->
-            <span id="factory-help" class="download-help tr-factory-help">
-              Use a Factory image to flash a router with OpenWrt for the first
+            <span id="factory-help" class="download-help hide tr-factory-help">
+              Use a Factory image to flash a router with OpenWrt for the col1
               time. You normally do this via the web interface of the original
               firmware.
             </span>
-            <span id="sysupgrade-help" class="download-help tr-sysupgrade-help">
+            <span
+              id="sysupgrade-help"
+              class="download-help hide tr-sysupgrade-help"
+            >
               Use a Sysupgrade image to update a router that already runs
               OpenWrt. The image can be used with the LuCI web interface or the
               terminal.
             </span>
-            <span id="kernel-help" class="download-help tr-kernel-help"
+            <span id="kernel-help" class="download-help hide tr-kernel-help"
               >Linux kernel as a separate image.</span
             >
-            <span id="rootfs-help" class="download-help tr-rootfs-help"
+            <span id="rootfs-help" class="download-help hide tr-rootfs-help"
               >Root file system as a separate image.</span
             >
-            <span id="sdcard-help" class="download-help tr-sdcard-help"
+            <span id="sdcard-help" class="download-help hide tr-sdcard-help"
               >Image that is meant to be flashed on an SD-Card.</span
             >
-            <span id="tftp-help" class="download-help tr-tftp-help"
+            <span id="tftp-help" class="download-help hide tr-tftp-help"
               >Image that can be applied using the TFTP meachnism of the
               bootloader</span
             >
-            <span id="other-help" class="download-help tr-other-help"
+            <span id="other-help" class="download-help hide tr-other-help"
               >Image of unknown purpose.</span
             >
           </div>

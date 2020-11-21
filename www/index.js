@@ -13,11 +13,11 @@ function $(query) {
 }
 
 function show(query) {
-  $(query).style.display = "block";
+  $(query).classList.remove("hide");
 }
 
 function hide(query) {
-  $(query).style.display = "none";
+  $(query).classList.add("hide");
 }
 
 function split(str) {
@@ -356,12 +356,17 @@ function setValue(query, value) {
   }
 }
 
+// hide all help texts
+function hideHelp() {
+  Array.from(document.getElementsByClassName("download-help")).forEach((e) =>
+    hide("#" + e.id)
+  );
+}
+
 function updateImages(mobj, image_url, is_custom) {
   function displayHelp(image) {
-    // hide all help texts
-    Array.from(document.getElementsByClassName("download-help")).forEach(
-      (e) => (e.style.display = "none")
-    );
+    hideHelp();
+
     const lc = image.type.toLowerCase();
     if (lc.includes("sysupgrade")) {
       show("#sysupgrade-help");
@@ -410,10 +415,7 @@ function updateImages(mobj, image_url, is_custom) {
     e.remove()
   );
 
-  // hide all help texts
-  Array.from(document.getElementsByClassName("download-help")).forEach(
-    (e) => (e.style.display = "none")
-  );
+  hideHelp();
 
   if (image_url && mobj) {
     const images = mobj.images;
