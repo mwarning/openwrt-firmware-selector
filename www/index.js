@@ -477,23 +477,12 @@ function updateImages(mobj, image_url, is_custom) {
 }
 
 // Update model title in search box.
-// Device id and model title might change between releases.
-function setModel(obj, id, title) {
+// Device id might change between releases.
+function setModel(obj, id) {
   if (id) {
     for (const mobj of Object.values(obj["models"])) {
       if (mobj["id"] == id) {
         for (const title1 of getModelTitles(mobj["titles"])) {
-          $("#models").value = title1;
-          return;
-        }
-      }
-    }
-  }
-
-  if (title) {
-    for (const mobj of Object.values(obj["models"])) {
-      for (const title1 of getModelTitles(mobj["titles"])) {
-        if (title1.toLowerCase() == title.toLowerCase()) {
           $("#models").value = title1;
           return;
         }
@@ -562,11 +551,7 @@ function init() {
         );
 
         // set model when selected version changes
-        setModel(
-          obj,
-          current_device["id"] || url_params.get("id"),
-          current_device["title"] || url_params.get("title")
-        );
+        setModel(obj, current_device["id"] || url_params.get("id"));
 
         // trigger update of current selected model
         $("#models").onfocus();
