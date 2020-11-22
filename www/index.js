@@ -359,48 +359,49 @@ function hideHelp() {
   );
 }
 
+function displayHelp(image) {
+  hideHelp();
+
+  const lc = image.type.toLowerCase();
+  if (lc.includes("sysupgrade")) {
+    show("#sysupgrade-help");
+  } else if (lc.includes("factory") || lc == "trx" || lc == "chk") {
+    show("#factory-help");
+  } else if (
+    lc.includes("kernel") ||
+    lc.includes("zimage") ||
+    lc.includes("uimage")
+  ) {
+    show("#kernel-help");
+  } else if (lc.includes("root")) {
+    show("#rootfs-help");
+  } else if (lc.includes("sdcard")) {
+    show("#sdcard-help");
+  } else if (lc.includes("tftp")) {
+    show("#tftp-help");
+  } else {
+    show("#other-help");
+  }
+}
+
+// add download button for image
+function createLink(mobj, image) {
+  const a = document.createElement("A");
+  a.classList.add("download-link");
+  a.href =
+    mobj.image_url
+      .replace("{target}", mobj.target)
+      .replace("{version}", mobj.version_number) +
+    "/" +
+    image.name;
+  const span = document.createElement("SPAN");
+  span.appendChild(document.createTextNode(""));
+  a.appendChild(span);
+  a.appendChild(document.createTextNode(image.type.toUpperCase()));
+  return a;
+}
+
 function updateImages(mobj, is_custom) {
-  function displayHelp(image) {
-    hideHelp();
-
-    const lc = image.type.toLowerCase();
-    if (lc.includes("sysupgrade")) {
-      show("#sysupgrade-help");
-    } else if (lc.includes("factory") || lc == "trx" || lc == "chk") {
-      show("#factory-help");
-    } else if (
-      lc.includes("kernel") ||
-      lc.includes("zimage") ||
-      lc.includes("uimage")
-    ) {
-      show("#kernel-help");
-    } else if (lc.includes("root")) {
-      show("#rootfs-help");
-    } else if (lc.includes("sdcard")) {
-      show("#sdcard-help");
-    } else if (lc.includes("tftp")) {
-      show("#tftp-help");
-    } else {
-      show("#other-help");
-    }
-  }
-  // add download button for image
-  function createLink(image) {
-    const a = document.createElement("A");
-    a.classList.add("download-link");
-    a.href =
-      mobj.image_url
-        .replace("{target}", mobj.target)
-        .replace("{version}", mobj.version_number) +
-      "/" +
-      image.name;
-    const span = document.createElement("SPAN");
-    span.appendChild(document.createTextNode(""));
-    a.appendChild(span);
-    a.appendChild(document.createTextNode(image.type.toUpperCase()));
-    return a;
-  }
-
   function switchClass(query, from_class, to_class) {
     $(query).classList.remove(from_class);
     $(query).classList.add(to_class);
@@ -456,7 +457,7 @@ function updateImages(mobj, is_custom) {
     images.sort((a, b) => a.name.localeCompare(b.name));
 
     for (const image of images) {
-      const a = createLink(image);
+      const a = createLink(mobj, image);
 
       a.onmouseover = function () {
         setValue("#image-sha256", image.sha256);
