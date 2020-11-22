@@ -470,8 +470,12 @@ function updateImages(mobj, image_url, is_custom) {
         encodeURIComponent(mobj.id)
     );
 
+    hide("#notfound");
     show("#images");
   } else {
+    if ($("#models").value.length > 0) {
+      show("#notfound");
+    }
     hide("#images");
   }
 }
