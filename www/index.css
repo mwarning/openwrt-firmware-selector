@@ -250,3 +250,7 @@ header > div {
 #footer a {
   text-decoration: none;
 }
+
+#notfound h3 {
+  text-align: center;
+}

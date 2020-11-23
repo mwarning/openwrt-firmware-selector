@@ -475,6 +475,8 @@ function updateImages(mobj, image_url, is_custom) {
   } else {
     if ($("#models").value.length > 0) {
       show("#notfound");
+    } else {
+      hide("#notfound");
     }
     hide("#images");
   }
