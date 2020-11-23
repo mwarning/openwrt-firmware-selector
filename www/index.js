@@ -2,6 +2,7 @@
 /* exported buildAsuRequest, init */
 
 let current_device = {};
+let current_language = "en";
 let url_params = undefined;
 
 function $(query) {
@@ -138,7 +139,7 @@ function setupSelectList(select, items, onselection) {
 
 // Change the translation of the entire document
 function translate() {
-  const mapping = translations[config.language];
+  const mapping = translations[current_language];
   for (const tr in mapping) {
     Array.from(document.getElementsByClassName(tr)).forEach((e) => {
       e.innerText = mapping[tr];
@@ -576,14 +577,14 @@ function init() {
     "-"
   )[0];
   if (user_lang in translations) {
-    config.language = user_lang;
+    current_language = user_lang;
     $("#language-selection").value = user_lang;
   }
 
   translate();
 
   $("#language-selection").onclick = function () {
-    config.language = this.children[this.selectedIndex].value;
+    current_language = this.children[this.selectedIndex].value;
     translate();
   };
 }

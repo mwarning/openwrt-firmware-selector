@@ -1,8 +1,6 @@
 /* exported config */
 
 var config = {
-  // Default language, see i18n.js
-  language: "en",
   // Show help text for images
   showHelp: true,
   // Image overview file or path to the ASU API
