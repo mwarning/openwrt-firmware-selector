@@ -33,13 +33,8 @@ def write_json(path, content, formatted):
 
 
 # generate an overview of all models of a build
-def assemble_overview_json(release, profiles, image_url):
-    overview = {
-        "profiles": {},
-        "release": release,
-        "image_url": image_url,
-        "wiki_url": "https://openwrt.org/start?do=search&id=toh&q={title}",
-    }
+def assemble_overview_json(release, profiles):
+    overview = {"profiles": {}, "release": release}
     for profile in profiles:
         obj = profile["file_content"]
         for model_id, model_obj in obj["profiles"].items():
@@ -109,17 +104,24 @@ def replace_base(releases, profiles, url):
         return url
 
 
-def write_data(releases, www_path, image_url, formatted):
+def write_data(releases, args):
     versions = {}
 
     for release, profiles in releases.items():
-        url = replace_base(releases, profiles, image_url)
-        overview_json = assemble_overview_json(release, profiles, url)
+        overview_json = assemble_overview_json(release, profiles)
+
+        if args.image_url:
+            image_url = replace_base(releases, profiles, args.image_url)
+            overview_json["image_url"] = image_url
+
+        if args.info_url:
+            info_url = replace_base(releases, profiles, args.info_url)
+            overview_json["info_url"] = info_url
 
         write_json(
-            "{}/data/{}/overview.json".format(www_path, release),
+            "{}/data/{}/overview.json".format(args.www_path, release),
             overview_json,
-            formatted,
+            args.formatted,
         )
 
         # write <device-id>.json files
@@ -131,13 +133,13 @@ def write_data(releases, www_path, image_url, formatted):
                 combined["id"] = model_id
                 del combined["profiles"]
                 profiles_path = "{}/data/{}/{}/{}.json".format(
-                    www_path, release, obj["target"], model_id
+                    args.www_path, release, obj["target"], model_id
                 )
-                write_json(profiles_path, combined, formatted)
+                write_json(profiles_path, combined, args.formatted)
 
         versions[release] = "data/{}".format(release)
 
-    update_config(www_path, versions)
+    update_config(args.www_path, versions)
 
 
 """
@@ -178,7 +180,7 @@ def scrape(args):
                 else:
                     releases[release] = profiles
 
-    write_data(releases, args.www_path, args.image_url, args.formatted)
+    write_data(releases, args)
 
 
 """
@@ -228,7 +230,7 @@ def scrape_wget(args):
             else:
                 releases[release] = profiles
 
-    write_data(releases, args.www_path, args.image_url, args.formatted)
+    write_data(releases, args)
 
 
 """
@@ -257,7 +259,7 @@ def scan(args):
                 }
             )
 
-    write_data(releases, args.www_path, args.image_url, args.formatted)
+    write_data(releases, args)
 
 
 def main():
@@ -278,11 +280,12 @@ Usage Examples:
     parser.add_argument(
         "--use-wget", action="store_true", help="Use wget to scrape the site."
     )
+    parser.add_argument("--info-url", help="Info URL template.")
+    parser.add_argument("--image-url", help="URL template to download images.")
 
     parser.add_argument(
-        "release_src", help="Local folder to scan or website to scrape."
+        "release_src", help="Local folder to scan or website URL to scrape."
     )
-    parser.add_argument("image_url", help="URL template to download images.")
     parser.add_argument("www_path", help="Path of the config.js.")
 
     args = parser.parse_args()

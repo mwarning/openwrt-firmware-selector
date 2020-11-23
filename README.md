@@ -23,12 +23,12 @@ This firmware selector can speak to a [ASU server](https://github.com/aparcar/as
 Place the `www/` folder somewhere web accessible. Then use the `collect.py` script to update `www/config.json` and write all device data into `www/data/`:
 
 ```
-./misc/collect.py https://downloads.openwrt.org 'https://downloads.openwrt.org/{base}/{target}' www/
+./misc/collect.py --image-url 'https://downloads.openwrt.org/{base}/{target}' https://downloads.openwrt.org  www/
 ```
 or for local accessible OpenWrt builds:
 
 ```
-./misc/collect.py ~/openwrt/bin 'https://downloads.openwrt.org/{base}/{target}' www/
+./misc/collect.py --image-url 'https://downloads.openwrt.org/{base}/{target}' ~/openwrt/bin  www/
 ```
 
 This should do it.

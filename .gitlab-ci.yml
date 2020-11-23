@@ -31,7 +31,7 @@ check HTML, CSS and SVG with html5validator:
     - apt-get update; apt-get install -y make
   script:
     - cp -R ./www ./build
-    - misc/collect.py https://downloads.openwrt.org 'https://downloads.openwrt.org/{base}/{target}' build
+    - misc/collect.py --image-url 'https://downloads.openwrt.org/{base}/{target}' https://downloads.openwrt.org build
   artifacts:
     expire_in: 1 week
     when: always
@@ -64,14 +64,14 @@ build site for target environment using remote directory:
   script:
     - cp -R ./www ./build
     - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html
-    - misc/collect.py https://downloads.openwrt.org 'https://downloads.openwrt.org/{base}/{target}' build
+    - misc/collect.py --image-url 'https://downloads.openwrt.org/{base}/{target}' https://downloads.openwrt.org build
 
 build site for target environment using local directory:
   extends: .build site
   script:
     - cp -R ./www ./build
     - sed -i "s;%GIT_VERSION%;$(git describe --tags);" build/index.html
-    - misc/collect.py tests/profiles 'https://downloads.openwrt.org/{base}/{target}' build
+    - misc/collect.py --image-url 'https://downloads.openwrt.org/{base}/{target}' tests/profiles build
 
 .test site:
   stage: test
