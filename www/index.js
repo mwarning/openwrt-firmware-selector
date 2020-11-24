@@ -84,9 +84,9 @@ function buildAsuRequest() {
           showStatus("tr-build-successful");
 
           response.json().then((mobj) => {
-            mobj.image_url = config.asu_url + "/store/" + mobj.bin_dir;
-            showStatus("tr-build-successful", mobj.image_url + "/buildlog.txt");
-            updateImages(mobj, true);
+            const image_url = config.asu_url + "/store/" + mobj.bin_dir;
+            showStatus("tr-build-successful", image_url + "/buildlog.txt");
+            updateImages(mobj, { image_url: image_url }, true);
           });
           break;
         case 202:
@@ -385,11 +385,11 @@ function displayHelp(image) {
 }
 
 // add download button for image
-function createLink(mobj, image) {
+function createLink(mobj, image, image_url) {
   const a = document.createElement("A");
   a.classList.add("download-link");
   a.href =
-    mobj.image_url
+    image_url
       .replace("{target}", mobj.target)
       .replace("{version}", mobj.version_number) +
     "/" +
@@ -401,7 +401,7 @@ function createLink(mobj, image) {
   return a;
 }
 
-function updateImages(mobj, is_custom) {
+function updateImages(mobj, overview, is_custom) {
   function switchClass(query, from_class, to_class) {
     $(query).classList.remove(from_class);
     $(query).classList.add(to_class);
@@ -447,7 +447,7 @@ function updateImages(mobj, is_custom) {
     setValue("#image-sha256", undefined); // not set by default
     setValue(
       "#image-info",
-      (mobj.info_url || "")
+      (config.info_url || overview.info_url || "")
         .replace("{title}", encodeURI(titles[0]))
         .replace("{target}", mobj.target)
         .replace("{id}", mobj.id)
@@ -456,8 +456,9 @@ function updateImages(mobj, is_custom) {
 
     images.sort((a, b) => a.name.localeCompare(b.name));
 
+    const image_url = config.image_url || overview.image_url || "";
     for (const image of images) {
-      const a = createLink(mobj, image);
+      const a = createLink(mobj, image, image_url);
 
       a.onmouseover = function () {
         setValue("#image-sha256", image.sha256);
@@ -503,10 +504,8 @@ function setModel(obj, id) {
   if (id) {
     for (const mobj of Object.values(obj["models"])) {
       if (mobj["id"] == id) {
-        for (const title1 of getModelTitles(mobj["titles"])) {
-          $("#models").value = title1;
-          return;
-        }
+        $("#models").value = mobj.title;
+        return;
       }
     }
   }
@@ -522,9 +521,7 @@ function changeModel(version, overview, model, base_url) {
         return obj.json();
       })
       .then((mobj) => {
-        mobj.image_url = mobj.image_url || overview.image_url;
-        mobj.wiki_url = mobj.wiki_url || overview.wiki_url;
-        updateImages(mobj, false);
+        updateImages(mobj, overview, false);
         current_device = { version: version, id: id, target: target };
       });
   } else {
@@ -552,19 +549,15 @@ function init() {
         let models = {};
         for (const [id, value] of Object.entries(obj["profiles"])) {
           for (const title of getModelTitles(value["titles"])) {
-            if (title.length > 0) {
-              value["id"] = id;
-              models[title] = value;
-            } else {
+            if (title.length == 0) {
               console.warn("Empty device title for device id: " + id);
+              continue;
             }
+            models[title] = Object.assign({ id: id, title: title }, value);
           }
         }
-        return {
-          models: models,
-          image_url: obj["image_url"],
-          wiki_url: obj["wiki_url"],
-        };
+        obj["models"] = models;
+        return obj;
       })
       .then((obj) => {
         setupAutocompleteList(
