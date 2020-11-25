@@ -33,11 +33,16 @@ or for local accessible OpenWrt builds:
 
 This should do it.
 
-The download link template allows different variables:
+In case different versions use different image_url and info_url values. You can pass them to the `misc/collect.py` script:
+
+`--image-url`: Download link template for the image files.
+`--info-url`: Link template that points to additional information.
 
 * `{version}`: Version in the profiles.json files. E.g. `19.07.4` or `SNAPSHOT`.
+* `{id}`: Device identifier. E.g. `tplink_archer-c7-v2`
 * `{target}`: Main- and sub target, E.g. `ath79/generic`.
-* `{base}`: Distinct path to the targets directory. E.g. `releases/18.06.8/targets/`
+* `{base}`: Distinct path to the targets directory. E.g. `releases/18.06.8/targets/`  
+  Handled by `misc/collect.py` only!
 
 ### Generate OpenWrt JSON
 

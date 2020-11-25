@@ -390,7 +390,9 @@ function createLink(mobj, image, image_url) {
   a.classList.add("download-link");
   a.href =
     image_url
+      .replace("{title}", encodeURI($("#models").value))
       .replace("{target}", mobj.target)
+      .replace("{id}", mobj.id)
       .replace("{version}", mobj.version_number) +
     "/" +
     image.name;
@@ -438,17 +440,17 @@ function updateImages(mobj, overview, is_custom) {
     translate();
 
     // fill out build info
-    const titles = getModelTitles(mobj.titles);
-    setValue("#image-model", titles.join(" / "));
+    setValue("#image-model", getModelTitles(mobj.titles).join(" / "));
     setValue("#image-target", mobj.target);
     setValue("#image-version", mobj.version_number);
     setValue("#image-code", mobj.version_code);
     setValue("#image-date", mobj.build_at);
     setValue("#image-sha256", undefined); // not set by default
+
     setValue(
       "#image-info",
       (config.info_url || overview.info_url || "")
-        .replace("{title}", encodeURI(titles[0]))
+        .replace("{title}", encodeURI($("#models").value))
         .replace("{target}", mobj.target)
         .replace("{id}", mobj.id)
         .replace("{version}", mobj.version_number)
