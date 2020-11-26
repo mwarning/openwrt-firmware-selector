@@ -465,7 +465,7 @@ function updateImages(mobj, overview, is_custom) {
       a.onmouseover = function () {
         setValue("#image-sha256", image.sha256);
 
-        if (config.showHelp) {
+        if (config.show_help) {
           displayHelp(image);
         }
       };

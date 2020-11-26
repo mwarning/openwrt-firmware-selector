@@ -2,7 +2,7 @@
 
 var config = {
   // Show help text for images
-  showHelp: true,
+  show_help: true,
 
   // Path to overview.json file or URL to the ASU API
   versions: {
