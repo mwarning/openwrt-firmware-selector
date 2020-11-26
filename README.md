@@ -31,9 +31,9 @@ or for local accessible OpenWrt builds:
 ./misc/collect.py --image-url 'https://downloads.openwrt.org/{base}/{target}' ~/openwrt/bin  www/
 ```
 
-This should do it.
+This should do it!
 
-In case different versions use different image_url and info_url values. You can pass them to the `misc/collect.py` script:
+Settings `image_url` and `info_url` can also be passed to `misc/collect.py` to be included in the version specific `overview.json` files:
 
 `--image-url`: Download link template for the image files.
 `--info-url`: Link template that points to additional information.
