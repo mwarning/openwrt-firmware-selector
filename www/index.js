@@ -352,15 +352,11 @@ function setValue(query, value) {
   }
 }
 
-// hide all help texts
-function hideHelp() {
+function updateHelp(image) {
+  // hide all help texts
   Array.from(document.getElementsByClassName("download-help")).forEach((e) =>
     hide("#" + e.id)
   );
-}
-
-function displayHelp(image) {
-  hideHelp();
 
   const lc = image.type.toLowerCase();
   if (lc.includes("sysupgrade")) {
@@ -414,7 +410,7 @@ function updateImages(mobj, overview, is_custom) {
     e.remove()
   );
 
-  hideHelp();
+  hide("#help");
 
   if (mobj) {
     const images = mobj.images;
@@ -466,7 +462,8 @@ function updateImages(mobj, overview, is_custom) {
         setValue("#image-sha256", image.sha256);
 
         if (config.show_help) {
-          displayHelp(image);
+          show("#help");
+          updateHelp(image);
         }
       };
 
