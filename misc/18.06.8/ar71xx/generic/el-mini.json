@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-el-mini-squashfs-sysupgrade.bin",
-      "sha256": "0fd72adc317de987c4a218594bf846295d7d3271f573e6aab9dd5eb86fc3b17d",
+      "sha256": "b1116c137ad6ec244725a003171102a1ef3591357e9337dbf57fe6a08566e9b9",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-el-mini-squashfs-factory.bin",
-      "sha256": "1dff00f0fecfe6485375611d097de839ee5e0e4765b631c61cb2397888951bb6",
+      "sha256": "1f004d5e721f166d853efa5a2f3ad3bbd18694d134b4f1f6572f0ba0cf5e99ea",
       "type": "factory"
     }
   ],

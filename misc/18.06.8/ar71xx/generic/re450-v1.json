@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-re450-v1-squashfs-sysupgrade.bin",
-      "sha256": "c2fe9eeaaa5d1741fdeb12ddbd8b146e9b86fbfbd9b6610f277c276dca19c1b0",
+      "sha256": "575fbfd3560d689cdaef80d8edb983d98f63587f53ff20240c9cb889fd8b27e7",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-re450-v1-squashfs-factory.bin",
-      "sha256": "897b914f34890695cf28a431cc1e9225f1c3f1ad2b92287b2adbcaa02bdb510a",
+      "sha256": "fadfea6d4b540d8529bd7facb41f00253729576dd52b5262ccdf71031c039f88",
       "type": "factory"
     }
   ],

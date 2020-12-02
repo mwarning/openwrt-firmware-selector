@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-arduino-yun-squashfs-sysupgrade.bin",
-      "sha256": "46609a39288ee1b70b3fa53340af344887499b832a9456e40ae4c97afda4b191",
+      "sha256": "52bb4925deb396b620bdd3ae502361f8b5374bfc814530762e31156a7b88b447",
       "type": "sysupgrade"
     }
   ],

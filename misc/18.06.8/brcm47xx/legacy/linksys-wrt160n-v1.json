@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-linksys-wrt160n-v1-squashfs.bin",
-      "sha256": "0cf2b8f1c87d3376652d9fd7f616647792bf9dde5594996cf1b034bc5c897f14",
+      "sha256": "24d06de99befa19b48c1cd55f6ea238da0380b4c8771fac9b1dc83996de86cf3",
       "type": "bin"
     }
   ],

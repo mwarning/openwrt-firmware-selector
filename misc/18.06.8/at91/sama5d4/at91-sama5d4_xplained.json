@@ -36,27 +36,27 @@
   "images": [
     {
       "name": "openwrt-18.06.8-at91-sama5d4-at91-sama5d4_xplained-ext4-sdcard.img.gz",
-      "sha256": "da397f447972d263acf8346b1dfb3f65212ca753f6611bbbc05c493f13928d4e",
+      "sha256": "eeaa3d1e2575117f7577f165052741bfb357b80835d1829a5e9bfebde5a8074f",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-at91-sama5d4-at91-sama5d4_xplained-ubifs-root.ubi",
-      "sha256": "8aada3bb33038dbfd997d4ce50e67e0e7c96ee5e87e656632d55513d0aa4c7aa",
+      "sha256": "3efb268cc10303d0756a01e9b431678fca1cb68b4807ef9f7debed178f3f4298",
       "type": "root"
     },
     {
       "name": "openwrt-18.06.8-at91-sama5d4-at91-sama5d4_xplained-ubifs-zImage",
-      "sha256": "3fc17939fc8d791f1ee85238f72fb52e4051e3e0676b1986cd09034648a1cfc3",
+      "sha256": "7277b71e9953e82f8aab36ea4beb9c0037b49ee5986b6f9a577970b5ab3d0c87",
       "type": "zImage"
     },
     {
       "name": "openwrt-18.06.8-at91-sama5d4-at91-sama5d4_xplained-squashfs-zImage",
-      "sha256": "3fc17939fc8d791f1ee85238f72fb52e4051e3e0676b1986cd09034648a1cfc3",
+      "sha256": "7277b71e9953e82f8aab36ea4beb9c0037b49ee5986b6f9a577970b5ab3d0c87",
       "type": "zImage"
     },
     {
       "name": "openwrt-18.06.8-at91-sama5d4-at91-sama5d4_xplained-squashfs-root.ubi",
-      "sha256": "9e984b9e225bdefa0400df116f0fdc6c43258967ede204dee233cfcd8611e173",
+      "sha256": "77f3df41da113f58721f17799c7651e021068a670083675ea81dd574d764e08d",
       "type": "root"
     }
   ],

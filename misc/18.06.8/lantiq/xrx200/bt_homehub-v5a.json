@@ -49,7 +49,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-bt_homehub-v5a-squashfs-sysupgrade.bin",
-      "sha256": "0b6c89d7df35d6495df2347fefe77744c20b5ccef888762c49ccafb09f628f72",
+      "sha256": "bf62c5f5431a149ec464025dee6966269bf9e3c19a0d7399d4a3e0baefddcf59",
       "type": "sysupgrade"
     }
   ],

@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-rt288x-f5d8235-v1-squashfs-sysupgrade.bin",
-      "sha256": "270f645b17a00cfee38bb9881fe7522f378d151e9b9c583073fe48325f4d16b3",
+      "sha256": "9bc344dc80b5444a5f3fc1a2716dac263c6f1b0a8bd24c1f2d16c4dd1499bfae",
       "type": "sysupgrade"
     }
   ],

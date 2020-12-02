@@ -47,7 +47,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-mikrotik-nand-large-ac-squashfs-sysupgrade.bin",
-      "sha256": "6fad5b2d913eeae420003ee352beb837c386f86968430a240bf15b62988014c9",
+      "sha256": "7645c7bff9d1b20b017205ad2dcaa55b8cfa6e58cbf924fb107745cf1a1c8e19",
       "type": "sysupgrade"
     }
   ],

@@ -55,7 +55,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-asus-rt-n18u-squashfs.trx",
-      "sha256": "bced7f18e348a62fe1caff839660513c5f6012fa795a2ab6f60b46a91b9006d9",
+      "sha256": "2ae2c57f94e6ac3691d4d1b569502abfbe292fd99a6fda8c7c6c10f71f6501f2",
       "type": "trx"
     }
   ],

@@ -44,17 +44,17 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-mir3g-squashfs-kernel1.bin",
-      "sha256": "8bcaf7770684980240d72f9dadb3b9468842dc6f1fb31c3835e718bfa8b60bc9",
+      "sha256": "2e303334f2b910bd86f90d58eb5aeebcbe5c7bc652f3cc0cb4d6717ad4bb6429",
       "type": "kernel1"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt7621-mir3g-squashfs-rootfs0.bin",
-      "sha256": "6d2bac5eccd19a79b4e64ac6dfbdd76a86a037ba0ab3bd28a1302fe18d851f2e",
+      "sha256": "314e9d49a4e94b445b304f212610fa03e059896d088cf8e1c1464990721774fe",
       "type": "rootfs0"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt7621-mir3g-squashfs-sysupgrade.tar",
-      "sha256": "83534f050348acf47d47d714eae81f5c548c2511b8247e62c15505a92a852acd",
+      "sha256": "9dd6bf119b970b367b0d784ffb35fb08a01cdaa6b87b446c261f3535862d193b",
       "type": "sysupgrade"
     }
   ],

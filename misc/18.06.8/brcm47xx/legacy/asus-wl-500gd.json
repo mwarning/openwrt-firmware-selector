@@ -52,7 +52,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-asus-wl-500gd-squashfs.trx",
-      "sha256": "c3ef8b195fa8b776899417e6b7e154f6310946cb5dc643277bf063c4a91f18c0",
+      "sha256": "6e56477ffc71dba44f885eb62f69ca9f5ca330436b76c39675045c8b16c972d5",
       "type": "trx"
     }
   ],

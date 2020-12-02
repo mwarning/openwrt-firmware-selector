@@ -51,7 +51,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-asus-wl-300g-squashfs.trx",
-      "sha256": "4b3e05101494304a1bed59633f8c9f89afabc27ca261328e0ac228c37b73e91f",
+      "sha256": "79560b7892a899e18e2902a5aaa505e28a44be502f2d3d448dc08ede333867b6",
       "type": "trx"
     }
   ],

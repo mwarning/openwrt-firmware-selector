@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-AD1018-SPI_flash-squashfs-cfe.bin",
-      "sha256": "6bfca772c44bddc9c377ee456afea572d55c59a2fe1709d3357d441fa9448721",
+      "sha256": "51a72d75797e71b558ec0103bce4101fbc1b4dc1b9a8197b30ac8fdbb3d71af6",
       "type": "cfe"
     }
   ],

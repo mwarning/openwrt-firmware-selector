@@ -58,7 +58,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-netgear-r6250-squashfs.chk",
-      "sha256": "9e621ca5980d8e55dddd77bddd5dd1ca7c7977bebc2a682e3e335945b582b466",
+      "sha256": "9c328d27b70efe7acdfba0bcbc6cde7372590351ea6af8959ed051524b9ab751",
       "type": "chk"
     }
   ],

@@ -41,12 +41,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun8i-h3-orangepi-pc-squashfs-sdcard.img.gz",
-      "sha256": "092da57188e2d6921a3bfbee646dd2497438c6193ef99b726335f98580f3a852",
+      "sha256": "74170be2c7210cf6155074d7cb7158f2d2b721707e72ad8e81cf0a3b03684d10",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun8i-h3-orangepi-pc-ext4-sdcard.img.gz",
-      "sha256": "aa1412128006643b6407010eed63f6545da1ab441e8432d61fd4b0c3e6afcec1",
+      "sha256": "492a19a90c4ac7fd4b882eec971387cf04ab3ad671388d5d46e0563d0e0682ab",
       "type": "sdcard"
     }
   ],

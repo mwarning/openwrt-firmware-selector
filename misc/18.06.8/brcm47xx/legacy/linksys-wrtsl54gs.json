@@ -52,7 +52,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-linksys-wrtsl54gs-squashfs.bin",
-      "sha256": "0c5ae4151fbfbd0aecd9c994432fc60de51466e63a587e6ac4f6057eec5b58c2",
+      "sha256": "419a8445e5104446ecf45547a225931a046f18aabf6007d3aa340b13b53f783d",
       "type": "bin"
     }
   ],

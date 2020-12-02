@@ -39,17 +39,17 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr840n-v2-squashfs-factory.bin",
-      "sha256": "2bf9f7a6f19962cbce71c58fa8d0736c01c9c77396a8abacd076f1ffbf2c5450",
+      "sha256": "2251c10228e5ec32ffad2e6bdec703f78efe79ed5a3bd55c2d3ccc42448d74be",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr840n-v2-squashfs-factory-eu.bin",
-      "sha256": "25554dfaccea682d32ecc3e01ed66ee5c0fd13cc9118e01bcc605b061b964307",
+      "sha256": "f95e8fe6fa2f745a12a7648eba6ab349f9bfe03da5a4e77d9de75bbc65e560b4",
       "type": "factory-eu"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr840n-v2-squashfs-sysupgrade.bin",
-      "sha256": "678d474d0b16b8c8619ea7945bad998b5209ecf1d69eb7441c08989ab4992d62",
+      "sha256": "8960068b995c48cfa9a3299547b8a61f3c10f61a7576d2df4b220fb9c94ba9a8",
       "type": "sysupgrade"
     }
   ],

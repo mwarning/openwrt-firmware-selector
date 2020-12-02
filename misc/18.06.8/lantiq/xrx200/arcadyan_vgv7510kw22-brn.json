@@ -48,7 +48,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-arcadyan_vgv7510kw22-brn-squashfs-factory.bin",
-      "sha256": "aac7315420f4e30509727ba59536130e530d3fe9997adadbdc88f096cdad5d2b",
+      "sha256": "c6dad5d15046b3769d16d2504e8e7771b3ab21446fcd18f3b21bb612f94dd230",
       "type": "factory"
     }
   ],

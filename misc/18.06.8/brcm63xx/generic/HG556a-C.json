@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-HG556a-C-squashfs-cfe.bin",
-      "sha256": "73995315862743eca5cd2fc074e25dec4ef9718d4dd0a3ee9b05985c21fed7cb",
+      "sha256": "1329e60e330fe13c95ca82914e5e03b987621073931cd6023113ac83d9ab4540",
       "type": "cfe"
     }
   ],

@@ -46,12 +46,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-nand-hiveap-121-squashfs-factory.bin",
-      "sha256": "98e67226c8e492e3531656821f29c08a40f49a558777ae5df50fa505fe961890",
+      "sha256": "3f6605d783f2909a10c9f44707dea6953027c4aa9adf3c861a2990b3b75cb2e0",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-nand-hiveap-121-squashfs-sysupgrade.tar",
-      "sha256": "b2539aaa0465c563a030f94c4727bbad3f85cdb16e77da3d632e2aca199e0a80",
+      "sha256": "5a059845ac2e0a1f2189e23522bb789f88e75c761af2aa7894c2d4a0221766de",
       "type": "sysupgrade"
     }
   ],

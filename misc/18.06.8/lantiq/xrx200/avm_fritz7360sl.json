@@ -47,7 +47,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-avm_fritz7360sl-squashfs-sysupgrade.bin",
-      "sha256": "d4141d041dc5dc63a149e345daf92faf9114b578492149db6ebd5dfd25014fca",
+      "sha256": "ace1d438cd27a9461d55cefe5aa6e75d002c2153c0c13e14e46f8585b3c352cc",
       "type": "sysupgrade"
     }
   ],

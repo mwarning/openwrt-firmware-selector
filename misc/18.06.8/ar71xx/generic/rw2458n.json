@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-rw2458n-squashfs-sysupgrade.bin",
-      "sha256": "61bc9fbc8a85328b04d4bcd381e4be0f04b3e24f2104e8a49f5c7c3b6a52d947",
+      "sha256": "8631f789135077dfa5331bcd280507ab4513e697a45bd5def93760efe00b4035",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-rw2458n-squashfs-factory.bin",
-      "sha256": "29ddd5df6f21c8fc72e8229c200448cf362acacaeb8bd56912125d065c07f682",
+      "sha256": "be408b650bdc642d8d4bbd028db4429dd516567b432810fc0063fcb1e2306104",
       "type": "factory"
     }
   ],

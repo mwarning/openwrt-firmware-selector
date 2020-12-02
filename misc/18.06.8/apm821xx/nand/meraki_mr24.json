@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-apm821xx-nand-meraki_mr24-squashfs-sysupgrade.tar",
-      "sha256": "3508114c84b982effe11bba37e65979602b338467f11226b85b11acf18bbc3be",
+      "sha256": "beae059873ae342c93bd87dcec1bfe969c611fddd44ed50886863377d2aa00ee",
       "type": "sysupgrade"
     }
   ],

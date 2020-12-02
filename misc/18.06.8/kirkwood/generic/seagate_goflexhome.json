@@ -32,12 +32,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-kirkwood-seagate_goflexhome-squashfs-factory.bin",
-      "sha256": "85c6ff0ee82ff7ee60af9abe1fe114f527ec1537698abdade245a59e55aa6481",
+      "sha256": "9dc5c9765b3665386f980a6f78baea316fbbc31732bea7951d2b5ff5e0d23706",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-kirkwood-seagate_goflexhome-squashfs-sysupgrade.bin",
-      "sha256": "d8e0a16ce1ea550485605a3b31e565c8a523f648079ae1954c1257de5a843570",
+      "sha256": "e1708649d0598ad96a83f26623ef4e64f64e86f84ea4e43b64608cc4bb33a517",
       "type": "sysupgrade"
     }
   ],

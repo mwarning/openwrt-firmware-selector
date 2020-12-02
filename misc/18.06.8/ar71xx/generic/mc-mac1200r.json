@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-mc-mac1200r-squashfs-sysupgrade.bin",
-      "sha256": "67fc54f3365754035fe94766584d7bfa8c0154a98eaf3c249e40228e5204735f",
+      "sha256": "f40bb92e244bc7f54da47984fb6edebf95a93e234d15389b107897eab18ea323",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-mc-mac1200r-squashfs-factory.bin",
-      "sha256": "4d32f0953f90d9005260b10f67093648998ea3065fbb19717ddd6a045e95d8bb",
+      "sha256": "658f0ef26bd604952932dc80a9d0e1babaa1624c320ee714b4740264bc8c75ec",
       "type": "factory"
     }
   ],

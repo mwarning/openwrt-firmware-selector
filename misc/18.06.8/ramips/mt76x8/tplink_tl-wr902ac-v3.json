@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tplink_tl-wr902ac-v3-squashfs-tftp-recovery.bin",
-      "sha256": "43a4bd8445e2f4e734df81a049cb3885aeeface06ae85d075ed1af9985aa1451",
+      "sha256": "718145fae5811dc2111881d934689e05b40214bb3767192a97401701cc325233",
       "type": "tftp-recovery"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tplink_tl-wr902ac-v3-squashfs-sysupgrade.bin",
-      "sha256": "ada5682b7b8277de0ff3cf39c67bbe6a6992fe96daa8e9caa52c395c75478b7d",
+      "sha256": "08120ad9acbabf1322cd6482669468748b4e20daf61e653ffcf6c5a7a94e2094",
       "type": "sysupgrade"
     }
   ],

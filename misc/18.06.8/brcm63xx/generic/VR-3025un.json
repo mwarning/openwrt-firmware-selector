@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-VR-3025un-squashfs-cfe.bin",
-      "sha256": "baa19d1845be70dd728ffde05d7571968774ac9e6e0c364fbef8913342eaa7d8",
+      "sha256": "122d523097859824d77209009d4148d7a374605e80f95dadc24ea3e365e0d8bf",
       "type": "cfe"
     }
   ],

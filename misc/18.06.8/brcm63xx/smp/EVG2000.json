@@ -40,12 +40,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-EVG2000-squashfs-sysupgrade.bin",
-      "sha256": "30349361b15dce88d9441da9a05802bef54bfe014c8fcb4165ef18c33e0379c4",
+      "sha256": "9c5ec4792a2268136b5750f558313101e0a3297cd0ec3e8b391ec69208eeec40",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-EVG2000-squashfs-factory.chk",
-      "sha256": "4e222d7bb6a5bd5a2d45f29234769126bacd5b1456edc75ddfb1645a85ec0ed3",
+      "sha256": "592d50a8633c9038bdd816e36abcbeaaf5a98bae6d5c74a32c59b038414156c6",
       "type": "factory"
     }
   ],

@@ -38,12 +38,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa53-sun50i-h5-orangepi-zero-plus-ext4-sdcard.img.gz",
-      "sha256": "c30295627d0b0c5f4b4de894961aa6c85bb0405de7c4f7c11d10c59551e7aa6c",
+      "sha256": "2ec78ed2e5065bac79e1c3751a0231ff4f5a80e4509025bbb2d0da144394cd0a",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa53-sun50i-h5-orangepi-zero-plus-squashfs-sdcard.img.gz",
-      "sha256": "9879ca6e2b6c33a8ce1676b8173435f0adcfa5cba9dabeb2bf2e447eab4a9bb7",
+      "sha256": "0ea44cf0322192a1b4411d37ddaa8f188d3eb5efa929bf22c539d12c2f596eee",
       "type": "sdcard"
     }
   ],

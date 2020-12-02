@@ -32,12 +32,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-omap-omap4-panda-ext4-sdcard.img.gz",
-      "sha256": "24a85ba1a7fc0fe3c2ac59a7e622c2d8c21c52fa1806cd11be2c8298ba104e6b",
+      "sha256": "335a83004a333da56065402b994721fe6fda18c25c08616fc1647e6d852ab213",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-omap-omap4-panda-ubifs-sdcard.img.gz",
-      "sha256": "0a9486230c5837bc81c1727b83a00aeeb9aa1655b8bd10aea88e081ccc85fc90",
+      "sha256": "bf8009a7a26910d7cde1392aef44583d000ff5aac6d3c45aa83cc4308c7d3ad1",
       "type": "sdcard"
     }
   ],

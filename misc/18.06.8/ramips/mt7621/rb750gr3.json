@@ -39,7 +39,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-rb750gr3-squashfs-sysupgrade.bin",
-      "sha256": "2fa30283042695905e3732f8fa26064a67642bfc7b6fc8e5187779bb53585e8a",
+      "sha256": "eeb4dc5445a0c0b5d18fee358170d197c887f808de7e40047645260d346f0467",
       "type": "sysupgrade"
     }
   ],

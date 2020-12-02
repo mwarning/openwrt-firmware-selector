@@ -51,7 +51,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-motorola-wr850g-squashfs.bin",
-      "sha256": "a088fde82924f2d8bf947cac87dd01ac326c48888a00afefaaaba4eddaf76897",
+      "sha256": "a2548017bfb185ba1c01c31d25391750807ac4b8b2e3b13557eb830f1717583d",
       "type": "bin"
     }
   ],

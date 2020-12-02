@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-HG520v-squashfs-cfe.bin",
-      "sha256": "4f1af6e0ffaec3f007910800e23c93839952a5df3963addaaf8eba242bb2c86c",
+      "sha256": "d736cdda075da5d37394027f46d64d1a831cb5c2caefada9d9d29a9ef74e2fdb",
       "type": "cfe"
     }
   ],

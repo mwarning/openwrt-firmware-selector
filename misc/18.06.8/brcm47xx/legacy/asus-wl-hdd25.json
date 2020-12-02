@@ -52,7 +52,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-asus-wl-hdd25-squashfs.trx",
-      "sha256": "486a63f29d1a08cccbadb453c3c3e1929b84d78cc283b6a96f29ad279b7dd9a7",
+      "sha256": "00c0f0e81effe266696e2ecca560555ffc4fcaf3601729356d0d4f7a59546f06",
       "type": "trx"
     }
   ],

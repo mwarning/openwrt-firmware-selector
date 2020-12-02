@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-omy-g1-squashfs-factory.bin",
-      "sha256": "cc8fe1bb48f714f25b9a7b84dd3e7cc4f7005a8ed07f65a6786870d5fc2ec586",
+      "sha256": "c8676ab4e30061865667c2ef82b5c70cda762198c05b54b802329feebed08b0d",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-omy-g1-squashfs-sysupgrade.bin",
-      "sha256": "01019a20e6da9274141d42bb0f703bea1d4585e08e01a124522fabe143c1320d",
+      "sha256": "5d5fe29eb646eb723a5cf21b2abd7a03ea46b1baeebf9da714a3d434b7d689df",
       "type": "sysupgrade"
     }
   ],

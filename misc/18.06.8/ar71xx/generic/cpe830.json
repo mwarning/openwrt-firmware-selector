@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-cpe830-squashfs-sysupgrade.bin",
-      "sha256": "5558d7108947d0020693295f8c99d211b878d018fe88cf107c64b77a1d7b8d70",
+      "sha256": "aac103281ab80d5f2d529c1f518a86ac456c4cb4ab32844f2d30d2f25fd771ac",
       "type": "sysupgrade"
     }
   ],

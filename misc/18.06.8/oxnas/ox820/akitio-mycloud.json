@@ -42,22 +42,22 @@
   "images": [
     {
       "name": "openwrt-18.06.8-oxnas-ox820-akitio-mycloud-squashfs-ubinized.bin",
-      "sha256": "a8d08cda65f69a7616e0a0c36ed88e6019a9498db5334733ab44a12078fac050",
+      "sha256": "72ae6f9958808e507c72857fce4c0dcc543654a9cc0374658aca62848bdf51e4",
       "type": "ubinized"
     },
     {
       "name": "openwrt-18.06.8-oxnas-ox820-akitio-mycloud-squashfs-sysupgrade.tar",
-      "sha256": "7ed05bc15a8c4051660bac76e40a400c8a66abe10682ac99ab3437bdc78eee02",
+      "sha256": "34750f167baaa77771d5577b2f7406f515e526aba22759818bd3cc96e019162c",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-oxnas-ox820-akitio-mycloud-ubifs-sysupgrade.tar",
-      "sha256": "7a273e2b03f742986fa0f83c4e54aea987feb6beaff9c1530eb86042d97e4422",
+      "sha256": "03bb2edf3b37dadd534240b6623269a3198b6cd47aefc2340a4178f27951ac97",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-oxnas-ox820-akitio-mycloud-ubifs-ubinized.bin",
-      "sha256": "58f1e31a8d57150af6975ab9016efd140324067f1d68ef34557f5bc051c42cf5",
+      "sha256": "4fd693f3af8dd6deba40d88b791987acc941a261d5198dd459bbd32637705f63",
       "type": "ubinized"
     }
   ],

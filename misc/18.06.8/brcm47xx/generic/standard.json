@@ -52,7 +52,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-generic-standard-squashfs.trx",
-      "sha256": "95ba3524b56a44e515bf04b509851097eb5f1b6fbd9917586c867b03392d5195",
+      "sha256": "e32a40cf421ba16b6281941ab258224239c4b0158287910497dc20329071c0ea",
       "type": "trx"
     }
   ],

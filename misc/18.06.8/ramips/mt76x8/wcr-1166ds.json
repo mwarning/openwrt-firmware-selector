@@ -38,12 +38,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-wcr-1166ds-squashfs-sysupgrade.bin",
-      "sha256": "34c871d06678da2fbae76403b9676b7eed41f732fc6618ba3b32a88d62fd35a3",
+      "sha256": "0a662daffb6735a51473c3a877a89f12bad35e10f89bad1c96b9e75e288cf577",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-wcr-1166ds-squashfs-factory.bin",
-      "sha256": "c520948d0d3aed23147f01e6a4f1d813dae0400fe42cfcca03784265a73b71d6",
+      "sha256": "3475e85168ce460029b9bb91762c46a898834df9ec2367918a6055d0ec687f32",
       "type": "factory"
     }
   ],

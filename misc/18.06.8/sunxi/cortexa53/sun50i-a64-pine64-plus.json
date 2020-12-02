@@ -38,12 +38,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa53-sun50i-a64-pine64-plus-ext4-sdcard.img.gz",
-      "sha256": "427e79917c9bb5ec90b99ae4ec4de5ed2ba7b10c2cc66072656549ae7b453798",
+      "sha256": "abc1077e3c59c91a4a289dc1591dc83414d392b8677795b9e24b038a1733696c",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa53-sun50i-a64-pine64-plus-squashfs-sdcard.img.gz",
-      "sha256": "b8e878161f6cffc5062c713f48194af83fa9161a1cfb834fec1c519015132161",
+      "sha256": "e6c65a6e00c3f78800fc8acfff5871580bc9937451046d65c93f68803123b50c",
       "type": "sdcard"
     }
   ],

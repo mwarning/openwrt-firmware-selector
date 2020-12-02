@@ -48,7 +48,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-mips74k-netgear-wnr1000-v3-squashfs.chk",
-      "sha256": "87d47eb4d36ae3a9af6976042ed89bebb26bfb712661938d3f95fb0e680e3bcc",
+      "sha256": "07213721728468d2988adf7407f36724e7b33b5fdbbaeb96ebcc9ce0fad9a17b",
       "type": "chk"
     }
   ],

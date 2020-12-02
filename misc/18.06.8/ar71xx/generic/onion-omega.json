@@ -50,12 +50,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-onion-omega-squashfs-sysupgrade.bin",
-      "sha256": "57eda4366126b36f2e52cce72306337b1b9ac9e6fbaace9cad4c92326f3ca001",
+      "sha256": "36a99e1a5cf36400804e2e91252f579d81eff301bf3a0293d7ae82f0f60e3038",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-onion-omega-squashfs-factory.bin",
-      "sha256": "f6acfd9a379c2392e075177927f50e4ee26c2ef0e5f2a21c5701d86e564128d8",
+      "sha256": "54337200c7b45ab9b0f18061f4f54c8e4626ea61b181376d2c6b98ae474bf4eb",
       "type": "factory"
     }
   ],

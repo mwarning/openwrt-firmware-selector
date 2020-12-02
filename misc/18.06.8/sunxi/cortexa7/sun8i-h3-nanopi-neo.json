@@ -38,12 +38,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun8i-h3-nanopi-neo-squashfs-sdcard.img.gz",
-      "sha256": "a4ee8a00e7a3270bb1feeb09383394782fd9bbde0dbcccce899035727a7ab3ec",
+      "sha256": "65c1539f37f896343aafbdacb633a93ea27853248ad2af502e1ff2c17a036708",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun8i-h3-nanopi-neo-ext4-sdcard.img.gz",
-      "sha256": "34ba0164a67d15fe766075079a6d8e4ebff224ee2669b53f8101fb02f16acbbb",
+      "sha256": "229df353ca113dd273db7c5865047886e1019a4f90288e060cef295f8e108607",
       "type": "sdcard"
     }
   ],

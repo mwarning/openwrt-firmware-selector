@@ -33,17 +33,17 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-963281TAN-generic-squashfs-cfe-16M.bin",
-      "sha256": "d45fe269cf22d0728abb1399d5eb79096aa6eefed4e430e6bf5a8de0e33739cb",
+      "sha256": "0b2c0742291a78e6873c3ee378062289f03e84feeed81e74a4878e781c85f29a",
       "type": "cfe-16M"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-963281TAN-generic-squashfs-cfe-8M.bin",
-      "sha256": "1bb72fb6aec872280750d757c55a32437efc116da0c36b31827e099e42eabcd2",
+      "sha256": "45f6547c7b778427dbe45c4423d9b5f6fe4e712fe14c3517fd9748c22ab7f8df",
       "type": "cfe-8M"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-963281TAN-generic-squashfs-cfe-4M.bin",
-      "sha256": "aa2cb61cf2823aed310e742542917576d54992af368f76cbd195756dcc43059a",
+      "sha256": "ddeea5ac857d9278394a8346aab375714ba55c35729421b66a393ccd5b0f7357",
       "type": "cfe-4M"
     }
   ],

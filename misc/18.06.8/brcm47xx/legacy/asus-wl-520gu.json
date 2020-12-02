@@ -52,7 +52,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-asus-wl-520gu-squashfs.trx",
-      "sha256": "c87ae495225486baadce42eb8dc539db186673f380633ffac7dc8523208996ed",
+      "sha256": "f837eaba40b815d6fb0aeccd1f67d7ff448441e236fbef9d3408d7336ec81b8e",
       "type": "trx"
     }
   ],

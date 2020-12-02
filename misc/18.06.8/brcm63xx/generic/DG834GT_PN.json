@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-DG834GT_PN-squashfs-cfe.bin",
-      "sha256": "cc1eb156c99085c1074bfeb32fa2cc3e72a03a6217ea9d30decec8ffd509429f",
+      "sha256": "7129a312af542892eceeb5fb45f1a94e0087622b5924b2438cf8e637718be176",
       "type": "cfe"
     }
   ],

@@ -33,7 +33,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-96358VW-generic-squashfs-cfe.bin",
-      "sha256": "820cab9db8c10dcd99438ac2acc231913f8a6f22b6db27fb4da9fb82eb79ccb7",
+      "sha256": "c5a9e2831e4d205f0252fded48b73de549363d6a0fd1a3cdd04687124a2fbef6",
       "type": "cfe"
     }
   ],

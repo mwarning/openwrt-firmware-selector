@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-re6500-squashfs-sysupgrade.bin",
-      "sha256": "d4d1fc753e16df6b8a8d94a279fcb10d57ad40c0d8cb8f2c4b0109cce0e5e844",
+      "sha256": "bc3b72ee78f514e4d6d188bc4830d90052c7ed7e3dc2f08e3ce9a8b8fbd1fc1a",
       "type": "sysupgrade"
     }
   ],

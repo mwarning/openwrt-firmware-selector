@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-wpj342-squashfs-sysupgrade.bin",
-      "sha256": "c020634c6f3af1151ea18d9cce607fb1a0f48bdb133023afb959750d996ea018",
+      "sha256": "c6026a04655ad7c31a5eb13cf200ccdcae81e7ed5ff46669e011093d895b8c96",
       "type": "sysupgrade"
     }
   ],

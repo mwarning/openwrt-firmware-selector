@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-packet-squirrel-squashfs-sysupgrade.bin",
-      "sha256": "40dfdf6adfa9415875eac881a2cdd7abf408a2c71d70d72fb2b09598da8b5aa6",
+      "sha256": "ec2480ba06e088c144949402886b5ca2795d128108f652253f5e4b60ac0ec7f8",
       "type": "sysupgrade"
     }
   ],

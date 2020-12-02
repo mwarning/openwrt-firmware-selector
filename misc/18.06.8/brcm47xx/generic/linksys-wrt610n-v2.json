@@ -53,7 +53,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-generic-linksys-wrt610n-v2-squashfs.bin",
-      "sha256": "dc7aeab967f69eb68f5b0773fd8867cf430fa1d6a9d3d887f8046553f6cbb61a",
+      "sha256": "69894cdbc21b8df46d5db0ef4665c8de1c962ffab946af7168a6e602ac6aeef3",
       "type": "bin"
     }
   ],

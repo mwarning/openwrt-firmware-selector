@@ -32,12 +32,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-kirkwood-raidsonic_ib-nas62x0-squashfs-sysupgrade.bin",
-      "sha256": "f677627e21fd999aec9e30dc422faebed4d551929e53f04e2fd8811ec1a6e1d5",
+      "sha256": "0e75b29ba94adcdd2177e673963f9342069b037044bcffc0af09e7ca51d8db47",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-kirkwood-raidsonic_ib-nas62x0-squashfs-factory.bin",
-      "sha256": "27d136ead8600e9d558c58e6596930befe3f6e1a0a2538cd73e703f931b4399e",
+      "sha256": "7a7a018456ace9ba07e567f562b13f928971d5c341b37b034d9e4ddcdbecc9a5",
       "type": "factory"
     }
   ],

@@ -37,12 +37,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-R5010UNv2-squashfs-cfe.bin",
-      "sha256": "cb933f82f5b19438d25f505b9c33e906e57f2343083df7e4bec0ee4aa230e91d",
+      "sha256": "1d61df7a6a1c2716b0d1e16f5979e3053dd9c37922201018256d3830fa3887ab",
       "type": "cfe"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-R5010UNv2-squashfs-sysupgrade.bin",
-      "sha256": "20b77cb04455ab031b0f4fffc2d7b4a8eb8d06f7f0301b2cd75686d5bdb146bb",
+      "sha256": "5414fe5cd02d5d7217d2500dc506a3b8879268a952614f9a2e1cd12ecf3b46a2",
       "type": "sysupgrade"
     }
   ],

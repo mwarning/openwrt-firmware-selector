@@ -34,7 +34,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-octeon-erlite-squashfs-sysupgrade.tar",
-      "sha256": "e5573104f7eda97a99733d7e2b8491d5aca2dbc5499015d5db17a45dcead161a",
+      "sha256": "97e1f5a2d3beb56fb93b48d4f74f9795abea0678d5d088d1987206c113eb6b06",
       "type": "sysupgrade"
     }
   ],

@@ -48,7 +48,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-standard-noloader-gz-squashfs.trx",
-      "sha256": "a71f47c3772e6ba3779f0f41fba74601fde347ab9badec619de9960f602a1006",
+      "sha256": "cac9002260f8bbfb506226039eacf6d92d2604d5b8de305f5ac3b9487ef99230",
       "type": "trx"
     }
   ],

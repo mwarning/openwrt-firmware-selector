@@ -35,12 +35,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-at91-legacy-tny_a9260-squashfs-factory.bin",
-      "sha256": "6f83ce55833610666af3e4919fa82f1f52f0f863257286d765fa4cb541139fc2",
+      "sha256": "ed6af5d3ebabb5b4fce85c72d76e219892e481396ca4353101c3d2a552139b02",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-at91-legacy-tny_a9260-ubifs-factory.bin",
-      "sha256": "f1f835499778e3a72033709b42fe7a26a5143fb7486b628acc400f6b65845b82",
+      "sha256": "9ef4e79e18e3026cc336f83b486ca6008aa23b8cac75f8c9c6aae446d1d3bd8c",
       "type": "factory"
     }
   ],

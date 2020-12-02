@@ -39,12 +39,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-rnx-n360rt-squashfs-factory.bin",
-      "sha256": "c74e2e25b5697d2da44047798974591ea9bafe7345489e65134fcbaac49f29f2",
+      "sha256": "3d0ece8b88a86b263578db35bb08ab1584464e960231ba2084535b0022157d5a",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-rnx-n360rt-squashfs-sysupgrade.bin",
-      "sha256": "2c071d3592150ec63ea7e43bccebd9ecb1d773b672bf1d7805c90fdd27291f99",
+      "sha256": "bf3100c778e35903f22863fd80b0d185df9c1699a2c6d9c06bbc9625708fb8b1",
       "type": "sysupgrade"
     }
   ],

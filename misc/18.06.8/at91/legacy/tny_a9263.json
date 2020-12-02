@@ -35,12 +35,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-at91-legacy-tny_a9263-ubifs-factory.bin",
-      "sha256": "3c00a7bd1ba528668f1829a08daa8d069cfe5d21fd1e59f43406864ae1e9b561",
+      "sha256": "5fea4b1d437ab63bc890fc6c40e4bda939ad1ad660de7d6db7feb99d50fbe9e9",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-at91-legacy-tny_a9263-squashfs-factory.bin",
-      "sha256": "5c43bd600061c3550aa3bb42cd50012bf439a47b0a4d9694b5d59daec328b285",
+      "sha256": "01a2128d9d41fea0500bd1218f822d2cec07282b8a61b1b3f4599d4dcdcf96e3",
       "type": "factory"
     }
   ],

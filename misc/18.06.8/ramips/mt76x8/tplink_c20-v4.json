@@ -38,12 +38,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tplink_c20-v4-squashfs-tftp-recovery.bin",
-      "sha256": "21673b6f5242e9c3fd2b014868a9d916658599435dc9b48dcec18af8849fdb7e",
+      "sha256": "4bfbf6aecf65a214a1463dfcbf2915ff60b11555cd8d10ee7c3c96bd1b9b5b30",
       "type": "tftp-recovery"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tplink_c20-v4-squashfs-sysupgrade.bin",
-      "sha256": "23efb29ad24222fa1a3743acf6cb162276016a17a5cd52316600cf3ba6fd7f8a",
+      "sha256": "5588d2d5cfa9a01b3c942ab7daf3c1b20e0689ff71deb19995d34abb9d92da8a",
       "type": "sysupgrade"
     }
   ],

@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ap91-5g-squashfs-factory.bin",
-      "sha256": "94826b8d1f449e753f2041ac5e19034e8354f10963c48419f517851b57d1ff0f",
+      "sha256": "9d665679554208dedc5bb8699f8e9c03139b8ce13f983741057c5bb8f5b9c074",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ap91-5g-squashfs-sysupgrade.bin",
-      "sha256": "52d3202aca7884a03525b9c44b5cda75ec12d145380e3eb0368920949bb3a1cf",
+      "sha256": "90237c2c963b6797daec08ed666b22cc08f830e3a80a886e832421ebdb5de48e",
       "type": "sysupgrade"
     }
   ],

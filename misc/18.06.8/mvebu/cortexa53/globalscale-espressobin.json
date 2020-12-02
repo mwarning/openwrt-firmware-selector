@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mvebu-cortexa53-globalscale-espressobin-ext4-sdcard.img.gz",
-      "sha256": "549485e8511a6e40ed0eaed17b240a3be48cc8a940d76b63bc66d070598340a2",
+      "sha256": "3606ace236eb02e69700b51565ca23f9c40bc12c1b8343efedaf83aba7a76a4d",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-mvebu-cortexa53-globalscale-espressobin-squashfs-sdcard.img.gz",
-      "sha256": "e7d815a778f8cfaf6d615f023ee566bc1015c4cb4901b8397f0e2b0d51406706",
+      "sha256": "1137785c36280cd6b11b6066cb66c5f932ef79471dee5ddbb90acd5e644afff6",
       "type": "sdcard"
     }
   ],

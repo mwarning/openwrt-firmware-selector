@@ -37,12 +37,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-SPW303V-squashfs-sysupgrade.bin",
-      "sha256": "ec5a43412da09081ca3b8d3280fbbac27a89f88083f74ffcabd26d1182cd896f",
+      "sha256": "0c3e532b9553f607b53443cbf2a00eec9e3ecfd9014d22c681969365ab5e596d",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-SPW303V-squashfs-factory.bin",
-      "sha256": "59d9f6c8d5f0126a470b265408ef204eda92df9a24275924e38bf12db8979976",
+      "sha256": "57e39466d785ffe76c960240b2d435658304fae3ebf5835cdd63b209bf51fb4b",
       "type": "factory"
     }
   ],

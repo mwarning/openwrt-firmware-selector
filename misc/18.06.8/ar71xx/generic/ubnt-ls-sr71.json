@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-ls-sr71-squashfs-factory.bin",
-      "sha256": "5ac650d93654284e12c507230f36e17a0ea5a9f22cfbb68b986b02bd7b398544",
+      "sha256": "ad3212c4aa08d0e136317e0a4d1867f624954ace4cca3b8e8cdd1108bf3ab3ea",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-ls-sr71-squashfs-sysupgrade.bin",
-      "sha256": "7925f692520a43702fbe647e9d4e1b0ea7305fcb5184b5f639127b7d56dc5a18",
+      "sha256": "8ede25ea9980f9a1fcd87b81d8d773042b87b5964058f1f40ede82a1c1d84926",
       "type": "sysupgrade"
     }
   ],

@@ -44,12 +44,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-rt3883-wlr-6000-squashfs-factory.dlf",
-      "sha256": "0223abe9e30ea42b5d3b78a60f95564c0530ff8e767e10e64ddcf42895d0f01f",
+      "sha256": "f5624383dc79c3a1f554f95a7ed68d793425f13afc8b611a16701e1833339303",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ramips-rt3883-wlr-6000-squashfs-sysupgrade.bin",
-      "sha256": "b981305bda092b32605246f36053cc50f36f891fa5ebb04f4ea81e415182c49e",
+      "sha256": "adfb249d77eb4a3511211a9d61932b28a69800c533e19586327afe25d08ca3db",
       "type": "sysupgrade"
     }
   ],

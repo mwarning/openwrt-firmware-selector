@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin",
-      "sha256": "48ec5dbba8577dac26a221e0751dfe843787cb498591b31113d1b175d7894360",
+      "sha256": "941548a4f6e3ab184a62398fbdbfe00d92edfb115747a190a7e26cfdd9e5cdc9",
       "type": "sysupgrade"
     }
   ],

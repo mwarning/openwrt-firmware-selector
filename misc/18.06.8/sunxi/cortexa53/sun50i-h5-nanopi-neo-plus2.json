@@ -38,12 +38,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa53-sun50i-h5-nanopi-neo-plus2-squashfs-sdcard.img.gz",
-      "sha256": "696204644a9599a65eedf06f8926c8dc37e6de3e17d5f2b60411c4159bc24121",
+      "sha256": "a397272625d615696e83415678b2510a1c831f469c5c6022ee870d3323babf56",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa53-sun50i-h5-nanopi-neo-plus2-ext4-sdcard.img.gz",
-      "sha256": "9bdacc5fdc303869c7b3642c5cc4432786ef2e17e28dd990c2c639c7605e2a1f",
+      "sha256": "74379c9d01c286407b64f08bdc1fd21c63e2a018b129afe97f9c12f28989f719",
       "type": "sdcard"
     }
   ],

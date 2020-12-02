@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-armada-388-clearfog-base-squashfs-sdcard.img.gz",
-      "sha256": "bd8e2ac1dd7ba44f007b5c6ba67049d1db0de5aa1d0ecbb4b933f2059007ba73",
+      "sha256": "210ba3ee90e3eae1a63a2edb5051b0f919448300c566160763595c88b9f2b684",
       "type": "sdcard"
     }
   ],

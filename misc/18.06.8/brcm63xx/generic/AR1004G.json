@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-AR1004G-squashfs-cfe.bin",
-      "sha256": "757ee4c01aaa02ef9ece7f013360b9a40f9d5fa5af8fdfa5845a4c24e34ffe0f",
+      "sha256": "728f7a8c57ca247bc655dd5eec5208b84c4f61734eb41e973f4de3f0b4d03738",
       "type": "cfe"
     }
   ],

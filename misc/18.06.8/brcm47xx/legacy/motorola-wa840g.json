@@ -51,7 +51,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-motorola-wa840g-squashfs.bin",
-      "sha256": "1277dda800f749efdb0a9926ba9f6c2adc5ee6cfa840afe5dea77d3d41b2f6be",
+      "sha256": "0fb033feb0d4da4fe466a38b86f40ca509d4a30d5a80bab90136e0ebd7dba589",
       "type": "bin"
     }
   ],

@@ -47,7 +47,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xway-zte_h201l-squashfs-sysupgrade.bin",
-      "sha256": "1cf99ec662357a48cb04cdd0eaedf3e7ff08c62444b1f649f8ce47181b61876b",
+      "sha256": "149c35f4c35734e2f4ca9b62122dcebf19310dc0e6aced1f0f7d250e7ff09991",
       "type": "sysupgrade"
     }
   ],

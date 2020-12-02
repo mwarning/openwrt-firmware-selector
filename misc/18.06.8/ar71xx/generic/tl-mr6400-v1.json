@@ -47,12 +47,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-mr6400-v1-squashfs-sysupgrade.bin",
-      "sha256": "f24cdf202d13b68f42362387c48ce8096a6e03e5ee4580a27dfa77ef950e13ac",
+      "sha256": "0e930519a7133611f5b2e9b67d39a9b9e92471d3b0be450803c48de912dccf98",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-mr6400-v1-squashfs-factory.bin",
-      "sha256": "769cd9ff2dffb4f5287eead38f0515b488530cb3a9579159d9c9c7085afbd787",
+      "sha256": "b88f90657938218be4c34e9406d0a36c545c21e8be04d13f874f3fac8c2dc4dc",
       "type": "factory"
     }
   ],

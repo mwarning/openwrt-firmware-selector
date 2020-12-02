@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-youhua_wr1200js-squashfs-sysupgrade.bin",
-      "sha256": "77d5f3f164e8279453b84997ea183fbf863cba25efce74f4d8ea9230c75e3dd8",
+      "sha256": "9cd74b6bfb14d5d5f67a223493158a1fd999b278e884f5a8bdb1065cc5540709",
       "type": "sysupgrade"
     }
   ],

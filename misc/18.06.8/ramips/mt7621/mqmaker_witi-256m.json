@@ -45,7 +45,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-mqmaker_witi-256m-squashfs-sysupgrade.bin",
-      "sha256": "b5b98ee932439f4d4528f576b744187dbd8fb9223c218f6e1a73ac07b90b59ef",
+      "sha256": "2c10a375e00e3083cb87df6c14b4a8b9b67ac6a361673912cec3631e427f1fd5",
       "type": "sysupgrade"
     }
   ],

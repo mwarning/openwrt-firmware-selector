@@ -47,12 +47,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wr902ac-v1-squashfs-factory.bin",
-      "sha256": "c003efa07c0c8447af30a2d4472c8e8749e54bd98848ebfdf3bbcd0940c50c0c",
+      "sha256": "5e845d64d5e9eed582b6bae3312f7ddcd6fbbe5a4dfd11454ceb242e0ab6855a",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wr902ac-v1-squashfs-sysupgrade.bin",
-      "sha256": "214c124b67b81f3cebeea7bbdae8dc1ec46f042c28b78aa46cd0488a5269a855",
+      "sha256": "5aeeb229c30983057b7d0003744efeed863b2e5aeebab70b6f48ca4594a7ce75",
       "type": "sysupgrade"
     }
   ],

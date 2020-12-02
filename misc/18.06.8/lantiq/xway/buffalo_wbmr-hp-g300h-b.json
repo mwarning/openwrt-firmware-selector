@@ -45,7 +45,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xway-buffalo_wbmr-hp-g300h-b-squashfs-sysupgrade.bin",
-      "sha256": "53d5c4778e0cdb6c7d0784de814b195f0227a313cf0e080b262aa358568b9946",
+      "sha256": "03d9e83e083b3ec295b73932f6895c0aef3f926412d26c175332c5fd2be10f36",
       "type": "sysupgrade"
     }
   ],

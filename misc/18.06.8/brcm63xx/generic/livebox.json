@@ -39,7 +39,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-livebox-squashfs-redboot.bin",
-      "sha256": "595ba2b52435c7b773bedba6900051a51e81c3f74654a03dfbba0c077974a708",
+      "sha256": "a2aea994e2b367e7f03e23389af474bb90ee306714aef5fc697b23ad555033bf",
       "type": "redboot"
     }
   ],

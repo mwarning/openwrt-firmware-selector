@@ -40,22 +40,22 @@
   "images": [
     {
       "name": "openwrt-18.06.8-oxnas-ox820-mitrastar-stg212-squashfs-ubinized.bin",
-      "sha256": "d66f085c13ec4960bf1c5b371cf4ee6847fe837b909e8a162f3487c46fb69cc9",
+      "sha256": "c8cd8273ce188889e9f385c1666aced08304a77e6225c3d034921213cff4a833",
       "type": "ubinized"
     },
     {
       "name": "openwrt-18.06.8-oxnas-ox820-mitrastar-stg212-squashfs-sysupgrade.tar",
-      "sha256": "a1628e007a4487cf45d4d8feaf1f6f8b05c6d7be5b155fe36dfe97f00bee1132",
+      "sha256": "15294fe6de9c0b84c98c88540ca1b99ae012e71f036ad5453551582f27f279d0",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-oxnas-ox820-mitrastar-stg212-ubifs-ubinized.bin",
-      "sha256": "b4541de567d07e16d710354f70cb316e32924aeb55f95c5db3710e2b12f61715",
+      "sha256": "421c0d5c5dffeba158e68161dca615fae247950e2de1cd48b8910adf3d57c8ad",
       "type": "ubinized"
     },
     {
       "name": "openwrt-18.06.8-oxnas-ox820-mitrastar-stg212-ubifs-sysupgrade.tar",
-      "sha256": "c7d3dbf4cc7bf6c1d44138161c1151b22d566ee14170326ce6188d174fd469f1",
+      "sha256": "774bd0ee7dfaa4674ee2c0f83218cd6133ef9addb111ea890eff2d8988ebb63e",
       "type": "sysupgrade"
     }
   ],

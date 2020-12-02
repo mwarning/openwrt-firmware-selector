@@ -48,7 +48,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-mips74k-netgear-wgr614-v10-na-squashfs.chk",
-      "sha256": "737b57b0d35aa223b4046b40c0eee770a377bd2177bbdefcdd5e775ba36a80b0",
+      "sha256": "91d8b8f4c062ab6cae0ced3b2472a212b68694eac33ca67fc10f4829c4ee322d",
       "type": "chk"
     }
   ],

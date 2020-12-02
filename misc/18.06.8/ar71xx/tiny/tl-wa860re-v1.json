@@ -39,12 +39,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wa860re-v1-squashfs-factory.bin",
-      "sha256": "3ea74767f2133adced0c715ab92e0d0a3c36b903b2a4adba8da93e1db6934883",
+      "sha256": "a5c58e03961a0cb90d6ca87b6b265cca08aa5ede87f9830c074065c29b9932cf",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wa860re-v1-squashfs-sysupgrade.bin",
-      "sha256": "2a79f8af544cfb12738476a3a5f648f2a8d4d5dbc2f2c03e7146d1128843c3f8",
+      "sha256": "42f53b2b38c5081e0d96cee41c6109c325dc354eaa619e1661a7fca0e5250cd8",
       "type": "sysupgrade"
     }
   ],

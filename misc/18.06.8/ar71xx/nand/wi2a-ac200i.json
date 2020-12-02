@@ -45,7 +45,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-nand-wi2a-ac200i-squashfs-sysupgrade.tar",
-      "sha256": "a6629e9132c43cc383026f6bc25d01774f3a9ed29023a3d60b953a3b857afd4b",
+      "sha256": "2b3abdecf77a6fcb82d6525f1b7aeaa758b5bc3644df5126bd3792d7e0466034",
       "type": "sysupgrade"
     }
   ],

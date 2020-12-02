@@ -55,7 +55,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-tplink-archer-c9-v1-squashfs.bin",
-      "sha256": "5a298b46be9102acf415d09f1358e82dd4e891c7022b3d001602c12e58dd7ac0",
+      "sha256": "7668d3cad35e195d8e14a38bf664ca937052806ae76c52cc84ae56ddba4a54df",
       "type": "bin"
     }
   ],

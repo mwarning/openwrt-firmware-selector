@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tplink_tl-wr842n-v5-squashfs-tftp-recovery.bin",
-      "sha256": "a2da1e8f13d8e3ff708da8553a8f1ff970bbfe49bcd780ea23941677ec931936",
+      "sha256": "308689e25e3efeca35dc3097e657aaa10bc1d393fd9287dedcc11beb5fe7e59b",
       "type": "tftp-recovery"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tplink_tl-wr842n-v5-squashfs-sysupgrade.bin",
-      "sha256": "25d3dbbb88ee7df427fc610007e6a6d8f2143a9cf382a26d3793f21630f22142",
+      "sha256": "052728c8ee0f4ea95e5c7ae53483847db0eed540f7766802c5f6c1e4fc26148b",
       "type": "sysupgrade"
     }
   ],

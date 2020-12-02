@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-koala-squashfs-sysupgrade.bin",
-      "sha256": "c5ef6f715f5e077fd1331ad29b62d2fe087f6181709b4fd63385792d4cc69180",
+      "sha256": "c1ec4380db690595adc05ca7d42f2c76c66bf1429e2c06f92d379e1abe7aeb0d",
       "type": "sysupgrade"
     }
   ],

@@ -41,12 +41,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-cpe510-520-v1-squashfs-sysupgrade.bin",
-      "sha256": "390ee78a8502c9bef5f0ca41ff425b0d32a16eccaa9859cc116a59e82362ee31",
+      "sha256": "bffb6b218f09938470b5bad0bfe4655b04560a7597a3a4423e42a32304269026",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-cpe510-520-v1-squashfs-factory.bin",
-      "sha256": "cfe8d9b1c4f1210a76207d26f678aa765fab4fb7f1389e1a3ba817653267fca5",
+      "sha256": "a384f7909eccc241813a1994e0365eb89148d83aa95c0cfa41c6299624537c38",
       "type": "factory"
     }
   ],

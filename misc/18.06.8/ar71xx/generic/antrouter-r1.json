@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-antrouter-r1-squashfs-factory.bin",
-      "sha256": "821a047e272cbbb72c617724dfcf4b8594f9f2298d0f97d95d8494449853e533",
+      "sha256": "b28e8b9ebeb536512404336634081d479c46fde9359e215944b50b42739b6737",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-antrouter-r1-squashfs-sysupgrade.bin",
-      "sha256": "60c173c1f105c9a8447447cf1955394c22c2e13057c7556cebe49ac40735cd98",
+      "sha256": "0e43d651c16730e6e47fb0a2ce47e41a5ca5b9c3f0ccf0f9fffa0218a21f5fe7",
       "type": "sysupgrade"
     }
   ],

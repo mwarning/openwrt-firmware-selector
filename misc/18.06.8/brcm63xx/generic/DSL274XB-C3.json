@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-DSL274XB-C3-squashfs-cfe.bin",
-      "sha256": "fe4e17c25ca1f1adf5c47d3aceadb1a6dd39942800e388ba5291c5b3c8ba00c7",
+      "sha256": "6e29a598240b1f440a73d7fb054cfe42bf5eaa46a9c8db6cf3d57f7ad5983287",
       "type": "cfe"
     }
   ],

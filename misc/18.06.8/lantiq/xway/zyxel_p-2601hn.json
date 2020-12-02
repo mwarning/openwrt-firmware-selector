@@ -44,7 +44,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xway-zyxel_p-2601hn-squashfs-sysupgrade.bin",
-      "sha256": "97de4b42c9affbd6dbe8a8c5458f6bfc9b91398a989be70ce593ae0f379ce79a",
+      "sha256": "f1da13a08815c4dcae1cd1d1c3ed3ed21f9db74a549347e05d65c7fdd2006177",
       "type": "sysupgrade"
     }
   ],

@@ -39,12 +39,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr740n-v4-squashfs-factory.bin",
-      "sha256": "da65d67677f1202acff565859bcab5a5ffb22386660113b2501d618c955cf99d",
+      "sha256": "4c4897450490d71ae443a1c722826b49e1a7254cf7b0804835a86e6cc64fac8f",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr740n-v4-squashfs-sysupgrade.bin",
-      "sha256": "18fd4e78e0edfe28de817190d3a05411dc42be476e700ba1598f176c57081585",
+      "sha256": "4396cf750d07e94ccdde40261341ac861fa6619b12727b5fb979f659fed8f187",
       "type": "sysupgrade"
     }
   ],

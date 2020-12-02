@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-gl-mt300n-v2-squashfs-sysupgrade.bin",
-      "sha256": "c9c648726aca20c7738f09b648bbe399ca7e7ad5e4c05f3efc92b4a193a69a9c",
+      "sha256": "68187bbd15ad62986bd6502f89e12267744fde34db9683a99a0999c2a87c80dc",
       "type": "sysupgrade"
     }
   ],

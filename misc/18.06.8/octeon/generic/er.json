@@ -34,7 +34,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-octeon-er-squashfs-sysupgrade.tar",
-      "sha256": "a41703bdd19cfc7b34750390a39cc51f415e97f3f116c5d546be998382f50a85",
+      "sha256": "d1301b5a7039007018d798425e88d7d59182659714f2be4c5719dea1d7bd4d81",
       "type": "sysupgrade"
     }
   ],

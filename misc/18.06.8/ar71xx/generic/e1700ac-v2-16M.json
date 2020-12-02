@@ -45,7 +45,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-e1700ac-v2-16M-squashfs-sysupgrade.bin",
-      "sha256": "46b19d89b572e4ce10a34f77397735f452d1c0b46a150a54e01ed40c7b327c7f",
+      "sha256": "5e681b8a3ff1a3861e293208412bbfba9b74a1a73222cea2043d0f2d044c68d6",
       "type": "sysupgrade"
     }
   ],

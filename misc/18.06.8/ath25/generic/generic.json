@@ -38,27 +38,27 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ath25-generic-squashfs-sysupgrade.bin",
-      "sha256": "d180cef15000817c3281616e97f13a9d1f941aa4e9754d6426e1a4f1672ad163",
+      "sha256": "04265effa9d06833a99cb1d62add67ea439e173418d0ff88dea6c0a1f1d0fcd8",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ath25-generic-kernel.gz",
-      "sha256": "45da877b15d7261945751f5bafa8c85ee43b64bc193381cfe1f1d89f4a9b7956",
+      "sha256": "e7d07262c26da87961391e084c4cef710690d560de4fcbc878b9c17c5aeed9c0",
       "type": "kernel"
     },
     {
       "name": "openwrt-18.06.8-ath25-generic-kernel.elf",
-      "sha256": "abe0b6ef4f4288d8c56b4f406fe3821b98f4bdb1b030dcd11c59572df4206186",
+      "sha256": "1dac12442f31c9e53d6f443d074e13fea3cef3a04da0a94823ca0d720e0c961f",
       "type": "kernel"
     },
     {
       "name": "openwrt-18.06.8-ath25-generic-kernel.lzma",
-      "sha256": "c0ab5505bf87cba856e762f3c6462ece325cc013bfa7c1105912d65368198300",
+      "sha256": "c515b687d2a420a329002bd5dce7002cc43ffad3242e56a90b4de8b0a58154b9",
       "type": "kernel"
     },
     {
       "name": "openwrt-18.06.8-ath25-generic-squashfs-rootfs.bin",
-      "sha256": "788a0b4070ca96cedf5ca01e80adef27d2ebe0450dc9fbe37b55125207abf0cc",
+      "sha256": "85801b2f7e8a38ded939b17012f90264460f9355cce7ea79c3642082bc7c192b",
       "type": "rootfs"
     }
   ],

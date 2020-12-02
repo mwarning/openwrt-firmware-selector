@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-bsb-squashfs-sysupgrade.bin",
-      "sha256": "f20ce23b6b89e1ec4f1e303d8e297b69a0f570574e75b452f6cd7aa814231bf0",
+      "sha256": "110b0d7a29fad22623a02ab7c52e59415aa22b010d51ff570f912cd589262b48",
       "type": "sysupgrade"
     }
   ],

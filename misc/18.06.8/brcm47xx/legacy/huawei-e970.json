@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-huawei-e970-squashfs.bin",
-      "sha256": "8ca5f224017de9f6677a9db54df59edd13877a7cc93e8804e230ac48db1d9056",
+      "sha256": "8f0dfc3edcecaa5459d35395250a7c9df38422c50467a4cab4ee81552bf3057e",
       "type": "bin"
     }
   ],

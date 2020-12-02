@@ -32,7 +32,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-layerscape-armv8_32b-ls1043ardb-squashfs-firmware.bin",
-      "sha256": "92fea10ca134e88351c9b536a25fb3a6cb5cc957f64045007e24adb2e686c0ba",
+      "sha256": "69ed85d9371d9289a864cd60d394b24fea2429c6133944c704aacc6352d50ecc",
       "type": "firmware"
     }
   ],

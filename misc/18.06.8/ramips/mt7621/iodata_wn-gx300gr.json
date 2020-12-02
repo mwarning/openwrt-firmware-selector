@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-iodata_wn-gx300gr-squashfs-sysupgrade.bin",
-      "sha256": "438ac5ae5c92ed2a311d5a951f4fd8094dca2e0e9a3c46a2d3b6cc1b2962a9fa",
+      "sha256": "ca45699512639457691d8d1ebdfb9af340492e771cc024dc0294d28d3c3ae43b",
       "type": "sysupgrade"
     }
   ],

@@ -34,12 +34,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-armada-385-db-ap-squashfs-sysupgrade.bin",
-      "sha256": "b206b73ddc23910116f0d0963f10dedaff888e4b21c92b3ac0f55310c00805bd",
+      "sha256": "f3b83512d28512f210cc5b54c72e7e04aac7c7c7588215d0945410e13d195621",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-armada-385-db-ap-squashfs-factory.img",
-      "sha256": "be47306070ac497931e2b5af8ffb35db7034c503bf8962204c9364d07c99c31a",
+      "sha256": "55fed1ce9a6057832673b12ec846d37b43d839d41411ae9188a7dcce73339e5c",
       "type": "factory"
     }
   ],

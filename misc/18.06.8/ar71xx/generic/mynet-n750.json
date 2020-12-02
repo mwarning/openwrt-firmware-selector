@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-mynet-n750-squashfs-factory.bin",
-      "sha256": "cb401629b8811f70ec16e164df5c30c3a6d2929cb575007510bda6f52fcfbc77",
+      "sha256": "ebad92614b8eb8f6fbf5a92a1ed0e003937c216979d00297373f8f0181b9fc47",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-mynet-n750-squashfs-sysupgrade.bin",
-      "sha256": "2de5b761ed9ea410fc2add38245e1fe69a69a5c2f149b39629ed9c780ce5ba69",
+      "sha256": "81b7d5682f5711f7e868b0577f070625a2f79533cef9a8b47506af70454214fd",
       "type": "sysupgrade"
     }
   ],

@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-cubietruck-ext4-sdcard.img.gz",
-      "sha256": "a3c88ddd24e75212eb2f7565a2cfd0fe039ff9dd7ba2ca8b7c9c1aa5a98ebf76",
+      "sha256": "33652f4a91426ce0bb423cfd9a90e757a37de81300d44dbf7ffdc0dfd2854c6b",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-cubietruck-squashfs-sdcard.img.gz",
-      "sha256": "87ab1596a7fcbb34e640e7f24f8afdc629fe3d68a0b3c832b068bf89a9cdfcb8",
+      "sha256": "2caa82d6a6e67724b3232f180d83606d83bc9c0890e03166afd56d1a848c6348",
       "type": "sdcard"
     }
   ],

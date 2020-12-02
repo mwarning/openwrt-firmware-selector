@@ -44,7 +44,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-unifiac-pro-squashfs-sysupgrade.bin",
-      "sha256": "8fc8ad234fb3c90dff28853b7c6956cc1efd350fcebbf12080700311f75858bb",
+      "sha256": "322834d36058b35f9387607fa1461f642837af95b49295624e5c49f4aafd8baa",
       "type": "sysupgrade"
     }
   ],

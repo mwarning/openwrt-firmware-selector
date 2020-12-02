@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-FAST2604-squashfs-cfe.bin",
-      "sha256": "d2b9431b28712ae62d736d1848a4c4d131fc5aeab78c7a041d73290a03cd2021",
+      "sha256": "7e833c9c53d04a42156f297b568886529396413831f2a68315cbe115b0a0edcb",
       "type": "cfe"
     }
   ],

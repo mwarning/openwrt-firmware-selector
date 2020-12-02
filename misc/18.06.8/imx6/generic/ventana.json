@@ -44,17 +44,17 @@
   "images": [
     {
       "name": "openwrt-18.06.8-imx6-ventana-squashfs-bootfs.tar.gz",
-      "sha256": "6fb704f76bbe48dc74f3c9382bdd64e4c8b0d8bbe7094743c34d9e38c69542d2",
+      "sha256": "1ddd0a8e4c2369c0f7281ebd6646ef3e76e89a35e6a4a1755bb77fab3a6c361a",
       "type": "bootfs"
     },
     {
       "name": "openwrt-18.06.8-imx6-ventana-squashfs-nand.ubi",
-      "sha256": "28ff0da00aa75c3a981b6e98d4d1c9e33c1215d348b8ceb047e8a75b53e86a39",
+      "sha256": "fe5ba1904602eece0553638852649ba65df901ee1282d3fc4c7ce206f31a9ca8",
       "type": "nand"
     },
     {
       "name": "openwrt-18.06.8-imx6-ventana-large-squashfs-nand.ubi",
-      "sha256": "03122f16b268ce24885655feeefd6ed19c071444603f3be2c12a172f9ac8df4d",
+      "sha256": "d330e35c56df3b189e90da28930d037de3bb555c73746a58dab4635c80a0d612",
       "type": "nand"
     }
   ],

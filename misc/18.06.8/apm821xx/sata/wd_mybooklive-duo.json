@@ -49,7 +49,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-apm821xx-sata-wd_mybooklive-duo-ext4-rootfs.img.gz",
-      "sha256": "72ab3319ab405178d60b1fc4e254aa171d17f408033947104aee639dacd0d80c",
+      "sha256": "da5b0d7338ad873be6546f8f1922b4c54c24264a57d3593b57776007d241168f",
       "type": "rootfs"
     },
     {

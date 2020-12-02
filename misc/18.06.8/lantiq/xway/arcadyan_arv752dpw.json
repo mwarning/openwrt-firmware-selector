@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xway-arcadyan_arv752dpw-squashfs-sysupgrade.bin",
-      "sha256": "aaa95744a4726da4579b1b75fb6fbcea43603f17b7546ede2622ec49b83c76e9",
+      "sha256": "7d936f4a119bb5aeddb489cc58e0687d974a7b64b07015b74606502492a084b2",
       "type": "sysupgrade"
     }
   ],

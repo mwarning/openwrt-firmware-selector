@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-alfa-network_awusfree1-squashfs-sysupgrade.bin",
-      "sha256": "18d587751a9c7a37b59352ce5f8945a91511cff7650ca2976505dbf8938d8160",
+      "sha256": "c65bb8108c0da27b6da4e2cdd9d671761aef6c527332901fb9437fd409ff801f",
       "type": "sysupgrade"
     }
   ],

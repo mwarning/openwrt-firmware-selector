@@ -52,7 +52,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-mips74k-netgear-wndr3700-v3-squashfs.chk",
-      "sha256": "c4709eae6ef710822b227f363ca4fbc45025334b984a82217677504c2418882c",
+      "sha256": "77533d9893cff4b2baa78d471fa8cbd0b6b463c3d147e47bdefa7044fb5e23d6",
       "type": "chk"
     }
   ],

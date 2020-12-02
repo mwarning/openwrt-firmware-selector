@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-mips74k-linksys-e2500-v1-squashfs.bin",
-      "sha256": "e617cb2db478100bc819f6aa59b84d64e74a791adc7c6c62b8710dfd219b0421",
+      "sha256": "0a03c30fe6d5a37e55db421fba69001374292859eae190682f23517c8e8b1304",
       "type": "bin"
     }
   ],

@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-CT-536_CT-5621-squashfs-cfe.bin",
-      "sha256": "f90f5957f000907b5c22b67d045d897406ef40962c6170263e5589573ecc5d5b",
+      "sha256": "5344298e4f088fc00f1d11fdfd67b0eca74f1310c9b4f6b7f582ac32122dd556",
       "type": "cfe"
     }
   ],

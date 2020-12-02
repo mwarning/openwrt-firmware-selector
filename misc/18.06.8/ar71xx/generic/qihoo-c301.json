@@ -45,12 +45,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-qihoo-c301-squashfs-factory.bin",
-      "sha256": "ddc767efdb99c7dbeb2274f4019e2406d70f3e7329a8ce54ac64a4c706926c9b",
+      "sha256": "783f9f0587bfd012a2a6a02a1dd1ff203cba73d718d6f0fd328efe1e4dbbb6c8",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-qihoo-c301-squashfs-sysupgrade.bin",
-      "sha256": "603879933518357cdbde9844df0ff2b1d6c9093b0f5994f4ad4202f2b59031b4",
+      "sha256": "ad638d35f29fc10f8640f293a2dc21b34371283bc7d7df73ac1027de5f8a024d",
       "type": "sysupgrade"
     }
   ],

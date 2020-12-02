@@ -39,22 +39,22 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr802n-v2-squashfs-factory.bin",
-      "sha256": "92a889d6f435e96138169722ded29cd42b1ab67beebbbed260d8abaef0478bb8",
+      "sha256": "68b398d73431016cf9b70126e4ec2aa067442f427bed2bd9b5e164b59a624dd4",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr802n-v2-squashfs-factory-eu.bin",
-      "sha256": "6404cfa7dbc68e63bbf4f5b30e9b9e7bc43d489eb1d21845a4c09a3b66652147",
+      "sha256": "97fa5f5c8bc63565f48ccbdf14adf3f714db5a3170051561e41b3c3cfa499243",
       "type": "factory-eu"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr802n-v2-squashfs-sysupgrade.bin",
-      "sha256": "cbd70b41e53f5cbf7debf5ca3b50adae810b88312c90040c0d60fb440621c589",
+      "sha256": "a47ca5def56dba5157c7e4c483448ebdbfe18a7b88f8cc007b83235c984037c6",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr802n-v2-squashfs-factory-us.bin",
-      "sha256": "b601d0f3493536557cda22ffb4909ca07a54de0a85dcc36076c264e0c1fd3e1d",
+      "sha256": "c69da1b0f17596badd94524d3038f478feef286c254523902c7b23c2c72b5001",
       "type": "factory-us"
     }
   ],

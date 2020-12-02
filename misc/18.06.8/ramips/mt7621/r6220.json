@@ -43,17 +43,17 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-r6220-squashfs-sysupgrade.tar",
-      "sha256": "2a37fe2b7e0dc60d9c5872410852e02c16c0fdd6fe37ab0e96d4527425cc6f5e",
+      "sha256": "3a4b92c3823f0e7e28449f464bba52780086d8812f5f0f17b7c0fcc88a28d702",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt7621-r6220-squashfs-kernel.bin",
-      "sha256": "46bf5ba7f518b32515050549a236a395b77f8d83d2970f1cbd5e9bacfbd344c5",
+      "sha256": "6a042c579248a2913eead4114ae0beddfed069b54f2403d01b80a4227e9dd96b",
       "type": "kernel"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt7621-r6220-squashfs-rootfs.bin",
-      "sha256": "d704fc8091cfaa88af674afd17ae52dbd9f8dcb8852d48720c8577586bd6fdd0",
+      "sha256": "0d3aa26742d9832a92f418017cd73e9de85db893c036612e5dbdf646c5ac04a9",
       "type": "rootfs"
     }
   ],

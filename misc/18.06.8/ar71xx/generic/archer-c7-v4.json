@@ -45,12 +45,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-archer-c7-v4-squashfs-factory.bin",
-      "sha256": "41707a25b1da641e1bda9feb783a7f4c6e4c26b1cde93c2ac41ab0127829ff5b",
+      "sha256": "28d70753a803397854064998baab49a393466c7e58e86e7dce78b1217fb4e2e7",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-archer-c7-v4-squashfs-sysupgrade.bin",
-      "sha256": "11a175e64b59e789575974da0e06985ae2a4b8cf064c03a465576d0f1922ce58",
+      "sha256": "ae3d21a1e9ec8dd30a01ed28305dd3cc2062f334ce78c5979ae9527a405534a2",
       "type": "sysupgrade"
     }
   ],

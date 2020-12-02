@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-hiwifi-hc6361-squashfs-sysupgrade.bin",
-      "sha256": "f7236d5800224a974d6a6f6987d0fef8883bdf69bc69de16237fc8a0b9ea372f",
+      "sha256": "b57eb01c4ef457c6572d483255ffc9a12bf382c0cd8e1b21f5a868e95cdd7237",
       "type": "sysupgrade"
     }
   ],

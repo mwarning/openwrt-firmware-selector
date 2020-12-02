@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-minibox-v1-squashfs-sysupgrade.bin",
-      "sha256": "abb4102ece1f7053a8d71e83eb6caaa90faef457e1dfef85db4427a9358db649",
+      "sha256": "f2bfe26a8e97f3632e7cc332030df316ecad330b4b9077716032ff4a5de83240",
       "type": "sysupgrade"
     }
   ],

@@ -40,12 +40,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-AR5381u-squashfs-cfe.bin",
-      "sha256": "a912b5f6799fabe25318ac1ad22e6efc2662cae75bdfa4fa45bad5afa523ec18",
+      "sha256": "e2b9df6d2d22f540329e59d94765c015ef8a0b084ae44a2c5e18c260c1e35ce6",
       "type": "cfe"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-AR5381u-squashfs-sysupgrade.bin",
-      "sha256": "2a9743c074405305a95d510fee28a0101f175dc4f1c48de03218b6f5d8c225d7",
+      "sha256": "87cee358c26e029901b8251ed013f06595d01b3b1b90e736359dc9665dd8d514",
       "type": "sysupgrade"
     }
   ],

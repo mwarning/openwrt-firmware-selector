@@ -56,7 +56,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-tenda-ac9-squashfs.trx",
-      "sha256": "0f1a1b64eb7020964f5389325429558f81d5b99eeaa3854cd2ed8abd376e5466",
+      "sha256": "97a3158a0b6de8e24c5ffa0fb319c89a8e4e58b407e02e95a180cfe516c0414d",
       "type": "trx"
     }
   ],

@@ -39,12 +39,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wr810n-v2-squashfs-factory.bin",
-      "sha256": "85040d346f3353e47b82037c73c691cdd06fe6faf88c46f76722bacf03ad997f",
+      "sha256": "b16e3b622a33240265e0e97debd3f1c2bbdecf06b05bb41a1774a99fe8d412be",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wr810n-v2-squashfs-sysupgrade.bin",
-      "sha256": "ee213dd37d78b7fac2695119d45cb5a2950be14f42990675272ecbf4f4631f02",
+      "sha256": "bcee5461bf4f987d9a13ee85b4aa9aafc744f05b6e0fe7494094bd7c026e4b9a",
       "type": "sysupgrade"
     }
   ],

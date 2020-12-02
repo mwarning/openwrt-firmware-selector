@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-weio-squashfs-sysupgrade.bin",
-      "sha256": "013cb342abc4e7957dc1833b053f1adb9b84f7b4b9e170d3764f812ec9545f1d",
+      "sha256": "968a672d99a11814f43acd81619af27c0771faa6b99f8fab9e3c7f7debb6156a",
       "type": "sysupgrade"
     }
   ],

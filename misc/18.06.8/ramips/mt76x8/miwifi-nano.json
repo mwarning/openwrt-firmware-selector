@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-miwifi-nano-squashfs-sysupgrade.bin",
-      "sha256": "4b7b04f6331a49d2669e240ff3084444797b1cdf75ee12e35de1926f63d5aacc",
+      "sha256": "b1e4ea78b3cf3c8b4f7f9d5be207e0f97f3b56f0436e446d7f1ab1e51777672b",
       "type": "sysupgrade"
     }
   ],

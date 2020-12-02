@@ -41,12 +41,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-wbs210-v1-squashfs-factory.bin",
-      "sha256": "098e29b76ee982b81babdc34df7d14697591d5dc190fec31319b78d21928ad6a",
+      "sha256": "d3b28e2c16e6f9fb6bb66e2f66d6a65ccd2d99c8e792b10398dd1ab49d428c45",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-wbs210-v1-squashfs-sysupgrade.bin",
-      "sha256": "39f2bf310d4c350097bcfe362dc59e42b3d2aaec82f1b824a21b4aff80557a0f",
+      "sha256": "075b3bf32573063d50edeb9e17a4452fb051cf08fdec681dcfe312094686e60e",
       "type": "sysupgrade"
     }
   ],

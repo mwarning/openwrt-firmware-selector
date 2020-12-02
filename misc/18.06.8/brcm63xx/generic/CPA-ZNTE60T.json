@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-CPA-ZNTE60T-squashfs-cfe.bin",
-      "sha256": "f0ff489d0952705a485718426b1b3531c2260c9f29eb0c42e8c9925d69423499",
+      "sha256": "b12ad721586e96523afad7f202038304f4969fc99b4b6fc095fd3208b009ba74",
       "type": "cfe"
     }
   ],

@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wr842n-v3-squashfs-sysupgrade.bin",
-      "sha256": "ad98dd6ca1d874004b0d688559e9e22ccdf674c4e328c8b5e2ac802144e31051",
+      "sha256": "ea6957c440d8ca79c46aaa109ac056409d1302c7da198303786463022896c172",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wr842n-v3-squashfs-factory.bin",
-      "sha256": "8980ae01f23159ca9f8a9d2113bc40ff3bdefae6556e15c6f71f214e80b227b4",
+      "sha256": "63bad131cb8d1c9aca17d5422226be17ead45d7e047b7469d6282e27d27b21b3",
       "type": "factory"
     }
   ],

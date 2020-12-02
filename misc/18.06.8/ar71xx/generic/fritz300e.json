@@ -44,7 +44,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-fritz300e-squashfs-sysupgrade.bin",
-      "sha256": "5ec5185de8a2e4c86825c7a7bb214ac6f1499d513e390a0cb25bca19153667da",
+      "sha256": "8c688837db47584efebf747de29d5898c5709cfe728a80772cdf38144b0c96df",
       "type": "sysupgrade"
     }
   ],

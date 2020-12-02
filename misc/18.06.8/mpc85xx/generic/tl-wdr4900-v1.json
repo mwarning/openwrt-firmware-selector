@@ -47,7 +47,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mpc85xx-generic-tl-wdr4900-v1-squashfs-factory.bin",
-      "sha256": "37ee5fab8dea5c6e588ef49616c8caef194e60c0e786139a19d07a53c8065912",
+      "sha256": "57b1eb928804275e58f64b0d28357e9e63e4a1479736d83dd41aec71a735b3ad",
       "type": "factory"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "name": "openwrt-18.06.8-mpc85xx-generic-tl-wdr4900-v1-squashfs-sysupgrade.bin",
-      "sha256": "833d43bc576c5ea089387690f5e434a36df713a1c45c555619ac8ba87d13c12a",
+      "sha256": "e471be75f2cf807412cbd68e89ea76f2b1cdfb50ea6a6dfd9888915dc15f26b2",
       "type": "sysupgrade"
     }
   ],

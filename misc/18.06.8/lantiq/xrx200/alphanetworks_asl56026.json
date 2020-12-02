@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-alphanetworks_asl56026-squashfs-sysupgrade.bin",
-      "sha256": "2aaa0d7956ff9cb9133032174d6f5d8e97883e578fa227f3c5caa9fc86b4b9b1",
+      "sha256": "718a7d41eebb48eb79791c42534ae27ae7565e8f71f812f30334050cdf6c3a34",
       "type": "sysupgrade"
     }
   ],

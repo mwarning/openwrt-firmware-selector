@@ -44,7 +44,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-sr3200-squashfs-sysupgrade.bin",
-      "sha256": "9ca262b4c2566a14b942cac2fd416e064add935b4cc8525599f4364dd867d199",
+      "sha256": "2519d7c02670844d11aea3ef9ebc4c5c5a82baa7d385d2ec71156a7dc1dd9ecf",
       "type": "sysupgrade"
     }
   ],

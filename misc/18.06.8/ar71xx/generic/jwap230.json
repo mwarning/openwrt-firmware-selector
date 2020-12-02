@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-jwap230-squashfs-sysupgrade.bin",
-      "sha256": "74d3ab988cb6f3e604bb9b0763fc5493a68271f57f1180f181af480537fa1f6a",
+      "sha256": "f4188fbaf2327b22db044dfbfd211c2010ccc3203c73e442c48c31fc23366c22",
       "type": "sysupgrade"
     }
   ],

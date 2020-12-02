@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-wf-2881-squashfs-sysupgrade.bin",
-      "sha256": "a09fbabd1ec1d3c6c518f60f4486e51b9ff4e980b52cfea1b63dbd0d0dfaf65e",
+      "sha256": "580cf904bad22478a8253983de1b786afba671eb6bc5c3b373358aaec84930b3",
       "type": "sysupgrade"
     }
   ],

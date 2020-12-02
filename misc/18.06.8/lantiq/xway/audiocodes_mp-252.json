@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xway-audiocodes_mp-252-squashfs-sysupgrade.bin",
-      "sha256": "3cf08bd55d373b52ac3c03b658fc354507bfb69782abae83f8639df9019a6f31",
+      "sha256": "036e36dfa53eb85e60922f729b3d29e499f34a4fcfd13f617319ead684818ede",
       "type": "sysupgrade"
     }
   ],

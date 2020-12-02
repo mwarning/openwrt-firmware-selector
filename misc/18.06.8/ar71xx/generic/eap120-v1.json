@@ -39,12 +39,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-eap120-v1-squashfs-sysupgrade.bin",
-      "sha256": "88394f2986051bdf21b8fabf0d69d2d48a8a6bf64d7fd4c6eb08c548e540e667",
+      "sha256": "2cb0473df6075d5c17a0dce7014f48dccd59022f65415c8184392e74b531d76f",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-eap120-v1-squashfs-factory.bin",
-      "sha256": "7fcb6370d21c2340950828dd632c7ed2a2b3f1ce7f563ffd9fc00cad8aae919d",
+      "sha256": "216e4f5311d5fc37e1909527c8d506aaf02d4c97c9b655d64272a7f10ab67d3c",
       "type": "factory"
     }
   ],

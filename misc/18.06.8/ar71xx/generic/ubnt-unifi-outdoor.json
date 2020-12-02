@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-unifi-outdoor-squashfs-factory.bin",
-      "sha256": "45b48b7508e464bc745bada488208c358da87e737c539fbbbf129a1660072cf4",
+      "sha256": "d0c4ccb3d49d003dc857bfa57f2b69236ed920b6755cc9a16be5df27027527b4",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-unifi-outdoor-squashfs-sysupgrade.bin",
-      "sha256": "a740f99a0a4beec03905caee90ba39c66681e668c9d1bdeae5a4dc4ed3cb8007",
+      "sha256": "4b813926f858f3f29fb95037676a2b06e4f2133a9cad1b5364fc7699ffaaf902",
       "type": "sysupgrade"
     }
   ],

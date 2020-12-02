@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-AV4202N-squashfs-cfe.bin",
-      "sha256": "a760713b68c871c8ac4dc2bc58aa02c46b8406f65bf26f8f4484706a379aad79",
+      "sha256": "aa693adb5348dfe5599c1b8607a5062da3bc9327f45b28dcfadc279d52f521e0",
       "type": "cfe"
     }
   ],

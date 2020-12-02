@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-rut900-squashfs-factory.bin",
-      "sha256": "6456d50ff5c63f63c22d97ab5851c88ac40f74f60288fa5cebcd4b1c307ab3b6",
+      "sha256": "e117e9e4576c9f20ab15388305cf0b2fc8b544503343728c867facfc4c0e4cd3",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-rut900-squashfs-sysupgrade.bin",
-      "sha256": "a751e36571b4d5e9742c11712d5fd5ee8a4c7b6feeaa6329cb5436875d22dbd9",
+      "sha256": "5ca791262dd9ad22895c02525cdfdc9b7950d5e760715263f4a8740c2b591b17",
       "type": "sysupgrade"
     }
   ],

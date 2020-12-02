@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-wrtnode2q-squashfs-sysupgrade.bin",
-      "sha256": "adbb97294cf2ea64c8df30a22f4e7e06707a025f70235c3d237f532d9172571d",
+      "sha256": "a7177acf72ba88adfc316d6ded1ee9a2529dcbac6eab9e2c3df3ee3469d6d313",
       "type": "sysupgrade"
     }
   ],

@@ -67,17 +67,17 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ipq806x-zyxel_nbg6817-squashfs-sysupgrade.bin",
-      "sha256": "be19149fdebd87324c3c1906e0169a3220aed4b29a53539a212bd604e1e6342b",
+      "sha256": "6448d1980366a981b788f2d05d617e740c04168d692424f02dd55404432205e2",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ipq806x-zyxel_nbg6817-squashfs-mmcblk0p5-rootfs.bin",
-      "sha256": "75591fcd688d40d9ec158db77a0d516a573dc37362d988b67eddebeadb7163c6",
+      "sha256": "0f422d2e2ee5e25c0a106077b635debb8c02209d251c2639b0ac3e6db9669dde",
       "type": "mmcblk0p5-rootfs"
     },
     {
       "name": "openwrt-18.06.8-ipq806x-zyxel_nbg6817-squashfs-mmcblk0p4-kernel.bin",
-      "sha256": "1305c1127cfcc3cb3ae1ddd53c00b4045b30bec2c09e07a9a54ac29961a27a4e",
+      "sha256": "2c400b83a4f97586e3f118929f4c5e58ac3c8e07db2ace6b2c967ee37c0f3c43",
       "type": "mmcblk0p4-kernel"
     }
   ],

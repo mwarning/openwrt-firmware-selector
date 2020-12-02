@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-dap-2695-a1-squashfs-factory.img",
-      "sha256": "29778fff93791c73e200cb6b0fc71fc513db7c8a3f538df383e457fc3715bd4c",
+      "sha256": "ada65d5e8e11940ab64ac4b028a9a196f2702ac2d0be97a206a16349e535b5d3",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-dap-2695-a1-squashfs-sysupgrade.bin",
-      "sha256": "1f8f535d199062a50f6ca656afb7eaf117f17d4156e38bd8e4717c79310bd007",
+      "sha256": "29c776b47a070415d2b54bedcaabd65e6166139d92713a13f9ff908584a5bf27",
       "type": "sysupgrade"
     }
   ],

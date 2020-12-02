@@ -64,7 +64,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ipq806x-tplink_vr2600v-squashfs-sysupgrade.bin",
-      "sha256": "9f5f4677a05033588d3c9a2d9c67ec168ab9215cf1c07720609ccced68c7620f",
+      "sha256": "479237541dfc4fa5fb433c2eaa6a0f6ea8f1a2cac0fbad040d5be8392c4abf02",
       "type": "sysupgrade"
     }
   ],

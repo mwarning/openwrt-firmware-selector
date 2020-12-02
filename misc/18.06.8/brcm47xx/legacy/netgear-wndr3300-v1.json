@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-netgear-wndr3300-v1-squashfs.chk",
-      "sha256": "4ddd8f8a84ffa8f19ed3384b9b9508c7f15be504153981a7bd7cce555ed908ec",
+      "sha256": "7fdefeaac363fecb8be6b71f652bf9afee5023c9cabaa23d4114321854eb1357",
       "type": "chk"
     }
   ],

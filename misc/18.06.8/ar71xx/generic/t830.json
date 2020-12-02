@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-t830-squashfs-sysupgrade.bin",
-      "sha256": "f5ca9553f4ac5c17891ccf81ddbc23b186b8d72d1bb1dcf0c1f0604c78811d8e",
+      "sha256": "db16733da9f1a0e32dabeaa5f149f712a3636d08e3a8b148b2923cf87394a0e4",
       "type": "sysupgrade"
     }
   ],

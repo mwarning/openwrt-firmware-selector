@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-VR-3026e-squashfs-cfe.bin",
-      "sha256": "775968b62829d6511ccbac3eff1298b89dcbd78feabb95756f009b960f0ba9ac",
+      "sha256": "c0d00e2f3b281781932084033d12d96d00b2941c2d221f524c8d475252b29d4a",
       "type": "cfe"
     }
   ],

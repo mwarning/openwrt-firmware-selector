@@ -1,5 +1,5 @@
 {
-  "image_url": "https://downloads.openwrt.org//{target}",
+  "image_url": "https://downloads.openwrt.org/releases/18.06.8/targets/{target}",
   "profiles": {
     "11acnas": {
       "target": "ramips/mt7621",

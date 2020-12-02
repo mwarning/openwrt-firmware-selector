@@ -45,7 +45,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-mikrotik-rb-nor-flash-16M-squashfs-sysupgrade.bin",
-      "sha256": "00d026d5681f9b402c3bddacb03d22226e276cd3b393ebc77ee549182e2d6d56",
+      "sha256": "d1777fb8a98e97c0ee6c2bb4fcd6a9a24cbb3a24224a263e1c606c1fd6a9dcd3",
       "type": "sysupgrade"
     }
   ],

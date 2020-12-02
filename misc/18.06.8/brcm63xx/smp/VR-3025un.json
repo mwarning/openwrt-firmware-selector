@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-VR-3025un-squashfs-cfe.bin",
-      "sha256": "0d51e7fa599346334238120240eb01c924ffb95ede20e6d27df1647738844f45",
+      "sha256": "63ea664ae39c3b8f1f1108d3c63621c7c1fc056c2ef6f3432174eddc00311050",
       "type": "cfe"
     }
   ],

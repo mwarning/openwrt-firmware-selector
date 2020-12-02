@@ -36,7 +36,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-ubnt-erx-squashfs-sysupgrade.tar",
-      "sha256": "c3ee15d60a8e03df8b8eff966774841561e41187b8400456b0b4beaa2f885a29",
+      "sha256": "d1d2cde957b2ef3d4729a987fb7f4d36dc668e2764093cefe589286be2ef5fca",
       "type": "sysupgrade"
     }
   ],

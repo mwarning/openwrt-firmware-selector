@@ -53,7 +53,7 @@
     },
     {
       "name": "openwrt-18.06.8-mpc85xx-p1020-hiveap-330-squashfs-sysupgrade.bin",
-      "sha256": "6771159e205e3379d98a1d2c59da6deb439e9e7aa321949c0c91b0073de03d45",
+      "sha256": "76d5a28cb0ff21a1ab85484106f74025b1c32bbba92ff0376030c43fd968ad27",
       "type": "sysupgrade"
     }
   ],

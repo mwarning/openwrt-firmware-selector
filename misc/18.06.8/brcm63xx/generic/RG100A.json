@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-RG100A-squashfs-cfe.bin",
-      "sha256": "b1183b76a2e4b61d3e279be48725ab20d76dfe09c1942fd34665672613d9dbf3",
+      "sha256": "c7fbcdce2b38e9ee3969da3336c8bd8710273ef7da17045a19bf1b1c80cafd6e",
       "type": "cfe"
     }
   ],

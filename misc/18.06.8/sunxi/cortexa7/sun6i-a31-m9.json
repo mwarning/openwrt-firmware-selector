@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun6i-a31-m9-ext4-sdcard.img.gz",
-      "sha256": "772549217dc2685ccc325305e65e4f856352dc719b472043bf70b5c177f0a672",
+      "sha256": "b0abda34d46b25ab4a166965e95ea6e7603c173c05f2ec901acf3d0a77a89101",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun6i-a31-m9-squashfs-sdcard.img.gz",
-      "sha256": "6a81355c981eb575a305902f228baf61b17be8bf57a7d5220539ff121ce93c59",
+      "sha256": "b4750260f6bd41c4e1d94f6ed37c75b89eac6568ae7a30c1a2cec7259b23b33e",
       "type": "sdcard"
     }
   ],

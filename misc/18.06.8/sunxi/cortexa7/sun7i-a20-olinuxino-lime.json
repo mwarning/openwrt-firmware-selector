@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-olinuxino-lime-ext4-sdcard.img.gz",
-      "sha256": "47d2e72d980a2f3b64d106838067563ab5604772375c46f0ef69daccb6707bc4",
+      "sha256": "61432585b48ca36c1d092ef3e210a44556e90fe30ac6cbd0767fa54210edf55d",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-olinuxino-lime-squashfs-sdcard.img.gz",
-      "sha256": "ffe908c4ce23639078a0fdb3249c7ac1e872d51be5b7bc3386a919855a670dc4",
+      "sha256": "0f5b3205aef3f87418a7d5c02edba6be6d24d5ef1166cb3d83251fc799576897",
       "type": "sdcard"
     }
   ],

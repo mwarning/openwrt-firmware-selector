@@ -45,7 +45,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-ew1200-squashfs-sysupgrade.bin",
-      "sha256": "a8ff9a3e1f943535ad9ac4b29422968a306eb5969718d755b077019f1ed01ea7",
+      "sha256": "8e511292a3e49a63b50f6637653cf2edcad7c8638842e8c321bf4193ba93b244",
       "type": "sysupgrade"
     }
   ],

@@ -52,7 +52,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-netgear-wgt634u-squashfs.bin",
-      "sha256": "812a54762641e3a473a24861ef421a1ebb227bc965b43086e1eb1efc55824042",
+      "sha256": "24ce78f35c956c76aeb8bf7e81ccb8d1bd3e89990a4bdc30b1c3e3d9b683de3d",
       "type": "bin"
     }
   ],

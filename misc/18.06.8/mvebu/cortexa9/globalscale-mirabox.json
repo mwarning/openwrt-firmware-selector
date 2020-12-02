@@ -34,7 +34,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-globalscale-mirabox-squashfs-sysupgrade.bin",
-      "sha256": "adb7179ab4f6852e900f11e343ca598bd8332188acc5a1130b5865e8f2b45895",
+      "sha256": "c2797c9ba92b22c2bc7324dc62b725fdf990d345a6483ff26df09917eb507c5f",
       "type": "sysupgrade"
     }
   ],

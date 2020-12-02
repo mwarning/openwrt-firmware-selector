@@ -39,7 +39,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-cap324-squashfs-sysupgrade.bin",
-      "sha256": "295501978533e397f798ac4b4f053d7bb8dd9dc1b646d9639bdf41303e2bafcb",
+      "sha256": "91561cf44c562684b6e7cff0174884b7d0b85b6e67e51182b53dd159f75bdd1e",
       "type": "sysupgrade"
     }
   ],

@@ -45,7 +45,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-apm821xx-nand-meraki_mx60-squashfs-sysupgrade.tar",
-      "sha256": "8043cdd6760d60444c18b99bc7a53aede4ccb0a195d61f552392ed0996efe27f",
+      "sha256": "cc9f283ef37d5677c86f7ed830b8eee17645255468a0ffe95e8b52dd122d29b3",
       "type": "sysupgrade"
     }
   ],

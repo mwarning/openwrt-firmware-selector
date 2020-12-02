@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-wam250-squashfs-sysupgrade.bin",
-      "sha256": "c6ab7e6762dcfad0fc0512fdb2d37fb9fb3b36a1afe7625a86c35445d2510f8c",
+      "sha256": "851844277a349fcfa13e1cc23294393c18db6d04c75402d15ff3ec0753907312",
       "type": "sysupgrade"
     }
   ],

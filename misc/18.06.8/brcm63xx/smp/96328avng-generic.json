@@ -33,17 +33,17 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-96328avng-generic-squashfs-cfe-8M.bin",
-      "sha256": "18e436b4db62f8f23d8748ce2f0f312135edb5a4d715d200e50bedab970fbbfc",
+      "sha256": "04eb71e49e58050cf9b498bbfd2af6c6850fd2725beb708aa9c696a3fedb384d",
       "type": "cfe-8M"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-96328avng-generic-squashfs-cfe-4M.bin",
-      "sha256": "50f91732a6228af431fbb26c1c71385d915ebfebc284dc9cc77661b5c2c6204d",
+      "sha256": "799d36a8ac35dc8932216968bef212a7366c799c585e8d40900e3454de476062",
       "type": "cfe-4M"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-96328avng-generic-squashfs-cfe-16M.bin",
-      "sha256": "b32adc8a501e595a2bfe76b32d4d2154891c27a0512a4fcb8954d2f8d2fe6cc4",
+      "sha256": "fac5451d34d9a9cad732e955f3232ebf5a2b53343289063057911d9f220b57d2",
       "type": "cfe-16M"
     }
   ],

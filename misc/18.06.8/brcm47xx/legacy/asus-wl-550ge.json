@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-asus-wl-550ge-squashfs.trx",
-      "sha256": "012e1dfd4aedc8b4c1b438b9242274c3f912f0c5d5513365a0a2167cc306d876",
+      "sha256": "e90705f7210ff961f6ce42a467041fbfcde0c87f6f1b8c4e368cfa45686a1f92",
       "type": "trx"
     }
   ],

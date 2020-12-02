@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-LinkIt7688-squashfs-sysupgrade.bin",
-      "sha256": "7fdea66dee343d944ac44338d97e71fe05c94fd2056fe51c72604672bbf3bc16",
+      "sha256": "7c7b4cdb02564642c64c1a83d564b4cca301f6e48c11e0842418ceb70381eed3",
       "type": "sysupgrade"
     }
   ],

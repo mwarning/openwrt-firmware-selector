@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-AGPF-S0-squashfs-cfe.bin",
-      "sha256": "ef743698577627a1d185fe4a5e71fd7f33d84cac685d0a97f5658c3f1214839b",
+      "sha256": "ba8c78080d2d6bfeadb2217e198e3ae7de1d2354491f914b2ab5f2eaa6b9030e",
       "type": "cfe"
     }
   ],

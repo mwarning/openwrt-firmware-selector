@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-linksys-wrt3200acm-squashfs-factory.img",
-      "sha256": "f762e6f4db28f44a50bae6e94d76e9e1bc710abd2d8ce4a5d31547a221fd8a79",
+      "sha256": "575c0db460351796fe8099cd5e3b517102ee4f43e9ba5256ac387018224901d6",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-linksys-wrt3200acm-squashfs-sysupgrade.bin",
-      "sha256": "f43ac76f730f498ae09f7d346ff18b01773993b1df8ec908824fca8bc3ba1943",
+      "sha256": "6250ff3379c65135a38460f27e63c9c26e93721b1535edddb3c395b8722fe680",
       "type": "sysupgrade"
     }
   ],

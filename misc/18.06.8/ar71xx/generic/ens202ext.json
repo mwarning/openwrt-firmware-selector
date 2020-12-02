@@ -41,12 +41,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ens202ext-squashfs-sysupgrade.bin",
-      "sha256": "864bbd946c14fb431676faa005d8862f75bfcebbdc1781c41aace565945c24cf",
+      "sha256": "5ce6bbe896801e3605eaab8b4ba4f0c0fbfae26b9c64ef1dcda4b264f432ab14",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ens202ext-squashfs-factory.bin",
-      "sha256": "ded9c7af39ed98a5c27862de215b93b0cdc23bfcbf7cb69f67ade1f5ab69aaaa",
+      "sha256": "c2030e3d237aa6019698e95e265043ddbe08b80a8de276570a8d5270cbd2646b",
       "type": "factory"
     }
   ],

@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xway-avm_fritz7320-squashfs-sysupgrade.bin",
-      "sha256": "ea7492d5e7e2576c7c37f4d3018c6d6d01459aa1caba2c3e8192a689082101fd",
+      "sha256": "2329b503d10028bb6078fd0cfc780498ae2bdb46085ab8884472a4b1f71d8ca6",
       "type": "sysupgrade"
     }
   ],

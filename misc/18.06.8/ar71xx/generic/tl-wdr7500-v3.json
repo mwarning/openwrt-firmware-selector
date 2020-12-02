@@ -45,12 +45,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wdr7500-v3-squashfs-sysupgrade.bin",
-      "sha256": "67b0634c287352ac7170d400abbcd139912bb21528a1e6e7497224820a580e0e",
+      "sha256": "813cddab95cfbccaedfe99d712f55a8bce7c6e6c09d77e8b0a33649fcb7b8f7a",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wdr7500-v3-squashfs-factory.bin",
-      "sha256": "6c2fe6876174def8a3d255e60617555ad5764669714ed6f2fa26393aae479f02",
+      "sha256": "09e2fccb59d55d583d0a0544006a4d903d1448dcd31f230e1579e020ead7e775",
       "type": "factory"
     }
   ],

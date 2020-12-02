@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-DSL2640U-squashfs-cfe.bin",
-      "sha256": "4c4ad671f6bce33e3f08c76f5e1eb00a604e9a3549b932c53407fd41d9ba18fa",
+      "sha256": "c06db99570f9dbd2b41612a17efca6e4e48fb7f809c2dec4861e940d14811e74",
       "type": "cfe"
     }
   ],

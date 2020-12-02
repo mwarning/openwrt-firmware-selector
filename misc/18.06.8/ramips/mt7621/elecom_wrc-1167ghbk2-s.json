@@ -36,12 +36,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-elecom_wrc-1167ghbk2-s-squashfs-factory.bin",
-      "sha256": "8e4574ff4acbdcaa3ec13231d70eba559224f7f2e55741df0c59e125a9971e3b",
+      "sha256": "3ae083b1e0b3cf9d0c51587d83a2a7c4c72853f80961d5e6dcf167bdf12a8a8a",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt7621-elecom_wrc-1167ghbk2-s-squashfs-sysupgrade.bin",
-      "sha256": "8e988d240e2dc730d60e0b4c77a1f3ab8cb7c1961fadb4aeebf372aa666b49a9",
+      "sha256": "bacbe1dec71ff8b318079763bf17d726d08a01e14d3588e319f04e90787d90b2",
       "type": "sysupgrade"
     }
   ],

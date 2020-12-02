@@ -47,7 +47,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-rme-eg200-squashfs-sysupgrade.bin",
-      "sha256": "d84cfd3bc8ca689f94b0d63060e40be46aad0a1f4f2469b002005496f76904ce",
+      "sha256": "7274b5622b363158517ceff8d3fd67d3853fd1592b7ba13fb554454f182b39f9",
       "type": "sysupgrade"
     }
   ],

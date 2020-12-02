@@ -40,12 +40,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-VR-3025u-squashfs-sysupgrade.bin",
-      "sha256": "1c328e3b329f57738f11642b2ae4a1643d095f622e8023923973b416ceac7e69",
+      "sha256": "34be75d879daeed755c463dac1f8bfd9179b01ef9a3919d98c9f69f481823b75",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-VR-3025u-squashfs-cfe.bin",
-      "sha256": "94f7f8dc50aaf78cffded9d928be3b5f547dd2b2ad60e068e559ae8cbe56c7bc",
+      "sha256": "87e47abe029c854bf833ae36d11a90c05347c531015572cb06c5dd14ff21ff2d",
       "type": "cfe"
     }
   ],

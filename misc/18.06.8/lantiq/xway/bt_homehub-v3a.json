@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xway-bt_homehub-v3a-squashfs-sysupgrade.bin",
-      "sha256": "2c2a25a0268864e7f53fdbfd6e9c7a4b8f0546c00b29b90072b067e72776fb3b",
+      "sha256": "9627e71027b10510cb2ffd794bef2c40237779d1d576faae04c0bdfd1f85944a",
       "type": "sysupgrade"
     }
   ],

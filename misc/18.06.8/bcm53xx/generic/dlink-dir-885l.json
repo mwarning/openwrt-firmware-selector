@@ -59,7 +59,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-dlink-dir-885l-squashfs.bin",
-      "sha256": "f7afab3a145979b5e97a70ec28977636be7646691a9523d9cce7811b120df42d",
+      "sha256": "039af2133a9da66bc450dc2120149d97995df8fc8417c77b81053be88a44da30",
       "type": "bin"
     }
   ],

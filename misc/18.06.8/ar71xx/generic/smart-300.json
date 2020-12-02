@@ -39,12 +39,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-smart-300-squashfs-sysupgrade.bin",
-      "sha256": "1f3a2e280884525f9b3357fdfbf35ee635022709e239bfe29a022523ab08927f",
+      "sha256": "24e61cc94764c476a9164acacb6ce8877ab2e05099bf90f2af3e5df2f3f12af0",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-smart-300-squashfs-factory.bin",
-      "sha256": "6e940536be22bd26f92beac340abe1feb8d1b934b11c5ccc8e03210f46491bd2",
+      "sha256": "2f78d1a016f8a8a7bc84bbeeead92f843a869585db0a8c5f263d94347eff7d01",
       "type": "factory"
     }
   ],

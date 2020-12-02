@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-hc5962-squashfs-sysupgrade.bin",
-      "sha256": "babee160506ee7f7fcca7bc1716b7b37d8e6f2737e511b5ad942cd43727cc9cc",
+      "sha256": "e040a91a4386f04472b92876ea39a9ade357bf9f52c2efc594739569246fe93f",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt7621-hc5962-squashfs-factory.bin",
-      "sha256": "c8b63005c99b6e8febd9fac315152e636cbe96359ed232286db177a207613273",
+      "sha256": "94d1caf8b79850c738e1d6765fc7f90ed4402dccd7f79ff26df6dceb9899a32e",
       "type": "factory"
     }
   ],

@@ -38,7 +38,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ath25-ubnt2-pico2-squashfs-sysupgrade.bin",
-      "sha256": "3da03606f7db2ca8741520b75aac94d9c003e57b5d7641004d7cec369c6b4666",
+      "sha256": "178638e95a96338b50e670586212bc0c0c4e157c5a5173210c2964b64f603d04",
       "type": "sysupgrade"
     }
   ],

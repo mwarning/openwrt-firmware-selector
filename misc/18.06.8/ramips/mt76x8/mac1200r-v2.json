@@ -38,7 +38,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-mac1200r-v2-squashfs-sysupgrade.bin",
-      "sha256": "f8f9836d824c48b82d7b828e1d1dbe97bca5596685aa34d7656235b14cda0783",
+      "sha256": "882e698c9872b32fa6db627f2e8ec0e167b69d77f258ef686a46a99a70455e4c",
       "type": "sysupgrade"
     }
   ],

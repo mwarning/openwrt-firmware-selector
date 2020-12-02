@@ -36,12 +36,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-pistachio-marduk-squashfs-factory.ubi",
-      "sha256": "4e591164e6d98f1da6e3e23acce4ba9880b6d1bb03fec64bb4653392374bb014",
+      "sha256": "b0d58176228d585b1fa8517db9fa5b52cfc780be8a320254e846b23de5dde8c8",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-pistachio-marduk-squashfs-sysupgrade.tar",
-      "sha256": "2d3830d5e74fd6c76f82b8bec2cf87152820f9bd4e686a211fb2dacf355581a0",
+      "sha256": "5408fc0aee9e80fd5561aa7ad0180dc6122c4ccd7149b4f2b2d5c2d559d8fa2e",
       "type": "sysupgrade"
     }
   ],

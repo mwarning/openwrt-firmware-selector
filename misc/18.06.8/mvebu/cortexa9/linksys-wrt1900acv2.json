@@ -40,12 +40,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-linksys-wrt1900acv2-squashfs-sysupgrade.bin",
-      "sha256": "362bc8036e9a948746ddf4506072fd75106f62941d4e5ddd0c92f010e5db1bbd",
+      "sha256": "6b7c1528fff7963e5acf38170c7169b904290a5223806faa3ba28337d2fe1c6a",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-linksys-wrt1900acv2-squashfs-factory.img",
-      "sha256": "e56750d84a2017e5490a449d21ba01bc4426106e8efed669b305a742112973b1",
+      "sha256": "38b8f41bda7c931a0bc4691b5a4e3e9ef81518ea561c5f2b2cb377d10d9f30fc",
       "type": "factory"
     }
   ],

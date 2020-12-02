@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wdr4300-v1-il-squashfs-sysupgrade.bin",
-      "sha256": "f181d4ad9556125675f34a9f8f546cdfc0c8a6be8c7c53cc95643db600c498e3",
+      "sha256": "4c623c67cd134a8fdaa0a3053be0b3910347928bb06243512e1059921cdea523",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wdr4300-v1-il-squashfs-factory.bin",
-      "sha256": "1501dc9d87e0ff012ea5085b9c6fb516e69c004f94cb1c4b4b8debc2ab213301",
+      "sha256": "6d51eb09de83e221cb58b228b6335ff64b96774a0dd8b4ea5bff238cca360eb7",
       "type": "factory"
     }
   ],

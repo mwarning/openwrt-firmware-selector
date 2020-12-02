@@ -64,12 +64,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ipq806x-netgear_r7800-squashfs-sysupgrade.bin",
-      "sha256": "08d57ef6546e416fa51514f329c31709774daa54c023eff20c754cf3e51789ff",
+      "sha256": "8b4ad76ff15216f985778e7cb79f1e197dfbfd601bd6171dafe7871009b187f1",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ipq806x-netgear_r7800-squashfs-factory.img",
-      "sha256": "037ec15c5d2c389beb9fc71a6a4eafa4010e9c8d99cb24e0f07122f458dd7930",
+      "sha256": "6e8e05b3cf3d48dfa69839eefa9733c2a79e91a4c40af456432e89417a715f0f",
       "type": "factory"
     }
   ],

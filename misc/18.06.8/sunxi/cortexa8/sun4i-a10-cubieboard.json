@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa8-sun4i-a10-cubieboard-ext4-sdcard.img.gz",
-      "sha256": "8deac3c4331348ebf768ce96d26549c4e850c014d50affe7839b9c008067f0d3",
+      "sha256": "51b3c1fd9841a9508c1b38c1e23f1ae3f2c901ea3db4890cc69bc22664eaef98",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa8-sun4i-a10-cubieboard-squashfs-sdcard.img.gz",
-      "sha256": "065932bf63398e253417e96682008678e7589c68e40be3ca454396dc27d67aa5",
+      "sha256": "21826c79e015128e866c5291e918063389b739f01db110bdb19ab13bc016a92b",
       "type": "sdcard"
     }
   ],

@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-rocket-m-xw-squashfs-sysupgrade.bin",
-      "sha256": "614075d79d5621c4abf58f8a4d3d55a4b1357ac485b6ba29cc73ccc511c66e0a",
+      "sha256": "173ec204488f2102daa6fe56188b3af4da37e874df2fd186df76d1d74e15a2b0",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-rocket-m-xw-squashfs-factory.bin",
-      "sha256": "c34f452d031bd75d61ae7de1e2d71def0251f162dbdf6e97718f627ffd3b1277",
+      "sha256": "4f673f655308254e73cd43ae3e66f9c54d76df621557876c5e9b1396f6702102",
       "type": "factory"
     }
   ],

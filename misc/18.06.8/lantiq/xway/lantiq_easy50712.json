@@ -32,7 +32,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xway-lantiq_easy50712-squashfs-sysupgrade.bin",
-      "sha256": "9519e78b9f961a5cfd8e32984aaa9063ca3e0965baf9cca9a33e51fe1d02f022",
+      "sha256": "c798c03e7d9abed1eedca1a55b6347ba0fc3c32a44f4378204588e0012b876a9",
       "type": "sysupgrade"
     }
   ],

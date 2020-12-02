@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-zbt-wg3526-16M-squashfs-sysupgrade.bin",
-      "sha256": "5a96250edea81d0ead4148ecfb7b89991026f142eaf9da238c54d835e5a276b5",
+      "sha256": "40693ba46d2fe50e396dd2acfc9509fbddebc7465e09cc40944411e2a99a539b",
       "type": "sysupgrade"
     }
   ],

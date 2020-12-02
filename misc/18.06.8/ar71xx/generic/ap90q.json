@@ -39,7 +39,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ap90q-squashfs-sysupgrade.bin",
-      "sha256": "7f06f0cf0517417514d3c9f9dca201b0413b443cc8d39e6a4998df1dc7ae31b7",
+      "sha256": "30a9ba44d80354a5ef2f30757974a5a7fe33a80a7c790863045ab15e81c8544f",
       "type": "sysupgrade"
     }
   ],

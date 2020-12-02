@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-mips74k-netgear-wnr2000v2-squashfs.chk",
-      "sha256": "0635ec6d2c17c1e9b62cd3d5725f9ab8920923710de12b8f0bd84d865ec37bb8",
+      "sha256": "3bbe2ce3df298adfe2dbd4af7dbae9be1e91f046c4b00458445c18022dcb4d7b",
       "type": "chk"
     }
   ],

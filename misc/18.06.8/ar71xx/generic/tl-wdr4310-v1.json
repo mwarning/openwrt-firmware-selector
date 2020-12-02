@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wdr4310-v1-squashfs-factory.bin",
-      "sha256": "f41876a2da8e276e6738fd1fc399be0dfbaa5de353388749036f24202c150b63",
+      "sha256": "a6b03b7233fc9750b77a8917f1d13a329f7404f12886ed0b2bbd602d631c3e69",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wdr4310-v1-squashfs-sysupgrade.bin",
-      "sha256": "0db0c48532b3601f1ffd27e25e7620bdc006c0aef70fd2fe0df7f7ab016c1b02",
+      "sha256": "dcc1c07439fc0c78f4d4a273f1e0d94e4f689b7b74b7055495cbcf1f432c9d5d",
       "type": "sysupgrade"
     }
   ],

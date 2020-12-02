@@ -52,7 +52,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-edimax-ps1208-mfg-squashfs.bin",
-      "sha256": "e525e44f9df21f85e0369c0d8f95d4e8f048e0f5904833034d16123d8524e2a9",
+      "sha256": "bd379e17f43104c0f3bf2079b68cff5e9ded911e41f24c2c7e3babfe6ba36619",
       "type": "bin"
     }
   ],

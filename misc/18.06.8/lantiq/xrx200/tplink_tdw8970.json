@@ -47,7 +47,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-tplink_tdw8970-squashfs-sysupgrade.bin",
-      "sha256": "fdd28ae6d0c029234fe610ddbc32ac608443a2f67bd712b46a289a2bc7b461ff",
+      "sha256": "062495419bc5b010228a2735dcee4a4af7a20a531b97660d7172a9db9d4533f5",
       "type": "sysupgrade"
     }
   ],

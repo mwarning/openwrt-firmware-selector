@@ -58,7 +58,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-netgear-r6300-v2-squashfs.chk",
-      "sha256": "4e8e240b06616722a0122fe4db779af0affe883a8296afc0172e403f9482c27e",
+      "sha256": "2db7d595f407315c112de1a7d186a744c44b9cfba5668061066c086eb03bd42b",
       "type": "chk"
     }
   ],

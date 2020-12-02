@@ -44,7 +44,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-tplink_vr200v-squashfs-sysupgrade.bin",
-      "sha256": "d7f26115beb9c1b460625fe604433dd820d1042ebf1e4054c2483d53943683c2",
+      "sha256": "8dfc58a353eef4898dcf76d09a53397df7ce8909a700f41b65b97f179f54b533",
       "type": "sysupgrade"
     }
   ],

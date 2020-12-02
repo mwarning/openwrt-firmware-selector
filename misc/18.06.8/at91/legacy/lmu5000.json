@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-at91-legacy-lmu5000-squashfs-factory.bin",
-      "sha256": "dd075419fe9cf7d77d3b4e26432f447f45335fb5be60035e28ffbfc1ac19f05c",
+      "sha256": "be18c3ec19349d1d0d3c190a80af02aa50eb9a02b08589cf6d842c3c5ef7dd97",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-at91-legacy-lmu5000-ubifs-factory.bin",
-      "sha256": "e297e90ee37c2f72ed1aa53ecbc1cee8b93c1013317143261991a16c63ea22a5",
+      "sha256": "d41e361477aff7e9ed1cd0349cc4c13b6fd4d7d826f2e81a9af3f341c9be325b",
       "type": "factory"
     }
   ],

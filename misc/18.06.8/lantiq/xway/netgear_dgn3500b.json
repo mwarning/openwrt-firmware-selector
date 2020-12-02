@@ -46,12 +46,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xway-netgear_dgn3500b-squashfs-factory.img",
-      "sha256": "8be057d2cd8fb8fe948b495f684b5512f05c38b3262ecc6bede91451aa201b8c",
+      "sha256": "8087674c63226e9b75ae38dc61e6955bb01e8897002a4b8fcd7d5c8188fe29ce",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-lantiq-xway-netgear_dgn3500b-squashfs-sysupgrade.bin",
-      "sha256": "8c609faa873b05525b568478de60249e14860b47af0bc0f7ab4fbb6635edbc4f",
+      "sha256": "a2bbf8a7b722083635564893228b58f89d9782650cdf7b442518bd5673706c9e",
       "type": "sysupgrade"
     }
   ],

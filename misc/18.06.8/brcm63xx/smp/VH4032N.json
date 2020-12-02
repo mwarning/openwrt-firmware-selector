@@ -40,12 +40,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-VH4032N-squashfs-sysupgrade.bin",
-      "sha256": "adae8bf9997c5da4a074b333fc8368c7ae9841fb7b22e7a2b6070bfefe111e0b",
+      "sha256": "f240fdd604e8a8d186329b0ca84fd3189300bd5b625eb4f2347663d7176c0fde",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-VH4032N-squashfs-cfe.bin",
-      "sha256": "99929ff5aae475a68ba3dc61296247986989a01d55257e6d0b5a725e91343b37",
+      "sha256": "656c1129fd54eaee5d9d9ed07228853ff26efa217bc2f166d6209ce168ee46ae",
       "type": "cfe"
     }
   ],

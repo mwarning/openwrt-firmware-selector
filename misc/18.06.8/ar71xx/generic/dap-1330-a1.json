@@ -41,12 +41,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-dap-1330-a1-squashfs-sysupgrade.bin",
-      "sha256": "70991c5cefe1e61f365a9fc2cd9075c4870647d9d6a313f9485716efdc9ecbd0",
+      "sha256": "e27984ea55e722a1cf2d5db9a8ab64b13d559b443ab1f827be5d9b83d366a27a",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-dap-1330-a1-squashfs-factory.img",
-      "sha256": "eafad6c0d5d6530b32b614096c68e1adf06748a0ae9c7ba5ca988ef34751b351",
+      "sha256": "59e283293b6164238c6666cf4d602c10a946acfabb64c61c254a18f1b4b6baa4",
       "type": "factory"
     }
   ],

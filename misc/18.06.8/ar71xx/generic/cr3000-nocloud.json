@@ -39,7 +39,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-cr3000-nocloud-squashfs-sysupgrade.bin",
-      "sha256": "017bb4730f97dcc3c172432ef793ab86068ec2b38b1e56d5f553a637c939b789",
+      "sha256": "5fe44be528e82a13f92d4614a8e57b121bcb4de9b78ef5b283a3b0c9d5b077f8",
       "type": "sysupgrade"
     }
   ],

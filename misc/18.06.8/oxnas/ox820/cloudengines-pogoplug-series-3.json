@@ -39,22 +39,22 @@
   "images": [
     {
       "name": "openwrt-18.06.8-oxnas-ox820-cloudengines-pogoplug-series-3-ubifs-sysupgrade.tar",
-      "sha256": "6f2469999428aeb2044615e33fea12ca59983b9ce1f6910b1b65d7ff4a43c6a1",
+      "sha256": "51698e9d6acb0709e0db2462530577fbb40e7ad7be9851ffcd70557eb20ba475",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-oxnas-ox820-cloudengines-pogoplug-series-3-squashfs-ubinized.bin",
-      "sha256": "82ca02487eec984ac2ca7f17b06744982a0814f95d7c48f5fe67b14c1551e676",
+      "sha256": "589f15e768e54acda18d23d02f6ead55e1ffd5cb3314d0e618c044d69910fc1d",
       "type": "ubinized"
     },
     {
       "name": "openwrt-18.06.8-oxnas-ox820-cloudengines-pogoplug-series-3-squashfs-sysupgrade.tar",
-      "sha256": "08cb65651725863063efe78320cd51d9c8001107d824c9d6513b5b1b24cd0adf",
+      "sha256": "073a1cb35282b0c2b9484fb7e7267bda3e8e6cd617ae592c8e4c153c7f442b42",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-oxnas-ox820-cloudengines-pogoplug-series-3-ubifs-ubinized.bin",
-      "sha256": "72674c285c9871700d5a300e316bc978a260b3a8bfd1bea650aa675e7afb0b1c",
+      "sha256": "aecfcb2fe695e3a668f7a9ec455ac48bb594b4859cec1259f59f9b9be202f37e",
       "type": "ubinized"
     }
   ],

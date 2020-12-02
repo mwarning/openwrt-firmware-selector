@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-loco-m-xw-squashfs-sysupgrade.bin",
-      "sha256": "9538ce3b6387b6b22a2936ccd0e0baa6440e1321768bb474930536008f489737",
+      "sha256": "acb6d574312b78479da61c90cf7606e26e07075fe3a0210414e4dcd3222f6593",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-loco-m-xw-squashfs-factory.bin",
-      "sha256": "08d60774c7ab782e9ceab22e64a51b53092ea8a4ef3e4937d2c0cb4128943618",
+      "sha256": "f8e44d58e5a6184bb91fd86b096ee34a9dfbf38cf2cf7fb7121df0cebc4a93d3",
       "type": "factory"
     }
   ],

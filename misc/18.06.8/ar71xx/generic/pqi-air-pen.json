@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-pqi-air-pen-squashfs-sysupgrade.bin",
-      "sha256": "ee26a55fd14929585549d9d5f3e92971259fd2a0e3647e90ff2f69b7f5c160b7",
+      "sha256": "9e7e719a78ef4db6f94a63b5e67725b0a99d0ac2418fc8099ede8939d7ea754e",
       "type": "sysupgrade"
     }
   ],

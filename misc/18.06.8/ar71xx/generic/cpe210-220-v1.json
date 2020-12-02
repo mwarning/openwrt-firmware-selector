@@ -41,12 +41,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-cpe210-220-v1-squashfs-factory.bin",
-      "sha256": "e048673089c8b3d5cbcac89bbc1c8bc374b446c75425b916c40cb16ad7e4cf82",
+      "sha256": "b35d92e8bcbcc6a7bdd067ccc31ac63b1d06d49fa1ef73cc9970140f2121326b",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-cpe210-220-v1-squashfs-sysupgrade.bin",
-      "sha256": "26123bb41b9ce089c32a8755ead2538c80dbddd989d021e5037a3dcc73ccf906",
+      "sha256": "d042a76204d6ef0eb7ffc22a1c8e504113a22cab1562c51b7379bd9968f61dd6",
       "type": "sysupgrade"
     }
   ],

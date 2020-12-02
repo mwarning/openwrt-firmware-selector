@@ -59,7 +59,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-netgear-r8000-squashfs.chk",
-      "sha256": "1b3cb754ca480f5cfede82d140718b12c2cd0e89d963067561d47911da32fd40",
+      "sha256": "6d6a70f61b11aa827f5f3fcfe278404c4593d1af3f82d878490ee747026d392b",
       "type": "chk"
     }
   ],

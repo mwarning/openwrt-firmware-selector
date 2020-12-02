@@ -44,7 +44,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-ase-allnet_all0333cj-squashfs-sysupgrade.bin",
-      "sha256": "525f011d8d939da6614cb4eee3820da9d2bac3beeed28cd9739aed416f201edc",
+      "sha256": "79373709dab8f6a67ae101a2703ba175a5a1613773664f8e7e8f878517bcc15e",
       "type": "sysupgrade"
     }
   ],

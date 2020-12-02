@@ -45,12 +45,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-antminer-s1-squashfs-sysupgrade.bin",
-      "sha256": "87fd00d3cb314e493dd868cc4c05986773a816400e49b700ff569eea9230f1c7",
+      "sha256": "15d4dc7ed63541381281f1ba0c0494579493604b6ba4166ed329065c0aa697ba",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-antminer-s1-squashfs-factory.bin",
-      "sha256": "b58eaa786a05af48c697ae9c0bcae90b2ff22740b3ea1274ccda9689642e21ae",
+      "sha256": "2b475e764e51badb60c3d592937e7b93148fe21362b86c904b442693ff060cad",
       "type": "factory"
     }
   ],

@@ -35,12 +35,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-at91-legacy-usb_a9260-ubifs-factory.bin",
-      "sha256": "b81a06ffd28a470faff59c88e0c0e5cb292672411c2e91587f50d553c41e217f",
+      "sha256": "a569dc50b72b4d57d3c28e0e5d5504b7ce69307cea0f58d0ef4c8df5be879b2e",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-at91-legacy-usb_a9260-squashfs-factory.bin",
-      "sha256": "3f0aa2051b3c46b7c78fe9e7b61de3eeb24b81d84b8ea0b3a9d6868b31f7495d",
+      "sha256": "5ba2ccf3d88615ca5da8fdbeb4db8c419921450975cb9322284010ecb3705af8",
       "type": "factory"
     }
   ],

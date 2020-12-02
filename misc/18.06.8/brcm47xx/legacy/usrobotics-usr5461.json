@@ -51,7 +51,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-usrobotics-usr5461-squashfs.bin",
-      "sha256": "dfca04fb73da31b8731486765b142cf1697fc19bc2492384e51cbdf1d8ad3111",
+      "sha256": "919cfdc6a963879f29444362bb97d748b965c08488c5e5d09bf3af4aeda70009",
       "type": "bin"
     }
   ],

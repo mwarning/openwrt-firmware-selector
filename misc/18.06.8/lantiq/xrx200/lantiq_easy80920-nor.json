@@ -48,7 +48,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-lantiq_easy80920-nor-squashfs-sysupgrade.bin",
-      "sha256": "a2db6a83b06f0d4e998e3a43c3a988a08bc50638aff4a581477a646dd24398aa",
+      "sha256": "fa0b10e36b9c07d5b7944f1f779f81eb1e80c5a9b2fb3e23dcd17276eac1ae33",
       "type": "sysupgrade"
     }
   ],

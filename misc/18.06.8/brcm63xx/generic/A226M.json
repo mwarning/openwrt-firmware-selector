@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-A226M-squashfs-cfe.bin",
-      "sha256": "f84ebbfe656f10594f55425753b113f61c08fbd9b22c91367e8a1697989d5b84",
+      "sha256": "1fdf0b23aabd573c68ced290fd9ef1271173ebcdaa7f82c19250ace420654268",
       "type": "cfe"
     }
   ],

@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-mips74k-asus-rt-n12-squashfs.trx",
-      "sha256": "146469bfe53e0caa358c18a15256246f0c69f7c4f4e03ad4cec35178428b2751",
+      "sha256": "bf7a26835d13f7ed78156fc30d36fb7faf39fe53e402623af44cc27a53c9eb90",
       "type": "trx"
     }
   ],

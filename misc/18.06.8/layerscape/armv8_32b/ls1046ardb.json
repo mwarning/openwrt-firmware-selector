@@ -32,7 +32,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-layerscape-armv8_32b-ls1046ardb-ubifs-firmware.bin",
-      "sha256": "f4015d04ceda9ad57ec62232288df8725d7fd4a5cc6e6480880bdd652a833c14",
+      "sha256": "e00028318ce05cede9b63498bfe57d16d06b51ec86a19cc34df7ef62608581ba",
       "type": "firmware"
     }
   ],

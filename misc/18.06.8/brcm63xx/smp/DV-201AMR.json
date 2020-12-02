@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-DV-201AMR-squashfs-cfe-old.bin",
-      "sha256": "270567fa92105a46e0b7cab71a89bcda98f82458fe9b8e249f1d50788bb5bf48",
+      "sha256": "5588c4741cd2aac5224597fc3b73df0db90a00fe8190a96c43797250c9d64c1e",
       "type": "cfe-old"
     }
   ],

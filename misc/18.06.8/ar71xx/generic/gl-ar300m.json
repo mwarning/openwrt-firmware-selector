@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-gl-ar300m-squashfs-sysupgrade.bin",
-      "sha256": "112d5cb5341eab93d5a224157e5df75aaff23992182f4785f0c3d3eec7566b51",
+      "sha256": "d7b6a16ecd32edffdae51661573bc774e1339acacae5d5f70f7c192174c464ae",
       "type": "sysupgrade"
     }
   ],

@@ -38,7 +38,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tl-wr840n-v5-squashfs-sysupgrade.bin",
-      "sha256": "0c64146dc34ffc719d672eaa864566ccd6611fda1596842d9089d54b81bfd6e2",
+      "sha256": "42bd7cd8c5eff3da0963aa05fa7414d08ac6e73577747fe141e0831c5020ba4a",
       "type": "sysupgrade"
     }
   ],

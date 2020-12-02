@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-FAST2504n-squashfs-cfe.bin",
-      "sha256": "b40e9da08f07ca3dd1966ba86a910115bef810372e85746a750b6fe5b088fb2b",
+      "sha256": "a1ed1b43c9b2df53d61f2dcbd731fa86aae07334b55291bcf066b7c2077e5c3f",
       "type": "cfe"
     }
   ],

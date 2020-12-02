@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-sap-g3200u3-squashfs-sysupgrade.bin",
-      "sha256": "aecdddbbb60c24aa701e6f2f488233e29f521ad6a856ddb18736a54f1bb846b4",
+      "sha256": "f904397cb7350cf4bfaa1778a996afe973db81fd309ef880d14029d53160f2c8",
       "type": "sysupgrade"
     }
   ],

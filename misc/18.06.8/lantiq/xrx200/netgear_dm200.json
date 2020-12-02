@@ -41,12 +41,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-netgear_dm200-squashfs-factory.img",
-      "sha256": "65ce03574f4366fa4d90525c67ceab41d6501e93f6492f78b8a079993fe1686a",
+      "sha256": "863ac2a840ea46319f49298f77c0cda63247d26a72aae3c03b971c465dc035ea",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-netgear_dm200-squashfs-sysupgrade.bin",
-      "sha256": "332254cbe1be177e001bcf91d6b5cfe1a1fba87854b5b240edd9b0b42877c127",
+      "sha256": "7ed7c3001492e6ce575c66affbf26cab0d176765526bf0c392db1d74c93f34b9",
       "type": "sysupgrade"
     }
   ],

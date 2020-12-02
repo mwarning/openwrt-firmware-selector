@@ -58,17 +58,17 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-buffalo-wzr-900dhp-squashfs.factory-DHP2-JP.bin",
-      "sha256": "91cffb6e8fb33eaa58be139236dc65a618a3ecba06421c9b6066cf30508454ae",
+      "sha256": "057947806c1959ca5be5a9943277524e433e100499f2d999d2f3d1c763c20cd8",
       "type": "factory-DHP2-JP"
     },
     {
       "name": "openwrt-18.06.8-bcm53xx-buffalo-wzr-900dhp-squashfs.trx",
-      "sha256": "c874afc2b2c9a20498e4c815c79a86918a1c34f2e91f85cb2c9e7678a649da51",
+      "sha256": "ab2c027ac97faa69d60b3944e787071a76352ef375a66fa7c86ad3f3c3ddf3b9",
       "type": "trx"
     },
     {
       "name": "openwrt-18.06.8-bcm53xx-buffalo-wzr-900dhp-squashfs.factory-DHP-EU.bin",
-      "sha256": "8f6242153d9d0369e140528a088829d3e02619b36eaf4e886172a32da7a1b77c",
+      "sha256": "6ad2836111ae236bc77873851ce327083dff0fa75a03ea403fa74e659cfa906f",
       "type": "factory-DHP-EU"
     }
   ],

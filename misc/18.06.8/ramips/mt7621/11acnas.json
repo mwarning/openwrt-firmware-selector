@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-11acnas-squashfs-sysupgrade.bin",
-      "sha256": "f30aadd9feffcdf374881a72ab3a153c5b6465f09857ab7a27fb3f98756076db",
+      "sha256": "2fd2eb172f4e2d6a0100203aee95b0f73e6d7c7895de458bf51727d961a5dba7",
       "type": "sysupgrade"
     }
   ],

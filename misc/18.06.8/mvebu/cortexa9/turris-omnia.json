@@ -45,12 +45,12 @@
   "images": [
     {
       "name": "omnia-medkit-openwrt-18.06.8-mvebu-cortexa9-turris-omnia-initramfs.tar.gz",
-      "sha256": "1587ff04cac9ac1c64d6c85d2a9bf8ab2336a27cc2ea12645382d7a5764a67a7",
+      "sha256": "438bf4e326d8b9147271ba621c0c5ae9bf2974889e610f01cf9f4cdc95c8cd0b",
       "type": "omnia-medkit-openwrt-18"
     },
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-turris-omnia-sysupgrade.img.gz",
-      "sha256": "feefc4d8472d1c88e74309e9a960a0e50e26bce7e17a6adb7756493d3f12d18b",
+      "sha256": "9e765692a8b9be153a96c1e56a5349bd573572919059f3d4dbccb0d0cfcc6cd5",
       "type": "openwrt-18"
     }
   ],

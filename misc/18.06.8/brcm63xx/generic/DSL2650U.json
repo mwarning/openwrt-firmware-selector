@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-DSL2650U-squashfs-cfe.bin",
-      "sha256": "e8447d8d844c238b1da025e0a065fe6ac7f726e72670f398e18192abfb97b40b",
+      "sha256": "07fafc6fa9323b5e4a2b671c86ddcc7b17a7381eb481b009ad6925e2875dbf3e",
       "type": "cfe"
     }
   ],

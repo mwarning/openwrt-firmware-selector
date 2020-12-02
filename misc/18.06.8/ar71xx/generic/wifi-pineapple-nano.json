@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-wifi-pineapple-nano-squashfs-sysupgrade.bin",
-      "sha256": "cf5732d522771de2410d9655e93a7a31fea7e05295aef6246033291bd202d562",
+      "sha256": "115d69e3e5df232bb3f3549a77561242deadcb76c2cf7a4d83427d4e1f75d12d",
       "type": "sysupgrade"
     }
   ],

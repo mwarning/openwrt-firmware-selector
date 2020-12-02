@@ -44,12 +44,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-rt3883-dir-645-squashfs-factory.bin",
-      "sha256": "3eb9d5fa5d9b2cba50da959c518cd4b2291d101ae4f26e7cf3164be003c48b4f",
+      "sha256": "a6b8fbc19b601aeedafbe09d64cfdbc5dd399fec010e475568c76115890b6637",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ramips-rt3883-dir-645-squashfs-sysupgrade.bin",
-      "sha256": "c92a28fc5ca32603c8ff21c2486528c33a2a0a6af2a69ad215169c560bb75d9d",
+      "sha256": "b54380d66f5fcd916f6b6493d2fa380201541bd948737c876754f4a8ba986d8f",
       "type": "sysupgrade"
     }
   ],

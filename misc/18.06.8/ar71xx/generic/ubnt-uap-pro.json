@@ -39,12 +39,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-uap-pro-squashfs-factory.bin",
-      "sha256": "0852e921485c2b5de894cceabf69b8b630a5293149783ae3d19460a3d78fbc5f",
+      "sha256": "092d1ee9e0f42c9b2f33df7435f732ed4dbc70957c0b1af6716afdca9b933c14",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-uap-pro-squashfs-sysupgrade.bin",
-      "sha256": "94209676970a89df9f8b5e16a59b6004d0ccd6c3829b24bbf3d3758728b30cc3",
+      "sha256": "da440f8c91ebcd08756d0db3bb3c169187900d7593a43f16cf0bc1f668ad5c7e",
       "type": "sysupgrade"
     }
   ],

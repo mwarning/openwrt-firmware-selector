@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-sc450-squashfs-sysupgrade.bin",
-      "sha256": "d84b0f71f1f6a9f5ca0e31611e5aa4a12f4967c7c3f43036e8c7e0cd43b34297",
+      "sha256": "7647c41d1283966ac300b1b1c3896b9bd923a47fb7f1fe4901ebd6d7dd4af7ca",
       "type": "sysupgrade"
     }
   ],

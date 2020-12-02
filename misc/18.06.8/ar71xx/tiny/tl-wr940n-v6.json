@@ -39,27 +39,27 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr940n-v6-squashfs-sysupgrade.bin",
-      "sha256": "accd9a8e7642fff479f6d88b47616eb7350b0c6b6962e0e2b9ccb37377a9389e",
+      "sha256": "27ceda729e166d65b7bd5450edcc655beeaf4ae8696d8f3bdea77403020c32ed",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr940n-v6-squashfs-factory-br.bin",
-      "sha256": "c5b05a0c4c65c37c13c042133ec5f7199c17474d2d51e2238f9a2f0d0cc0cdec",
+      "sha256": "e7dc224d601695782111ce6710f5d5b79cd783bc3a04c8a44748b04c77b72281",
       "type": "factory-br"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr940n-v6-squashfs-factory-us.bin",
-      "sha256": "3fe487ca6f2274a0ef228cff62ff5e2bc2d4889fed6b64c28da62bcc111d1291",
+      "sha256": "3bc919fadbd1b1bd09a150736a1b0009ba5adcad807914b3464035e5892ef10b",
       "type": "factory-us"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr940n-v6-squashfs-factory-eu.bin",
-      "sha256": "19dc2aef4baa8282725706608d85c85eeda85c512fa350662a0879b8152fdd09",
+      "sha256": "91bbeace50b2b24a3536b4f2acfae55354fac55f20bcb76d0b10e7f4d0b39d64",
       "type": "factory-eu"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr940n-v6-squashfs-factory.bin",
-      "sha256": "3e52c9399e8fab03cf31ab84e20a503f46c3c53a9072247d79b77c62b577eaac",
+      "sha256": "9fd5fdb478500a8ba8df0cd79ea0609743674c8d8432b68f74aba87dfb64790b",
       "type": "factory"
     }
   ],

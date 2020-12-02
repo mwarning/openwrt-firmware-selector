@@ -48,7 +48,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-mips74k-standard-squashfs.trx",
-      "sha256": "3221a04b69521f3baaa154df521177c42be19e14ca7d51c89c616c914351de6a",
+      "sha256": "8f3885428d51f7f4a75b1405eb200a7706f58630af6708c32d13b8a2578fb0c0",
       "type": "trx"
     }
   ],

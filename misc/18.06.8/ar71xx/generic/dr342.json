@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-dr342-squashfs-sysupgrade.bin",
-      "sha256": "344bec31ce5e0ca37297dd47d26a3e2716dd1ce31b2279395fedeccc6b7f4c9b",
+      "sha256": "3505fec2f6e8d4719cbeb74139401f52cab3119c953a726daa1f33e3ecc6adb2",
       "type": "sysupgrade"
     }
   ],

@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-NEUFBOX4-SER-squashfs-cfe.bin",
-      "sha256": "57e154cc9d3c9a97d7865532a73bc190630378cb8b58db6fea1cc2be358a26b5",
+      "sha256": "2cdde308ed21ecd330c0d03c0fa6f71d6386001c94a8d803406b8b6ca920c7e4",
       "type": "cfe"
     }
   ],

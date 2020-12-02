@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-archer-c60-v1-squashfs-sysupgrade.bin",
-      "sha256": "f07a32d58daaec7548bffcb7a3e47fbfb91f35e70d4f598302e8714740fdc5b2",
+      "sha256": "5eaa711b11d44dffc4037a29aa1dae280508efa9b47dadcd11245b1474148605",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-archer-c60-v1-squashfs-factory.bin",
-      "sha256": "6872b19b69e600716c791ead3788df3c96dd8e2f0e78b14b17f608df5a7073f6",
+      "sha256": "338337c622597a6f69746663803f54543b3a2be6a18b7fc22d3a020f3f76b99f",
       "type": "factory"
     }
   ],

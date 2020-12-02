@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-r602n-squashfs-sysupgrade.bin",
-      "sha256": "304faf5949300a2c95db48a5f91b4dcc3c8d4382991b49d98464ee0e63540309",
+      "sha256": "ab9f7ecc0268afc17134e88ecf97e25983d23efe376edc533c47b5fc12a117f9",
       "type": "sysupgrade"
     }
   ],

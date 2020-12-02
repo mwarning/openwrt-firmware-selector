@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-airrouter-squashfs-factory.bin",
-      "sha256": "3e399f199288069c149ded10bf6801820e95e5b5f46f64d074aead982c1d3550",
+      "sha256": "1efe40b13d8fcc0a93e49dd30b77189137a324e2bfd8bb7ea9bf9d4a8bce739c",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-airrouter-squashfs-sysupgrade.bin",
-      "sha256": "60e56bef806480b44ce0e293691746d308227452c065581d6c20c757212743e0",
+      "sha256": "70d30134e7c280d5e545df7aac3a2a00f258719332ac79dfb45792a846ed1e4d",
       "type": "sysupgrade"
     }
   ],

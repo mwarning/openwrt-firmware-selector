@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-buffalo_wbmr-300hpd-squashfs-sysupgrade.bin",
-      "sha256": "4a50fcf6b42b6c340b993e1cc5048e24094ae1c96b417e7425156291dfeef929",
+      "sha256": "a15f64b76297f4e4416dba871a9ff499801e62d166d139698208f24d36b16048",
       "type": "sysupgrade"
     }
   ],

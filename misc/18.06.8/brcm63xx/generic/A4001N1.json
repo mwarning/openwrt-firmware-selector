@@ -40,12 +40,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-A4001N1-squashfs-sysupgrade.bin",
-      "sha256": "726d5f58e5d82e7198e283a8e213faa9ad0a4479266719914e49b1422d03d727",
+      "sha256": "efcf6d1481fe4a9045e07ad14b2260f077b57bf30699e99f4907ff9ca419322c",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-A4001N1-squashfs-cfe.bin",
-      "sha256": "71703a2ba5dfdb78816cff04f7d8436f046b124e072bacf2e8e9a43ad9ac2f4d",
+      "sha256": "31ed74b2d4c82e6bb4b04488b45690a4039ef44c435d0dbe6adb2849c60f21dc",
       "type": "cfe"
     }
   ],

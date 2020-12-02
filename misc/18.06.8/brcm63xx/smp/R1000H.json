@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-R1000H-squashfs-cfe.bin",
-      "sha256": "cff5d279badc37dafc658ffd0e3bd330ed5131857b8820f84f9b2bf70f3ace94",
+      "sha256": "0ee2a5d3fca686238c3fd4cd6220490ed61b756e985bda1e84cd020f13fac0ef",
       "type": "cfe"
     }
   ],

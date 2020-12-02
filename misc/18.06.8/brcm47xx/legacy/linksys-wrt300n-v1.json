@@ -50,12 +50,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-linksys-wrt300n-v1-squashfs.bin",
-      "sha256": "54eba01772853d3fa9d821f8b3dc1c081bc93f3930ffa2acd4ff0686666e3e01",
+      "sha256": "844312d343f4bfaaec10933933985d7a1e546b3c657f557824f102bcd9d45791",
       "type": "bin"
     },
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-linksys-wrt300n-v1-squashfs.trx",
-      "sha256": "1f9fbf00cc0e38d0848483f31d92010fcd4357a7a1f1f5a8754dc16017e95927",
+      "sha256": "4811d381d914c3dc0fe5defc0814e8d83ad99d2c926895d938d6da8ef31c6be1",
       "type": "trx"
     }
   ],

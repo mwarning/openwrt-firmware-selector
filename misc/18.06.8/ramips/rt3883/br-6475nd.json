@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-rt3883-br-6475nd-squashfs-sysupgrade.bin",
-      "sha256": "409f94418d806c7a51ced53f293a9d1baca10e1e1192e0ca6f50dacc7e6b6ea5",
+      "sha256": "0bdc34aa5b3b307641c3f8e74092ba55fcb5097c5b79d8c5be5cc78e0c929869",
       "type": "sysupgrade"
     }
   ],

@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-n5q-squashfs-sysupgrade.bin",
-      "sha256": "b3963026d189c1dcbb39590a4e1cb4addf26ac338c201bdc947735ecb5444dd0",
+      "sha256": "26033a2c355cc41f06ff48e24dd80b3e8208896cc68a8ada403b4cfdc8bad3cb",
       "type": "sysupgrade"
     }
   ],

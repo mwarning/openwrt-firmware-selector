@@ -56,7 +56,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-tplink-archer-c5-v2-squashfs.bin",
-      "sha256": "b2cfd71d8c89cb7df595355c7d32feb2dcee3abb7df3a609708554747f90342d",
+      "sha256": "62d840b75e0c1ffddf0f028c74087766f06a9e3c2bbc7c5954591081a5fedb30",
       "type": "bin"
     }
   ],

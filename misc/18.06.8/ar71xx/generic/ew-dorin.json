@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ew-dorin-squashfs-sysupgrade.bin",
-      "sha256": "478f24d802f11f93aceaad54b67755b7823f2c8ae0415bae6733ed04e053147b",
+      "sha256": "3ec28b2bce912e3ad07b9445a4991dfcadba2f1c84a0e9e7747fb6ac7ba41af1",
       "type": "sysupgrade"
     }
   ],

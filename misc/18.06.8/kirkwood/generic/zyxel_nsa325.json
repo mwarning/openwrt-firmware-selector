@@ -36,12 +36,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-kirkwood-zyxel_nsa325-squashfs-factory.bin",
-      "sha256": "1aaf366080523865986d82575c8f0415dc6c7caee45bcf65781ad18a0192f822",
+      "sha256": "f86e4a8cb4302dd28d4a4f986913480d91b0f5a7cce51bdb136295bad1863403",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-kirkwood-zyxel_nsa325-squashfs-sysupgrade.bin",
-      "sha256": "d17c148219ff7f00e87e7ce768ba82745906c243cb9232a7ed95d5748e38f498",
+      "sha256": "9f20b2edec30f318acf228968337187c1e37138b9316235477df944f2d7fdb4e",
       "type": "sysupgrade"
     }
   ],

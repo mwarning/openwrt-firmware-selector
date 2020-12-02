@@ -34,7 +34,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-armada-xp-gp-squashfs-sysupgrade.bin",
-      "sha256": "490686b9b1f1f489ea8df83bd0d1e49c6dacc8487283ee7c2bd67a041340dfae",
+      "sha256": "100ac9a7ed7f2238b204326c139ff5b892db9065c5a3584cab31ad5d2b7d5360",
       "type": "sysupgrade"
     }
   ],

@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-nand-rambutan-squashfs-factory.ubi",
-      "sha256": "05f98d313bfb6fd8bbb243c0d47b668b26f956cf10378b7a35d433de47d8d54f",
+      "sha256": "67781978c9953a5773ee1033b24e9afe59b20d75cad47c98c57b1c2ed4f9c599",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-nand-rambutan-squashfs-sysupgrade.tar",
-      "sha256": "ff53a73f1eaad4dab302faa956d6d5dcd76c7fb8b85cefcc03495b4ea1f10360",
+      "sha256": "b950fc50b017d709360fa815988dd9f04ab669c36d4d5e7ef447784d428e2c6c",
       "type": "sysupgrade"
     }
   ],

@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-zbt-we1326-squashfs-sysupgrade.bin",
-      "sha256": "c28cb024fd98bc0dbb686e2898bc62298302b3892a34a1fefd35268af1489633",
+      "sha256": "fa6cda641608af970df677e64b350c5d0cc9b1dd4655585e4f08b64aaf7f0e8c",
       "type": "sysupgrade"
     }
   ],

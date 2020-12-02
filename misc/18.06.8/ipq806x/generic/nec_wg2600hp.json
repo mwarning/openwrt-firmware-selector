@@ -64,7 +64,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ipq806x-nec_wg2600hp-squashfs-sysupgrade.bin",
-      "sha256": "54e35185a5506ac2a90db45d1276c5591fac52c155a68a169563e1f0717542e5",
+      "sha256": "9b2666a0f322edbdde264ffc7a704b4f88ffb1e29b5d56ce931635b1f8d35586",
       "type": "sysupgrade"
     }
   ],

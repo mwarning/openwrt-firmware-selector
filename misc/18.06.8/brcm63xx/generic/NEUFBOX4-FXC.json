@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-NEUFBOX4-FXC-squashfs-cfe.bin",
-      "sha256": "6030cb244833fdde2e21049927a646f26f50bf08aaf30f52437c01dc5cfd5d13",
+      "sha256": "e9e63ae3a3b78df6116b1ea8914dee503b523af6f162bfdfeea64d57d07ad956",
       "type": "cfe"
     }
   ],

@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wr710n-v1-squashfs-factory.bin",
-      "sha256": "d02d31024ae0662d448903f977bcd2f66a0e51d8d95e23e6368a74970d7ffd0c",
+      "sha256": "d26214d6adc11752ff8d595b69800173f2d4a775120cee7af9f82a7770792147",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wr710n-v1-squashfs-sysupgrade.bin",
-      "sha256": "f0877364a91f10a301639016d0aeeb729ccac889dfc0a4d6b6182cd9acd6608a",
+      "sha256": "e1c8035e464b4694710587dbfde29ac8b099c12c8644e6f899099991a3cfd418",
       "type": "sysupgrade"
     }
   ],

@@ -39,7 +39,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-cap324-nocloud-squashfs-sysupgrade.bin",
-      "sha256": "56b01c37b2d0a4f1e4df42d94358af0a7ad0e2c383f70dbb2f9332cbe722ddea",
+      "sha256": "04ea31ef0614e291b8055457ecb8f3010a96be813b8b1eaa972552bbebae317c",
       "type": "sysupgrade"
     }
   ],

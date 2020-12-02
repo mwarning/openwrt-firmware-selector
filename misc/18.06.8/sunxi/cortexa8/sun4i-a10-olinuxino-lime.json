@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa8-sun4i-a10-olinuxino-lime-ext4-sdcard.img.gz",
-      "sha256": "e49e3194dc59c08f1056c6438d125378b7868a289d65abe3269dde27d22a371b",
+      "sha256": "6645f9305470837f9b19e19204188ae8396d967db133eb3bb9d7aeea896179a4",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa8-sun4i-a10-olinuxino-lime-squashfs-sdcard.img.gz",
-      "sha256": "ec171095d03454bd08ce80e161d363bbe8f5eadbc5294c294be29d9a6e7639ff",
+      "sha256": "5deab531f9db0f45a82aad473b7cd8fd58f7b286d139201d055645dd287f8890",
       "type": "sdcard"
     }
   ],

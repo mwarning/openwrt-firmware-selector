@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-SPW500V-squashfs-cfe.bin",
-      "sha256": "e7cb4eb168839e04694dc9e5c3c1201175fa3771ce105421c7eee3006e503b46",
+      "sha256": "fee8a3de0336abec154b2f56e221abe1c346631cc42a08d282da2cf2983c4dd4",
       "type": "cfe"
     }
   ],

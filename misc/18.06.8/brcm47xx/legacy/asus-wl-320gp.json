@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-asus-wl-320gp-squashfs.trx",
-      "sha256": "83a261e04ce6db0376366f777316fcf6cd98fb0b1126fa0d437ae8ee4ed66f6a",
+      "sha256": "8662cab56fd667a7d4cad2dc667b45c3df4c456b5255b81396aeb8d77a3c1d84",
       "type": "trx"
     }
   ],

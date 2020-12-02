@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-linksys-wrt32x-squashfs-factory.img",
-      "sha256": "09430a86385ab6e5fca7836fd38f545807ebc8cfc765bd394fe4a7dbffd66d4d",
+      "sha256": "1c76c7d68f6c7f33dadbbcfd701b6f393dc99c33b6835769c0792b4c12fa22be",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-linksys-wrt32x-squashfs-sysupgrade.bin",
-      "sha256": "d396edbcc04aba82ac3183aa55e4c8474707282d366f3dccb60f722b6ed5ce01",
+      "sha256": "4df34412bc87f8432ae0c7c19c9bb6e75533270c855ca1e5a259b5521885e1cc",
       "type": "sysupgrade"
     }
   ],

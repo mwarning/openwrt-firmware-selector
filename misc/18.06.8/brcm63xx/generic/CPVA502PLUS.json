@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-CPVA502PLUS-squashfs-cfe.bin",
-      "sha256": "3e57af907cb666798e82e94f89e4de7894c879acc4b1f8e85600a924472e0c6f",
+      "sha256": "d6ddf6082c6c699b37e76c1e9cc83609b31f8103bd0ede558fbc5e8d3a5d1257",
       "type": "cfe"
     }
   ],

@@ -41,17 +41,17 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-mr16-squashfs-sysupgrade.bin",
-      "sha256": "c4208fdd5340dc89bdc04e0aa5126b892bcdfe8292174d2d22de69cec8eb3090",
+      "sha256": "9058721038d1068d39959aea325e49c2e0b3079ce927a08b4cd3690119d81752",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-mr16-squashfs-kernel.bin",
-      "sha256": "43a9923e444aac720ce0e8190e1e7336ee15258abcf963a0855620fe4fffdd68",
+      "sha256": "235a5ab5bfb682ddb050b69397687aedf916eb1d57f070180dc8760e76f3e0ed",
       "type": "kernel"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-mr16-squashfs-rootfs.bin",
-      "sha256": "f4faf8e328abed192a2ce8bdd221c804ea5155f816daeda0900b800a747e344a",
+      "sha256": "6d2669fa7f0c21d453ca1a68536685fae319d0e0fb9d67007a57f3579320ca35",
       "type": "rootfs"
     }
   ],

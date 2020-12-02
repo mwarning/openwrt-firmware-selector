@@ -56,17 +56,17 @@
   "images": [
     {
       "name": "openwrt-18.06.8-apm821xx-nand-netgear_wndr4700-squashfs-kernel.dtb",
-      "sha256": "0c6c088e25d464b32c7859b9035bee8e38e5c7a5a49a490e78278d7246831b76",
+      "sha256": "397f69c4803cf9d7455eab80724adecd62ee953a1bebfe208f14acbfb6f76b91",
       "type": "kernel"
     },
     {
       "name": "openwrt-18.06.8-apm821xx-nand-netgear_wndr4700-squashfs-sysupgrade.tar",
-      "sha256": "3117cfd20a616f77a45ff00200df61c8e5e0db66387f5055fc20c12b9eb2ba90",
+      "sha256": "1f5c6de5f1c31105f4c8e829e1907f728cd52afe94b079ef05c64f1ca39436d3",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-apm821xx-nand-netgear_wndr4700-squashfs-factory.img",
-      "sha256": "ca61f05c3f60900421246bdfd37390be98a2e3f723ac339607487d352ca043e5",
+      "sha256": "72d2ff9662761cf293a7d6e3bbcdee30581d1fb150dece2e6d01a5b6a5ae75c0",
       "type": "factory"
     }
   ],

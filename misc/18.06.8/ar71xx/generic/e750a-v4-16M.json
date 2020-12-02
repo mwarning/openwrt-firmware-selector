@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-e750a-v4-16M-squashfs-sysupgrade.bin",
-      "sha256": "b034bd1326ea559ab648c2559c09c3f5dd5152a675affb929957d8fd7955b54e",
+      "sha256": "810f79f499d79c561dd599618c5317f6c0bbb41db5cfe49fa771dd5340c0018c",
       "type": "sysupgrade"
     }
   ],

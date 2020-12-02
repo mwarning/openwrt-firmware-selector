@@ -47,7 +47,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-lan-turtle-squashfs-sysupgrade.bin",
-      "sha256": "1ba610df1574d0fe104ce8b5f4a777aff24090f0a02e6ac08c8d7efd5efd2cbf",
+      "sha256": "249728f46db5b0bdf0bc07e358edebaedb148d9f3c50b7f670be417b88d13c3c",
       "type": "sysupgrade"
     }
   ],

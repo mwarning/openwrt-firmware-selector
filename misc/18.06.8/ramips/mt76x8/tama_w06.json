@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tama_w06-squashfs-sysupgrade.bin",
-      "sha256": "b42aa8e9b13829b460b75cb3713eedc3c63556a950dca61362153461e3a3c6c3",
+      "sha256": "ec9cf27f0d60e50d703e15b2c569a274010457ec6b60313f1f717f06dfe36bde",
       "type": "sysupgrade"
     }
   ],

@@ -44,7 +44,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-cf-e530n-squashfs-sysupgrade.bin",
-      "sha256": "4e64ddb6f93cf8872721aeb424c1e20b56c485d5d2d091eda049252846d2be71",
+      "sha256": "d38df792e12d0999c157627d7984c4d486767bebb78a0596ab03bf6bb1bd9d81",
       "type": "sysupgrade"
     }
   ],

@@ -37,12 +37,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-R5010UNv2-squashfs-cfe.bin",
-      "sha256": "065752ced5db7760a738b086461ae83f41c0c606a0176ab28599a1a659bb523f",
+      "sha256": "b163a97399c9783df47cf0f85cbc18e3dd9ddb383a660e1e462083ca3661516d",
       "type": "cfe"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-R5010UNv2-squashfs-sysupgrade.bin",
-      "sha256": "bf0b7c535f6749b05193b546f5864d7d9a691b852fb14c325493c8388b83f6e3",
+      "sha256": "035bfada3df91fc7acc0e2867afe1f528ed6b28ff6ace4d23abd8611a402d046",
       "type": "sysupgrade"
     }
   ],

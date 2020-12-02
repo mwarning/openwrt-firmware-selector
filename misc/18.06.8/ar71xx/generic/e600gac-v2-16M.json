@@ -45,7 +45,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-e600gac-v2-16M-squashfs-sysupgrade.bin",
-      "sha256": "742209111782bd06f2d807ddd749280b848ba66c6406e858e25459c121b8ae3f",
+      "sha256": "5b8ae160c063863d26b80711c4641ab3fd8f7f1daef6fd718773fab09d8d123c",
       "type": "sysupgrade"
     }
   ],

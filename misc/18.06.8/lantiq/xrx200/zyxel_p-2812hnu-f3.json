@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-zyxel_p-2812hnu-f3-squashfs-sysupgrade.bin",
-      "sha256": "ef0ece51ed1faf1b0f41662b45ffbd7ded85122d0046d6509c13f0abe05a7d6f",
+      "sha256": "dcd2b3c905cbc9382b5bfacaee5e1b83bc4ee64344fd74c964e488135a2576cd",
       "type": "sysupgrade"
     }
   ],

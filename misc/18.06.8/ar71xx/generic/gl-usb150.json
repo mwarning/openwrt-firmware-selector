@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-gl-usb150-squashfs-sysupgrade.bin",
-      "sha256": "9dcc60bff6e30d8a3a6b84bd74064ee807a688bedff53beccec7bace9031eb39",
+      "sha256": "19e1447511f0890f2f0e4d60ffd49b981059bd9af9e07593e9ed2d6e71e4af21",
       "type": "sysupgrade"
     }
   ],

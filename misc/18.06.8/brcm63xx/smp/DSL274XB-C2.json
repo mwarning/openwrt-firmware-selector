@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-DSL274XB-C2-squashfs-cfe.bin",
-      "sha256": "e7bfaa55ed168ef63d7ab8538c5d23bd69bce120e475f1a6a144861ba5b94f2e",
+      "sha256": "c012681ca60d668d6db6b40c9abef609ad10870bb05a04269fe5bf152b4c8608",
       "type": "cfe"
     }
   ],

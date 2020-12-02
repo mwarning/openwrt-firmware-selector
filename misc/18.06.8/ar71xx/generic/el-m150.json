@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-el-m150-squashfs-factory.bin",
-      "sha256": "08b38455c4595c66a5204157132359d746229ce99c4251d4e73843372c791391",
+      "sha256": "ff2a467ea819533a8ac39e2677e904335009c6c2645e38cb396e2353c22c5ec8",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-el-m150-squashfs-sysupgrade.bin",
-      "sha256": "ec2fb22c6ebcafdff809451e3c667c6e49a954d2ba04d79dc42c23f417034eae",
+      "sha256": "a362f18682361e85dc23f5c6ef0fc558e0f7669d98f343bdab0cc94727a47336",
       "type": "sysupgrade"
     }
   ],

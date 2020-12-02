@@ -55,22 +55,22 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm2708-bcm2708-rpi-squashfs-sysupgrade.img.gz",
-      "sha256": "4fe88fc1e13115bbd4fd7d988bd2481d8b1bbba7af426e2e758fcc3ba21111ce",
+      "sha256": "6d36543c46de96ecaf672a5551190c5b3bdb5087f58b577b8a6c6451d0bbd91e",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-brcm2708-bcm2708-rpi-squashfs-factory.img.gz",
-      "sha256": "c25389a0bf08cb60df183b065d002ee6081765b4c4cc06aa1f0943763a1e583d",
+      "sha256": "ee4799400830558acd42efdd605e620b85ccecc3aeaa4aaea769af5682c62691",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-brcm2708-bcm2708-rpi-ext4-sysupgrade.img.gz",
-      "sha256": "889a7482eb0fbb7a0e474645c69951e4a0f7615c190c95b0b07b676d7563b3b8",
+      "sha256": "bb2525f27995553a2ddf875ed8d28d7781a7f71e03858a406ab80f1950e0d25c",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-brcm2708-bcm2708-rpi-ext4-factory.img.gz",
-      "sha256": "b5d498d6fbda70226b655bb35bb013e733f738bc5552152f1eb59b8c992f1004",
+      "sha256": "af1e1005d11e67239cb9a64fab5e3774f4d8b70d0da8710b5f3d4f444aa46440",
       "type": "factory"
     }
   ],

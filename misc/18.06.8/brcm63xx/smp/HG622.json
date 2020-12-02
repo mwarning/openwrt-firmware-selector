@@ -40,12 +40,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-HG622-squashfs-sysupgrade.bin",
-      "sha256": "27548cd8a640b36d2c6270a29c3011576f9d50931e9a4c75a939877bc15c954f",
+      "sha256": "105014650e24bce6300c292e1c508fb7371a7ca2c7f48a8ce605d1c075a729ca",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-HG622-squashfs-cfe.bin",
-      "sha256": "5e2a17307ad2aa5d5a26194cb6590af4e8f82b6dc8591054fd22334f7d44f774",
+      "sha256": "28cf3f7350606748f44e71d14fbcf9dd3dc959120afef897fae8689c14516dba",
       "type": "cfe"
     }
   ],

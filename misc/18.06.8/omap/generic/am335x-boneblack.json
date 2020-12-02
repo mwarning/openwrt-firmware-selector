@@ -30,12 +30,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-omap-am335x-boneblack-ubifs-sdcard.img.gz",
-      "sha256": "480046023021df3e6a923e15790047724ef61957d9f2494e555170c23bca15bd",
+      "sha256": "8638a412a5f7b53b365249ed0fb2f28857f7d4477ba712b8357d4e4e268fca3e",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-omap-am335x-boneblack-ext4-sdcard.img.gz",
-      "sha256": "3fa459c131c2e8e41c5b3ae6dc221b9953e40948634ecdb9310ae8552bb7c52e",
+      "sha256": "24f24374e70ddaabc1c1a387fb5df4d16b4868c7cf840a6326c652a5a0e608a3",
       "type": "sdcard"
     }
   ],

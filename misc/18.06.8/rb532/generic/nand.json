@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-rb532-nand-squashfs-sysupgrade.bin",
-      "sha256": "2708eb0de325648569b17bb11a5691b18ad77a8bc36b5da10a4e9e8499495466",
+      "sha256": "f1fab41f9664d8d827a16d9d7f27bfe2430f006ae096f2f72a0202794108412e",
       "type": "sysupgrade"
     }
   ],

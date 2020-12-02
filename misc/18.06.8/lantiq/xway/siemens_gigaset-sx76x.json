@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xway-siemens_gigaset-sx76x-squashfs-sysupgrade.bin",
-      "sha256": "f52ea7b0f6251714bf18730d0b3abeb542d44049bf58eed83858ec4c32426372",
+      "sha256": "6ff2fd0f75647d03e4055500178cbda6b9af2d411cef43db944595c7a8f5660b",
       "type": "sysupgrade"
     }
   ],

@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-vocore2lite-squashfs-sysupgrade.bin",
-      "sha256": "7a2ca181d15156a7eca224d3cb3c1f7f51cfefaee4f89ad2ad463b6944e79dad",
+      "sha256": "2184ff0e626e00805a1aa18b60cf89961fb3537dbe5f1a7062fadc7b7c45c89a",
       "type": "sysupgrade"
     }
   ],

@@ -44,7 +44,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-nand-c-60-squashfs-sysupgrade.tar",
-      "sha256": "29e024a53dd4d8775d0bcc47a5833bb405f8cb395b02e788d78a459ca9486f02",
+      "sha256": "effd331bab8fce61ec763838b48b81ee4d27de8e5265f8de04bb1ef670062529",
       "type": "sysupgrade"
     }
   ],

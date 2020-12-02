@@ -32,12 +32,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-kirkwood-iom_iconnect-1.1-squashfs-sysupgrade.bin",
-      "sha256": "1e4dd5e5bc11c2cf13d480685a207f3f7a3f307bcfffa59d5ac828bed3a22ce5",
+      "sha256": "e541182743f9f36726274f4e13a495f4639b44a9e5a34c24fc1474190a4b3c91",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-kirkwood-iom_iconnect-1.1-squashfs-factory.bin",
-      "sha256": "5cd5497dc7c9df538aa6f54303061645e43c916eb7d605f5b01c0ea0803da2ac",
+      "sha256": "c58704eefba606f7ddd22e25caa7bcadf906439e8e99e8094770d095df317eff",
       "type": "factory"
     }
   ],

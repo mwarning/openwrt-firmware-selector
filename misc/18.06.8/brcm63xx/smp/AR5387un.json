@@ -40,12 +40,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-AR5387un-squashfs-cfe.bin",
-      "sha256": "d5fb52c75028cc25b652c9dbd99d205b83689aefc97aeae874064db1ed6e0e2a",
+      "sha256": "feb0f276a7a74815f38ee17d7b3e9f452c29be0288f32c406567b1273372e52d",
       "type": "cfe"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-AR5387un-squashfs-sysupgrade.bin",
-      "sha256": "a47dd65e57ea07b72372cd033029b93b2cc2cbfb4cdff10fa42e4fbd88b3eaa6",
+      "sha256": "cbabd6e2ec292e96af6363ee89f87fd5e4f3a1d5eef96a998e61ac3f19b3fdb0",
       "type": "sysupgrade"
     }
   ],

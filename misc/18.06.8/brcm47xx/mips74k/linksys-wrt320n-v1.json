@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-mips74k-linksys-wrt320n-v1-squashfs.bin",
-      "sha256": "eebcdea228f5f69a4221a5b0d1afc399ab5f6e4133544354dd3bf78cf649bb89",
+      "sha256": "9e9653fa4be23e80d9f9ba7880fb6eb458448e118c55b9e57a7f176ee7dd819f",
       "type": "bin"
     }
   ],

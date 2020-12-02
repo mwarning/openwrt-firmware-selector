@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-firewrt-squashfs-sysupgrade.bin",
-      "sha256": "8f3897a16259ea2467908e4cf27d654214e056fffff514804ecbcf9fbd6c070a",
+      "sha256": "badb8b99327b9960b55d35ea0ce404bd0f704d2d1ff265a1c3b657992ca082de",
       "type": "sysupgrade"
     }
   ],

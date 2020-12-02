@@ -55,7 +55,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-asus-rt-ac87u-squashfs.trx",
-      "sha256": "1fa2e97645763392eb9bc31244ffade76da765ae67c9d4a1df3c352b0e4c8236",
+      "sha256": "de0ce0112f7972cac82deaf03bf5be17c059e57ac7b0018880ab83fe354598bb",
       "type": "trx"
     }
   ],

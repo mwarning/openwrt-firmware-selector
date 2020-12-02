@@ -64,12 +64,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ipq806x-linksys_ea8500-squashfs-factory.bin",
-      "sha256": "2e47ff4e4ed339f32533c801e135015510713eca5a64fe216b557a2fa6b82a9f",
+      "sha256": "5a8284337e4a5aab7afd0c73727763bbc305a102585e9876a5ba9f158d26de3a",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ipq806x-linksys_ea8500-squashfs-sysupgrade.bin",
-      "sha256": "648b1b827d4aa246e552f360e97430b98e1fecc44b08fb4f6043a99a69804ac7",
+      "sha256": "e146faea3b66b4c884f6af1ac594f07c1e97e91b186f28a915419960f66c73c3",
       "type": "sysupgrade"
     }
   ],

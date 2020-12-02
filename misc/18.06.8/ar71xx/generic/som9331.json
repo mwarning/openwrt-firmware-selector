@@ -50,12 +50,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-som9331-squashfs-sysupgrade.bin",
-      "sha256": "71ba73e4c1d095fbe34ea84d532f1e872b57b9c12b6a448b64e6f452ec172ef4",
+      "sha256": "6be734617d3b8cb4e943f0366ad6ee94403b1ee3f2e9bad46361bd7632fe25be",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-som9331-squashfs-factory.bin",
-      "sha256": "289846ed66314483f71324ac8614bd69a9e143716530f3eee8719ee12872f4be",
+      "sha256": "fcc40d4c33c955b75c91f1351bbd1ac25a47407894f26927367208098e428d54",
       "type": "factory"
     }
   ],

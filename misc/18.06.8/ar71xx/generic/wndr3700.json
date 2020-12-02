@@ -45,17 +45,17 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-wndr3700-squashfs-factory-NA.img",
-      "sha256": "490ea73e842d39fcafcee706d2148ec47b27ca4238d1aeb74a70da80ffa04f3a",
+      "sha256": "deca78614d8fb1fc851702b503c5d5572deb41c4ba1f9fc9dfb554dc844af889",
       "type": "factory-NA"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-wndr3700-squashfs-sysupgrade.bin",
-      "sha256": "c7dc57b2fd1da9ca549a176330bebe8d55beee149a7837de14f9111803d2ac37",
+      "sha256": "28ecd637c30eea8adb58fc6dd14d88bb756c72ede2edf97cb497907c22050e66",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-wndr3700-squashfs-factory.img",
-      "sha256": "742bc980f6aa0459d5961e6f40ba537dd0acd4d87bcacd540528f1e23dff171d",
+      "sha256": "67b222f047a0d825c783606ff8cad269983df4cdc0b5505b5d36b507de11c9f0",
       "type": "factory"
     }
   ],

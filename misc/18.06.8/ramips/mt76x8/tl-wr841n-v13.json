@@ -38,12 +38,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tl-wr841n-v13-squashfs-sysupgrade.bin",
-      "sha256": "6c291fd0c8db9923dfad0ea4688c1b12a06a73d813f5bec9e1853d5d9f781cec",
+      "sha256": "d610bac7bd6cfca21e154b2e0e0b7037c1417b254ead213d30e1ba9dbd9c73c8",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tl-wr841n-v13-squashfs-tftp-recovery.bin",
-      "sha256": "d1dd15e5c809d67641f6bc4ee62126273f3cce82cba0ffef15dc26c2687200e5",
+      "sha256": "062087b944314fff77ed818e9d4b25067e4719c76cd2b84b4e5142adb4b082a4",
       "type": "tftp-recovery"
     }
   ],

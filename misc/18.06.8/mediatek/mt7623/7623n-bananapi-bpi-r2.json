@@ -38,7 +38,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mediatek-mt7623-7623n-bananapi-bpi-r2-squashfs-sysupgrade.bin",
-      "sha256": "69a6a62afd6ff8f02b6e7ee1615b1c6169d5e25733a4043e9b6bd09e8803b66d",
+      "sha256": "e0f77d59f9badaa6aa863fbc02c6dcec0302186ddb03eb75fad01f99d89d45ed",
       "type": "sysupgrade"
     }
   ],

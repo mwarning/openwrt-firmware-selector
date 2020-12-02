@@ -38,12 +38,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-kirkwood-linksys_audi-squashfs-sysupgrade.bin",
-      "sha256": "ba16bd938052f072e59d5564fb396ee8800e1d51cbffbe32b18558c337a3f3db",
+      "sha256": "15776b0f83272fae3100c03fb2d828cb54e95488afb8777b79b74091befaec9f",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-kirkwood-linksys_audi-squashfs-factory.bin",
-      "sha256": "aa0c3b71382afee016239a0b44e7e5a284d4ea302d94803657033649b4f857d8",
+      "sha256": "1d9c4802795bc105231a9997684e81e9579df1fa732e59ffb0e86a72a2f32e3c",
       "type": "factory"
     }
   ],

@@ -45,22 +45,22 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-archer-c7-v2-squashfs-factory-us.bin",
-      "sha256": "88ce61c1ca32e9e1076f98ef2be0a7e5ce29cbabc39105ac4af28ab47ba06471",
+      "sha256": "37b6f2929f5e08f3e087b10619ded38f46b86f474108c05e956a891544f55dbb",
       "type": "factory-us"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-archer-c7-v2-squashfs-sysupgrade.bin",
-      "sha256": "2532677fa74a27782b11898648f9a188dd07ce0667c9744fe4d9922ec715392c",
+      "sha256": "d3f6cd38b8eed85d1f68df37dcd8cabb0330604340c61c2efd18110f4d1254ff",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-archer-c7-v2-squashfs-factory.bin",
-      "sha256": "5bf75810f4f5a717388b1406305323a9b84b08404f9d172d5d8a990ee1475312",
+      "sha256": "643d246fbea328a4ffaf86e2c02d539a4e2cc4219d0e975462cb9e418091ab19",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-archer-c7-v2-squashfs-factory-eu.bin",
-      "sha256": "7d160e5edca97534a41cdd9694f6654891987b3f7e05ac0c22f3c25b87fb1c0e",
+      "sha256": "926714d84c828d0847627c2b796307ef0cdd90cd2cb85efd69353d7943a88c14",
       "type": "factory-eu"
     }
   ],

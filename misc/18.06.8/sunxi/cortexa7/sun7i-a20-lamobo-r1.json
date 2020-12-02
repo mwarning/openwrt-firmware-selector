@@ -44,12 +44,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-lamobo-r1-ext4-sdcard.img.gz",
-      "sha256": "61a313152e6f4f3d6e1d5a1cda3c39b9c7389b9076abcbb7ef47a27a226be27e",
+      "sha256": "3a773e3f002ee4edfeefa7bcd7f77bbf5a6284f16cfd39cf54df38a60b2d96f2",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-lamobo-r1-squashfs-sdcard.img.gz",
-      "sha256": "35cfa4be4b5e0045672002fceef76b2b90bcb8cb231fb726c60077e7b91f1701",
+      "sha256": "c076fcf62c6c9dab1a8eb4dae63167072c87b077a21374a27290d6f099aa7ef0",
       "type": "sdcard"
     }
   ],

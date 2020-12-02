@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-zbt-we1526-squashfs-sysupgrade.bin",
-      "sha256": "2977ce9636fe394d8e52454dc01d5b453f8f1de8d2128f198cdd53d9a223cd2a",
+      "sha256": "b2786b9829a1c6d27b5f688a080cc80c27a828c0771e131c296768edefafddef",
       "type": "sysupgrade"
     }
   ],

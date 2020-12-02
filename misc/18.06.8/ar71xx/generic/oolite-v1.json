@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-oolite-v1-squashfs-sysupgrade.bin",
-      "sha256": "650e103a556944f38c4db2fdc73a8af2350e702da2be4c3630d41c333fe54af2",
+      "sha256": "39436ba7e11eef4c45e8d04ebee177c3dfb435b761137556827e1c4e6211e2f4",
       "type": "sysupgrade"
     }
   ],

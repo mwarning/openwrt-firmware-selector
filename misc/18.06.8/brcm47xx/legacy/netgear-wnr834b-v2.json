@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-netgear-wnr834b-v2-squashfs.chk",
-      "sha256": "1e702bec290c6965602e6cf430135382c08ddea5abb6fe6584da553f45f0a670",
+      "sha256": "c13706f14e1ec6d29aec06e135560a930cdfc75365f5cb18935bb54d0018b5b9",
       "type": "chk"
     }
   ],

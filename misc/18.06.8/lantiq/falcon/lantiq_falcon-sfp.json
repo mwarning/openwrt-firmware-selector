@@ -32,7 +32,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-falcon-lantiq_falcon-sfp-squashfs-sysupgrade.bin",
-      "sha256": "54e5963165599bd407524dcab1395a70cc7acb96835be9cfc89c5ac517ed7d90",
+      "sha256": "6af7149b2c8d75c13e28e87cc70ab8b245769f6eec991ee767e073e052acf4db",
       "type": "sysupgrade"
     }
   ],

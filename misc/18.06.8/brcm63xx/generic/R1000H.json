@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-R1000H-squashfs-cfe.bin",
-      "sha256": "4bd6fc66fdeb2e4f2c914929bb6d9d7f30759c42ae4e3d747dfab01202ea6004",
+      "sha256": "f4b444a1398330d0c8fb971f09591e29161e4876586ac2ad383e1898bce5a883",
       "type": "cfe"
     }
   ],

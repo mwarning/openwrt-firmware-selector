@@ -51,7 +51,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-mips74k-asus-rt-ac53u-squashfs.trx",
-      "sha256": "529096b2e0af872e3b7e08f9325cd28801c789ab7f334ed063e41e9d8c07a971",
+      "sha256": "5e998104265816e4da0fc0ab8f2bc6c4db8da36c68bb9912abbe67e3b371d5db",
       "type": "trx"
     }
   ],

@@ -44,7 +44,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-cf-e320n-v2-squashfs-sysupgrade.bin",
-      "sha256": "66fd57c701e0c7aed88bfc6fa2fbe09fd6d035c468a0a211e5b69529da1f26ec",
+      "sha256": "92ce5a7aee63afa719e5eb8b44dde87886520067a28c6ce8aa9377f099cb4057",
       "type": "sysupgrade"
     }
   ],

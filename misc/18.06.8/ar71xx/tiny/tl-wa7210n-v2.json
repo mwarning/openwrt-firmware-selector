@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wa7210n-v2-squashfs-factory.bin",
-      "sha256": "5079072bc07af0d6cfdcfb9a9c065a7ae4c931e8eac2978194a256fa34990db4",
+      "sha256": "dd99865faa3b5b0fa54446305a2788cbf6832a8127e71f471ff825bce4dcbf2c",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wa7210n-v2-squashfs-sysupgrade.bin",
-      "sha256": "be359c0c9c77d98b4a3a3f263523f2affb4af96b552058e2a488a70899cb7974",
+      "sha256": "8a3db8c4c4a38eeda75d606f41a0733f4c8ee56b852e8d57d88438e426ff1834",
       "type": "sysupgrade"
     }
   ],

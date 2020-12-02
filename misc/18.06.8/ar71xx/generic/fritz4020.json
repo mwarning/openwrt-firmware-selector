@@ -45,7 +45,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-fritz4020-squashfs-sysupgrade.bin",
-      "sha256": "25f2e6bd3d16486028879e09428ad7d495581440f80cd6670fdb6f871ae64bb7",
+      "sha256": "a59bef2a1d29b5b05a4a1fa7def1aad9aaa895c5fc3b931d5c01985a2f424bc2",
       "type": "sysupgrade"
     }
   ],

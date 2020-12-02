@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-RTA1025W_16-squashfs-cfe.bin",
-      "sha256": "07ff024d9457f91b7bdcc8ac35ee139f76b7802459f6f9f1115b0c9009c43778",
+      "sha256": "7e0e95d59293a32254f992e41e2553683bdab0e078053333a477c23dc6a8a77d",
       "type": "cfe"
     }
   ],

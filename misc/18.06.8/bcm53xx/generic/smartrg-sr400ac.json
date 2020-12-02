@@ -59,7 +59,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-smartrg-sr400ac-squashfs.trx",
-      "sha256": "042e9fd56c98e161ef7ba6fcbbd1bd1466f8d6dca37e5f328dca70bc2af68dcd",
+      "sha256": "17119ef508ab47123eb47ca613f2feddeb7d687369cd1efdbc3f143c51613e38",
       "type": "trx"
     }
   ],

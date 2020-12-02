@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-bananapro-ext4-sdcard.img.gz",
-      "sha256": "0f18805e294552b78a1a08c8ee2371b3520c405d0d8ef78eed791bbf5db34abf",
+      "sha256": "be5f304cd7f2fbf26dac2b374f3f5fe921f76d1d4c3ba8c3134bbbae2598ca37",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-bananapro-squashfs-sdcard.img.gz",
-      "sha256": "c0f7db6ab559f5aa3288ecae8dc1a59fc40256e90eb5b27fa08edd7e00285f1c",
+      "sha256": "cea1972c0003ee3e7b0d4217da60103b4dfa763c3cfdba8cc65fe9557b2616cd",
       "type": "sdcard"
     }
   ],

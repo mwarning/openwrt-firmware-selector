@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-A226M-FWB-squashfs-cfe.bin",
-      "sha256": "08c40ef8c25a601f4481430b5805e93cb13ae5b0c54c610a7c15b16b51228bd7",
+      "sha256": "b3a1332462c206dad249e0cc3e7d21f7db91d6b90a47c6b987ef94a43e6aa5c6",
       "type": "cfe"
     }
   ],

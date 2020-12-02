@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-rt3883-hpm-squashfs-sysupgrade.bin",
-      "sha256": "9bffd5047d330ce2ec03b01a29e6550bb942781300fa162a1d9d7847df3d9e1a",
+      "sha256": "dd64810423b7f80a5bdda2ea8ea3b4ab72c89de24586529bd140785eaacf4d19",
       "type": "sysupgrade"
     }
   ],

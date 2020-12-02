@@ -30,12 +30,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-omap-am335x-evm-ext4-sdcard.img.gz",
-      "sha256": "db35ebe5c3bcb7563163983c60d7b66bdf2a99b5d854bd19f9072313512ea2b6",
+      "sha256": "1587ac60807a8d3a478dad005845a0e9505852e6e89bedcb4a15c5fabb9b1b0b",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-omap-am335x-evm-ubifs-sdcard.img.gz",
-      "sha256": "87827616828c0ba7504a72b271b2aa3ed86eae4710eea4e71a15ed401f265670",
+      "sha256": "ffe4941f24ffbf359b5eb310f2ae1d08572f0dab728d854710fd1af4b32990aa",
       "type": "sdcard"
     }
   ],

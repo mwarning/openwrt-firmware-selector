@@ -40,12 +40,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-omap-omap3-beagle-ext4-sdcard.img.gz",
-      "sha256": "a183119ea794d84d2a2e8291e50c284f2836b125f7e52834bb7321b64b00ffc0",
+      "sha256": "0ea3279d8b60668ec1e6034c20670b3ede20e3e47e643774f02364b00b2acdd9",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-omap-omap3-beagle-ubifs-sdcard.img.gz",
-      "sha256": "68c76c76a43048f80bc9604077f587ff74a2d8e224091954b9d1f38c788696cf",
+      "sha256": "b9df1d038496f2ceb7070fd65b989e81144dcf87937fd5f5155c427ab8362f86",
       "type": "sdcard"
     }
   ],

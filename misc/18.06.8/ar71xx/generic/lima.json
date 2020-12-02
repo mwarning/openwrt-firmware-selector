@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-lima-squashfs-sysupgrade.bin",
-      "sha256": "50d11af59cace8226882e5c661404078fc2227c8af97e7c96a3b0024ffb93746",
+      "sha256": "8097be635c7a00399f42f13d6004a652e530d50b2f19279b4baf1ab3ad5809e6",
       "type": "sysupgrade"
     }
   ],

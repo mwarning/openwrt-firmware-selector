@@ -48,7 +48,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-dlink-dwl-3150-squashfs.bin",
-      "sha256": "a7047a11665bde6629e56ceeef9180f99a83db5587b76d0b2db4bdf95f73cb40",
+      "sha256": "42ad5eb9feeca67a24157736ee30f445c33f1d93825c4b16ea5342ff00d2d3ef",
       "type": "bin"
     }
   ],

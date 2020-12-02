@@ -34,12 +34,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-openblocks-ax3-4-squashfs-factory.img",
-      "sha256": "d3ddbed9e609eedde1afa7f3961e20148942d149e2cd8993d7f248b81e5b5d92",
+      "sha256": "8f4cba80cf5eaabb2905213a014cdf55dd03fecdd2747d5bd3f1b6e6b249495c",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-openblocks-ax3-4-squashfs-sysupgrade.bin",
-      "sha256": "aabb262cb495c4c86c2a610796a2294158d86d495e8cc0f246c39e9c2382c17e",
+      "sha256": "fa0521f5ee7511b8f2b05965e6e3a364d06d249ecaebff5c12cb55f4e21d5372",
       "type": "sysupgrade"
     }
   ],

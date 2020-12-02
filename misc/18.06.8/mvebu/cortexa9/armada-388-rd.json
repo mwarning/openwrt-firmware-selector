@@ -34,7 +34,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-armada-388-rd-squashfs-firmware.bin",
-      "sha256": "a8c5d655190e8263db261497da9a7c218ce3ecb25f471f9960b0eb5e8c804886",
+      "sha256": "3ec282991c181a2538769a69022b3f4975dbbab40f3473c013fc2c7d4b7865c3",
       "type": "firmware"
     }
   ],

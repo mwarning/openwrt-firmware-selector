@@ -35,12 +35,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-at91-legacy-usb_a9g20-ubifs-factory.bin",
-      "sha256": "e600cf4e8ab76c4f11c53d1eedae5bbd913748b65e8b5616e0fe988379a746d8",
+      "sha256": "bc1382a967fedf36a8e9165d8908c33318cd5f0f0b24cb7be065b288fe2ceac8",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-at91-legacy-usb_a9g20-squashfs-factory.bin",
-      "sha256": "346ee04b81138e0ea2a2410ebecfa01c106d13835b30ab2685c153bff4dc8b33",
+      "sha256": "50df82d6b2ca24a1c516f7dd08484c90a31cd2260f12a767ae01ea2520210c02",
       "type": "factory"
     }
   ],

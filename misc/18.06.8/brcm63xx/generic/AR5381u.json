@@ -40,12 +40,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-AR5381u-squashfs-cfe.bin",
-      "sha256": "037e82da8a171722382edb67014628b02966c662d11f38f61ab5c851e24abfb7",
+      "sha256": "e057bf455937309d8039608074e122b143cc38b17ced9d4e833e3ff3747a0d48",
       "type": "cfe"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-AR5381u-squashfs-sysupgrade.bin",
-      "sha256": "15c1f6bbb73e56699acf815ed19d750462db035bea7f78fbaf4485ba02d40507",
+      "sha256": "77d9fbd43c880eaa7d9ddd873e15cff166d1880e4918123ac31d967d26ae11f8",
       "type": "sysupgrade"
     }
   ],

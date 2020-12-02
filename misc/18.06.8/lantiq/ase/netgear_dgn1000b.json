@@ -44,7 +44,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-ase-netgear_dgn1000b-squashfs-sysupgrade.bin",
-      "sha256": "3d67d594a6b841eda33a28390689e7e480d73f36caa9d44390a2caf6603b9ed7",
+      "sha256": "6c8677553c7b98846b84f7d0b3a1e1cc1d0d4aa1a2cc9a3549c7b143dad56d0f",
       "type": "sysupgrade"
     }
   ],

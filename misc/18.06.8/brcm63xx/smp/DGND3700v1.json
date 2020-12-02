@@ -40,12 +40,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-DGND3700v1-squashfs-sysupgrade.bin",
-      "sha256": "37b4c6e33525bb4b287ab01ec3a574565c64d82db3eb65c2b004385e73ed65e5",
+      "sha256": "b85761b8abb4e35a79cdbb214ceebf56be8c18156ead5911fa480cb6fc5a2726",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-DGND3700v1-squashfs-factory.chk",
-      "sha256": "2958e456c1cf8b375e971eede94ec1aa85c2a166e90c244cb81970682b5131f1",
+      "sha256": "6bac3525f0d448aa2c2d425fe063ec1c9b431d1e49032ce8a4c727f237dd5fa4",
       "type": "factory"
     }
   ],

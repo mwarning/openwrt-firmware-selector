@@ -33,7 +33,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-RTA1320_16M-squashfs-cfe.bin",
-      "sha256": "41b78ed5d264bb11f350953ffcf3cad64f8ae0742fe18cab04aadedeb896a9cd",
+      "sha256": "39268356880bce2f89d8463bf8b66bbc38b898287eecbe9dbb91394099d2aa35",
       "type": "cfe"
     }
   ],

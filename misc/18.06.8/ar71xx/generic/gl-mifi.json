@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-gl-mifi-squashfs-sysupgrade.bin",
-      "sha256": "66d101df79a7a581e011870ddfd74d79cb709fc2adfd8119ed818ed96269b2cf",
+      "sha256": "0741249564d525aea8406c4c4607d92ee1fb8c946f0557a7c0d33d8765de6e80",
       "type": "sysupgrade"
     }
   ],

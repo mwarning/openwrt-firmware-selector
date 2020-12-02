@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-xd3200-squashfs-sysupgrade.bin",
-      "sha256": "3bca1b2c1b7a0cf2becc90b1bfbec6a362b3308424293b537ceea63445e14bdf",
+      "sha256": "1b2600dffad462608ddc4066dfed439c3ffe6481c1a97468c471c47aba2bfa3b",
       "type": "sysupgrade"
     }
   ],

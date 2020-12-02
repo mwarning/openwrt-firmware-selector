@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-GW6200-squashfs-cfe.bin",
-      "sha256": "14b9b5d62328128b30703a8f3398a1137b7f353cdd6e22b0d946d99ea1eb15a2",
+      "sha256": "a595b77f635450d6c2bcbb149c73add3cd92d32477e707556e75a1ddf08e6c7c",
       "type": "cfe"
     }
   ],

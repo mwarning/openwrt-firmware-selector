@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-carambola2-squashfs-sysupgrade.bin",
-      "sha256": "cd8f8135bc998bd1e7642bdc0aeaca6f376d1bd8babf0379584643d33b74ca2c",
+      "sha256": "cc141036a43b4e78c5a00b970c28ca87dce6895466c41c5156ff59eb8f59dfb0",
       "type": "sysupgrade"
     }
   ],

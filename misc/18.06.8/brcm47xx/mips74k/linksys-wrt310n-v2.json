@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-mips74k-linksys-wrt310n-v2-squashfs.bin",
-      "sha256": "72840bb915f3cd28c7783ce6ba47b9e029689407789c45d3b03bdea186382aa4",
+      "sha256": "aa3fec2685b7f556a3fb81e1c718afab9f2b6a8665e4616681efaa8994b34693",
       "type": "bin"
     }
   ],

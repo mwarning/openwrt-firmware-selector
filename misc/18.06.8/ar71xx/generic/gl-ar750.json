@@ -45,7 +45,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-gl-ar750-squashfs-sysupgrade.bin",
-      "sha256": "b5208c8877f58747f65391172471570f7b9b10038ced0ff7fd53156d57cca480",
+      "sha256": "29b71194635a93c969f7cce2453e967931cb08cc0a8225ab8023b62d25ce0e27",
       "type": "sysupgrade"
     }
   ],

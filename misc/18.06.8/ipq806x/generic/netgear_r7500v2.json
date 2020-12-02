@@ -65,12 +65,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ipq806x-netgear_r7500v2-squashfs-sysupgrade.bin",
-      "sha256": "40dd55adb844eeac1d22782d40f0644b33ab10d3d091c9700e3491f11a3856fa",
+      "sha256": "859db53da56095c80684f10ac8c0823847737b16aa1848849d547a61b30f62e3",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ipq806x-netgear_r7500v2-squashfs-factory.img",
-      "sha256": "d4f41bcb5f9a5a6c4c777f49fe9bf8ea869c6c961bb81013214784e116e51da1",
+      "sha256": "35dc1e784bb1d17afa8819a050c1da9303426e77cef1c88354bfaca94843fea2",
       "type": "factory"
     }
   ],

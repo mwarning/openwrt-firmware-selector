@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-dir-860l-b1-squashfs-sysupgrade.bin",
-      "sha256": "6f78a00e2f81b17b084658dbce81ea9f860b9e3b9937a50a64374a4102f6eee8",
+      "sha256": "af15c77d6aa2e56288fa77fb97ef0b2e21f2dc7be92ad91b79df29d9a6913c8b",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt7621-dir-860l-b1-squashfs-factory.bin",
-      "sha256": "636fee84507a349b81f7858d72b7ea9caced37b64246cc6efdce0999ed2bdcc2",
+      "sha256": "58de548840f1150220f2ff3e3410b8d6bd67d3936cb2b5721906e921a3ec30ae",
       "type": "factory"
     }
   ],

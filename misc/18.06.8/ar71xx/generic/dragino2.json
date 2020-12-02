@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-dragino2-squashfs-sysupgrade.bin",
-      "sha256": "d7334a500ad24a5c12bf253b340a3594ecf5eae47d4accbccab77dc42e2cccfd",
+      "sha256": "c3319a23290ffb3bf399517065c528285a05df43beb59e66434eee61705f46e8",
       "type": "sysupgrade"
     }
   ],

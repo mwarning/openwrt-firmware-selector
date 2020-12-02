@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-TD-W8900GB-squashfs-cfe.bin",
-      "sha256": "43f549399483c25b8bcb5f2a0dd8c533126c2b9b62189f7da50adf74c1fe3b15",
+      "sha256": "07fb523079112a755edf1569b54a4bdcd9bdebffd79f60a98538d0ffda17cb51",
       "type": "cfe"
     }
   ],

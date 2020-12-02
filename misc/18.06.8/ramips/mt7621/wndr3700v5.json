@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-wndr3700v5-squashfs-sysupgrade.bin",
-      "sha256": "b4478add993ab53f7087255ce9bfff9b6cf7172c2d8a3b525a9dcc1780039f9d",
+      "sha256": "8154aee3eda2c206245350926440e0ea5dbf549715ea3441277efb5312f3ecaa",
       "type": "sysupgrade"
     }
   ],

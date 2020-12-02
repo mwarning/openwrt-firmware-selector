@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-widora_neo-16m-squashfs-sysupgrade.bin",
-      "sha256": "8c7c297fb4617d6f6d33677fc23e6a48d45e92384f0cf9bf2c5579f7779dfa1e",
+      "sha256": "3472d58d471f3eee6ce0476ab41d43c02ef4ca91ef58e003bb3601ad6efae6db",
       "type": "sysupgrade"
     }
   ],

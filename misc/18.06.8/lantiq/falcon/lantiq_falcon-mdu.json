@@ -32,7 +32,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-falcon-lantiq_falcon-mdu-squashfs-sysupgrade.bin",
-      "sha256": "99e38cc93f09ac107e0d2ae6895b62409d2b26aa547d18bfc27db3a0862f889d",
+      "sha256": "8ee1c168666dd84a0a5547194f0f92807ef0cf949073e532bebb7a78ffbfbff9",
       "type": "sysupgrade"
     }
   ],

@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-lbe-m5-squashfs-factory.bin",
-      "sha256": "1d90c639dfb16226c46d0b642e036b25faf7a8c9e712d70c7b45d55983d03d29",
+      "sha256": "c49a5ff4f7f359e82693a781ecb9b2f4c0cbb6069fe882933baca0d0764ae07c",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-lbe-m5-squashfs-sysupgrade.bin",
-      "sha256": "bd48f5c28ee8245e0cdd70409e1c15ed787c02d80472e3cf29a45161e0b3596b",
+      "sha256": "015b358e3169885c26014994b3c2bbb919db2f2f7bc93a97fe1a48a1c96b8989",
       "type": "sysupgrade"
     }
   ],

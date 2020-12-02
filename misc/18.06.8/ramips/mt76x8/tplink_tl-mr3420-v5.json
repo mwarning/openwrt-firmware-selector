@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tplink_tl-mr3420-v5-squashfs-sysupgrade.bin",
-      "sha256": "98431d262b2e4d7e310bdfa68270cadd36b0a59de106876d7db354ee38c99edf",
+      "sha256": "da1658e9d1ab7bfcda463738acb0dac718f9d2241e9b0540517dd61086b87171",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tplink_tl-mr3420-v5-squashfs-tftp-recovery.bin",
-      "sha256": "9caaffb6fc63a9694739491b1bd77d1579e2c434d412d7a7ed0c86712bbd3b00",
+      "sha256": "ffccc69a6f2923a846e9d7772d8a90a5c30c11fb8776d81f135817bb7079ad75",
       "type": "tftp-recovery"
     }
   ],

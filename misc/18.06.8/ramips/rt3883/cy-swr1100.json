@@ -45,12 +45,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-rt3883-cy-swr1100-squashfs-factory.bin",
-      "sha256": "213797bfd57407efd5dbd475c8eac403207e550a102dcefc318d3fbf3fdab8b2",
+      "sha256": "c90e6932471e80d1a0f022fef8125cd543e86391ca3c773929e8be21b766a0ab",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ramips-rt3883-cy-swr1100-squashfs-sysupgrade.bin",
-      "sha256": "bf0133e8e23f28f2e5539b7b49f6c6d93f8896a10f6f0faf198cde8cde244530",
+      "sha256": "87dd90aa8203fdc2aea9db7b1eaeded7c54dc61729393b3cf17c416ac6f819ce",
       "type": "sysupgrade"
     }
   ],

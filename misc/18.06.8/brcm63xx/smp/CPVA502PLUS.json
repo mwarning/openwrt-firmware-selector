@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-CPVA502PLUS-squashfs-cfe.bin",
-      "sha256": "184d56e27544db96d1256c1852d57b89176320f843d95f029aea0b80546f7601",
+      "sha256": "8c8c2c8382e0b5d10128693bb9b26f271cd9be93d4d3d8eaa33942eebe9fc8fd",
       "type": "cfe"
     }
   ],

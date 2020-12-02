@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-at91-legacy-wb45n-squashfs-root.ubi",
-      "sha256": "70e461217a827c4f43b48b9243a8426bf37107b04122d1094f412a30f3444d90",
+      "sha256": "8de1eed64c0bc8f04f3101bba0d921ed05a5a01d0b513662567284578c57f346",
       "type": "root"
     },
     {
       "name": "openwrt-18.06.8-at91-legacy-wb45n-ubifs-root.ubi",
-      "sha256": "8669c0a64735c824597021e37c50f65e5b3294ea48ebaef66609eda6d2e759e8",
+      "sha256": "601875129cb7736cdb8561169134fec54da462ecd364dbe8d70b8f88ea3a3794",
       "type": "root"
     }
   ],

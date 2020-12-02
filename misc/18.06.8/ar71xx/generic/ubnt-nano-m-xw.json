@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-nano-m-xw-squashfs-factory.bin",
-      "sha256": "4aa82eeaf069851959cef58ac1c067c7aea80378780035dbcd52e6ab26ad1963",
+      "sha256": "ec57036a2aa3d77e4384b47a644637caaf7bd1446feda02e656c6cb39af30593",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-nano-m-xw-squashfs-sysupgrade.bin",
-      "sha256": "17decf393387d1a244a0dbac496bd37711c95fb5016e48999432e26596d91529",
+      "sha256": "e1ca349dd4131dc58bacbca015377c9d71834e4a0f34d5a920dbf8353e88a86a",
       "type": "sysupgrade"
     }
   ],

@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-pbr-d1-squashfs-sysupgrade.bin",
-      "sha256": "4e3aa3187edf783e55f37ca148386ed2b31fa2e53361a01eb579e5ea4196ef00",
+      "sha256": "ca979962f768de9b02513b28f609a8a1ded9a326ad275b0da2c6bf12e9528d6d",
       "type": "sysupgrade"
     }
   ],

@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-gl-domino-squashfs-sysupgrade.bin",
-      "sha256": "2947c5823076bb38b15a1cd1341a5be7bd5cce1c8180e01bf56ca313feee0a32",
+      "sha256": "85d7c9fd00118ebd3a79bc58ab041ad8f96b6a096f5fb6eaa801b5483c50776e",
       "type": "sysupgrade"
     }
   ],

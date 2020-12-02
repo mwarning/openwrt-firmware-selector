@@ -35,12 +35,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-at91-legacy-ethernut5-squashfs-root.ubi",
-      "sha256": "f3490a2d018c5bced4251802a9a1920237e948a2b81615934438b02a296c2301",
+      "sha256": "1849a9ddc3bff8d6da71ee6bf9f3658c3e6fa0b9ee4f80506562e4f4101c7188",
       "type": "root"
     },
     {
       "name": "openwrt-18.06.8-at91-legacy-ethernut5-ubifs-root.ubi",
-      "sha256": "61dbb8fd0e4a5c214b1a4175ea15e798e1d772bfab367c4faef9bd04e7c6f27e",
+      "sha256": "ed137b7c7cfaf8b5848cbbca07c7a4710994060c99c1ea6420b60cf3ad366c6d",
       "type": "root"
     }
   ],

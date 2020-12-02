@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-mw4530r-v1-squashfs-sysupgrade.bin",
-      "sha256": "d221f1c383266638e849662d6524e1ebccf2b4cfdb286d9221b75a7ee82ff987",
+      "sha256": "a8a85245fd777beb409204ca2fadd51fba92f553805c5b5bf23cb85ef2315043",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-mw4530r-v1-squashfs-factory.bin",
-      "sha256": "7a4dc91085cbadd3b19086e9941871ab0425946a2b5dbb16c786bf2c183d3b2f",
+      "sha256": "dd1e14dea8605739ae81c8d6fa8f4e6213e4cc23c48e556ac22223322580a8e7",
       "type": "factory"
     }
   ],

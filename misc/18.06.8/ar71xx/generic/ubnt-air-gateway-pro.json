@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-air-gateway-pro-squashfs-sysupgrade.bin",
-      "sha256": "dc0f802caa5875415d2524bc066764035ea1e2b4f9f81b1e6ac6840dd7132776",
+      "sha256": "a4999f335761c1710b7cea0b6822a3f3d9ad8e8536d0aba0d407c4a60843bd9b",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ubnt-air-gateway-pro-squashfs-factory.bin",
-      "sha256": "5b9854639b54437dec75a468b5d35b8d944e87689a1e74663449319d72c7e480",
+      "sha256": "3b6640d6ab86253a4c37841bf8edc27f6645a1f2d36ee69ece1b91f4f74c5c62",
       "type": "factory"
     }
   ],

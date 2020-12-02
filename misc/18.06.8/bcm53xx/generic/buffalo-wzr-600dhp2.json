@@ -56,7 +56,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-buffalo-wzr-600dhp2-squashfs.trx",
-      "sha256": "109713ff7f4028e7376df3878239ab8f1c64ee70dbe63674ac8626c9688c4da6",
+      "sha256": "7dcab575957ee6070b9a618918e02af132398cb2e5d9659f24286efb3529f7b3",
       "type": "trx"
     }
   ],

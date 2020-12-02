@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-VR-3026e-squashfs-cfe.bin",
-      "sha256": "63eb48ddf3a042215c8c55c6d982a5232fa3b23429349ff017e04aca8fba8e2d",
+      "sha256": "84dc1001473f49fe34f7eee2a7a20b32aca2845faa16a557c52c97a916c0025a",
       "type": "cfe"
     }
   ],

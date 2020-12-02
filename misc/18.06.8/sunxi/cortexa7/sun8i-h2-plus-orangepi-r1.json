@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun8i-h2-plus-orangepi-r1-ext4-sdcard.img.gz",
-      "sha256": "db06c9791a7f3c1f6a41ab30a4f7f80a21ecea4787a27d432727ff3b2e4e4ca1",
+      "sha256": "28672eca3fd927fc6589a0e1f0815a47e4cc7b5257f2706046cf160666687bb5",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun8i-h2-plus-orangepi-r1-squashfs-sdcard.img.gz",
-      "sha256": "b3a1669fd9dfd79cfe9c8d9bdf09b822bf0bd2d835db74d04654dbd7fd6a1928",
+      "sha256": "abd18bd3bdcc2aa077770713fc38fa7c61a2109d6cc62023c82bae39bef6b1a4",
       "type": "sdcard"
     }
   ],

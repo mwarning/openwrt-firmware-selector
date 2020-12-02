@@ -35,12 +35,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-at91-legacy-at91sam9x25ek-ubifs-root.ubi",
-      "sha256": "d836883a0f6fe8168e2974b29dc2ab5effae06b47f15d43eed895b901e2b5d39",
+      "sha256": "74b93b1dedb8736f22635b36723868dd0c8e2fdbe8170dd01178d52ab4af2b7f",
       "type": "root"
     },
     {
       "name": "openwrt-18.06.8-at91-legacy-at91sam9x25ek-squashfs-root.ubi",
-      "sha256": "507069056045ecaa131bbdbc0044e49417337cd45edbe136e1f86ebcc4503f84",
+      "sha256": "c2a215a8684bb89cc7204017e8b82232ccca58609d5c660657ffed8773bc9013",
       "type": "root"
     }
   ],

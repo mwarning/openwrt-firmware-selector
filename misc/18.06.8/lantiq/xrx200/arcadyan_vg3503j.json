@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-arcadyan_vg3503j-squashfs-sysupgrade.bin",
-      "sha256": "97408764a510d849da96f0a089ce21e5accc28c494aec3f22e3c08714431339d",
+      "sha256": "b2da2c272d0c4d124362902a36689a8a2002c16df1e9046fdbd5eff246982ff8",
       "type": "sysupgrade"
     }
   ],

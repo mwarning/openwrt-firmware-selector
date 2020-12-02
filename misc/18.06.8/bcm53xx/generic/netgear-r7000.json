@@ -55,7 +55,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-bcm53xx-netgear-r7000-squashfs.chk",
-      "sha256": "df62821b24ecc17f2775d27313e124d6e92930264b82e9d556b09e28e4e8ae47",
+      "sha256": "cae0c42bb2a29f205dcd8332c18ca268612b15580b510d0f751e81dd96722b57",
       "type": "chk"
     }
   ],

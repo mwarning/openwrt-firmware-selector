@@ -64,12 +64,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ipq806x-tplink_c2600-squashfs-sysupgrade.bin",
-      "sha256": "86a22800753552bd18f31649d9ff50aae8bb75419b8463219076aba23e9c12eb",
+      "sha256": "8747c4db694b5cacfc83c1ec6881c3b3c235b513f417a7d54026dd2bc829599f",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ipq806x-tplink_c2600-squashfs-factory.bin",
-      "sha256": "35724c3ca13a08fcd25ff422a94b0d0e64b613edf12c38d426d1d646a77cd959",
+      "sha256": "ce0573523cf9bf585d37a460b2f83d9ecc84d453449d788c980c555cf54a89d3",
       "type": "factory"
     }
   ],

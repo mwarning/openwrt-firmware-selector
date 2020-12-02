@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa8-sun4i-a10-pcduino-squashfs-sdcard.img.gz",
-      "sha256": "613d7652b671977148956e668d1d99209ac75ecede69a68ecc7077e4c32eb9b1",
+      "sha256": "b90140bdb8e14e51f7e291ca83cea7d7ce3e6f0c004314ecf5d1012e747bafb0",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa8-sun4i-a10-pcduino-ext4-sdcard.img.gz",
-      "sha256": "3aebd132e6c08404290dc3c86ef86a01ee85c358d7e5ce951be6ad1faa8f6eb9",
+      "sha256": "d1d961b31cb66bdb3ec5519086b5895a6ad5a81f4673314570e3e092c27f653d",
       "type": "sdcard"
     }
   ],

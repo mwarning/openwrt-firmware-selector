@@ -51,22 +51,22 @@
   "images": [
     {
       "name": "openwrt-18.06.8-oxnas-ox820-shuttle-kd20-ubifs-sysupgrade.tar",
-      "sha256": "6910f97194d21e8e91446c6f17aac7390348f6de73f906dcf52582e000a18d8c",
+      "sha256": "fca5e943e22513950f778648d9f628c244b22eb9c6dd7c6ccbfd1e623dc7d2a3",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-oxnas-ox820-shuttle-kd20-ubifs-ubinized.bin",
-      "sha256": "d8056fe2af3c7a2c479dfa42f6360e8f2aea67e1797df4b393ed6e69a28ac5db",
+      "sha256": "52c34cc0be7c77b7bbc794fa6d1413293f97b2bee2654dbcc1728dcfbfc00eb3",
       "type": "ubinized"
     },
     {
       "name": "openwrt-18.06.8-oxnas-ox820-shuttle-kd20-squashfs-sysupgrade.tar",
-      "sha256": "1dbe7962347dc256033930df6073f8422972c0f3a2ad682fcc1671cbd62bd86e",
+      "sha256": "ff7b3c08629ba954dc6f6e9b120e23be68282ccfa8fce3a977cffa28d7434840",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-oxnas-ox820-shuttle-kd20-squashfs-ubinized.bin",
-      "sha256": "6518358cc322198bb252b94cc7cd089254d822be83f31ec6f5394a43ab046cab",
+      "sha256": "9a520a6261827031aa92183ed6923735e886738d614edb3e9492752cccb26c6e",
       "type": "ubinized"
     }
   ],

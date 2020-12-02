@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wr942n-v1-squashfs-sysupgrade.bin",
-      "sha256": "e570886ef5525231c4a4cd2470689fb66eb46bd5cb70c0840bbf65387ac1f32a",
+      "sha256": "1b9f611d8699466a5ba2c9cdca011211fd9f2d471e5da1dbb0eb7723e16762e8",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wr942n-v1-squashfs-factory.bin",
-      "sha256": "0bfefeded67bb8a943ef97161533f5d84c2fe7ff80ce08b5cdd459bfcf48b72c",
+      "sha256": "cffe72194020b16a533bff150f2c26c371e2f152ab1b8e887f8416bafc29cea5",
       "type": "factory"
     }
   ],

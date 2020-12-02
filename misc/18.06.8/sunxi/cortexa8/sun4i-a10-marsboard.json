@@ -44,12 +44,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa8-sun4i-a10-marsboard-ext4-sdcard.img.gz",
-      "sha256": "db23ab1a97e24db5e959d411fa4358876feeaf79fb26109e76339a6a9ce76482",
+      "sha256": "67c0888822b14addb3dd15e871e0a82aec4010e16b9f62b9047436c3864d6cb2",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa8-sun4i-a10-marsboard-squashfs-sdcard.img.gz",
-      "sha256": "43aeab2947c986817d27ee880f77e449a11d55d43b0290107e7320a8c0502814",
+      "sha256": "cfb183b8e9a1ef34810c051d7229830760fe0b4bd27c115c3d95586566b2db22",
       "type": "sdcard"
     }
   ],

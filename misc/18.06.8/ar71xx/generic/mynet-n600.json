@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-mynet-n600-squashfs-sysupgrade.bin",
-      "sha256": "52db8fadaffe09d14fe6a8c98db3d5efb73c9e11b9a31b4810978d5490413dcc",
+      "sha256": "40d052e0be69525bb89c51495d5f821854485c28eab8609e99ea277c1bd359c6",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-mynet-n600-squashfs-factory.bin",
-      "sha256": "250e46669126e21e4875634141d46bf839925cbed50ce32834cf3ecdbb894403",
+      "sha256": "32e9dd44994b5c7dadd2828e82710bd50720d8db39727a13ac763e8ede1532b9",
       "type": "factory"
     }
   ],

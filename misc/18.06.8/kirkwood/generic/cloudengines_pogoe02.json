@@ -32,12 +32,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-kirkwood-cloudengines_pogoe02-squashfs-sysupgrade.bin",
-      "sha256": "4a0930908175468466fedea405a8ff36e3492c2033f1966224bdca1be250210b",
+      "sha256": "0433f6564c1c585672c16c7bfaf0e208038b0f50c2ee3f4be108bb23b7e97c01",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-kirkwood-cloudengines_pogoe02-squashfs-factory.bin",
-      "sha256": "1123ee103fbc5e9caa7eafb1fb7a520c096baf8dfebf44c76b77fb9be3cc872a",
+      "sha256": "941edab6d500a2c8902490d9e1bd1b37f47863574f70ec88228687bb303426ef",
       "type": "factory"
     }
   ],

@@ -52,12 +52,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-linksys-wrt54g3gv2-vf-squashfs.bin",
-      "sha256": "344a6c412f37237198eb6cf22c0ae26d0f16a3fd81c1a85593c7013115888952",
+      "sha256": "71ba4ae90e05db6ed969c7494ab5ab2e606f7b4a78240fbb9abfca74e298047d",
       "type": "bin"
     },
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-linksys-wrt54g3gv2-vf-squashfs.noheader.bin",
-      "sha256": "9aa5712603508d16e50be7d49e80e863345003c6cd963893c250401f02dfdd2f",
+      "sha256": "68c1ab707b512a90353978bbb19d7c8f63e4eacf2ddc58bd63f343b3cc462bc8",
       "type": "noheader"
     }
   ],

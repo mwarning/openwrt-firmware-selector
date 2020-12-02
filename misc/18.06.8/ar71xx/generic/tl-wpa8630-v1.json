@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wpa8630-v1-squashfs-sysupgrade.bin",
-      "sha256": "5090689e5513e241669c6316bea573d9737585049a8d2262ca38fc9eca6a9d99",
+      "sha256": "bbd0fa9d8e8b5e8d6e992593798b95fca774dbea268a69abd034943b3e9a5c86",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wpa8630-v1-squashfs-factory.bin",
-      "sha256": "33f11f30af42515de81c2f9b6257ec7c008a98ae5f3254d83f5664d2c0dea8fc",
+      "sha256": "09304cdae78b4d7df99e9486e693bef6723d77a3a4e6091bb6843ba47ef7ef1f",
       "type": "factory"
     }
   ],

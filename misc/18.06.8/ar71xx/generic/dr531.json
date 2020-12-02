@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-dr531-squashfs-sysupgrade.bin",
-      "sha256": "c3f263b1fde7aeb0c5a04ee4ec5fd6712e8cfc01810481fc563a44dd52f5b632",
+      "sha256": "0c6da8e5e64f59e532d5caad0b609d711c4d9c18327f418597ecdbd352ca6496",
       "type": "sysupgrade"
     }
   ],

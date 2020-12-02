@@ -39,12 +39,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr1041n-v2-squashfs-factory.bin",
-      "sha256": "4da71aa1c92c705feb7ecfac5d25e6d6bbd6a15323aeb1cab7474c39592f752d",
+      "sha256": "eca17df5a227270be78319afb4edced8f9d5f71dcba64cb991db48ec011e99a9",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr1041n-v2-squashfs-sysupgrade.bin",
-      "sha256": "441eeb692f1bef3a1f4e8c4dc4517611c5883b12e02193af9d5d735a80cb56e1",
+      "sha256": "ba26e78bc08dd9ecc75f204e09e6b22fe640d89d8456f0f41347a2c3eaf51825",
       "type": "sysupgrade"
     }
   ],

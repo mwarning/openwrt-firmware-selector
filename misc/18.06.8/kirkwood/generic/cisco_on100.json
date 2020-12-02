@@ -34,12 +34,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-kirkwood-cisco_on100-squashfs-factory.bin",
-      "sha256": "989765653a8cc33329fbb7fa5641e90d433f62bb77eb95d5f89aa3d6d5077340",
+      "sha256": "ec62264b6b8c8b62242fef1cb3284ddc5e14e00d3dff1b5c517d85017a47fe5d",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-kirkwood-cisco_on100-squashfs-sysupgrade.bin",
-      "sha256": "69b494e151ac6a5f8795d92426c874bf452e002efb742944397c13a7998eb2df",
+      "sha256": "ba41271abbf91bfd8f77f5ea92c44784ce63bbeb2b89aeaffed28e8db2d73af8",
       "type": "sysupgrade"
     }
   ],

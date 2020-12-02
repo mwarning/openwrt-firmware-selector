@@ -43,7 +43,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-e558-v2-16M-squashfs-sysupgrade.bin",
-      "sha256": "bea0661cd417a3c014190ff3f80365b9c593b41e8e80359aedc8fbc364513f32",
+      "sha256": "040da728579722066bdff1af5fd127a41722aca9f4c065a755669ec20d5abee3",
       "type": "sysupgrade"
     }
   ],

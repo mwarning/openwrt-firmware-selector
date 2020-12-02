@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-P870HW-51a_v2-squashfs-factory.bin",
-      "sha256": "784c1554a35bbff049cad14cd7c3ed4b2375c7e01b35958ed3f3aa8978e30a8d",
+      "sha256": "e5db91da211faf3e26a80b0523a9cadfafd2d5e5b31ac6ac7a96ebc8465fa88e",
       "type": "factory"
     }
   ],

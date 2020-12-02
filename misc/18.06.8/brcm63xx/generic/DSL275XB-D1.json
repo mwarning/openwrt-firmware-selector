@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-DSL275XB-D1-squashfs-cfe.bin",
-      "sha256": "88adcc2b2ff9f1e185845ba0ba53d9f59779156ee6aa7ec97ab3ad07678f6037",
+      "sha256": "5a5f87a445c2d25eb5cc206767a1bbded9d1475c9540c386911503c39acd23ce",
       "type": "cfe"
     }
   ],

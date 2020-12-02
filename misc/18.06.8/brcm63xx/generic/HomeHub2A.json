@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-HomeHub2A-squashfs-cfe.bin",
-      "sha256": "b92648681fb52050fc5da6c51d64bcdd3f1a98e7d334c7a3bcee9391b89fb3e3",
+      "sha256": "0c06da3a71fd50ce9423fecdaeb7531b279cb8aeb16fe5e47926a760052efef7",
       "type": "cfe"
     }
   ],

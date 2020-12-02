@@ -40,12 +40,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa8-sun5i-a13-olimex-som-ext4-sdcard.img.gz",
-      "sha256": "d6ec0a2c5fbcedd9ad1a09eec4f297844fe5b9638035444880f20c12b053c404",
+      "sha256": "403287b5f90869d218e960e28150093fdac85c10d7cbad45d875d68e5bacc7b7",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa8-sun5i-a13-olimex-som-squashfs-sdcard.img.gz",
-      "sha256": "b80ea6cc8c05edecb9b1217d22fc0060a71cd55340657feba813f6d374b4bf09",
+      "sha256": "dd3fd19977b2d8dd76e20a88283a10379bdb0031c849b2addecfac1de5bfb156",
       "type": "sdcard"
     }
   ],

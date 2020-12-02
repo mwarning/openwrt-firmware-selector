@@ -46,22 +46,22 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xway-netgear_dgn3500-squashfs-factory-na.img",
-      "sha256": "794319d03929be37cd1701773e823b4ddfc67e3ed8e83d46dd5ba0b856f104a6",
+      "sha256": "b5ac4fc573d7de279f015f251c870489b5f84990432d96ea91bbfe7f9f3ff418",
       "type": "factory-na"
     },
     {
       "name": "openwrt-18.06.8-lantiq-xway-netgear_dgn3500-squashfs-sysupgrade.bin",
-      "sha256": "079f455bb10a44878e39f989db3d2584b95b04cff12528c798ee9d79fd3b56de",
+      "sha256": "b38489066656a132b94e9ad96c9d90419344d2f088775fa180779137b2f65955",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-lantiq-xway-netgear_dgn3500-squashfs-factory.img",
-      "sha256": "d70178cecae5c294bfd186ac45b79d2ec3ef111f51db025dc4ae1b3685a9ed82",
+      "sha256": "0087a474776a78367b557d0d7855d25a2b15e18af89ea9faeded5359ba93a5d4",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-lantiq-xway-netgear_dgn3500-squashfs-sysupgrade-na.bin",
-      "sha256": "4f545dbc26918799cd9453f1ecd3859a3fadd51208b054e87d98ede4c7f3f6fb",
+      "sha256": "ff60820c33b9aed3cd7c9fc37d18ceee2a22876bc86cc70a0c5b5059b4543422",
       "type": "sysupgrade-na"
     }
   ],

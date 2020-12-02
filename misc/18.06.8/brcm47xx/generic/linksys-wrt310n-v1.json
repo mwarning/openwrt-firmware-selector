@@ -51,7 +51,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-generic-linksys-wrt310n-v1-squashfs.bin",
-      "sha256": "f8ff7986f0384abe596037aa17b51fb54947ca25fcd9af319d977bd968d008b1",
+      "sha256": "a1f5f74e5a618c636d8f1925abde1e7492860008c3cb0e4af68a4c5900593d7e",
       "type": "bin"
     }
   ],

@@ -38,7 +38,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-timecloud-squashfs-sysupgrade.bin",
-      "sha256": "38a1b03b9f72e7a2ded7e5ab5015c0a2ba58f954e919d6704554b837218f5b53",
+      "sha256": "27b14aa4c7ec34ef6fd0d6e5bb4ea33a11be6e7f3b83fcae77dd46ac45334a31",
       "type": "sysupgrade"
     }
   ],

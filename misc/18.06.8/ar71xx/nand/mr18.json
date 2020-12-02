@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-nand-mr18-squashfs-sysupgrade.tar",
-      "sha256": "79bdaee7f862fee6233ae7a2c49e513e5e8d083123ec2a21d97e1a9dca1711af",
+      "sha256": "ca20e5907062cd39c0ebefd487677e0020ba29773b2378a928e053965a77e8ef",
       "type": "sysupgrade"
     }
   ],

@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-DVAG3810BN-squashfs-cfe.bin",
-      "sha256": "bee5bde5bcbdfb2d3d7a43a0afa872602c17631aff8f741ffc2408262224c3bf",
+      "sha256": "b01c76163f0a71a6e595f5c024fac5af8e5513f88a835f95cb1239d66ed7634e",
       "type": "cfe"
     }
   ],

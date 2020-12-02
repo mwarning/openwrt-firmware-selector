@@ -45,7 +45,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mediatek-mt7622-MTK-RFB1-squashfs-sysupgrade.bin",
-      "sha256": "463a70240122e33bc08906ec91eea3757b8b1b11ea886a87fd11a29ca1fd1de0",
+      "sha256": "a122894baedd01f27325af9d4f9e11a194b5992935763cdbca759d32a7345304",
       "type": "sysupgrade"
     }
   ],

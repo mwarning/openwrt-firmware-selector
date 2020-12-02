@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-HomeHub2A-squashfs-cfe.bin",
-      "sha256": "0729661bee22d2b15d4e22ac38e7dd1f64de1a48f0cf6814e4df9db4496d363b",
+      "sha256": "bf3bcd26986e802d4314c05ed67f04b8d26a746626dedacaae147043ba678815",
       "type": "cfe"
     }
   ],

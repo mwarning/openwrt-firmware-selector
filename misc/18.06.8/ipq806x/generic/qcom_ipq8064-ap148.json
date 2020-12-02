@@ -64,12 +64,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ipq806x-qcom_ipq8064-ap148-squashfs-nand-factory.bin",
-      "sha256": "76444b6ef7e6166a92cf1b2acc8df99b45cbe513d3682f2106a93fa2fe587b1e",
+      "sha256": "29f95bb4ff2ed0982063e6fdca3f9e172b1332ae07adf9a92b3c2564c892c382",
       "type": "nand-factory"
     },
     {
       "name": "openwrt-18.06.8-ipq806x-qcom_ipq8064-ap148-squashfs-nand-sysupgrade.bin",
-      "sha256": "fab71becce9d190c5c17f32aa1d27e4a97280e3100133a7ecfdc8e3ca3f42b91",
+      "sha256": "c22118be352e8f60cb97590c1f9bf9cbfe181cacb33ddb16d429d28d6e750611",
       "type": "nand-sysupgrade"
     }
   ],

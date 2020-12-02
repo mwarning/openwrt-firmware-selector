@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-cf-e380ac-v2-squashfs-sysupgrade.bin",
-      "sha256": "a7a547b83d3bfdaf4114463538cc2be268d1d34e19dee35bbef6035d3abb0113",
+      "sha256": "af0807384cef339611db92c7ec3251b64093dbfe8464f2d97301b709c7a3d354",
       "type": "sysupgrade"
     }
   ],

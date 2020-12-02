@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-gl-inet-6408A-v1-squashfs-sysupgrade.bin",
-      "sha256": "bafc1196ad447f599c23691201979f9215e210c973a1333a4c1bf85057459060",
+      "sha256": "11a8e437c04a547ed525bbf6e97019ac077dad7c5a59ca73e753de706497aa2e",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-gl-inet-6408A-v1-squashfs-factory.bin",
-      "sha256": "6a638c3f3cec4c1b5a9a7c961eb33772d3a7a5a9419edc29ce08adbc5dfd99e1",
+      "sha256": "42dc23e6116ffde0857efc6c778bfeaaf664f5902912dcd880ca59ce9e647a03",
       "type": "factory"
     }
   ],

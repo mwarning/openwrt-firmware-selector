@@ -34,7 +34,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-mvebu-cortexa9-armada-370-db-squashfs-sysupgrade.bin",
-      "sha256": "2a5b917db9373e7928d29cb3a58fc0c6fb3808923d02f766f76e264081274e02",
+      "sha256": "53285407579582130de119209fd202a983b48a8af5d2ec4d3ade8f9e5615e3c1",
       "type": "sysupgrade"
     }
   ],

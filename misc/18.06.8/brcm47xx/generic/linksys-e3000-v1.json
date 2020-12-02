@@ -53,7 +53,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-generic-linksys-e3000-v1-squashfs.bin",
-      "sha256": "3605c94ef93665708a013d8c70820092861d842ee8f60216869f08b3a79529a1",
+      "sha256": "6a696f1ba181db83b4f4e13ac473d8a7c14fedb73f39bad7e47cbbff9971ceac",
       "type": "bin"
     }
   ],

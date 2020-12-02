@@ -35,22 +35,22 @@
   "images": [
     {
       "name": "openwrt-18.06.8-at91-legacy-at91sam9g20ek-squashfs-zImage",
-      "sha256": "cbe7539edd2f6c5e880110a5fc5171844d8e3be46c0b44b22c3b6666db1b4500",
+      "sha256": "fb08b6539e12de581d9a95c02c06639c50bf8f659fd829ebbbe8e093113060cf",
       "type": "zImage"
     },
     {
       "name": "openwrt-18.06.8-at91-legacy-at91sam9g20ek-squashfs-root.ubi",
-      "sha256": "e25cca6373df88aec7acb4a7ef7442ee9a76332bd7be197f90aeec1ad6e73139",
+      "sha256": "02b40eaace2723a7db062a9e2b9222f112601811c4a78457a88ea171d1427b6c",
       "type": "root"
     },
     {
       "name": "openwrt-18.06.8-at91-legacy-at91sam9g20ek-ubifs-root.ubi",
-      "sha256": "6b5a082afaf3c2874578d40a3b50a8fc3e817d86d92f93fab0c25b1a3b56c616",
+      "sha256": "09cd7abae3ec7619444d3edcfa61760688de70a23a187989e9c153d826b1f7f9",
       "type": "root"
     },
     {
       "name": "openwrt-18.06.8-at91-legacy-at91sam9g20ek-ubifs-zImage",
-      "sha256": "cbe7539edd2f6c5e880110a5fc5171844d8e3be46c0b44b22c3b6666db1b4500",
+      "sha256": "fb08b6539e12de581d9a95c02c06639c50bf8f659fd829ebbbe8e093113060cf",
       "type": "zImage"
     }
   ],

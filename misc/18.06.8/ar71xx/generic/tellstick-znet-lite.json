@@ -45,12 +45,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tellstick-znet-lite-squashfs-sysupgrade.bin",
-      "sha256": "b528f1186bc6cf62fc61a505957337682e6aacc9987ca96132b9a81bc5fe5e22",
+      "sha256": "171fae8f488332026e4a3c4b3ad355f409e01abf468d4e7d0a39f4507551bd95",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tellstick-znet-lite-squashfs-factory.bin",
-      "sha256": "c32a3140cedf008033039bfdd254edb4f12c400f571a13fecad30234747169c7",
+      "sha256": "01359375b710dc02672018992e7c5f28a0ca76e5573ad65cbd8b08724b19232d",
       "type": "factory"
     }
   ],

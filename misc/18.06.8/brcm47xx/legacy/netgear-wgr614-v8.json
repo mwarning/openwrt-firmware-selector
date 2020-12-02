@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-netgear-wgr614-v8-squashfs.chk",
-      "sha256": "6e8dd893af3a734d6408e6aa07541959cc1e46b26c5c2d41387ff0b23f120cd8",
+      "sha256": "bc9bba09877370d12089e49e13dda7575c8cce58af361ca62ec6b3a6ac5d7b6f",
       "type": "chk"
     }
   ],

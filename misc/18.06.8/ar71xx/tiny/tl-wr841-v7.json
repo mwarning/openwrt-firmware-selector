@@ -39,12 +39,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr841-v7-squashfs-sysupgrade.bin",
-      "sha256": "b8f942487ef23dcf33c4953500c408451a690a2297bd90214bc0de2b127994d9",
+      "sha256": "e281aedb96b3faf13e290718abd7e0b5c63cece9a385c6db0441a6db486e04d9",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-tiny-tl-wr841-v7-squashfs-factory.bin",
-      "sha256": "19dbcca15a20a8a91342f24498c024192920800688674ec061e06dcaec5aecb6",
+      "sha256": "9818e2d3bb1517122765166296ae6df3b1e480116032d7389b23348e4e34a3ab",
       "type": "factory"
     }
   ],

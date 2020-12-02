@@ -38,12 +38,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tl-wr840n-v4-squashfs-sysupgrade.bin",
-      "sha256": "8b85a5ecc327ccc4a5951a560a5e38912b5ada7e6ca06a443fcf96127ccad199",
+      "sha256": "de34781ed785c25fbb3a63a3e083261ba9d61beb9c74cbec31f2abf2350c0845",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-tl-wr840n-v4-squashfs-tftp-recovery.bin",
-      "sha256": "d3d5b20a5c77ca94f0f6b122230e91e16cb222f24573a5651904659738893600",
+      "sha256": "884a7eb759a33532dc706696c2c0e45907d286f206b91311cb8287aa085e9320",
       "type": "tftp-recovery"
     }
   ],

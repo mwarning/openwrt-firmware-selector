@@ -38,12 +38,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-kirkwood-linksys_viper-squashfs-factory.bin",
-      "sha256": "0c18aadd3adf8225a40ff8349d1d7ffd8c427e43cadc0377030dcb5e8f88a848",
+      "sha256": "d04089f9b3891bd01e4e1eb85c3339e83b2ad9e83c868810100d6c2cd09e6dba",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-kirkwood-linksys_viper-squashfs-sysupgrade.bin",
-      "sha256": "d601031e698d89e69de97e70dbd1b5d551213f5df4c4ebeaf5b9b9ddb12d3999",
+      "sha256": "b692bc65c5bea7c6467f6dec3ede7d63ecec86c1f131c34e50eae19c4c75dcc7",
       "type": "sysupgrade"
     }
   ],

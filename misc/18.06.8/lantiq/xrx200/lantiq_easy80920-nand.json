@@ -48,12 +48,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-lantiq_easy80920-nand-squashfs-sysupgrade.bin",
-      "sha256": "b894efa1a15952194e2a113054e74c2fa6ed25e9e2934638181229f44a2ef404",
+      "sha256": "4ef1d97794e9db26690c306c3843f1ec0617a0e455a988ab87cb72a765e22526",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-lantiq-xrx200-lantiq_easy80920-nand-squashfs-fullimage.bin",
-      "sha256": "913021873a8000d24554757e9c8639313cff5fa3fa8f0050ebdeb11a92bf1c8c",
+      "sha256": "468825a6999149100070ae9f801fb77536745dfdab2cddba4213ae992108a38c",
       "type": "fullimage"
     }
   ],

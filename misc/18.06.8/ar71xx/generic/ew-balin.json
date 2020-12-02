@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-ew-balin-squashfs-sysupgrade.bin",
-      "sha256": "c21fb043ede0486c3f2a51d703b6a15fa4880fb8e84ddcb60a55e0c894094c97",
+      "sha256": "1a3d0b374114eaa0d6fa8fbe40e7115cb26738901fe09679fd6c0e9ac544061c",
       "type": "sysupgrade"
     }
   ],

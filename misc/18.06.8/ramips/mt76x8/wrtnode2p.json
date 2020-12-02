@@ -42,7 +42,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt76x8-wrtnode2p-squashfs-sysupgrade.bin",
-      "sha256": "df084ba54c0bb5cd77bd466ff19b3c21c5086dcabb443ca404f908db6f5a2a9e",
+      "sha256": "07c72f8d154bcf09a907e6463b903cc3111273095db619b752e9be9cae036b9c",
       "type": "sysupgrade"
     }
   ],

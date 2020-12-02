@@ -40,7 +40,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-WAP-5813n-squashfs-cfe.bin",
-      "sha256": "b0b38c85b951e29188b2fe5c2f57e2620b6155f5ac570b4302d1a1c0c52c520c",
+      "sha256": "87a3235ee1d983a7ef224d8c5e2862072184c2987e738af050b04535e1c1fabd",
       "type": "cfe"
     }
   ],

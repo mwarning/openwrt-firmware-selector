@@ -41,12 +41,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-wbs510-v1-squashfs-sysupgrade.bin",
-      "sha256": "0d9f7d5b58288bc3031df5865373a3c35e7ae24e726d17ab4e3f502032ce7bf9",
+      "sha256": "1616a44ae8e73e0f1ea7c87a94828155835cf5ea9f367c815db955fe4de78852",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-wbs510-v1-squashfs-factory.bin",
-      "sha256": "7e70fc0d43e8869dc863feb01a479d7718001b80269bd2db4a967181854f06b7",
+      "sha256": "1c07a853ce2683809793267553e6f57b37ef2dcbe6db7796b58274597253f13e",
       "type": "factory"
     }
   ],

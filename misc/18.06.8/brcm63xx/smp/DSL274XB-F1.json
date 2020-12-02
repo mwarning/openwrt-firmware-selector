@@ -37,12 +37,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-DSL274XB-F1-squashfs-cfe-AU.bin",
-      "sha256": "f761198f8f9bd52db86fce241b6e70962c80496755e0d743800719022d37d99a",
+      "sha256": "11d1c459cf9f0a1564fb00cd2264fa36c8dd9e5b030209f5d3df343f4fa2a806",
       "type": "cfe-AU"
     },
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-DSL274XB-F1-squashfs-cfe-EU.bin",
-      "sha256": "766d82637fb645da486879b6a5ee0539370b7b70e3cf37896c61057b81667aa8",
+      "sha256": "2d74b12176beb568914c1945863285f65c8e47784846e3c28c1d21e6384446fb",
       "type": "cfe-EU"
     }
   ],

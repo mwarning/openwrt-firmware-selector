@@ -38,12 +38,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa53-sun50i-a64-sopine-baseboard-ext4-sdcard.img.gz",
-      "sha256": "9c43f76a2246f23774195a5893a19ec6bff5f2d516acf37ef54dc210ad5ee6db",
+      "sha256": "6e9b90e9677f9c798ffa965fece42305f417a2921271828e7f1f56e39139b633",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa53-sun50i-a64-sopine-baseboard-squashfs-sdcard.img.gz",
-      "sha256": "738d5ed8a337e964028bff5918ddf7ad9d55b580252e475ef7d64243790ccfa0",
+      "sha256": "4e8539f98bb659cc0c86e10f195d38e845808c70261f9586c40977b9c93ba420",
       "type": "sdcard"
     }
   ],

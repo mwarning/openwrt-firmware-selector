@@ -45,12 +45,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-pcduino3-ext4-sdcard.img.gz",
-      "sha256": "ae2d5bd09119ccb1e22442d5763d61d63a88dfe2088b161a6aa8d43f9eeef1b2",
+      "sha256": "1a46e9e8b02c21b4f07b10d5af001e29dd60d133586b9d017eb601d30fac7925",
       "type": "sdcard"
     },
     {
       "name": "openwrt-18.06.8-sunxi-cortexa7-sun7i-a20-pcduino3-squashfs-sdcard.img.gz",
-      "sha256": "d9c06f24b756bf35509b5e2de566b5a334fc9a9b795b7822dabcf1790f52f68e",
+      "sha256": "df990b4c01a16b62825e53a4354688ec981b1fb219c2139cbccd3d131b7b3d24",
       "type": "sdcard"
     }
   ],

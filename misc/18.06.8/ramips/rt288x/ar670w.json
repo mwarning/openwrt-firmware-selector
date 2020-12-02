@@ -38,12 +38,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-rt288x-ar670w-squashfs-sysupgrade.bin",
-      "sha256": "340a73becfa64af01d34065b74fcee04e57c9bd1f65d63b778f22c6960649afb",
+      "sha256": "0314dbe71754510cb8d0da622cbc94a48f82b426077ae576bd4a36d99a994a5b",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ramips-rt288x-ar670w-squashfs-factory.bin",
-      "sha256": "a38598ac6596c3568f7c4699e3283ee50bb0ac7f2b7535cb7c8a97eebb77b5f7",
+      "sha256": "891feb4dc5239c74e459127114d0f461910ba13db0d0b5cf7811b94f8cd7a0e2",
       "type": "factory"
     }
   ],

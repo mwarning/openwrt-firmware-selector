@@ -41,12 +41,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-rt3883-tew-692gr-squashfs-factory.bin",
-      "sha256": "fcada151ce5c6db70e5eb5ea09172196d4ee140e5ba7b2465cbf66e6cff1a816",
+      "sha256": "ef94e353364ba60c42b312b65fa40c3bb2d92b9f2abe992df5b98b6c1c9e65ca",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ramips-rt3883-tew-692gr-squashfs-sysupgrade.bin",
-      "sha256": "07136dc5f3b24441125fbc15d672cf2e04822fe405d98b4e47bfd9cf638cf32b",
+      "sha256": "6f02654d18903b404d7bcbbf1824db65ee60111348e5b66407ce82a332996857",
       "type": "sysupgrade"
     }
   ],

@@ -46,7 +46,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-wlr8100-squashfs-sysupgrade.bin",
-      "sha256": "e4332952ef0e74eaa881cb1253af415d5822e2d9548d961b4a503e2dcacaaf70",
+      "sha256": "be65f1e6b49395905ebfcc4737cf13331df257831641b07c9234d0cc3f6e1dbd",
       "type": "sysupgrade"
     }
   ],

@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wdr4900-v2-squashfs-sysupgrade.bin",
-      "sha256": "06ac3f8d1b530438a32b594e6728c56f241a7725bfa584cefc705fff6b99a015",
+      "sha256": "ed82d3ef1bac02643e74db69590575d2a8567ccbc1f185d4b1cb6fd8376937cd",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wdr4900-v2-squashfs-factory.bin",
-      "sha256": "7237e45752b04158d8a5cd1f4e82bc5a6b121b0fa562b7e5ec9a31e5d636a2dd",
+      "sha256": "3202feba69359862e8e36b28aef7ce05b246c3f1c3ce86bd593eb0c777ca27c3",
       "type": "factory"
     }
   ],

@@ -43,12 +43,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wr1043nd-v3-squashfs-factory.bin",
-      "sha256": "a94dcbebfa0ffda02f5fcc85823b9c1b40b7c0e290cd627a426c28ce1782d38b",
+      "sha256": "74e5a636eef2b64d767489af3b25e990187150ca03680280d6aa9647eafb2b10",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-tl-wr1043nd-v3-squashfs-sysupgrade.bin",
-      "sha256": "ecc1f353a34a375067b40992d373f3186e0633068a2676a1b27964ded4ff22f1",
+      "sha256": "b4f4cfa74faf0ac9b46e953d58657a3f1367dc37862fb64c63457b981cf0eaaa",
       "type": "sysupgrade"
     }
   ],

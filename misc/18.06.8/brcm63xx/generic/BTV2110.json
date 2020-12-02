@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-generic-BTV2110-squashfs-cfe.bin",
-      "sha256": "607e38cc67eba47037ef136c37f560173df35f37a5574c54e0a7c5d5ea62ac6e",
+      "sha256": "db0cf7cf1686343f8ef85dfdc211ff14d99dfd37665aa9e4645e20ec863e801d",
       "type": "cfe"
     }
   ],

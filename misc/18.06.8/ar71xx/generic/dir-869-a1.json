@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-dir-869-a1-squashfs-sysupgrade.bin",
-      "sha256": "c0f4976729f76e499f8f9b3e03f12a06f285b32edae0258bfb894013f8ea7064",
+      "sha256": "15821f0ea2a467237d6f3b8ec79df566bdef8f53be89c04244aa0173a1162a0e",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-dir-869-a1-squashfs-factory.bin",
-      "sha256": "34ae9bfa7f069a1861d8db175967a2276660fa14f687ecd425df94f0a0d24356",
+      "sha256": "bbd3001446f757c7eeda6324f26bc9d621e926b416699effc0f302e8159b5e24",
       "type": "factory"
     }
   ],

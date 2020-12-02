@@ -64,12 +64,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ipq806x-compex_wpq864-squashfs-nand-sysupgrade.bin",
-      "sha256": "9a54948420c1e5920a55be63389b5e87bac7d9333c0d5ef0023027114e37b259",
+      "sha256": "4b52ca416595084bb62f32f9057720bbe752aab4083021fd6c54a2b809001ba2",
       "type": "nand-sysupgrade"
     },
     {
       "name": "openwrt-18.06.8-ipq806x-compex_wpq864-squashfs-nand-factory.bin",
-      "sha256": "f83f6172751f8ff766530d39f25a7a860c738e212b57830ed24422bb9ba6bfaf",
+      "sha256": "f03cb720dc13c64d05b19ec33f5a189c4d01aadc15c86df1e902047efcdce82e",
       "type": "nand-factory"
     }
   ],

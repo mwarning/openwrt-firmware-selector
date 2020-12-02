@@ -32,12 +32,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-kirkwood-seagate_dockstar-squashfs-factory.bin",
-      "sha256": "a656a84462977dedbefef0e1b1c76076c6de5b7065098eb3dcdbaaf5f82e5efe",
+      "sha256": "324861bc13bb845bf75cdaf832af671abdc5ccf3d3c65cef00a19c0a141f0ec7",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-kirkwood-seagate_dockstar-squashfs-sysupgrade.bin",
-      "sha256": "11ce81b2e2e65c03c88b8c81d1cd2d60b97acfbf00910b0d11deaec4c2d46d7e",
+      "sha256": "9042b8d59d77edeadc8c0d6fe11c6cc1a1155d50cd5dc9bb4872cf78eb83133e",
       "type": "sysupgrade"
     }
   ],

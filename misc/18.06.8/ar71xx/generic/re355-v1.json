@@ -42,12 +42,12 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ar71xx-generic-re355-v1-squashfs-factory.bin",
-      "sha256": "e1c8f0a32b9245fb9d3a8c4948c5476be240719a11209dffc364e605efbfddcc",
+      "sha256": "e474990c60b967393e49e7e3420e731f54f987ff9d7f6322a75621471b319a40",
       "type": "factory"
     },
     {
       "name": "openwrt-18.06.8-ar71xx-generic-re355-v1-squashfs-sysupgrade.bin",
-      "sha256": "0cf7b97d12be29e8caa5d2cfa117141dbe7462b867a44763852f731024437d7f",
+      "sha256": "ad4636d9c34b1369bb9cd93ca6f1e1f08dd0aa5a5095625e71c344da5fa8c2fe",
       "type": "sysupgrade"
     }
   ],

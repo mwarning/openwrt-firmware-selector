@@ -50,7 +50,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-asus-wl-330ge-squashfs.trx",
-      "sha256": "841ebf52be28fe953beb78d8cf171026cf26f23882155265cc6ce2971dd5a054",
+      "sha256": "3e72ea344538e723661ab228e6262df51a5e0175b26e8a31b73dbc35d99d1840",
       "type": "trx"
     }
   ],

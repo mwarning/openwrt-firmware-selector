@@ -51,7 +51,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-legacy-motorola-we800g-squashfs.bin",
-      "sha256": "24bdf03957ee8a0a3c8cd124d80491af19d99b7b76e032360d5278f704e87567",
+      "sha256": "57575c2459648497a5772f0c90b7fee66acb81089565387f1536c68e39e126bb",
       "type": "bin"
     }
   ],

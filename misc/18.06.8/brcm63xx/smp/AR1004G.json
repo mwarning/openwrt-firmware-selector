@@ -37,7 +37,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm63xx-smp-AR1004G-squashfs-cfe.bin",
-      "sha256": "df3e15353d0d9791ba32c5a2b0bfde267d181eb17b7a97d38d429477559f0d52",
+      "sha256": "0d8067d324c792f1fd47f3d61b4c86c33896a41718924fc1781eb80f20512b8b",
       "type": "cfe"
     }
   ],

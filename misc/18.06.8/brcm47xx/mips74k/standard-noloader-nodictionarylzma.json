@@ -48,7 +48,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-brcm47xx-mips74k-standard-noloader-nodictionarylzma-squashfs.trx",
-      "sha256": "c5c938c534dbba616496f31b2a761036ad2bb59041829bf8b2a0f43f888838ed",
+      "sha256": "a37bd66a60e0f73aaf0f682aacb73e9d8963d7f5033f7365b6f6929473bd56ba",
       "type": "trx"
     }
   ],

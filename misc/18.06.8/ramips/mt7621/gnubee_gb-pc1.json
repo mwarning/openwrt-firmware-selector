@@ -41,7 +41,7 @@
   "images": [
     {
       "name": "openwrt-18.06.8-ramips-mt7621-gnubee_gb-pc1-squashfs-sysupgrade.bin",
-      "sha256": "c46aec1cff95a86795e7e07119ecff7bfb9b8a3154dcffc46c9ad8cd7278fe37",
+      "sha256": "6686809e700602b5fbaae8ca4020dc283abe0bd8635715a51dcfebc80842d551",
       "type": "sysupgrade"
     }
   ],
