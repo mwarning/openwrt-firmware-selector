@@ -6,7 +6,7 @@ var config = {
 
   // Path to overview.json file or URL to the ASU API
   versions: {
-    "18.06.8": "../misc/18.06.8/",
+    "18.06.9": "../misc/18.06.9/",
     "19.07.4": "../misc/19.07.4/",
     SNAPSHOT: "../misc/SNAPSHOT/",
   },

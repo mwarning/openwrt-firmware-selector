@@ -1,0 +1,5646 @@
+{
+  "image_url": "https://downloads.openwrt.org/releases/18.06.9/targets/{target}",
+  "profiles": {
+    "11acnas": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "WeVO 11AC NAS Router"
+        }
+      ]
+    },
+    "7623n-bananapi-bpi-r2": {
+      "target": "mediatek/mt7623",
+      "titles": [
+        {
+          "title": "MTK7623n BananaPi R2"
+        }
+      ]
+    },
+    "963281TAN-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 963281TAN"
+        }
+      ]
+    },
+    "96328avng-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 96328avng"
+        }
+      ]
+    },
+    "96338GW-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 96338GW"
+        }
+      ]
+    },
+    "96338W-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 96338W"
+        }
+      ]
+    },
+    "96345GW2-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 96345GW2"
+        }
+      ]
+    },
+    "96348GW-10-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 96348GW-10"
+        }
+      ]
+    },
+    "96348GW-11-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 96348GW-11"
+        }
+      ]
+    },
+    "96348GW-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 96348GW"
+        }
+      ]
+    },
+    "96348R-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 96348R"
+        }
+      ]
+    },
+    "96358VW-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 96358VW"
+        }
+      ]
+    },
+    "96358VW2-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 96358VW2"
+        }
+      ]
+    },
+    "96368MVNgr-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 96368MVNgr"
+        }
+      ]
+    },
+    "96368MVWG-generic": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Generic 96368MVWG"
+        }
+      ]
+    },
+    "A226G": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Pirelli A226G"
+        }
+      ]
+    },
+    "A226M": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Pirelli A226M"
+        }
+      ]
+    },
+    "A226M-FWB": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Pirelli A226M-FWB"
+        }
+      ]
+    },
+    "A4001N": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "ADB P.DG A4001N"
+        }
+      ]
+    },
+    "A4001N1": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "ADB P.DG A4001N1"
+        }
+      ]
+    },
+    "AD1018-SPI_flash": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Sercomm AD1018 (SPI flash mod)"
+        }
+      ]
+    },
+    "AGPF-S0": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Pirelli Alice Gate VoIP 2 Plus Wi-Fi AGPF-S0"
+        }
+      ]
+    },
+    "AR1004G": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Asmax AR 1004g"
+        }
+      ]
+    },
+    "AR5315u": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Comtrend AR-5315u"
+        }
+      ]
+    },
+    "AR5381u": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Comtrend AR-5381u"
+        }
+      ]
+    },
+    "AR5387un": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Comtrend AR-5387un"
+        }
+      ]
+    },
+    "AV4202N": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "ADB P.DG AV4202N"
+        }
+      ]
+    },
+    "BTV2110": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "BT Voyager V2110"
+        }
+      ]
+    },
+    "BTV2500V": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "BT Voyager V2500V"
+        }
+      ]
+    },
+    "CPA-ZNTE60T": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Telsey CPVA642-type (CPA-ZNTE60T)"
+        }
+      ]
+    },
+    "CPVA502PLUS": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Telsey CPVA502+"
+        }
+      ]
+    },
+    "CT-5365": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Comtrend CT-5365"
+        }
+      ]
+    },
+    "CT-536_CT-5621": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Comtrend CT-536+/CT-5621"
+        }
+      ]
+    },
+    "CT-6373": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Comtrend CT-6373"
+        }
+      ]
+    },
+    "DG834GT_PN": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Netgear DG834GT/PN"
+        }
+      ]
+    },
+    "DGND3700v1": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Netgear DGND3700 v1"
+        }
+      ]
+    },
+    "DGND3800B": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Netgear DGND3800B"
+        }
+      ]
+    },
+    "DSL2640B-B": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "D-Link DSL-2640B rev B2"
+        }
+      ]
+    },
+    "DSL2640U": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "D-Link DSL-2640U/BRU/C"
+        }
+      ]
+    },
+    "DSL2650U": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "D-Link DSL-2650U"
+        }
+      ]
+    },
+    "DSL274XB-C2": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "D-Link DSL-2740B/DSL-2741B rev C2"
+        }
+      ]
+    },
+    "DSL274XB-C3": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "D-Link DSL-2740B/DSL-2741B rev C3"
+        }
+      ]
+    },
+    "DSL274XB-F1": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "D-Link DSL-2740B/DSL-2741B rev F1"
+        }
+      ]
+    },
+    "DSL275XB-D1": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "D-Link DSL-2750B/DSL-2751 rev D1"
+        }
+      ]
+    },
+    "DV-201AMR": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Davolink DV-201AMR"
+        }
+      ]
+    },
+    "DVAG3810BN": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "D-Link DVA-G3810BN/TL"
+        }
+      ]
+    },
+    "EVG2000": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Netgear EVG2000"
+        }
+      ]
+    },
+    "F5D7633": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Belkin F5D7633"
+        }
+      ]
+    },
+    "FAST2404": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Sagem F@ST2404"
+        }
+      ]
+    },
+    "FAST2504n": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Sagem F@ST2504n"
+        }
+      ]
+    },
+    "FAST2604": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Sagem F@ST2604"
+        }
+      ]
+    },
+    "FAST2704N": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Sagem F@ST2704N"
+        }
+      ]
+    },
+    "FAST2704V2": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Sagem F@ST2704V2"
+        }
+      ]
+    },
+    "GW6000": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Tecom GW6000"
+        }
+      ]
+    },
+    "GW6200": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Tecom GW6200"
+        }
+      ]
+    },
+    "HG520v": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Huawei EchoLife HG520v"
+        }
+      ]
+    },
+    "HG553": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Huawei EchoLife HG553"
+        }
+      ]
+    },
+    "HG556a-A": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Huawei EchoLife HG556a rev A"
+        }
+      ]
+    },
+    "HG556a-B": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Huawei EchoLife HG556a rev B"
+        }
+      ]
+    },
+    "HG556a-C": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Huawei EchoLife HG556a rev C"
+        }
+      ]
+    },
+    "HG622": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Huawei EchoLife HG622"
+        }
+      ]
+    },
+    "HG655b": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Huawei EchoLife HG655b"
+        }
+      ]
+    },
+    "HomeHub2A": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "BT Home Hub 2.0 A"
+        }
+      ]
+    },
+    "LinkIt7688": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "MediaTek LinkIt Smart 7688"
+        }
+      ]
+    },
+    "MTK-RFB1": {
+      "target": "mediatek/mt7622",
+      "titles": [
+        {
+          "title": "MTK7622 rfb1 AP "
+        }
+      ]
+    },
+    "NBG6616": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "ZyXEL NBG6616"
+        }
+      ]
+    },
+    "NEUFBOX4-FXC": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "SFR Neufbox4 (Foxconn)"
+        }
+      ]
+    },
+    "NEUFBOX4-SER": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "SFR Neufbox4 (Sercomm)"
+        }
+      ]
+    },
+    "NEUFBOX6": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "SFR Neufbox6"
+        }
+      ]
+    },
+    "P870HW-51a_v2": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "ZyXEL P870HW-51a v2"
+        }
+      ]
+    },
+    "R1000H": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Actiontec R1000H"
+        }
+      ]
+    },
+    "R5010UNv2": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "NuCom R5010UN v2"
+        }
+      ]
+    },
+    "RG100A": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Alcatel RG100A"
+        }
+      ]
+    },
+    "RTA1025W_16": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Dynalink RTA1025W"
+        }
+      ]
+    },
+    "RTA1320_16M": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Dynalink RTA1320"
+        }
+      ]
+    },
+    "SPW303V": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "T-Com Speedport W 303V"
+        }
+      ]
+    },
+    "SPW500V": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "T-Com Speedport W 500V"
+        }
+      ]
+    },
+    "TD-W8900GB": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "TP-Link TD-W8900GB"
+        }
+      ]
+    },
+    "USR9108": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "USRobotics 9108"
+        }
+      ]
+    },
+    "VH4032N": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Observa VH4032N"
+        }
+      ]
+    },
+    "VR-3025u": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Comtrend VR-3025u"
+        }
+      ]
+    },
+    "VR-3025un": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Comtrend VR-3025un"
+        }
+      ]
+    },
+    "VR-3026e": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Comtrend VR-3026e"
+        }
+      ]
+    },
+    "WAP-5813n": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Comtrend WAP-5813n"
+        }
+      ]
+    },
+    "akitio-mycloud": {
+      "target": "oxnas/ox820",
+      "titles": [
+        {
+          "title": "Akition myCloud (mini) / SilverStone DC01"
+        }
+      ]
+    },
+    "alfa-network_awusfree1": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "ALFA Network AWUSFREE1"
+        }
+      ]
+    },
+    "allnet_all0333cj": {
+      "target": "lantiq/ase",
+      "titles": [
+        {
+          "title": "Allnet ALL0333CJ"
+        }
+      ]
+    },
+    "alphanetworks_asl56026": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "BT OpenReach - ECI VDSL Modem V-2FUb/I"
+        }
+      ]
+    },
+    "am335x-boneblack": {
+      "target": "omap/generic",
+      "titles": [
+        {
+          "title": "TI AM335x BeagleBone Black"
+        }
+      ]
+    },
+    "am335x-evm": {
+      "target": "omap/generic",
+      "titles": [
+        {
+          "title": "TI AM335x EVM"
+        }
+      ]
+    },
+    "antminer-s1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Antminer-S1"
+        }
+      ]
+    },
+    "antminer-s3": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Antminer-S3"
+        }
+      ]
+    },
+    "antrouter-r1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Antrouter-R1"
+        }
+      ]
+    },
+    "ap121f": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "ALFA Network AP121F"
+        }
+      ]
+    },
+    "ap531b0": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Rockeetech AP531B0"
+        }
+      ]
+    },
+    "ap90q": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "YunCore AP80Q/AP90Q"
+        }
+      ]
+    },
+    "ap91-5g": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "ALFA Network AP91-5G"
+        }
+      ]
+    },
+    "ar670w": {
+      "target": "ramips/rt288x",
+      "titles": [
+        {
+          "title": "Airlink AR670W"
+        }
+      ]
+    },
+    "ar725w": {
+      "target": "ramips/rt288x",
+      "titles": [
+        {
+          "title": "Airlink AR725W"
+        }
+      ]
+    },
+    "arcadyan_arv4510pw": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Wippies, Elisa - ARV4510PW"
+        }
+      ]
+    },
+    "arcadyan_arv7506pw11": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Alice/O2 IAD 4421 - ARV7506PW11"
+        }
+      ]
+    },
+    "arcadyan_arv7510pw22": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Astoria - ARV7510PW22"
+        }
+      ]
+    },
+    "arcadyan_arv7518pw": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Astoria - ARV7518PW"
+        }
+      ]
+    },
+    "arcadyan_arv7519pw": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Astoria - ARV7519PW"
+        }
+      ]
+    },
+    "arcadyan_arv7519rw22": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "Livebox Astoria ARV7519RW22"
+        }
+      ]
+    },
+    "arcadyan_arv752dpw": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Easybox 802 - ARV752DPW"
+        }
+      ]
+    },
+    "arcadyan_arv752dpw22": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Easybox 803 - ARV752DPW22"
+        }
+      ]
+    },
+    "arcadyan_arv8539pw22": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Speedport W504V Typ A - ARV8539PW22"
+        }
+      ]
+    },
+    "arcadyan_vg3503j": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "BT OpenReach - ECI VDSL Modem V-2FUb/R"
+        }
+      ]
+    },
+    "arcadyan_vgv7510kw22-brn": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "o2 Box 6431 / Arcadyan VGV7510KW22 (BRN)"
+        }
+      ]
+    },
+    "arcadyan_vgv7510kw22-nor": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "o2 Box 6431 / Arcadyan VGV7510KW22 (NOR)"
+        }
+      ]
+    },
+    "arcadyan_vgv7519-brn": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "Experiabox 8 VGV7519 (BRN)"
+        }
+      ]
+    },
+    "arcadyan_vgv7519-nor": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "Experiabox 8 VGV7519"
+        }
+      ]
+    },
+    "archer-c25-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C25 v1"
+        }
+      ]
+    },
+    "archer-c5-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C5 v1"
+        }
+      ]
+    },
+    "archer-c58-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C58 v1"
+        }
+      ]
+    },
+    "archer-c59-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C59 v1"
+        }
+      ]
+    },
+    "archer-c60-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C60 v1"
+        }
+      ]
+    },
+    "archer-c60-v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C60 v2"
+        }
+      ]
+    },
+    "archer-c7-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C7 v1"
+        }
+      ]
+    },
+    "archer-c7-v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C7 v2"
+        }
+      ]
+    },
+    "archer-c7-v2-il": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C7 v2 (IL)"
+        }
+      ]
+    },
+    "archer-c7-v4": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C7 v4"
+        }
+      ]
+    },
+    "archer-c7-v5": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C7 v5"
+        }
+      ]
+    },
+    "arduino-yun": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Arduino Yun"
+        }
+      ]
+    },
+    "armada-370-db": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Marvell Armada 370 DB (DB-88F6710-BP-DDR3)"
+        }
+      ]
+    },
+    "armada-370-rd": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Marvell Armada 370 RD (RD-88F6710-A1)"
+        }
+      ]
+    },
+    "armada-385-db-ap": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Marvell Armada 385 DB AP (DB-88F6820-AP)"
+        }
+      ]
+    },
+    "armada-388-clearfog-base": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "SolidRun ClearFog Base"
+        }
+      ]
+    },
+    "armada-388-clearfog-pro": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "SolidRun ClearFog Pro"
+        }
+      ]
+    },
+    "armada-388-rd": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Marvell Armada 388 RD (RD-88F6820-AP)"
+        }
+      ]
+    },
+    "armada-macchiatobin": {
+      "target": "mvebu/cortexa72",
+      "titles": [
+        {
+          "title": "MACCHIATObin (SolidRun Armada 8040 Community Board)"
+        }
+      ]
+    },
+    "armada-xp-db": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Marvell Armada XP DB (DB-78460-BP)"
+        }
+      ]
+    },
+    "armada-xp-gp": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Marvell Armada XP GP (DB-MV784MP-GP)"
+        }
+      ]
+    },
+    "asus-rt-ac53u": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-AC53U"
+        }
+      ]
+    },
+    "asus-rt-ac56u": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Asus RT-AC56U"
+        }
+      ]
+    },
+    "asus-rt-ac68u": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Asus RT-AC68U"
+        }
+      ]
+    },
+    "asus-rt-ac87u": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Asus RT-AC87U"
+        }
+      ]
+    },
+    "asus-rt-n10": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N10"
+        }
+      ]
+    },
+    "asus-rt-n10p": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N10P"
+        }
+      ]
+    },
+    "asus-rt-n10p-v2": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N10P v2"
+        }
+      ]
+    },
+    "asus-rt-n10u": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N10U"
+        }
+      ]
+    },
+    "asus-rt-n10u-b": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N10U B"
+        }
+      ]
+    },
+    "asus-rt-n12": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N12"
+        }
+      ]
+    },
+    "asus-rt-n12-b1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N12 B1"
+        }
+      ]
+    },
+    "asus-rt-n12-c1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N12 C1"
+        }
+      ]
+    },
+    "asus-rt-n12-d1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N12 D1"
+        }
+      ]
+    },
+    "asus-rt-n12hp": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N12HP"
+        }
+      ]
+    },
+    "asus-rt-n14uhp": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N14UHP"
+        }
+      ]
+    },
+    "asus-rt-n15u": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N15U"
+        }
+      ]
+    },
+    "asus-rt-n16": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N16"
+        }
+      ]
+    },
+    "asus-rt-n18u": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Asus RT-N18U"
+        }
+      ]
+    },
+    "asus-rt-n53": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N53"
+        }
+      ]
+    },
+    "asus-rt-n66u": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N66U"
+        }
+      ]
+    },
+    "asus-rt-n66w": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Asus RT-N66W"
+        }
+      ]
+    },
+    "asus-wl-300g": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Asus WL-300g"
+        }
+      ]
+    },
+    "asus-wl-320gp": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Asus WL-320gP"
+        }
+      ]
+    },
+    "asus-wl-330ge": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Asus WL-330gE"
+        }
+      ]
+    },
+    "asus-wl-500gd": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Asus WL-500g Deluxe"
+        }
+      ]
+    },
+    "asus-wl-500gp-v1": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Asus WL-500gP v1"
+        }
+      ]
+    },
+    "asus-wl-500gp-v2": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Asus WL-500gP v2"
+        }
+      ]
+    },
+    "asus-wl-500w": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Asus WL-500W"
+        }
+      ]
+    },
+    "asus-wl-520gu": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Asus WL-520gU"
+        }
+      ]
+    },
+    "asus-wl-550ge": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Asus WL-550gE"
+        }
+      ]
+    },
+    "asus-wl-hdd25": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Asus WL-HDD25"
+        }
+      ]
+    },
+    "at91-sama5d27_som1_ek": {
+      "target": "at91/sama5d2",
+      "titles": [
+        {
+          "title": "Microchip(Atmel AT91) SAMA5D27 SOM1 Ek"
+        }
+      ]
+    },
+    "at91-sama5d2_ptc_ek": {
+      "target": "at91/sama5d2",
+      "titles": [
+        {
+          "title": "Microchip(Atmel AT91) SAMA5D2 PTC Ek"
+        }
+      ]
+    },
+    "at91-sama5d2_xplained": {
+      "target": "at91/sama5d2",
+      "titles": [
+        {
+          "title": "Microchip(Atmel AT91) SAMA5D2 Xplained"
+        }
+      ]
+    },
+    "at91-sama5d3_xplained": {
+      "target": "at91/sama5d3",
+      "titles": [
+        {
+          "title": "Microchip(Atmel AT91) SAMA5D3 Xplained"
+        }
+      ]
+    },
+    "at91-sama5d4_xplained": {
+      "target": "at91/sama5d4",
+      "titles": [
+        {
+          "title": "Microchip(Atmel AT91) SAMA5D4 Xplained"
+        }
+      ]
+    },
+    "at91sam9263ek": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Atmel AT91SAM9263-EK"
+        }
+      ]
+    },
+    "at91sam9g15ek": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Atmel AT91SAM9G15-EK"
+        }
+      ]
+    },
+    "at91sam9g20ek": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Atmel AT91SAM9G20-EK"
+        }
+      ]
+    },
+    "at91sam9g20ek_2mmc": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Atmel AT91SAM9G20-EK 2MMC"
+        }
+      ]
+    },
+    "at91sam9g25ek": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Atmel AT91SAM9G25-EK"
+        }
+      ]
+    },
+    "at91sam9g35ek": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Atmel AT91SAM9G35-EK"
+        }
+      ]
+    },
+    "at91sam9m10g45ek": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Atmel AT91SAM9M10G45-EK"
+        }
+      ]
+    },
+    "at91sam9x25ek": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Atmel AT91SAM9X25-EK"
+        }
+      ]
+    },
+    "at91sam9x35ek": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Atmel AT91SAM9X35-EK"
+        }
+      ]
+    },
+    "audiocodes_mp-252": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "AudioCodes MediaPack MP-252"
+        }
+      ]
+    },
+    "avm_fritz3370": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "Fritz!Box WLan - FRITZ3370"
+        }
+      ]
+    },
+    "avm_fritz7320": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "1&1 HomeServer - FRITZ7320"
+        }
+      ]
+    },
+    "avm_fritz7360sl": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "1&1 HomeServer - FRITZ7360SL"
+        }
+      ]
+    },
+    "bhr-4grv2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Buffalo BHR-4GRV2"
+        }
+      ]
+    },
+    "br-6475nd": {
+      "target": "ramips/rt3883",
+      "titles": [
+        {
+          "title": "Edimax BR-6475nD"
+        }
+      ]
+    },
+    "bsb": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Smart Electronics Black Swift board"
+        }
+      ]
+    },
+    "bt_homehub-v2b": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "BT Home Hub 2B"
+        }
+      ]
+    },
+    "bt_homehub-v3a": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "BT Home Hub 3A"
+        }
+      ]
+    },
+    "bt_homehub-v5a": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "BT Home Hub 5A"
+        }
+      ]
+    },
+    "buffalo-wxr-1900dhp": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Buffalo WXR-1900DHP"
+        }
+      ]
+    },
+    "buffalo-wzr-1750dhp": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Buffalo WZR-1750DHP"
+        }
+      ]
+    },
+    "buffalo-wzr-600dhp2": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Buffalo WZR-600DHP2"
+        }
+      ]
+    },
+    "buffalo-wzr-900dhp": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Buffalo WZR-900DHP"
+        }
+      ]
+    },
+    "buffalo_wbmr-300hpd": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "Buffalo WBMR-300HPD"
+        }
+      ]
+    },
+    "buffalo_wbmr-hp-g300h-a": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Buffalo WBMR-HP-G300H (A) - WBMR"
+        }
+      ]
+    },
+    "buffalo_wbmr-hp-g300h-b": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Buffalo WBMR-HP-G300H (B) - WBMR"
+        }
+      ]
+    },
+    "c-55": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "AirTight Networks C-55"
+        }
+      ]
+    },
+    "c-60": {
+      "target": "ar71xx/nand",
+      "titles": [
+        {
+          "title": "AirTight C-60"
+        }
+      ]
+    },
+    "cap324": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "PowerCloud CAP324 Cloud AP"
+        }
+      ]
+    },
+    "cap324-nocloud": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "PowerCloud CAP324 Cloud AP (No-Cloud)"
+        }
+      ]
+    },
+    "carambola2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "8devices Carambola2"
+        }
+      ]
+    },
+    "cf-e316n-v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "COMFAST CF-E316N v2"
+        }
+      ]
+    },
+    "cf-e320n-v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "COMFAST CF-E320N v2"
+        }
+      ]
+    },
+    "cf-e355ac-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "COMFAST CF-E355AC v1"
+        }
+      ]
+    },
+    "cf-e355ac-v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "COMFAST CF-E355AC v2"
+        }
+      ]
+    },
+    "cf-e375ac": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "COMFAST CF-E375AC"
+        }
+      ]
+    },
+    "cf-e380ac-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "COMFAST CF-E380AC v1"
+        }
+      ]
+    },
+    "cf-e380ac-v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "COMFAST CF-E380AC v2"
+        }
+      ]
+    },
+    "cf-e385ac": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "COMFAST CF-E385AC"
+        }
+      ]
+    },
+    "cf-e520n": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "COMFAST CF-E520N"
+        }
+      ]
+    },
+    "cf-e530n": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "COMFAST CF-E530N"
+        }
+      ]
+    },
+    "cisco_on100": {
+      "target": "kirkwood/generic",
+      "titles": [
+        {
+          "title": "Cisco Systems ON100"
+        }
+      ]
+    },
+    "cloudengines-pogoplug-pro": {
+      "target": "oxnas/ox820",
+      "titles": [
+        {
+          "title": "Cloud Engines PogoPlug Pro (with mPCIe)"
+        }
+      ]
+    },
+    "cloudengines-pogoplug-series-3": {
+      "target": "oxnas/ox820",
+      "titles": [
+        {
+          "title": "Cloud Engines PogoPlug Series V3 (without mPCIe)"
+        }
+      ]
+    },
+    "cloudengines_pogoe02": {
+      "target": "kirkwood/generic",
+      "titles": [
+        {
+          "title": "Cloud Engines Pogoplug E02"
+        }
+      ]
+    },
+    "cloudengines_pogoplugv4": {
+      "target": "kirkwood/generic",
+      "titles": [
+        {
+          "title": "Cloud Engines Pogoplug V4"
+        }
+      ]
+    },
+    "compex_wpq864": {
+      "target": "ipq806x/generic",
+      "titles": [
+        {
+          "title": "Compex WPQ864"
+        }
+      ]
+    },
+    "cpe210-220-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK CPE210/220 v1"
+        }
+      ]
+    },
+    "cpe210-v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK CPE210 v2"
+        }
+      ]
+    },
+    "cpe505n": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "P&W CPE505N"
+        }
+      ]
+    },
+    "cpe510-520-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK CPE510/520 v1"
+        }
+      ]
+    },
+    "cpe830": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "YunCore CPE830"
+        }
+      ]
+    },
+    "cpe870": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "YunCore CPE870"
+        }
+      ]
+    },
+    "cr3000": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "PowerCloud CR3000 Cloud Router"
+        }
+      ]
+    },
+    "cr3000-nocloud": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "PowerCloud CR3000 (No-Cloud)"
+        }
+      ]
+    },
+    "cr5000": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "PowerCloud CR5000 Cloud Router"
+        }
+      ]
+    },
+    "cr5000-nocloud": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "PowerCloud CR5000 (No-Cloud)"
+        }
+      ]
+    },
+    "cy-swr1100": {
+      "target": "ramips/rt3883",
+      "titles": [
+        {
+          "title": "Samsung CY-SWR1100"
+        }
+      ]
+    },
+    "d-team_newifi-d2": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Newifi D2"
+        }
+      ]
+    },
+    "dap-1330-a1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "D-Link DAP-1330 rev. A1"
+        }
+      ]
+    },
+    "dap-2695-a1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "D-Link DAP-2695 rev. A1"
+        }
+      ]
+    },
+    "dir-645": {
+      "target": "ramips/rt3883",
+      "titles": [
+        {
+          "title": "D-Link DIR-645"
+        }
+      ]
+    },
+    "dir-860l-b1": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "D-Link DIR-860L B1"
+        }
+      ]
+    },
+    "dir-869-a1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "D-Link DIR-869 rev. A1"
+        }
+      ]
+    },
+    "dlink-dir-885l": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "D-Link DIR-885L"
+        }
+      ]
+    },
+    "dlink-dwl-3150": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "D-Link DWL-3150"
+        }
+      ]
+    },
+    "dr342": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Wallys DR342"
+        }
+      ]
+    },
+    "dr531": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Wallys DR531"
+        }
+      ]
+    },
+    "dragino2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Dragino 2 (MS14)"
+        }
+      ]
+    },
+    "duzun-dm06": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "DuZun DM06"
+        }
+      ]
+    },
+    "e1700ac-v2-16M": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qxwlan E1700AC v2 (16MB flash)"
+        }
+      ]
+    },
+    "e1700ac-v2-8M": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qxwlan E1700AC v2 (8MB flash)"
+        }
+      ]
+    },
+    "e558-v2-16M": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qxwlan E558 v2 (16MB flash)"
+        }
+      ]
+    },
+    "e558-v2-8M": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qxwlan E558 v2 (8MB flash)"
+        }
+      ]
+    },
+    "e600g-v2-16M": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qxwlan E600G v2 (16MB flash)"
+        }
+      ]
+    },
+    "e600g-v2-8M": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qxwlan E600G v2 (8MB flash)"
+        }
+      ]
+    },
+    "e600gac-v2-16M": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qxwlan E600GAC v2 (16MB flash)"
+        }
+      ]
+    },
+    "e600gac-v2-8M": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qxwlan E600GAC v2 (8MB flash)"
+        }
+      ]
+    },
+    "e750a-v4-16M": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qxwlan E750A v4 (16MB flash)"
+        }
+      ]
+    },
+    "e750a-v4-8M": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qxwlan E750A v4 (8MB flash)"
+        }
+      ]
+    },
+    "e750g-v8-16M": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qxwlan E750G v8 (16MB flash)"
+        }
+      ]
+    },
+    "e750g-v8-8M": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qxwlan E750G v8 (8MB flash)"
+        }
+      ]
+    },
+    "eap120-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK EAP120 v1"
+        }
+      ]
+    },
+    "edimax-ps1208-mfg": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Edimax PS-1208MFg"
+        }
+      ]
+    },
+    "el-m150": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "EasyLink EL-M150"
+        }
+      ]
+    },
+    "el-mini": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "EasyLink EL-MINI"
+        }
+      ]
+    },
+    "elecom_wrc-1167ghbk2-s": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "ELECOM WRC-1167GHBK2-S"
+        }
+      ]
+    },
+    "ens202ext": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "EnGenius ENS202EXT"
+        }
+      ]
+    },
+    "er": {
+      "target": "octeon/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti EdgeRouter"
+        }
+      ]
+    },
+    "erlite": {
+      "target": "octeon/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti EdgeRouter Lite"
+        }
+      ]
+    },
+    "ethernut5": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Ethernut 5"
+        }
+      ]
+    },
+    "ew-balin": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Embedded Wireless Balin Platform"
+        }
+      ]
+    },
+    "ew-dorin": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Embedded Wireless Dorin Platform"
+        }
+      ]
+    },
+    "ew-dorin-router": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Embedded Wireless Dorin Router Platform"
+        }
+      ]
+    },
+    "ew1200": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "AFOUNDRY EW1200"
+        }
+      ]
+    },
+    "f5d8235-v1": {
+      "target": "ramips/rt288x",
+      "titles": [
+        {
+          "title": "Belkin F5D8235 V1"
+        }
+      ]
+    },
+    "firewrt": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Firefly FireWRT"
+        }
+      ]
+    },
+    "fritz300e": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "AVM FRITZ!WLAN Repeater 300E"
+        }
+      ]
+    },
+    "fritz4020": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "AVM FRITZ!Box 4020"
+        }
+      ]
+    },
+    "fritz450e": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "AVM FRITZ!WLAN Repeater 450E"
+        }
+      ]
+    },
+    "generic": {
+      "target": "ath25/generic",
+      "titles": [
+        {
+          "title": "Generic Images"
+        }
+      ]
+    },
+    "gl-ar150": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GL.iNet GL-AR150"
+        }
+      ]
+    },
+    "gl-ar300": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GL.iNet GL-AR300"
+        }
+      ]
+    },
+    "gl-ar300m": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GL.iNet GL-AR300M"
+        }
+      ]
+    },
+    "gl-ar750": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GL.iNet GL-AR750"
+        }
+      ]
+    },
+    "gl-domino": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GL.iNet Domino Pi"
+        }
+      ]
+    },
+    "gl-inet-6408A-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GL.iNet 6408"
+        }
+      ]
+    },
+    "gl-inet-6416A-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GL.iNet 6416"
+        }
+      ]
+    },
+    "gl-mifi": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GL.iNet GL-MiFi"
+        }
+      ]
+    },
+    "gl-mt300n-v2": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "GL-iNet GL-MT300N-V2"
+        }
+      ]
+    },
+    "gl-usb150": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GL.iNet GL-USB150"
+        }
+      ]
+    },
+    "globalscale-espressobin": {
+      "target": "mvebu/cortexa53",
+      "titles": [
+        {
+          "title": "ESPRESSObin (Marvell Armada 3700 Community Board)"
+        }
+      ]
+    },
+    "globalscale-mirabox": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Globalscale Mirabox"
+        }
+      ]
+    },
+    "gnubee_gb-pc1": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "GnuBee Personal Cloud One"
+        }
+      ]
+    },
+    "gnubee_gb-pc2": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "GnuBee Personal Cloud Two"
+        }
+      ]
+    },
+    "hc5661a": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "HiWiFi HC5661A"
+        }
+      ]
+    },
+    "hc5962": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "HiWiFi HC5962"
+        }
+      ]
+    },
+    "hiveap-121": {
+      "target": "ar71xx/nand",
+      "titles": [
+        {
+          "title": "Aerohive HiveAP-121"
+        }
+      ]
+    },
+    "hiveap-330": {
+      "target": "mpc85xx/p1020",
+      "titles": [
+        {
+          "title": "Aerohive HiveAP-330"
+        }
+      ]
+    },
+    "hiwifi-hc6361": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "HiWiFi HC6361"
+        }
+      ]
+    },
+    "hpm": {
+      "target": "ramips/rt3883",
+      "titles": [
+        {
+          "title": "Omnima HPM"
+        }
+      ]
+    },
+    "huawei-e970": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Huawei E970"
+        }
+      ]
+    },
+    "iodata_wn-gx300gr": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "I-O DATA WN-GX300GR"
+        }
+      ]
+    },
+    "iom_iconnect-1.1": {
+      "target": "kirkwood/generic",
+      "titles": [
+        {
+          "title": "Iomega Iconnect"
+        }
+      ]
+    },
+    "jwap230": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "jjPlus JWAP230"
+        }
+      ]
+    },
+    "k2p": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Phicomm K2P"
+        }
+      ]
+    },
+    "koala": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "OCEDO Koala"
+        }
+      ]
+    },
+    "lan-turtle": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Hak5 LAN Turtle"
+        }
+      ]
+    },
+    "lantiq_easy50712": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Lantiq Danube - EASY50712"
+        }
+      ]
+    },
+    "lantiq_easy80920-nand": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "Lantiq VR9 - EASY80920NAND"
+        }
+      ]
+    },
+    "lantiq_easy80920-nor": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "Lantiq VR9 - EASY80920NOR"
+        }
+      ]
+    },
+    "lantiq_easy88388": {
+      "target": "lantiq/falcon",
+      "titles": [
+        {
+          "title": "EASY88388 - Lantiq Falcon FTTDP8 Reference Board"
+        }
+      ]
+    },
+    "lantiq_easy88444": {
+      "target": "lantiq/falcon",
+      "titles": [
+        {
+          "title": "EASY88444 - Lantiq Falcon FTTdp G.FAST Reference Board"
+        }
+      ]
+    },
+    "lantiq_easy98000-nand": {
+      "target": "lantiq/falcon",
+      "titles": [
+        {
+          "title": "EASY98000 - Lantiq Falcon Eval Board NAND"
+        }
+      ]
+    },
+    "lantiq_easy98000-nor": {
+      "target": "lantiq/falcon",
+      "titles": [
+        {
+          "title": "EASY98000 - Lantiq Falcon Eval Board NOR"
+        }
+      ]
+    },
+    "lantiq_easy98000-sflash": {
+      "target": "lantiq/falcon",
+      "titles": [
+        {
+          "title": "EASY98000 - Lantiq Falcon Eval Board SFLASH"
+        }
+      ]
+    },
+    "lantiq_easy98020": {
+      "target": "lantiq/falcon",
+      "titles": [
+        {
+          "title": "EASY98020 - Lantiq Falcon SFU Reference Board"
+        }
+      ]
+    },
+    "lantiq_easy98020-v18": {
+      "target": "lantiq/falcon",
+      "titles": [
+        {
+          "title": "EASY98020V18 - Lantiq Falcon SFU Reference Board V1.8"
+        }
+      ]
+    },
+    "lantiq_easy98021": {
+      "target": "lantiq/falcon",
+      "titles": [
+        {
+          "title": "EASY98021 - Lantiq Falcon HGU Reference Board"
+        }
+      ]
+    },
+    "lantiq_easy98035synce": {
+      "target": "lantiq/falcon",
+      "titles": [
+        {
+          "title": "EASY98035SYNCE - Lantiq Falcon SFP Stick with Synchronous Ethernet"
+        }
+      ]
+    },
+    "lantiq_easy98035synce1588": {
+      "target": "lantiq/falcon",
+      "titles": [
+        {
+          "title": "EASY98035SYNCE1588 - Lantiq Falcon SFP Stick with SyncE and IEEE1588"
+        }
+      ]
+    },
+    "lantiq_falcon-mdu": {
+      "target": "lantiq/falcon",
+      "titles": [
+        {
+          "title": "MDU - Lantiq Falcon / VINAXdp MDU Board"
+        }
+      ]
+    },
+    "lantiq_falcon-sfp": {
+      "target": "lantiq/falcon",
+      "titles": [
+        {
+          "title": "SFP - Lantiq Falcon SFP Stick"
+        }
+      ]
+    },
+    "lima": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "8devices Lima"
+        }
+      ]
+    },
+    "linksys-e1000": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E1000 v1 v2 v2.1"
+        }
+      ]
+    },
+    "linksys-e1200-v1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E1200 v1"
+        }
+      ]
+    },
+    "linksys-e1200-v2": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E1200 v2"
+        }
+      ]
+    },
+    "linksys-e1500-v1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E1500 v1"
+        }
+      ]
+    },
+    "linksys-e1550-v1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E1550 v1"
+        }
+      ]
+    },
+    "linksys-e2000-v1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E2000 v1"
+        }
+      ]
+    },
+    "linksys-e2500-v1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E2500 v1"
+        }
+      ]
+    },
+    "linksys-e2500-v2": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E2500 v2"
+        }
+      ]
+    },
+    "linksys-e2500-v2.1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E2500 v2.1"
+        }
+      ]
+    },
+    "linksys-e2500-v3": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E2500 v3"
+        }
+      ]
+    },
+    "linksys-e3000-v1": {
+      "target": "brcm47xx/generic",
+      "titles": [
+        {
+          "title": "Linksys E3000 v1"
+        }
+      ]
+    },
+    "linksys-e3200-v1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E3200 v1"
+        }
+      ]
+    },
+    "linksys-e4200-v1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E4200 v1"
+        }
+      ]
+    },
+    "linksys-e900-v1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys E900 v1"
+        }
+      ]
+    },
+    "linksys-wrt1200ac": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Linksys WRT1200AC (Caiman)"
+        }
+      ]
+    },
+    "linksys-wrt150n": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Linksys WRT150N"
+        }
+      ]
+    },
+    "linksys-wrt160n-v1": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Linksys WRT160N v1"
+        }
+      ]
+    },
+    "linksys-wrt160n-v3": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys WRT160N v3"
+        }
+      ]
+    },
+    "linksys-wrt1900ac": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Linksys WRT1900AC (Mamba)"
+        }
+      ]
+    },
+    "linksys-wrt1900acs": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Linksys WRT1900ACS (Shelby)"
+        }
+      ]
+    },
+    "linksys-wrt1900acv2": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Linksys WRT1900ACv2 (Cobra)"
+        }
+      ]
+    },
+    "linksys-wrt300n-v1": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Linksys WRT300N v1"
+        }
+      ]
+    },
+    "linksys-wrt300n-v1.1": {
+      "target": "brcm47xx/generic",
+      "titles": [
+        {
+          "title": "Linksys WRT300N v1.1"
+        }
+      ]
+    },
+    "linksys-wrt310n-v1": {
+      "target": "brcm47xx/generic",
+      "titles": [
+        {
+          "title": "Linksys WRT310N v1"
+        }
+      ]
+    },
+    "linksys-wrt310n-v2": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys WRT310N v2"
+        }
+      ]
+    },
+    "linksys-wrt3200acm": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Linksys WRT3200ACM (Rango)"
+        }
+      ]
+    },
+    "linksys-wrt320n-v1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Linksys WRT320N v1"
+        }
+      ]
+    },
+    "linksys-wrt32x": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Linksys WRT32X (Venom)"
+        }
+      ]
+    },
+    "linksys-wrt350n-v1": {
+      "target": "brcm47xx/generic",
+      "titles": [
+        {
+          "title": "Linksys WRT350N v1"
+        }
+      ]
+    },
+    "linksys-wrt54g": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Linksys WRT54G"
+        }
+      ]
+    },
+    "linksys-wrt54g3g": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Linksys WRT54G3G"
+        }
+      ]
+    },
+    "linksys-wrt54g3g-em": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Linksys WRT54G3G-EM"
+        }
+      ]
+    },
+    "linksys-wrt54g3gv2-vf": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Linksys WRT54G3GV2-VF"
+        }
+      ]
+    },
+    "linksys-wrt54gs": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Linksys WRT54GS"
+        }
+      ]
+    },
+    "linksys-wrt54gs-v4": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Linksys WRT54GS v4"
+        }
+      ]
+    },
+    "linksys-wrt610n-v1": {
+      "target": "brcm47xx/generic",
+      "titles": [
+        {
+          "title": "Linksys WRT610N v1"
+        }
+      ]
+    },
+    "linksys-wrt610n-v2": {
+      "target": "brcm47xx/generic",
+      "titles": [
+        {
+          "title": "Linksys WRT610N v2"
+        }
+      ]
+    },
+    "linksys-wrtsl54gs": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Linksys WRTSL54GS"
+        }
+      ]
+    },
+    "linksys_audi": {
+      "target": "kirkwood/generic",
+      "titles": [
+        {
+          "title": "Linksys EA3500 (Audi)"
+        }
+      ]
+    },
+    "linksys_ea8500": {
+      "target": "ipq806x/generic",
+      "titles": [
+        {
+          "title": "Linksys EA8500"
+        }
+      ]
+    },
+    "linksys_viper": {
+      "target": "kirkwood/generic",
+      "titles": [
+        {
+          "title": "Linksys E4200v2 / EA4500 (Viper)"
+        }
+      ]
+    },
+    "livebox": {
+      "target": "brcm63xx/smp",
+      "titles": [
+        {
+          "title": "Inventel Livebox 1"
+        }
+      ]
+    },
+    "lmu5000": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "CalAmp LMU5000"
+        }
+      ]
+    },
+    "ls1012afrdm": {
+      "target": "layerscape/armv8_32b",
+      "titles": [
+        {
+          "title": "ls1012afrdm-armv8_32b"
+        }
+      ]
+    },
+    "ls1012ardb": {
+      "target": "layerscape/armv8_32b",
+      "titles": [
+        {
+          "title": "ls1012ardb-armv8_32b"
+        }
+      ]
+    },
+    "ls1043ardb": {
+      "target": "layerscape/armv8_32b",
+      "titles": [
+        {
+          "title": "ls1043ardb-armv8_32b"
+        }
+      ]
+    },
+    "ls1046ardb": {
+      "target": "layerscape/armv8_32b",
+      "titles": [
+        {
+          "title": "ls1046ardb-armv8_32b"
+        }
+      ]
+    },
+    "mac1200r-v2": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "Mercury MAC1200R v2.0"
+        }
+      ]
+    },
+    "marduk": {
+      "target": "pistachio/generic",
+      "titles": [
+        {
+          "title": "Creator Ci40"
+        }
+      ]
+    },
+    "mc-mac1200r": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Mercury MAC1200R"
+        }
+      ]
+    },
+    "mediatek_ap-mt7621a-v60": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Mediatek AP-MT7621A-V60 EVB"
+        }
+      ]
+    },
+    "meraki_mr24": {
+      "target": "apm821xx/nand",
+      "titles": [
+        {
+          "title": "Cisco Meraki MR24"
+        }
+      ]
+    },
+    "meraki_mx60": {
+      "target": "apm821xx/nand",
+      "titles": [
+        {
+          "title": "Cisco Meraki MX60/MX60W"
+        }
+      ]
+    },
+    "mikrotik_rbm33g": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "MikroTik RBM33G"
+        }
+      ]
+    },
+    "minibox-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GainStrong MiniBox V1.0"
+        }
+      ]
+    },
+    "mir3g": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Xiaomi Mi Router 3G"
+        }
+      ]
+    },
+    "mitrastar-stg212": {
+      "target": "oxnas/ox820",
+      "titles": [
+        {
+          "title": "MitraStar STG-212"
+        }
+      ]
+    },
+    "miwifi-nano": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "Xiaomi MiWiFi Nano"
+        }
+      ]
+    },
+    "motorola-wa840g": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Motorola WA840G"
+        }
+      ]
+    },
+    "motorola-we800g": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Motorola WE800G"
+        }
+      ]
+    },
+    "motorola-wr850g": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Motorola WR850G"
+        }
+      ]
+    },
+    "mqmaker_witi-256m": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "MQmaker WiTi (256MB RAM)"
+        }
+      ]
+    },
+    "mqmaker_witi-512m": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "MQmaker WiTi (512MB RAM)"
+        }
+      ]
+    },
+    "mr12": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Meraki MR12"
+        }
+      ]
+    },
+    "mr16": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Meraki MR16"
+        }
+      ]
+    },
+    "mr18": {
+      "target": "ar71xx/nand",
+      "titles": [
+        {
+          "title": "Meraki MR18"
+        }
+      ]
+    },
+    "mt7621": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "MediaTek MT7621 EVB"
+        }
+      ]
+    },
+    "mw4530r-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Mercury MW4530R v1"
+        }
+      ]
+    },
+    "mynet-n600": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Western Digital My Net N600"
+        }
+      ]
+    },
+    "mynet-n750": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Western Digital My Net N750"
+        }
+      ]
+    },
+    "n5q": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "ALFA Network N5Q"
+        }
+      ]
+    },
+    "nand": {
+      "target": "rb532/generic",
+      "titles": [
+        {
+          "title": ""
+        }
+      ]
+    },
+    "nand-64m": {
+      "target": "ar71xx/mikrotik",
+      "titles": [
+        {
+          "title": "MikroTik RouterBoard (64 MB NAND)"
+        }
+      ]
+    },
+    "nand-large": {
+      "target": "ar71xx/mikrotik",
+      "titles": [
+        {
+          "title": "MikroTik RouterBoard (>= 128 MB NAND)"
+        }
+      ]
+    },
+    "nand-large-ac": {
+      "target": "ar71xx/mikrotik",
+      "titles": [
+        {
+          "title": "MikroTik RouterBoard (>= 128 MB NAND, 802.11ac)"
+        }
+      ]
+    },
+    "nec_wg2600hp": {
+      "target": "ipq806x/generic",
+      "titles": [
+        {
+          "title": "NEC Aterm WG2600HP"
+        }
+      ]
+    },
+    "netgear-r6250": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Netgear R6250"
+        }
+      ]
+    },
+    "netgear-r6300-v2": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Netgear R6300 V2"
+        }
+      ]
+    },
+    "netgear-r7000": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Netgear R7000"
+        }
+      ]
+    },
+    "netgear-r7900": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Netgear R7900"
+        }
+      ]
+    },
+    "netgear-r8000": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Netgear R8000"
+        }
+      ]
+    },
+    "netgear-wgr614-v10": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WGR614 v10"
+        }
+      ]
+    },
+    "netgear-wgr614-v10-na": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WGR614 v10 North America"
+        }
+      ]
+    },
+    "netgear-wgr614-v8": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Netgear WGR614 v8"
+        }
+      ]
+    },
+    "netgear-wgt634u": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Netgear WGT634U"
+        }
+      ]
+    },
+    "netgear-wn2500rp-v1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WN2500RP v1"
+        }
+      ]
+    },
+    "netgear-wn3000rp": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WN3000RP"
+        }
+      ]
+    },
+    "netgear-wndr3300-v1": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Netgear WNDR3300 v1"
+        }
+      ]
+    },
+    "netgear-wndr3400-v1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WNDR3400 v1"
+        }
+      ]
+    },
+    "netgear-wndr3400-v2": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WNDR3400 v2"
+        }
+      ]
+    },
+    "netgear-wndr3400-v3": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WNDR3400 v3"
+        }
+      ]
+    },
+    "netgear-wndr3700-v3": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WNDR3700 v3"
+        }
+      ]
+    },
+    "netgear-wndr4000": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WNDR4000"
+        }
+      ]
+    },
+    "netgear-wnr1000-v3": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WNR1000 v3"
+        }
+      ]
+    },
+    "netgear-wnr2000v2": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WNR2000 v2"
+        }
+      ]
+    },
+    "netgear-wnr3500-v2": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WNR3500 v2"
+        }
+      ]
+    },
+    "netgear-wnr3500l-v1": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WNR3500L v1 Other Regions"
+        }
+      ]
+    },
+    "netgear-wnr3500l-v1-na": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WNR3500L v1 North America"
+        }
+      ]
+    },
+    "netgear-wnr3500l-v2": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Netgear WNR3500L v2"
+        }
+      ]
+    },
+    "netgear-wnr834b-v2": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Netgear WNR834B v2"
+        }
+      ]
+    },
+    "netgear_d7800": {
+      "target": "ipq806x/generic",
+      "titles": [
+        {
+          "title": "Netgear Nighthawk X4 D7800"
+        }
+      ]
+    },
+    "netgear_dgn1000b": {
+      "target": "lantiq/ase",
+      "titles": [
+        {
+          "title": "Netgear DGN1000B"
+        }
+      ]
+    },
+    "netgear_dgn3500": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Netgear DGN3500"
+        }
+      ]
+    },
+    "netgear_dgn3500b": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Netgear DGN3500B"
+        }
+      ]
+    },
+    "netgear_dm200": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "Netgear DM200"
+        }
+      ]
+    },
+    "netgear_r7500": {
+      "target": "ipq806x/generic",
+      "titles": [
+        {
+          "title": "Netgear Nighthawk X4 R7500"
+        }
+      ]
+    },
+    "netgear_r7500v2": {
+      "target": "ipq806x/generic",
+      "titles": [
+        {
+          "title": "Netgear Nighthawk X4 R7500v2"
+        }
+      ]
+    },
+    "netgear_r7800": {
+      "target": "ipq806x/generic",
+      "titles": [
+        {
+          "title": "Netgear Nighthawk X4S R7800"
+        }
+      ]
+    },
+    "netgear_wndr4700": {
+      "target": "apm821xx/nand",
+      "titles": [
+        {
+          "title": "Netgear Centria N900 WNDR4700/WNDR4720"
+        }
+      ]
+    },
+    "newifi-d1": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Newifi D1"
+        }
+      ]
+    },
+    "omap3-beagle": {
+      "target": "omap/generic",
+      "titles": [
+        {
+          "title": "OMAP3 TI beagleboard"
+        }
+      ]
+    },
+    "omap4-panda": {
+      "target": "omap/generic",
+      "titles": [
+        {
+          "title": "OMAP4 TI pandaboard"
+        }
+      ]
+    },
+    "omega2": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "Onion Omega2"
+        }
+      ]
+    },
+    "omega2p": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "Onion Omega2+"
+        }
+      ]
+    },
+    "omy-g1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "OMYlink OMY-G1"
+        }
+      ]
+    },
+    "omy-x1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "OMYlink OMY-X1"
+        }
+      ]
+    },
+    "onion-omega": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Onion Omega"
+        }
+      ]
+    },
+    "oolite-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GainStrong Oolite V1.0"
+        }
+      ]
+    },
+    "oolite-v5.2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GainStrong Oolite V5.2"
+        }
+      ]
+    },
+    "oolite-v5.2-dev": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "GainStrong Oolite V5.2-Dev (development board)"
+        }
+      ]
+    },
+    "openblocks-ax3-4": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Plat'Home OpenBlocks AX3"
+        }
+      ]
+    },
+    "packet-squirrel": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Hak5 Packet Squirrel"
+        }
+      ]
+    },
+    "pbr-d1": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "PBR-D1"
+        }
+      ]
+    },
+    "pbr-m1": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "PBR-M1"
+        }
+      ]
+    },
+    "pqi-air-pen": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "PQI Air Pen"
+        }
+      ]
+    },
+    "qcom_ipq8064-ap148": {
+      "target": "ipq806x/generic",
+      "titles": [
+        {
+          "title": "Qualcomm AP148"
+        }
+      ]
+    },
+    "qcom_ipq8064-ap148-legacy": {
+      "target": "ipq806x/generic",
+      "titles": [
+        {
+          "title": "Qualcomm AP148 (legacy)"
+        }
+      ]
+    },
+    "qihoo-c301": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Qihoo C301"
+        }
+      ]
+    },
+    "r36a": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "ALFA Network R36A"
+        }
+      ]
+    },
+    "r602n": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "P&W R602N"
+        }
+      ]
+    },
+    "r6220": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Netgear R6220"
+        }
+      ]
+    },
+    "raidsonic_ib-nas62x0": {
+      "target": "kirkwood/generic",
+      "titles": [
+        {
+          "title": "RaidSonic ICY BOX IB-NAS62x0"
+        }
+      ]
+    },
+    "rambutan": {
+      "target": "ar71xx/nand",
+      "titles": [
+        {
+          "title": "8devices Rambutan"
+        }
+      ]
+    },
+    "rb-nor-flash-16M": {
+      "target": "ar71xx/mikrotik",
+      "titles": [
+        {
+          "title": "MikroTik RouterBoard (16 MB SPI NOR)"
+        }
+      ]
+    },
+    "rb-nor-flash-16M-ac": {
+      "target": "ar71xx/mikrotik",
+      "titles": [
+        {
+          "title": "MikroTik RouterBoard (16 MB SPI NOR, 802.11ac)"
+        }
+      ]
+    },
+    "rb750gr3": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "MikroTik RB750Gr3"
+        }
+      ]
+    },
+    "re355-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK RE355 v1"
+        }
+      ]
+    },
+    "re450-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK RE450 v1"
+        }
+      ]
+    },
+    "re6500": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Linksys RE6500"
+        }
+      ]
+    },
+    "rme-eg200": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "eTactica EG-200"
+        }
+      ]
+    },
+    "rnx-n360rt": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "Rosewill RNX-N360RT"
+        }
+      ]
+    },
+    "rpi": {
+      "target": "brcm2708/bcm2708",
+      "titles": [
+        {
+          "title": "Raspberry Pi B/B+/CM/Zero/ZeroW"
+        }
+      ]
+    },
+    "rpi-2": {
+      "target": "brcm2708/bcm2709",
+      "titles": [
+        {
+          "title": "Raspberry Pi 2B/3B/3B+/3CM"
+        }
+      ]
+    },
+    "rpi-3": {
+      "target": "brcm2708/bcm2710",
+      "titles": [
+        {
+          "title": "Raspberry Pi 3B/3B+"
+        }
+      ]
+    },
+    "rt-n15": {
+      "target": "ramips/rt288x",
+      "titles": [
+        {
+          "title": "Asus RT-N15"
+        }
+      ]
+    },
+    "rt-n56u": {
+      "target": "ramips/rt3883",
+      "titles": [
+        {
+          "title": "Asus RT-N56U"
+        }
+      ]
+    },
+    "rut900": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Teltonika RUT900"
+        }
+      ]
+    },
+    "rw2458n": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti RW2458N"
+        }
+      ]
+    },
+    "sap-g3200u3": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "STORYLiNK SAP-G3200U3"
+        }
+      ]
+    },
+    "sc1750": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Abicom SC1750"
+        }
+      ]
+    },
+    "sc300m": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Abicom SC300M"
+        }
+      ]
+    },
+    "sc450": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Abicom SC450"
+        }
+      ]
+    },
+    "seagate_dockstar": {
+      "target": "kirkwood/generic",
+      "titles": [
+        {
+          "title": "Seagate FreeAgent Dockstar"
+        }
+      ]
+    },
+    "seagate_goflexhome": {
+      "target": "kirkwood/generic",
+      "titles": [
+        {
+          "title": "Seagate GoFlexHome"
+        }
+      ]
+    },
+    "seagate_goflexnet": {
+      "target": "kirkwood/generic",
+      "titles": [
+        {
+          "title": "Seagate GoFlexNet"
+        }
+      ]
+    },
+    "shuttle-kd20": {
+      "target": "oxnas/ox820",
+      "titles": [
+        {
+          "title": "Shuttle KD20"
+        }
+      ]
+    },
+    "siemens_gigaset-sx76x": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "Gigaset sx76x"
+        }
+      ]
+    },
+    "sk-wb8": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "SamKnows Whitebox 8"
+        }
+      ]
+    },
+    "smart-300": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "NC-LINK SMART-300"
+        }
+      ]
+    },
+    "smartrg-sr400ac": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "SmartRG SR400ac"
+        }
+      ]
+    },
+    "som9331": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "OpenEmbed SOM9331"
+        }
+      ]
+    },
+    "sr3200": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "YunCore SR3200"
+        }
+      ]
+    },
+    "standard": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Image with LZMA loader and LZMA compressed kernel"
+        }
+      ]
+    },
+    "standard-noloader-gz": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "Image with gzipped kernel"
+        }
+      ]
+    },
+    "standard-noloader-nodictionarylzma": {
+      "target": "brcm47xx/mips74k",
+      "titles": [
+        {
+          "title": "Image with LZMA compressed kernel matching CFE decompressor"
+        }
+      ]
+    },
+    "sun4i-a10-cubieboard": {
+      "target": "sunxi/cortexa8",
+      "titles": [
+        {
+          "title": "Cubietech Cubieboard"
+        }
+      ]
+    },
+    "sun4i-a10-marsboard": {
+      "target": "sunxi/cortexa8",
+      "titles": [
+        {
+          "title": "HAOYU Electronics Marsboard A10"
+        }
+      ]
+    },
+    "sun4i-a10-olinuxino-lime": {
+      "target": "sunxi/cortexa8",
+      "titles": [
+        {
+          "title": "Olimex A10-OLinuXino-LIME"
+        }
+      ]
+    },
+    "sun4i-a10-pcduino": {
+      "target": "sunxi/cortexa8",
+      "titles": [
+        {
+          "title": "LinkSprite pcDuino"
+        }
+      ]
+    },
+    "sun50i-a64-pine64-plus": {
+      "target": "sunxi/cortexa53",
+      "titles": [
+        {
+          "title": "Pine64 Plus A64"
+        }
+      ]
+    },
+    "sun50i-a64-sopine-baseboard": {
+      "target": "sunxi/cortexa53",
+      "titles": [
+        {
+          "title": "Pine64 Sopine"
+        }
+      ]
+    },
+    "sun50i-h5-nanopi-neo-plus2": {
+      "target": "sunxi/cortexa53",
+      "titles": [
+        {
+          "title": "Nanopi NEO Plus2 (H5)"
+        }
+      ]
+    },
+    "sun50i-h5-orangepi-zero-plus": {
+      "target": "sunxi/cortexa53",
+      "titles": [
+        {
+          "title": "Xunlong Orange Pi Zero Plus"
+        }
+      ]
+    },
+    "sun5i-a13-olimex-som": {
+      "target": "sunxi/cortexa8",
+      "titles": [
+        {
+          "title": "Olimex A13 SOM"
+        }
+      ]
+    },
+    "sun5i-a13-olinuxino": {
+      "target": "sunxi/cortexa8",
+      "titles": [
+        {
+          "title": "Olimex A13-Olinuxino"
+        }
+      ]
+    },
+    "sun6i-a31-m9": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "Mele M9 top set box"
+        }
+      ]
+    },
+    "sun7i-a20-bananapi": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "LeMaker Banana Pi"
+        }
+      ]
+    },
+    "sun7i-a20-bananapro": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "LeMaker Banana Pro"
+        }
+      ]
+    },
+    "sun7i-a20-cubieboard2": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "Cubietech Cubieboard2"
+        }
+      ]
+    },
+    "sun7i-a20-cubietruck": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "Cubietech Cubietruck"
+        }
+      ]
+    },
+    "sun7i-a20-lamobo-r1": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "Lamobo R1"
+        }
+      ]
+    },
+    "sun7i-a20-olinuxino-lime": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "Olimex A20-OLinuXino-LIME"
+        }
+      ]
+    },
+    "sun7i-a20-olinuxino-lime2": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "Olimex A20-OLinuXino-LIME2"
+        }
+      ]
+    },
+    "sun7i-a20-olinuxino-lime2-emmc": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "Olimex A20-OLinuXino-LIME2-eMMC"
+        }
+      ]
+    },
+    "sun7i-a20-olinuxino-micro": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "Olimex A20-Olinuxino Micro"
+        }
+      ]
+    },
+    "sun7i-a20-pcduino3": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "LinkSprite pcDuino3"
+        }
+      ]
+    },
+    "sun8i-h2-plus-orangepi-r1": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "Xunlong Orange Pi R1"
+        }
+      ]
+    },
+    "sun8i-h3-nanopi-m1-plus": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "FriendlyArm NanoPi M1 Plus"
+        }
+      ]
+    },
+    "sun8i-h3-nanopi-neo": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "FriendlyARM NanoPi NEO"
+        }
+      ]
+    },
+    "sun8i-h3-orangepi-2": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "Xunlong Orange Pi 2"
+        }
+      ]
+    },
+    "sun8i-h3-orangepi-pc": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "Xunlong Orange Pi PC"
+        }
+      ]
+    },
+    "sun8i-h3-orangepi-plus": {
+      "target": "sunxi/cortexa7",
+      "titles": [
+        {
+          "title": "Xunlong Orange Pi Plus"
+        }
+      ]
+    },
+    "t830": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "YunCore T830"
+        }
+      ]
+    },
+    "tama_w06": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "Tama W06"
+        }
+      ]
+    },
+    "tellstick-znet-lite": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TellStick ZNet Lite"
+        }
+      ]
+    },
+    "tenda-ac9": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "Tenda AC9"
+        }
+      ]
+    },
+    "tew-691gr": {
+      "target": "ramips/rt3883",
+      "titles": [
+        {
+          "title": "TRENDnet TEW-691GR"
+        }
+      ]
+    },
+    "tew-692gr": {
+      "target": "ramips/rt3883",
+      "titles": [
+        {
+          "title": "TRENDnet TEW-692GR"
+        }
+      ]
+    },
+    "timecloud": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Thunder Timecloud"
+        }
+      ]
+    },
+    "tl-mr6400-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-MR6400 v1"
+        }
+      ]
+    },
+    "tl-wa701nd-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA701N/ND v1"
+        }
+      ]
+    },
+    "tl-wa701nd-v2": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA701N/ND v2"
+        }
+      ]
+    },
+    "tl-wa7210n-v2": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA7210N v2"
+        }
+      ]
+    },
+    "tl-wa730re-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA730RE v1"
+        }
+      ]
+    },
+    "tl-wa750re-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA750RE v1"
+        }
+      ]
+    },
+    "tl-wa7510n-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA7510N v1"
+        }
+      ]
+    },
+    "tl-wa801nd-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA801N/ND v1"
+        }
+      ]
+    },
+    "tl-wa801nd-v2": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA801N/ND v2"
+        }
+      ]
+    },
+    "tl-wa801nd-v3": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA801N/ND v3"
+        }
+      ]
+    },
+    "tl-wa830re-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA830RE v1"
+        }
+      ]
+    },
+    "tl-wa830re-v2": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA830RE v2"
+        }
+      ]
+    },
+    "tl-wa850re-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA850RE v1"
+        }
+      ]
+    },
+    "tl-wa850re-v2": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA850RE v2"
+        }
+      ]
+    },
+    "tl-wa855re-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA855RE v1"
+        }
+      ]
+    },
+    "tl-wa860re-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA860RE v1"
+        }
+      ]
+    },
+    "tl-wa901nd-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA901N/ND v1"
+        }
+      ]
+    },
+    "tl-wa901nd-v2": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA901N/ND v2"
+        }
+      ]
+    },
+    "tl-wa901nd-v3": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA901N/ND v3"
+        }
+      ]
+    },
+    "tl-wa901nd-v4": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA901N/ND v4"
+        }
+      ]
+    },
+    "tl-wa901nd-v5": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WA901N/ND v5"
+        }
+      ]
+    },
+    "tl-wdr3500-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WDR3500 v1"
+        }
+      ]
+    },
+    "tl-wdr3600-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WDR3600 v1"
+        }
+      ]
+    },
+    "tl-wdr4300-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WDR4300 v1"
+        }
+      ]
+    },
+    "tl-wdr4300-v1-il": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WDR4300 v1 (IL)"
+        }
+      ]
+    },
+    "tl-wdr4310-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WDR4310 v1"
+        }
+      ]
+    },
+    "tl-wdr4900-v1": {
+      "target": "mpc85xx/generic",
+      "titles": [
+        {
+          "title": "TP-Link TL-WDR4900"
+        }
+      ]
+    },
+    "tl-wdr4900-v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WDR4900 v2"
+        }
+      ]
+    },
+    "tl-wdr6500-v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WDR6500 v2"
+        }
+      ]
+    },
+    "tl-wdr7500-v3": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C7 v3"
+        }
+      ]
+    },
+    "tl-wpa8630-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WPA8630 v1"
+        }
+      ]
+    },
+    "tl-wr1041n-v2": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR1041N v2"
+        }
+      ]
+    },
+    "tl-wr1043n-v5": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR1043N v5"
+        }
+      ]
+    },
+    "tl-wr1043nd-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR1043N/ND v1"
+        }
+      ]
+    },
+    "tl-wr1043nd-v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR1043N/ND v2"
+        }
+      ]
+    },
+    "tl-wr1043nd-v3": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR1043N/ND v3"
+        }
+      ]
+    },
+    "tl-wr1043nd-v4": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR1043N/ND v4"
+        }
+      ]
+    },
+    "tl-wr2543-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR2543N/ND v1"
+        }
+      ]
+    },
+    "tl-wr710n-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR710N v1"
+        }
+      ]
+    },
+    "tl-wr710n-v2.1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR710N v2.1"
+        }
+      ]
+    },
+    "tl-wr740n-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR740N/ND v1"
+        }
+      ]
+    },
+    "tl-wr740n-v3": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR740N/ND v3"
+        }
+      ]
+    },
+    "tl-wr740n-v4": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR740N/ND v4"
+        }
+      ]
+    },
+    "tl-wr740n-v5": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR740N/ND v5"
+        }
+      ]
+    },
+    "tl-wr740n-v6": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR740N/ND v6"
+        }
+      ]
+    },
+    "tl-wr741nd-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR741N/ND v1"
+        }
+      ]
+    },
+    "tl-wr741nd-v2": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR741N/ND v2"
+        }
+      ]
+    },
+    "tl-wr741nd-v4": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR741N/ND v4"
+        }
+      ]
+    },
+    "tl-wr741nd-v5": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR741N/ND v5"
+        }
+      ]
+    },
+    "tl-wr743nd-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR743N/ND v1"
+        }
+      ]
+    },
+    "tl-wr743nd-v2": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR743N/ND v2"
+        }
+      ]
+    },
+    "tl-wr802n-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR802N v1"
+        }
+      ]
+    },
+    "tl-wr802n-v2": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR802N v2"
+        }
+      ]
+    },
+    "tl-wr810n-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR810N v1"
+        }
+      ]
+    },
+    "tl-wr810n-v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR810N v2"
+        }
+      ]
+    },
+    "tl-wr840n-v2": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR840N v2"
+        }
+      ]
+    },
+    "tl-wr840n-v3": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR840N v3"
+        }
+      ]
+    },
+    "tl-wr840n-v4": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "TP-Link TL-WR840N v4"
+        }
+      ]
+    },
+    "tl-wr840n-v5": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "TP-Link TL-WR840N v5"
+        }
+      ]
+    },
+    "tl-wr841-v1.5": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR841N/ND v1.5"
+        }
+      ]
+    },
+    "tl-wr841-v10": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR841N/ND v10"
+        }
+      ]
+    },
+    "tl-wr841-v11": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR841N/ND v11"
+        }
+      ]
+    },
+    "tl-wr841-v12": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR841N/ND v12"
+        }
+      ]
+    },
+    "tl-wr841-v3": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR841N/ND v3"
+        }
+      ]
+    },
+    "tl-wr841-v5": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR841N/ND v5"
+        }
+      ]
+    },
+    "tl-wr841-v7": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR841N/ND v7"
+        }
+      ]
+    },
+    "tl-wr841-v8": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR841N/ND v8"
+        }
+      ]
+    },
+    "tl-wr841-v9": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR841N/ND v9"
+        }
+      ]
+    },
+    "tl-wr841n-v13": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "TP-Link TL-WR841N v13"
+        }
+      ]
+    },
+    "tl-wr842n-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR842N/ND v1"
+        }
+      ]
+    },
+    "tl-wr842n-v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR842N/ND v2"
+        }
+      ]
+    },
+    "tl-wr842n-v3": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR842N/ND v3"
+        }
+      ]
+    },
+    "tl-wr843nd-v1": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR843N/ND v1"
+        }
+      ]
+    },
+    "tl-wr847n-v8": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR847N/ND v8"
+        }
+      ]
+    },
+    "tl-wr902ac-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR902AC v1"
+        }
+      ]
+    },
+    "tl-wr940n-v4": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR940N v4"
+        }
+      ]
+    },
+    "tl-wr940n-v6": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR940N v6"
+        }
+      ]
+    },
+    "tl-wr941nd-v2": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR941N/ND v2"
+        }
+      ]
+    },
+    "tl-wr941nd-v3": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR941N/ND v3"
+        }
+      ]
+    },
+    "tl-wr941nd-v4": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR941N/ND v4"
+        }
+      ]
+    },
+    "tl-wr941nd-v5": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR941N/ND v5"
+        }
+      ]
+    },
+    "tl-wr941nd-v6": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR941N/ND v6"
+        }
+      ]
+    },
+    "tl-wr941nd-v6-cn": {
+      "target": "ar71xx/tiny",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR941N/ND v6 (CN)"
+        }
+      ]
+    },
+    "tl-wr942n-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK TL-WR942N v1"
+        }
+      ]
+    },
+    "tny_a9260": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Calao TNYA9260"
+        }
+      ]
+    },
+    "tny_a9263": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Calao TNYA9263"
+        }
+      ]
+    },
+    "tny_a9g20": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Calao TNYA9G20"
+        }
+      ]
+    },
+    "tplink-archer-c5-v2": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C5 V2"
+        }
+      ]
+    },
+    "tplink-archer-c9-v1": {
+      "target": "bcm53xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK Archer C9 V1"
+        }
+      ]
+    },
+    "tplink_c20-v4": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "TP-Link ArcherC20 v4"
+        }
+      ]
+    },
+    "tplink_c2600": {
+      "target": "ipq806x/generic",
+      "titles": [
+        {
+          "title": "TP-Link Archer C2600"
+        }
+      ]
+    },
+    "tplink_c50-v3": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "TP-Link ArcherC50 v3"
+        }
+      ]
+    },
+    "tplink_tdw8970": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "TP-LINK TD-W8970"
+        }
+      ]
+    },
+    "tplink_tdw8980": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "TP-LINK TD-W8980"
+        }
+      ]
+    },
+    "tplink_tl-mr3420-v5": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "TP-Link TL-MR3420 v5"
+        }
+      ]
+    },
+    "tplink_tl-wr842n-v5": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "TP-Link TL-WR842N v5"
+        }
+      ]
+    },
+    "tplink_tl-wr902ac-v3": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "TP-Link TL-WR902AC v3"
+        }
+      ]
+    },
+    "tplink_vr200v": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "TP-LINK Archer VR200v"
+        }
+      ]
+    },
+    "tplink_vr2600v": {
+      "target": "ipq806x/generic",
+      "titles": [
+        {
+          "title": "TP-Link Archer VR2600v"
+        }
+      ]
+    },
+    "ts-d084": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "PISEN TS-D084"
+        }
+      ]
+    },
+    "turris-omnia": {
+      "target": "mvebu/cortexa9",
+      "titles": [
+        {
+          "title": "Turris Omnia"
+        }
+      ]
+    },
+    "u7621-06-256M-16M": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "UniElec U7621-06 (256M RAM/16M flash)"
+        }
+      ]
+    },
+    "u7628-01-128M-16M": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "UniElec U7628-01 (128M RAM/16M flash)"
+        }
+      ]
+    },
+    "ubdev01": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti ubDEV01"
+        }
+      ]
+    },
+    "ubnt-air-gateway": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti Air Gateway"
+        }
+      ]
+    },
+    "ubnt-air-gateway-pro": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti Air Gateway Pro"
+        }
+      ]
+    },
+    "ubnt-airrouter": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti AirRouter"
+        }
+      ]
+    },
+    "ubnt-bullet-m": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti Bullet-M"
+        }
+      ]
+    },
+    "ubnt-erx": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Ubiquiti EdgeRouter X"
+        }
+      ]
+    },
+    "ubnt-erx-sfp": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Ubiquiti EdgeRouter X-SFP"
+        }
+      ]
+    },
+    "ubnt-lbe-m5": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti Litebeam M5"
+        }
+      ]
+    },
+    "ubnt-loco-m-xw": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti Loco XW"
+        }
+      ]
+    },
+    "ubnt-ls-sr71": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti LS-SR71"
+        }
+      ]
+    },
+    "ubnt-nano-m": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti Nano-M"
+        }
+      ]
+    },
+    "ubnt-nano-m-xw": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti Nano M XW"
+        }
+      ]
+    },
+    "ubnt-rocket-m": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti Rocket-M"
+        }
+      ]
+    },
+    "ubnt-rocket-m-ti": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti Rocket M TI"
+        }
+      ]
+    },
+    "ubnt-rocket-m-xw": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti Rocket M XW"
+        }
+      ]
+    },
+    "ubnt-rs": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti RouterStation"
+        }
+      ]
+    },
+    "ubnt-rspro": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti RouterStation Pro"
+        }
+      ]
+    },
+    "ubnt-uap-pro": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti UAP Pro"
+        }
+      ]
+    },
+    "ubnt-unifi": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti UniFi"
+        }
+      ]
+    },
+    "ubnt-unifi-outdoor": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti UniFi Outdoor"
+        }
+      ]
+    },
+    "ubnt-unifi-outdoor-plus": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti UniFi Outdoor Plus"
+        }
+      ]
+    },
+    "ubnt-unifiac-lite": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti UniFi AC-Lite"
+        }
+      ]
+    },
+    "ubnt-unifiac-mesh": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti UniFi AC-Mesh"
+        }
+      ]
+    },
+    "ubnt-unifiac-mesh-pro": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti UniFi AC-Mesh-Pro"
+        }
+      ]
+    },
+    "ubnt-unifiac-pro": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti UniFi AC-Pro"
+        }
+      ]
+    },
+    "ubnt2-pico2": {
+      "target": "ath25/generic",
+      "titles": [
+        {
+          "title": "Ubiquiti XS2-8"
+        }
+      ]
+    },
+    "usb_a9260": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Calao USBA9260"
+        }
+      ]
+    },
+    "usb_a9263": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Calao USBA9263"
+        }
+      ]
+    },
+    "usb_a9g20": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Calao USBA9G20"
+        }
+      ]
+    },
+    "usrobotics-usr5461": {
+      "target": "brcm47xx/legacy",
+      "titles": [
+        {
+          "title": "USRobotics USR5461"
+        }
+      ]
+    },
+    "v11st-fe": {
+      "target": "ramips/rt288x",
+      "titles": [
+        {
+          "title": "Ralink V11ST-FE"
+        }
+      ]
+    },
+    "ventana": {
+      "target": "imx6/generic",
+      "titles": [
+        {
+          "title": "Gateworks Ventana family (normal NAND flash)"
+        }
+      ]
+    },
+    "vocore2": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "VoCore VoCore2"
+        }
+      ]
+    },
+    "vocore2lite": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "VoCore VoCore2-Lite"
+        }
+      ]
+    },
+    "vr500": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Planex VR500"
+        }
+      ]
+    },
+    "w2914nsv2": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "WeVO W2914NS v2"
+        }
+      ]
+    },
+    "wam250": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Samsung WAM250"
+        }
+      ]
+    },
+    "wb45n": {
+      "target": "at91/legacy",
+      "titles": [
+        {
+          "title": "Laird WB45N"
+        }
+      ]
+    },
+    "wbs210-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK WBS210 v1"
+        }
+      ]
+    },
+    "wbs510-v1": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "TP-LINK WBS510 v1"
+        }
+      ]
+    },
+    "wcr-1166ds": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "Buffalo WCR-1166DS"
+        }
+      ]
+    },
+    "wd_mybooklive": {
+      "target": "apm821xx/sata",
+      "titles": [
+        {
+          "title": "Western Digital My Book Live"
+        }
+      ]
+    },
+    "wd_mybooklive-duo": {
+      "target": "apm821xx/sata",
+      "titles": [
+        {
+          "title": "Western Digital My Book Live Duo"
+        }
+      ]
+    },
+    "weio": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "WeIO"
+        }
+      ]
+    },
+    "wf-2881": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "NETIS WF-2881"
+        }
+      ]
+    },
+    "wi2a-ac200i": {
+      "target": "ar71xx/nand",
+      "titles": [
+        {
+          "title": "Nokia WI2A-AC200i"
+        }
+      ]
+    },
+    "widora_neo-16m": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "Widora-NEO (16M)"
+        }
+      ]
+    },
+    "widora_neo-32m": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "Widora-NEO (32M)"
+        }
+      ]
+    },
+    "wifi-pineapple-nano": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Hak5 WiFi Pineapple NANO"
+        }
+      ]
+    },
+    "wl-wn575a3": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "Wavlink WL-WN575A3"
+        }
+      ]
+    },
+    "wli-tx4-ag300n": {
+      "target": "ramips/rt288x",
+      "titles": [
+        {
+          "title": "Buffalo WLI-TX4-AG300N"
+        }
+      ]
+    },
+    "wlr-6000": {
+      "target": "ramips/rt3883",
+      "titles": [
+        {
+          "title": "Sitecom WLR-6000"
+        }
+      ]
+    },
+    "wlr8100": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Sitecom WLR-8100"
+        }
+      ]
+    },
+    "wmdr-143n": {
+      "target": "ramips/rt3883",
+      "titles": [
+        {
+          "title": "Loewe WMDR-143N"
+        }
+      ]
+    },
+    "wndr3700": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "NETGEAR WNDR3700"
+        }
+      ]
+    },
+    "wndr3700v2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "NETGEAR WNDR3700 v2"
+        }
+      ]
+    },
+    "wndr3700v5": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Netgear WNDR3700v5"
+        }
+      ]
+    },
+    "wndr3800": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "NETGEAR WNDR3800"
+        }
+      ]
+    },
+    "wndr3800ch": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "NETGEAR WNDR3800 (Ch)"
+        }
+      ]
+    },
+    "wndrmac": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "NETGEAR WNDRMAC"
+        }
+      ]
+    },
+    "wndrmacv2": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "NETGEAR WNDRMAC v2"
+        }
+      ]
+    },
+    "wpj342": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Compex WPJ342 (16MB flash)"
+        }
+      ]
+    },
+    "wpj344": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Compex WPJ344 (16MB flash)"
+        }
+      ]
+    },
+    "wpj531": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Compex WPJ531 (16MB flash)"
+        }
+      ]
+    },
+    "wpj558": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Compex WPJ558 (16MB flash)"
+        }
+      ]
+    },
+    "wpj563": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Compex WPJ563 (16MB flash)"
+        }
+      ]
+    },
+    "wrtnode2p": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "WRTnode 2P"
+        }
+      ]
+    },
+    "wrtnode2q": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "WRTnode2Q"
+        }
+      ]
+    },
+    "wrtnode2r": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "WRTnode 2R"
+        }
+      ]
+    },
+    "wsr-1166": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Buffalo WSR-1166"
+        }
+      ]
+    },
+    "wsr-600": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "Buffalo WSR-600"
+        }
+      ]
+    },
+    "wzr-agl300nh": {
+      "target": "ramips/rt288x",
+      "titles": [
+        {
+          "title": "Buffalo WZR-AGL300NH"
+        }
+      ]
+    },
+    "xd3200": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "YunCore XD3200"
+        }
+      ]
+    },
+    "youhua_wr1200js": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "YouHua WR1200JS"
+        }
+      ]
+    },
+    "z1": {
+      "target": "ar71xx/nand",
+      "titles": [
+        {
+          "title": "Meraki Z1"
+        }
+      ]
+    },
+    "zbt-we1326": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "ZBT WE1326"
+        }
+      ]
+    },
+    "zbt-we1526": {
+      "target": "ar71xx/generic",
+      "titles": [
+        {
+          "title": "Zbtlink ZBT-WE1526"
+        }
+      ]
+    },
+    "zbt-wg2626": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "ZBT WG2626"
+        }
+      ]
+    },
+    "zbt-wg3526-16M": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "ZBT WG3526 (16MB flash)"
+        }
+      ]
+    },
+    "zbt-wg3526-32M": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "ZBT WG3526 (32MB flash)"
+        }
+      ]
+    },
+    "zbtlink_zbt-we1226": {
+      "target": "ramips/mt76x8",
+      "titles": [
+        {
+          "title": "ZBTlink ZBT-WE1226"
+        }
+      ]
+    },
+    "zbtlink_zbt-we3526": {
+      "target": "ramips/mt7621",
+      "titles": [
+        {
+          "title": "ZBT WE3526"
+        }
+      ]
+    },
+    "zte_h201l": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "ZTE H201L - H201L"
+        }
+      ]
+    },
+    "zyxel_nbg6817": {
+      "target": "ipq806x/generic",
+      "titles": [
+        {
+          "title": "ZyXEL NBG6817"
+        }
+      ]
+    },
+    "zyxel_nsa310b": {
+      "target": "kirkwood/generic",
+      "titles": [
+        {
+          "title": "ZyXEL NSA310b"
+        }
+      ]
+    },
+    "zyxel_nsa325": {
+      "target": "kirkwood/generic",
+      "titles": [
+        {
+          "title": "ZyXEL NSA325 (v1 and v2)"
+        }
+      ]
+    },
+    "zyxel_p-2601hn": {
+      "target": "lantiq/xway",
+      "titles": [
+        {
+          "title": "ZyXEL P-2601HN-Fx"
+        }
+      ]
+    },
+    "zyxel_p-2812hnu-f1": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "ZyXEL P-2812HNU-F1"
+        }
+      ]
+    },
+    "zyxel_p-2812hnu-f3": {
+      "target": "lantiq/xrx200",
+      "titles": [
+        {
+          "title": "ZyXEL P-2812HNU-F3"
+        }
+      ]
+    }
+  },
+  "release": "18.06.9"
+}
