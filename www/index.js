@@ -62,6 +62,7 @@ function buildAsuRequest() {
   // hide image view
   updateImages();
 
+  hide("#notfound");
   show("#buildspinner");
   showStatus("tr-request-image");
 
