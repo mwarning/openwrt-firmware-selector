@@ -87,6 +87,7 @@ function buildAsuRequest() {
           response.json().then((mobj) => {
             const image_url = config.asu_url + "/store/" + mobj.bin_dir;
             showStatus("tr-build-successful", image_url + "/buildlog.txt");
+            mobj["id"] = current_device.id;
             updateImages(mobj, { image_url: image_url }, true);
           });
           break;
@@ -524,6 +525,7 @@ function changeModel(version, overview, model, base_url) {
         return obj.json();
       })
       .then((mobj) => {
+        mobj["id"] = id;
         updateImages(mobj, overview, false);
         current_device = { version: version, id: id, target: target };
       });
