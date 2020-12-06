@@ -243,7 +243,8 @@ header > div {
 }
 
 #buildstatus {
-  padding: 1em 0;
+  padding: 0.5em 0;
+  margin: 0.5em 0;
 }
 
 #footer {
