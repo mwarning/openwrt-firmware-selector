@@ -304,18 +304,23 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
 }
 
 // for attended sysupgrade
-function updatePackageList(version, target) {
+function updatePackageList(mobj) {
   // set available packages
   fetch(
     config.asu_url +
       "/" +
-      config.versions[version] +
+      config.versions[mobj.version_number] +
       "/" +
-      target +
+      mobj.target +
       "/index.json"
   )
     .then((response) => response.json())
-    .then((all_packages) => {
+    .then((packages) => {
+      const all_packages = packages.concat(
+        mobj.default_packages.map((e) => "-" + e),
+        mobj.device_packages.map((e) => "-" + e)
+      );
+
       setupAutocompleteList(
         $("#packages"),
         all_packages,
@@ -323,15 +328,13 @@ function updatePackageList(version, target) {
         () => {},
         (textarea) => {
           textarea.value = split(textarea.value)
-            // make list unique, ignore minus
+            // make list unique, ignore minus prefix
             .filter((value, index, self) => {
-              const i = self.indexOf(value.replace(/^-/, ""));
+              const i = self.indexOf(value.replace(/^[-]/, ""));
               return i === index || i < 0;
             })
-            // limit to available packages, ignore minus
-            .filter(
-              (value) => all_packages.indexOf(value.replace(/^-/, "")) !== -1
-            )
+            // limit to available packages
+            .filter((value) => all_packages.indexOf(value) !== -1)
             .join(" ");
         }
       );
@@ -471,7 +474,7 @@ function updateImages(mobj, overview, is_custom) {
     }
 
     if (config.asu_url) {
-      updatePackageList(mobj.version_number, mobj.target);
+      updatePackageList(mobj);
     }
 
     // set current selection in URL
