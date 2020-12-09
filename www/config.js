@@ -18,7 +18,7 @@ var config = {
   //image_url: "https://downloads.openwrt.org/releases/{version}/{target}",
 
   // Info link URL (optional)
-  //info_url: "https://openwrt.org/start?do=search&id=toh&q={title}",
+  info_url: "https://openwrt.org/start?do=search&id=toh&q={title}",
 
   // Build custom images (optional)
   // See https://github.com/aparcar/asu
