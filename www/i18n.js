@@ -90,7 +90,7 @@ var translations = {
       "Las imágenes TFTP se utilizan para actualizar un dispositivo mediante el método TFTP del gestor de arranque.",
     "tr-other-help": "Otro tipo de imagen.",
     "tr-build-successful": "Compilación exitosa",
-    "tr-build-failed": "Construcción fallida",
+    "tr-build-failed": "Compilación fallida",
     "tr-request-image": "Solicitar imagen",
     "tr-check-again": "Vuelva a comprobar en 5 segundos...",
   },
