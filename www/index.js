@@ -385,6 +385,31 @@ function updateHelp(image) {
   }
 }
 
+function commonPrefix(array) {
+  const A = array.concat().sort();
+  const a1 = A[0];
+  const a2 = A[A.length - 1];
+  let i = 0;
+  while (i < a1.length && a1.charAt(i) === a2.charAt(i)) i++;
+  return a1.substring(0, i);
+}
+
+function reverse(s) {
+  return s.split("").reverse().join("");
+}
+
+// get difference in image names
+function getNameDifference(images, image) {
+  const same = images.filter((e) => e.type == image.type);
+  if (same.length > 1) {
+    const prefix = commonPrefix(same.map((e) => e.name));
+    const suffix = commonPrefix(same.map((e) => reverse(e.name)));
+    return image.name.slice(prefix.length, -suffix.length);
+  } else {
+    return "";
+  }
+}
+
 // add download button for image
 function createLink(mobj, image, image_url) {
   const a = document.createElement("A");
@@ -397,10 +422,19 @@ function createLink(mobj, image, image_url) {
       .replace("{version}", mobj.version_number) +
     "/" +
     image.name;
+
+  let label = image.type;
+
+  // distinguish labels if neccessary
+  const extra = getNameDifference(mobj.images, image);
+  if (extra.length > 0) {
+    label += " (" + extra + ")";
+  }
+
   const span = document.createElement("SPAN");
   span.appendChild(document.createTextNode(""));
   a.appendChild(span);
-  a.appendChild(document.createTextNode(image.type.toUpperCase()));
+  a.appendChild(document.createTextNode(label.toUpperCase()));
   return a;
 }
 
@@ -460,6 +494,7 @@ function updateImages(mobj, overview, is_custom) {
     images.sort((a, b) => a.name.localeCompare(b.name));
 
     const image_url = config.image_url || overview.image_url || "";
+
     for (const image of images) {
       const a = createLink(mobj, image, image_url);
 
