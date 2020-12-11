@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,30 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca988x-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca988x-ct"],
   "id": "devolo_dvl1750i",
   "image_prefix": "openwrt-ath79-generic-devolo_dvl1750i",
   "images": [
     {
       "name": "openwrt-ath79-generic-devolo_dvl1750i-squashfs-sysupgrade.bin",
-      "sha256": "85f1178d2e287ae33da0c2f6127a2b6265288861900d4fedad3c2a90e9e64d29",
+      "sha256": "571c8cda352619e25be592fc50c9ba3d45308a609394c73607eb2f49f2972fe1",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "devolo,dvl1750i"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["devolo,dvl1750i"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WiFi pro 1750i",
-      "vendor": "devolo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WiFi pro 1750i", "vendor": "devolo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

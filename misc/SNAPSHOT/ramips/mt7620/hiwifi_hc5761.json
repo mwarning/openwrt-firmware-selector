@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -47,22 +48,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-hiwifi_hc5761-squashfs-sysupgrade.bin",
-      "sha256": "4b1a68bdd0f4a7f02ec4f56141fc2590064a8369756391ca7f45d510d341bad7",
+      "sha256": "8da75e3b2fe7af6eeb9ea12da678984d944f723c8a15da11bbb1adac70ac09a8",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "hiwifi,hc5761",
-    "hc5761"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["hiwifi,hc5761", "hc5761"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "HC5761",
-      "vendor": "HiWiFi"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "HC5761", "vendor": "HiWiFi" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9_vfpv3-d16",
-  "build_at": "2020-09-10 22:18:45",
+  "build_at": "2020-12-11 13:04:58",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -42,17 +43,18 @@
   "image_prefix": "openwrt-mvebu-cortexa9-linksys_wrt1900ac-v2",
   "images": [
     {
-      "name": "openwrt-mvebu-cortexa9-linksys_wrt1900ac-v2-squashfs-factory.img",
-      "sha256": "af58c9230e3cca69f8f14ec909a24762842d692e5a09dc49cec097d909898494",
-      "type": "factory"
+      "name": "openwrt-mvebu-cortexa9-linksys_wrt1900ac-v2-squashfs-sysupgrade.bin",
+      "sha256": "bb7a7dc19f8241c24e80db403bdcb217d4939cafa33c3e41c2ef3b1665383fac",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-mvebu-cortexa9-linksys_wrt1900ac-v2-squashfs-sysupgrade.bin",
-      "sha256": "f83e98e0224fd60b04dadcc3bfa93667faac1df0a78e6777445dba8c31cf0d49",
-      "type": "sysupgrade"
+      "name": "openwrt-mvebu-cortexa9-linksys_wrt1900ac-v2-squashfs-factory.img",
+      "sha256": "12efa0559e91b6389db29f643e0c1d76f577c6feafd66a0f3b2cedbcb0bcf9b0",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607683657",
   "supported_devices": [
     "linksys,wrt1900ac-v2",
     "armada-385-linksys-cobra",
@@ -60,16 +62,9 @@
   ],
   "target": "mvebu/cortexa9",
   "titles": [
-    {
-      "model": "WRT1900AC",
-      "variant": "v2",
-      "vendor": "Linksys"
-    },
-    {
-      "model": "Cobra",
-      "vendor": "Linksys"
-    }
+    { "model": "WRT1900AC", "variant": "v2", "vendor": "Linksys" },
+    { "model": "Cobra", "vendor": "Linksys" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

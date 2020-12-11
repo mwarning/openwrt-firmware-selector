@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,23 +45,19 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-ubnt_edgerouter-x-sfp-squashfs-sysupgrade.bin",
-      "sha256": "de6f608fab9b2714999af9e9970069d5592a60bf3d1e6580d92e5e9dc45d4c1d",
+      "sha256": "7808337a1c2b4588361ac9d72ab11dd25771179f7c69ba02eef6c1643f9c5f2f",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [
     "ubnt,edgerouter-x-sfp",
     "ubnt-erx-sfp",
     "ubiquiti,edgerouterx-sfp"
   ],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "EdgeRouter X SFP",
-      "vendor": "Ubiquiti"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EdgeRouter X SFP", "vendor": "Ubiquiti" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

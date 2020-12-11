@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_cortex-a53",
-  "build_at": "2020-09-11 16:34:20",
+  "build_at": "2020-12-11 11:18:56",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -41,27 +42,21 @@
   "image_prefix": "openwrt-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2",
   "images": [
     {
-      "name": "openwrt-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2-squashfs-sdcard.img.gz",
-      "sha256": "620065812248a679de5532595512437f45baec2ea1d1ea90e17c7be1daa60cb6",
+      "name": "openwrt-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2-ext4-sdcard.img.gz",
+      "sha256": "18cf329406b6f29bdcd0c2e8bf8d7d03924cb5b86fb630df8977da54e3fdded2",
       "type": "sdcard"
     },
     {
-      "name": "openwrt-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2-ext4-sdcard.img.gz",
-      "sha256": "9ae83eced55743a5a3da6bf610efb1ff7186b10b7076fa41eaa0528feb088f59",
+      "name": "openwrt-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2-squashfs-sdcard.img.gz",
+      "sha256": "c58a4add754dd12107e147acfa8118b82b587cbe12d8e3310077553641ed9117",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "nanopi-neo-plus2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["nanopi-neo-plus2"],
   "target": "sunxi/cortexa53",
-  "titles": [
-    {
-      "model": "NanoPi NEO Plus2",
-      "vendor": "FriendlyARM"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "NanoPi NEO Plus2", "vendor": "FriendlyARM" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

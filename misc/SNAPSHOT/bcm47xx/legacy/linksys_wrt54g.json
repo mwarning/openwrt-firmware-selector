@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,28 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43",
-    "kmod-b43legacy"
-  ],
+  "device_packages": ["kmod-b43", "kmod-b43legacy"],
   "id": "linksys_wrt54g",
   "image_prefix": "openwrt-bcm47xx-legacy-linksys_wrt54g",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-linksys_wrt54g-squashfs.bin",
-      "sha256": "0403da9f64d0c501475d45a2a5361098ea3743878d759fc5f490c3c0d003f3f4",
+      "sha256": "ac28f93eb3870f3b5752905a00c03a60a2db3d47afe220451a8a2cc50f702f66",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "WRT54G",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WRT54G", "vendor": "Linksys" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

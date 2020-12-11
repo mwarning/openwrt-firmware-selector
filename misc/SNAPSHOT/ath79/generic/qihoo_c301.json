@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -47,28 +48,21 @@
   "image_prefix": "openwrt-ath79-generic-qihoo_c301",
   "images": [
     {
-      "name": "openwrt-ath79-generic-qihoo_c301-squashfs-factory.bin",
-      "sha256": "0b62754e28cf17eb74e8c316a3a2e70d59ed5e0ab3547351450aba9f8f54b661",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-qihoo_c301-squashfs-sysupgrade.bin",
+      "sha256": "de018f094a1fbb5b1ab76db1179a1ed6c66f98a8aa0aa61efde3d4364c57dfb0",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-qihoo_c301-squashfs-sysupgrade.bin",
-      "sha256": "69499159a1d7ab139c528ed6b86f91c7bedf7747b7bbac725d5fb7b9f3cb7296",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-qihoo_c301-squashfs-factory.bin",
+      "sha256": "80b5ec923779a0e4c9f0657774dba43031b0fe537095d5d6f6b37bd6ae96e490",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "qihoo,c301",
-    "qihoo-c301"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["qihoo,c301", "qihoo-c301"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "C301",
-      "vendor": "Qihoo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "C301", "vendor": "Qihoo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

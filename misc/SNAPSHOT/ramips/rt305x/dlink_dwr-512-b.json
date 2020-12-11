@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -49,28 +50,20 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-dlink_dwr-512-b-squashfs-factory.bin",
-      "sha256": "921e428e06e836303e9a8120c89acb728ef63ba15e105823c190e02fd438f3be",
+      "sha256": "142bcd7999713ee7502cc0abae23e8046e9217bdc7882c2e61bdb299a02c22a6",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-rt305x-dlink_dwr-512-b-squashfs-sysupgrade.bin",
-      "sha256": "f436c42ece4b4999c45a826448f6585fa0757fec00c6b9cb3462c88d63de8839",
+      "sha256": "c0ffdbc6bf585dcbade46794a35c6bbcf10d604ac78aa05178bb2aaab6df3a7a",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dwr-512-b",
-    "dwr-512-b"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dwr-512-b", "dwr-512-b"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "DWR-512",
-      "variant": "B",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DWR-512", "variant": "B", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

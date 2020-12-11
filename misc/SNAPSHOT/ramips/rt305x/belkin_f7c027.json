@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-belkin_f7c027-squashfs-sysupgrade.bin",
-      "sha256": "5867b6fbdd3927ade559ea22de1e70464ed22396512c195d6cc714e47b956663",
+      "sha256": "4e40d632b75723858fa595746dcf60a21580e86a4e60004d41bc9303842ff47c",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "belkin,f7c027",
-    "f7c027"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["belkin,f7c027", "f7c027"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "F7C027",
-      "vendor": "Belkin"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "F7C027", "vendor": "Belkin" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

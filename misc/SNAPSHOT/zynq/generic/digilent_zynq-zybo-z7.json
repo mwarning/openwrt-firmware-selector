@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9_neon",
-  "build_at": "2020-09-11 20:02:41",
+  "build_at": "2020-12-11 16:44:59",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "mkf2fs",
     "e2fsprogs",
@@ -44,19 +45,15 @@
   "images": [
     {
       "name": "openwrt-zynq-digilent_zynq-zybo-z7-squashfs-sdcard.img.gz",
-      "sha256": "7ec25cfb7188c6451d9f9720996318e3881700ca2776f5f7cdfeef95434338d2",
+      "sha256": "9a69ed8ea295f067a0de27bc284dc69a21de3cd4f5c4c8068a77a0dfda018d1a",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "zynq/generic",
-  "titles": [
-    {
-      "model": "Zybo Z7",
-      "vendor": "Digilent"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "Zybo Z7", "vendor": "Digilent" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

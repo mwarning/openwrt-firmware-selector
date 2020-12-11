@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,29 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2"
-  ],
+  "device_packages": ["kmod-mt76x2"],
   "id": "iptime_a604m",
   "image_prefix": "openwrt-ramips-mt76x8-iptime_a604m",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-iptime_a604m-squashfs-sysupgrade.bin",
-      "sha256": "e7fb5b107f78eb56162a9a9cebacea12c7dbe5c8fb3b2a070603e70a13cd57ba",
+      "sha256": "d59e4137003b99850d0bbbff049552f4dc731d0b87e623a6832ca59680ead29c",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "iptime,a604m"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["iptime,a604m"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "A604M",
-      "vendor": "ipTIME"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "A604M", "vendor": "ipTIME" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

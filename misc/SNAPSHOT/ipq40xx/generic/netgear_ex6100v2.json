@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -52,27 +53,20 @@
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-netgear_ex6100v2-squashfs-sysupgrade.bin",
-      "sha256": "318255a8689c80c9c3fb2bdeb4f0c80a260d1cd7090038b742fa483e3f41f4ba",
+      "sha256": "070c43a7cc354b5a43ba92b97a1d09500356b725be79b432270a7f231acd751f",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ipq40xx-generic-netgear_ex6100v2-squashfs-factory.img",
-      "sha256": "73fd4c9ce48ed17f59c01c53682c1df6b54599871feb53daab4b2976c925202f",
+      "sha256": "2ce8fddc2d99b70b9da4cde8159c06fd7be5ee6bc7054f01c82f91d37b30c2d6",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,ex6100v2"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["netgear,ex6100v2"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "EX6100",
-      "variant": "v2",
-      "vendor": "Netgear"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EX6100", "variant": "v2", "vendor": "Netgear" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

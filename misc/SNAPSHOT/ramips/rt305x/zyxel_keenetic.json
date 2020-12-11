@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -46,22 +47,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-zyxel_keenetic-squashfs-sysupgrade.bin",
-      "sha256": "ab38356292a3e9d716d97f3449e7c6d924901a3944ceff7c396afecd7ff7f73f",
+      "sha256": "f84fba7ee55fdf14d945370deee65f39f59bd565811626b096c5d86ed7cf1487",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zyxel,keenetic",
-    "kn"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["zyxel,keenetic", "kn"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "Keenetic",
-      "vendor": "ZyXEL"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Keenetic", "vendor": "ZyXEL" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

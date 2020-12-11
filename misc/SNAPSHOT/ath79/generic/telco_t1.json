@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -50,22 +51,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-telco_t1-squashfs-sysupgrade.bin",
-      "sha256": "09470346fb2518e96a74492d7c48916cf31ffb6ef225a79a7fe32b93420d6ac5",
+      "sha256": "301dd6ee6f84e9e7bb24f92b9912234f8321660b12cb71c18bbd8deb8b909e55",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "telco,t1",
-    "telco_electronics,tel-t1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["telco,t1", "telco_electronics,tel-t1"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "T1",
-      "vendor": "Telco"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "T1", "vendor": "Telco" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

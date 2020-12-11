@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_cortex-a53",
-  "build_at": "2020-09-11 16:34:20",
+  "build_at": "2020-12-11 11:18:56",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -42,26 +43,20 @@
   "images": [
     {
       "name": "openwrt-sunxi-cortexa53-xunlong_orangepi-zero-plus-squashfs-sdcard.img.gz",
-      "sha256": "f2c375d2ac24c509661143e2d72f68bda8028ca15af85168f91c6f6e80ccfeab",
+      "sha256": "15116cd571c5d878e6ba0e4b3470d73ed146866100d0dea987e838c8330fd326",
       "type": "sdcard"
     },
     {
       "name": "openwrt-sunxi-cortexa53-xunlong_orangepi-zero-plus-ext4-sdcard.img.gz",
-      "sha256": "c9daabd4777e41c70ec0e445f76dad0e59ce56db60badb3cc5dfbf4dcbbc229b",
+      "sha256": "885d290dd4f81010f9ce49f22bd9d66804e748cf8491f42539dc7ff1e56513b6",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "xunlong,orangepi-zero-plus"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["xunlong,orangepi-zero-plus"],
   "target": "sunxi/cortexa53",
-  "titles": [
-    {
-      "model": "Orange Pi Zero Plus",
-      "vendor": "Xunlong"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "Orange Pi Zero Plus", "vendor": "Xunlong" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

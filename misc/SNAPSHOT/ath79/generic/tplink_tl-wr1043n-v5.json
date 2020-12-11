@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -42,29 +43,21 @@
   "image_prefix": "openwrt-ath79-generic-tplink_tl-wr1043n-v5",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_tl-wr1043n-v5-squashfs-factory.bin",
-      "sha256": "64ffb1ee4c9023be3b695ace0cd91a9f8580fa2f4e5c8dfca521746bf92bc8b9",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_tl-wr1043n-v5-squashfs-sysupgrade.bin",
+      "sha256": "51d1b373368e48746ebeeced4ccd06dbb3ac13544658cc24494c2f88fdfb1f34",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_tl-wr1043n-v5-squashfs-sysupgrade.bin",
-      "sha256": "310e8ae885997d6ccb5f86eae45807ff0ce4785a18586e87fc733694f8799ba6",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_tl-wr1043n-v5-squashfs-factory.bin",
+      "sha256": "203c7ee02bcd98acca638e957e2f8ca65511f8c37976ee42fa0369ccb0a60cb9",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wr1043n-v5",
-    "tl-wr1043n-v5"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,tl-wr1043n-v5", "tl-wr1043n-v5"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "TL-WR1043N",
-      "variant": "v5",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "TL-WR1043N", "variant": "v5", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

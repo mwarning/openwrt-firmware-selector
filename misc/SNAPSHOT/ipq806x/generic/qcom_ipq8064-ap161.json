@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a15_neon-vfpv4",
-  "build_at": "2020-09-11 16:48:36",
+  "build_at": "2020-12-11 13:59:29",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -56,34 +57,26 @@
     "wpad-basic-wolfssl",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "ath10k-firmware-qca99x0-ct"
-  ],
+  "device_packages": ["ath10k-firmware-qca99x0-ct"],
   "id": "qcom_ipq8064-ap161",
   "image_prefix": "openwrt-ipq806x-generic-qcom_ipq8064-ap161",
   "images": [
     {
       "name": "openwrt-ipq806x-generic-qcom_ipq8064-ap161-squashfs-nand-factory.bin",
-      "sha256": "23e2083a95bd74d2994698db0ff013ec798fb3e8369457ec515cdcac1a971b5c",
+      "sha256": "9935f2daea802120681392d5ca825b952f571ac64b50f02c21069adc97b81eb3",
       "type": "nand-factory"
     },
     {
       "name": "openwrt-ipq806x-generic-qcom_ipq8064-ap161-squashfs-nand-sysupgrade.bin",
-      "sha256": "9bda36c14fcea5dc313815538dacfb720c475a91403ad77c86778797dd78d83f",
+      "sha256": "2c86fee79ce19ebed865cd35f1450e3e305f1216a5e1fbbb3f9bf3087ef9f5d5",
       "type": "nand-sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "qcom,ipq8064-ap161"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["qcom,ipq8064-ap161"],
   "target": "ipq806x/generic",
-  "titles": [
-    {
-      "model": "AP161",
-      "vendor": "Qualcomm"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "AP161", "vendor": "Qualcomm" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

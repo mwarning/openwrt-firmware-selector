@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-ralink_mt7620a-mt7530-evb-squashfs-sysupgrade.bin",
-      "sha256": "69373803cd860300ceed714ac6970aad03f6896223d317698c4de05cda04461b",
+      "sha256": "c4cfc7cf68ea724ddede71ad59887fc7a39d6f1a63cfeb656563f2f72b888d8e",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ralink,mt7620a-mt7530-evb",
-    "mt7620a_mt7530"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ralink,mt7620a-mt7530-evb", "mt7620a_mt7530"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "MT7620a + MT7530 EVB",
-      "vendor": "MediaTek"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "MT7620a + MT7530 EVB", "vendor": "MediaTek" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

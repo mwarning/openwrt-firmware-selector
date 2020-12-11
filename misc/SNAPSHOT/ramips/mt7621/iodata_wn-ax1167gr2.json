@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -33,30 +34,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt7615e",
-    "kmod-mt7615-firmware"
-  ],
+  "device_packages": ["kmod-mt7615e", "kmod-mt7615-firmware"],
   "id": "iodata_wn-ax1167gr2",
   "image_prefix": "openwrt-ramips-mt7621-iodata_wn-ax1167gr2",
   "images": [
     {
       "name": "openwrt-ramips-mt7621-iodata_wn-ax1167gr2-squashfs-sysupgrade.bin",
-      "sha256": "2148828e5e68852e4c941d8ea3114da9238d8107e35574f5c7bb5593db9fcda1",
+      "sha256": "6fbf383bd22e1c8fa7b6a0a1b96fdde2ce6b1bf27c9c759f9133eb73e964da40",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "iodata,wn-ax1167gr2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["iodata,wn-ax1167gr2"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "WN-AX1167GR2",
-      "vendor": "I-O DATA"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WN-AX1167GR2", "vendor": "I-O DATA" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

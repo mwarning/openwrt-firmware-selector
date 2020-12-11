@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_xscale",
-  "build_at": "2020-09-11 23:18:05",
+  "build_at": "2020-12-11 21:22:17",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-usb2",
     "dnsmasq",
@@ -43,29 +44,21 @@
   "image_prefix": "openwrt-kirkwood-zyxel_nsa325",
   "images": [
     {
-      "name": "openwrt-kirkwood-zyxel_nsa325-squashfs-factory.bin",
-      "sha256": "1afcbb2328a434e139882e88c162237e13b6f77d70da90a272ab4b8a5ab5ce29",
-      "type": "factory"
+      "name": "openwrt-kirkwood-zyxel_nsa325-squashfs-sysupgrade.bin",
+      "sha256": "3204562cc3ca82e968ad333b5c65f4f20b43e56354fea1a60d5131a5cccadfbe",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-kirkwood-zyxel_nsa325-squashfs-sysupgrade.bin",
-      "sha256": "26d70d1b1a5f1ccb1ea4e8f7dd91bdd402a6edb6b067f5cac16b1deb040f9757",
-      "type": "sysupgrade"
+      "name": "openwrt-kirkwood-zyxel_nsa325-squashfs-factory.bin",
+      "sha256": "35866aadebf9fa6a8bed1e7ff40f8183453112cd10fcf62d664cf55f635c79f1",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zyxel,nsa325",
-    "nsa325"
-  ],
+  "source_date_epoch": "1607716416",
+  "supported_devices": ["zyxel,nsa325", "nsa325"],
   "target": "kirkwood/generic",
-  "titles": [
-    {
-      "model": "NSA325",
-      "variant": "v1/v2",
-      "vendor": "ZyXEL"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "NSA325", "variant": "v1/v2", "vendor": "ZyXEL" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

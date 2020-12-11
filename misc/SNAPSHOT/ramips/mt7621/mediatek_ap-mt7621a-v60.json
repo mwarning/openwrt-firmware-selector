@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,21 +45,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-mediatek_ap-mt7621a-v60-squashfs-sysupgrade.bin",
-      "sha256": "eece48f588d6628d1f4c83f61526c4cef94aa2cf6c94b21c10a6210005a0415b",
+      "sha256": "ff853d406bb0e6a2d113fc475eed6d5f11d514843d822fbbcd3b1ddd12f6ac9a",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "mediatek,ap-mt7621a-v60"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["mediatek,ap-mt7621a-v60"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "AP-MT7621A-V60 EVB",
-      "vendor": "Mediatek"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "AP-MT7621A-V60 EVB", "vendor": "Mediatek" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

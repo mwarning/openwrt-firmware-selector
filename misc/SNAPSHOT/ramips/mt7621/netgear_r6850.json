@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -45,36 +46,30 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-rootfs.bin",
-      "sha256": "dc73bf33cffec7abc8f8325e7d01224158bb7758c0e847684b0526add1c70159",
+      "sha256": "cc5aaa024f9788382a28fdfef52db93a742bab7ae90236125467da09043e34c6",
       "type": "rootfs"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-kernel.bin",
-      "sha256": "62e1383dee9aef8cb08757932b98db7798bc56b39ca2742d6f3bd9c9000491a8",
+      "sha256": "26e57ed038b42fd4fe1f7e3a0ac69b052dd5312462cc8d7080fc13dace9b32f0",
       "type": "kernel"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-sysupgrade.bin",
-      "sha256": "07be1e987ccc8ff0ce370d0275e5427d1d6fb8fe1f9d42077e5f9d9f222cc5e3",
+      "sha256": "73a109151091340094cebdf289478b66fafc5ac7657e53e8294f4bf74fbef31d",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_r6850-squashfs-factory.img",
-      "sha256": "e893b7ee223cfccbdcfc7b83aaee8e5375372584980459ec8be51dba78526fdb",
+      "sha256": "96d4df39ab6632c607b2f78730b0ae717f4bca73b6a59825b7a02e6f249f2eae",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,r6850"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,r6850"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "R6850",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "R6850", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -59,19 +60,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-netgear_r7000-squashfs.chk",
-      "sha256": "7ad48e93313e4c73703ec4e3b8fe8e980604533611343cdc9c37f9862ad72347",
+      "sha256": "1ae5e8fa87c417be42d5440bb25ea5c882c2e9c0e863b46817c182bf0af4e0c9",
       "type": "chk"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "R7000",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "R7000", "vendor": "NETGEAR" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

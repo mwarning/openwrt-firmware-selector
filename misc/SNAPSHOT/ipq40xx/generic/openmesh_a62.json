@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -46,35 +47,26 @@
     "kmod-usb-dwc3",
     "ath10k-firmware-qca4019-ct"
   ],
-  "device_packages": [
-    "ath10k-firmware-qca9888-ct",
-    "uboot-envtools"
-  ],
+  "device_packages": ["ath10k-firmware-qca9888-ct", "uboot-envtools"],
   "id": "openmesh_a62",
   "image_prefix": "openwrt-ipq40xx-generic-openmesh_a62",
   "images": [
     {
-      "name": "openwrt-ipq40xx-generic-openmesh_a62-squashfs-sysupgrade.bin",
-      "sha256": "5d08bb6c8f1b1ca7893ae74d39080f5239a6f55f5d062fda751ddfbf8c402c22",
-      "type": "sysupgrade"
+      "name": "openwrt-ipq40xx-generic-openmesh_a62-squashfs-factory.bin",
+      "sha256": "a75bcd65f95c26b16f31b71f2cf84a9cbdda6ce2b6fe1254e636acfaf022d43c",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ipq40xx-generic-openmesh_a62-squashfs-factory.bin",
-      "sha256": "78ce98abd030ac539092b21fbe1845dc96615cb307a029beb3f2356da3744267",
-      "type": "factory"
+      "name": "openwrt-ipq40xx-generic-openmesh_a62-squashfs-sysupgrade.bin",
+      "sha256": "b7f15067163544f124c6c7ca93fc745b66850898450006b8c96f98365c946b57",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "openmesh,a62"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["openmesh,a62"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "A62",
-      "vendor": "OpenMesh"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "A62", "vendor": "OpenMesh" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

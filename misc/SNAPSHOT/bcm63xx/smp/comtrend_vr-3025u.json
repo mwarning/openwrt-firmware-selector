@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 16:37:12",
+  "build_at": "2020-12-11 03:30:55",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -44,25 +45,21 @@
   "image_prefix": "openwrt-bcm63xx-smp-comtrend_vr-3025u",
   "images": [
     {
-      "name": "openwrt-bcm63xx-smp-comtrend_vr-3025u-squashfs-sysupgrade.bin",
-      "sha256": "914513f89a814166dac0d00cc488c9a173b70a420e2773459a2d6b9ed8d12468",
-      "type": "sysupgrade"
+      "name": "openwrt-bcm63xx-smp-comtrend_vr-3025u-squashfs-cfe.bin",
+      "sha256": "d3d89738a71bec12140f5f7a0e7d5fdb5dee6bdf32b306d1c273792be323d0cc",
+      "type": "cfe"
     },
     {
-      "name": "openwrt-bcm63xx-smp-comtrend_vr-3025u-squashfs-cfe.bin",
-      "sha256": "d35a5cce45903465ce98ce4685acf03dcd66822474ac627900ae64799b3a099b",
-      "type": "cfe"
+      "name": "openwrt-bcm63xx-smp-comtrend_vr-3025u-squashfs-sysupgrade.bin",
+      "sha256": "cb479a8de16b6382d3857f03ebbfcd1192c3b6a8bdb7d293464843c2648904d5",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm63xx/smp",
-  "titles": [
-    {
-      "model": "VR-3025u",
-      "vendor": "Comtrend"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "VR-3025u", "vendor": "Comtrend" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

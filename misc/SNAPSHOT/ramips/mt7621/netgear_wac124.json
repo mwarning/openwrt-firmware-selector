@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -45,36 +46,30 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-netgear_wac124-squashfs-factory.img",
-      "sha256": "7017b80aa3040ef77fc60fbfa0331aa1bf60ff7ab0d7cdbbb8fc19617d1b4c56",
+      "sha256": "5cb4554202d2141cf018228e41cfbf5f54291ed37ac495feba3335932cb4db5a",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_wac124-squashfs-sysupgrade.bin",
-      "sha256": "842a7b97704599c6a9fecf29bf534000a3a991c5e998a86d9ac020e5cb129a91",
+      "sha256": "c8acaa953405802866a3eef5adf31a712c542aaaaf068660317e6ca9657cbd26",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_wac124-squashfs-kernel.bin",
-      "sha256": "78f588d93c1d17124801458ad15897ed91f4073fa4bfb6fec7fe06829deec991",
+      "sha256": "fb77b12528c3eb4a4e4e1d0763c0b1881a02c0075d59a4ec4d746fb3cd4dab8c",
       "type": "kernel"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_wac124-squashfs-rootfs.bin",
-      "sha256": "dc73bf33cffec7abc8f8325e7d01224158bb7758c0e847684b0526add1c70159",
+      "sha256": "cc5aaa024f9788382a28fdfef52db93a742bab7ae90236125467da09043e34c6",
       "type": "rootfs"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,wac124"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,wac124"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "WAC124",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WAC124", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

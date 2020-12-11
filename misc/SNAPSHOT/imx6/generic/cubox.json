@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9_neon",
-  "build_at": "2020-09-11 18:47:39",
+  "build_at": "2020-12-11 01:55:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "mkf2fs",
     "e2fsprogs",
@@ -36,29 +37,21 @@
     "e2fsprogs",
     "blkid"
   ],
-  "device_packages": [
-    "kmod-drm-imx",
-    "kmod-drm-imx-hdmi",
-    "kmod-usb-hid"
-  ],
+  "device_packages": ["kmod-drm-imx", "kmod-drm-imx-hdmi", "kmod-usb-hid"],
   "id": "cubox",
   "image_prefix": "openwrt-imx6-cubox-i",
   "images": [
     {
       "name": "openwrt-imx6-cubox-i-squashfs-combined.bin",
-      "sha256": "cbbc5581bf9c89473e3187569d34e8eabb417387be06803478aaee392d0d0681",
+      "sha256": "4aba5d1ee8fa88e3da109ec43cc102a2d8fb24e216a4db9f59113be59927abf9",
       "type": "combined"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "imx6/generic",
-  "titles": [
-    {
-      "model": "CuBox-i",
-      "vendor": "SolidRun"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "CuBox-i", "vendor": "SolidRun" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

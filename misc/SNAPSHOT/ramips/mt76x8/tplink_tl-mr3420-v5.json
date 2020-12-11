@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,37 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci", "kmod-usb-ledtrig-usbport"],
   "id": "tplink_tl-mr3420-v5",
   "image_prefix": "openwrt-ramips-mt76x8-tplink_tl-mr3420-v5",
   "images": [
     {
-      "name": "openwrt-ramips-mt76x8-tplink_tl-mr3420-v5-squashfs-sysupgrade.bin",
-      "sha256": "8018c469a589b7cf501fad727c1e69d2d26cd9cb209ba2d3ce8882dc6bc241d9",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-mt76x8-tplink_tl-mr3420-v5-squashfs-tftp-recovery.bin",
+      "sha256": "ffe41cbba5a123d72a5c1f37f1d3b73fc4e2ec5f1e5d3fa90b793c54a43e75b3",
+      "type": "tftp-recovery"
     },
     {
-      "name": "openwrt-ramips-mt76x8-tplink_tl-mr3420-v5-squashfs-tftp-recovery.bin",
-      "sha256": "b6e0b60d2caec71ad87d3b09b29fb41f8b426581d46910448bdcb1c9da67ba64",
-      "type": "tftp-recovery"
+      "name": "openwrt-ramips-mt76x8-tplink_tl-mr3420-v5-squashfs-sysupgrade.bin",
+      "sha256": "eec57879b350c5cfa3d6d1c78a279f11bb2d22aa70257e1f23aa29abc6c5e3dc",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-mr3420-v5"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["tplink,tl-mr3420-v5"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "TL-MR3420",
-      "variant": "v5",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "TL-MR3420", "variant": "v5", "vendor": "TP-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

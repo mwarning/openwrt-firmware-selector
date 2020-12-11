@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,34 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2"
-  ],
+  "device_packages": ["kmod-mt76x2"],
   "id": "netgear_r6080",
   "image_prefix": "openwrt-ramips-mt76x8-netgear_r6080",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-netgear_r6080-squashfs-factory.img",
-      "sha256": "7e7404c8def7c4815019e9f492e7246d43e57068876e2dd434680e3d94be841f",
+      "sha256": "5aa8e7272f43464f894c201e97f15e3b5a28c4f31109a4114a94df5dfc7b49c1",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt76x8-netgear_r6080-squashfs-sysupgrade.bin",
-      "sha256": "93661366902a96cc587e0c5c6fc76f981cf310fa29cc02a8601ac312a53a1af5",
+      "sha256": "db6c4bcf9c3a2a76643fd0e6b46d0af1fea2ee7700db17f020fe7605dbb02f72",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,r6080"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["netgear,r6080"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "R6080",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "R6080", "vendor": "NETGEAR" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

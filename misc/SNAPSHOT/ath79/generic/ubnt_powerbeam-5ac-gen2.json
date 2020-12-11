@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -47,27 +48,22 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_powerbeam-5ac-gen2-squashfs-factory.bin",
-      "sha256": "82763d567f9a96733b87278fb976d5dfbcc60c283aac3497f6a94601318b3b6f",
+      "sha256": "26f0c95be117f5708df38dc3786da634a34668b9a40c04d4472ed761b1278208",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-ubnt_powerbeam-5ac-gen2-squashfs-sysupgrade.bin",
-      "sha256": "8ea3f3a871ec569711a134891e1d04f37b5fce17b42bb375b18de8cfff5151d6",
+      "sha256": "b396f94c634550a8de319dec28d78aaa065b5ca9b5baf8d1e8ce093b6def38a1",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ubnt,powerbeam-5ac-gen2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ubnt,powerbeam-5ac-gen2"],
   "target": "ath79/generic",
   "titles": [
-    {
-      "model": "PowerBeam 5AC",
-      "variant": "Gen2",
-      "vendor": "Ubiquiti"
-    }
+    { "model": "PowerBeam 5AC", "variant": "Gen2", "vendor": "Ubiquiti" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

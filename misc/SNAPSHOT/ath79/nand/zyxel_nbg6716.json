@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 17:37:26",
+  "build_at": "2020-12-11 03:05:41",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -47,32 +48,26 @@
   "image_prefix": "openwrt-ath79-nand-zyxel_nbg6716",
   "images": [
     {
-      "name": "openwrt-ath79-nand-zyxel_nbg6716-squashfs-factory.bin",
-      "sha256": "825072c4788951e6df908fdf6cc143d56239ce1592bad0a66dc940d2bb838e9c",
-      "type": "factory"
-    },
-    {
       "name": "openwrt-ath79-nand-zyxel_nbg6716-squashfs-sysupgrade-4M-Kernel.bin",
-      "sha256": "9b360eb5e500abe77bdd64e3a6b9d41aca9e72bdca0e9d36ebe73e9a482c167b",
+      "sha256": "01ee1d814c21cadf40eaafbd4b152da30f296fcced71b3a07641cc79bc618253",
       "type": "sysupgrade-4M-Kernel"
     },
     {
+      "name": "openwrt-ath79-nand-zyxel_nbg6716-squashfs-factory.bin",
+      "sha256": "fe9952d6423505b7a8b195f40fdbf25f4f06e4589c32895299a0c1ad9489a818",
+      "type": "factory"
+    },
+    {
       "name": "openwrt-ath79-nand-zyxel_nbg6716-squashfs-sysupgrade.tar",
-      "sha256": "70b333af0bd676aeacdad72e6619ccd8b334eb28168af0590444ed19f90cb4cc",
+      "sha256": "0acc0d45683d875774d5b063bfc654d3c60437176eb320dd116b36371b5417a2",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zyxel,nbg6716"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["zyxel,nbg6716"],
   "target": "ath79/nand",
-  "titles": [
-    {
-      "model": "NBG6716",
-      "vendor": "ZyXEL"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "NBG6716", "vendor": "ZyXEL" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

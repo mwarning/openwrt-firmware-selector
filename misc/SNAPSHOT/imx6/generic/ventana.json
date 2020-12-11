@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9_neon",
-  "build_at": "2020-09-11 18:47:39",
+  "build_at": "2020-12-11 01:55:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "mkf2fs",
     "e2fsprogs",
@@ -54,21 +55,22 @@
   "images": [
     {
       "name": "openwrt-imx6-ventana-large-squashfs-nand.ubi",
-      "sha256": "3fe626bdc628517f9303b390879ead94b53c4b069f065e4fdf86fa4552d79781",
+      "sha256": "be4c6a55697829c743cacb3518614d13585177fca927ffa048f587fc201b74e1",
       "type": "nand"
     },
     {
       "name": "openwrt-imx6-ventana-squashfs-bootfs.tar.gz",
-      "sha256": "3d470e18a1aa857d108d7719e2c96dd16387a390ff5a3466a44f1c539f36268e",
+      "sha256": "b15dbee11cb3b32305ed84f05c19e528ab27279f9c3e5a8b75e847a5c20375ce",
       "type": "bootfs"
     },
     {
       "name": "openwrt-imx6-ventana-squashfs-nand.ubi",
-      "sha256": "2b1a9f387242d6f0e410c7f7e7bc021cd3e7f73e594e3b4f3939309ee7bc9a69",
+      "sha256": "94caffa8405c694b5713eb4618eb827ccccb87605660683792933764209101fa",
       "type": "nand"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "imx6/generic",
   "titles": [
@@ -78,6 +80,6 @@
       "vendor": "Gateworks"
     }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

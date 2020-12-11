@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -51,22 +52,20 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_routerstation-squashfs-factory.bin",
-      "sha256": "8aa2082f05c3a03a986ec4417d625cf989a1559aa0b5427c823ad9625cb35110",
+      "sha256": "7485018f4078e73f218ac755766940affd0038b9592acd244f855b6b3f1109d0",
       "type": "factory"
+    },
+    {
+      "name": "openwrt-ath79-generic-ubnt_routerstation-squashfs-sysupgrade.bin",
+      "sha256": "78cb0e5ec102cf760e3bc8d2d7b1bf28dfd62c42d40654993ab1525eb2d62045",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ubnt,routerstation",
-    "routerstation"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ubnt,routerstation", "routerstation"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "RouterStation",
-      "vendor": "Ubiquiti"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RouterStation", "vendor": "Ubiquiti" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

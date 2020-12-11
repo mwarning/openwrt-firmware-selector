@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-nexaira_bc2-squashfs-sysupgrade.bin",
-      "sha256": "57ca444b991170af7a802bde3535906b6302714d687133b7bd46f67e49b3bc33",
+      "sha256": "cf5a6aae04772b98ff3164d056421b275728cc33dc3d2d2411eadb54a7d11135",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "nexaira,bc2",
-    "bc2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["nexaira,bc2", "bc2"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "BC2",
-      "vendor": "NexAira"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "BC2", "vendor": "NexAira" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

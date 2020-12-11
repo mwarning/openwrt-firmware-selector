@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -45,11 +46,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-mqmaker_witi-squashfs-sysupgrade.bin",
-      "sha256": "76ada856a7a6f6b473368cb8ce849273261ca450f6e8a24c93115e14dbb20e30",
+      "sha256": "c14c3a0c16467fb809321af621be3447042c90cf3660abe032e24169517db447",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [
     "mqmaker,witi",
     "witi",
@@ -57,12 +59,7 @@
     "mqmaker,witi-512m"
   ],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "WiTi",
-      "vendor": "MQmaker"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WiTi", "vendor": "MQmaker" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

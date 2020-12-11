@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 16:37:12",
+  "build_at": "2020-12-11 03:30:55",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,25 +46,18 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-smp-d-link_dsl-275xb-d1-squashfs-cfe.bin",
-      "sha256": "67e632f222843ab6c312ab86d553f009b754c30bb073d55caa0c827ef280154a",
+      "sha256": "aca2856af61e7d8a7169be8838290e4a2a95241501a6e128eb7e8a97606dc1bd",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm63xx/smp",
   "titles": [
-    {
-      "model": "DSL-2750B",
-      "variant": "D1",
-      "vendor": "D-Link"
-    },
-    {
-      "model": "DSL-2751",
-      "variant": "D1",
-      "vendor": "D-Link"
-    }
+    { "model": "DSL-2750B", "variant": "D1", "vendor": "D-Link" },
+    { "model": "DSL-2751", "variant": "D1", "vendor": "D-Link" }
   ],
-  "version_code": "r14447-2e6c236abd",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

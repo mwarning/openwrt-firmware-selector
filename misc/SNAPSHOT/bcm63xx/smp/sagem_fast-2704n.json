@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 16:37:12",
+  "build_at": "2020-12-11 03:30:55",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,19 +46,15 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-smp-sagem_fast-2704n-squashfs-cfe.bin",
-      "sha256": "b503a491b361d1ed1575058ab17cb230d5db173b34de6b70d4b02839077f37ea",
+      "sha256": "e6146a0cffe16f7567fbb549758aaa16b80e6ae3a00df192bcce820fa33b913a",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm63xx/smp",
-  "titles": [
-    {
-      "model": "F@st 2704N",
-      "vendor": "Sagemcom"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "F@st 2704N", "vendor": "Sagemcom" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

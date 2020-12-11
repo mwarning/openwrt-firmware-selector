@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 21:54:15",
+  "build_at": "2020-12-11 13:06:15",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "ltq-vdsl-vr9-vectoring-fw-installer",
@@ -54,21 +55,15 @@
   "images": [
     {
       "name": "openwrt-lantiq-xrx200-avm_fritz7412-squashfs-sysupgrade.bin",
-      "sha256": "379766a70e0af75e49a89cde5df1bc63a3d5643ddb29bb50c5478deabf4e6dc5",
+      "sha256": "bcb48b397ea239c04c1d529e5566967cf36fd65aa0696e6d69fc19b49a7a2581",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "avm,fritz7412"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["avm,fritz7412"],
   "target": "lantiq/xrx200",
-  "titles": [
-    {
-      "model": "FRITZ!Box 7412",
-      "vendor": "AVM"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "FRITZ!Box 7412", "vendor": "AVM" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

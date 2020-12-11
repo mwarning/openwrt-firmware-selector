@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,31 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "-iwinfo",
-    "-kmod-ath9k",
-    "-wpad-basic-wolfssl"
-  ],
+  "device_packages": ["-iwinfo", "-kmod-ath9k", "-wpad-basic-wolfssl"],
   "id": "iodata_etg3-r",
   "image_prefix": "openwrt-ath79-generic-iodata_etg3-r",
   "images": [
     {
       "name": "openwrt-ath79-generic-iodata_etg3-r-squashfs-sysupgrade.bin",
-      "sha256": "0ab6deddfef660dc06fdc396668f13356ea31fb62901bc71a5ac53a2a9ddb5fe",
+      "sha256": "6ad7fe315e2590ecc94f5da4240f05c86de28fabd54df45bd95a1a1a5efa30b9",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "iodata,etg3-r"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["iodata,etg3-r"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "ETG3-R",
-      "vendor": "I-O DATA"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "ETG3-R", "vendor": "I-O DATA" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

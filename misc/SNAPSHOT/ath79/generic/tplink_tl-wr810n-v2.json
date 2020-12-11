@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -43,28 +44,20 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr810n-v2-squashfs-factory.bin",
-      "sha256": "b28773453496b640d910c91242a2a592f3b9e94650ac16b633b032bfb554a761",
+      "sha256": "7c6765098d35a8cea2615e7dd9c26ab236069c36000300f9dd5ed716d957e96f",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr810n-v2-squashfs-sysupgrade.bin",
-      "sha256": "99d53d45454a90b0beaa8701f0c33a9b4a4f4b4807f984b0d164c51af1ab06c3",
+      "sha256": "fcdc25231d37ec685b7438a6ad7e548e67b702fe1fdcfb921f41ab7f2015fbdf",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wr810n-v2",
-    "tl-wr810n-v2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,tl-wr810n-v2", "tl-wr810n-v2"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "TL-WR810N",
-      "variant": "v2",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "TL-WR810N", "variant": "v2", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

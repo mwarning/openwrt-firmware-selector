@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,32 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca988x-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca988x-ct"],
   "id": "ubnt_unifiac-lr",
   "image_prefix": "openwrt-ath79-generic-ubnt_unifiac-lr",
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_unifiac-lr-squashfs-sysupgrade.bin",
-      "sha256": "73d8742ee4f5d4422b1a1b407a2094686ae0ecdfd0b6af35f06da1772bff9daa",
+      "sha256": "3e9f5427e727cf750dbe9fdfae4867c327ec9000f98f27bbbc49151ffdc08693",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ubnt,unifiac-lr",
-    "unifiac-lite",
-    "ubnt,unifiac-lite"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ubnt,unifiac-lr", "unifiac-lite", "ubnt,unifiac-lite"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "UniFi AC LR",
-      "vendor": "Ubiquiti"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "UniFi AC LR", "vendor": "Ubiquiti" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

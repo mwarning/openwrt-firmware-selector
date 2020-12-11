@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,33 +36,25 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb-dwc2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb-dwc2", "kmod-usb-ledtrig-usbport"],
   "id": "alphanetworks_asl26555-16m",
   "image_prefix": "openwrt-ramips-rt305x-alphanetworks_asl26555-16m",
   "images": [
     {
       "name": "openwrt-ramips-rt305x-alphanetworks_asl26555-16m-squashfs-sysupgrade.bin",
-      "sha256": "a6845a2966a203c5fc9354161200d58adede25ea9e8911104951e3cf1f189d45",
+      "sha256": "8917fc8090a8977a21bf38becaeb1999c1d4ce6b1c5be6d5f540f6c9ceafce10",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [
     "alphanetworks,asl26555-16m",
     "asl26555",
     "asl26555-16M"
   ],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "ASL26555",
-      "variant": "16M",
-      "vendor": "Alpha"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "ASL26555", "variant": "16M", "vendor": "Alpha" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

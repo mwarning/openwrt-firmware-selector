@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -46,19 +47,15 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-actiontec_r1000h-squashfs-cfe.bin",
-      "sha256": "818617e6bf77c7a74896795a2c4bcb4cda1c6ce2eaff566305ec1771be0ed5de",
+      "sha256": "838fa509e65b6d488a229a0be9c91f16c80478e4352f7a1040a9c8b66bbb9552",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
-  "titles": [
-    {
-      "model": "R1000H",
-      "vendor": "Actiontec"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "R1000H", "vendor": "Actiontec" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

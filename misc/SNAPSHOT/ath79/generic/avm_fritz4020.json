@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,30 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "fritz-tffs"
-  ],
+  "device_packages": ["fritz-tffs"],
   "id": "avm_fritz4020",
   "image_prefix": "openwrt-ath79-generic-avm_fritz4020",
   "images": [
     {
       "name": "openwrt-ath79-generic-avm_fritz4020-squashfs-sysupgrade.bin",
-      "sha256": "0b7c030d50dfdb5bd7e3fd09d4a4495db394f0e45d88c801f1f0f7a4908f111c",
+      "sha256": "0c9b0d3ca0027ab998fc2018f83d71687434fc76e5e80a923630f980a5ffb992",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "avm,fritz4020",
-    "fritz4020"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["avm,fritz4020", "fritz4020"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "FRITZ!Box 4020",
-      "vendor": "AVM"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "FRITZ!Box 4020", "vendor": "AVM" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

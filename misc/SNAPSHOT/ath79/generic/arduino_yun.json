@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -38,7 +39,6 @@
     "uboot-envtools"
   ],
   "device_packages": [
-    "kmod-usb2",
     "kmod-usb-chipidea2",
     "kmod-usb-ledtrig-usbport",
     "kmod-usb-storage",
@@ -50,22 +50,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-arduino_yun-squashfs-sysupgrade.bin",
-      "sha256": "7629ad2ee04389dfd23c1c49448e1386e5d1fcf3ba04bfd25d1ecfaa2d990352",
+      "sha256": "b732c79f8cc45ff5557a6336621be8e3bef94d70f4d480aee86034378ee53773",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "arduino,yun",
-    "arduino-yun"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["arduino,yun", "arduino-yun"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Yun",
-      "vendor": "Arduino"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Yun", "vendor": "Arduino" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

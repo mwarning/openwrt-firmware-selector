@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -49,23 +50,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-dlink_dir-825-b1-squashfs-sysupgrade.bin",
-      "sha256": "a842897b53a2960d5ef6a0f45bd5f1ec98ab9fc429b4cf5259a98d43b8885c00",
+      "sha256": "551c964f2eab894e2975600cde0c6b93228ca6f77c7fb5b4266cf49471713ea3",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dir-825-b1",
-    "dir-825-b1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dir-825-b1", "dir-825-b1"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "DIR-825",
-      "variant": "B1",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DIR-825", "variant": "B1", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

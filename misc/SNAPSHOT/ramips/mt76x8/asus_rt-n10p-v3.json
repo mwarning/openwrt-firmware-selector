@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-asus_rt-n10p-v3-squashfs-sysupgrade.bin",
-      "sha256": "58134967f72fd47adbfe2ee53c4bff473765b3fa27a92c788b0bda97e61a2505",
+      "sha256": "ec1f9505307b1af1004617cdf101241af5b5e0623ae05df528883c1b42fba4a8",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "asus,rt-n10p-v3"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["asus,rt-n10p-v3"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "RT-N10P",
-      "variant": "V3",
-      "vendor": "Asus"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "RT-N10P", "variant": "V3", "vendor": "Asus" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

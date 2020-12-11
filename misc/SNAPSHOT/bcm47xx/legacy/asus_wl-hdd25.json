@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,29 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43",
-    "kmod-b43legacy",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-b43", "kmod-b43legacy", "kmod-usb-ohci"],
   "id": "asus_wl-hdd25",
   "image_prefix": "openwrt-bcm47xx-legacy-asus_wl-hdd25",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-asus_wl-hdd25-squashfs.trx",
-      "sha256": "5a66ebf5406e15741eb6e86b28a039701fa77e93837bf413d7f62fc9e9ec9627",
+      "sha256": "a74fbc2c97f0cce754f26c08700184bea7de59230c479636a5c5dca4f1b7d4fe",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "WL-HDD25",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WL-HDD25", "vendor": "ASUS" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

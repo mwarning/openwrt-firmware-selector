@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_arm926ej-s",
-  "build_at": "2020-09-10 20:46:39",
+  "build_at": "2020-12-11 10:56:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-ohci",
     "kmod-at91-udc",
     "kmod-usb-gadget-eth",
@@ -40,26 +41,20 @@
   "images": [
     {
       "name": "openwrt-at91-sam9x-calao_usb-a9g20-squashfs-factory.bin",
-      "sha256": "f22f73ec148cd07ae8a1df16806649c4dd1b7c48f83bf606a3a0f9948ed342c7",
+      "sha256": "44354ff15947922438a487f4e5ee052e22de00522fa84050db304877354d969c",
       "type": "factory"
     },
     {
       "name": "openwrt-at91-sam9x-calao_usb-a9g20-ubifs-factory.bin",
-      "sha256": "36c94c6ec301e3ac2f99a41e94f50db8c8102c466e2032b822cb126f577b043e",
+      "sha256": "0ff46675b42a077e3325df3f3517e744be36155716ae82ac6985d007b4bc51a4",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "calao,usb-a9g20"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["calao,usb-a9g20"],
   "target": "at91/sam9x",
-  "titles": [
-    {
-      "model": "USB A9G20",
-      "vendor": "Calao"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "USB A9G20", "vendor": "Calao" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

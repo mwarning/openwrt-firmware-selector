@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_mpcore",
-  "build_at": "2020-09-12 00:15:28",
+  "build_at": "2020-12-11 10:26:25",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-button-hotplug",
     "kmod-input-gpio-keys-polled",
     "kmod-ledtrig-timer",
@@ -46,37 +47,32 @@
   "images": [
     {
       "name": "openwrt-oxnas-ox820-cloudengines_pogoplugpro-squashfs-sysupgrade.tar",
-      "sha256": "852d01a904eb7b2d7b845862439d29fb025c7130326bab0e11af3fa73f781584",
+      "sha256": "77cd1511aea21aa53c31cafac254bf0774c6cb6a8b743784645c24bf542700b5",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-oxnas-ox820-cloudengines_pogoplugpro-squashfs-ubinized.bin",
-      "sha256": "3e6414cb6d19aceea1e8dfe83b27e568207636c30f7349c1fb9902c4f8c4ba6a",
+      "sha256": "013d7cbc3a2d62b668944ecd81e113faae2750d76cdb9f7e887a1323561e47ee",
+      "type": "ubinized"
+    },
+    {
+      "name": "openwrt-oxnas-ox820-cloudengines_pogoplugpro-ubifs-ubinized.bin",
+      "sha256": "afcd618303b38e358642e0b2cf8fd7ea8749657219666299cb09dbee77f808c5",
       "type": "ubinized"
     },
     {
       "name": "openwrt-oxnas-ox820-cloudengines_pogoplugpro-ubifs-sysupgrade.tar",
-      "sha256": "bd86388996b9c792befcd83340fa1ffb6e12d2a04f2f703563f73843fab3b48e",
+      "sha256": "3fbce3c516e52041b70aaedc013d9916d6f0a32181469b361ed5cd5dcfe6634c",
       "type": "sysupgrade"
-    },
-    {
-      "name": "openwrt-oxnas-ox820-cloudengines_pogoplugpro-ubifs-ubinized.bin",
-      "sha256": "3ae688295dc9ced5180887c520b1779b022926e22310bf10f2bdf5eab5298197",
-      "type": "ubinized"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "cloudengines,pogoplugpro",
-    "pogoplug-pro"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["cloudengines,pogoplugpro", "pogoplug-pro"],
   "target": "oxnas/ox820",
   "titles": [
-    {
-      "model": "PogoPlug Pro (with mPCIe)",
-      "vendor": "Cloud Engines"
-    }
+    { "model": "PogoPlug Pro (with mPCIe)", "vendor": "Cloud Engines" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

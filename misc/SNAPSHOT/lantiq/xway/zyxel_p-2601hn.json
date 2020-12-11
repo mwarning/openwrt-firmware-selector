@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -49,23 +50,15 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-zyxel_p-2601hn-squashfs-sysupgrade.bin",
-      "sha256": "dffef1735c56e80a341681e92e6ad3dfd41936c960a050ef803c91a383948e30",
+      "sha256": "c947440d888fef688ea9bc80f22c932137947a36ca4e0c316d9a8952e3fb7e80",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zyxel,p-2601hn",
-    "P2601HNFX"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["zyxel,p-2601hn", "P2601HNFX"],
   "target": "lantiq/xway",
-  "titles": [
-    {
-      "model": "P-2601HN",
-      "variant": "F1/F3",
-      "vendor": "ZyXEL"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "P-2601HN", "variant": "F1/F3", "vendor": "ZyXEL" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

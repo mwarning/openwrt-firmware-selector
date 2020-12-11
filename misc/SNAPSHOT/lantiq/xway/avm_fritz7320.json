@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -51,26 +52,18 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-avm_fritz7320-squashfs-sysupgrade.bin",
-      "sha256": "eebc95d1efac7e5e6d4473140f251db510c0f9be1015c59b221b0ae462b010d3",
+      "sha256": "f2b45868e98e39f7d7c228a1379a893a62aa25cd926a5d706b59ca4851db9c7a",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "avm,fritz7320",
-    "FRITZ7320"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["avm,fritz7320", "FRITZ7320"],
   "target": "lantiq/xway",
   "titles": [
-    {
-      "model": "FRITZ!Box 7320",
-      "vendor": "AVM"
-    },
-    {
-      "model": "HomeServer",
-      "vendor": "1&1"
-    }
+    { "model": "FRITZ!Box 7320", "vendor": "AVM" },
+    { "model": "HomeServer", "vendor": "1&1" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

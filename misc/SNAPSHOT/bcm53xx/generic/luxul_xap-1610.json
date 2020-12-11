@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -57,19 +58,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-luxul_xap-1610-squashfs.lxl",
-      "sha256": "656bc0709c638d636259c7316117e43e37f17794b4e84c23a4247b835f4710f3",
+      "sha256": "60480d3e994636d57c2e575de14dba9f81e3da21f1b8ea2e9bc9374e5c7623cc",
       "type": "lxl"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "XAP-1610",
-      "vendor": "Luxul"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "XAP-1610", "vendor": "Luxul" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

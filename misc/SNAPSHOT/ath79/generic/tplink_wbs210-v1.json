@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,36 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "rssileds"
-  ],
+  "device_packages": ["rssileds"],
   "id": "tplink_wbs210-v1",
   "image_prefix": "openwrt-ath79-generic-tplink_wbs210-v1",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_wbs210-v1-squashfs-sysupgrade.bin",
-      "sha256": "ee83c117280ce9657bdfa519e5e64fee6a9443d076c8b6f1e26c44e1974c56c0",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_wbs210-v1-squashfs-factory.bin",
+      "sha256": "422cb358cd960dbf6c74a661dede6aefc1541f325a347b540e103676ebcddc83",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_wbs210-v1-squashfs-factory.bin",
-      "sha256": "c2dd47fec1e248e304458b85c0d05d8e8d57a22a733a10f2e39f5cae27811715",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_wbs210-v1-squashfs-sysupgrade.bin",
+      "sha256": "6a0dbb52b28bd583250ac5a599af713dc824bfcce958f0852d9650f7d65db433",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,wbs210-v1",
-    "wbs210"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,wbs210-v1", "wbs210"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WBS210",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WBS210", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_xscale",
-  "build_at": "2020-09-11 23:18:05",
+  "build_at": "2020-12-11 21:22:17",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-usb2",
     "dnsmasq",
@@ -43,26 +44,20 @@
   "images": [
     {
       "name": "openwrt-kirkwood-iom_ix2-200-squashfs-factory.bin",
-      "sha256": "473e3845252c5b40918d1fa5105ccbf53273d7c3f6b094942efae2b1f09cfb90",
+      "sha256": "8a07a71a0875bbbee7c4b32c7e266022751cacd2afdd21506bc881e0f74b2235",
       "type": "factory"
     },
     {
       "name": "openwrt-kirkwood-iom_ix2-200-squashfs-sysupgrade.bin",
-      "sha256": "b240a20c286f2b7f7dd443717b516dd8ce35dc8cf01b96f5ac729e385e9b0ac6",
+      "sha256": "f7e16d41f07ecd2be05e0e9b3ef1a5d9ef84236a8bde209746b7e151d56049db",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "iom,ix2-200"
-  ],
+  "source_date_epoch": "1607716416",
+  "supported_devices": ["iom,ix2-200"],
   "target": "kirkwood/generic",
-  "titles": [
-    {
-      "model": "StorCenter ix2-200",
-      "vendor": "Iomega"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "StorCenter ix2-200", "vendor": "Iomega" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

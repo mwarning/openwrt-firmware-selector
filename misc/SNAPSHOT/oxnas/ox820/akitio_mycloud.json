@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_mpcore",
-  "build_at": "2020-09-12 00:15:28",
+  "build_at": "2020-12-11 10:26:25",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-button-hotplug",
     "kmod-input-gpio-keys-polled",
     "kmod-ledtrig-timer",
@@ -45,37 +46,30 @@
   "images": [
     {
       "name": "openwrt-oxnas-ox820-akitio_mycloud-squashfs-sysupgrade.tar",
-      "sha256": "fc87f8865853cce4ff99d2f5e48b1cf7082dbbfb22779df70956bea0e15e2fa4",
+      "sha256": "43c8fe620f55785807edcc4db0154b2323de0da93539a035c991622022652850",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-oxnas-ox820-akitio_mycloud-squashfs-ubinized.bin",
-      "sha256": "792abb05636d1e7d3fc4a59b1542b64980b005bc331f682e293b9468fe1ea37f",
+      "sha256": "0d646af97e7f40790be4912c8d17a846dc411ca7494f22cf92064a8e5018753e",
       "type": "ubinized"
     },
     {
       "name": "openwrt-oxnas-ox820-akitio_mycloud-ubifs-sysupgrade.tar",
-      "sha256": "91d86c8a75fcb92490650a83f203fd92d7f999c8b1dc3916ead12e26b8d2128c",
+      "sha256": "2990e8009e0e1e61558a6ae277581ce3d50ab895613e780ae6db37573396eeff",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-oxnas-ox820-akitio_mycloud-ubifs-ubinized.bin",
-      "sha256": "9eadb8fe14becbc209c1b4ccba3f389d31ac34fa9dbf561f1cd4a67e93545448",
+      "sha256": "01690d31d847c26c4d63d7369c257251e60fabfb62afa8c5f6b684b93e16e7f2",
       "type": "ubinized"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "akitio,mycloud",
-    "akitio"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["akitio,mycloud", "akitio"],
   "target": "oxnas/ox820",
-  "titles": [
-    {
-      "model": "MyCloud Mini",
-      "vendor": "Akitio"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "MyCloud Mini", "vendor": "Akitio" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

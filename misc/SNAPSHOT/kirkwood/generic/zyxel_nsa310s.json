@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_xscale",
-  "build_at": "2020-09-11 23:18:05",
+  "build_at": "2020-12-11 21:22:17",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-usb2",
     "dnsmasq",
@@ -42,26 +43,20 @@
   "images": [
     {
       "name": "openwrt-kirkwood-zyxel_nsa310s-squashfs-sysupgrade.bin",
-      "sha256": "c40575d6e84a07c7d28bcfa5232f1ad61b4e6a3e3ae6b52fe7b03b49b920bb2d",
+      "sha256": "fec0745ae635e5d4da8abe2346ffade6513adbaecd15a2e5ba3d328921d55f02",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-kirkwood-zyxel_nsa310s-squashfs-factory.bin",
-      "sha256": "87fe372c8fa427b1d575e76e8423c56c61785d3ba860e644140e28b3716ff42a",
+      "sha256": "2092475580f0467ac263d4b03a756a28187c32d2eb1eac62e9aac51b2e76f4af",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zyxel,nsa310s"
-  ],
+  "source_date_epoch": "1607716416",
+  "supported_devices": ["zyxel,nsa310s"],
   "target": "kirkwood/generic",
-  "titles": [
-    {
-      "model": "NSA310S",
-      "vendor": "ZyXEL"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "NSA310S", "vendor": "ZyXEL" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 16:34:14",
+  "build_at": "2020-12-11 14:01:03",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,31 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-tg3",
-    "kmod-b43",
-    "kmod-usb-ohci",
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-tg3", "kmod-b43", "kmod-usb-ohci", "kmod-usb2"],
   "id": "linksys_wrt610n-v1",
   "image_prefix": "openwrt-bcm47xx-generic-linksys_wrt610n-v1",
   "images": [
     {
       "name": "openwrt-bcm47xx-generic-linksys_wrt610n-v1-squashfs.bin",
-      "sha256": "1ca706c0182471adee05aaacf4154525bc55b24b419eaae0585eeb07cadd0ae1",
+      "sha256": "d324c9cc00d1ae810fbbe54fa488ede33f0f0d07c544eed4268c834d7ad354dd",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm47xx/generic",
-  "titles": [
-    {
-      "model": "WRT610N",
-      "variant": "v1",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "WRT610N", "variant": "v1", "vendor": "Linksys" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

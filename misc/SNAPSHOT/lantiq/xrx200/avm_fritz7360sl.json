@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 21:54:15",
+  "build_at": "2020-12-11 13:06:15",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "ltq-vdsl-vr9-vectoring-fw-installer",
@@ -53,22 +54,15 @@
   "images": [
     {
       "name": "openwrt-lantiq-xrx200-avm_fritz7360sl-squashfs-sysupgrade.bin",
-      "sha256": "b7befa33816ffe79b31fb621dfb16c2f4a4d8a953e9cdb81830d51b3fa85133a",
+      "sha256": "cb3fd435c5e5fffb531efba2f4ad52c159f8aecd053b8da12ef386f037efaad7",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "avm,fritz7360sl",
-    "FRITZ7360SL"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["avm,fritz7360sl", "FRITZ7360SL"],
   "target": "lantiq/xrx200",
-  "titles": [
-    {
-      "model": "FRITZ!Box 7360 SL",
-      "vendor": "AVM"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "FRITZ!Box 7360 SL", "vendor": "AVM" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

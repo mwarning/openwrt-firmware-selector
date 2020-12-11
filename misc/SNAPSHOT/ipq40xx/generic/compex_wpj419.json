@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -51,27 +52,21 @@
   "image_prefix": "openwrt-ipq40xx-generic-compex_wpj419",
   "images": [
     {
-      "name": "openwrt-ipq40xx-generic-compex_wpj419-squashfs-nand-factory.ubi",
-      "sha256": "51b4178e8a8e5f83f06f848d2d7a2c5909c5cef6737b27a4cf1299beabb9998c",
-      "type": "nand-factory"
+      "name": "openwrt-ipq40xx-generic-compex_wpj419-squashfs-nand-sysupgrade.bin",
+      "sha256": "ef12bf408be1ab375a51e8052e5b8e8919164a2871e4117696a765109bdf72aa",
+      "type": "nand-sysupgrade"
     },
     {
-      "name": "openwrt-ipq40xx-generic-compex_wpj419-squashfs-nand-sysupgrade.bin",
-      "sha256": "56fcff11cf71c8c9a58c0932b30418d4f6cc5bcad4255da6c8ba4da354df7817",
-      "type": "nand-sysupgrade"
+      "name": "openwrt-ipq40xx-generic-compex_wpj419-squashfs-nand-factory.ubi",
+      "sha256": "e425bac5704b3880859ddd52ed11b88433d1e8129e355991f1cb4f7819007088",
+      "type": "nand-factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "compex,wpj419"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["compex,wpj419"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "WPJ419",
-      "vendor": "Compex"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WPJ419", "vendor": "Compex" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,28 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43"
-  ],
+  "device_packages": ["kmod-b43"],
   "id": "linksys_wrt320n-v1",
   "image_prefix": "openwrt-bcm47xx-mips74k-linksys_wrt320n-v1",
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-linksys_wrt320n-v1-squashfs.bin",
-      "sha256": "b376189b903b746280cf540dd2f9283fede1730e7dfc3e364b090fe0d7b158a0",
+      "sha256": "55bfc1cfa54157d3c4e90520c7e7023a313ec84bb78f1f3365eefebf392e5dc3",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
-  "titles": [
-    {
-      "model": "WRT320N",
-      "variant": "v1",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WRT320N", "variant": "v1", "vendor": "Linksys" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

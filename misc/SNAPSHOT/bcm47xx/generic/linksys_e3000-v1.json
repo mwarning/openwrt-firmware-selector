@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 16:34:14",
+  "build_at": "2020-12-11 14:01:03",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,31 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-bgmac",
-    "kmod-b43",
-    "kmod-usb-ohci",
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-bgmac", "kmod-b43", "kmod-usb-ohci", "kmod-usb2"],
   "id": "linksys_e3000-v1",
   "image_prefix": "openwrt-bcm47xx-generic-linksys_e3000-v1",
   "images": [
     {
       "name": "openwrt-bcm47xx-generic-linksys_e3000-v1-squashfs.bin",
-      "sha256": "ec47dafc342ccb48545a33b751bc1c3bebe57fc3b8bf61e7e9ea588d1cad6a77",
+      "sha256": "14daf273a4936cf6c241059afdbe67b6aeb406c33f50094fa01ccd8a4a16ea7a",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm47xx/generic",
-  "titles": [
-    {
-      "model": "E3000",
-      "variant": "v1",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "E3000", "variant": "v1", "vendor": "Linksys" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

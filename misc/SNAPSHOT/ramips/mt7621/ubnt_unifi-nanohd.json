@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -33,31 +34,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt7603",
-    "kmod-mt7615e",
-    "kmod-mt7615-firmware"
-  ],
+  "device_packages": ["kmod-mt7603", "kmod-mt7615e", "kmod-mt7615-firmware"],
   "id": "ubnt_unifi-nanohd",
   "image_prefix": "openwrt-ramips-mt7621-ubnt_unifi-nanohd",
   "images": [
     {
       "name": "openwrt-ramips-mt7621-ubnt_unifi-nanohd-squashfs-sysupgrade.bin",
-      "sha256": "c0134eebd75a5ff1eb94522c9e1523adbd2974bcca33699f62e75eb31b635c4c",
+      "sha256": "99cb54b13e23e1bfa37559c5a8cbb4a13a3f55ed4ce0ffff70753f1b13bdfcc4",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ubnt,unifi-nanohd"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ubnt,unifi-nanohd"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "UniFi nanoHD",
-      "vendor": "Ubiquiti"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "UniFi nanoHD", "vendor": "Ubiquiti" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -32,29 +33,21 @@
     "swconfig",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci", "kmod-usb-ledtrig-usbport"],
   "id": "sfr_neufbox-6-sercomm-r0",
   "image_prefix": "openwrt-bcm63xx-generic-sfr_neufbox-6-sercomm-r0",
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-sfr_neufbox-6-sercomm-r0-squashfs-cfe.bin",
-      "sha256": "67a29583b74aa469e2e618ad933d73e94229e19e7388a0f3359529c3378b81cc",
+      "sha256": "30773374515cfbf804241c615e91734178683784725b2204e723d1b5d9c591a0",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
-  "titles": [
-    {
-      "model": "Neufbox 6",
-      "vendor": "SFR"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "Neufbox 6", "vendor": "SFR" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

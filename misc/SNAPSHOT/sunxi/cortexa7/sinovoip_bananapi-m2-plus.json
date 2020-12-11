@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-11 01:37:12",
+  "build_at": "2020-12-11 00:58:45",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -50,26 +51,20 @@
   "images": [
     {
       "name": "openwrt-sunxi-cortexa7-sinovoip_bananapi-m2-plus-ext4-sdcard.img.gz",
-      "sha256": "48b57ba1e38f25032e9988556e232377fad91d4e30f5877ad6fe06a4eabd78e0",
+      "sha256": "b30e822afb4de6a080ad1194b0f9eb51db67e082289019fe1928bac3a8ac369f",
       "type": "sdcard"
     },
     {
       "name": "openwrt-sunxi-cortexa7-sinovoip_bananapi-m2-plus-squashfs-sdcard.img.gz",
-      "sha256": "f840a16adda68046185a586d064d2e5c8631179d46c32598ff3e6b1bdb7b81df",
+      "sha256": "7d33d48728eb141abbade2b46c154e285ea4cfa819e2eeda7330c9a721945b9b",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "sinovoip,bananapi-m2-plus"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["sinovoip,bananapi-m2-plus"],
   "target": "sunxi/cortexa7",
-  "titles": [
-    {
-      "model": "Banana Pi M2+",
-      "vendor": "Sinovoip"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Banana Pi M2+", "vendor": "Sinovoip" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

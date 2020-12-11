@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,36 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x0e"
-  ],
+  "device_packages": ["kmod-mt76x0e"],
   "id": "tplink_archer-c20-v4",
   "image_prefix": "openwrt-ramips-mt76x8-tplink_archer-c20-v4",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-tplink_archer-c20-v4-squashfs-tftp-recovery.bin",
-      "sha256": "aacacd1169bdc45ec0554ebe48efe96ccc6f3f082210fe2563e3a16952d3170e",
+      "sha256": "efe18560b961c46e5c5cc69e88595a0bb4d651570bf4ee3291ecb6a468ed444b",
       "type": "tftp-recovery"
     },
     {
       "name": "openwrt-ramips-mt76x8-tplink_archer-c20-v4-squashfs-sysupgrade.bin",
-      "sha256": "a9cd297542531351346657b4a33811257484908ec43cd95607724a58d377bd47",
+      "sha256": "a75108c52e750c63a84f603b66a1203a313bff902ac59cd12c20b424f5b90bda",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,archer-c20-v4",
-    "tplink,c20-v4"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["tplink,archer-c20-v4", "tplink,c20-v4"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "Archer C20",
-      "variant": "v4",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "Archer C20", "variant": "v4", "vendor": "TP-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

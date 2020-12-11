@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,33 +36,24 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x0e"
-  ],
+  "device_packages": ["kmod-mt76x0e"],
   "id": "wavlink_wl-wn577a2",
   "image_prefix": "openwrt-ramips-mt76x8-wavlink_wl-wn577a2",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-wavlink_wl-wn577a2-squashfs-sysupgrade.bin",
-      "sha256": "bb05c8415c5a4a4cb4e096b8804027b0f9647c77a24fb6f1f940fcc9a0d507ef",
+      "sha256": "c2b51f02d05bebd3c431fc99fbb92e922f121689407df71bf92c670d12f7f556",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "wavlink,wl-wn577a2"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["wavlink,wl-wn577a2"],
   "target": "ramips/mt76x8",
   "titles": [
-    {
-      "model": "WL-WN577A2",
-      "vendor": "Wavlink"
-    },
-    {
-      "model": "WLR-755",
-      "vendor": "Maginon"
-    }
+    { "model": "WL-WN577A2", "vendor": "Wavlink" },
+    { "model": "WLR-755", "vendor": "Maginon" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

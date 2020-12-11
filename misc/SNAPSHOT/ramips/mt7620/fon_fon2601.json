@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,31 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2",
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-mt76x2", "kmod-usb2", "kmod-usb-ohci"],
   "id": "fon_fon2601",
   "image_prefix": "openwrt-ramips-mt7620-fon_fon2601",
   "images": [
     {
       "name": "openwrt-ramips-mt7620-fon_fon2601-squashfs-sysupgrade.bin",
-      "sha256": "15d8ce3911cb0e230ff9e719006b67d8c477bc1643d445d2387e4261b0b35710",
+      "sha256": "f06152e94d6f068005bab8a76d316de04279125c772c051f016108b28e63bd8f",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "fon,fon2601"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["fon,fon2601"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "FON2601",
-      "vendor": "Fon"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "FON2601", "vendor": "Fon" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

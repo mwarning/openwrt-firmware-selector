@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,37 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci"],
   "id": "ubnt_airrouter",
   "image_prefix": "openwrt-ath79-generic-ubnt_airrouter",
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_airrouter-squashfs-factory.bin",
-      "sha256": "ae0f7488c36da5ac6239d912656edd0ed8eaddd398c5a310912a96ff4f9dfea4",
+      "sha256": "e04dc395ca3ce10f7d8ef62a0293972e492ee2f6ce8ae1283fb69cbb97b57514",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-ubnt_airrouter-squashfs-sysupgrade.bin",
-      "sha256": "96e6622605ee17f5724cda710c4b43b0fa4282d01e4513989c9b5923aac937a9",
+      "sha256": "d7e72c87bb1c2e7e62ec83d52e03bd452e9b327ec1b819967214035e6c05d09c",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ubnt,airrouter",
-    "airrouter"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ubnt,airrouter", "airrouter"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "AirRouter",
-      "variant": "XM",
-      "vendor": "Ubiquiti"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "AirRouter", "variant": "XM", "vendor": "Ubiquiti" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

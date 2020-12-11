@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -51,20 +52,15 @@
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-netgear_wnr1000-v3-squashfs.chk",
-      "sha256": "8a94ec1d5e4f2614c01c8a3b2e742e34970ece0d5ab0a96149e3b3f626befe45",
+      "sha256": "cb8177fbbe8fae455403d1d57b0bcb9f0dcfa569e11e5a111e8ab299a8eeca54",
       "type": "chk"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
-  "titles": [
-    {
-      "model": "WNR1000",
-      "variant": "v3",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WNR1000", "variant": "v3", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

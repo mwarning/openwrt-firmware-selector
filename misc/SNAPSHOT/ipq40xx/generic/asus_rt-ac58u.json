@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -56,21 +57,15 @@
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-asus_rt-ac58u-squashfs-sysupgrade.bin",
-      "sha256": "c34bffe8f47c858c64db534c990eb446e8008606575c0becf351937575d833bf",
+      "sha256": "d01f752eaa138a5414c2ac68e5b100ede396b3c8fdcfd3fd04b358ed9fc7eb3a",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "asus,rt-ac58u"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["asus,rt-ac58u"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "RT-AC58U",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RT-AC58U", "vendor": "ASUS" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

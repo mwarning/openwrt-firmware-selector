@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a15_neon-vfpv4",
-  "build_at": "2020-09-11 16:48:36",
+  "build_at": "2020-12-11 13:59:29",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -56,29 +57,21 @@
     "wpad-basic-wolfssl",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "ath10k-firmware-qca99x0-ct"
-  ],
+  "device_packages": ["ath10k-firmware-qca99x0-ct"],
   "id": "qcom_ipq8064-db149",
   "image_prefix": "openwrt-ipq806x-generic-qcom_ipq8064-db149",
   "images": [
     {
       "name": "openwrt-ipq806x-generic-qcom_ipq8064-db149-squashfs-sysupgrade.bin",
-      "sha256": "7658c6482422737067373ead7c178094f1711f3c607211c034d7353ee25f8a46",
+      "sha256": "8f4abba9c9b8b91ca11979f3ca7a3654cf77c69a7d63319cecbde7b212e3a3c6",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "qcom,ipq8064-db149"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["qcom,ipq8064-db149"],
   "target": "ipq806x/generic",
-  "titles": [
-    {
-      "model": "DB149",
-      "vendor": "Qualcomm"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "DB149", "vendor": "Qualcomm" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

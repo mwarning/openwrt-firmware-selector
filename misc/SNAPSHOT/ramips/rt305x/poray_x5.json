@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,37 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-ledtrig-netdev",
-    "kmod-ledtrig-timer"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-ledtrig-netdev", "kmod-ledtrig-timer"],
   "id": "poray_x5",
   "image_prefix": "openwrt-ramips-rt305x-poray_x5",
   "images": [
     {
       "name": "openwrt-ramips-rt305x-poray_x5-squashfs-factory.bin",
-      "sha256": "0587889d59ac2bf2922ddf60c86403491cce4b2979b00754853d8a4b07e63dc5",
+      "sha256": "15fa1c8e254480701ab051b1531fbacb775931dc965433abe5bcad8048120d4f",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-rt305x-poray_x5-squashfs-sysupgrade.bin",
-      "sha256": "c9dd72c8a5d751efa71820e919f16a948c34bc62d40d41fc41196d00010f5adc",
+      "sha256": "4f845b65c2d6e3a96329b54ddacac184264bc30421203dfd8c62e9b1a705de00",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "poray,x5",
-    "x5"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["poray,x5", "x5"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "X5/X6",
-      "vendor": "Poray"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "X5/X6", "vendor": "Poray" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

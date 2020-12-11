@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_generic",
-  "build_at": "2020-09-11 20:09:48",
+  "build_at": "2020-12-11 17:43:57",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,9 +17,13 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb3",
     "kmod-usb-dwc3",
     "kmod-usb-storage",
+    "mkf2fs",
+    "e2fsprogs",
     "partx-utils",
     "dnsmasq",
     "firewall",
@@ -34,40 +37,38 @@
     "kmod-usb3",
     "kmod-usb-dwc3",
     "kmod-usb-storage",
+    "mkf2fs",
+    "e2fsprogs",
     "partx-utils"
   ],
   "device_packages": [
     "layerscape-mc",
     "layerscape-dpl",
     "tfa-ls1088a-rdb",
-    "restool"
+    "restool",
+    "kmod-ahci-qoriq",
+    "kmod-hwmon-ina2xx",
+    "kmod-hwmon-lm90"
   ],
   "id": "fsl_ls1088a-rdb",
   "image_prefix": "openwrt-layerscape-armv8_64b-fsl_ls1088a-rdb",
   "images": [
     {
       "name": "openwrt-layerscape-armv8_64b-fsl_ls1088a-rdb-squashfs-firmware.bin",
-      "sha256": "cf4379f1a61a244232d50aca883e7932b441092dd4bdb43648d8d836714ffa42",
+      "sha256": "b7581bee2b77829a2ae3cec90c4f6af24118dca4b3277935bcfc67dddca8c246",
       "type": "firmware"
     },
     {
       "name": "openwrt-layerscape-armv8_64b-fsl_ls1088a-rdb-squashfs-sysupgrade.bin",
-      "sha256": "4b2c5056e8aebaeb989cdb451af6863589050ae196d18df462a55e557584cdb9",
+      "sha256": "c8bde8b85a56c7ecf6c0c65060b58816741d6a83cddc8b7a9cfe40f946ed2ace",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "fsl,ls1088a-rdb"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["fsl,ls1088a-rdb"],
   "target": "layerscape/armv8_64b",
-  "titles": [
-    {
-      "model": "LS1088A-RDB",
-      "variant": "Default",
-      "vendor": "NXP"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "LS1088A-RDB", "variant": "Default", "vendor": "NXP" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

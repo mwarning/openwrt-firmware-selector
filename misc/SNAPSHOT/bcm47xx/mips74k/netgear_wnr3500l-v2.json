@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,29 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-usb-ohci",
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-usb-ohci", "kmod-usb2"],
   "id": "netgear_wnr3500l-v2",
   "image_prefix": "openwrt-bcm47xx-mips74k-netgear_wnr3500l-v2",
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-netgear_wnr3500l-v2-squashfs.chk",
-      "sha256": "728f3579b9702e846d671dacab00534d3558519484454e1253aed5f6860a24ef",
+      "sha256": "dd08c71287646a4fea7364ca086c0cc77ae4f2a6a44fcec31a360dc3c0467103",
       "type": "chk"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
-  "titles": [
-    {
-      "model": "WNR3500L",
-      "variant": "v2",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WNR3500L", "variant": "v2", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

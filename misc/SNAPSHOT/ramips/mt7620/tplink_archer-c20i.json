@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,37 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x0e",
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-mt76x0e", "kmod-usb2", "kmod-usb-ohci"],
   "id": "tplink_archer-c20i",
   "image_prefix": "openwrt-ramips-mt7620-tplink_archer-c20i",
   "images": [
     {
       "name": "openwrt-ramips-mt7620-tplink_archer-c20i-squashfs-factory.bin",
-      "sha256": "a32efefd3b5ab1f998cdce5684870dc01110add3c82f472ba57ec9dea1c1c571",
+      "sha256": "2322c2f2b81101cebc0a0bd5a3d81230637da7c68c9735f833839f00154af742",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7620-tplink_archer-c20i-squashfs-sysupgrade.bin",
-      "sha256": "28fba574b88df72227e4a3704dda48f22a0a14474e2b22bb107144448adf2f54",
+      "sha256": "d8d4ab0ec80b68d8d3ceae4160f68f46b8975bbd3abf2665ea2bc59957b93a59",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,archer-c20i",
-    "c20i"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,archer-c20i", "c20i"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "Archer C20i",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Archer C20i", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

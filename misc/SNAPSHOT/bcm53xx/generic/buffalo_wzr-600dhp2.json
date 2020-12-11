@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -60,19 +61,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-buffalo_wzr-600dhp2-squashfs.trx",
-      "sha256": "94c91cd2f8a998033e86a89ca1f011027ac729923c60cf59332d253292d7c637",
+      "sha256": "9c14c3ea2600d8caca8c28684e335d6be75624264bd5943610dd1bf5397ab58e",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "WZR-600DHP2",
-      "vendor": "Buffalo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WZR-600DHP2", "vendor": "Buffalo" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

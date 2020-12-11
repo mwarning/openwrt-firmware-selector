@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,34 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2"
-  ],
+  "device_packages": ["kmod-mt76x2"],
   "id": "netgear_ex6130",
   "image_prefix": "openwrt-ramips-mt7620-netgear_ex6130",
   "images": [
     {
-      "name": "openwrt-ramips-mt7620-netgear_ex6130-squashfs-factory.chk",
-      "sha256": "4afe6d3df9cf7dcc8cf0c198498da09a562643ccf569442fee41e9428aec22a5",
-      "type": "factory"
+      "name": "openwrt-ramips-mt7620-netgear_ex6130-squashfs-sysupgrade.bin",
+      "sha256": "61e3f1334fd1329df2f49f43b37d29a9a8c29c19b05d62869d9eb35a6e9210e6",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ramips-mt7620-netgear_ex6130-squashfs-sysupgrade.bin",
-      "sha256": "f79cf302690cceb18f59a078e9ac91e52fec755d9dbbd0bb25694ec128c0c46c",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-mt7620-netgear_ex6130-squashfs-factory.chk",
+      "sha256": "12000aba22f98beb6e2ed85bdff0d111cce82bbff9ae306585fe0da28aa8c23a",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,ex6130"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,ex6130"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "EX6130",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EX6130", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

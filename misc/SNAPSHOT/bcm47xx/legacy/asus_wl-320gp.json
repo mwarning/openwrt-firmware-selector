@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,27 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43"
-  ],
+  "device_packages": ["kmod-b43"],
   "id": "asus_wl-320gp",
   "image_prefix": "openwrt-bcm47xx-legacy-asus_wl-320gp",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-asus_wl-320gp-squashfs.trx",
-      "sha256": "ae78e841991f31eacfa62814ee5a58bfd602959325b8a1aedfa9cef2ff386653",
+      "sha256": "8f9deebfb60b69c897f0f355341b99f7abd8a525c1043779e46ea1a5e2f923f6",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "WL-320gP",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WL-320gP", "vendor": "ASUS" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

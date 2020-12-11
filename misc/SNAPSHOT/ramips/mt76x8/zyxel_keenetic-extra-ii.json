@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -45,27 +46,21 @@
   "image_prefix": "openwrt-ramips-mt76x8-zyxel_keenetic-extra-ii",
   "images": [
     {
-      "name": "openwrt-ramips-mt76x8-zyxel_keenetic-extra-ii-squashfs-sysupgrade.bin",
-      "sha256": "56054de62bc69148d0900fcefad9947af592b30248f4aabfe8da48c7edd1cb82",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-mt76x8-zyxel_keenetic-extra-ii-squashfs-factory.bin",
+      "sha256": "fca3a3322c89d135340e72ecbfc711bd1fc7531e3cab664f3765a7e0bd10dac5",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ramips-mt76x8-zyxel_keenetic-extra-ii-squashfs-factory.bin",
-      "sha256": "1df8af64d117e72122000af400307313ac8f6522fe159eec70662be3d7732590",
-      "type": "factory"
+      "name": "openwrt-ramips-mt76x8-zyxel_keenetic-extra-ii-squashfs-sysupgrade.bin",
+      "sha256": "613bf3dfcca1c559b250a6adc8ee37ad01e5cd2905d0114c8577f4801c5848a8",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zyxel,keenetic-extra-ii"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["zyxel,keenetic-extra-ii"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "Keenetic Extra II",
-      "vendor": "ZyXEL"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "Keenetic Extra II", "vendor": "ZyXEL" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

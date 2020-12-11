@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -47,39 +48,31 @@
   "image_prefix": "openwrt-ath79-generic-tplink_archer-c7-v2",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-eu.bin",
-      "sha256": "6ee446591dedac8f286f651280967faaadf61d473aec84416d599b740f0a84da",
-      "type": "factory-eu"
-    },
-    {
       "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-us.bin",
-      "sha256": "63274c5211be23300fb814f5cf743d1b5a84b408c6d319e131911e9cab566e7b",
+      "sha256": "364f002ebc67318169d217272b674a18939e22416a463a201be6680012a5ba8b",
       "type": "factory-us"
     },
     {
+      "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-sysupgrade.bin",
+      "sha256": "aee8be851d27d0197b92d54b04f00b5f647391911aeba2f55f99f3bc1a72a4ab",
+      "type": "sysupgrade"
+    },
+    {
       "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory.bin",
-      "sha256": "6319ca3b0053d5bfef1f8cdbc139d044681aad5d548227e8df53227d768fde39",
+      "sha256": "b3f9acae2e317fafecdf27b6dbc64d09daf8527806b3b903216b5cb5f752b109",
       "type": "factory"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-sysupgrade.bin",
-      "sha256": "3babe86568d7953ad8f6e32fac17c18683ee1e37f59a5bfa82e637fac9a02db0",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-eu.bin",
+      "sha256": "d71f74e834b51c12c0cc71255df0b525f9f060079321daf3910725f28989d1bd",
+      "type": "factory-eu"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,archer-c7-v2",
-    "archer-c7"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,archer-c7-v2", "archer-c7"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Archer C7",
-      "variant": "v2",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Archer C7", "variant": "v2", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

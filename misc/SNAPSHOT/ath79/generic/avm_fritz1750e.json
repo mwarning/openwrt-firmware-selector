@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -49,21 +50,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-avm_fritz1750e-squashfs-sysupgrade.bin",
-      "sha256": "55f345ede18d314622012381e94a01f90a88c414fdd6dde010db730445923256",
+      "sha256": "180233eeed5685900ce93c9e19d08ab19c545e3b4adf2b0d8c2056e4db84ec38",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "avm,fritz1750e"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["avm,fritz1750e"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "FRITZ!WLAN Repeater 1750E",
-      "vendor": "AVM"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "FRITZ!WLAN Repeater 1750E", "vendor": "AVM" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

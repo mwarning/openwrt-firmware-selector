@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,31 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2",
-    "kmod-usb2",
-    "uqmi"
-  ],
+  "device_packages": ["kmod-mt76x2", "kmod-usb2", "uqmi"],
   "id": "totolink_lr1200",
   "image_prefix": "openwrt-ramips-mt76x8-totolink_lr1200",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-totolink_lr1200-squashfs-sysupgrade.bin",
-      "sha256": "405ed439fb77c6d329e0530a43a57dc3b41391915c85858a10cf56debf93d0c1",
+      "sha256": "640e1b914d5f2644fcb9a5e1064067332ac46f99a849883eaea4f59443789fd6",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "totolink,lr1200"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["totolink,lr1200"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "LR1200",
-      "vendor": "TOTOLINK"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "LR1200", "vendor": "TOTOLINK" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

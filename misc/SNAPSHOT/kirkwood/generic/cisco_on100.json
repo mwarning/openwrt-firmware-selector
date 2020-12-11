@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_xscale",
-  "build_at": "2020-09-11 23:18:05",
+  "build_at": "2020-12-11 21:22:17",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-usb2",
     "dnsmasq",
@@ -32,35 +33,26 @@
     "uboot-envtools",
     "kmod-usb2"
   ],
-  "device_packages": [
-    "kmod-mvsdio"
-  ],
+  "device_packages": ["kmod-mvsdio"],
   "id": "cisco_on100",
   "image_prefix": "openwrt-kirkwood-cisco_on100",
   "images": [
     {
-      "name": "openwrt-kirkwood-cisco_on100-squashfs-sysupgrade.bin",
-      "sha256": "9277a832fb63db61de1f0fa76e94285b51cabe68c8c58c37abcf3f826721713f",
-      "type": "sysupgrade"
+      "name": "openwrt-kirkwood-cisco_on100-squashfs-factory.bin",
+      "sha256": "bbb00b44faa13668ef2dd67359b2bd444b819dc7a9fa50414e88dbc26f978d53",
+      "type": "factory"
     },
     {
-      "name": "openwrt-kirkwood-cisco_on100-squashfs-factory.bin",
-      "sha256": "95b32993e8d910bda37b09bf2569dcb430d5e1cbfb52a3c7943c3a51b4553a9c",
-      "type": "factory"
+      "name": "openwrt-kirkwood-cisco_on100-squashfs-sysupgrade.bin",
+      "sha256": "0b75e1b4e13ab4cf26a8f6611322b88bcb0542dfe4274ff876af4ea0c8c171a3",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "cisco,on100",
-    "on100"
-  ],
+  "source_date_epoch": "1607716416",
+  "supported_devices": ["cisco,on100", "on100"],
   "target": "kirkwood/generic",
-  "titles": [
-    {
-      "model": "ON100",
-      "vendor": "Cisco Systems"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "ON100", "vendor": "Cisco Systems" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

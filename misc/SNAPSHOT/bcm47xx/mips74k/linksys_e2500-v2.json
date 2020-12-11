@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,28 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43"
-  ],
+  "device_packages": ["kmod-b43"],
   "id": "linksys_e2500-v2",
   "image_prefix": "openwrt-bcm47xx-mips74k-linksys_e2500-v2",
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-linksys_e2500-v2-squashfs.bin",
-      "sha256": "881d889e5f5ff7a9097d6b3fe163fe94e8e68c3b57449a7f142c9fc14aee00ad",
+      "sha256": "c8fc9248c535e91e742a2c3a04f0cb6cf202a1af9cafb445d000d7d56ce71a46",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
-  "titles": [
-    {
-      "model": "E2500",
-      "variant": "v2",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "E2500", "variant": "v2", "vendor": "Linksys" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,30 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca988x-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca988x-ct"],
   "id": "devolo_dvl1200e",
   "image_prefix": "openwrt-ath79-generic-devolo_dvl1200e",
   "images": [
     {
       "name": "openwrt-ath79-generic-devolo_dvl1200e-squashfs-sysupgrade.bin",
-      "sha256": "e5a97b4a7b0c78701835128fe23464c30690e987d677f44466c303e91d7b77cc",
+      "sha256": "6ab91e321dd77a7eeb5daaa61c008b251ecdb24b8a7d7e667769465f0d2e9afb",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "devolo,dvl1200e"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["devolo,dvl1200e"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WiFi pro 1200e",
-      "vendor": "devolo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WiFi pro 1200e", "vendor": "devolo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

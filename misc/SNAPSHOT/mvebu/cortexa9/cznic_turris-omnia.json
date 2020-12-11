@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9_vfpv3-d16",
-  "build_at": "2020-09-10 22:18:45",
+  "build_at": "2020-12-11 13:04:58",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -50,28 +51,21 @@
   "image_prefix": "openwrt-mvebu-cortexa9-cznic_turris-omnia",
   "images": [
     {
-      "name": "openwrt-mvebu-cortexa9-cznic_turris-omnia-sysupgrade.img.gz",
-      "sha256": "081d8fd07ec5e0607b3acfb900fb8c12fe392d8d9c41dd6311af151b60d0657b",
-      "type": "openwrt-mvebu-cortexa9-cznic_turris-omnia-sysupgrade"
+      "name": "omnia-medkit-openwrt-mvebu-cortexa9-cznic_turris-omnia-initramfs.tar.gz",
+      "sha256": "6b0e1d44f6fef0e78f391179dfbc1e570c12f12b34d580b4abfa57087a68e222",
+      "type": "omnia-medkit-openwrt-mvebu-cortexa9-cznic_turris-omnia-initramfs"
     },
     {
-      "name": "omnia-medkit-openwrt-mvebu-cortexa9-cznic_turris-omnia-initramfs.tar.gz",
-      "sha256": "714bd0d8810a30185e8d5ac2562902fcb19b8b69786da4bffb6e4f0821ad3f15",
-      "type": "omnia-medkit-openwrt-mvebu-cortexa9-cznic_turris-omnia-initramfs"
+      "name": "openwrt-mvebu-cortexa9-cznic_turris-omnia-sysupgrade.img.gz",
+      "sha256": "157d80cd7aaf73d9cbd7af9585e531e279fea8451eed414080146d14e3172d96",
+      "type": "openwrt-mvebu-cortexa9-cznic_turris-omnia-sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "cznic,turris-omnia",
-    "armada-385-turris-omnia"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["cznic,turris-omnia", "armada-385-turris-omnia"],
   "target": "mvebu/cortexa9",
-  "titles": [
-    {
-      "model": "Turris Omnia",
-      "vendor": "CZ.NIC"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Turris Omnia", "vendor": "CZ.NIC" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -48,22 +49,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-allnet_all5003-squashfs-sysupgrade.bin",
-      "sha256": "0bef0a37af485b7d94100a48725a9dd0d2b31e4a666d08ebbcce22602b0b0aae",
+      "sha256": "1f3c2a9f9c24fceda726a83b0f1379f8d760f8e954b47699f43e669fa0b5c531",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "allnet,all5003",
-    "all5003"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["allnet,all5003", "all5003"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "ALL5003",
-      "vendor": "Allnet"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "ALL5003", "vendor": "Allnet" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

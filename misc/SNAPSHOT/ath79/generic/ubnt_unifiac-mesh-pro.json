@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,31 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca988x-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca988x-ct"],
   "id": "ubnt_unifiac-mesh-pro",
   "image_prefix": "openwrt-ath79-generic-ubnt_unifiac-mesh-pro",
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_unifiac-mesh-pro-squashfs-sysupgrade.bin",
-      "sha256": "7492451a4db0e5d40fd8584b9a7693ad760f6c0e06b88ccaef59d0915feecce6",
+      "sha256": "aea72431dc29c8136de942d0cb8f9315fc696ec46911a8a05d824657023efde8",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ubnt,unifiac-mesh-pro",
-    "unifiac-pro"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ubnt,unifiac-mesh-pro", "unifiac-pro"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "UniFi AC Mesh Pro",
-      "vendor": "Ubiquiti"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "UniFi AC Mesh Pro", "vendor": "Ubiquiti" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

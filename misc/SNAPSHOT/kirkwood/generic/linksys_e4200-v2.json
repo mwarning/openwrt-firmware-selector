@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_xscale",
-  "build_at": "2020-09-11 23:18:05",
+  "build_at": "2020-12-11 21:22:17",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-usb2",
     "dnsmasq",
@@ -43,29 +44,20 @@
   "images": [
     {
       "name": "openwrt-kirkwood-linksys_e4200-v2-squashfs-factory.bin",
-      "sha256": "a5fe43c3e8e24e4ab2c1e5d5bd3e59899ca14663ffb411280713fec432850500",
+      "sha256": "698f8a7bfd63dd28e807fc36bea1919325c1433ee9929cc6f0c90c693e923e35",
       "type": "factory"
     },
     {
       "name": "openwrt-kirkwood-linksys_e4200-v2-squashfs-sysupgrade.bin",
-      "sha256": "3484cea4815187bd4eb4963115a4754764bcd51589f1537260e85fab120010c0",
+      "sha256": "fa70c34101e669a9de478b149d495369e5c62f4d600a1fe9fdae979ea4c1e448",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "linksys,e4200-v2",
-    "linksys,viper",
-    "linksys-viper"
-  ],
+  "source_date_epoch": "1607716416",
+  "supported_devices": ["linksys,e4200-v2", "linksys,viper", "linksys-viper"],
   "target": "kirkwood/generic",
-  "titles": [
-    {
-      "model": "E4200",
-      "variant": "v2",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "E4200", "variant": "v2", "vendor": "Linksys" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

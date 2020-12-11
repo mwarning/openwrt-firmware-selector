@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,30 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "uboot-envtools"
-  ],
+  "device_packages": ["uboot-envtools"],
   "id": "xiaomi_miwifi-nano",
   "image_prefix": "openwrt-ramips-mt76x8-xiaomi_miwifi-nano",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-xiaomi_miwifi-nano-squashfs-sysupgrade.bin",
-      "sha256": "c4f690c61e1b8ceaa12e5c36daadb877ede349eb4eaf779c566e278f686f8046",
+      "sha256": "c5df0ee2fa45e12be77cf4c568ca3ff4fb333f7ceb2d6801663bc05b6122e22b",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "xiaomi,miwifi-nano",
-    "miwifi-nano"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["xiaomi,miwifi-nano", "miwifi-nano"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "MiWiFi Nano",
-      "vendor": "Xiaomi"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "MiWiFi Nano", "vendor": "Xiaomi" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

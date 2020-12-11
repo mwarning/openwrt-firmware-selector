@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-8devices_carambola-squashfs-sysupgrade.bin",
-      "sha256": "80655384e39b6c2c42c15633b31d08e0172937a71a9f71a2603637f865401eb7",
+      "sha256": "80e6fdcedfe06e2aab109cfdad4d15fb2d2d6f94372e0f1e4e42dbb18fc78247",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "8devices,carambola",
-    "carambola"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["8devices,carambola", "carambola"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "Carambola",
-      "vendor": "8devices"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Carambola", "vendor": "8devices" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

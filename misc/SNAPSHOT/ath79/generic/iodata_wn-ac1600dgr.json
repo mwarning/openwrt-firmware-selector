@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -46,27 +47,21 @@
   "image_prefix": "openwrt-ath79-generic-iodata_wn-ac1600dgr",
   "images": [
     {
-      "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr-squashfs-factory.bin",
-      "sha256": "4b4a689e7e1b766dc108fb283044ccc631ece00080ef2910fd9088d9c1df334a",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr-squashfs-sysupgrade.bin",
+      "sha256": "404e9c8e8182bd61a5de3d0b84f15ef2b01573e8ac48994ec1d605007aa33334",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr-squashfs-sysupgrade.bin",
-      "sha256": "006c7fc7fbee4028508426db02b9a37519896cd24b916cacac3896e2f398da7f",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr-squashfs-factory.bin",
+      "sha256": "6b17e02f6ca8b693ec5e136e0b5cb203563874dc2f59fb7752385ba4b536c218",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "iodata,wn-ac1600dgr"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["iodata,wn-ac1600dgr"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WN-AC1600DGR",
-      "vendor": "I-O DATA"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WN-AC1600DGR", "vendor": "I-O DATA" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

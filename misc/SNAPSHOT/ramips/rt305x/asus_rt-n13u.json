@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,32 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-leds-gpio",
-    "kmod-rt2800-pci",
-    "kmod-usb-dwc2"
-  ],
+  "device_packages": ["kmod-leds-gpio", "kmod-rt2800-pci", "kmod-usb-dwc2"],
   "id": "asus_rt-n13u",
   "image_prefix": "openwrt-ramips-rt305x-asus_rt-n13u",
   "images": [
     {
       "name": "openwrt-ramips-rt305x-asus_rt-n13u-squashfs-sysupgrade.bin",
-      "sha256": "8dac8c68785b1ff2e50cc3b05ba4526e125ca2ae3fc153cb8d86ae0524b90bff",
+      "sha256": "d47f5b61a571a0e4c6ab79411440303bdc90e06ff2c54634e9a1bbbb202f2e19",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "asus,rt-n13u",
-    "rt-n13u"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["asus,rt-n13u", "rt-n13u"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "RT-N13U",
-      "vendor": "Asus"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RT-N13U", "vendor": "Asus" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

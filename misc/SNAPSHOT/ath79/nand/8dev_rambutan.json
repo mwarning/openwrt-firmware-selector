@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 17:37:26",
+  "build_at": "2020-12-11 03:05:41",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,34 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-usb2"],
   "id": "8dev_rambutan",
   "image_prefix": "openwrt-ath79-nand-8dev_rambutan",
   "images": [
     {
       "name": "openwrt-ath79-nand-8dev_rambutan-squashfs-sysupgrade.tar",
-      "sha256": "2c4f6330c5229357638db747ff48fa0fa249a375fc8ba1ab7282d1d360dd904e",
+      "sha256": "b3c97c5e1872b2d81e3845f9f9224f762c0dc475cdffb108a4be5a239c52fbca",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-nand-8dev_rambutan-squashfs-factory.bin",
-      "sha256": "ba766f861604ff2a1b3a297060002a97ba9bc7891441cd452d8da9e34ec9a72a",
+      "sha256": "d924905a2a47fea61b12be35d1373eaecc53287b5ecc3fc6c939936b35567000",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "8dev,rambutan"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["8dev,rambutan"],
   "target": "ath79/nand",
-  "titles": [
-    {
-      "model": "Rambutan",
-      "vendor": "8devices"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "Rambutan", "vendor": "8devices" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

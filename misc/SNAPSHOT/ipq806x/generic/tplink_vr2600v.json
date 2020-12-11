@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a15_neon-vfpv4",
-  "build_at": "2020-09-11 16:48:36",
+  "build_at": "2020-12-11 13:59:29",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -56,31 +57,23 @@
     "wpad-basic-wolfssl",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "ath10k-firmware-qca99x0-ct"
-  ],
+  "device_packages": ["ath10k-firmware-qca99x0-ct"],
   "id": "tplink_vr2600v",
   "image_prefix": "openwrt-ipq806x-generic-tplink_vr2600v",
   "images": [
     {
       "name": "openwrt-ipq806x-generic-tplink_vr2600v-squashfs-sysupgrade.bin",
-      "sha256": "892f6eae949f44cbdb6c9cc1253f38fd22578a7088cf6773300e2a31866be20e",
+      "sha256": "b8d5b7e01edca34be8b91c2c97cf834d68559b91c52176e3039160532a58c6d0",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,vr2600v",
-    "vr2600v"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["tplink,vr2600v", "vr2600v"],
   "target": "ipq806x/generic",
   "titles": [
-    {
-      "model": "Archer VR2600v",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
+    { "model": "Archer VR2600v", "variant": "v1", "vendor": "TP-Link" }
   ],
-  "version_code": "r14447-2e6c236abd",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

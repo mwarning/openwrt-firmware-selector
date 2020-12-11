@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 01:31:52",
+  "build_at": "2020-12-11 00:25:42",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-ledtrig-heartbeat",
@@ -37,21 +38,17 @@
   "images": [
     {
       "name": "openwrt-lantiq-falcon-lantiq_easy98021-squashfs-sysupgrade.bin",
-      "sha256": "312783f5789342bc74db6ce056cb0d95b2855ed3afaeed74e48d9c2dba8de87c",
+      "sha256": "4f6761e4e8f97fcf379fe14c4ba40d35bb2b9e333d6bd22324cd80337afafdd0",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "lantiq,easy98021"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["lantiq,easy98021"],
   "target": "lantiq/falcon",
   "titles": [
-    {
-      "model": "Falcon HGU Reference Board (EASY98021)",
-      "vendor": "Lantiq"
-    }
+    { "model": "Falcon HGU Reference Board (EASY98021)", "vendor": "Lantiq" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

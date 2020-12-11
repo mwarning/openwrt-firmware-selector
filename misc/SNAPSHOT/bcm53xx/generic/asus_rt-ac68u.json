@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -59,19 +60,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-asus_rt-ac68u-squashfs.trx",
-      "sha256": "5ff82c90c473d0f8b07ef33637719993376a60b88aace24132bcddc212da621c",
+      "sha256": "81cb49c67eebe783c7bbded8d21d801a0de09ff042bc661dd457f774dfa5712a",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "RT-AC68U",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RT-AC68U", "vendor": "ASUS" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

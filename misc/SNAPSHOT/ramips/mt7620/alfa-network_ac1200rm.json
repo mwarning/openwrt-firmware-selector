@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -46,21 +47,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-alfa-network_ac1200rm-squashfs-sysupgrade.bin",
-      "sha256": "ebb4e6f2906ec1f3167589ac0254f6dd8b60461ed77b3b970646ff0ea34a3077",
+      "sha256": "33ec52887fa2bba8d5cc35e865e3f5c2b23209357438a6eed48f2dc4d652d390",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "alfa-network,ac1200rm"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["alfa-network,ac1200rm"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "AC1200RM",
-      "vendor": "ALFA Network"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "AC1200RM", "vendor": "ALFA Network" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

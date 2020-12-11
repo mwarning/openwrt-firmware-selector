@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-easyacc_wizard-8800-squashfs-sysupgrade.bin",
-      "sha256": "b344c9bd8c78c2dcd0d76308bf661fd7e91b605b1546648bd5a0a395a6c0d449",
+      "sha256": "7231c76cbc15a88af74e4ec8b7cd1e56f2f99a29e2f376fdc64d6a70e428d32f",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "easyacc,wizard-8800",
-    "wizard8800"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["easyacc,wizard-8800", "wizard8800"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "WIZARD 8800",
-      "vendor": "EasyAcc"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WIZARD 8800", "vendor": "EasyAcc" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

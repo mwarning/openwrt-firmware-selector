@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a15_neon-vfpv4",
-  "build_at": "2020-09-11 16:48:36",
+  "build_at": "2020-12-11 13:59:29",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -56,34 +57,26 @@
     "wpad-basic-wolfssl",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-gpio-beeper"
-  ],
+  "device_packages": ["kmod-gpio-beeper"],
   "id": "compex_wpq864",
   "image_prefix": "openwrt-ipq806x-generic-compex_wpq864",
   "images": [
     {
       "name": "openwrt-ipq806x-generic-compex_wpq864-squashfs-nand-sysupgrade.bin",
-      "sha256": "4ca555cdb4190bcd7beb13ed819863364a7f67d234e14830a30fbc4ecb91f458",
+      "sha256": "6c054d2278f43927e10d645819fa1e9ef62d085eec7eb8582daf9899305ebe51",
       "type": "nand-sysupgrade"
     },
     {
       "name": "openwrt-ipq806x-generic-compex_wpq864-squashfs-nand-factory.bin",
-      "sha256": "ce1a194bae0b77f5ad6ee335ac192b7fcd13f4e5086970a970812a7a3694da27",
+      "sha256": "9046f0b2a96ba02515488ece23fb4efee0b324bc901adb39140a83e5dc70ec0d",
       "type": "nand-factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "compex,wpq864"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["compex,wpq864"],
   "target": "ipq806x/generic",
-  "titles": [
-    {
-      "model": "WPQ864",
-      "vendor": "Compex"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "WPQ864", "vendor": "Compex" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

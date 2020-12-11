@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -48,28 +49,20 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_archer-c7-v4-squashfs-factory.bin",
-      "sha256": "bc4a22e0c45e8f64c3437eadc658bb045462f5e2360faffa0a5cd28d9b4b8737",
+      "sha256": "18e8c5081c6bb9a151fe3efdb0a99596b68ca6f2921c30fa6a26d02a9fa83cdf",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-tplink_archer-c7-v4-squashfs-sysupgrade.bin",
-      "sha256": "fba7aa60312a79114da03ecdda6838932638f262c8a2ea876238cfd285314a8c",
+      "sha256": "0ff1aeb5b4f1b303fe6136c910a5bf1fd4a8ae5f02a409ccad49f6953948732b",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,archer-c7-v4",
-    "archer-c7-v4"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,archer-c7-v4", "archer-c7-v4"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Archer C7",
-      "variant": "v4",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Archer C7", "variant": "v4", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

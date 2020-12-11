@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9_vfpv3-d16",
-  "build_at": "2020-09-10 22:18:45",
+  "build_at": "2020-12-11 13:04:58",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -42,17 +43,18 @@
   "image_prefix": "openwrt-mvebu-cortexa9-linksys_wrt1900acs",
   "images": [
     {
-      "name": "openwrt-mvebu-cortexa9-linksys_wrt1900acs-squashfs-factory.img",
-      "sha256": "861cecdcc467ecd24b0e61bc6ea46213d66b0350d589ee7a9c5d0fa1dc638d94",
-      "type": "factory"
+      "name": "openwrt-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin",
+      "sha256": "79e96abdf018c837bf4e4c3694d8dcef07bd3790a58e8637108a7b3cb41ce9ba",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin",
-      "sha256": "e187ee380b8303a46b912d01896a568647461c4d1ad1fbf73221224186c7d70f",
-      "type": "sysupgrade"
+      "name": "openwrt-mvebu-cortexa9-linksys_wrt1900acs-squashfs-factory.img",
+      "sha256": "28e2eca1a9304e9a7610af550a7bc8b3173752a43d1d94d1656e7c3de2a273f9",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607683657",
   "supported_devices": [
     "linksys,wrt1900acs",
     "armada-385-linksys-shelby",
@@ -60,21 +62,10 @@
   ],
   "target": "mvebu/cortexa9",
   "titles": [
-    {
-      "model": "WRT1900ACS",
-      "variant": "v1",
-      "vendor": "Linksys"
-    },
-    {
-      "model": "WRT1900ACS",
-      "variant": "v2",
-      "vendor": "Linksys"
-    },
-    {
-      "model": "Shelby",
-      "vendor": "Linksys"
-    }
+    { "model": "WRT1900ACS", "variant": "v1", "vendor": "Linksys" },
+    { "model": "WRT1900ACS", "variant": "v2", "vendor": "Linksys" },
+    { "model": "Shelby", "vendor": "Linksys" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

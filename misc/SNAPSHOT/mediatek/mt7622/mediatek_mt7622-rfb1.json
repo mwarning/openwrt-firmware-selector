@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_cortex-a53",
-  "build_at": "2020-09-11 21:45:28",
+  "build_at": "2020-12-11 19:23:08",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7615e",
@@ -46,21 +47,15 @@
   "images": [
     {
       "name": "openwrt-mediatek-mt7622-mediatek_mt7622-rfb1-squashfs-sysupgrade.bin",
-      "sha256": "13d8c115d046f1c0b168de17cae5ef919c7cceaf1723a9e31cc9155416b5e610",
+      "sha256": "f2665e185d8458bbd5c3ade36e74c304305a7ca39f281f6f0ada001391d81142",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "mediatek,mt7622-rfb1"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["mediatek,mt7622-rfb1"],
   "target": "mediatek/mt7622",
-  "titles": [
-    {
-      "model": "MTK7622 rfb1 AP",
-      "vendor": "MediaTek"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "MTK7622 rfb1 AP", "vendor": "MediaTek" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

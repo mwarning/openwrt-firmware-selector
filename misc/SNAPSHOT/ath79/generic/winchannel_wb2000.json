@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -48,21 +49,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-winchannel_wb2000-squashfs-sysupgrade.bin",
-      "sha256": "1731671dfb1ea5db136d9c4d4ca7d8bacb89d5bbc90da77f57808fd71de7eb0c",
+      "sha256": "0d58e573b09dbad5cd71b821e573ae85214e64523487e0d11e683a3d83b083ac",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "winchannel,wb2000"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["winchannel,wb2000"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WB2000",
-      "vendor": "Winchannel"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WB2000", "vendor": "Winchannel" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 21:54:15",
+  "build_at": "2020-12-11 13:06:15",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "ltq-vdsl-vr9-vectoring-fw-installer",
@@ -53,24 +54,23 @@
   "images": [
     {
       "name": "openwrt-lantiq-xrx200-avm_fritz3370-rev2-micron-squashfs-eva-filesystem.bin",
-      "sha256": "4d0b8ba1cd53e18f7691619c9b76e4ebda18dbf56b827e2c5eb5f89403e41a6c",
+      "sha256": "b62c795af2b3fbddb282cf2508543b32795d0c25cc4f80134e85ede3368f1ed1",
       "type": "eva-filesystem"
     },
     {
       "name": "openwrt-lantiq-xrx200-avm_fritz3370-rev2-micron-squashfs-eva-kernel.bin",
-      "sha256": "9d16d22f164fbffb76e4da757a9aefb8cf13f9203eb6fca2f8c57b47d87539f5",
+      "sha256": "a7c9d963fce5e1b14d73ebb5fd24ab251f2415bd9ef6242a5bf683284800d8a5",
       "type": "eva-kernel"
     },
     {
       "name": "openwrt-lantiq-xrx200-avm_fritz3370-rev2-micron-squashfs-sysupgrade.bin",
-      "sha256": "e404b8eea9b5231510908f0e7ff021867b42cf41282c6e87f40ce519661a8c0b",
+      "sha256": "c468f820e1278b09993561eb94a9587cc5b9fd7a3b1b2aa4406d06d04eded423",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "avm,fritz3370-rev2-micron"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["avm,fritz3370-rev2-micron"],
   "target": "lantiq/xrx200",
   "titles": [
     {
@@ -79,6 +79,6 @@
       "vendor": "AVM"
     }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

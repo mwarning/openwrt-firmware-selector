@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a8_vfpv3",
-  "build_at": "2020-09-11 01:52:18",
+  "build_at": "2020-12-11 17:35:40",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "partx-utils",
     "mkf2fs",
     "e2fsprogs",
@@ -40,26 +41,22 @@
   "images": [
     {
       "name": "openwrt-omap-ti_am335x-bone-black-squashfs-sdcard.img.gz",
-      "sha256": "8ce89203f7e575235a9e0131521b4af9b76b5110f55a567a6f796063bad0d84c",
+      "sha256": "23bce6f124bd74eb8489aa69b1428d8d780480022540d42f20f75d340b03568d",
       "type": "sdcard"
     },
     {
       "name": "openwrt-omap-ti_am335x-bone-black-ext4-sdcard.img.gz",
-      "sha256": "967b869e601458aadd3b1c623ec0beda7a9644c4f80cabc8bf2203d0e67110fa",
+      "sha256": "d2ad5104f553328d2193fb59dd895703f0cfeac892f4baa2d5f83979aed15e80",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ti,am335x-bone-black"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["ti,am335x-bone-black"],
   "target": "omap/generic",
   "titles": [
-    {
-      "model": "AM335x BeagleBone Black",
-      "vendor": "Texas Instruments"
-    }
+    { "model": "AM335x BeagleBone Black", "vendor": "Texas Instruments" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,28 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43"
-  ],
+  "device_packages": ["kmod-b43"],
   "id": "linksys_wrt160n-v1",
   "image_prefix": "openwrt-bcm47xx-legacy-linksys_wrt160n-v1",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-linksys_wrt160n-v1-squashfs.bin",
-      "sha256": "28d20b244a80aaa829643ac59a1ee596b560bb142f07cc82e30370aea28a7619",
+      "sha256": "b4e98ace8196482df4502cbc572437ebc67e5dac37cb6dbf2b0b672d4a0d695b",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "WRT160N",
-      "variant": "v1",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WRT160N", "variant": "v1", "vendor": "Linksys" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,27 +45,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-dlink_dir-1960-a1-squashfs-sysupgrade.bin",
-      "sha256": "9753da8676bf2e6d66d29ea8e35ea6b6795083ad2094b131b9086eefc94b27eb",
+      "sha256": "4905032e9327bcc14b884e41a98712390c745744dc8efe0ec85278b1ece12c60",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-dlink_dir-1960-a1-squashfs-factory.bin",
-      "sha256": "cc5c7ada16dbc41543ddcb153b4dc42d3e4d248b07e1d3afa424ad4152406e5f",
+      "sha256": "ebdfe3c5d61d2d8e781f9651c66c9c4000a3aceeb28b467b6289d963dffd7d80",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dir-1960-a1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dir-1960-a1"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "DIR-1960",
-      "variant": "A1",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DIR-1960", "variant": "A1", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

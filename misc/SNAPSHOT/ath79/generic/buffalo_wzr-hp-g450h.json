@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,41 +38,31 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ledtrig-usbport"],
   "id": "buffalo_wzr-hp-g450h",
   "image_prefix": "openwrt-ath79-generic-buffalo_wzr-hp-g450h",
   "images": [
     {
       "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-tftp.bin",
-      "sha256": "cc5c50eff3727eec329ce49a7b4db91f078c54c615275c97f383c44e37fc8eb9",
+      "sha256": "0d1950d19b682b0dc6527daa15e41b1efa9a61a6f9697e625cf18498447be417",
       "type": "tftp"
     },
     {
-      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-factory.bin",
-      "sha256": "db0e02c5369e34db3e5fb9de9f99589d5fd377ce10e0306942513879d5f5141e",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-sysupgrade.bin",
+      "sha256": "a747a7d8a4bb5c277f23513de0545f97d2f640752f72c7f7ae760c5b59662697",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-sysupgrade.bin",
-      "sha256": "86897ff35c47d5228087c5b94027f4fda44927fe6b6cd1bc675bc8e00627f99f",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-factory.bin",
+      "sha256": "a6b2a2b626cc469f2311001da6cedf95fb1cd0dbe32984d4e928618c81bf690e",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "buffalo,wzr-hp-g450h",
-    "wzr-hp-g450h"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["buffalo,wzr-hp-g450h", "wzr-hp-g450h"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WZR-HP-G450H/WZR-450HP",
-      "vendor": "Buffalo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WZR-HP-G450H/WZR-450HP", "vendor": "Buffalo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 16:37:12",
+  "build_at": "2020-12-11 03:30:55",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,19 +46,15 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-smp-comtrend_ct-6373-squashfs-cfe.bin",
-      "sha256": "a86f01531b9b5ba966d68322a5bd0d90bf0222439f072e04c725c0a0b406b617",
+      "sha256": "69f99052e7542fe1e624d3664251d2d0de2cdd4434d386272542619ef16a8cb5",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm63xx/smp",
-  "titles": [
-    {
-      "model": "CT-6373",
-      "vendor": "Comtrend"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "CT-6373", "vendor": "Comtrend" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

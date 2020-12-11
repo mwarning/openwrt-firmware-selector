@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -46,30 +47,21 @@
     "kmod-usb-dwc3",
     "ath10k-firmware-qca4019-ct"
   ],
-  "device_packages": [
-    "fritz-caldata",
-    "fritz-tffs-nand"
-  ],
+  "device_packages": ["fritz-caldata", "fritz-tffs-nand"],
   "id": "avm_fritzbox-7530",
   "image_prefix": "openwrt-ipq40xx-generic-avm_fritzbox-7530",
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-avm_fritzbox-7530-squashfs-sysupgrade.bin",
-      "sha256": "ef60e8dbfb9dc1353ebc5ea8d2b4a54412cff92b6ac88d6b90145fdcddf1d3d6",
+      "sha256": "bca4ff75cee46c657e9bb5bd033affe82236d7f1d95885d62edf1dca42dcec9b",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "avm,fritzbox-7530"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["avm,fritzbox-7530"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "FRITZ!Box 7530",
-      "vendor": "AVM"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "FRITZ!Box 7530", "vendor": "AVM" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

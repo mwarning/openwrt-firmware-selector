@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-11 01:37:12",
+  "build_at": "2020-12-11 00:58:45",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -47,27 +48,21 @@
   "image_prefix": "openwrt-sunxi-cortexa7-linksprite_pcduino3",
   "images": [
     {
-      "name": "openwrt-sunxi-cortexa7-linksprite_pcduino3-squashfs-sdcard.img.gz",
-      "sha256": "c174b98dc4752bbb21c89ebad8ae426449443b6b925817e9cc8417f900e669cb",
+      "name": "openwrt-sunxi-cortexa7-linksprite_pcduino3-ext4-sdcard.img.gz",
+      "sha256": "8b5b43a08c070284384a212277208c7684da7070555252b7b27610cda458bcee",
       "type": "sdcard"
     },
     {
-      "name": "openwrt-sunxi-cortexa7-linksprite_pcduino3-ext4-sdcard.img.gz",
-      "sha256": "4f3f5d29ffd420d97a5fbf5c2093e5871a841f9d69502b20e440533cee70a2c9",
+      "name": "openwrt-sunxi-cortexa7-linksprite_pcduino3-squashfs-sdcard.img.gz",
+      "sha256": "735ff9190c939cb99e86a1854c12f3b094bd7567ad3312324d2d1cedeb2efda1",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "linksprite,pcduino3"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["linksprite,pcduino3"],
   "target": "sunxi/cortexa7",
-  "titles": [
-    {
-      "model": "pcDuino3",
-      "vendor": "LinkSprite"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "pcDuino3", "vendor": "LinkSprite" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

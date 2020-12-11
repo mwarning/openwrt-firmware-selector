@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 16:34:14",
+  "build_at": "2020-12-11 14:01:03",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,29 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-tg3",
-    "kmod-b43"
-  ],
+  "device_packages": ["kmod-tg3", "kmod-b43"],
   "id": "linksys_wrt310n-v1",
   "image_prefix": "openwrt-bcm47xx-generic-linksys_wrt310n-v1",
   "images": [
     {
       "name": "openwrt-bcm47xx-generic-linksys_wrt310n-v1-squashfs.bin",
-      "sha256": "af47d6a2d832afd22da24e51e8b9f355d59d4ca8348218ffd688d636f9d2f432",
+      "sha256": "c2a4c7e0b0f93af805434477fed1d4e1b7f6731cd62a5123e27efff491a5b903",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm47xx/generic",
-  "titles": [
-    {
-      "model": "WRT310N",
-      "variant": "v1",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "WRT310N", "variant": "v1", "vendor": "Linksys" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

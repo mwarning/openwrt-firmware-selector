@@ -1,9 +1,8 @@
 {
   "arch_packages": "powerpc_464fp",
-  "build_at": "2020-09-11 01:02:48",
+  "build_at": "2020-12-11 17:50:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-i2c-core",
     "kmod-gpio-button-hotplug",
@@ -49,22 +50,15 @@
   "images": [
     {
       "name": "openwrt-apm821xx-nand-meraki_mx60-squashfs-sysupgrade.bin",
-      "sha256": "2a4f6a5dcd7635d030aaa419ae54e632d9aa6546a8a286969d9eabdb30e16eb8",
+      "sha256": "46b75178c554280d19d7942df7e65b7e44ec8fe4497b750282a5a0b829210c0f",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "meraki,mx60",
-    "mx60"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["meraki,mx60", "mx60"],
   "target": "apm821xx/nand",
-  "titles": [
-    {
-      "model": "MX60/MX60W",
-      "vendor": "Cisco Meraki"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "MX60/MX60W", "vendor": "Cisco Meraki" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

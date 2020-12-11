@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -46,26 +47,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-dlink_dir-510l-squashfs-factory.bin",
-      "sha256": "73790aa582d5e66b85fdb4338555a63fa326104809556c2dcc229548bbb04689",
+      "sha256": "3b3772ab2e975352abe30731ec6ce5d49f2dfbc06faeee3b1121c66f549a578c",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7620-dlink_dir-510l-squashfs-sysupgrade.bin",
-      "sha256": "a05a448b57dd964c911676ff61e222f090cc214add3de5a120478774021aa7ac",
+      "sha256": "8335422b2969181a15a36b477d5427fdce3104e4d847d1c8f3ba34dea8db1a1a",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dir-510l"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dir-510l"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "DIR-510L",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DIR-510L", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

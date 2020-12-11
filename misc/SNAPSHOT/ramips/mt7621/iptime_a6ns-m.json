@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,21 +45,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-iptime_a6ns-m-squashfs-sysupgrade.bin",
-      "sha256": "d02eb40a4ac9e8fb5ae8347951cdf081b0db86b2bd5b0ad40a8ce75988b6c5e3",
+      "sha256": "7ce1aa83e026efbcd15d8ced9ec4a8a63e3bf162b0ee30aa9616c3df645ac6d8",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "iptime,a6ns-m"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["iptime,a6ns-m"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "A6ns-M",
-      "vendor": "ipTIME"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "A6ns-M", "vendor": "ipTIME" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

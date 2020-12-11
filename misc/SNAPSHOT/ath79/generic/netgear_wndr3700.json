@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -48,34 +49,26 @@
   "image_prefix": "openwrt-ath79-generic-netgear_wndr3700",
   "images": [
     {
-      "name": "openwrt-ath79-generic-netgear_wndr3700-squashfs-factory-NA.img",
-      "sha256": "e3b79e50a03d012b722c0cf34d32c46c37f89d2072539e0356fccc204f53c318",
-      "type": "factory-NA"
-    },
-    {
       "name": "openwrt-ath79-generic-netgear_wndr3700-squashfs-factory.img",
-      "sha256": "72c8740d4af31be7b50a2e64a5e3978f23b0f9463987d8affd2aa5cb13aa499d",
+      "sha256": "97ee4bf35b45c98643f572ba9ece708ef61156c0d4d3c84f8de6ae9062c3ecea",
       "type": "factory"
     },
     {
+      "name": "openwrt-ath79-generic-netgear_wndr3700-squashfs-factory-NA.img",
+      "sha256": "77d5e4784b3fb4499710cc3cf28ced8636ec453d567fc08a5ebb29835aeeb090",
+      "type": "factory-NA"
+    },
+    {
       "name": "openwrt-ath79-generic-netgear_wndr3700-squashfs-sysupgrade.bin",
-      "sha256": "d81099f832662db39f5cf1475c7485e5b47f19e3cb9e522da758418206fc9b8f",
+      "sha256": "ce3ff926722ed7ee0fd3d73245371b447b5e0a7fd6a46bc53b6ed09d7c900b0e",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,wndr3700",
-    "wndr3700"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,wndr3700", "wndr3700"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WNDR3700",
-      "variant": "v1",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WNDR3700", "variant": "v1", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -59,19 +60,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-luxul_abr-4500-squashfs.lxl",
-      "sha256": "b110a5f6bec4ffc21705141086ea9dd2c9b9d7c9fdd8f2f08ea0cdf441afec53",
+      "sha256": "2fbac9a7d48863043225e523a2d8b19fd7ee1d8b958dea63523bf5e8f9f62f8d",
       "type": "lxl"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "ABR-4500",
-      "vendor": "Luxul"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "ABR-4500", "vendor": "Luxul" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

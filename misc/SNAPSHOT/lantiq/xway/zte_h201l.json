@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -52,22 +53,15 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-zte_h201l-squashfs-sysupgrade.bin",
-      "sha256": "d06ef20c0fd36318081e1785a0f418085367bf096c7ef86a4d8fb067eae37221",
+      "sha256": "7cbd50b535560f3cb70fcd1a312a1ee280828d0a86446304d949f994a4a7fa92",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zte,h201l",
-    "H201L"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["zte,h201l", "H201L"],
   "target": "lantiq/xway",
-  "titles": [
-    {
-      "model": "H201L",
-      "vendor": "ZTE"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "H201L", "vendor": "ZTE" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

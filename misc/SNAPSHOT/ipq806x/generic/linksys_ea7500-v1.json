@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a15_neon-vfpv4",
-  "build_at": "2020-09-11 16:48:36",
+  "build_at": "2020-12-11 13:59:29",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -56,35 +57,26 @@
     "wpad-basic-wolfssl",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "ath10k-firmware-qca99x0-ct"
-  ],
+  "device_packages": ["ath10k-firmware-qca99x0-ct"],
   "id": "linksys_ea7500-v1",
   "image_prefix": "openwrt-ipq806x-generic-linksys_ea7500-v1",
   "images": [
     {
-      "name": "openwrt-ipq806x-generic-linksys_ea7500-v1-squashfs-factory.bin",
-      "sha256": "7ab69fb87f1dcdefe21d61e72b1dce94657768cfc6c92bfe16147c84430a70b6",
-      "type": "factory"
+      "name": "openwrt-ipq806x-generic-linksys_ea7500-v1-squashfs-sysupgrade.bin",
+      "sha256": "91e916760f86175574fe22885534fdc1e2ccff24876726ae41958d82b137d3cb",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ipq806x-generic-linksys_ea7500-v1-squashfs-sysupgrade.bin",
-      "sha256": "5f7db007f9e1466f85bdca5988af2c7da68e140891f3b2b74a8050e9ade84ee8",
-      "type": "sysupgrade"
+      "name": "openwrt-ipq806x-generic-linksys_ea7500-v1-squashfs-factory.bin",
+      "sha256": "fe331881ab2c26dbfbc7fc137a3c52504b2dc0918312e7cb79d50dfcdd5e631c",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "linksys,ea7500-v1"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["linksys,ea7500-v1"],
   "target": "ipq806x/generic",
-  "titles": [
-    {
-      "model": "EA7500",
-      "variant": "v1",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "EA7500", "variant": "v1", "vendor": "Linksys" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

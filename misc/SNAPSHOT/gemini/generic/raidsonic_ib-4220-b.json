@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_fa526",
-  "build_at": "2020-09-11 19:01:07",
+  "build_at": "2020-12-11 02:14:07",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-fotg210",
     "kmod-usb-ledtrig-usbport",
     "kmod-leds-gpio",
@@ -70,21 +71,15 @@
   "images": [
     {
       "name": "openwrt-gemini-raidsonic_ib-4220-b-squashfs-factory.bin",
-      "sha256": "2a503fb96469e46d3739cd429967b42949de0efd6a8aab0a9e3c949f4c4e7d47",
+      "sha256": "4275ecb83df578abcaa041d4f5c27e70625d357df19834b834f894752fcd7d75",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "raidsonic,ib-4220-b"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["raidsonic,ib-4220-b"],
   "target": "gemini/generic",
-  "titles": [
-    {
-      "model": "NAS IB-4220-B",
-      "vendor": "Raidsonic"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "NAS IB-4220-B", "vendor": "Raidsonic" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

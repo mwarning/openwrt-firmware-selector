@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -51,37 +52,30 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-netgear_dgn3500-squashfs-factory.img",
-      "sha256": "8e09b419f8b4eb0750271b87608bc4eaf64f55af9036daebb946045b507062ea",
+      "sha256": "db4fb05bb1281b8d71f9f03f42e3703e12c9e3996104c20db779a427d18f8886",
       "type": "factory"
     },
     {
       "name": "openwrt-lantiq-xway-netgear_dgn3500-squashfs-sysupgrade.bin",
-      "sha256": "817a8eaccb2594c4859f9785b7d2741e0a4e102b2b531f9f7772481b4bff6381",
+      "sha256": "bab3da4011fa41a5ccbf9af04582a4e36e3bb4a26995289b57e2a079b11270cd",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-lantiq-xway-netgear_dgn3500-squashfs-factory-na.img",
-      "sha256": "b48b99cc77bdbc2d90b6b28321c6a2fa30a6149ac56d148dd4aad2a113473a2a",
+      "sha256": "47afdcb41410206f90691a49145647388a1b8a890d87f24ca296cd764ff6c3f4",
       "type": "factory-na"
     },
     {
       "name": "openwrt-lantiq-xway-netgear_dgn3500-squashfs-sysupgrade-na.bin",
-      "sha256": "c618b00e57b7825e48b9579a33b7870cd595b054db04884e2aaae27fb91ca5a0",
+      "sha256": "d766cb87533e39e6d4375105005555c313fecf4f871fc8566895418f67c8a319",
       "type": "sysupgrade-na"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,dgn3500",
-    "DGN3500"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["netgear,dgn3500", "DGN3500"],
   "target": "lantiq/xway",
-  "titles": [
-    {
-      "model": "DGN3500",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "DGN3500", "vendor": "NETGEAR" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

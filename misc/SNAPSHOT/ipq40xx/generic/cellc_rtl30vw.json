@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -56,27 +57,21 @@
   "image_prefix": "openwrt-ipq40xx-generic-cellc_rtl30vw",
   "images": [
     {
-      "name": "openwrt-ipq40xx-generic-cellc_rtl30vw-squashfs-nand-factory.bin",
-      "sha256": "612dbdaed295a611a4d746330aec8d81f03338b76bbd2b19cd035d95aa51d00d",
-      "type": "nand-factory"
+      "name": "openwrt-ipq40xx-generic-cellc_rtl30vw-squashfs-nand-sysupgrade.bin",
+      "sha256": "9a938a515e83a5cab076e108428e8865034ad0bf86cdc5ebc88efdffc2603f0e",
+      "type": "nand-sysupgrade"
     },
     {
-      "name": "openwrt-ipq40xx-generic-cellc_rtl30vw-squashfs-nand-sysupgrade.bin",
-      "sha256": "f7fc7fc3f95bc00788f462a1d72c368317232b4c1b1dd50a43da24c0348d6907",
-      "type": "nand-sysupgrade"
+      "name": "openwrt-ipq40xx-generic-cellc_rtl30vw-squashfs-nand-factory.bin",
+      "sha256": "b127a892da0740c7a5f14eeaff940bc4196580d4956e9f6b2ade6d2fca7750a5",
+      "type": "nand-factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "cellc,rtl30vw"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["cellc,rtl30vw"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "RTL30VW",
-      "vendor": "Cell C"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RTL30VW", "vendor": "Cell C" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

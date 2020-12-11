@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9_neon",
-  "build_at": "2020-09-11 20:02:41",
+  "build_at": "2020-12-11 16:44:59",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "mkf2fs",
     "e2fsprogs",
@@ -38,28 +39,21 @@
     "kmod-usb-storage",
     "kmod-fs-msdos"
   ],
-  "device_packages": [
-    "kmod-can",
-    "kmod-can-xilinx-can"
-  ],
+  "device_packages": ["kmod-can", "kmod-can-xilinx-can"],
   "id": "xlnx_zynq-zc702",
   "image_prefix": "openwrt-zynq-xlnx_zynq-zc702",
   "images": [
     {
       "name": "openwrt-zynq-xlnx_zynq-zc702-squashfs-sdcard.img.gz",
-      "sha256": "0c645db77f4b277e9fdeea2519d44e156fc0648b6a99a06f1f054b2dbb9ec3d3",
+      "sha256": "a81f6038b5676f3c3009dd2defa21a6ba344d41434a6ec5038665014251f2e08",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "zynq/generic",
-  "titles": [
-    {
-      "model": "ZC702",
-      "vendor": "Xilinx"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "ZC702", "vendor": "Xilinx" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,27 +42,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-linksys_e1700-squashfs-factory.bin",
-      "sha256": "1b9dafe6ef4967523a3091fc252aabab3920b45a1bbca3e389943797f61dd6bc",
+      "sha256": "457cbbc2a2d3995ee267c1979ccd0ad9e3a5189e7b7fa8403cb1cde8dffadeb8",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7620-linksys_e1700-squashfs-sysupgrade.bin",
-      "sha256": "3d273642c4fbf8576db6b9dad453846b5839068f0824fa6fe8dc628c5d259ed2",
+      "sha256": "da46389e037fb686ad4266387ed3eedd41d36613232051b31633553f105482d5",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "linksys,e1700",
-    "e1700"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["linksys,e1700", "e1700"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "E1700",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "E1700", "vendor": "Linksys" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

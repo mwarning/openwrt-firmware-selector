@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,32 +38,23 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "rssileds",
-    "nvram",
-    "-swconfig"
-  ],
+  "device_packages": ["rssileds", "nvram", "-swconfig"],
   "id": "wd_mynet-wifi-rangeextender",
   "image_prefix": "openwrt-ath79-generic-wd_mynet-wifi-rangeextender",
   "images": [
     {
       "name": "openwrt-ath79-generic-wd_mynet-wifi-rangeextender-squashfs-sysupgrade.bin",
-      "sha256": "c091cf4dd302ced950b9a1c8bd507afa06f5205dc4e1ac2321c8611e723ad27f",
+      "sha256": "927558ef701e2b595ba00cc01bf78635aed8f22a10069b2f8486e0a718aa064a",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "wd,mynet-wifi-rangeextender",
-    "mynet-rext"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["wd,mynet-wifi-rangeextender", "mynet-rext"],
   "target": "ath79/generic",
   "titles": [
-    {
-      "model": "My Net Wi-Fi Range Extender",
-      "vendor": "Western Digital"
-    }
+    { "model": "My Net Wi-Fi Range Extender", "vendor": "Western Digital" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

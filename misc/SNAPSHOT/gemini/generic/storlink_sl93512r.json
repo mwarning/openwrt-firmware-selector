@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_fa526",
-  "build_at": "2020-09-11 19:01:07",
+  "build_at": "2020-12-11 02:14:07",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-fotg210",
     "kmod-usb-ledtrig-usbport",
     "kmod-leds-gpio",
@@ -70,21 +71,15 @@
   "images": [
     {
       "name": "openwrt-gemini-storlink_sl93512r-squashfs-factory.bin",
-      "sha256": "0142988f27efce1d774c6215c088e2e61730e5c3a620b9addcb7ae0e6e69a965",
+      "sha256": "1fc69e4433b0d0c8ee517c4badd04c6e9d4090c2a295bd0b3782b0683872aa99",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "storlink,sl93512r"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["storlink,sl93512r"],
   "target": "gemini/generic",
-  "titles": [
-    {
-      "model": "SL93512r",
-      "vendor": "StorLink"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "SL93512r", "vendor": "StorLink" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

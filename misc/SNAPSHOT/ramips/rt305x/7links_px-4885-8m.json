@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -47,23 +48,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-7links_px-4885-8m-squashfs-sysupgrade.bin",
-      "sha256": "387ce1ca7ec3a9c968a39a1927f6a9b85fb893d1f88e6ba8f1ba51381c68e176",
+      "sha256": "16c7e1f43fb8d7186427845d9817003d09696e20ec6f1b2d713f570049e95b17",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "7links,px-4885-8m",
-    "px-4885-8M"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["7links,px-4885-8m", "px-4885-8M"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "PX-4885",
-      "variant": "8M",
-      "vendor": "7Links"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "PX-4885", "variant": "8M", "vendor": "7Links" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

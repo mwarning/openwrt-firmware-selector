@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,31 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci"],
   "id": "widora_neo-32m",
   "image_prefix": "openwrt-ramips-mt76x8-widora_neo-32m",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-widora_neo-32m-squashfs-sysupgrade.bin",
-      "sha256": "87a96823d734d7c2dba0c120cd8e9ef5e200aa95b78bcb164f216bc691bb38f5",
+      "sha256": "744da6e7a7ff5222856b1b39157d653ebffc5c5489a02c5533e973245e0752cb",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "widora,neo-32m"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["widora,neo-32m"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "Widora-NEO",
-      "variant": "32M",
-      "vendor": "Widora"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "Widora-NEO", "variant": "32M", "vendor": "Widora" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

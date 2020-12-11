@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a15_neon-vfpv4",
-  "build_at": "2020-09-11 16:48:36",
+  "build_at": "2020-12-11 13:59:29",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -66,28 +67,21 @@
   "image_prefix": "openwrt-ipq806x-generic-zyxel_nbg6817",
   "images": [
     {
-      "name": "openwrt-ipq806x-generic-zyxel_nbg6817-squashfs-sysupgrade.bin",
-      "sha256": "027175460bf707d010b9da26213e07910ef008fe6e01d92f365fefe4e7751653",
-      "type": "sysupgrade"
+      "name": "openwrt-ipq806x-generic-zyxel_nbg6817-squashfs-factory.bin",
+      "sha256": "66e347fab179375ab7ac75a9df30cc8f0524ec92b6f58c38f614b0f27efbcb1e",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ipq806x-generic-zyxel_nbg6817-squashfs-factory.bin",
-      "sha256": "cc61b21c1135e533af457b9ec4470643dedaf4ed6a32ce8f8dac2bcc7e8a8fce",
-      "type": "factory"
+      "name": "openwrt-ipq806x-generic-zyxel_nbg6817-squashfs-sysupgrade.bin",
+      "sha256": "95bc30421370db36437bc3a86e3e253f411d7c74000a79ddcf408bc68003c4f0",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zyxel,nbg6817",
-    "nbg6817"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["zyxel,nbg6817", "nbg6817"],
   "target": "ipq806x/generic",
-  "titles": [
-    {
-      "model": "NBG6817",
-      "vendor": "ZyXEL"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "NBG6817", "vendor": "ZyXEL" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

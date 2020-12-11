@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -50,23 +51,15 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-buffalo_wbmr-hp-g300h-b-squashfs-sysupgrade.bin",
-      "sha256": "519392a5a626fd9739eaf9677aedf59e1c0fdacbb161af261d2d7e1d93573008",
+      "sha256": "aa827cc0589631c24a5dcff340be56c2b3c875807db4a12f839e7ebc041ebfc4",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "WBMR",
-    "buffalo,wbmr-hp-g300h"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["WBMR", "buffalo,wbmr-hp-g300h"],
   "target": "lantiq/xway",
-  "titles": [
-    {
-      "model": "WBMR-HP-G300H",
-      "variant": "B",
-      "vendor": "Buffalo"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WBMR-HP-G300H", "variant": "B", "vendor": "Buffalo" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_cortex-a72",
-  "build_at": "2020-09-11 21:00:34",
+  "build_at": "2020-12-11 18:37:45",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-gpio-button-hotplug",
     "e2fsprogs",
@@ -36,41 +37,36 @@
     "uboot-envtools",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-i2c-mux-pca954x"
-  ],
+  "device_packages": ["kmod-i2c-mux-pca954x"],
   "id": "marvell_macchiatobin-doubleshot",
   "image_prefix": "openwrt-mvebu-cortexa72-marvell_macchiatobin-doubleshot",
   "images": [
     {
-      "name": "openwrt-mvebu-cortexa72-marvell_macchiatobin-doubleshot-squashfs-sdcard.img.gz",
-      "sha256": "4ee2f8d0276c36bbea2e378d46a0daf761b112731fea68cf87711d8fe51798fd",
+      "name": "openwrt-mvebu-cortexa72-marvell_macchiatobin-doubleshot-ext4-sdcard.img.gz",
+      "sha256": "784976a2af84bfc0eedaca70f67cd0bd8625585dd37a3d17fddb34e33c5961d2",
       "type": "sdcard"
     },
     {
-      "name": "openwrt-mvebu-cortexa72-marvell_macchiatobin-doubleshot-ext4-sdcard.img.gz",
-      "sha256": "88ce4773cb58e7cd6cb94aadbf8fe465677901778f388ee4180f385e39c9ab89",
+      "name": "openwrt-mvebu-cortexa72-marvell_macchiatobin-doubleshot-squashfs-sdcard.img.gz",
+      "sha256": "e27569b387c8e49d140af69f61ee412c5d362d4387458a15fd6cf6390eb4ecac",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [
     "marvell,armada8040-mcbin-doubleshot",
     "marvell,armada8040-mcbin"
   ],
   "target": "mvebu/cortexa72",
   "titles": [
-    {
-      "model": "MACCHIATObin",
-      "variant": "Double Shot",
-      "vendor": "SolidRun"
-    },
+    { "model": "MACCHIATObin", "variant": "Double Shot", "vendor": "SolidRun" },
     {
       "model": "Armada 8040 Community Board",
       "variant": "Double Shot",
       "vendor": "SolidRun"
     }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

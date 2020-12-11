@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -48,22 +49,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-planex_cs-qr10-squashfs-sysupgrade.bin",
-      "sha256": "e3da74bccc7472dcc71d6c2331e135cf3c621f8d40bb4ae81f5e290d9b309e51",
+      "sha256": "d58821cdd3fa2f63b84b01cc531a5ca06bb4566d8a0580485551aa686fff5c62",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "planex,cs-qr10",
-    "cs-qr10"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["planex,cs-qr10", "cs-qr10"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "CS-QR10",
-      "vendor": "Planex"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "CS-QR10", "vendor": "Planex" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

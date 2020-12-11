@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -51,19 +52,15 @@
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-linksys_wrt54g3g-em-squashfs.bin",
-      "sha256": "28cb4cbe36a393d1178c6c82457641f00134d6a484389b8985218789136724d7",
+      "sha256": "472417fc3a4604d09644341a0a303bf5268788c1a308534bfbcbbfd8f7e7f641",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "WRT54G3G-EM",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WRT54G3G-EM", "vendor": "Linksys" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

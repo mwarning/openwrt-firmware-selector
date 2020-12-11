@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,26 +45,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-asus_rt-ac65p-squashfs-factory.bin",
-      "sha256": "a44b3b1cd6d7966994e1ba4bdf73f56fbaa06c3061652d2e56127205b25f1924",
+      "sha256": "d6364e59e647585c650f8664ef5da3c28fc35e069e567794bb15de880a2b7117",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7621-asus_rt-ac65p-squashfs-sysupgrade.bin",
-      "sha256": "6529694f12a8b58c5e4a60f8287ef8aa8b3e16eb6bfb7e180bb4260c70d91815",
+      "sha256": "bd1f01e51d4249e4c01a000efae06d51e88031eb338b036b898331f5c1f90eb9",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "asus,rt-ac65p"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["asus,rt-ac65p"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "RT-AC65P",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RT-AC65P", "vendor": "ASUS" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

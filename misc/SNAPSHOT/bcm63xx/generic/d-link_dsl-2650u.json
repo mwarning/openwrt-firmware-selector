@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,19 +46,15 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-d-link_dsl-2650u-squashfs-cfe.bin",
-      "sha256": "33e773ac678dc441fd8a390e0b723b06ca43d482540ea080d10c1fb3f6f2a381",
+      "sha256": "63bbfd213e1f92294ea4737e911b601c880abcd9c6715af8c6d997778aaf2fa3",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
-  "titles": [
-    {
-      "model": "DSL-2650U",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "DSL-2650U", "vendor": "D-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

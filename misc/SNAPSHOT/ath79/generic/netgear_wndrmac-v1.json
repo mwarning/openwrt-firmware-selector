@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -49,28 +50,20 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-netgear_wndrmac-v1-squashfs-factory.img",
-      "sha256": "23695488b2e194d5acd573eae18dbf38175c0434d1117b65bd66335a22cd5770",
+      "sha256": "2875737d3503f91b65b34420b422081103784a2521b72bd95ff698ce265aee41",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-netgear_wndrmac-v1-squashfs-sysupgrade.bin",
-      "sha256": "75ca4da462bf408adfff41af692232470b21ef3707650bce4ecac13df12e2253",
+      "sha256": "2cc432a944d1b57724d5a1ead8f057f677ec85d7045756772c03241ac20f2405",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,wndrmac-v1",
-    "wndr3700"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,wndrmac-v1", "wndr3700"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WNDRMAC",
-      "variant": "v1",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WNDRMAC", "variant": "v1", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -46,27 +47,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-118-a2-squashfs-factory.bin",
-      "sha256": "f8a520ee5f72a6909ebb58565ee094b0b8900fe419d412852cad0d34f353cf61",
+      "sha256": "8b6675322d1f4faadf530b9d8a6f57e1955321b9df7b5743c8b0416a3ad3df0c",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-118-a2-squashfs-sysupgrade.bin",
-      "sha256": "4e54133a3b35254777db4d46d638c6907f351aa3171db63ce78436ad9092578b",
+      "sha256": "acafbc7749cba6e41445538b556bd6fb95095948b56f8a1b8fba8464a4ad581f",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dwr-118-a2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dwr-118-a2"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "DWR-118",
-      "variant": "A2",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DWR-118", "variant": "A2", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

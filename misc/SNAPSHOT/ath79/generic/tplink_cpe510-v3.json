@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,35 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "rssileds"
-  ],
+  "device_packages": ["rssileds"],
   "id": "tplink_cpe510-v3",
   "image_prefix": "openwrt-ath79-generic-tplink_cpe510-v3",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_cpe510-v3-squashfs-sysupgrade.bin",
-      "sha256": "0d917062e25e0d15fe5b61f3bd1c7289086f5bedf30599c9381c8679935f4e0f",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_cpe510-v3-squashfs-factory.bin",
+      "sha256": "bc5f0a7b21f7727f63442c80fd7bdd8c5b9c76eab3170c4b495c13fd724c6045",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_cpe510-v3-squashfs-factory.bin",
-      "sha256": "d6144b3e94930e5950012de5e7ccb0a8bd7cf6d15e2295b1c682f3ab1e9e5395",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_cpe510-v3-squashfs-sysupgrade.bin",
+      "sha256": "c985b8ae2cc161cab8d9c757078473825db323c81f8868fdd655b1cf46a8ba1d",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,cpe510-v3"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,cpe510-v3"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "CPE510",
-      "variant": "v3",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "CPE510", "variant": "v3", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -46,28 +47,20 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_archer-c60-v1-squashfs-sysupgrade.bin",
-      "sha256": "d11589664523a9dfd321b0e1f2be834e65301ba38bca98e1959a9a3e3b37883c",
+      "sha256": "9432046a3634bd54f84525f37e234017708bc7b66294b4fc4b2162c6407d02c1",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_archer-c60-v1-squashfs-factory.bin",
-      "sha256": "242f409848a4f0796ad5dad14fb388be01c4fb58500de7c0976ca375104127bd",
+      "sha256": "1aaea3e29e95433a4e7873b5cdd5eafe0b6fce1cb68bea361ea41a38ec0aa656",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,archer-c60-v1",
-    "archer-c60-v1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,archer-c60-v1", "archer-c60-v1"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Archer C60",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Archer C60", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

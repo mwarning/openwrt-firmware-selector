@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -55,27 +56,21 @@
   "image_prefix": "openwrt-ipq40xx-generic-buffalo_wtr-m2133hp",
   "images": [
     {
-      "name": "openwrt-ipq40xx-generic-buffalo_wtr-m2133hp-squashfs-nand-factory.ubi",
-      "sha256": "351cd9c3c1b36655e57837081d1e81d388a6004a7a80297ed6fbcef9d22d3bbf",
-      "type": "nand-factory"
+      "name": "openwrt-ipq40xx-generic-buffalo_wtr-m2133hp-squashfs-nand-sysupgrade.bin",
+      "sha256": "ca7c82ebe3f07f5d8e8081f3c73d914dbcc0343a9f27a5b990721030a7e83739",
+      "type": "nand-sysupgrade"
     },
     {
-      "name": "openwrt-ipq40xx-generic-buffalo_wtr-m2133hp-squashfs-nand-sysupgrade.bin",
-      "sha256": "991534a62aeeba32f1d9945a3d3669ca1f98d02983d15798e86897173299af3b",
-      "type": "nand-sysupgrade"
+      "name": "openwrt-ipq40xx-generic-buffalo_wtr-m2133hp-squashfs-nand-factory.ubi",
+      "sha256": "1956d3c3fa62031f55b3fe2371692e46771d624b270c062e4658272952cb97ea",
+      "type": "nand-factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "buffalo,wtr-m2133hp"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["buffalo,wtr-m2133hp"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "WTR-M2133HP",
-      "vendor": "Buffalo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WTR-M2133HP", "vendor": "Buffalo" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

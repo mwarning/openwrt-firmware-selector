@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,32 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb-ohci",
-    "kmod-usb2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb-ohci", "kmod-usb2", "kmod-usb-ledtrig-usbport"],
   "id": "hootoo_ht-tm02",
   "image_prefix": "openwrt-ramips-rt305x-hootoo_ht-tm02",
   "images": [
     {
       "name": "openwrt-ramips-rt305x-hootoo_ht-tm02-squashfs-sysupgrade.bin",
-      "sha256": "124e5214a9c50c0eaa41c3193f7720d9d7e4307221862e40a58a98fa200c43a7",
+      "sha256": "765a972f60ec0da44f3fd645d6f0c546b8cfa1acc5908fe2bcbc021d633acd4b",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "hootoo,ht-tm02",
-    "ht-tm02"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["hootoo,ht-tm02", "ht-tm02"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "HT-TM02",
-      "vendor": "HooToo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "HT-TM02", "vendor": "HooToo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

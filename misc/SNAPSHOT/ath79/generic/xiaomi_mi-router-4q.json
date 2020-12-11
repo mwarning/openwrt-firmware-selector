@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -43,21 +44,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-xiaomi_mi-router-4q-squashfs-sysupgrade.bin",
-      "sha256": "47a49d4cb4d91c1812270799980a94de7f5955843dd4c6539ae9341ede255cef",
+      "sha256": "a501baf3e2cb2052e9f726ddf902b6f8b34765da642893b7214514bb73cc8155",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "xiaomi,mi-router-4q"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["xiaomi,mi-router-4q"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Mi Router 4Q",
-      "vendor": "Xiaomi"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Mi Router 4Q", "vendor": "Xiaomi" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

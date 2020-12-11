@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,19 +46,15 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-alcatel_rg100a-squashfs-cfe.bin",
-      "sha256": "052dbcf210e9b766076fcc19b11fa618241d47bd064a67d92ee181566a16cdc8",
+      "sha256": "b04961f3200062eb49ca4d1a0e4d5a3adcb73b1f26e1f08512a167f21ba73851",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
-  "titles": [
-    {
-      "model": "RG100A",
-      "vendor": "Alcatel"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "RG100A", "vendor": "Alcatel" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

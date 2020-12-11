@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 17:37:26",
+  "build_at": "2020-12-11 03:05:41",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,35 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ledtrig-usbport"],
   "id": "netgear_wndr4300tn",
   "image_prefix": "openwrt-ath79-nand-netgear_wndr4300tn",
   "images": [
     {
       "name": "openwrt-ath79-nand-netgear_wndr4300tn-squashfs-factory.img",
-      "sha256": "9ba91649261a7ae351a1df6a32060af20666ec72d5089b146349106a03a195c8",
+      "sha256": "8cab07b4b5720ba7afa94df5f004d9ee46489d60b6e7542fde86dd4e215a4f66",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-nand-netgear_wndr4300tn-squashfs-sysupgrade.bin",
-      "sha256": "c07df636c83738499bf3b8c875ba7cf1780e0fde6af4a28420995854947b7a64",
+      "sha256": "02446dc440b22ba73c35853e5855d92d0655d05cd371b2ab495aae08056216d3",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,wndr4300tn"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,wndr4300tn"],
   "target": "ath79/nand",
-  "titles": [
-    {
-      "model": "WNDR4300TN",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "WNDR4300TN", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

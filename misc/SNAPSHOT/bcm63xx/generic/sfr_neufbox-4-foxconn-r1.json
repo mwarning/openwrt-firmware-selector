@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,20 +46,15 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-sfr_neufbox-4-foxconn-r1-squashfs-cfe.bin",
-      "sha256": "22935ab2dc45955eb1b08eed0b8c2ce9864ad868a1f0a2c22d26d2572ce766af",
+      "sha256": "42d8f56cff74729343bc73baa6665237cbc794c8e7d1b6e36832e25f0d3e24ba",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
-  "titles": [
-    {
-      "model": "Neufbox 4",
-      "variant": "Foxconn",
-      "vendor": "SFR"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "Neufbox 4", "variant": "Foxconn", "vendor": "SFR" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

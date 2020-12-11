@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -43,22 +44,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-pcs_cr3000-squashfs-sysupgrade.bin",
-      "sha256": "fb3a33bf3c7e61053564c8bc55cd823159b88b75051daa53cd4d68ac26ae874b",
+      "sha256": "0bd0692c2bb173c05541228d4ee8261400b906866ca2ce7209ed2b1c5fda2240",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "pcs,cr3000",
-    "cr3000"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["pcs,cr3000", "cr3000"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "CR3000",
-      "vendor": "PowerCloud Systems"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "CR3000", "vendor": "PowerCloud Systems" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

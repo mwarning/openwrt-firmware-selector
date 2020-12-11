@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,37 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ledtrig-usbport"],
   "id": "tplink_tl-wr842n-v2",
   "image_prefix": "openwrt-ath79-generic-tplink_tl-wr842n-v2",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_tl-wr842n-v2-squashfs-factory.bin",
-      "sha256": "21d7c9961fb02ff5f8e203716b1a6285807de21c705e745c628064b5e4f12ed2",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_tl-wr842n-v2-squashfs-sysupgrade.bin",
+      "sha256": "6207e7eb99445e90f43cdd2d2175de576c22604c4fa8b2a9a35ce828eb96a24f",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_tl-wr842n-v2-squashfs-sysupgrade.bin",
-      "sha256": "96ee48b8c8ef02cf6a07aa209448424263c4fdc1475944a7b637b96d0c8d5abf",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_tl-wr842n-v2-squashfs-factory.bin",
+      "sha256": "2a486422e2829fc909a76126d14e156320f4fc6264a7aca68adb13c823e9c00c",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wr842n-v2",
-    "tl-wr842n-v2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,tl-wr842n-v2", "tl-wr842n-v2"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "TL-WR842N/ND",
-      "variant": "v2",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "TL-WR842N/ND", "variant": "v2", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

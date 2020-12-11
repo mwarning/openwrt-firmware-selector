@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,37 +45,30 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-netgear_r6220-squashfs-rootfs.bin",
-      "sha256": "694c59a978fcf7fda77e4ba3a14ba9fa70e1fe8fe56914f3a66ab627c823b416",
+      "sha256": "f0ae32c25402724d8dba4745c82f56323a44e8261df6548b4163f687b8ba3d26",
       "type": "rootfs"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_r6220-squashfs-factory.img",
-      "sha256": "a88ed52d02d9a5ef56de4928ee81ad2aebbd0c662d0f1594abb2947be30fa989",
+      "sha256": "4122c925c9a8a23ced3db80fa3aa096207c11d9325ad72601ebbe11e7781a9c9",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_r6220-squashfs-kernel.bin",
-      "sha256": "61394f2b715353cf46b197dd26b24974a477203f2f65c448e869a77191d49234",
+      "sha256": "4cfb69c3e60fb262acc6db624494f2b0092ecd0020c07d5aea4cda9076164056",
       "type": "kernel"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_r6220-squashfs-sysupgrade.bin",
-      "sha256": "f491cbecd97826a7e8970157f62b3c2fce11fd36236685ef5d61015bd966b510",
+      "sha256": "b09da6bd1b6070a3a4d04bba0e4996fb5e0d288f6c6b26dc9212da9634c26bb4",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,r6220",
-    "r6220"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,r6220", "r6220"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "R6220",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "R6220", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

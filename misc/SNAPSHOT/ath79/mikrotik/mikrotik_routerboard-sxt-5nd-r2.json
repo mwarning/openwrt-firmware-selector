@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 22:57:10",
+  "build_at": "2020-12-10 22:30:57",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,32 +38,23 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "nand-utils",
-    "rssileds",
-    "kmod-gpio-beeper"
-  ],
+  "device_packages": ["nand-utils", "rssileds", "kmod-gpio-beeper"],
   "id": "mikrotik_routerboard-sxt-5nd-r2",
   "image_prefix": "openwrt-ath79-mikrotik-mikrotik_routerboard-sxt-5nd-r2",
   "images": [
     {
       "name": "openwrt-ath79-mikrotik-mikrotik_routerboard-sxt-5nd-r2-squashfs-sysupgrade.bin",
-      "sha256": "59f695778efcededb19fa2cfaeacd9c9f414fac81d3e6e2a93caf9bac64cb7fe",
+      "sha256": "a51750b490784fcf22b9c582a6cdde245fae4135494b6bf35abdb83ce378fe04",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "mikrotik,routerboard-sxt-5nd-r2",
-    "rb-sxt5n"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["mikrotik,routerboard-sxt-5nd-r2", "rb-sxt5n"],
   "target": "ath79/mikrotik",
   "titles": [
-    {
-      "model": "RouterBOARD SXT 5nD r2 (SXT Lite5)",
-      "vendor": "MikroTik"
-    }
+    { "model": "RouterBOARD SXT 5nD r2 (SXT Lite5)", "vendor": "MikroTik" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

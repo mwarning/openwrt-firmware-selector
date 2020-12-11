@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,35 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x0e"
-  ],
+  "device_packages": ["kmod-mt76x0e"],
   "id": "tplink_re200-v2",
   "image_prefix": "openwrt-ramips-mt76x8-tplink_re200-v2",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-tplink_re200-v2-squashfs-factory.bin",
-      "sha256": "c6c3d3b576961245df71d04ac3cee5a947e5d9103307d066a2640df5e6934734",
+      "sha256": "ff09773fb2721d2a418a854012c216947a42fdf7521b8fe9ce801952dcfc86a7",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt76x8-tplink_re200-v2-squashfs-sysupgrade.bin",
-      "sha256": "51c51b5b4d65ccdbd3b9c0b8c72560d084e50c1888505067e5bb2744100710a4",
+      "sha256": "0e12286485d7de2d21548af3075b5efca8b4ebdc3a76896b221eaac7242c7b94",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,re200-v2"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["tplink,re200-v2"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "RE200",
-      "variant": "v2",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "RE200", "variant": "v2", "vendor": "TP-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

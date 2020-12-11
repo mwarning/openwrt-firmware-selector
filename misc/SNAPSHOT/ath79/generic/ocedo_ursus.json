@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,30 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca988x-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca988x-ct"],
   "id": "ocedo_ursus",
   "image_prefix": "openwrt-ath79-generic-ocedo_ursus",
   "images": [
     {
       "name": "openwrt-ath79-generic-ocedo_ursus-squashfs-sysupgrade.bin",
-      "sha256": "0a7c67e2e9e838687f162aa4e4f1eae13e55af68e0344f7ce633f92f47e7ee09",
+      "sha256": "cf86e47634df7ffb7c9fb4bfd62ca71fe67208264ad01a92b9ca24bddbdb471c",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ocedo,ursus"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ocedo,ursus"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Ursus",
-      "vendor": "Ocedo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Ursus", "vendor": "Ocedo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,30 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-rt2800-pci"
-  ],
+  "device_packages": ["kmod-rt2800-pci"],
   "id": "asus_rp-n53",
   "image_prefix": "openwrt-ramips-mt7620-asus_rp-n53",
   "images": [
     {
       "name": "openwrt-ramips-mt7620-asus_rp-n53-squashfs-sysupgrade.bin",
-      "sha256": "2fc99bc01e22404f2d3e5e9ff01ec8ece86bf4cec28735441171b36653c36ba7",
+      "sha256": "ebe4b2ec1e921ca5e41efb97b324160147bdb289ef26c9a7a7191f3b0a52dcc3",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "asus,rp-n53",
-    "rp-n53"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["asus,rp-n53", "rp-n53"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "RP-N53",
-      "vendor": "Asus"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RP-N53", "vendor": "Asus" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

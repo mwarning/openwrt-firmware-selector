@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,27 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43"
-  ],
+  "device_packages": ["kmod-b43"],
   "id": "huawei_e970",
   "image_prefix": "openwrt-bcm47xx-legacy-huawei_e970",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-huawei_e970-squashfs.bin",
-      "sha256": "14cc14729cb92f523623832a7805f89bfee3cf713cf14aec4378ed7d011fec2e",
+      "sha256": "16a9e303527cd5fe405b8512ae4af6a78d5af086ce1c1ecde1cbed18283faaa9",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "E970",
-      "vendor": "Huawei"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "E970", "vendor": "Huawei" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

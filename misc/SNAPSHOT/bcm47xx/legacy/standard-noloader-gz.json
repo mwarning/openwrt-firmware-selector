@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -51,18 +52,15 @@
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-standard-noloader-gz-squashfs.trx",
-      "sha256": "0ebf150537ee951a54f08c973091abd5b6f0fc66c3b68cdc8a7aeddece0b57a2",
+      "sha256": "c095cd72e3053e89789e65b344cea02a45e347b829ee978a1c8eba57a78b6fe2",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "title": "Image with gzipped kernel"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "title": "Image with gzipped kernel" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

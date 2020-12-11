@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -51,27 +52,21 @@
   "image_prefix": "openwrt-ipq40xx-generic-engenius_emd1",
   "images": [
     {
-      "name": "openwrt-ipq40xx-generic-engenius_emd1-squashfs-sysupgrade.bin",
-      "sha256": "8293d8b5668433e135f02e0e8f4dde5fc3b6851f05cc971f05bbb2fb94c4ad7b",
-      "type": "sysupgrade"
+      "name": "openwrt-ipq40xx-generic-engenius_emd1-squashfs-factory.bin",
+      "sha256": "10795f0961a8936703c8fa95659b61e526f476528f67b966497346ef31d02890",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ipq40xx-generic-engenius_emd1-squashfs-factory.bin",
-      "sha256": "29f3b22e23c50ea8cf9d643fee996689214b5ae25b74c4c459738061b1421b5a",
-      "type": "factory"
+      "name": "openwrt-ipq40xx-generic-engenius_emd1-squashfs-sysupgrade.bin",
+      "sha256": "b4626157082c253f79f79a76a6317543ddd9d6daf5c1abbef6c9985e5eda27ad",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "engenius,emd1"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["engenius,emd1"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "EMD1",
-      "vendor": "EnGenius"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EMD1", "vendor": "EnGenius" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

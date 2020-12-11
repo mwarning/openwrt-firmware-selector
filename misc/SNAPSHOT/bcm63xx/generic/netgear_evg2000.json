@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,24 +46,20 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-netgear_evg2000-squashfs-sysupgrade.bin",
-      "sha256": "8b2429697a8fdadb8a9fa9f21093c5986e812d1ba2f41b9e00fd6da05e389739",
+      "sha256": "fbaecd65c6d4c3ab7a13f9ce070789de3f183f3d03752874e8e2f7b41061d4b7",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-bcm63xx-generic-netgear_evg2000-squashfs-factory.chk",
-      "sha256": "fbacc56cccdeaf9d8adbd63c62d961b7918d49ad1296a73cd95dc13a04ea56be",
+      "sha256": "dc83c0bcbcb98dd0a59dbf9fe1146e8cb2e4bb1a92d5c1ffb4119b59d78a9e8e",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
-  "titles": [
-    {
-      "model": "EVG2000",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "EVG2000", "vendor": "NETGEAR" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

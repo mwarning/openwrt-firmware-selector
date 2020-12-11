@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,37 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci", "kmod-usb-ledtrig-usbport"],
   "id": "tplink_tl-wr842n-v5",
   "image_prefix": "openwrt-ramips-mt76x8-tplink_tl-wr842n-v5",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-tplink_tl-wr842n-v5-squashfs-tftp-recovery.bin",
-      "sha256": "f7ce198e0618903e18eb0cf19d021b02f69a683450873f3e45e9b5e4524b0b8c",
+      "sha256": "2c6521d1c3d373bec0d0574dd9834830f6675d178dfa9008e8a3ab3f52a913d9",
       "type": "tftp-recovery"
     },
     {
       "name": "openwrt-ramips-mt76x8-tplink_tl-wr842n-v5-squashfs-sysupgrade.bin",
-      "sha256": "5cdc5c78e3fac071ac2bfac3926558c64c7ac9947f0cd326dd304c9769c16575",
+      "sha256": "09fb93b8512c7ac5e3bad320659448feb5588c27d83534982db4777c82a1e4c1",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wr842n-v5"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["tplink,tl-wr842n-v5"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "TL-WR842N",
-      "variant": "v5",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "TL-WR842N", "variant": "v5", "vendor": "TP-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

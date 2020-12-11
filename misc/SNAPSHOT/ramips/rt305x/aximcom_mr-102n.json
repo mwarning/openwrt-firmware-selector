@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-aximcom_mr-102n-squashfs-sysupgrade.bin",
-      "sha256": "1c72e0139352b6d64fb7fed6b718ad2696f3b5545b7dab6f380a46cd19004511",
+      "sha256": "66177924607a93bf4538365ff5febd7121907e6914c05c8ac5476368708b18cc",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "aximcom,mr-102n",
-    "mr-102n"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["aximcom,mr-102n", "mr-102n"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "MR-102N",
-      "vendor": "AXIMCom"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "MR-102N", "vendor": "AXIMCom" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,42 +38,31 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ledtrig-usbport"],
   "id": "netgear_wnr2200-8m",
   "image_prefix": "openwrt-ath79-generic-netgear_wnr2200-8m",
   "images": [
     {
+      "name": "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-sysupgrade.bin",
+      "sha256": "ce200ad180610067bb380db879f06a7d40863dc6d7e0d4f3a910447eebe52614",
+      "type": "sysupgrade"
+    },
+    {
       "name": "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-factory-NA.img",
-      "sha256": "96bd18e80a676699c57ee58e91fe946e9286d136637e565a6d2d1757e84baef5",
+      "sha256": "0c52316fc2439d244aab928894de6de13e0e95a3fef95ef143f7174e621ab2fd",
       "type": "factory-NA"
     },
     {
       "name": "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-factory.img",
-      "sha256": "25bbb0af75e073d84f7f9845ec5a2daa8eaaa678054d824ddd6264082b7b759a",
+      "sha256": "62e74200b0e9ac52ebcc0e1992957dcfc339d0277d4afe585f2e208e7147d2df",
       "type": "factory"
-    },
-    {
-      "name": "openwrt-ath79-generic-netgear_wnr2200-8m-squashfs-sysupgrade.bin",
-      "sha256": "37a96ab6901018c4d711243183bbe148bca777ca92660a9d0c454498ea401d9f",
-      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,wnr2200-8m",
-    "wnr2200"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,wnr2200-8m", "wnr2200"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WNR2200",
-      "variant": "8M",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WNR2200", "variant": "8M", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

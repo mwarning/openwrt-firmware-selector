@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,33 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-chipidea2",
-    "kmod-usb-storage",
-    "-swconfig"
-  ],
+  "device_packages": ["kmod-usb-chipidea2", "kmod-usb-storage", "-swconfig"],
   "id": "alfa-network_ap121f",
   "image_prefix": "openwrt-ath79-generic-alfa-network_ap121f",
   "images": [
     {
       "name": "openwrt-ath79-generic-alfa-network_ap121f-squashfs-sysupgrade.bin",
-      "sha256": "b9e0334b6d5f252fa6653e4a77a3ca9afa07bd660d56476210cd4c817e5257cb",
+      "sha256": "7f8b644a130994587147f6ca7d064d072cbb6f299f8818cf303198f1f3c329ca",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "alfa-network,ap121f",
-    "ap121f"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["alfa-network,ap121f", "ap121f"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "AP121F",
-      "vendor": "ALFA Network"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "AP121F", "vendor": "ALFA Network" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_generic",
-  "build_at": "2020-09-11 20:09:48",
+  "build_at": "2020-12-11 17:43:57",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,9 +17,13 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb3",
     "kmod-usb-dwc3",
     "kmod-usb-storage",
+    "mkf2fs",
+    "e2fsprogs",
     "partx-utils",
     "dnsmasq",
     "firewall",
@@ -34,6 +37,8 @@
     "kmod-usb3",
     "kmod-usb-dwc3",
     "kmod-usb-storage",
+    "mkf2fs",
+    "e2fsprogs",
     "partx-utils"
   ],
   "device_packages": [
@@ -50,27 +55,20 @@
   "images": [
     {
       "name": "openwrt-layerscape-armv8_64b-traverse_ls1043-ubifs-sysupgrade.bin",
-      "sha256": "7e4e561831e26e9513f22e17b85e7a0e65a379b2c8e66ba5e29bf373ba719bc5",
+      "sha256": "b1e8b6353875abc04afd3e459bb8c86ebdcd586c2c157a3d5a5de4e5c13bdf9c",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-layerscape-armv8_64b-traverse_ls1043-ubifs-root",
-      "sha256": "4a677eb2f866d396dcb9eba24eedffe81746d155ebd2c127682fc3828b167529",
+      "sha256": "5b8144eac42bd4a4493ab3e489f402c8ff13da7f0b8bed0daf79b719d20353bb",
       "type": "root"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "traverse,ls1043s",
-    "traverse,ls1043v"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["traverse,ls1043s", "traverse,ls1043v"],
   "target": "layerscape/armv8_64b",
-  "titles": [
-    {
-      "model": "LS1043 Boards",
-      "vendor": "Traverse"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "LS1043 Boards", "vendor": "Traverse" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

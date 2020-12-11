@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_xscale",
-  "build_at": "2020-09-11 23:18:05",
+  "build_at": "2020-12-11 21:22:17",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-usb2",
     "dnsmasq",
@@ -43,27 +44,21 @@
   "image_prefix": "openwrt-kirkwood-cloudengines_pogoplugv4",
   "images": [
     {
-      "name": "openwrt-kirkwood-cloudengines_pogoplugv4-squashfs-sysupgrade.bin",
-      "sha256": "47c894361b3b13a1dece860dbfd0791c93b75f3d3cf1f4d52d1e268dfb6578f7",
-      "type": "sysupgrade"
+      "name": "openwrt-kirkwood-cloudengines_pogoplugv4-squashfs-factory.bin",
+      "sha256": "b9c4fc988d64d04fdf11ab2536a01d0b8e1833e18f3a5bc16710811378ca9061",
+      "type": "factory"
     },
     {
-      "name": "openwrt-kirkwood-cloudengines_pogoplugv4-squashfs-factory.bin",
-      "sha256": "dbb1940f1a4a84afa3baa300d0903ccfb8db2a50d67143a1de908399a37a6a15",
-      "type": "factory"
+      "name": "openwrt-kirkwood-cloudengines_pogoplugv4-squashfs-sysupgrade.bin",
+      "sha256": "8003a0243912210c1601ae39c6dcf54ce9195e475d639b3b71970b47c9e91515",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "cloudengines,pogoplugv4"
-  ],
+  "source_date_epoch": "1607716416",
+  "supported_devices": ["cloudengines,pogoplugv4"],
   "target": "kirkwood/generic",
-  "titles": [
-    {
-      "model": "Pogoplug V4",
-      "vendor": "Cloud Engines"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "Pogoplug V4", "vendor": "Cloud Engines" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

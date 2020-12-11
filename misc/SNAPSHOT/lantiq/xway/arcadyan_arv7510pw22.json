@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -54,26 +55,18 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-arcadyan_arv7510pw22-squashfs-sysupgrade.bin",
-      "sha256": "a87be875effbfd9733d9490d425dd1fe0699b277907393c38b89d2e74879a536",
+      "sha256": "4e48dd9e53d2216d04905b69f1b7469f81f498951b204862c575b3492ee32c37",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "arcadyan,arv7510pw22",
-    "ARV7510PW22"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["arcadyan,arv7510pw22", "ARV7510PW22"],
   "target": "lantiq/xway",
   "titles": [
-    {
-      "model": "ARV7510PW22",
-      "vendor": "Arcadyan"
-    },
-    {
-      "model": "ARV7510PW22",
-      "vendor": "Astoria Networks"
-    }
+    { "model": "ARV7510PW22", "vendor": "Arcadyan" },
+    { "model": "ARV7510PW22", "vendor": "Astoria Networks" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -56,22 +57,15 @@
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-ezviz_cs-w3-wd1200g-eup-squashfs-sysupgrade.bin",
-      "sha256": "3a05bb1eb9c7743b071d43be1224a73840b3b3a2ed33c52410237180939f144b",
+      "sha256": "c3eab0bacca86ae95a3a30d6577a3dbdbedb874012f9fe643e52a6d48cef4ca4",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ezviz,cs-w3-wd1200g-eup"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["ezviz,cs-w3-wd1200g-eup"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "CS-W3-WD1200G",
-      "variant": "EUP",
-      "vendor": "EZVIZ"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "CS-W3-WD1200G", "variant": "EUP", "vendor": "EZVIZ" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

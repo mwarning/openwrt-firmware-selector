@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -33,32 +34,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2",
-    "kmod-usb3",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-mt76x2", "kmod-usb3", "kmod-usb-ledtrig-usbport"],
   "id": "firefly_firewrt",
   "image_prefix": "openwrt-ramips-mt7621-firefly_firewrt",
   "images": [
     {
       "name": "openwrt-ramips-mt7621-firefly_firewrt-squashfs-sysupgrade.bin",
-      "sha256": "19b521559e0251faf15eea025d60d0470a4c3000e88cf725dd701bc7ac1ab0e2",
+      "sha256": "e8bf977c39d6205b8b60c658c4abde98f753017af37fd43a5bd9c3074d2dbff7",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "firefly,firewrt",
-    "firewrt"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["firefly,firewrt", "firewrt"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "FireWRT",
-      "vendor": "Firefly"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "FireWRT", "vendor": "Firefly" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

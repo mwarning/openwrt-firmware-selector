@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -52,26 +53,20 @@
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-8dev_jalapeno-squashfs-nand-sysupgrade.bin",
-      "sha256": "394f15234415d4ef4f4a3a3b9117c7eb53844dbacef4943e4eee828348feb920",
+      "sha256": "3188344045ae2b642f3fdc341d84048da9152d43e8b5de6bd8ad30b34afd6ece",
       "type": "nand-sysupgrade"
     },
     {
       "name": "openwrt-ipq40xx-generic-8dev_jalapeno-squashfs-nand-factory.ubi",
-      "sha256": "24d382df02851ec61de6a06d5a47ab2e3c7a7061077d1e0e1f9027e2b61139fd",
+      "sha256": "d3cfcd4e26fc79d1622cce2d5dbc689e5a7851191082f5445e05491f609b5b7b",
       "type": "nand-factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "8dev,jalapeno"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["8dev,jalapeno"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "Jalapeno",
-      "vendor": "8devices"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Jalapeno", "vendor": "8devices" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

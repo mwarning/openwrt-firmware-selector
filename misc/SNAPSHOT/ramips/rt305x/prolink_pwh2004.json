@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-prolink_pwh2004-squashfs-sysupgrade.bin",
-      "sha256": "62b74a2855e44c359bacae19a0303fc3ddb03530eba31d667ff172a13411fff3",
+      "sha256": "fa35857bc1b3a40500a10ebdc26afd3d9376cdfe4a22ec14787e5c40cd8bfde9",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "prolink,pwh2004",
-    "pwh2004"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["prolink,pwh2004", "pwh2004"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "PWH2004",
-      "vendor": "Prolink"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "PWH2004", "vendor": "Prolink" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

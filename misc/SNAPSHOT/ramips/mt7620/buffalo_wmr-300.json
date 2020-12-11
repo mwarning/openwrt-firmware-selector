@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-buffalo_wmr-300-squashfs-sysupgrade.bin",
-      "sha256": "1fcfc32e5438c0316b46b52d827784c5f244725f2fe839a140a742d1a4304b10",
+      "sha256": "8c28a4c3c52db79d86bfa68bb9774737a54ceb971302565eaee474920672d8d1",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "buffalo,wmr-300",
-    "wmr-300"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["buffalo,wmr-300", "wmr-300"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "WMR-300",
-      "vendor": "Buffalo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WMR-300", "vendor": "Buffalo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -50,21 +51,15 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-avm_fritz7312-squashfs-sysupgrade.bin",
-      "sha256": "54a3dcc75c6c5b6e8b3fb7abd089e0d1db3e3708c0df3b57972b3781f7935796",
+      "sha256": "f284d3da835f0215e71b29d1f21b0dd665f3a5ffa2f1737deca2883738cdddea",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "avm,fritz7312"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["avm,fritz7312"],
   "target": "lantiq/xway",
-  "titles": [
-    {
-      "model": "FRITZ!Box 7312",
-      "vendor": "AVM"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "FRITZ!Box 7312", "vendor": "AVM" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

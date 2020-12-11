@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_mpcore",
-  "build_at": "2020-09-12 00:15:28",
+  "build_at": "2020-12-11 10:26:25",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-button-hotplug",
     "kmod-input-gpio-keys-polled",
     "kmod-ledtrig-timer",
@@ -45,37 +46,30 @@
   "images": [
     {
       "name": "openwrt-oxnas-ox820-mitrastar_stg-212-squashfs-sysupgrade.tar",
-      "sha256": "56a7a9c941a62e8c83d42853a748fd51601708f8928a081db92602ad15cded05",
+      "sha256": "eee31fd281c22f35dbce745b46e0491f76090bf09f3ef3497a2280ac354175e1",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-oxnas-ox820-mitrastar_stg-212-squashfs-ubinized.bin",
-      "sha256": "0822803efb985d2adbba5ee615a2da547be57e6ce78d6afadf43652b78e8bf19",
+      "sha256": "846a8cc89c56834ab78f6e41f20bec334a0aa484f9355c6014056bff523fdc3e",
       "type": "ubinized"
     },
     {
       "name": "openwrt-oxnas-ox820-mitrastar_stg-212-ubifs-sysupgrade.tar",
-      "sha256": "4b637c6c633c22ee9d2daeab9d539e96f5e6994845c9d79ded42b46fa19e875a",
+      "sha256": "390fdab22f40344a23f509bd7706a44f608e04e3936b622f0e849e2771d5f2b0",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-oxnas-ox820-mitrastar_stg-212-ubifs-ubinized.bin",
-      "sha256": "13d3b18892ba399f07b82d9ec54147def8736fa2bbe53ea21b104af13622990c",
+      "sha256": "480738f2d686f3811f0821c29c712701458915dc4368316679805cfc7cfe08e7",
       "type": "ubinized"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "mitrastar,stg-212",
-    "stg212"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["mitrastar,stg-212", "stg212"],
   "target": "oxnas/ox820",
-  "titles": [
-    {
-      "model": "STG-212",
-      "vendor": "MitraStar"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "STG-212", "vendor": "MitraStar" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

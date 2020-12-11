@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -62,19 +63,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-buffalo_wzr-1750dhp-squashfs.trx",
-      "sha256": "274e024658f591918d744d426c1acf8d4ece6c66769420fdb3fda4e40d6d7ab4",
+      "sha256": "24c6dee9516ceb2ad27e6742bebaaa911c334aff989117f86154ee0936ee485e",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "WZR-1750DHP",
-      "vendor": "Buffalo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WZR-1750DHP", "vendor": "Buffalo" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

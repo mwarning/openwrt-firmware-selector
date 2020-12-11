@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,30 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-owl-loader"
-  ],
+  "device_packages": ["kmod-owl-loader"],
   "id": "meraki_mr16",
   "image_prefix": "openwrt-ath79-generic-meraki_mr16",
   "images": [
     {
       "name": "openwrt-ath79-generic-meraki_mr16-squashfs-sysupgrade.bin",
-      "sha256": "75abd6432c823f3f78729118bb836fcad032473f3cfb4862b826e05ef5ba24a4",
+      "sha256": "1131675f4606154f494708d2763b11289f8a6a4d4c472a81b48d34123ab7e7ba",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "meraki,mr16",
-    "mr16"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["meraki,mr16", "mr16"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "MR16",
-      "vendor": "Meraki"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "MR16", "vendor": "Meraki" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

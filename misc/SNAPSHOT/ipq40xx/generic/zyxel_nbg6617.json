@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -46,35 +47,26 @@
     "kmod-usb-dwc3",
     "ath10k-firmware-qca4019-ct"
   ],
-  "device_packages": [
-    "uboot-envtools",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["uboot-envtools", "kmod-usb-ledtrig-usbport"],
   "id": "zyxel_nbg6617",
   "image_prefix": "openwrt-ipq40xx-generic-zyxel_nbg6617",
   "images": [
     {
-      "name": "openwrt-ipq40xx-generic-zyxel_nbg6617-squashfs-sysupgrade.bin",
-      "sha256": "6144037bbdf3fc80aa608e3abbe2e95f2899e7e8adaddf95d3fa9faca2bbbf75",
-      "type": "sysupgrade"
+      "name": "openwrt-ipq40xx-generic-zyxel_nbg6617-squashfs-factory.bin",
+      "sha256": "d5c93418d248773e328e2c73edfa92e2cc3a6ca92b1ffac9ef8853baf6d4bef4",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ipq40xx-generic-zyxel_nbg6617-squashfs-factory.bin",
-      "sha256": "7d3d686744039659d377cf86ec2b118a7e5363edad0c10a6466d487b251caea1",
-      "type": "factory"
+      "name": "openwrt-ipq40xx-generic-zyxel_nbg6617-squashfs-sysupgrade.bin",
+      "sha256": "35694df651432a39e7629588db3fabc356634d9c04433a48cc2f20a1fd5f7d23",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zyxel,nbg6617"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["zyxel,nbg6617"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "NBG6617",
-      "vendor": "ZyXEL"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "NBG6617", "vendor": "ZyXEL" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

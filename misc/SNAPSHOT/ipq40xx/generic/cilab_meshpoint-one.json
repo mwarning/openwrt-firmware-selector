@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -57,26 +58,20 @@
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-cilab_meshpoint-one-squashfs-nand-sysupgrade.bin",
-      "sha256": "263c54cefcf25739c59d84f5d24d65ffbef2726705344809d1a80d8bc6dc59c6",
+      "sha256": "6ce3b685b72d805b55970a77f42caf7d5983a9888e228c750ade677858dced14",
       "type": "nand-sysupgrade"
     },
     {
       "name": "openwrt-ipq40xx-generic-cilab_meshpoint-one-squashfs-nand-factory.ubi",
-      "sha256": "ddec9e76645ec3dc11e3c58fbc850ee517d20463ecf826cbb1b612d5fadad396",
+      "sha256": "ba15f48880d5c2320bc60916a152dd8dca21aebc9bd68395bcb8accad9cf50fd",
       "type": "nand-factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "cilab,meshpoint-one"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["cilab,meshpoint-one"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "MeshPoint.One",
-      "vendor": "Crisis Innovation Lab"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "MeshPoint.One", "vendor": "Crisis Innovation Lab" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

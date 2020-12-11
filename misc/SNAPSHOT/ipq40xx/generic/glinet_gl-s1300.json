@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -57,21 +58,15 @@
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-glinet_gl-s1300-squashfs-sysupgrade.bin",
-      "sha256": "7dbc75d0dd0448b2292f98d67e66d86a66ae4888c298b570ff0641054db0b701",
+      "sha256": "4913645dfd8744500258465abf4d487613c4f397757c7b9269323cb6e4c80ae1",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "glinet,gl-s1300"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["glinet,gl-s1300"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "GL-S1300",
-      "vendor": "GL.iNet"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "GL-S1300", "vendor": "GL.iNet" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

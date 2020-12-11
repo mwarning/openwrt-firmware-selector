@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -62,20 +63,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-netgear_r6300-v2-squashfs.chk",
-      "sha256": "58ae35f653e48bb95593ff7ab88ccd89b3e773b0d87f550ea6af0c40cf362a58",
+      "sha256": "98a826394a60729510bf93d6f7e5865b0b245f8c28b30b937f03e66c06ec5642",
       "type": "chk"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "R6300",
-      "variant": "v2",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "R6300", "variant": "v2", "vendor": "NETGEAR" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

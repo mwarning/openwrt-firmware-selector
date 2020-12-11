@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,36 +38,28 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca9888-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca9888-ct"],
   "id": "tplink_tl-wpa8630p-v2-int",
   "image_prefix": "openwrt-ath79-generic-tplink_tl-wpa8630p-v2-int",
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_tl-wpa8630p-v2-int-squashfs-factory.bin",
-      "sha256": "16f63949b4b3caa0b4ca4060be298b89e870191843066dd2ffb3333eb6a328f9",
+      "sha256": "30493f6f5737a80b3286a26570827797eda58b345a57af714ea4eb012d57ed75",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-tplink_tl-wpa8630p-v2-int-squashfs-sysupgrade.bin",
-      "sha256": "6e3830bc275d6d312b98afd539cafc2b82fc502b8e9ff7e25177cb79911cc296",
+      "sha256": "8b252eda985c1e7549b1a570fbe87cf7d81e90d5bf43c571fe66cd5c7657e337",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wpa8630p-v2-int"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,tl-wpa8630p-v2-int"],
   "target": "ath79/generic",
   "titles": [
-    {
-      "model": "TL-WPA8630P",
-      "variant": "v2 (Int.)",
-      "vendor": "TP-Link"
-    }
+    { "model": "TL-WPA8630P", "variant": "v2 (Int.)", "vendor": "TP-Link" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

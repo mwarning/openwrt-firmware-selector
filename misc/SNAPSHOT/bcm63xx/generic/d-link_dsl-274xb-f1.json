@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -32,40 +33,29 @@
     "swconfig",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-ath9k",
-    "wpad-basic-wolfssl",
-    "iwinfo"
-  ],
+  "device_packages": ["kmod-ath9k", "wpad-basic-wolfssl", "iwinfo"],
   "id": "d-link_dsl-274xb-f1",
   "image_prefix": "openwrt-bcm63xx-generic-d-link_dsl-274xb-f1",
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-d-link_dsl-274xb-f1-squashfs-cfe-AU.bin",
-      "sha256": "da957b7a2b05b196fcf89cc0600e8d9db8a68c4de340e12c0f522c4a6307e7fa",
+      "sha256": "930b6c0c51f7485c5d65a71814b7401142796cc14ece4e63bc7aa2ddca1b8460",
       "type": "cfe-AU"
     },
     {
       "name": "openwrt-bcm63xx-generic-d-link_dsl-274xb-f1-squashfs-cfe-EU.bin",
-      "sha256": "841fabe97c3c642b26cbb40c033cbb1ca86fffc8aa73ebf6166f327f9f52285c",
+      "sha256": "f08dbc7d053456c0320e2c318002f6daffbf8771c28263fa76ee9c8c13933b0c",
       "type": "cfe-EU"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
   "titles": [
-    {
-      "model": "DSL-2740B",
-      "variant": "F1",
-      "vendor": "D-Link"
-    },
-    {
-      "model": "DSL-2741B",
-      "variant": "F1",
-      "vendor": "D-Link"
-    }
+    { "model": "DSL-2740B", "variant": "F1", "vendor": "D-Link" },
+    { "model": "DSL-2741B", "variant": "F1", "vendor": "D-Link" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

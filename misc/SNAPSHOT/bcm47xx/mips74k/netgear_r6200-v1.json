@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,30 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43",
-    "kmod-usb-ohci",
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-b43", "kmod-usb-ohci", "kmod-usb2"],
   "id": "netgear_r6200-v1",
   "image_prefix": "openwrt-bcm47xx-mips74k-netgear_r6200-v1",
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-netgear_r6200-v1-squashfs.chk",
-      "sha256": "35dad57e5aa404bcef29c5caabbb7e3f5d92b79dfb9bd046d457398481f250b3",
+      "sha256": "47bd2c84c268bc632c9ede6c5ce0d441739e4e170a26233b3dbda62cb74f76c4",
       "type": "chk"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
-  "titles": [
-    {
-      "model": "R6200",
-      "variant": "v1",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "R6200", "variant": "v1", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

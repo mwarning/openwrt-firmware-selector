@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_cortex-a53",
-  "build_at": "2020-09-11 21:45:28",
+  "build_at": "2020-12-11 19:23:08",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7615e",
@@ -46,26 +47,20 @@
   "images": [
     {
       "name": "openwrt-mediatek-mt7622-mediatek_mt7622-ubi-squashfs-sysupgrade.bin",
-      "sha256": "3f062ae6e1465c776347981a91e8a494c485d778334456b08a7215c44d86c575",
+      "sha256": "021889b5e8b67e376ce0f5f4bf1b9553fc2fcea00e9fbad6a0ab4b03ab08721a",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-mediatek-mt7622-mediatek_mt7622-ubi-squashfs-factory.bin",
-      "sha256": "de9d9a5824bcb005f790d24f43ff0c6f14a33606ce114adfa2a84650fea0645c",
+      "sha256": "4942f4dcff3d6179e336c616c88d59956d60f4a8923bf917c02fa5a1e336554a",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "mediatek,mt7622-ubi"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["mediatek,mt7622-ubi"],
   "target": "mediatek/mt7622",
-  "titles": [
-    {
-      "model": "MTK7622 AP (UBI)",
-      "vendor": "MediaTek"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "MTK7622 AP (UBI)", "vendor": "MediaTek" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

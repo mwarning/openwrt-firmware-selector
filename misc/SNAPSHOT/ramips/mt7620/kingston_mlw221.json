@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,32 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2",
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-mt76x2", "kmod-usb2", "kmod-usb-ohci"],
   "id": "kingston_mlw221",
   "image_prefix": "openwrt-ramips-mt7620-kingston_mlw221",
   "images": [
     {
       "name": "openwrt-ramips-mt7620-kingston_mlw221-squashfs-sysupgrade.bin",
-      "sha256": "3409e4c469c0535cc5b367978213e736f0f0731784503d2757730bcd4daea8c0",
+      "sha256": "1643a630b224766d5f160a809d9102a8e496702640b683836e0e6b4b1db64f9c",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "kingston,mlw221",
-    "mlw221"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["kingston,mlw221", "mlw221"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "MLW221",
-      "vendor": "Kingston"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "MLW221", "vendor": "Kingston" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

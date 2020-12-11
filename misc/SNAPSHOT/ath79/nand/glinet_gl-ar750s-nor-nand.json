@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 17:37:26",
+  "build_at": "2020-12-11 03:05:41",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -49,23 +50,17 @@
   "images": [
     {
       "name": "openwrt-ath79-nand-glinet_gl-ar750s-nor-nand-squashfs-sysupgrade.bin",
-      "sha256": "02655ce9696b3c652915e6d66603df23356b3a713fcca7ad9aae5a5d54f87ef5",
+      "sha256": "06e56838584b1a4f8806adaa89463f25c9fd221098de726b15ca8f1af360f5b3",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "glinet,gl-ar750s-nor-nand",
-    "glinet,gl-ar750s-nor"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["glinet,gl-ar750s-nor-nand", "glinet,gl-ar750s-nor"],
   "target": "ath79/nand",
   "titles": [
-    {
-      "model": "GL-AR750S",
-      "variant": "NOR/NAND",
-      "vendor": "GL.iNet"
-    }
+    { "model": "GL-AR750S", "variant": "NOR/NAND", "vendor": "GL.iNet" }
   ],
-  "version_code": "r14447-2e6c236abd",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

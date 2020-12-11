@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -46,30 +47,21 @@
     "kmod-usb-dwc3",
     "ath10k-firmware-qca4019-ct"
   ],
-  "device_packages": [
-    "-kmod-ath10k-ct",
-    "kmod-ath10k-ct-smallbuffers"
-  ],
+  "device_packages": ["-kmod-ath10k-ct", "kmod-ath10k-ct-smallbuffers"],
   "id": "zyxel_wre6606",
   "image_prefix": "openwrt-ipq40xx-generic-zyxel_wre6606",
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-zyxel_wre6606-squashfs-sysupgrade.bin",
-      "sha256": "ad1f7d6650a181c5cc2d5c8d12a8b01df31c9e626f09a77edd19fb3b6171a09a",
+      "sha256": "a85469e2b56ddcab4ccd16bf67692191f0a534a3aaad4804557b20f8d38ed095",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zyxel,wre6606"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["zyxel,wre6606"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "WRE6606",
-      "vendor": "ZyXEL"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WRE6606", "vendor": "ZyXEL" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

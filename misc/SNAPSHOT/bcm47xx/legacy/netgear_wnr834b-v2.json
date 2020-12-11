@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,28 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43"
-  ],
+  "device_packages": ["kmod-b43"],
   "id": "netgear_wnr834b-v2",
   "image_prefix": "openwrt-bcm47xx-legacy-netgear_wnr834b-v2",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-netgear_wnr834b-v2-squashfs.chk",
-      "sha256": "8631c2391f9d7eecd4ba413af7428da0d457939450435d55f2db252c46fa43d0",
+      "sha256": "cc074c88432bda846f7b2c19ab2d3024919afea0ebe0b5e647723fbe9291581a",
       "type": "chk"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "WNR834B",
-      "variant": "v2",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WNR834B", "variant": "v2", "vendor": "NETGEAR" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

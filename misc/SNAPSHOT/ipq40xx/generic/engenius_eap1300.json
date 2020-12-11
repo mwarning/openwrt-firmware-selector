@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -52,21 +53,15 @@
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-engenius_eap1300-squashfs-sysupgrade.bin",
-      "sha256": "1ee58b56f637c8b7060ba658b5784178652870e86f6cecbc0c840689b3fd2ad7",
+      "sha256": "12b08b8d73eb7e7e92989ed3734695ef62929477a7292e72555046a82526734f",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "engenius,eap1300"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["engenius,eap1300"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "EAP1300",
-      "vendor": "EnGenius"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EAP1300", "vendor": "EnGenius" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

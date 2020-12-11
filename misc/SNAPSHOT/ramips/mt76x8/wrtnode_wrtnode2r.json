@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,31 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci"],
   "id": "wrtnode_wrtnode2r",
   "image_prefix": "openwrt-ramips-mt76x8-wrtnode_wrtnode2r",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-wrtnode_wrtnode2r-squashfs-sysupgrade.bin",
-      "sha256": "378cf472f52678b63508d472ab427a8d88ea1f9624c8e181b45402ed9cbf413f",
+      "sha256": "359ad446fec6b224e605d0b12ab3ece40b7f1b959b8ebe692991cfa46d5f20cf",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "wrtnode,wrtnode2r",
-    "wrtnode2r"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["wrtnode,wrtnode2r", "wrtnode2r"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "WRTnode 2R",
-      "vendor": "WRTnode"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WRTnode 2R", "vendor": "WRTnode" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

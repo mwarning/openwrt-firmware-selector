@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a15_neon-vfpv4",
-  "build_at": "2020-09-11 16:48:36",
+  "build_at": "2020-12-11 13:59:29",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -56,35 +57,26 @@
     "wpad-basic-wolfssl",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "ath10k-firmware-qca9984-ct"
-  ],
+  "device_packages": ["ath10k-firmware-qca9984-ct"],
   "id": "netgear_r7800",
   "image_prefix": "openwrt-ipq806x-generic-netgear_r7800",
   "images": [
     {
-      "name": "openwrt-ipq806x-generic-netgear_r7800-squashfs-sysupgrade.bin",
-      "sha256": "9ad9a50939b07ae9dcea8fdf30cc10ac16be71f45fbdc37eab0492c4459dc3a4",
-      "type": "sysupgrade"
+      "name": "openwrt-ipq806x-generic-netgear_r7800-squashfs-factory.img",
+      "sha256": "ffd39785770b29757c328687bf705bbfd8971c85601edb46a6a286cc1fb7e116",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ipq806x-generic-netgear_r7800-squashfs-factory.img",
-      "sha256": "8845cbf474731d1fa0350e2ce223e04e0c5141b637b181e3bf0cfa275ac06959",
-      "type": "factory"
+      "name": "openwrt-ipq806x-generic-netgear_r7800-squashfs-sysupgrade.bin",
+      "sha256": "bae3be6eef5b27cc55dc840913eae9c1521240a02129a93a4b7354afb66f6e4e",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,r7800",
-    "r7800"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["netgear,r7800", "r7800"],
   "target": "ipq806x/generic",
-  "titles": [
-    {
-      "model": "Nighthawk X4S R7800",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "Nighthawk X4S R7800", "vendor": "NETGEAR" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,31 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci"],
   "id": "microduino_microwrt",
   "image_prefix": "openwrt-ramips-mt7620-microduino_microwrt",
   "images": [
     {
       "name": "openwrt-ramips-mt7620-microduino_microwrt-squashfs-sysupgrade.bin",
-      "sha256": "46c5c9f439f19f144a0bfcb19532beec788d2b52544942b09ce423e3badaec0e",
+      "sha256": "284d3af8dd816cf27d6c9d18cfba95ebb32608c3244946ccf923e61fbd979dd7",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "microduino,microwrt",
-    "microwrt"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["microduino,microwrt", "microwrt"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "MicroWRT",
-      "vendor": "Microduino"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "MicroWRT", "vendor": "Microduino" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

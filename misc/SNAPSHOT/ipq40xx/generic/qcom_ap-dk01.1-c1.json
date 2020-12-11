@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -52,22 +53,17 @@
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-qcom_ap-dk01.1-c1-squashfs-sysupgrade.bin",
-      "sha256": "6b605343ad486b6230f6677fc55545486f06c85609352db56fb774bdf775f393",
+      "sha256": "71d082b9fb5d4dc02e86455466314c1e15d2b1808e282de33e6ca4072e676a62",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "qcom,ap-dk01.1-c1"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["qcom,ap-dk01.1-c1"],
   "target": "ipq40xx/generic",
   "titles": [
-    {
-      "model": "AP-DK01.1",
-      "variant": "C1",
-      "vendor": "Qualcomm Atheros"
-    }
+    { "model": "AP-DK01.1", "variant": "C1", "vendor": "Qualcomm Atheros" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

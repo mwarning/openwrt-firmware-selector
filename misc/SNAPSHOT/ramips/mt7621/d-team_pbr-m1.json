@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -46,22 +47,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-d-team_pbr-m1-squashfs-sysupgrade.bin",
-      "sha256": "40e71477475af4a07af52ca40663b3cd075507acd7c96a178f4a545e369aaabc",
+      "sha256": "cf0c304f0d6dd4df3ebc452e5bb188730f06e3b738c85a71d9f3c02813803d13",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "d-team,pbr-m1",
-    "pbr-m1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["d-team,pbr-m1", "pbr-m1"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "PBR-M1",
-      "vendor": "PandoraBox"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "PBR-M1", "vendor": "PandoraBox" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

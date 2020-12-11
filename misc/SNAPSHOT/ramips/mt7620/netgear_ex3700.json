@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,35 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2"
-  ],
+  "device_packages": ["kmod-mt76x2"],
   "id": "netgear_ex3700",
   "image_prefix": "openwrt-ramips-mt7620-netgear_ex3700",
   "images": [
     {
-      "name": "openwrt-ramips-mt7620-netgear_ex3700-squashfs-factory.chk",
-      "sha256": "a6c58081834d7c3bf15f92b8aa64a095be60650e29434ee3c4787e76d5941e8c",
-      "type": "factory"
+      "name": "openwrt-ramips-mt7620-netgear_ex3700-squashfs-sysupgrade.bin",
+      "sha256": "972a25cff2e1bfc3353bf4e21c602826c97387d619927894d4a8b5840fdfc4cd",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ramips-mt7620-netgear_ex3700-squashfs-sysupgrade.bin",
-      "sha256": "ccd9305a4eb8a4ba33a52dd3ae6ccd90f5c12454ce3a7d259f75a5984d717b78",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-mt7620-netgear_ex3700-squashfs-factory.chk",
+      "sha256": "3e0013d4ebea101807af6ed2c7a0a574d4c9a2b1121937f4fc26f63bdb1241eb",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,ex3700",
-    "ex3700"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,ex3700", "ex3700"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "EX3700/EX3800",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EX3700/EX3800", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -46,22 +47,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-edimax_br-6478ac-v2-squashfs-sysupgrade.bin",
-      "sha256": "8d737afa34642ceec69076fd5ce1f50d84c424794e2a92d3d831b41ad88ba9d5",
+      "sha256": "707eb603597bd4ef24b7f5086b29ccf16bacecf11f09997c6121585f79e3ffc5",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "edimax,br-6478ac-v2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["edimax,br-6478ac-v2"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "BR-6478AC",
-      "variant": "V2",
-      "vendor": "Edimax"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "BR-6478AC", "variant": "V2", "vendor": "Edimax" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

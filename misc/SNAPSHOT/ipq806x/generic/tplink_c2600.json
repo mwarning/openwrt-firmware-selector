@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a15_neon-vfpv4",
-  "build_at": "2020-09-11 16:48:36",
+  "build_at": "2020-12-11 13:59:29",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -56,36 +57,26 @@
     "wpad-basic-wolfssl",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "ath10k-firmware-qca99x0-ct"
-  ],
+  "device_packages": ["ath10k-firmware-qca99x0-ct"],
   "id": "tplink_c2600",
   "image_prefix": "openwrt-ipq806x-generic-tplink_c2600",
   "images": [
     {
-      "name": "openwrt-ipq806x-generic-tplink_c2600-squashfs-sysupgrade.bin",
-      "sha256": "840029e4a44053b08d0b8bd0758714cf9eccc5f507e776ff332de78dca6fc6b8",
-      "type": "sysupgrade"
+      "name": "openwrt-ipq806x-generic-tplink_c2600-squashfs-factory.bin",
+      "sha256": "e77921bfbf1e3afe029af831e7491e3c4a902f7c0c2fe198a91765f6867dfde4",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ipq806x-generic-tplink_c2600-squashfs-factory.bin",
-      "sha256": "b34c1cc619d3896ae8ad456daaa6c287e8c4ff5c9b4dd6c11edff71f66309cce",
-      "type": "factory"
+      "name": "openwrt-ipq806x-generic-tplink_c2600-squashfs-sysupgrade.bin",
+      "sha256": "8811c32dc5e75935747ded6d2fe5b46264dcad30841430cbb66577b48aa38f13",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,c2600",
-    "c2600"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["tplink,c2600", "c2600"],
   "target": "ipq806x/generic",
-  "titles": [
-    {
-      "model": "Archer C2600",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "Archer C2600", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -33,36 +34,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt7615e",
-    "kmod-mt7615-firmware"
-  ],
+  "device_packages": ["kmod-mt7615e", "kmod-mt7615-firmware"],
   "id": "dlink_dir-867-a1",
   "image_prefix": "openwrt-ramips-mt7621-dlink_dir-867-a1",
   "images": [
     {
       "name": "openwrt-ramips-mt7621-dlink_dir-867-a1-squashfs-factory.bin",
-      "sha256": "91431a3c6658f607ee9f721aadaad2f9b1b11498b587cd9bb3bbe891d1d9fc6b",
+      "sha256": "45c134ae6049cbfca7b63c854c18a51ed535d1899e7e41a62159f826406d7128",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7621-dlink_dir-867-a1-squashfs-sysupgrade.bin",
-      "sha256": "c992b0ea15cbdef6af6dbbee5d681df439e76c219579839d417eeac23682c86b",
+      "sha256": "c89500f98cc0f73cbd9967c63873a8fd094a8df0ee7d67316d27c0861580b4f8",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dir-867-a1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dir-867-a1"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "DIR-867",
-      "variant": "A1",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DIR-867", "variant": "A1", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

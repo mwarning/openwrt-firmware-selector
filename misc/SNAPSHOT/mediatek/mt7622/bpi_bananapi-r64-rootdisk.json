@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_cortex-a53",
-  "build_at": "2020-09-11 21:45:28",
+  "build_at": "2020-12-11 19:23:08",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7615e",
@@ -46,21 +47,15 @@
   "images": [
     {
       "name": "openwrt-mediatek-mt7622-bpi_bananapi-r64-rootdisk-squashfs-sysupgrade-emmc.bin.gz",
-      "sha256": "8f3a47ac786741157bf5ce4f8c650728fc03a6991d73c93550cf0860c5ade205",
+      "sha256": "f06f395324c0603da6e068178ed80e23ed205823cbe921d1e33669c07bd83d07",
       "type": "sysupgrade-emmc"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "bananapi,bpi-r64"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["bananapi,bpi-r64"],
   "target": "mediatek/mt7622",
-  "titles": [
-    {
-      "model": "Banana Pi R64 (rootdisk)",
-      "vendor": "Bpi"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "Banana Pi R64 (rootdisk)", "vendor": "Bpi" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

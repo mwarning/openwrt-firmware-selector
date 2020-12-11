@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -51,20 +52,15 @@
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-netgear_wgr614-v10-squashfs.chk",
-      "sha256": "d93956a5e75651eb02cd5b94756a229f73ac2f86737ff8ff6079c58600568d40",
+      "sha256": "ec8e5781d89a0d933f03a7de9032ea6fd295f7f79bec6ba3ff0c59bd133435f9",
       "type": "chk"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
-  "titles": [
-    {
-      "model": "WGR614",
-      "variant": "v10",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WGR614", "variant": "v10", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

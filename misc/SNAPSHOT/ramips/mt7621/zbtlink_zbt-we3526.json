@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -45,21 +46,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-zbtlink_zbt-we3526-squashfs-sysupgrade.bin",
-      "sha256": "711532414271dcd999883edf6c4b47a87f68308e2a7977372b48212c90ce83a9",
+      "sha256": "5e1fd89308528dc7647069f2eefad34994d76165e82eb7b92ca6d8e9c0e787f4",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zbtlink,zbt-we3526"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["zbtlink,zbt-we3526"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "ZBT-WE3526",
-      "vendor": "Zbtlink"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "ZBT-WE3526", "vendor": "Zbtlink" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_fa526",
-  "build_at": "2020-09-11 19:01:07",
+  "build_at": "2020-12-11 02:14:07",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-fotg210",
     "kmod-usb-ledtrig-usbport",
     "kmod-leds-gpio",
@@ -70,27 +71,23 @@
   "image_prefix": "openwrt-gemini-dlink_dir-685",
   "images": [
     {
-      "name": "openwrt-gemini-dlink_dir-685-squashfs-sysupgrade.bin",
-      "sha256": "26428ad4006d80a40d587c0e003b04bce96309231a8880fd57957d3815f15f62",
-      "type": "sysupgrade"
+      "name": "openwrt-gemini-dlink_dir-685-squashfs-factory.bin",
+      "sha256": "ee6d5c4f2837a2eb80da56d4c23e9b88a2fe840036250f4a5c708e0e9a73b6f1",
+      "type": "factory"
     },
     {
-      "name": "openwrt-gemini-dlink_dir-685-squashfs-factory.bin",
-      "sha256": "f6d991b2ac545b4c3cca49ef2539fd40ed4d366492d72b23a0dfcc7c79176e17",
-      "type": "factory"
+      "name": "openwrt-gemini-dlink_dir-685-squashfs-sysupgrade.bin",
+      "sha256": "501fda4d2ec748cbbe55ed1e53110d45eeb2b8cfdbe82debabc551109e39c876",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dir-685"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dir-685"],
   "target": "gemini/generic",
   "titles": [
-    {
-      "model": "DIR-685 Xtreme N Storage Router",
-      "vendor": "D-Link"
-    }
+    { "model": "DIR-685 Xtreme N Storage Router", "vendor": "D-Link" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

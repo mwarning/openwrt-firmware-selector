@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_fa526",
-  "build_at": "2020-09-11 19:01:07",
+  "build_at": "2020-12-11 02:14:07",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-fotg210",
     "kmod-usb-ledtrig-usbport",
     "kmod-leds-gpio",
@@ -70,21 +71,17 @@
   "images": [
     {
       "name": "openwrt-gemini-dlink_dns-313-ext4-factory.bin.gz",
-      "sha256": "4af051e80e02881f50e7ebf1c07957317e80607fa3dfe35b25f3606d7383c2c8",
+      "sha256": "833fa7c07458687650094d929ce72d9bce858969b6be9e06dd2a2e42f8932fee",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dns-313"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dns-313"],
   "target": "gemini/generic",
   "titles": [
-    {
-      "model": "DNS-313 1-Bay Network Storage Enclosure",
-      "vendor": "D-Link"
-    }
+    { "model": "DNS-313 1-Bay Network Storage Enclosure", "vendor": "D-Link" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

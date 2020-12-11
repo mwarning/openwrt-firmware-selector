@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-11 01:37:12",
+  "build_at": "2020-12-11 00:58:45",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -50,26 +51,20 @@
   "images": [
     {
       "name": "openwrt-sunxi-cortexa7-friendlyarm_nanopi-m1-plus-ext4-sdcard.img.gz",
-      "sha256": "93cf4ca5431b83da17c38f95045639699d21b996f286a109806e017ee1b94cff",
+      "sha256": "ca05a99bc514e59a3a0a266afebc5ff027e1839faaf4dd8f28fa85fade471dc1",
       "type": "sdcard"
     },
     {
       "name": "openwrt-sunxi-cortexa7-friendlyarm_nanopi-m1-plus-squashfs-sdcard.img.gz",
-      "sha256": "708796bcaf3815ba80c59b51b5bc574c446178d41b86ea1bc3c877896b1c9daf",
+      "sha256": "6ea800ab1230c3211c40ae7b1c542c08dd08f03098f101dc8ebf3b57cc9c7d2f",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "friendlyarm,nanopi-m1-plus"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["friendlyarm,nanopi-m1-plus"],
   "target": "sunxi/cortexa7",
-  "titles": [
-    {
-      "model": "NanoPi M1 Plus",
-      "vendor": "FriendlyARM"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "NanoPi M1 Plus", "vendor": "FriendlyARM" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

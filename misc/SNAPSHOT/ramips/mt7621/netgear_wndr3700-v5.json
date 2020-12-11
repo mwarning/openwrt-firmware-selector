@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,28 +45,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-netgear_wndr3700-v5-squashfs-factory.img",
-      "sha256": "5450c88e801a5424f349abaecf0b1f090bddbad2af105f259dc27aefa600d151",
+      "sha256": "8befbab294a8e8f75467dcbf3f4f4c6d8aa034ba9e384e4dd3f0fab6a85fa7ce",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_wndr3700-v5-squashfs-sysupgrade.bin",
-      "sha256": "bf53d8f9c72c23d47ce1bb2416bd65f8a13708d3e1380cd1a58d9e02c75b89c6",
+      "sha256": "3dc7f1ac76841e00f6a978bf5219a2f6302cc8ca8a584314a6c641e70f41e5e7",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,wndr3700-v5",
-    "wndr3700v5"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,wndr3700-v5", "wndr3700v5"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "WNDR3700",
-      "variant": "v5",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WNDR3700", "variant": "v5", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

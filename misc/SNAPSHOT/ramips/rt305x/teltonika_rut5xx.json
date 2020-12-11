@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,30 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "om-watchdog"
-  ],
+  "device_packages": ["om-watchdog"],
   "id": "teltonika_rut5xx",
   "image_prefix": "openwrt-ramips-rt305x-teltonika_rut5xx",
   "images": [
     {
       "name": "openwrt-ramips-rt305x-teltonika_rut5xx-squashfs-sysupgrade.bin",
-      "sha256": "89e302deaf22e25aa9bae25bb6102bbd33e06b36a924f998522e065080feda38",
+      "sha256": "ef1423b8f16a057f47917fde784e849dca80b14443b12e1b8d326b94c5ff6109",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "teltonika,rut5xx",
-    "rut5xx"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["teltonika,rut5xx", "rut5xx"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "RUT5XX",
-      "vendor": "Teltonika"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RUT5XX", "vendor": "Teltonika" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

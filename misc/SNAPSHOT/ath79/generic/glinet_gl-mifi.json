@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,30 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb-chipidea2"
-  ],
+  "device_packages": ["kmod-usb-chipidea2"],
   "id": "glinet_gl-mifi",
   "image_prefix": "openwrt-ath79-generic-glinet_gl-mifi",
   "images": [
     {
       "name": "openwrt-ath79-generic-glinet_gl-mifi-squashfs-sysupgrade.bin",
-      "sha256": "4cfc2d0aaad67d85e00fc1fdf4737f5df77c47bef18be6c0ca561990879d555e",
+      "sha256": "c0d78ef67d56bd33a2a73c2a532e565c8751e8b4aa60ed10e85dd7aa94065af6",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "glinet,gl-mifi",
-    "gl-mifi"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["glinet,gl-mifi", "gl-mifi"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "GL-MiFi",
-      "vendor": "GL.iNET"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "GL-MiFi", "vendor": "GL.iNET" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

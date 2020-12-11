@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-trendnet_tew-714tru-squashfs-sysupgrade.bin",
-      "sha256": "4ce50b2547ab4d1221cc0bcc2d39b7a505994fbdcb2dfc1086b193ffc5d53859",
+      "sha256": "6c762f64fa914183c27855fcc67e36fd7a0618177159962ac1f4d093008a4041",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "trendnet,tew-714tru",
-    "tew-714tru"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["trendnet,tew-714tru", "tew-714tru"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "TEW-714TRU",
-      "vendor": "TRENDnet"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "TEW-714TRU", "vendor": "TRENDnet" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

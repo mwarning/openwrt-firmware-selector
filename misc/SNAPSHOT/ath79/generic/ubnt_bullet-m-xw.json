@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,37 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "rssileds"
-  ],
+  "device_packages": ["kmod-usb2", "rssileds"],
   "id": "ubnt_bullet-m-xw",
   "image_prefix": "openwrt-ath79-generic-ubnt_bullet-m-xw",
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_bullet-m-xw-squashfs-factory.bin",
-      "sha256": "b9b9533cb85ba3075f86d969879a47b094322b5d46ce40fa9b8ba1d377a73778",
+      "sha256": "6d11042e27138959495f66dca1445d36eb956926805983f48e2807b27ad9580b",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-ubnt_bullet-m-xw-squashfs-sysupgrade.bin",
-      "sha256": "8b59e9c4d29b284da63da99f31f67d50c9539728bd95b069b6d39d9dc788c848",
+      "sha256": "0a775e1661b68fed3421a3e49635512987d57617f2f79c0b717830c127f21e83",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ubnt,bullet-m-xw",
-    "bullet-m-xw"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ubnt,bullet-m-xw", "bullet-m-xw"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Bullet M",
-      "variant": "XW",
-      "vendor": "Ubiquiti"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Bullet M", "variant": "XW", "vendor": "Ubiquiti" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

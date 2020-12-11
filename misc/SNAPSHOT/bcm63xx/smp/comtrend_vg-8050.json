@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 16:37:12",
+  "build_at": "2020-12-11 03:30:55",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -43,26 +44,20 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-smp-comtrend_vg-8050-squashfs-cfe.bin",
-      "sha256": "d33500e48df4c1223293069bbf2a29f49e31fae14fc45d7a3d0690b68b8079f3",
+      "sha256": "3784c926d9ace3ba4d0644fb9653f285470b19bc146e723c3a467d9d7d8307be",
       "type": "cfe"
     },
     {
       "name": "openwrt-bcm63xx-smp-comtrend_vg-8050-squashfs-sysupgrade.bin",
-      "sha256": "9342ef2738bff29674a372ffa172fe335f01319ee026a5991e71cded929db034",
+      "sha256": "00cd4a55d6b2a7192f62dc04afac1e849dc999cb263940c51724d54b883e5d88",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "comtrend,vg-8050"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["comtrend,vg-8050"],
   "target": "bcm63xx/smp",
-  "titles": [
-    {
-      "model": "VG-8050",
-      "vendor": "Comtrend"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "VG-8050", "vendor": "Comtrend" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

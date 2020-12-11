@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -48,28 +49,21 @@
   "image_prefix": "openwrt-ath79-generic-netgear_wndr3800ch",
   "images": [
     {
-      "name": "openwrt-ath79-generic-netgear_wndr3800ch-squashfs-factory.img",
-      "sha256": "774c30e28fd94b5e6c9cb95b04d771e71e343df25b8ce090dadc0826fc97470a",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-netgear_wndr3800ch-squashfs-sysupgrade.bin",
+      "sha256": "4a6fed5bb1a1945891c371a2e20cf877de3462a8bcbeef137164fc325e6c0a5d",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-netgear_wndr3800ch-squashfs-sysupgrade.bin",
-      "sha256": "c205004e4c33e3de0a9c4c4894e41179e6f5a46ee14c0878a4116119f19a2baf",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-netgear_wndr3800ch-squashfs-factory.img",
+      "sha256": "97f0cf039ee6c7ff32dd3cc01adfdc7cd1832cf5c98fc9a811b73d5af1cf2456",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,wndr3800ch",
-    "wndr3700"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,wndr3800ch", "wndr3700"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WNDR3800CH",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WNDR3800CH", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

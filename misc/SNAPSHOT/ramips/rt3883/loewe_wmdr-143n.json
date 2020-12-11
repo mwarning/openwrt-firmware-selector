@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-11 20:49:21",
+  "build_at": "2020-12-11 18:17:36",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-pci",
@@ -42,22 +43,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt3883-loewe_wmdr-143n-squashfs-sysupgrade.bin",
-      "sha256": "cbccd3173aea2f022e7cd3085e64f91ee27f5e40408dc36c4f33447000acedd0",
+      "sha256": "24fdcf6d32c0ce7f725fce7b26961d0d304ead27ffa9826be416ab16ef1d5c09",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "loewe,wmdr-143n",
-    "wmdr-143n"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["loewe,wmdr-143n", "wmdr-143n"],
   "target": "ramips/rt3883",
-  "titles": [
-    {
-      "model": "WMDR-143N",
-      "vendor": "Loewe"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WMDR-143N", "vendor": "Loewe" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

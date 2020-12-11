@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -41,21 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-hilink_hlk-7628n-squashfs-sysupgrade.bin",
-      "sha256": "064b3539bdf7899e43348c64255a0b2fd5e20269e7e4a88bfd3ac29b542e0e94",
+      "sha256": "b3a55b4405a1aa6f431dd5a864b0aa4f19b8e600644ca96e4d4ffc494e32fbc9",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "hilink,hlk-7628n"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["hilink,hlk-7628n"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "HLK-7628N",
-      "vendor": "HILINK"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "HLK-7628N", "vendor": "HILINK" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

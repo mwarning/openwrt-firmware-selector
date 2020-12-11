@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -33,31 +34,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb3",
-    "kmod-sfp",
-    "-wpad-basic-wolfssl"
-  ],
+  "device_packages": ["kmod-usb3", "kmod-sfp", "-wpad-basic-wolfssl"],
   "id": "mikrotik_routerboard-760igs",
   "image_prefix": "openwrt-ramips-mt7621-mikrotik_routerboard-760igs",
   "images": [
     {
       "name": "openwrt-ramips-mt7621-mikrotik_routerboard-760igs-squashfs-sysupgrade.bin",
-      "sha256": "828efa247a9caa3d257c87158097963504a2db17ca2006945d9c4dbbd2d2c163",
+      "sha256": "38f8fa0b68d0d0e1557c7b011b982855dcb56b88609c53ae637f33dc609b13bc",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "mikrotik,routerboard-760igs"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["mikrotik,routerboard-760igs"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "RouterBOARD 760iGS",
-      "vendor": "MikroTik"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RouterBOARD 760iGS", "vendor": "MikroTik" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

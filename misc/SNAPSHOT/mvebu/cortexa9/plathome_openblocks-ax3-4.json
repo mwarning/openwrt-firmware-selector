@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9_vfpv3-d16",
-  "build_at": "2020-09-10 22:18:45",
+  "build_at": "2020-12-11 13:04:58",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -38,28 +39,22 @@
   "images": [
     {
       "name": "openwrt-mvebu-cortexa9-plathome_openblocks-ax3-4-squashfs-factory.img",
-      "sha256": "f1468032ce03be4756b9af1967020fedd9d5432efd79301516fc5806eb9769e6",
+      "sha256": "9769c4b7e69dad72ac163fb348d13fdd8d09dec6e99066248f10cc00e1f4f372",
       "type": "factory"
     },
     {
       "name": "openwrt-mvebu-cortexa9-plathome_openblocks-ax3-4-squashfs-sysupgrade.bin",
-      "sha256": "f58e20c11132e64cd8a5025847c9294a09ba859cb6ce93814bc5a659c4c53579",
+      "sha256": "f982bf0c044f0e0d855c9ed233272a9f97d03d7c2ac352cb6ae804540df3247e",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "plathome,openblocks-ax3-4",
-    "openblocks-ax3-4"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["plathome,openblocks-ax3-4", "openblocks-ax3-4"],
   "target": "mvebu/cortexa9",
   "titles": [
-    {
-      "model": "OpenBlocks AX3",
-      "variant": "4 ports",
-      "vendor": "Plat'Home"
-    }
+    { "model": "OpenBlocks AX3", "variant": "4 ports", "vendor": "Plat'Home" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

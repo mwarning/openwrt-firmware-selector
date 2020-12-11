@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,34 +36,25 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci", "kmod-usb-ledtrig-usbport"],
   "id": "unielec_u7628-01-16m",
   "image_prefix": "openwrt-ramips-mt76x8-unielec_u7628-01-16m",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-unielec_u7628-01-16m-squashfs-sysupgrade.bin",
-      "sha256": "8c0e034d4403e4939b7a7ef3f49c07f1e31d5c6cd734cbe695ca0571eb419a54",
+      "sha256": "fc5399efefbdd56be445e0d294000d9557cb996c364e61b257e0e280b976872f",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [
     "unielec,u7628-01-16m",
     "u7628-01-128M-16M",
     "unielec,u7628-01-128m-16m"
   ],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "U7628-01",
-      "variant": "16M",
-      "vendor": "UniElec"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "U7628-01", "variant": "16M", "vendor": "UniElec" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,29 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43",
-    "kmod-usb-ohci",
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-b43", "kmod-usb-ohci", "kmod-usb2"],
   "id": "asus_rt-n15u",
   "image_prefix": "openwrt-bcm47xx-mips74k-asus_rt-n15u",
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-asus_rt-n15u-squashfs.trx",
-      "sha256": "b95804e76ca10d003bedcef059301b091a517c0d127c957e330fea9f51d1aad6",
+      "sha256": "01193beb94d1fbf02d15b1791d1af56cc324a5f67e14f56fe77b5f531bf2aa9f",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
-  "titles": [
-    {
-      "model": "RT-N15U",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RT-N15U", "vendor": "ASUS" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

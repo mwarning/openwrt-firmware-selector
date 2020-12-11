@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -51,19 +52,15 @@
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-netgear_wn3000rp-squashfs.chk",
-      "sha256": "b01ba354d49f395107f685ace1658b7da2f99c8bcd0e0aa43cd0a3369b0d2a1c",
+      "sha256": "f1f1f42b66a4933b77eebef4776a49ca5e305cef8ec382f2ec018801979e5c90",
       "type": "chk"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
-  "titles": [
-    {
-      "model": "WN3000RP",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WN3000RP", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

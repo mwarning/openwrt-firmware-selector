@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,41 +38,29 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ledtrig-usbport"],
   "id": "netgear_wnr2200-16m",
   "image_prefix": "openwrt-ath79-generic-netgear_wnr2200-16m",
   "images": [
     {
       "name": "openwrt-ath79-generic-netgear_wnr2200-16m-squashfs-factory.img",
-      "sha256": "e2ffd101f48d696b75e5ac88ee169767e18e58d42c7eeb30a7dc9650367c3dd3",
+      "sha256": "72e43ad145b902d351f1f2f050b92bf42a94dcf8559d1b6c2d90fe18785ef718",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-netgear_wnr2200-16m-squashfs-sysupgrade.bin",
-      "sha256": "4961cf454231b4f3786ede72b973b052fa016416587bd2de0dfbb7d347bf613b",
+      "sha256": "0b4ae36fd70c5e56a714bb4b55867101271df3b9dfa68ee97d7a03bba239c86f",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,wnr2200-16m"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,wnr2200-16m"],
   "target": "ath79/generic",
   "titles": [
-    {
-      "model": "WNR2200",
-      "variant": "16M",
-      "vendor": "NETGEAR"
-    },
-    {
-      "model": "WNR2200",
-      "variant": "CN/RU",
-      "vendor": "NETGEAR"
-    }
+    { "model": "WNR2200", "variant": "16M", "vendor": "NETGEAR" },
+    { "model": "WNR2200", "variant": "CN/RU", "vendor": "NETGEAR" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

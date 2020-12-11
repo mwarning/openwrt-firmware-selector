@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,30 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci"],
   "id": "skylab_skw92a",
   "image_prefix": "openwrt-ramips-mt76x8-skylab_skw92a",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-skylab_skw92a-squashfs-sysupgrade.bin",
-      "sha256": "14c4d7ca4dbf797da7f384093d2014de0edc0655b3af09d42485d75b85182644",
+      "sha256": "60a0f42e2a17d2c4ac708a3e3e73cc64f1828d88480d193f50dcc3b189a18334",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "skylab,skw92a"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["skylab,skw92a"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "SKW92A",
-      "vendor": "Skylab"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "SKW92A", "vendor": "Skylab" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

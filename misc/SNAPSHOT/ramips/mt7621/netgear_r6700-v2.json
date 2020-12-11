@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -45,47 +46,34 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-netgear_r6700-v2-squashfs-factory.img",
-      "sha256": "3bb95765c5a6e2e071a156455eaae129ca32832a78e92425d5f6786ce3088b67",
+      "sha256": "b1b4388fc76ba6227591f9e2b9a0f297dfb6542be3a968c414ece8bf9a8adf3b",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_r6700-v2-squashfs-rootfs.bin",
-      "sha256": "dc73bf33cffec7abc8f8325e7d01224158bb7758c0e847684b0526add1c70159",
+      "sha256": "cc5aaa024f9788382a28fdfef52db93a742bab7ae90236125467da09043e34c6",
       "type": "rootfs"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_r6700-v2-squashfs-sysupgrade.bin",
-      "sha256": "c19e519da9b0baa28d928ec14d66f4fdcfd74740f19aa5845115d91782fde56c",
+      "sha256": "cff5f6d3c6d2753d138bf051da38b9e21bcd5aa7faac6eaaf15ce4d6f673b1c2",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-netgear_r6700-v2-squashfs-kernel.bin",
-      "sha256": "070357fa4aaa55590b868283782dba71223f45d476b5ffdcc008290807d87dc0",
+      "sha256": "2f989e3404c0eb831df7c52da9c0e15335815b8716b7e5dde8330fad215e9f27",
       "type": "kernel"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,r6700-v2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,r6700-v2"],
   "target": "ramips/mt7621",
   "titles": [
-    {
-      "model": "R6700",
-      "variant": "v2",
-      "vendor": "NETGEAR"
-    },
-    {
-      "model": "Nighthawk AC2400",
-      "variant": "v1",
-      "vendor": "NETGEAR"
-    },
-    {
-      "model": "R7200",
-      "variant": "v1",
-      "vendor": "NETGEAR"
-    }
+    { "model": "R6700", "variant": "v2", "vendor": "NETGEAR" },
+    { "model": "Nighthawk AC2400", "variant": "v1", "vendor": "NETGEAR" },
+    { "model": "R7200", "variant": "v1", "vendor": "NETGEAR" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

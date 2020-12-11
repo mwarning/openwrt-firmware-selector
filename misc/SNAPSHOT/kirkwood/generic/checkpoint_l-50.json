@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_xscale",
-  "build_at": "2020-09-11 23:18:05",
+  "build_at": "2020-12-11 21:22:17",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-usb2",
     "dnsmasq",
@@ -46,21 +47,15 @@
   "images": [
     {
       "name": "openwrt-kirkwood-checkpoint_l-50-squashfs-sysupgrade.bin",
-      "sha256": "b12622d7962386a668a5e9459300e132b408bc61488944a8b6444dda8c9bd542",
+      "sha256": "fd839eb9174d88040375e38fd9fc04b9de280fbc6cc38c72bec233cac8f4f8bf",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "checkpoint,l-50"
-  ],
+  "source_date_epoch": "1607716416",
+  "supported_devices": ["checkpoint,l-50"],
   "target": "kirkwood/generic",
-  "titles": [
-    {
-      "model": "L-50",
-      "vendor": "Check Point"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "L-50", "vendor": "Check Point" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }
