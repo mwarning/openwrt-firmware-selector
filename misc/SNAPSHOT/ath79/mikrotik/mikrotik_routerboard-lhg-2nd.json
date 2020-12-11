@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 22:57:10",
+  "build_at": "2020-12-10 22:30:57",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -43,21 +44,15 @@
   "images": [
     {
       "name": "openwrt-ath79-mikrotik-mikrotik_routerboard-lhg-2nd-squashfs-sysupgrade.bin",
-      "sha256": "d4863b8147c8391362bb22fc48166556ac15b3b7b9eb9d4c9518c6adee30d61f",
+      "sha256": "b75df3ce46ceca6172055251a5d8dcc98f149dc5d1aa95e0ef75e6260ccdeabe",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "mikrotik,routerboard-lhg-2nd"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["mikrotik,routerboard-lhg-2nd"],
   "target": "ath79/mikrotik",
-  "titles": [
-    {
-      "model": "RouterBOARD LHG 2nD (LHG 2)",
-      "vendor": "MikroTik"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RouterBOARD LHG 2nD (LHG 2)", "vendor": "MikroTik" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

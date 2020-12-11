@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,26 +45,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-jcg_jhr-ac876m-squashfs-factory.bin",
-      "sha256": "0e5b7cdd832d5ebce6fb5d3a7354aa8504e0f78e0e5fa4dc3c2999869071830d",
+      "sha256": "8bb2c243714841ee74c4f3a758e1add2215b7e753d6abb4758cdf14d09caecc0",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7621-jcg_jhr-ac876m-squashfs-sysupgrade.bin",
-      "sha256": "75cc135a41dd17a2e7bc7c2ca95bd02ee6c6c3c1fb3f8455be54cb90cb58ae41",
+      "sha256": "305adf2f8e0fd0af3625f85234f94e606c27e8156764e26a415cda32a9be4678",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "jcg,jhr-ac876m"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["jcg,jhr-ac876m"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "JHR-AC876M",
-      "vendor": "JCG"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "JHR-AC876M", "vendor": "JCG" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

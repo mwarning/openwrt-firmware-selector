@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a15_neon-vfpv4",
-  "build_at": "2020-09-11 16:48:36",
+  "build_at": "2020-12-11 13:59:29",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -56,29 +57,21 @@
     "wpad-basic-wolfssl",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "ath10k-firmware-qca99x0-ct"
-  ],
+  "device_packages": ["ath10k-firmware-qca99x0-ct"],
   "id": "buffalo_wxr-2533dhp",
   "image_prefix": "openwrt-ipq806x-generic-buffalo_wxr-2533dhp",
   "images": [
     {
       "name": "openwrt-ipq806x-generic-buffalo_wxr-2533dhp-squashfs-sysupgrade.bin",
-      "sha256": "7e233c7999b3199f7f787e8d68372fab55bf942a3a630d5d8efc023632c0da9a",
+      "sha256": "f0ceea5f705b0542a87b706240c4d523b65441e2c3d9c01bea5aecde4ba14fd1",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "buffalo,wxr-2533dhp"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["buffalo,wxr-2533dhp"],
   "target": "ipq806x/generic",
-  "titles": [
-    {
-      "model": "WXR-2533DHP",
-      "vendor": "Buffalo"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "WXR-2533DHP", "vendor": "Buffalo" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

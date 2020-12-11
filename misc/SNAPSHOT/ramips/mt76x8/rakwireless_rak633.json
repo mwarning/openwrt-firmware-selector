@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,30 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci"],
   "id": "rakwireless_rak633",
   "image_prefix": "openwrt-ramips-mt76x8-rakwireless_rak633",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-rakwireless_rak633-squashfs-sysupgrade.bin",
-      "sha256": "996ffad3057c40af40c7c92a69550a70fdaa561c48251fa11ed72704c986da59",
+      "sha256": "604446263b7d1a7d00069305e2080aec34bb044b447b87c8965457cd4c6ce5ac",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "rakwireless,rak633"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["rakwireless,rak633"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "RAK633",
-      "vendor": "Rakwireless"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "RAK633", "vendor": "Rakwireless" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -59,19 +60,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-asus_rt-ac87u-squashfs.trx",
-      "sha256": "b706315513f2520919bfc5fc58f07c05512086f9c6ee8f21a37ab6bd2c43796c",
+      "sha256": "d11b2952023c223ebb72b90a8ffbe05107e1e1a1847cd3a81006e1c4e9e9cd98",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "RT-AC87U",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RT-AC87U", "vendor": "ASUS" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

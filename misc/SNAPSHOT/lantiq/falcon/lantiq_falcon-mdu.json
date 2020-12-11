@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 01:31:52",
+  "build_at": "2020-12-11 00:25:42",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-ledtrig-heartbeat",
@@ -37,21 +38,15 @@
   "images": [
     {
       "name": "openwrt-lantiq-falcon-lantiq_falcon-mdu-squashfs-sysupgrade.bin",
-      "sha256": "122548083f6bba60cf21f2bd1588196e1fd613750c51ea140cd8f6315216ca18",
+      "sha256": "5ae85428e121c850a175c3f940d3506864769b166d6a8e5de0d59b5d4ac99e9b",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "lantiq,falcon-mdu"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["lantiq,falcon-mdu"],
   "target": "lantiq/falcon",
-  "titles": [
-    {
-      "model": "Falcon / VINAXdp MDU Board",
-      "vendor": "Lantiq"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Falcon / VINAXdp MDU Board", "vendor": "Lantiq" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

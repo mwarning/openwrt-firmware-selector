@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,36 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2",
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-mt76x2", "kmod-usb2", "kmod-usb-ohci"],
   "id": "netgear_r6120",
   "image_prefix": "openwrt-ramips-mt76x8-netgear_r6120",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-netgear_r6120-squashfs-factory.img",
-      "sha256": "d608ac046520dd448ce586e1d8647e05e0b15dbde5b722270b09dd706f8af4e3",
+      "sha256": "1c858d8bdf7ee856cadd3e61bcdb95509b1121edb9df9371aeaa3c27508bd22b",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt76x8-netgear_r6120-squashfs-sysupgrade.bin",
-      "sha256": "847d378d8bbc9d314f5395aa526d0cc8c03a2f89975b540541412063b1440762",
+      "sha256": "203df69bc3da8ab7b3b50b6414b9c653c3c38cc3c36c7680f08d5ec994cc44c1",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,r6120"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["netgear,r6120"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "R6120",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "R6120", "vendor": "NETGEAR" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 16:37:12",
+  "build_at": "2020-12-11 03:30:55",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -32,29 +33,21 @@
     "swconfig",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci", "kmod-usb-ledtrig-usbport"],
   "id": "sky_sr102",
   "image_prefix": "openwrt-bcm63xx-smp-sky_sr102",
   "images": [
     {
       "name": "openwrt-bcm63xx-smp-sky_sr102-squashfs-cfe.bin",
-      "sha256": "ee1be2873c68319c9e6e6d8ef0551f069675d3c9657185059b531f6f90d3188e",
+      "sha256": "e10eff543ac03d6215b7d704a7c90b4da494c179f8ec0ff3256bfd4835ca357e",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm63xx/smp",
-  "titles": [
-    {
-      "model": "SR102",
-      "vendor": "SKY"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "SR102", "vendor": "SKY" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

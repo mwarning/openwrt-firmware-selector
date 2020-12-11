@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 17:37:26",
+  "build_at": "2020-12-11 03:05:41",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,36 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-usb2"],
   "id": "glinet_gl-ar300m-nand",
   "image_prefix": "openwrt-ath79-nand-glinet_gl-ar300m-nand",
   "images": [
     {
       "name": "openwrt-ath79-nand-glinet_gl-ar300m-nand-squashfs-factory.img",
-      "sha256": "7ed6c8e0a5c02bc69ccfa2f11865ac7f3f75049e746a1b23664baca3fbe7d431",
+      "sha256": "78a04301fda64be1a4f80ee7aad0e3faa4ae291f98b68c79eb034b3e8a1bc072",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-nand-glinet_gl-ar300m-nand-squashfs-sysupgrade.bin",
-      "sha256": "ecbf1bbf69784da091183e5d03bd2ea1d1659f9a485fb31a2f1dce194dda3da8",
+      "sha256": "64f52cd0ee53a829972c7a8d4fc5cd9b7881f041b7b8bf375619ed837376fe3b",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "glinet,gl-ar300m-nand",
-    "glinet,gl-ar300m-nor"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["glinet,gl-ar300m-nand", "glinet,gl-ar300m-nor"],
   "target": "ath79/nand",
-  "titles": [
-    {
-      "model": "GL-AR300M",
-      "variant": "NAND",
-      "vendor": "GL.iNet"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "GL-AR300M", "variant": "NAND", "vendor": "GL.iNet" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

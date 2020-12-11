@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -46,22 +47,18 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-olimex_rt5350f-olinuxino-evb-squashfs-sysupgrade.bin",
-      "sha256": "cf8b23814674e58d2c41033a30fbbce1737d9662c05813269f522f166dde67b8",
+      "sha256": "3297bf8cae11e6fc537efe36fa8dfc164044e22b19b0710a8d73afef46640104",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [
     "olimex,rt5350f-olinuxino-evb",
     "rt5350f-olinuxino-evb"
   ],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "RT5350F-OLinuXino-EVB",
-      "vendor": "OLIMEX"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RT5350F-OLinuXino-EVB", "vendor": "OLIMEX" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

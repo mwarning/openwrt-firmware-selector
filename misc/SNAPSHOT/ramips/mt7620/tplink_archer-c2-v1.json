@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -48,28 +49,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-tplink_archer-c2-v1-squashfs-factory.bin",
-      "sha256": "0456c9213333a239314bf3c955a48857bc0de1bcaed1034cfe89d3b46a5e3605",
+      "sha256": "0b79f681463b94569f0f1338cb9000fedad981e93329371c9abacb326ea4a49f",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7620-tplink_archer-c2-v1-squashfs-sysupgrade.bin",
-      "sha256": "9f2cb76857b860b72358c0c54e01d2e3775ac1563c5c8e7299918c3357afaab3",
+      "sha256": "9db9c33de1083a77ca3ed3f72e1812a6b77a938e5bd2f48386c98c200f30264f",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,archer-c2-v1",
-    "tplink,c2-v1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,archer-c2-v1", "tplink,c2-v1"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "Archer C2",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Archer C2", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

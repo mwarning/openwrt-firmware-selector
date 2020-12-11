@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -40,29 +41,21 @@
   "image_prefix": "openwrt-ramips-mt76x8-tplink_tl-wr840n-v4",
   "images": [
     {
-      "name": "openwrt-ramips-mt76x8-tplink_tl-wr840n-v4-squashfs-sysupgrade.bin",
-      "sha256": "2723d1ef495d9d33ead4051f906c70ba2ea0dc21780e3f7a83f43db06c9e15a6",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-mt76x8-tplink_tl-wr840n-v4-squashfs-tftp-recovery.bin",
+      "sha256": "06e0d17e238f8b55b885fe50d50e3481a321269ee5d8dccee8930706ed101c72",
+      "type": "tftp-recovery"
     },
     {
-      "name": "openwrt-ramips-mt76x8-tplink_tl-wr840n-v4-squashfs-tftp-recovery.bin",
-      "sha256": "affb9b11ca5140d6931a1ae132b4f8cb748afd0d6cc4ab11f5dc6bd078b62e47",
-      "type": "tftp-recovery"
+      "name": "openwrt-ramips-mt76x8-tplink_tl-wr840n-v4-squashfs-sysupgrade.bin",
+      "sha256": "924cb16876480a5008a76bc9c49f59d4b222bd48e2f96460cd0f906bedd4d739",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wr840n-v4",
-    "tl-wr840n-v4"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["tplink,tl-wr840n-v4", "tl-wr840n-v4"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "TL-WR840N",
-      "variant": "v4",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "TL-WR840N", "variant": "v4", "vendor": "TP-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

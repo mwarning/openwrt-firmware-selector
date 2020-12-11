@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 17:37:26",
+  "build_at": "2020-12-11 03:05:41",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -49,26 +50,20 @@
   "images": [
     {
       "name": "openwrt-ath79-nand-domywifi_dw33d-squashfs-factory.bin",
-      "sha256": "cb5b20c868d5f482a25db015d3bc020dece2ce30a3c2f1c664775126544a1698",
+      "sha256": "0499c4ae32d9b5de1376771c447b5e6b29d2691f4237c5e75529ff7fc42a3dcd",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-nand-domywifi_dw33d-squashfs-sysupgrade.bin",
-      "sha256": "3787fea343fdfc71f5e773071d1af7ad8c0f22617defd8dc6b92584face4cf6d",
+      "sha256": "faf4c11e22bfef446aba4cf58ec6b6f27a0d87834d1a6272d2e8a8045a966f2d",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "domywifi,dw33d"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["domywifi,dw33d"],
   "target": "ath79/nand",
-  "titles": [
-    {
-      "model": "DW33D",
-      "vendor": "DomyWifi"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "DW33D", "vendor": "DomyWifi" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

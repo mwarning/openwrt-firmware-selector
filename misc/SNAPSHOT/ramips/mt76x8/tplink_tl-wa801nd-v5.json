@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -41,27 +42,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-tplink_tl-wa801nd-v5-squashfs-tftp-recovery.bin",
-      "sha256": "a9ab80f7dbe815ab30c1e264a9c99429fc59c605a86a69ad7819661684cedd05",
+      "sha256": "4440466bb1e9b2a276fb934cbb901bd77f9dc67749ff927cc84280f84c582e42",
       "type": "tftp-recovery"
     },
     {
       "name": "openwrt-ramips-mt76x8-tplink_tl-wa801nd-v5-squashfs-sysupgrade.bin",
-      "sha256": "bf7ffc5e35d9935e427522d754a9839ab67f85d6330617db830dfe2f43e9cd73",
+      "sha256": "a9655413b11c266d0539b603c81deec54e9d3ea0159c02846ca2595d98a0adf0",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wa801nd-v5"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["tplink,tl-wa801nd-v5"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "TL-WA801ND",
-      "variant": "v5",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "TL-WA801ND", "variant": "v5", "vendor": "TP-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

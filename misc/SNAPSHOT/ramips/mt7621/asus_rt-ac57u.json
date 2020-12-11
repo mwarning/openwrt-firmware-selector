@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,21 +45,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-asus_rt-ac57u-squashfs-sysupgrade.bin",
-      "sha256": "836e2dc094810b7637ce6d3ce2cd989dcbecef5b4f9c0e17aa3ec180d91a5b3c",
+      "sha256": "d9326679d72e26491a10f4fc12bdb5f32d3410c0b3bc57867460f3c0ede89349",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "asus,rt-ac57u"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["asus,rt-ac57u"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "RT-AC57U",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RT-AC57U", "vendor": "ASUS" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

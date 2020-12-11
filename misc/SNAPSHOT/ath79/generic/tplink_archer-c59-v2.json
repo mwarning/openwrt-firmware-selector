@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -47,29 +48,21 @@
   "image_prefix": "openwrt-ath79-generic-tplink_archer-c59-v2",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_archer-c59-v2-squashfs-factory.bin",
-      "sha256": "51f7287287c692cfc464032e3e771d1f0d8931b583dc298453f38ba01fb9b62f",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_archer-c59-v2-squashfs-sysupgrade.bin",
+      "sha256": "a3e9b888d7dc8cfe88b29593b337a9ce10cf8dcff58d91727d3316d3930962fe",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_archer-c59-v2-squashfs-sysupgrade.bin",
-      "sha256": "66515e252adf9758016ce6b88e59f90dc7e4ad674110a4ddabb4a43dc1819b3c",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_archer-c59-v2-squashfs-factory.bin",
+      "sha256": "7b635c61fed6b3eba97bf14988e9abc396953c296c9920ae2cde680ab47a1953",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,archer-c59-v2",
-    "archer-c59-v2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,archer-c59-v2", "archer-c59-v2"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Archer C59",
-      "variant": "v2",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Archer C59", "variant": "v2", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

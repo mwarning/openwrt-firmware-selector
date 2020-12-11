@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,30 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci"],
   "id": "tama_w06",
   "image_prefix": "openwrt-ramips-mt76x8-tama_w06",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-tama_w06-squashfs-sysupgrade.bin",
-      "sha256": "ab944e387402b4e902d5856ea069e9a50b0fa0ff4082f46931c4fb8132e61a11",
+      "sha256": "671d02ffbbdca5abbe8a34ddad71200223d9afae01c9b5f4afda6a07e04cdf17",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tama,w06"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["tama,w06"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "W06",
-      "vendor": "Tama"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "W06", "vendor": "Tama" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

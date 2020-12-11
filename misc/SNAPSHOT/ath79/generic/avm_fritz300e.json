@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,32 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "fritz-tffs",
-    "rssileds",
-    "-swconfig"
-  ],
+  "device_packages": ["fritz-tffs", "rssileds", "-swconfig"],
   "id": "avm_fritz300e",
   "image_prefix": "openwrt-ath79-generic-avm_fritz300e",
   "images": [
     {
       "name": "openwrt-ath79-generic-avm_fritz300e-squashfs-sysupgrade.bin",
-      "sha256": "db2ad04821b452297c4ad06f1724c5a77ae0cbf832b5fcd4ccd4f994b4f52209",
+      "sha256": "98617b6cd6b138219a7ec3603fc2b5414ab6fa1746866046b3b0fe81fbb842ea",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "avm,fritz300e",
-    "fritz300e"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["avm,fritz300e", "fritz300e"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "FRITZ!WLAN Repeater 300E",
-      "vendor": "AVM"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "FRITZ!WLAN Repeater 300E", "vendor": "AVM" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

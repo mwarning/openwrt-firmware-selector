@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -51,32 +52,26 @@
   "image_prefix": "openwrt-ipq40xx-generic-engenius_ens620ext",
   "images": [
     {
-      "name": "openwrt-ipq40xx-generic-engenius_ens620ext-squashfs-factory_30.bin",
-      "sha256": "421f2c50345f2c274bb2675b19c2481d914c6c490678561c3a3ed88e8d9c829e",
-      "type": "factory_30"
-    },
-    {
       "name": "openwrt-ipq40xx-generic-engenius_ens620ext-squashfs-factory_35.bin",
-      "sha256": "78146ca3967d62f9a83552c7c383e55a5d0c41db1c9a2cff65706b0ddfa3db6e",
+      "sha256": "c24deb2e1a791075ed85219a661f4c3c883794093bbed7a28a5678df84b7a158",
       "type": "factory_35"
     },
     {
+      "name": "openwrt-ipq40xx-generic-engenius_ens620ext-squashfs-factory_30.bin",
+      "sha256": "726f6cd75af40901e5e52235eada2e4898eadab0387772b818e5aade453ef2b1",
+      "type": "factory_30"
+    },
+    {
       "name": "openwrt-ipq40xx-generic-engenius_ens620ext-squashfs-sysupgrade.bin",
-      "sha256": "85d4272287a5a024e73be0037a71b78de7896ae5d0d1cbe882be2fe1c69ac6f7",
+      "sha256": "e31e9809a7465853e6966d3914d4710731db2886e13b832ed6f169dbf2af52e8",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "engenius,ens620ext"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["engenius,ens620ext"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "ENS620EXT",
-      "vendor": "EnGenius"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "ENS620EXT", "vendor": "EnGenius" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

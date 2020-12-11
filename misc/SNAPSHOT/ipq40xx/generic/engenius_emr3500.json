@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -51,27 +52,21 @@
   "image_prefix": "openwrt-ipq40xx-generic-engenius_emr3500",
   "images": [
     {
-      "name": "openwrt-ipq40xx-generic-engenius_emr3500-squashfs-sysupgrade.bin",
-      "sha256": "a9d978d019392d10ac8d3f956ec75083332bac30c2192da20fa1a03f81a41783",
-      "type": "sysupgrade"
+      "name": "openwrt-ipq40xx-generic-engenius_emr3500-squashfs-factory.bin",
+      "sha256": "38897a9b5a9c88816b28e4d31b5501c468b3fcbd2b16223517ff55717a92feba",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ipq40xx-generic-engenius_emr3500-squashfs-factory.bin",
-      "sha256": "14a99010c1b3023b55b5ab0a0b38f311923095e2c01205c384effb7513f29ab6",
-      "type": "factory"
+      "name": "openwrt-ipq40xx-generic-engenius_emr3500-squashfs-sysupgrade.bin",
+      "sha256": "42baebca6405c8ef2e81d3fa9ad15146cf396e9d1057da0e89569c59587b18bd",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "engenius,emr3500"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["engenius,emr3500"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "EMR3500",
-      "vendor": "EnGenius"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EMR3500", "vendor": "EnGenius" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

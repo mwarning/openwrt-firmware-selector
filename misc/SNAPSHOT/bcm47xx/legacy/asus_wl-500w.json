@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,29 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43",
-    "kmod-usb-uhci",
-    "kmod-usb2-pci"
-  ],
+  "device_packages": ["kmod-b43", "kmod-usb-uhci", "kmod-usb2-pci"],
   "id": "asus_wl-500w",
   "image_prefix": "openwrt-bcm47xx-legacy-asus_wl-500w",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-asus_wl-500w-squashfs.trx",
-      "sha256": "fcef27ad96cd1ced13a4f1593801e4c9357101f2a997d4a45f44c4877399b49a",
+      "sha256": "2db98866cb0ca762c136444e333a72621683f84fe12aff1c7dcd64954f882cc7",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "WL-500W",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WL-500W", "vendor": "ASUS" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

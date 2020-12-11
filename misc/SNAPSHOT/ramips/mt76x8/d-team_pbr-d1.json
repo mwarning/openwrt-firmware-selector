@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,31 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci"],
   "id": "d-team_pbr-d1",
   "image_prefix": "openwrt-ramips-mt76x8-d-team_pbr-d1",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-d-team_pbr-d1-squashfs-sysupgrade.bin",
-      "sha256": "6f6881c789c6461a3081ecccad687dc609c51697b866e94480ede9f8710f3f5e",
+      "sha256": "ec4ece0241e83658b8d159ac153825ed12da1b315065876eb3a689262b4fd4c0",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "d-team,pbr-d1",
-    "pbr-d1"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["d-team,pbr-d1", "pbr-d1"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "PBR-D1",
-      "vendor": "PandoraBox"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "PBR-D1", "vendor": "PandoraBox" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -48,22 +49,15 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-siemens_gigaset-sx76x-squashfs-sysupgrade.bin",
-      "sha256": "cea33adbc58be9f1a5d9d34887fd795179ef773a541eb866d6cb420c56a7a475",
+      "sha256": "8e8d513ca3897e4ff2f477240f30bb1aef409835e1c94137f2ee9b2f00c5ded3",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "siemens,gigaset-sx76x",
-    "GIGASX76X"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["siemens,gigaset-sx76x", "GIGASX76X"],
   "target": "lantiq/xway",
-  "titles": [
-    {
-      "model": "Gigaset sx76x",
-      "vendor": "Siemens"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "Gigaset sx76x", "vendor": "Siemens" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

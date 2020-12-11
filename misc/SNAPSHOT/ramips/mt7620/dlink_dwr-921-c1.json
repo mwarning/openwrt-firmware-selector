@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -48,27 +49,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-921-c1-squashfs-factory.bin",
-      "sha256": "11ab1de4d9c5b444c270e37aba0c5e59d4caa1a7ea2568b165a082550e12664b",
+      "sha256": "cbc801c15a9a4a5370845ca3db302a8e2d198178419fc2d104ed0b68afd0d88d",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-921-c1-squashfs-sysupgrade.bin",
-      "sha256": "7371ac9494e6fec05f793af29f66f2f748c829e67566cf113834f365e298a727",
+      "sha256": "ae707e9213f1ad215d2caffdd237d88ee21a46ff0b862975a2f23b1db24cbe55",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dwr-921-c1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dwr-921-c1"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "DWR-921",
-      "variant": "C1",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DWR-921", "variant": "C1", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

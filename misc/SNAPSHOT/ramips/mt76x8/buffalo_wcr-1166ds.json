@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,35 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2"
-  ],
+  "device_packages": ["kmod-mt76x2"],
   "id": "buffalo_wcr-1166ds",
   "image_prefix": "openwrt-ramips-mt76x8-buffalo_wcr-1166ds",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-buffalo_wcr-1166ds-squashfs-factory.bin",
-      "sha256": "d0e16a2ccf46fec6ee8671d3842240607bd6741a859095688e51c49878671d5c",
+      "sha256": "9e78e333dc4983c12795785b7f6c774722f3dbe1e0ad61ee1e95474d68a50cda",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt76x8-buffalo_wcr-1166ds-squashfs-sysupgrade.bin",
-      "sha256": "dc9ba125d0d86c248a04fa988a6456faf315628310f03ed9c0e7f28b7b905f82",
+      "sha256": "b0945d4775581542fd6c5e7e7c3cdc4d32012192f977d21bf47b98b6661ecb83",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "buffalo,wcr-1166ds",
-    "wcr-1166ds"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["buffalo,wcr-1166ds", "wcr-1166ds"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "WCR-1166DS",
-      "vendor": "Buffalo"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WCR-1166DS", "vendor": "Buffalo" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

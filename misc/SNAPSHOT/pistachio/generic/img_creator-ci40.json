@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc_24kf",
-  "build_at": "2020-09-11 17:22:10",
+  "build_at": "2020-12-11 14:47:03",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "uboot-envtools",
     "dnsmasq",
@@ -32,26 +33,23 @@
     "kmod-gpio-button-hotplug",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-tpm-i2c-infineon",
-    "kmod-ca8210",
-    "wpan-tools"
-  ],
+  "device_packages": ["kmod-tpm-i2c-infineon", "kmod-ca8210", "wpan-tools"],
   "id": "img_creator-ci40",
   "image_prefix": "openwrt-pistachio-img_creator-ci40",
   "images": [
     {
       "name": "openwrt-pistachio-img_creator-ci40-squashfs-factory.ubi",
-      "sha256": "c80d183156fc810d28ef5f48a04284816bb7f8c11d09b765fd04a5f12a17e9a3",
+      "sha256": "9081f0f7bb65db6f14dff8b5e09dd11c316cb2962ef45d3269416380d566f726",
       "type": "factory"
     },
     {
       "name": "openwrt-pistachio-img_creator-ci40-squashfs-sysupgrade.tar",
-      "sha256": "8e0073d1c1062f9c70cc553c9c783f5a0f61f78d8ec362237e8dcf6b5f5862e5",
+      "sha256": "419bb86e66b47cab8feb16c82f4ed6962080229357e5128fc57642d116c33802",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "pistachio/generic",
   "titles": [
@@ -59,11 +57,8 @@
       "model": "Creator Ci40 (VL-62899)",
       "vendor": "Imagination Technologies"
     },
-    {
-      "model": "Marduk board",
-      "vendor": "Imagination Technologies"
-    }
+    { "model": "Marduk board", "vendor": "Imagination Technologies" }
   ],
-  "version_code": "r14447-2e6c236abd",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

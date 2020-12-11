@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -49,26 +50,18 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-arcadyan_arv8539pw22-squashfs-sysupgrade.bin",
-      "sha256": "0f69da8ce8a706320712db6e8f1cf19e34aa005cc66261e3e7221c78facbd8b5",
+      "sha256": "264d323eb33c208e3813f81fadcab7aa19bd8d92294ca226ead96acb764fc79c",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "arcadyan,arv8539pw22",
-    "ARV8539PW22"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["arcadyan,arv8539pw22", "ARV8539PW22"],
   "target": "lantiq/xway",
   "titles": [
-    {
-      "model": "ARV8539PW22",
-      "vendor": "Arcadyan"
-    },
-    {
-      "model": "Speedport W504V Typ A",
-      "vendor": "Telekom"
-    }
+    { "model": "ARV8539PW22", "vendor": "Arcadyan" },
+    { "model": "Speedport W504V Typ A", "vendor": "Telekom" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

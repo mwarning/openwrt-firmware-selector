@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9_vfpv3-d16",
-  "build_at": "2020-09-10 22:18:45",
+  "build_at": "2020-12-11 13:04:58",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -32,33 +33,25 @@
     "uboot-envtools",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "mkf2fs",
-    "e2fsprogs",
-    "partx-utils"
-  ],
+  "device_packages": ["mkf2fs", "e2fsprogs", "partx-utils"],
   "id": "solidrun_clearfog-pro-a1",
   "image_prefix": "openwrt-mvebu-cortexa9-solidrun_clearfog-pro-a1",
   "images": [
     {
       "name": "openwrt-mvebu-cortexa9-solidrun_clearfog-pro-a1-squashfs-sdcard.img.gz",
-      "sha256": "4bc420ab36ebadf52645b03663402e451f358d46c5aacca5e7f2e03b6522dafb",
+      "sha256": "ce0f06ba012e16fc67aa528f279e1950b3c0811c3ad32beeb6f5c591b34f926d",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607683657",
   "supported_devices": [
     "solidrun,clearfog-pro-a1",
     "armada-388-clearfog",
     "armada-388-clearfog-pro"
   ],
   "target": "mvebu/cortexa9",
-  "titles": [
-    {
-      "model": "ClearFog Pro",
-      "vendor": "SolidRun"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "ClearFog Pro", "vendor": "SolidRun" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

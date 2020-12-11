@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -50,22 +51,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-etactica_eg200-squashfs-sysupgrade.bin",
-      "sha256": "c408dd04a9bcb7cfe9eb4ac2c5ff4d4e620bfd3445a0a2c3d79ff9326bb3117f",
+      "sha256": "199e48d81c28f84aef49559a9908e19c5f66c4e9ab40f60f0345b90ea32293b5",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "etactica,eg200",
-    "rme-eg200"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["etactica,eg200", "rme-eg200"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "EG200",
-      "vendor": "eTactica"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EG200", "vendor": "eTactica" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

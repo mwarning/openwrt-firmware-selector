@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -33,37 +34,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt7603",
-    "kmod-mt76x2"
-  ],
+  "device_packages": ["kmod-mt7603", "kmod-mt76x2"],
   "id": "tplink_re350-v1",
   "image_prefix": "openwrt-ramips-mt7621-tplink_re350-v1",
   "images": [
     {
       "name": "openwrt-ramips-mt7621-tplink_re350-v1-squashfs-sysupgrade.bin",
-      "sha256": "6eba8943eb457d8259243456b730fbbfef380eb65386881baf50997ba50615bc",
+      "sha256": "7342a3de3f7f38e8cde6ffe0e03eb9b331eb9e2243827f5d715f41ddc158cb83",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-tplink_re350-v1-squashfs-factory.bin",
-      "sha256": "425a9d0b599fe2114ae28dd0b207da6a94bc0f1b0534dbf086506aec05534dff",
+      "sha256": "131d675c60766edcf105929dd39a6e2d8414210481f17009ded92f12309144f3",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,re350-v1",
-    "re350-v1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,re350-v1", "re350-v1"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "RE350",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RE350", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 01:31:52",
+  "build_at": "2020-12-11 00:25:42",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-ledtrig-heartbeat",
@@ -37,21 +38,15 @@
   "images": [
     {
       "name": "openwrt-lantiq-falcon-lantiq_falcon-sfp-squashfs-sysupgrade.bin",
-      "sha256": "67c3f3c204e4ce3912d96797fe3fc396eb23b0a8444d9f0a8685e4beb49693d2",
+      "sha256": "c70a3c86fc592550b9ab8b2fea3f7089dde197af4595fe540dabe8007f03925d",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "lantiq,falcon-sfp"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["lantiq,falcon-sfp"],
   "target": "lantiq/falcon",
-  "titles": [
-    {
-      "model": "Falcon SFP Stick",
-      "vendor": "Lantiq"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Falcon SFP Stick", "vendor": "Lantiq" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

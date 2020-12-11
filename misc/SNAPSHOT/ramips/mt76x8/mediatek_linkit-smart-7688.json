@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -46,23 +47,19 @@
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-mediatek_linkit-smart-7688-squashfs-sysupgrade.bin",
-      "sha256": "1b9bb77547fd42e88e1bec17782ff71491f59a160203c18d0f606c863c989aa5",
+      "sha256": "97349cd4208c57f98d4518b2feebbb329c37ae99b1466d44f06477f788b2c886",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [
     "mediatek,linkit-smart-7688",
     "linkits7688",
     "linkits7688d"
   ],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "LinkIt Smart 7688",
-      "vendor": "MediaTek"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "LinkIt Smart 7688", "vendor": "MediaTek" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

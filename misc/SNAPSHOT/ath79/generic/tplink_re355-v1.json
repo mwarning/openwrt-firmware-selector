@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -46,28 +47,20 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_re355-v1-squashfs-sysupgrade.bin",
-      "sha256": "a62e5411d8660e5b5d979e6da5ef92b835c5a4a039da78da192a4f54a63f6b93",
+      "sha256": "ed26258ae02465d1fddd8fae5de47863f079da6207081d3b8fe87aa3a6a46f48",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_re355-v1-squashfs-factory.bin",
-      "sha256": "ce2c79a062687280d6d57a43178475b09cc462550e5a538db687638200f1bb5a",
+      "sha256": "8fa37cb838eca1c7d518bdc42daa4b97f121f0ebf01e1fc63f6b0451d5ad2f6e",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,re355-v1",
-    "re355"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,re355-v1", "re355"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "RE355",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RE355", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

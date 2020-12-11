@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 16:37:12",
+  "build_at": "2020-12-11 03:30:55",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -32,34 +33,26 @@
     "swconfig",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-b43",
-    "wpad-basic-wolfssl",
-    "iwinfo"
-  ],
+  "device_packages": ["kmod-b43", "wpad-basic-wolfssl", "iwinfo"],
   "id": "t-com_speedport-w-303v",
   "image_prefix": "openwrt-bcm63xx-smp-t-com_speedport-w-303v",
   "images": [
     {
-      "name": "openwrt-bcm63xx-smp-t-com_speedport-w-303v-squashfs-factory.bin",
-      "sha256": "f6f0d3f4f77db7287e884724ea2258cbcef970bb623d3242861d5ee4bf664b8d",
-      "type": "factory"
+      "name": "openwrt-bcm63xx-smp-t-com_speedport-w-303v-squashfs-sysupgrade.bin",
+      "sha256": "6c9960a3ab0ccebbc238ce411b2c9ca6a9565b007185093ed6b86d8b086c48ac",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-bcm63xx-smp-t-com_speedport-w-303v-squashfs-sysupgrade.bin",
-      "sha256": "138a873e9968d038177510515ae621955932cfa7d2178985996d1373a62aad14",
-      "type": "sysupgrade"
+      "name": "openwrt-bcm63xx-smp-t-com_speedport-w-303v-squashfs-factory.bin",
+      "sha256": "148616792a854842240440eaab173ad6d359ab75d23a049ec94b5ee81cdf6516",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm63xx/smp",
-  "titles": [
-    {
-      "model": "Speedport W 303V",
-      "vendor": "T-Com"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "Speedport W 303V", "vendor": "T-Com" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

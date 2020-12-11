@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,36 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca99x0-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca99x0-ct"],
   "id": "tplink_eap245-v3",
   "image_prefix": "openwrt-ath79-generic-tplink_eap245-v3",
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_eap245-v3-squashfs-factory.bin",
-      "sha256": "1498f7430bbf6e85efc61d056d87fb397fe66c304414254f2314fea94dc69319",
+      "sha256": "f6768a0db96c9de68f0dfee29b4d193df50775777ff1f20d9491d9253ac8b8c7",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-tplink_eap245-v3-squashfs-sysupgrade.bin",
-      "sha256": "a3c0d40f2cc112ff599c2598e8023e9d08785375ae9810ef2a2d21c8599ec2cf",
+      "sha256": "50dd0ac2065b83df2501493dc97e5d6709e33db0e634a89fac7eb4ef9257110a",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,eap245-v3"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,eap245-v3"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "EAP245",
-      "variant": "v3",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EAP245", "variant": "v3", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,21 +45,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-youku_yk-l2-squashfs-sysupgrade.bin",
-      "sha256": "ad9ac58cfffd531a4432ca9614b4e7073f1b32178d8df6a0d2a3be9f133b5183",
+      "sha256": "4f7bda25c342ae193361d30825d9707e47df20abf9727648ff1c5f39018f3385",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "youku,yk-l2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["youku,yk-l2"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "YK-L2",
-      "vendor": "Youku"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "YK-L2", "vendor": "Youku" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,31 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci"],
   "id": "sercomm_na930",
   "image_prefix": "openwrt-ramips-mt7620-sercomm_na930",
   "images": [
     {
       "name": "openwrt-ramips-mt7620-sercomm_na930-squashfs-sysupgrade.bin",
-      "sha256": "81cb8715f2cd360a7f6dd9d6463352e4d7bc086e91b86f01b49607be27bd50e5",
+      "sha256": "aedc6e19088fc637d97bed1b4cafc4fb01cf4570f7c55b325bb26b7df48d8a82",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "sercomm,na930",
-    "na930"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["sercomm,na930", "na930"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "NA930",
-      "vendor": "Sercomm"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "NA930", "vendor": "Sercomm" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

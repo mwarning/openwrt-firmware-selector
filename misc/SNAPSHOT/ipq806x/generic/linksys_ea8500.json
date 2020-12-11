@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a15_neon-vfpv4",
-  "build_at": "2020-09-11 16:48:36",
+  "build_at": "2020-12-11 13:59:29",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -56,35 +57,26 @@
     "wpad-basic-wolfssl",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "ath10k-firmware-qca99x0-ct"
-  ],
+  "device_packages": ["ath10k-firmware-qca99x0-ct"],
   "id": "linksys_ea8500",
   "image_prefix": "openwrt-ipq806x-generic-linksys_ea8500",
   "images": [
     {
-      "name": "openwrt-ipq806x-generic-linksys_ea8500-squashfs-sysupgrade.bin",
-      "sha256": "a7a14afe4859aa87fbf82fb7819c9d581dede0ab83f88c4fe47abff628dd78f2",
-      "type": "sysupgrade"
+      "name": "openwrt-ipq806x-generic-linksys_ea8500-squashfs-factory.bin",
+      "sha256": "aea7bd1f76563962463472f9e8b4e92798bf51370eac43502a7c49bf2eb2c9ed",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ipq806x-generic-linksys_ea8500-squashfs-factory.bin",
-      "sha256": "75548d5d2215fa91b02e8e18798fa48d23c17efaeeb7e738414580eff0d774c1",
-      "type": "factory"
+      "name": "openwrt-ipq806x-generic-linksys_ea8500-squashfs-sysupgrade.bin",
+      "sha256": "624a443c0c415ac9a46350915654cfa123bccd2e902530fa250427c80f2b9d2a",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "linksys,ea8500",
-    "ea8500"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["linksys,ea8500", "ea8500"],
   "target": "ipq806x/generic",
-  "titles": [
-    {
-      "model": "EA8500",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "EA8500", "vendor": "Linksys" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

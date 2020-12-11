@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_xscale",
-  "build_at": "2020-09-11 23:18:05",
+  "build_at": "2020-12-11 21:22:17",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-usb2",
     "dnsmasq",
@@ -38,27 +39,20 @@
   "images": [
     {
       "name": "openwrt-kirkwood-seagate_dockstar-squashfs-sysupgrade.bin",
-      "sha256": "a662d9118610ca284b61fdd99dfe7fba253b5e242c0ebf7470cd5e6769c8646c",
+      "sha256": "b2fe6243140833df3b4d194f5c51028eb90addce5d04feb9c5d13386c0622065",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-kirkwood-seagate_dockstar-squashfs-factory.bin",
-      "sha256": "ab4d30c5b91859787049577d6642b553cf71adf9ff1cdc74867860db49b242dc",
+      "sha256": "04d906673aa40b698827af68b67edb46f2ac78a10cb2f2fd279471ce0cc5888f",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "seagate,dockstar",
-    "dockstar"
-  ],
+  "source_date_epoch": "1607716416",
+  "supported_devices": ["seagate,dockstar", "dockstar"],
   "target": "kirkwood/generic",
-  "titles": [
-    {
-      "model": "FreeAgent Dockstar",
-      "vendor": "Seagate"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "FreeAgent Dockstar", "vendor": "Seagate" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

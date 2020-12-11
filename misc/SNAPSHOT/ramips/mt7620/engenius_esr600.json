@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -46,26 +47,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-engenius_esr600-squashfs-factory.dlf",
-      "sha256": "0cbc39dee99c1b702069ee2506c9d08ae3990aa3f315ae29b3797e1a57d0a101",
+      "sha256": "ef45f1cd8516b7a44f1a6f24bfd0d7295c393673c5871be47223ce04e5e77c7e",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7620-engenius_esr600-squashfs-sysupgrade.bin",
-      "sha256": "561f12d661f7036d838cd36ec708c6d4e65cf3e37875526dd56faee9dd7030ea",
+      "sha256": "accf19188f6b092dd97990a138a05177b9db93a8ef55b223859902a1653c4415",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "engenius,esr600"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["engenius,esr600"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "ESR600",
-      "vendor": "EnGenius"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "ESR600", "vendor": "EnGenius" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -46,21 +47,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-iptime_a1004ns-squashfs-sysupgrade.bin",
-      "sha256": "3cd84f140f9eba4f841ee0fd27a972741f477720159ec32612d44f18699d59d7",
+      "sha256": "ba1475c8ae9ca13eaf0cf1db2bf7959356323ac670d4cb47cb61005cb2df1212",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "iptime,a1004ns"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["iptime,a1004ns"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "A1004ns",
-      "vendor": "ipTIME"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "A1004ns", "vendor": "ipTIME" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

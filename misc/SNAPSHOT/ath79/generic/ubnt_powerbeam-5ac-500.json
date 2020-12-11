@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,36 +38,28 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca988x-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca988x-ct"],
   "id": "ubnt_powerbeam-5ac-500",
   "image_prefix": "openwrt-ath79-generic-ubnt_powerbeam-5ac-500",
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_powerbeam-5ac-500-squashfs-factory.bin",
-      "sha256": "23a0d681ce810bbdda6a7e466230d58f6f60b7f454667216803c9100637d1ee4",
+      "sha256": "08faa895ef0733b026af770670ed6fbd37cc739dd59b5b1095c74f1686c189d8",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-ubnt_powerbeam-5ac-500-squashfs-sysupgrade.bin",
-      "sha256": "23979ea0166c1c05e81da54d70932229d1c9bb003300d0c914706870e3dc1524",
+      "sha256": "fccd5ce22b7c2a6a76417d1e82b2ef82d38fb0208ef4b65f9a3c8abe3077fed0",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ubnt,powerbeam-5ac-500"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ubnt,powerbeam-5ac-500"],
   "target": "ath79/generic",
   "titles": [
-    {
-      "model": "PowerBeam 5AC",
-      "variant": "500",
-      "vendor": "Ubiquiti"
-    }
+    { "model": "PowerBeam 5AC", "variant": "500", "vendor": "Ubiquiti" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

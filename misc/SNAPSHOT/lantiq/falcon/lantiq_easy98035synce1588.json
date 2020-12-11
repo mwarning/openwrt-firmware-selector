@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 01:31:52",
+  "build_at": "2020-12-11 00:25:42",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-ledtrig-heartbeat",
@@ -37,14 +38,13 @@
   "images": [
     {
       "name": "openwrt-lantiq-falcon-lantiq_easy98035synce1588-squashfs-sysupgrade.bin",
-      "sha256": "06c9fdcf255d0dee3dd968e6ebb1916d149d2bb5704e2c58b38f0f730a305fb9",
+      "sha256": "372aad9a2c144d7a45e52bf81645593b51677258eb7820a3e1ed20953f61e2a8",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "lantiq,easy98035synce1588"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["lantiq,easy98035synce1588"],
   "target": "lantiq/falcon",
   "titles": [
     {
@@ -53,6 +53,6 @@
       "vendor": "Lantiq"
     }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

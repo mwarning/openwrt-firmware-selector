@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-11 20:49:21",
+  "build_at": "2020-12-11 18:17:36",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-pci",
@@ -41,28 +42,21 @@
   "image_prefix": "openwrt-ramips-rt3883-trendnet_tew-691gr",
   "images": [
     {
-      "name": "openwrt-ramips-rt3883-trendnet_tew-691gr-squashfs-sysupgrade.bin",
-      "sha256": "e0be658bf3bdcc4179e9d83a6dfb59094036da02f894a9dab43ca117a7d0d0d9",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-rt3883-trendnet_tew-691gr-squashfs-factory.bin",
+      "sha256": "3540f01f9a8ba21d382e2c944e5a29f633f6b717be90270f1933ad67f461129f",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ramips-rt3883-trendnet_tew-691gr-squashfs-factory.bin",
-      "sha256": "4301e78b7bf2e63087fdd63482b59f63036e5e8cbc23849005e8aedb9a217d89",
-      "type": "factory"
+      "name": "openwrt-ramips-rt3883-trendnet_tew-691gr-squashfs-sysupgrade.bin",
+      "sha256": "036dbb128a3165c777c997c9be0f58cb27282b04297c3d06474baffbdfb3d72b",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "trendnet,tew-691gr",
-    "tew-691gr"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["trendnet,tew-691gr", "tew-691gr"],
   "target": "ramips/rt3883",
-  "titles": [
-    {
-      "model": "TEW-691GR",
-      "vendor": "TRENDnet"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "TEW-691GR", "vendor": "TRENDnet" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

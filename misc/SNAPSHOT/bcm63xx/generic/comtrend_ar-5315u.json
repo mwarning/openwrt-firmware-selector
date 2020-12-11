@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -44,25 +45,21 @@
   "image_prefix": "openwrt-bcm63xx-generic-comtrend_ar-5315u",
   "images": [
     {
-      "name": "openwrt-bcm63xx-generic-comtrend_ar-5315u-squashfs-cfe.bin",
-      "sha256": "88252805cac9d19c1d1b0eaef69817d2ba269d1c197789d5aa589fcececac11c",
-      "type": "cfe"
+      "name": "openwrt-bcm63xx-generic-comtrend_ar-5315u-squashfs-sysupgrade.bin",
+      "sha256": "e3c93acc7dc847a1e5726fea526f4a7930562f24bc52b20342377fd8b0fe4c5e",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-bcm63xx-generic-comtrend_ar-5315u-squashfs-sysupgrade.bin",
-      "sha256": "8e7927c634ede6411191bef33fd435ad132086c1a950ac36ac92caeb7b18429f",
-      "type": "sysupgrade"
+      "name": "openwrt-bcm63xx-generic-comtrend_ar-5315u-squashfs-cfe.bin",
+      "sha256": "323d4ca2bd45b7a562996ba4247932e20eacddf40a867ad398ae0c409dde8c12",
+      "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
-  "titles": [
-    {
-      "model": "AR-5315u",
-      "vendor": "Comtrend"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "AR-5315u", "vendor": "Comtrend" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

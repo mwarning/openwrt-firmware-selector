@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -62,20 +63,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-linksys_ea6500-v2-squashfs.trx",
-      "sha256": "5cce574df16a4e52878972e994de55093fa200154b8143919f527c88485bf8c9",
+      "sha256": "0c02e82ebdaf2425f2c51b5742a8f3a5b559aba6a3958db83f53b52220d14d4e",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "EA6500",
-      "variant": "v2",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EA6500", "variant": "v2", "vendor": "Linksys" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

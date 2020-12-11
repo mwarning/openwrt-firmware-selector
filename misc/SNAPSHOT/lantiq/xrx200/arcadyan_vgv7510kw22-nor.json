@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 21:54:15",
+  "build_at": "2020-12-11 13:06:15",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "ltq-vdsl-vr9-vectoring-fw-installer",
@@ -54,28 +55,18 @@
   "images": [
     {
       "name": "openwrt-lantiq-xrx200-arcadyan_vgv7510kw22-nor-squashfs-sysupgrade.bin",
-      "sha256": "36c65445da7ac333b5fef2236310e12d7e3b6b66ded6797b5c16e9ee7cc64124",
+      "sha256": "1a8247a20f0d32e63f95d3f0989a9b52d9d16e8b3dadfffa64251998b5943e24",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "arcadyan,vgv7510kw22-nor",
-    "VGV7510KW22NOR"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["arcadyan,vgv7510kw22-nor", "VGV7510KW22NOR"],
   "target": "lantiq/xrx200",
   "titles": [
-    {
-      "model": "VGV7510KW22",
-      "variant": "NOR",
-      "vendor": "Arcadyan"
-    },
-    {
-      "model": "Box 6431",
-      "variant": "NOR",
-      "vendor": "o2"
-    }
+    { "model": "VGV7510KW22", "variant": "NOR", "vendor": "Arcadyan" },
+    { "model": "Box 6431", "variant": "NOR", "vendor": "o2" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

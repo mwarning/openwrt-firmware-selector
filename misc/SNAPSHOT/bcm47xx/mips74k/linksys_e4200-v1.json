@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,30 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43",
-    "kmod-usb-ohci",
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-b43", "kmod-usb-ohci", "kmod-usb2"],
   "id": "linksys_e4200-v1",
   "image_prefix": "openwrt-bcm47xx-mips74k-linksys_e4200-v1",
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-linksys_e4200-v1-squashfs.bin",
-      "sha256": "dda460ae4681bad09cf21f6c4215b50561efec2f06eb284f60dc0b5c4f8954b6",
+      "sha256": "7ba615fab5be1b1bebb6137c0af852649a203bbbc32398db060324ce89aae39a",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
-  "titles": [
-    {
-      "model": "E4200",
-      "variant": "v1",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "E4200", "variant": "v1", "vendor": "Linksys" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

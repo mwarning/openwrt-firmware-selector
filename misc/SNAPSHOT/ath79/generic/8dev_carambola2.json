@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,31 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-chipidea2"
-  ],
+  "device_packages": ["kmod-usb-chipidea2"],
   "id": "8dev_carambola2",
   "image_prefix": "openwrt-ath79-generic-8dev_carambola2",
   "images": [
     {
       "name": "openwrt-ath79-generic-8dev_carambola2-squashfs-sysupgrade.bin",
-      "sha256": "f41535dc1a8b0b0be9a1b3d090e9eb910afb3fbe3d77ad3396cd6e4d5decd209",
+      "sha256": "5d6a8ef6f79ce74e95a8b01e6568656bb71c443de167bf9a2515b60b4c149cf1",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "8dev,carambola2",
-    "carambola2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["8dev,carambola2", "carambola2"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Carambola2",
-      "vendor": "8devices"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Carambola2", "vendor": "8devices" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

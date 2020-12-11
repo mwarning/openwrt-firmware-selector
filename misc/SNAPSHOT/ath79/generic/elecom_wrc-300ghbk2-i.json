@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -43,21 +44,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-elecom_wrc-300ghbk2-i-squashfs-sysupgrade.bin",
-      "sha256": "84058e95172b0cd3600c5dfb239f33391b66a018f2238c10591a440ec68ea0d1",
+      "sha256": "0d01169d503f3c8025ef95932fab7d23803a191355b282a13d11edea5eb4ea39",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "elecom,wrc-300ghbk2-i"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["elecom,wrc-300ghbk2-i"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WRC-300GHBK2-I",
-      "vendor": "ELECOM"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WRC-300GHBK2-I", "vendor": "ELECOM" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

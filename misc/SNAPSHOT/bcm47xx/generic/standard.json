@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 16:34:14",
+  "build_at": "2020-12-11 14:01:03",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,28 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b44",
-    "kmod-bgmac",
-    "kmod-tg3"
-  ],
+  "device_packages": ["kmod-b44", "kmod-bgmac", "kmod-tg3"],
   "id": "standard",
   "image_prefix": "openwrt-bcm47xx-generic-standard",
   "images": [
     {
       "name": "openwrt-bcm47xx-generic-standard-squashfs.trx",
-      "sha256": "a3cc74ff1c326bf425f3edf0ae7336ee3361af6d7f6d59d284d98c957f22be4c",
+      "sha256": "c45cd1a955e7c7d4e27db6b1bba1ef93b4ca7c81f469c7c79d6ab6cd54476c5a",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm47xx/generic",
-  "titles": [
-    {
-      "title": "Image with LZMA loader and LZMA compressed kernel"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "title": "Image with LZMA loader and LZMA compressed kernel" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

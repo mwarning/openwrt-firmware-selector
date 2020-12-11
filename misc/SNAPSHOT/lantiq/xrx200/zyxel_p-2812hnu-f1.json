@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 21:54:15",
+  "build_at": "2020-12-11 13:06:15",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "ltq-vdsl-vr9-vectoring-fw-installer",
@@ -53,23 +54,15 @@
   "images": [
     {
       "name": "openwrt-lantiq-xrx200-zyxel_p-2812hnu-f1-squashfs-sysupgrade.bin",
-      "sha256": "da86e1dd1a14ecc92a5b29b010f76b3b3dd379221f39ad68461f308c86110933",
+      "sha256": "d9f979e2a81983ca404db2d2d74d1d8e70bd4c27f892fc31c045b73529bdae9a",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zyxel,p-2812hnu-f1",
-    "P2812HNUF1"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["zyxel,p-2812hnu-f1", "P2812HNUF1"],
   "target": "lantiq/xrx200",
-  "titles": [
-    {
-      "model": "P-2812HNU",
-      "variant": "F1",
-      "vendor": "ZyXEL"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "P-2812HNU", "variant": "F1", "vendor": "ZyXEL" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

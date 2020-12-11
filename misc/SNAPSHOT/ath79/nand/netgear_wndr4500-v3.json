@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 17:37:26",
+  "build_at": "2020-12-11 03:05:41",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,36 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ledtrig-usbport"],
   "id": "netgear_wndr4500-v3",
   "image_prefix": "openwrt-ath79-nand-netgear_wndr4500-v3",
   "images": [
     {
       "name": "openwrt-ath79-nand-netgear_wndr4500-v3-squashfs-factory.img",
-      "sha256": "e2992d73c83e5a83bfb466fb84ce60c0b5e817237e53bf1c0f03d084c3aa77e2",
+      "sha256": "2e160712867f6607f23b8094989cd04829abcf27ff939a20dfaa0c5daea991cf",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-nand-netgear_wndr4500-v3-squashfs-sysupgrade.bin",
-      "sha256": "99329a2e1cb3cbe26b40e0e65df6b01343371897038a60f908576b054573017c",
+      "sha256": "41348aac4914e865a2f6241d3113d0d2f229002221a974073dbf1ca6304fac11",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,wndr4500-v3"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,wndr4500-v3"],
   "target": "ath79/nand",
-  "titles": [
-    {
-      "model": "WNDR4500",
-      "variant": "v3",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "WNDR4500", "variant": "v3", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

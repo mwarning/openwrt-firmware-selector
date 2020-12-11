@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,29 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43",
-    "kmod-usb-ohci",
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-b43", "kmod-usb-ohci", "kmod-usb2"],
   "id": "edimax_ps1208-mfg",
   "image_prefix": "openwrt-bcm47xx-legacy-edimax_ps1208-mfg",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-edimax_ps1208-mfg-squashfs.bin",
-      "sha256": "e3fda72e44bc6b7166efc61ab95796d09e76f86dd47c2406793c86978afe1665",
+      "sha256": "c86a617032c7996d8d8a79242f16d2d025b880f3e763fd9ca9f28fdd75edf9c9",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "PS-1208MFg",
-      "vendor": "Edimax"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "PS-1208MFg", "vendor": "Edimax" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

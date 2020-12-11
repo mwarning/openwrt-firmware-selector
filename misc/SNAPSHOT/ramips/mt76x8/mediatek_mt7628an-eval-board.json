@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,32 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci", "kmod-usb-ledtrig-usbport"],
   "id": "mediatek_mt7628an-eval-board",
   "image_prefix": "openwrt-ramips-mt76x8-mediatek_mt7628an-eval-board",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-mediatek_mt7628an-eval-board-squashfs-sysupgrade.bin",
-      "sha256": "1eee51f093095861f27fe20b01f3fc9c2a0f2644b1317d976d37dacc9ef9a164",
+      "sha256": "b207fcad2fc6a164fdf2a6495563fb0779fd7238b376e07a3f6943fa3f629006",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "mediatek,mt7628an-eval-board",
-    "mt7628"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["mediatek,mt7628an-eval-board", "mt7628"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "MT7628 EVB",
-      "vendor": "MediaTek"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "MT7628 EVB", "vendor": "MediaTek" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

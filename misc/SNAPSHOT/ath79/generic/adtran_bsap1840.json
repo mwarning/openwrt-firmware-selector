@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,41 +38,31 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "-swconfig",
-    "-uboot-envtools",
-    "fconfig"
-  ],
+  "device_packages": ["-swconfig", "-uboot-envtools", "fconfig"],
   "id": "adtran_bsap1840",
   "image_prefix": "openwrt-ath79-generic-adtran_bsap1840",
   "images": [
     {
-      "name": "openwrt-ath79-generic-adtran_bsap1840-squashfs-sysupgrade.bin",
-      "sha256": "2b1b31bc31375f9d77110fa112e114a2c2f65d7875daab9c9e161be4996c4583",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-adtran_bsap1840-squashfs-rootfs.bin",
+      "sha256": "88d2da1415e2de51c9c6e864ec5b7ec8fdd48905c8d91a7e33a3851d38a62323",
+      "type": "rootfs"
     },
     {
       "name": "openwrt-ath79-generic-adtran_bsap1840-squashfs-kernel.bin",
-      "sha256": "ebbcb903c601f97c5b112eecb4b6506bbb69f687b10c3db6c2ec51a6949b1198",
+      "sha256": "de76cce3b0357d37f8f24e714ee9461b6347017a726e1bdba7efe699cd02b0db",
       "type": "kernel"
     },
     {
-      "name": "openwrt-ath79-generic-adtran_bsap1840-squashfs-rootfs.bin",
-      "sha256": "669c802d819fb2a5945ca6d9106fbdc186e3be8f242328040393217e07f6e4bb",
-      "type": "rootfs"
+      "name": "openwrt-ath79-generic-adtran_bsap1840-squashfs-sysupgrade.bin",
+      "sha256": "3b9641cfa39cc090fcb8480f790466eaea983c66cd69ac91887d07e769ef49d3",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "adtran,bsap1840"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["adtran,bsap1840"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "BSAP-1840",
-      "vendor": "Adtran/Bluesocket"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "BSAP-1840", "vendor": "Adtran/Bluesocket" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

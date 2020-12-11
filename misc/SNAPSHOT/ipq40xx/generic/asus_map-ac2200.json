@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -46,30 +47,21 @@
     "kmod-usb-dwc3",
     "ath10k-firmware-qca4019-ct"
   ],
-  "device_packages": [
-    "ath10k-firmware-qca9888-ct",
-    "kmod-ath3k"
-  ],
+  "device_packages": ["ath10k-firmware-qca9888-ct", "kmod-ath3k"],
   "id": "asus_map-ac2200",
   "image_prefix": "openwrt-ipq40xx-generic-asus_map-ac2200",
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-asus_map-ac2200-squashfs-sysupgrade.bin",
-      "sha256": "97b9f3c9df86ebeb924e24f634ea4848e559b24db8eaea6d2b8b00f27a3fad00",
+      "sha256": "ccacba8fd448ca2c8283043bd47931a8a9584e89351614dc5210bb36564e2e17",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "asus,map-ac2200"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["asus,map-ac2200"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "Lyra (MAP-AC2200)",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Lyra (MAP-AC2200)", "vendor": "ASUS" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

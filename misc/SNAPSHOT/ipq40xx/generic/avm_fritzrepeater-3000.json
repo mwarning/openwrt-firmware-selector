@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -56,21 +57,15 @@
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-avm_fritzrepeater-3000-squashfs-sysupgrade.bin",
-      "sha256": "7503c9c3339cab46c87d144bc699d50807984d342be258ec0219ee6f198a9c30",
+      "sha256": "d75f66c19cb4bf3a4f70d7af10bb3148b77e43cb104f6e35237ee926630d47bd",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "avm,fritzrepeater-3000"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["avm,fritzrepeater-3000"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "FRITZ!Repeater 3000",
-      "vendor": "AVM"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "FRITZ!Repeater 3000", "vendor": "AVM" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-11 20:49:21",
+  "build_at": "2020-12-11 18:17:36",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-pci",
@@ -42,22 +43,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt3883-edimax_br-6475nd-squashfs-sysupgrade.bin",
-      "sha256": "6c5d580451722c591ec66fa8b25c82e83b992ae7c1318a7b17747b1634414995",
+      "sha256": "689c6cdb06ca9ce915345bc350dbea8099a2f2662d74cf4342bdca0fb4f366a9",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "edimax,br-6475nd",
-    "br-6475nd"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["edimax,br-6475nd", "br-6475nd"],
   "target": "ramips/rt3883",
-  "titles": [
-    {
-      "model": "BR-6475nD",
-      "vendor": "Edimax"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "BR-6475nD", "vendor": "Edimax" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

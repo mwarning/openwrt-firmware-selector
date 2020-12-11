@@ -1,9 +1,8 @@
 {
   "arch_packages": "i386_pentium-mmx",
-  "build_at": "2020-09-10 21:53:03",
+  "build_at": "2020-12-11 12:11:02",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "partx-utils",
     "mkf2fs",
     "e2fsprogs",
@@ -56,43 +57,40 @@
   "images": [
     {
       "name": "openwrt-x86-legacy-generic-squashfs-combined-efi.img.gz",
-      "sha256": "ea562d42212035675247f18d4666bf61c181459c4adc655fdb3553741d3a85a4",
+      "sha256": "c473b0fde273e9e30bee852de9d034c2d9f9fd31d27ff1456bf37d963757a212",
       "type": "combined-efi"
-    },
-    {
-      "name": "openwrt-x86-legacy-generic-squashfs-rootfs.img.gz",
-      "sha256": "d1c9057342db6ceea79539a578e204a2913d41c33f9a8cb665750c237feb6bc7",
-      "type": "rootfs"
-    },
-    {
-      "name": "openwrt-x86-legacy-generic-ext4-combined.img.gz",
-      "sha256": "02c208b794191ff2b766d7d0ad51a0901a50b2dd14a53807fe5d98e01315a70c",
-      "type": "combined"
-    },
-    {
-      "name": "openwrt-x86-legacy-generic-ext4-combined-efi.img.gz",
-      "sha256": "36026967466cbc4cc57f982c90ad1607fd80ab31a3ccf0adf38b6752f5bdbd38",
-      "type": "combined-efi"
-    },
-    {
-      "name": "openwrt-x86-legacy-generic-ext4-rootfs.img.gz",
-      "sha256": "e3c5f0d9a970913683a1b74b51b44b332fcca82a480519fb4108ef8284b27c35",
-      "type": "rootfs"
     },
     {
       "name": "openwrt-x86-legacy-generic-squashfs-combined.img.gz",
-      "sha256": "0a5908267b8a3dc7b03470d0afc7de4c8be3256b6d8d7f7f1102772c14f3fcf3",
+      "sha256": "7c5b1e48f2101d4d453c33fe3582359726e6141c997f6f0c6fb7b2c57cd663f0",
       "type": "combined"
+    },
+    {
+      "name": "openwrt-x86-legacy-generic-squashfs-rootfs.img.gz",
+      "sha256": "8d4244be0b342e65530e1b403863e0da0409951a00cde8092e7011f467222f8b",
+      "type": "rootfs"
+    },
+    {
+      "name": "openwrt-x86-legacy-generic-ext4-combined-efi.img.gz",
+      "sha256": "2ac5d2fb9bc7ccebe082f925ac248e286804f9224ea67ab9ed77ed6ef51bb762",
+      "type": "combined-efi"
+    },
+    {
+      "name": "openwrt-x86-legacy-generic-ext4-combined.img.gz",
+      "sha256": "06d7abbc9827bae840aecc093b16178ac51a5894368b8383a6c98c7eb5610c2b",
+      "type": "combined"
+    },
+    {
+      "name": "openwrt-x86-legacy-generic-ext4-rootfs.img.gz",
+      "sha256": "fd0f1552e7aa3426ddb9295a90a0a225a283c0dd7b84addbce4adf5eeb60dc7b",
+      "type": "rootfs"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607683657",
   "supported_devices": [],
   "target": "x86/legacy",
-  "titles": [
-    {
-      "title": "Generic x86/legacy"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "title": "Generic x86/legacy" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

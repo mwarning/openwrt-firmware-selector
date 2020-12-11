@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_arm926ej-s",
-  "build_at": "2020-09-10 20:46:39",
+  "build_at": "2020-12-11 10:56:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-ohci",
     "kmod-at91-udc",
     "kmod-usb-gadget-eth",
@@ -47,26 +48,20 @@
   "images": [
     {
       "name": "openwrt-at91-sam9x-calamp_lmu5000-ubifs-factory.bin",
-      "sha256": "1c02580d21714e1b6df2e11df0b1397320247c9216a8e222cb5ffeb6ea2afe54",
+      "sha256": "599ca9bd7fe8805de92e08861b67e161528d99ddf3adb528acfd1d176d76a595",
       "type": "factory"
     },
     {
       "name": "openwrt-at91-sam9x-calamp_lmu5000-squashfs-factory.bin",
-      "sha256": "e93f8fd63a7dddfe8e1f7b68019fbe12b4578308f2a5e9200b7f4398e125e197",
+      "sha256": "90aa278e5a150ab063fc67c7bd61a1ca711d050ea613c1c2d9730d16372b133a",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "calamp,lmu5000"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["calamp,lmu5000"],
   "target": "at91/sam9x",
-  "titles": [
-    {
-      "model": "LMU5000",
-      "vendor": "CalAmp"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "LMU5000", "vendor": "CalAmp" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

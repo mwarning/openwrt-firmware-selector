@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-11 01:37:12",
+  "build_at": "2020-12-11 00:58:45",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -48,26 +49,20 @@
   "images": [
     {
       "name": "openwrt-sunxi-cortexa7-lamobo_lamobo-r1-squashfs-sdcard.img.gz",
-      "sha256": "d8c69b4e43776fdd76bc8f55cd0135fd01e0cf4ebc062aa96c9fbb747f356a30",
+      "sha256": "5e0a181339771a434582f70ec35513cadab44fa789aa91ad460216b4de9e35bc",
       "type": "sdcard"
     },
     {
       "name": "openwrt-sunxi-cortexa7-lamobo_lamobo-r1-ext4-sdcard.img.gz",
-      "sha256": "b7e2accaec3fbebab56a0d9f2553300e5c709602caab6daf8d14013b6997e6ba",
+      "sha256": "3caf487bc25280d8148616771b46f04ab4900851bf8aa75d48dfd2ce90e62779",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "lamobo,lamobo-r1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["lamobo,lamobo-r1"],
   "target": "sunxi/cortexa7",
-  "titles": [
-    {
-      "model": "Lamobo R1",
-      "vendor": "Lamobo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Lamobo R1", "vendor": "Lamobo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

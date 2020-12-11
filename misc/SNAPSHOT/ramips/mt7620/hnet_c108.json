@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,32 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci",
-    "kmod-sdhci-mt7620"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci", "kmod-sdhci-mt7620"],
   "id": "hnet_c108",
   "image_prefix": "openwrt-ramips-mt7620-hnet_c108",
   "images": [
     {
       "name": "openwrt-ramips-mt7620-hnet_c108-squashfs-sysupgrade.bin",
-      "sha256": "1a547be0cedc125c7544a93d3d046ed343bd3fb2b1eb628db6f5b643758e2c55",
+      "sha256": "81aafb48ae3edcf7717fc9a0176e25c648b094725ef88b8220ba8493769c3a1c",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "hnet,c108",
-    "c108"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["hnet,c108", "c108"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "C108",
-      "vendor": "HNET"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "C108", "vendor": "HNET" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

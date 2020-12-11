@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -33,36 +34,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2",
-    "kmod-usb3",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-mt76x2", "kmod-usb3", "kmod-usb-ledtrig-usbport"],
   "id": "netis_wf2881",
   "image_prefix": "openwrt-ramips-mt7621-netis_wf2881",
   "images": [
     {
       "name": "openwrt-ramips-mt7621-netis_wf2881-squashfs-sysupgrade.bin",
-      "sha256": "674270785a477597069210f0141356e778b397038ecc83532841fc090cfeb4d2",
+      "sha256": "bde4ce4c2a84e69d1d71f4ed33568e1c5fbc74d458a6ee20aead3b4ccb3ff07d",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-netis_wf2881-squashfs-factory.bin",
-      "sha256": "8990c6384d4d574d771680d90a03142be2754d3c080584d7cb4f62a61b5164cb",
+      "sha256": "ffe533b9bfc8de73fbd0efc705874a3451b8db665db0606e8df44e86e6f1f94d",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netis,wf2881"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netis,wf2881"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "WF2881",
-      "vendor": "NETIS"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WF2881", "vendor": "NETIS" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

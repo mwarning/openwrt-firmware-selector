@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 17:37:26",
+  "build_at": "2020-12-11 03:05:41",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,35 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-usb2"],
   "id": "aerohive_hiveap-121",
   "image_prefix": "openwrt-ath79-nand-aerohive_hiveap-121",
   "images": [
     {
-      "name": "openwrt-ath79-nand-aerohive_hiveap-121-squashfs-sysupgrade.bin",
-      "sha256": "593dbf8728215d9d539e64fe7914c50da6378cf1a2e6bcab9042ee92eacc2722",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-nand-aerohive_hiveap-121-squashfs-factory.bin",
+      "sha256": "ba71cfdb5d5231c1a1ad34ead14ff143a8e61052519a8b285adf215f221b2b61",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ath79-nand-aerohive_hiveap-121-squashfs-factory.bin",
-      "sha256": "4f329a93342bfada05d002270201ca859439fd9d9ac94c57cda755eb3e8e6cef",
-      "type": "factory"
+      "name": "openwrt-ath79-nand-aerohive_hiveap-121-squashfs-sysupgrade.bin",
+      "sha256": "414e25a0ec318a5750c3c03161c42d9490244fa9f1fe7d97400830af599b6c7d",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "aerohive,hiveap-121",
-    "hiveap-121"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["aerohive,hiveap-121", "hiveap-121"],
   "target": "ath79/nand",
-  "titles": [
-    {
-      "model": "HiveAP 121",
-      "vendor": "Aerohive"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "HiveAP 121", "vendor": "Aerohive" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

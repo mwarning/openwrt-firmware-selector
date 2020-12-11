@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-alfa-network_w502u-squashfs-sysupgrade.bin",
-      "sha256": "637dcbd1c42cff2358d8b3337799841fafe589af0bf21a85cd949359d6198aa9",
+      "sha256": "55d146ab6b35ea78d30a85ea266e6cc6acb503031f1f6d59e97c54a7385873b4",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "alfa-network,w502u",
-    "w502u"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["alfa-network,w502u", "w502u"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "Networks W502U",
-      "vendor": "ALFA"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Networks W502U", "vendor": "ALFA" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

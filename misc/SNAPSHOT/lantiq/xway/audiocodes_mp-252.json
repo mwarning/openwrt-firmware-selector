@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -51,22 +52,15 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-audiocodes_mp-252-squashfs-sysupgrade.bin",
-      "sha256": "f9b08329ecbe016465f8857e752595de59a87858cf135b0373446cb835f22a8d",
+      "sha256": "a3b5508563b8cd632d75b7f95337f5078b1b42cb9f224b758b313fdd841858f5",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "audiocodes,mp-252",
-    "ACMP252"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["audiocodes,mp-252", "ACMP252"],
   "target": "lantiq/xway",
-  "titles": [
-    {
-      "model": "MediaPack MP-252",
-      "vendor": "AudioCodes"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "MediaPack MP-252", "vendor": "AudioCodes" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

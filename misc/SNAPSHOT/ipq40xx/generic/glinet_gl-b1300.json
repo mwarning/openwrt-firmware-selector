@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -52,21 +53,15 @@
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-glinet_gl-b1300-squashfs-sysupgrade.bin",
-      "sha256": "10823a2a656ffe853abd9b4ebe181adcc8931c340ac5a4ef2cf8b9aa8364e611",
+      "sha256": "b2b363e57a577b4329f1aee1325980fad49a8d0b36559d39a592516a419d7dd9",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "glinet,gl-b1300"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["glinet,gl-b1300"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "GL-B1300",
-      "vendor": "GL.iNet"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "GL-B1300", "vendor": "GL.iNet" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_xscale",
-  "build_at": "2020-09-11 23:18:05",
+  "build_at": "2020-12-11 21:22:17",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-usb2",
     "dnsmasq",
@@ -43,28 +44,20 @@
   "images": [
     {
       "name": "openwrt-kirkwood-linksys_ea4500-squashfs-sysupgrade.bin",
-      "sha256": "3a74b0bda864f6bb4bdeb627653d44de9f6786429021b91bc9ea3d414d1628bc",
+      "sha256": "9d92351eb1c6606ed5abda2cb5c76a1824a6304e6a737606da87b87d85eb8a12",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-kirkwood-linksys_ea4500-squashfs-factory.bin",
-      "sha256": "a1c05edc15f8e73b5f89760ed25dd84f786266af75cd733867cbbc3483471424",
+      "sha256": "ff7159326f5242b7a86e934a13b3eee51150474fd5a61c2e9d1b03b60bfb5ecc",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "linksys,ea4500",
-    "linksys,viper",
-    "linksys-viper"
-  ],
+  "source_date_epoch": "1607716416",
+  "supported_devices": ["linksys,ea4500", "linksys,viper", "linksys-viper"],
   "target": "kirkwood/generic",
-  "titles": [
-    {
-      "model": "EA4500",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "EA4500", "vendor": "Linksys" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

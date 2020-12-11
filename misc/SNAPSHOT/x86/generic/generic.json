@@ -1,9 +1,8 @@
 {
   "arch_packages": "i386_pentium4",
-  "build_at": "2020-09-10 22:53:15",
+  "build_at": "2020-12-10 22:53:41",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "partx-utils",
     "mkf2fs",
     "e2fsprogs",
@@ -56,43 +57,40 @@
   "images": [
     {
       "name": "openwrt-x86-generic-generic-ext4-combined-efi.img.gz",
-      "sha256": "57b9391860b33a1d8a2765fca067401c458f259a3711252ad4e070d37f82e1cd",
+      "sha256": "898d4bf482850dbafbda0b66f8f10544975b2dc0467657f05dd389c1a6b0898b",
       "type": "combined-efi"
     },
     {
       "name": "openwrt-x86-generic-generic-ext4-rootfs.img.gz",
-      "sha256": "ea8f7cfa3d4e8c3543868182e1e185cb5ab41d5fef9a81840f959e5f59a8b7ab",
+      "sha256": "27c2b33fb1e3bb0ace91da2457da87c94c70bf40cbd0ef7d07191d3678d691ee",
       "type": "rootfs"
     },
     {
       "name": "openwrt-x86-generic-generic-ext4-combined.img.gz",
-      "sha256": "5afa37457dbd06605aa9eb8e59311093294227afccdffca1eeecb5a0a454ab78",
+      "sha256": "96739001bfd9a979905a08238b4ede8603f3f97bd68c788f7aed5ead2a80ee98",
       "type": "combined"
     },
     {
       "name": "openwrt-x86-generic-generic-squashfs-combined.img.gz",
-      "sha256": "f503ffdac4f8e7b8f8612086bb52e6f1a16a9c2ca850908fb87e69590e90bf67",
+      "sha256": "f60c0abc35c0b8effbf4052b04a8d64faec89bcc21ee8bac3258356678cdc248",
       "type": "combined"
     },
     {
       "name": "openwrt-x86-generic-generic-squashfs-rootfs.img.gz",
-      "sha256": "bb5a129c01fb8be9765b906a16e45862db833b90332590834447577d6a4670cc",
+      "sha256": "a212dec35fa566996d5fb68781b8048ce49b56f5018cee49f3a12f22f8e009c9",
       "type": "rootfs"
     },
     {
       "name": "openwrt-x86-generic-generic-squashfs-combined-efi.img.gz",
-      "sha256": "ed953d8b876f64271d2142c614951289a9a0555c85aae43892ed2c5756cb188f",
+      "sha256": "56a66cb3ca48afac719c86cc03f87c235b377636baa2adc3b86a55db00dd95d7",
       "type": "combined-efi"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "x86/generic",
-  "titles": [
-    {
-      "title": "Generic x86"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "title": "Generic x86" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

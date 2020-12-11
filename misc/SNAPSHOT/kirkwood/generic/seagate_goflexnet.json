@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_xscale",
-  "build_at": "2020-09-11 23:18:05",
+  "build_at": "2020-12-11 21:22:17",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-usb2",
     "dnsmasq",
@@ -32,36 +33,26 @@
     "uboot-envtools",
     "kmod-usb2"
   ],
-  "device_packages": [
-    "kmod-ata-marvell-sata",
-    "kmod-fs-ext4"
-  ],
+  "device_packages": ["kmod-ata-marvell-sata", "kmod-fs-ext4"],
   "id": "seagate_goflexnet",
   "image_prefix": "openwrt-kirkwood-seagate_goflexnet",
   "images": [
     {
       "name": "openwrt-kirkwood-seagate_goflexnet-squashfs-sysupgrade.bin",
-      "sha256": "1dd71bf44501567cf8bc2dc3d11fa1a1ab4892654ed6e81b10f0613295553504",
+      "sha256": "de5f4b46a3c0c0d77e88de92d9152eb227df279f1fe6a8f342741616723d1eac",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-kirkwood-seagate_goflexnet-squashfs-factory.bin",
-      "sha256": "4af393615614177c7581b5aff2c830319f350b4f774fc0b4f1bbb35e54812cd5",
+      "sha256": "0025e09d9623d4f6dc193bcc01758dbbbcc11115f571474476a3dc5c069a44d7",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "seagate,goflexnet",
-    "goflexnet"
-  ],
+  "source_date_epoch": "1607716416",
+  "supported_devices": ["seagate,goflexnet", "goflexnet"],
   "target": "kirkwood/generic",
-  "titles": [
-    {
-      "model": "GoFlexNet",
-      "vendor": "Seagate"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "GoFlexNet", "vendor": "Seagate" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

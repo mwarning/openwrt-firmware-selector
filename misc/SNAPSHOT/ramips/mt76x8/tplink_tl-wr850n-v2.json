@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -41,27 +42,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-tplink_tl-wr850n-v2-squashfs-tftp-recovery.bin",
-      "sha256": "306f96893a9b2f4f3ba4ab4007ca8440492a1a775fe95c5f45875e6288c25523",
+      "sha256": "bcdcdc516c87264c46bdee2312ebc43829056a1b8581c69b3eacc162d00090a6",
       "type": "tftp-recovery"
     },
     {
       "name": "openwrt-ramips-mt76x8-tplink_tl-wr850n-v2-squashfs-sysupgrade.bin",
-      "sha256": "068671791292fc8bd4a59c442427983c1f2ce8859f3ce69a221ee4f5466f935a",
+      "sha256": "879fb5e66fafea44991ccb2dedcac19620ce1ea8708c6bec43fa0a52d92edec4",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wr850n-v2"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["tplink,tl-wr850n-v2"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "TL-WR850N",
-      "variant": "v2",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "TL-WR850N", "variant": "v2", "vendor": "TP-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -62,19 +63,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-asus_rt-ac56u-squashfs.trx",
-      "sha256": "3df0475ef2b6396eca2c940e27adeb266b0a6f582f5ae73533c27d34bb014460",
+      "sha256": "03755b3ebec6e0bb3ea284475122fcc617aa0b07048a41e0126a4ba812c44365",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "RT-AC56U",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RT-AC56U", "vendor": "ASUS" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

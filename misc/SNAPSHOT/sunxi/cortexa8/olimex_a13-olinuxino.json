@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a8_vfpv3",
-  "build_at": "2020-09-10 21:26:39",
+  "build_at": "2020-12-11 11:58:51",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -36,34 +37,26 @@
     "mkf2fs",
     "e2fsprogs"
   ],
-  "device_packages": [
-    "kmod-rtl8192cu"
-  ],
+  "device_packages": ["kmod-rtl8192cu"],
   "id": "olimex_a13-olinuxino",
   "image_prefix": "openwrt-sunxi-cortexa8-olimex_a13-olinuxino",
   "images": [
     {
       "name": "openwrt-sunxi-cortexa8-olimex_a13-olinuxino-ext4-sdcard.img.gz",
-      "sha256": "c4688bc0b6f326cec667b10f472a654e1a76a6095c4ccdd1fc068a89358cd651",
+      "sha256": "91bcfcac1728b943c1cccc26a5f12209beb5bc0fd98c9417c2eb315e9b784a24",
       "type": "sdcard"
     },
     {
       "name": "openwrt-sunxi-cortexa8-olimex_a13-olinuxino-squashfs-sdcard.img.gz",
-      "sha256": "589dd8ec4b4c2afd7bbf3485b3caa8e927ba3317edab61a896bb40a6045f3215",
+      "sha256": "ea2375d1bd46fa22c9b613bb8aadf1f5c253fe201c978bbe90d197ed9722a27c",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "olimex,a13-olinuxino"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["olimex,a13-olinuxino"],
   "target": "sunxi/cortexa8",
-  "titles": [
-    {
-      "model": "A13-OLinuXino",
-      "vendor": "Olimex"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "A13-OLinuXino", "vendor": "Olimex" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

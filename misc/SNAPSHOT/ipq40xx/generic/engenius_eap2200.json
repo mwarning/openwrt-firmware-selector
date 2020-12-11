@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -57,26 +58,20 @@
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-engenius_eap2200-squashfs-nand-sysupgrade.bin",
-      "sha256": "5f632952bd5685b738aa1e061e561fcaec098d5b1c8c5747ff6e3684699a547e",
+      "sha256": "a532723305fdbc981d01ce224c37162f40d7cc8a943731016583b5287951f2d4",
       "type": "nand-sysupgrade"
     },
     {
       "name": "openwrt-ipq40xx-generic-engenius_eap2200-squashfs-nand-factory.ubi",
-      "sha256": "4c0cd929247c15c5c10812ff416b41d39653bca442342aa08c7511b99c735992",
+      "sha256": "2ca0cc0dc067e3a44ffce7238720569b70ed602f199a86033d9e0d1ad2dbba7a",
       "type": "nand-factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "engenius,eap2200"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["engenius,eap2200"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "EAP2200",
-      "vendor": "EnGenius"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EAP2200", "vendor": "EnGenius" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

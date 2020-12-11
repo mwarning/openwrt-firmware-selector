@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,35 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca9887-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca9887-ct"],
   "id": "yuncore_a770",
   "image_prefix": "openwrt-ath79-generic-yuncore_a770",
   "images": [
     {
-      "name": "openwrt-ath79-generic-yuncore_a770-squashfs-tftp.bin",
-      "sha256": "7eca7e896a0f48c0652dfc3e851e4af90f11f48a1e2e1f5fa2918a2fe13d4330",
-      "type": "tftp"
+      "name": "openwrt-ath79-generic-yuncore_a770-squashfs-sysupgrade.bin",
+      "sha256": "15c7d45cffd710510b8cbce289ba16b661537a872bd5a98afe97c0fb8a8959fa",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-yuncore_a770-squashfs-sysupgrade.bin",
-      "sha256": "d06dc3fad0d3a0a9b4b1b87b97b96929270c0fb840c6c742e89d515d03415d33",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-yuncore_a770-squashfs-tftp.bin",
+      "sha256": "34d6882afc756af82f58a7a0fb6ddf468b1fd4e10646a9a8364566ae81267ea9",
+      "type": "tftp"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "yuncore,a770"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["yuncore,a770"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "A770",
-      "vendor": "YunCore"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "A770", "vendor": "YunCore" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

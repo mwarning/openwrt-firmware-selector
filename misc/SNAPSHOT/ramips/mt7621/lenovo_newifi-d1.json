@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -45,22 +46,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-lenovo_newifi-d1-squashfs-sysupgrade.bin",
-      "sha256": "e34e6687b7b574feb00e4028e9f01e81c3aceae4e19a145b4e4c9214d989123f",
+      "sha256": "cbc915250afd7617f77499bca065cdee2b38139a8d16c8d660b1faa83643922d",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "lenovo,newifi-d1",
-    "newifi-d1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["lenovo,newifi-d1", "newifi-d1"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "D1",
-      "vendor": "Newifi"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "D1", "vendor": "Newifi" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

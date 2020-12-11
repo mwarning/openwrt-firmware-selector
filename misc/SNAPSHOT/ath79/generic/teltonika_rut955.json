@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -51,26 +52,20 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-teltonika_rut955-squashfs-factory.bin",
-      "sha256": "c89e98771e22b8e1f47a13f36a954895279631c37044bcb53b82723e623dfbb0",
+      "sha256": "2844993fee30c8c0d8af8c2bc1503493a9867e8b461d5c93af772d61a46ddb71",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-teltonika_rut955-squashfs-sysupgrade.bin",
-      "sha256": "f4398880f99f9fc79342f201dab354a30b80a7a20325f450f7a689795d99e0b7",
+      "sha256": "2abcd2f4728ecb2cd12ccd264e2586024d50e0ca552ac987135ec9312973094d",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "teltonika,rut955"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["teltonika,rut955"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "RUT955",
-      "vendor": "Teltonika"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RUT955", "vendor": "Teltonika" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

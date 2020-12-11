@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -40,33 +41,26 @@
   "image_prefix": "openwrt-ramips-rt305x-dlink_dap-1350",
   "images": [
     {
-      "name": "openwrt-ramips-rt305x-dlink_dap-1350-squashfs-factory.bin",
-      "sha256": "303191ad33b616872a9247a34cbec979eff948ca482017e57e13974d6dba067a",
-      "type": "factory"
-    },
-    {
       "name": "openwrt-ramips-rt305x-dlink_dap-1350-squashfs-factory-NA.bin",
-      "sha256": "382f2aaeed5ffef70f6c8babe74d4b48eac553b84d0222287ab0746eb3a7cf3c",
+      "sha256": "30b2e1a9bbca3c51eb45dba28fbeab24238545f328c33a3a0ac970546e2a5389",
       "type": "factory-NA"
     },
     {
       "name": "openwrt-ramips-rt305x-dlink_dap-1350-squashfs-sysupgrade.bin",
-      "sha256": "d2184283de7b14fdd9561102c591004c859055e3028ca77e24c1aac893b21b44",
+      "sha256": "0298f9388c4ed81a9ac31b43ad304116ff51be8b0b0c9a4a8ada06f6bceb74ae",
       "type": "sysupgrade"
+    },
+    {
+      "name": "openwrt-ramips-rt305x-dlink_dap-1350-squashfs-factory.bin",
+      "sha256": "796ed68cb00e1a833d5098ffe278f85d503bba831f32fa446cd690730a52d830",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dap-1350",
-    "dap-1350"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dap-1350", "dap-1350"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "DAP-1350",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DAP-1350", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-11 01:37:12",
+  "build_at": "2020-12-11 00:58:45",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -36,35 +37,26 @@
     "mkf2fs",
     "e2fsprogs"
   ],
-  "device_packages": [
-    "kmod-ata-sunxi",
-    "kmod-rtc-sunxi"
-  ],
+  "device_packages": ["kmod-ata-sunxi", "kmod-rtc-sunxi"],
   "id": "olimex_a20-olinuxino-lime",
   "image_prefix": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-lime",
   "images": [
     {
-      "name": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-lime-squashfs-sdcard.img.gz",
-      "sha256": "90b9ba23cf91aee89bac406eaf63011399ee26cab300234613e08d571fc56f58",
+      "name": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-lime-ext4-sdcard.img.gz",
+      "sha256": "79f788fb4a2c4ac102eb9939cf26c46acd54604437e4a349eb9fa218c4744498",
       "type": "sdcard"
     },
     {
-      "name": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-lime-ext4-sdcard.img.gz",
-      "sha256": "94b5f1595d7e02dab5cc5f7bbfe914ef0abcbd424835bb80320ed120813b55d2",
+      "name": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-lime-squashfs-sdcard.img.gz",
+      "sha256": "f090bded52c7ce8f0038b9ebcb71c5ae9f679153c0c4356e9953c08ff23b6391",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "olimex,a20-olinuxino-lime"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["olimex,a20-olinuxino-lime"],
   "target": "sunxi/cortexa7",
-  "titles": [
-    {
-      "model": "A20-OLinuXino-LIME",
-      "vendor": "Olimex"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "A20-OLinuXino-LIME", "vendor": "Olimex" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

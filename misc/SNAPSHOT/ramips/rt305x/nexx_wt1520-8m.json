@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -40,29 +41,21 @@
   "image_prefix": "openwrt-ramips-rt305x-nexx_wt1520-8m",
   "images": [
     {
-      "name": "openwrt-ramips-rt305x-nexx_wt1520-8m-squashfs-sysupgrade.bin",
-      "sha256": "e4aa8c945bca4071e13f3bcb9dd5c289c052e78fa17de80f8c963685c332d47f",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-rt305x-nexx_wt1520-8m-squashfs-factory.bin",
+      "sha256": "14aaaa79b9c8625989340d34d03a967c803c377462d62c6e9c3f18eaff39524f",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ramips-rt305x-nexx_wt1520-8m-squashfs-factory.bin",
-      "sha256": "eccda1b8afa461e3200908c0ef9a74d5673d2279a2172465820b3170f2909e21",
-      "type": "factory"
+      "name": "openwrt-ramips-rt305x-nexx_wt1520-8m-squashfs-sysupgrade.bin",
+      "sha256": "271db627afa0a505db7c1037994f8e11ba86985eae2a48585ade5254699185f5",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "nexx,wt1520-8m",
-    "wt1520-8M"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["nexx,wt1520-8m", "wt1520-8M"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "WT1520",
-      "variant": "8M",
-      "vendor": "Nexx"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WT1520", "variant": "8M", "vendor": "Nexx" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

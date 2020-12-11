@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,35 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "rssileds"
-  ],
+  "device_packages": ["rssileds"],
   "id": "tplink_cpe220-v3",
   "image_prefix": "openwrt-ath79-generic-tplink_cpe220-v3",
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-sysupgrade.bin",
-      "sha256": "7fdbd924c95a4edd5b829b7083d12ac40ae369c0948614fcd784eac34fb7a3bf",
+      "sha256": "4bc145109ac0eb4977e865e65f8ee07c3209f22743e4a9132850b5071f440bc6",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-factory.bin",
-      "sha256": "729a7383d9bb7ffd57df6e3b6e4faa67335c3064b843e2177c675e69f0721352",
+      "sha256": "48e2f94186c53a0ee6a07ed29a3f3a5c37535227b22fcd3a2b48d171e19d8efd",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,cpe220-v3"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,cpe220-v3"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "CPE220",
-      "variant": "v3",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "CPE220", "variant": "v3", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

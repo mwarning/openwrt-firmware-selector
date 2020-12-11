@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -46,35 +47,26 @@
     "kmod-usb-dwc3",
     "ath10k-firmware-qca4019-ct"
   ],
-  "device_packages": [
-    "uboot-envtools"
-  ],
+  "device_packages": ["uboot-envtools"],
   "id": "linksys_ea6350v3",
   "image_prefix": "openwrt-ipq40xx-generic-linksys_ea6350v3",
   "images": [
     {
-      "name": "openwrt-ipq40xx-generic-linksys_ea6350v3-squashfs-sysupgrade.bin",
-      "sha256": "1985aac0b73bdda9c3955f570b3ee098f3a90ba9a53cd533e376740c9e6301b1",
-      "type": "sysupgrade"
+      "name": "openwrt-ipq40xx-generic-linksys_ea6350v3-squashfs-factory.bin",
+      "sha256": "496e3eab8255acb3efeabf0bf7015e5705a45f53bc899450b2a1da35f005350c",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ipq40xx-generic-linksys_ea6350v3-squashfs-factory.bin",
-      "sha256": "09458a1d993528d57f33e6cabff99f06f45180aebc0ab6cceedc5aca74ffe735",
-      "type": "factory"
+      "name": "openwrt-ipq40xx-generic-linksys_ea6350v3-squashfs-sysupgrade.bin",
+      "sha256": "4ab7a8efc318491414bfbe96acc96721a6c6d6e07a4335db85947c38b67653d5",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "linksys,ea6350v3"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["linksys,ea6350v3"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "EA6350",
-      "variant": "v3",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EA6350", "variant": "v3", "vendor": "Linksys" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

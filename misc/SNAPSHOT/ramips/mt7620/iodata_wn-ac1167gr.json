@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,34 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2"
-  ],
+  "device_packages": ["kmod-mt76x2"],
   "id": "iodata_wn-ac1167gr",
   "image_prefix": "openwrt-ramips-mt7620-iodata_wn-ac1167gr",
   "images": [
     {
-      "name": "openwrt-ramips-mt7620-iodata_wn-ac1167gr-squashfs-factory.bin",
-      "sha256": "d6068e5929b09eb47efffbd1e73ac96d7fbd886a0aea7743c5ab41b48156ebe9",
-      "type": "factory"
+      "name": "openwrt-ramips-mt7620-iodata_wn-ac1167gr-squashfs-sysupgrade.bin",
+      "sha256": "cecac87bc0be4df092d6e6f701ed630ad985a299cdc1f3f114d465c1dc3e7331",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ramips-mt7620-iodata_wn-ac1167gr-squashfs-sysupgrade.bin",
-      "sha256": "9db5506fa84e5546bcbdae6319843192c71be4b1fcfdb5d6df9a6da4f558b28b",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-mt7620-iodata_wn-ac1167gr-squashfs-factory.bin",
+      "sha256": "fc75bb39697ad682e4b498c049f1a3654ed533c9e4afc1d6febc4b5eb8dea136",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "iodata,wn-ac1167gr"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["iodata,wn-ac1167gr"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "WN-AC1167GR",
-      "vendor": "I-O DATA"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WN-AC1167GR", "vendor": "I-O DATA" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

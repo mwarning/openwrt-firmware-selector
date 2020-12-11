@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,27 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43"
-  ],
+  "device_packages": ["kmod-b43"],
   "id": "asus_wl-550ge",
   "image_prefix": "openwrt-bcm47xx-legacy-asus_wl-550ge",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-asus_wl-550ge-squashfs.trx",
-      "sha256": "ff72b68b6e3c5b91d2690929897720f3ec9b533fb8a268aa83e11424d23521fb",
+      "sha256": "fc796add6d951737c6c22e4909008b3b02d76e4e735aa86e3feeed6de8760dfe",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "WL-550gE",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WL-550gE", "vendor": "ASUS" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

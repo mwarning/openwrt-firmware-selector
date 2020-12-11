@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,37 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "jboot-tools",
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["jboot-tools", "kmod-usb2", "kmod-usb-ohci"],
   "id": "dlink_dwr-116-a1",
   "image_prefix": "openwrt-ramips-mt7620-dlink_dwr-116-a1",
   "images": [
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-116-a1-squashfs-factory.bin",
-      "sha256": "51a4bc02a50e9e58f959e4e02a24da373b56fe33818fbf60ef8baf1188ff2d6a",
+      "sha256": "ca10baace786379cc6aa18b7e801a0680c15ba44357f36c3d700c34bb8581de0",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-116-a1-squashfs-sysupgrade.bin",
-      "sha256": "227f66c4bbcc66920206b2061e9f3328731f7a26fb002d8f4d49bdc877381df2",
+      "sha256": "b87c4a7b855674fcc7332e18811d7604db00f937bb3d1cbf0db0366bddcd87ed",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dwr-116-a1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dwr-116-a1"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "DWR-116",
-      "variant": "A1/A2",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DWR-116", "variant": "A1/A2", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

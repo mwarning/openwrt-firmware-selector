@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 21:54:15",
+  "build_at": "2020-12-11 13:06:15",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "ltq-vdsl-vr9-vectoring-fw-installer",
@@ -41,39 +42,25 @@
     "ppp",
     "ppp-mod-pppoe"
   ],
-  "device_packages": [
-    "kmod-usb-dwc2"
-  ],
+  "device_packages": ["kmod-usb-dwc2"],
   "id": "arcadyan_arv7519rw22",
   "image_prefix": "openwrt-lantiq-xrx200-arcadyan_arv7519rw22",
   "images": [
     {
       "name": "openwrt-lantiq-xrx200-arcadyan_arv7519rw22-squashfs-sysupgrade.bin",
-      "sha256": "3ab0247029164a2e3a7e5ef6d68f84cb9ff6311eafff25fbe03a61d86d0e6071",
+      "sha256": "f75c758342a424604e15304f87639653699691d921008c548e1f476b15e0f935",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "arcadyan,arv7519rw22",
-    "ARV7519RW22"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["arcadyan,arv7519rw22", "ARV7519RW22"],
   "target": "lantiq/xrx200",
   "titles": [
-    {
-      "model": "ARV7519RW22",
-      "vendor": "Arcadyan"
-    },
-    {
-      "model": "Livebox",
-      "variant": "2.1",
-      "vendor": "Orange"
-    },
-    {
-      "model": "ARV7519RW22",
-      "vendor": "Astoria Networks"
-    }
+    { "model": "ARV7519RW22", "vendor": "Arcadyan" },
+    { "model": "Livebox", "variant": "2.1", "vendor": "Orange" },
+    { "model": "ARV7519RW22", "vendor": "Astoria Networks" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

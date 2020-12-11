@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -47,27 +48,21 @@
   "image_prefix": "openwrt-ath79-generic-ubnt_nanostation-ac",
   "images": [
     {
-      "name": "openwrt-ath79-generic-ubnt_nanostation-ac-squashfs-factory.bin",
-      "sha256": "3cbd0e85c2de24b3815943dc3197c71fa9cd467b69ddb46f07703172b7cf9c23",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-ubnt_nanostation-ac-squashfs-sysupgrade.bin",
+      "sha256": "1265d9e5e75d872793752c1265fb85f33d84fd444bc3bfbd03e625425c305e67",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-ubnt_nanostation-ac-squashfs-sysupgrade.bin",
-      "sha256": "7d22005200d4e18ee1dbcf9db8202779fad4c81d510e5f939f4ea0b3f48e5a25",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-ubnt_nanostation-ac-squashfs-factory.bin",
+      "sha256": "63c0120a48ac2591a1988b48f0497d48adb66cfb128311752da4d9c8f12f19f3",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ubnt,nanostation-ac"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ubnt,nanostation-ac"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Nanostation AC",
-      "vendor": "Ubiquiti"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Nanostation AC", "vendor": "Ubiquiti" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

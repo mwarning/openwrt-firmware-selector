@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a15_neon-vfpv4",
-  "build_at": "2020-09-11 16:48:36",
+  "build_at": "2020-12-11 13:59:29",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -65,28 +66,22 @@
   "images": [
     {
       "name": "openwrt-ipq806x-generic-netgear_r7500v2-squashfs-factory.img",
-      "sha256": "02e8e23ec150d88f5c2ec8f60400e923ac82fdf41c077984cf20f923fabf75b5",
+      "sha256": "40de9893a76795fb6043a4d8c45b9f63ddf49ed828e5c4d8eec82193487c169b",
       "type": "factory"
     },
     {
       "name": "openwrt-ipq806x-generic-netgear_r7500v2-squashfs-sysupgrade.bin",
-      "sha256": "b32f520c4feb526d388ed899b4cb9f5825855141fc5945daf85fa201b029d977",
+      "sha256": "05bc19dd2e4424faa580ae7766bb23ee7afb938440cb531808855ca6493b6855",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,r7500v2",
-    "r7500v2"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["netgear,r7500v2", "r7500v2"],
   "target": "ipq806x/generic",
   "titles": [
-    {
-      "model": "Nighthawk X4 R7500",
-      "variant": "v2",
-      "vendor": "NETGEAR"
-    }
+    { "model": "Nighthawk X4 R7500", "variant": "v2", "vendor": "NETGEAR" }
   ],
-  "version_code": "r14447-2e6c236abd",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

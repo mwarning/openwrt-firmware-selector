@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a5_vfpv4",
-  "build_at": "2020-09-10 23:07:09",
+  "build_at": "2020-12-11 13:09:22",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-ohci",
     "kmod-at91-udc",
     "kmod-usb-gadget-eth",
@@ -41,31 +42,25 @@
   "images": [
     {
       "name": "openwrt-at91-sama5-microchip_sama5d27-som1-ek-squashfs-root.ubi",
-      "sha256": "6294ffc25857db55bd847beea149abef8f0a583df732faedf3caa1e218b947cf",
+      "sha256": "4f2a31524512ad144205312ec5646010bee60f33d8be6ba51412e9dd1bf48d5f",
       "type": "root"
     },
     {
       "name": "openwrt-at91-sama5-microchip_sama5d27-som1-ek-ext4-sdcard.img.gz",
-      "sha256": "24bd9e8939b32a9349dd1a2fe38d9a011d56571d969427374828da0ecd2727bf",
+      "sha256": "d975491c3d75ea29ff8019111da1cf7b65f07b767ba0779a7b0823f9ca8e4c08",
       "type": "sdcard"
     },
     {
       "name": "openwrt-at91-sama5-microchip_sama5d27-som1-ek-ubifs-root.ubi",
-      "sha256": "4d679f3d5ddd6102e4c6f1f1c8d35138dfd2812e34bd930dfaeaecc3dbcd243f",
+      "sha256": "0a0a3bb161ea9fbf9061992e390cf60e26da56ccf62aa299bbebb2a029569e95",
       "type": "root"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "atmel,sama5d27-som1-ek"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["atmel,sama5d27-som1-ek"],
   "target": "at91/sama5",
-  "titles": [
-    {
-      "model": "SAMA5D27 SOM1 Ek",
-      "vendor": "Microchip"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "SAMA5D27 SOM1 Ek", "vendor": "Microchip" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

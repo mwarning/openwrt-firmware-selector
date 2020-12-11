@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_mpcore",
-  "build_at": "2020-09-12 00:15:28",
+  "build_at": "2020-12-11 10:26:25",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-button-hotplug",
     "kmod-input-gpio-keys-polled",
     "kmod-ledtrig-timer",
@@ -43,26 +44,27 @@
   "images": [
     {
       "name": "openwrt-oxnas-ox820-cloudengines_pogoplug-series-3-squashfs-sysupgrade.tar",
-      "sha256": "345e15f7812958228847c4480bdf4a55e7e1bf3c6596fc13292a968bbeb76835",
+      "sha256": "92cc1ad3a1cbd43eccd269ea8a3165a597ff8e56699373a8fd2727b2b3c5df8f",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-oxnas-ox820-cloudengines_pogoplug-series-3-squashfs-ubinized.bin",
-      "sha256": "df07ae71e8923badf222c39b0943766db752379e15689320363ba0487c03fba8",
+      "sha256": "aa0ec0523422b7f70e41a131b9a0832e86f233c065c5d6f041c6a66bf5b0d599",
       "type": "ubinized"
     },
     {
       "name": "openwrt-oxnas-ox820-cloudengines_pogoplug-series-3-ubifs-sysupgrade.tar",
-      "sha256": "089ba16b44cf9523c9d74010abf4d4297a23cf77b0002f95abafe47721e57b06",
+      "sha256": "cb59f4024519a02fbccf01d82e268a2c2143c0c3e5b488cca99dadd60eee09ca",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-oxnas-ox820-cloudengines_pogoplug-series-3-ubifs-ubinized.bin",
-      "sha256": "6da3715e0a651c5b4e7489831b638a20bb37fdb76a21e4d94dcc733ce016b948",
+      "sha256": "ab40bf56b45e385323cb2e0a6dc9aa8fff16930a2f0fd8fee8c4de65eff1ca27",
       "type": "ubinized"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [
     "cloudengines,pogoplug-series-3",
     "cloudengines,pogoplugv3",
@@ -70,11 +72,8 @@
   ],
   "target": "oxnas/ox820",
   "titles": [
-    {
-      "model": "PogoPlug Series V3 (without mPCIe)",
-      "vendor": "Cloud Engines"
-    }
+    { "model": "PogoPlug Series V3 (without mPCIe)", "vendor": "Cloud Engines" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

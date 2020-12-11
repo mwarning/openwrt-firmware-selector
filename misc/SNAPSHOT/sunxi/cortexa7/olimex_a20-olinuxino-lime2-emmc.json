@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-11 01:37:12",
+  "build_at": "2020-12-11 00:58:45",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -36,37 +37,28 @@
     "mkf2fs",
     "e2fsprogs"
   ],
-  "device_packages": [
-    "kmod-ata-sunxi",
-    "kmod-rtc-sunxi",
-    "kmod-usb-hid"
-  ],
+  "device_packages": ["kmod-ata-sunxi", "kmod-rtc-sunxi", "kmod-usb-hid"],
   "id": "olimex_a20-olinuxino-lime2-emmc",
   "image_prefix": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-lime2-emmc",
   "images": [
     {
-      "name": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-lime2-emmc-squashfs-sdcard.img.gz",
-      "sha256": "d274e670e64936506c3dce1e818061e137e10a27a378c49755c55e1cf8fb5c08",
+      "name": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-lime2-emmc-ext4-sdcard.img.gz",
+      "sha256": "928cb5a58edc9e4943239fdc567e4f2c25e90f89a4e2fe90775c92d021ee27c3",
       "type": "sdcard"
     },
     {
-      "name": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-lime2-emmc-ext4-sdcard.img.gz",
-      "sha256": "3019205fc6ecca7369811bbefdd6cde0bf440449002d4c8771a0932c70a4cb1a",
+      "name": "openwrt-sunxi-cortexa7-olimex_a20-olinuxino-lime2-emmc-squashfs-sdcard.img.gz",
+      "sha256": "2f345eda464f2e11c91fe9d5ad9c30d811d7e36c3efa2299e279ae30b748af8e",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "olimex,a20-olinuxino-lime2-emmc"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["olimex,a20-olinuxino-lime2-emmc"],
   "target": "sunxi/cortexa7",
   "titles": [
-    {
-      "model": "A20-OLinuXino-LIME2",
-      "variant": "eMMC",
-      "vendor": "Olimex"
-    }
+    { "model": "A20-OLinuXino-LIME2", "variant": "eMMC", "vendor": "Olimex" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

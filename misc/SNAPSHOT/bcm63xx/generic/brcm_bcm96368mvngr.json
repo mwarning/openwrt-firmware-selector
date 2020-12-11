@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -38,19 +39,15 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-brcm_bcm96368mvngr-squashfs-cfe.bin",
-      "sha256": "4939a8e594fa31c38fd08149a5f7ab04150935f1038524330389d98502e7797c",
+      "sha256": "0c3d2fc3b2c14a98feeb0532a70441de4301f7f0fa7a32f1b2fb02dcd4cbd367",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
-  "titles": [
-    {
-      "model": "96368MVNgr",
-      "vendor": "Generic"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "96368MVNgr", "vendor": "Generic" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

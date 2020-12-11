@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,29 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-ath5k",
-    "kmod-usb-ohci",
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-ath5k", "kmod-usb-ohci", "kmod-usb2"],
   "id": "netgear_wgt634u",
   "image_prefix": "openwrt-bcm47xx-legacy-netgear_wgt634u",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-netgear_wgt634u-squashfs.bin",
-      "sha256": "10d85dd27972a35dd9c9481816793ab8b5ebfa043262a0aefbcad33ba9e8554e",
+      "sha256": "10279f46f2a74b21771805ef3f561b0da57f18603ec47203a5b26c032432c60c",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "WGT634U",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WGT634U", "vendor": "NETGEAR" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

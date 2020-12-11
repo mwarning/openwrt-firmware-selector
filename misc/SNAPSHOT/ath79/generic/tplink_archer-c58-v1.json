@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -45,29 +46,21 @@
   "image_prefix": "openwrt-ath79-generic-tplink_archer-c58-v1",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_archer-c58-v1-squashfs-factory.bin",
-      "sha256": "48048552c2e1f675da120343352efb3f1bfaebec7b7bd4fdf6a3932e544e2a33",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_archer-c58-v1-squashfs-sysupgrade.bin",
+      "sha256": "ed619612d27838eac685962382af7de7a891b5b6316c37cd6a0cfd6adc674e1b",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_archer-c58-v1-squashfs-sysupgrade.bin",
-      "sha256": "62fc66f16804771264195d74a57e9fcd93344ea8ca41274dd48395852d148384",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_archer-c58-v1-squashfs-factory.bin",
+      "sha256": "96a0c17a52915daa4f062eb6943597092be80f5e92321f703477e01438219589",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,archer-c58-v1",
-    "archer-c58-v1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,archer-c58-v1", "archer-c58-v1"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Archer C58",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Archer C58", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

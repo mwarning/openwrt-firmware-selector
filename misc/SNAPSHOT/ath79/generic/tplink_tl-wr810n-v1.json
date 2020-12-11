@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,37 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ledtrig-usbport"],
   "id": "tplink_tl-wr810n-v1",
   "image_prefix": "openwrt-ath79-generic-tplink_tl-wr810n-v1",
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr810n-v1-squashfs-factory.bin",
-      "sha256": "290967292e515e512649db30cbc439cbb9ad4576bb832508ca5d7cbbaead2a9c",
+      "sha256": "1284175e1dcf5e98b021c6266e4091f88a254801a30b0bb19d70c92f1b024104",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-tplink_tl-wr810n-v1-squashfs-sysupgrade.bin",
-      "sha256": "e5ae816edf9aecf97a551490d60111f386e1211ff0f2e95b08364a0f921edd12",
+      "sha256": "8deb2825275c78942531d4961c164cc7073764f6fc50cc067cd052f3bcc595ad",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wr810n-v1",
-    "tl-wr810n"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,tl-wr810n-v1", "tl-wr810n"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "TL-WR810N",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "TL-WR810N", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

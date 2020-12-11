@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_cortex-a53",
-  "build_at": "2020-09-11 21:45:28",
+  "build_at": "2020-12-11 19:23:08",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7615e",
@@ -41,7 +42,7 @@
     "kmod-usb3",
     "kmod-mt7615e",
     "kmod-mt7615-firmware",
-    "mt7622bt-firmware",
+    "kmod-btmtkuart",
     "swconfig"
   ],
   "id": "elecom_wrc-2533gent",
@@ -49,21 +50,15 @@
   "images": [
     {
       "name": "openwrt-mediatek-mt7622-elecom_wrc-2533gent-squashfs-sysupgrade.bin",
-      "sha256": "bbb361cc200f78c569840129549d6e9e7643880aee275ed1805c5eae70729c40",
+      "sha256": "f7b2e36bf41e2b1b0318a8896f995756f228daa546aa11535aabc217d965a460",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "elecom,wrc-2533gent"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["elecom,wrc-2533gent"],
   "target": "mediatek/mt7622",
-  "titles": [
-    {
-      "model": "WRC-2533GENT",
-      "vendor": "Elecom"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WRC-2533GENT", "vendor": "Elecom" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

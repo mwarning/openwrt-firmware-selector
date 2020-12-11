@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -51,20 +52,15 @@
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-asus_rt-n12-c1-squashfs.trx",
-      "sha256": "3ee5e5be406f0768d7616167afd75e8f3e19ea4df70ee519be29c45b20e37527",
+      "sha256": "84dfebc8446d1851e2bc8e991d83b037ceb74f4400b975db77e9f6d28759afe1",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
-  "titles": [
-    {
-      "model": "RT-N12",
-      "variant": "C1",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RT-N12", "variant": "C1", "vendor": "ASUS" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

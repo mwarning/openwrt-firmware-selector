@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -45,27 +46,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-dlink_dch-m225-squashfs-factory.bin",
-      "sha256": "3ff23ecd392a61035df66f811440563cbfad90f3dfc4e091c342dae7213e616c",
+      "sha256": "cf750ba018a9b3cb188559540c1ff170f420e33090dd6aebdcb754cafa9f2262",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7620-dlink_dch-m225-squashfs-sysupgrade.bin",
-      "sha256": "228a9bc52a3c22d987437e25c8f1292fb80d2a54f099923ccd8fa68adeef7f0d",
+      "sha256": "7c40d1876f27ab9a953e86c153fec0ebda5d593b191bb09c814d921a25691304",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dch-m225",
-    "dch-m225"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dch-m225", "dch-m225"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "DCH-M225",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DCH-M225", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

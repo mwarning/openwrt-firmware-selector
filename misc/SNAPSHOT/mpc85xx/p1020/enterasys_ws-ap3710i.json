@@ -1,9 +1,8 @@
 {
   "arch_packages": "powerpc_8540",
-  "build_at": "2020-09-11 00:49:48",
+  "build_at": "2020-12-11 01:36:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-input-core",
     "kmod-input-gpio-keys",
     "kmod-button-hotplug",
@@ -50,21 +51,15 @@
   "images": [
     {
       "name": "openwrt-mpc85xx-p1020-enterasys_ws-ap3710i-squashfs-sysupgrade.bin",
-      "sha256": "f8ff8b9ffe0525e9e26f97b70ab2350e623bfd44df91bc7a899052ce14196274",
+      "sha256": "dec12fb6399e67fe921e17005db095e8e54e7460ec7c4f0a2d5c5726f7e88b30",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "enterasys,ws-ap3710i"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["enterasys,ws-ap3710i"],
   "target": "mpc85xx/p1020",
-  "titles": [
-    {
-      "model": "WS-AP3710i",
-      "vendor": "Enterasys"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WS-AP3710i", "vendor": "Enterasys" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

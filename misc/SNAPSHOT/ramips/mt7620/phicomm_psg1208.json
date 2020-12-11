@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,30 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2"
-  ],
+  "device_packages": ["kmod-mt76x2"],
   "id": "phicomm_psg1208",
   "image_prefix": "openwrt-ramips-mt7620-phicomm_psg1208",
   "images": [
     {
       "name": "openwrt-ramips-mt7620-phicomm_psg1208-squashfs-sysupgrade.bin",
-      "sha256": "bb0974362cda314c247a716e57b2acd38399089cf104975bd0356a2a4c64c92a",
+      "sha256": "29bf5dbfa2becb56637ca62d15171e440048932320403fc3d4161c9e7a0b99b4",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "phicomm,psg1208",
-    "psg1208"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["phicomm,psg1208", "psg1208"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "PSG1208",
-      "vendor": "Phicomm"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "PSG1208", "vendor": "Phicomm" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

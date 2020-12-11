@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-accton_wr6202-squashfs-sysupgrade.bin",
-      "sha256": "b2406216fd0e3033c79edb26d56bc237b639a11d53cae00fa12068ddeee4b48e",
+      "sha256": "b725c78ec308672ae0ef1125413231809febe2b58cc3bd51a80476b245d31a06",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "accton,wr6202",
-    "wr6202"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["accton,wr6202", "wr6202"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "WR6202",
-      "vendor": "Accton"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WR6202", "vendor": "Accton" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

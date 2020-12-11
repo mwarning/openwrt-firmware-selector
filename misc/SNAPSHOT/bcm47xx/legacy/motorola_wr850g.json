@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,28 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43",
-    "kmod-b43legacy"
-  ],
+  "device_packages": ["kmod-b43", "kmod-b43legacy"],
   "id": "motorola_wr850g",
   "image_prefix": "openwrt-bcm47xx-legacy-motorola_wr850g",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-motorola_wr850g-squashfs.bin",
-      "sha256": "4e6ac3ba0c3624cac470b3a7568075b78745fa648b2576d56f825d7b43364f02",
+      "sha256": "dc9ecaa74ce782c34a79e896f1936d31c02e53e1e7dced9f1c39fbca94588979",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "WR850G",
-      "vendor": "Motorola"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WR850G", "vendor": "Motorola" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -33,30 +34,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt7615e",
-    "kmod-mt7615-firmware"
-  ],
+  "device_packages": ["kmod-mt7615e", "kmod-mt7615-firmware"],
   "id": "adslr_g7",
   "image_prefix": "openwrt-ramips-mt7621-adslr_g7",
   "images": [
     {
       "name": "openwrt-ramips-mt7621-adslr_g7-squashfs-sysupgrade.bin",
-      "sha256": "75ce3c69d4044da8a18e8591a5f49b2c152f253870dc191beed03d456f6ba808",
+      "sha256": "be67ca991953298d5bb9baf5eb312f84f124934f89c67ad7e9b2042a7cc79d1f",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "adslr,g7"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["adslr,g7"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "G7",
-      "vendor": "ADSLR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "G7", "vendor": "ADSLR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

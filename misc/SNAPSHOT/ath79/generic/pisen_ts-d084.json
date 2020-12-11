@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,35 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-chipidea2"
-  ],
+  "device_packages": ["kmod-usb-chipidea2"],
   "id": "pisen_ts-d084",
   "image_prefix": "openwrt-ath79-generic-pisen_ts-d084",
   "images": [
     {
-      "name": "openwrt-ath79-generic-pisen_ts-d084-squashfs-factory.bin",
-      "sha256": "db3fdb2bf3f6514c8a2c1cad00539d2b009654bf6af172bc5197da8b2b5fbe7f",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-pisen_ts-d084-squashfs-sysupgrade.bin",
+      "sha256": "cecca5d51ea1dff076de7f0946a5639db224494cf57d0978d1f8b8340206dc2f",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-pisen_ts-d084-squashfs-sysupgrade.bin",
-      "sha256": "ddd0236ac89acb59eb76b9d062488a6644cbecd64b1fd08ea9715d47cf7bc147",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-pisen_ts-d084-squashfs-factory.bin",
+      "sha256": "caf8b1f31bb95b51ce4036dc696cafef28e20c64cae9226be18d900fd27f260e",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "pisen,ts-d084"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["pisen,ts-d084"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "TS-D084",
-      "vendor": "PISEN"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "TS-D084", "vendor": "PISEN" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

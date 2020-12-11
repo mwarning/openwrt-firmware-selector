@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,27 +45,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-linksys_ea7300-v1-squashfs-sysupgrade.bin",
-      "sha256": "001eecaf2087642be4e3be9a2483a1ced6b473897e943d0e78259de220c664fd",
+      "sha256": "dfc9443545ff786a65796166756b2400ad206e3304e3375aa17f64db900b6eea",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-linksys_ea7300-v1-squashfs-factory.bin",
-      "sha256": "b9ff1899b9bf4d32ffec24679117ba6c7bf273bec438cb264e267ffa9cdc14cd",
+      "sha256": "15e20b7aae6e886322cc7f28b00c3bc29c454c00040c97de8e209a71af63aee6",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "linksys,ea7300-v1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["linksys,ea7300-v1"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "EA7300",
-      "variant": "v1",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EA7300", "variant": "v1", "vendor": "Linksys" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

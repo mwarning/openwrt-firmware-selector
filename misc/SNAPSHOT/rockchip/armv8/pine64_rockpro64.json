@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_generic",
-  "build_at": "2020-09-11 18:15:51",
+  "build_at": "2020-12-11 15:24:37",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "e2fsprogs",
@@ -43,27 +44,21 @@
   "image_prefix": "openwrt-rockchip-armv8-pine64_rockpro64",
   "images": [
     {
-      "name": "openwrt-rockchip-armv8-pine64_rockpro64-ext4-sysupgrade.img.gz",
-      "sha256": "9190da00834798da658147ceff8d56ed3a5de8dd9687b830a3a86b239c673012",
+      "name": "openwrt-rockchip-armv8-pine64_rockpro64-squashfs-sysupgrade.img.gz",
+      "sha256": "a264f3862bcf5860f4dcdcbc6b238214c76d1f8bc8ae09c1048c9f6390f3312c",
       "type": "sysupgrade"
     },
     {
-      "name": "openwrt-rockchip-armv8-pine64_rockpro64-squashfs-sysupgrade.img.gz",
-      "sha256": "798d161d78b039ca5fc18a6f59c2e5df40b97f46290b00083bf2ab3c79c95714",
+      "name": "openwrt-rockchip-armv8-pine64_rockpro64-ext4-sysupgrade.img.gz",
+      "sha256": "a629edb1a2ee976e778657d586fb7c06324e781f7e2cdace95ae28973d21b7fa",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "pine64,rockpro64"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["pine64,rockpro64"],
   "target": "rockchip/armv8",
-  "titles": [
-    {
-      "model": "RockPro64",
-      "vendor": "Pine64"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "RockPro64", "vendor": "Pine64" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

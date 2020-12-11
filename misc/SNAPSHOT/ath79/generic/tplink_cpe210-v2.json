@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,36 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "rssileds"
-  ],
+  "device_packages": ["rssileds"],
   "id": "tplink_cpe210-v2",
   "image_prefix": "openwrt-ath79-generic-tplink_cpe210-v2",
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_cpe210-v2-squashfs-sysupgrade.bin",
-      "sha256": "45b70c3ba3dd400e67ea7a52694dd061dce0a8108bf5594f99af40b9ce471b20",
+      "sha256": "dda453a72167f0fd579b1951c2ce983eff46233b5d5e8d89613f02b14c5da9c5",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-tplink_cpe210-v2-squashfs-factory.bin",
-      "sha256": "c8557a8012bf937715057e141ad89b53d84b91e1de4c7f312620413c058901e3",
+      "sha256": "15d08842e9fde181db81c8d60ab6fee7aff2360751636648c603fb789329d710",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,cpe210-v2",
-    "cpe210-v2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,cpe210-v2", "cpe210-v2"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "CPE210",
-      "variant": "v2",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "CPE210", "variant": "v2", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

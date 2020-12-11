@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a8_vfpv3",
-  "build_at": "2020-09-10 21:26:39",
+  "build_at": "2020-12-11 11:58:51",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -47,27 +48,21 @@
   "image_prefix": "openwrt-sunxi-cortexa8-marsboard_a10-marsboard",
   "images": [
     {
-      "name": "openwrt-sunxi-cortexa8-marsboard_a10-marsboard-squashfs-sdcard.img.gz",
-      "sha256": "bda4631ac4f031e4febee68aa78d853e5783288cce202dc9af9a0f10f551fa44",
+      "name": "openwrt-sunxi-cortexa8-marsboard_a10-marsboard-ext4-sdcard.img.gz",
+      "sha256": "4953ad291200295e93c86d768ac807205c6e9b62c60cbdb346728d3b6c519c55",
       "type": "sdcard"
     },
     {
-      "name": "openwrt-sunxi-cortexa8-marsboard_a10-marsboard-ext4-sdcard.img.gz",
-      "sha256": "c645509bfa238d66872ec057e6bf9a733333bf39283f27007f506a982d2addc2",
+      "name": "openwrt-sunxi-cortexa8-marsboard_a10-marsboard-squashfs-sdcard.img.gz",
+      "sha256": "df50249553fb998c00a16bd47e73d9edc68b6c738757f6080c8a579ef02a55af",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "marsboard,a10-marsboard"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["marsboard,a10-marsboard"],
   "target": "sunxi/cortexa8",
-  "titles": [
-    {
-      "model": "MarsBoard A10",
-      "vendor": "HAOYU Electronics"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "MarsBoard A10", "vendor": "HAOYU Electronics" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

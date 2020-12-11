@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -60,19 +61,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-tenda_ac9-squashfs.trx",
-      "sha256": "3bf2340012619ddedb6a04716a11cd4d5dea6635a79c4ce4de059dc619f06849",
+      "sha256": "814184f3f829a2eaebdf2b82c4288672b8ff868f71db561f83f23c8087bdb32a",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "AC9",
-      "vendor": "Tenda"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "AC9", "vendor": "Tenda" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

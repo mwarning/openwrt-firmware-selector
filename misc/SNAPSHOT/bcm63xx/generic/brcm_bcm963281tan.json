@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -38,29 +39,25 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-brcm_bcm963281tan-squashfs-cfe-16M.bin",
-      "sha256": "dcb05ccd17ed2e6f8b1ec868cffdea3383c6b17aacd9cb09df0bfeacd679da6c",
+      "sha256": "c233043cad32f7e851f027f9b1644e60362fb5840127e70ff4ede070fa0d925c",
       "type": "cfe-16M"
     },
     {
-      "name": "openwrt-bcm63xx-generic-brcm_bcm963281tan-squashfs-cfe-8M.bin",
-      "sha256": "813478e09847e8ff5abf8bb8459b902deb5a72edfe19a1f2a7eaeb751d56d53f",
-      "type": "cfe-8M"
+      "name": "openwrt-bcm63xx-generic-brcm_bcm963281tan-squashfs-cfe-4M.bin",
+      "sha256": "a7db11906e75ed7c8071ba4fc77091f75a5ab5a8460485f7359a7cd46380ef56",
+      "type": "cfe-4M"
     },
     {
-      "name": "openwrt-bcm63xx-generic-brcm_bcm963281tan-squashfs-cfe-4M.bin",
-      "sha256": "1be410133c4369a118be4d8adf91629227e7ca7420f7aa0d574125217b494a13",
-      "type": "cfe-4M"
+      "name": "openwrt-bcm63xx-generic-brcm_bcm963281tan-squashfs-cfe-8M.bin",
+      "sha256": "67d54becdd36b2ecec1557b6a26d721b303241cac0088a6fb8cb2285f6c394e8",
+      "type": "cfe-8M"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
-  "titles": [
-    {
-      "model": "963281TAN",
-      "vendor": "Generic"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "963281TAN", "vendor": "Generic" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

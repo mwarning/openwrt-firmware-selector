@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,28 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43",
-    "kmod-b43legacy"
-  ],
+  "device_packages": ["kmod-b43", "kmod-b43legacy"],
   "id": "motorola_we800g",
   "image_prefix": "openwrt-bcm47xx-legacy-motorola_we800g",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-motorola_we800g-squashfs.bin",
-      "sha256": "1975e996d28187b0c49ecbaf2986ed4f53d6503a78476799e4208f12af2c4172",
+      "sha256": "f1056bbeb99e94037505aa16070af9041f351cd546a33b87c5680cf8d0e8a576",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "WE800G",
-      "vendor": "Motorola"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WE800G", "vendor": "Motorola" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,37 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ledtrig-usbport"],
   "id": "tplink_archer-c7-v1",
   "image_prefix": "openwrt-ath79-generic-tplink_archer-c7-v1",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_archer-c7-v1-squashfs-factory.bin",
-      "sha256": "321bea6dbc6cc2cca3822e0fd69e9408a78c80730b2d916009ce2c8735ab3bcb",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_archer-c7-v1-squashfs-sysupgrade.bin",
+      "sha256": "7ce6e6befef7164d49912337025243aabc6e7f67d4922bac75c4875680404d78",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_archer-c7-v1-squashfs-sysupgrade.bin",
-      "sha256": "d65ec8ebb78ae12ab897c7b0a96108bf9d79cb91cda8abcf1190ed2bf78825bd",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_archer-c7-v1-squashfs-factory.bin",
+      "sha256": "e516012c29e1af006c26f25a67956bdde86f636f6dae236db5a078575f7570dc",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,archer-c7-v1",
-    "archer-c7"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,archer-c7-v1", "archer-c7"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Archer C7",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Archer C7", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

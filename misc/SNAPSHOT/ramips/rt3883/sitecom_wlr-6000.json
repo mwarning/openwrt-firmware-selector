@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-11 20:49:21",
+  "build_at": "2020-12-11 18:17:36",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-pci",
@@ -36,36 +37,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb-ohci",
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-usb-ohci", "kmod-usb2"],
   "id": "sitecom_wlr-6000",
   "image_prefix": "openwrt-ramips-rt3883-sitecom_wlr-6000",
   "images": [
     {
-      "name": "openwrt-ramips-rt3883-sitecom_wlr-6000-squashfs-factory.dlf",
-      "sha256": "244efa47986b4ec338f71a4c72d02b33290ff361399ddc5ee9ebd7bc0a127895",
-      "type": "factory"
+      "name": "openwrt-ramips-rt3883-sitecom_wlr-6000-squashfs-sysupgrade.bin",
+      "sha256": "4dafba9f13726a92e18b32ae4416c7109311c5a33468ed210c61616507f22df6",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ramips-rt3883-sitecom_wlr-6000-squashfs-sysupgrade.bin",
-      "sha256": "028cc60504bcb9a297de277e4cc13914e2e4e7147927d28eefc0f7482ea02ca8",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-rt3883-sitecom_wlr-6000-squashfs-factory.dlf",
+      "sha256": "6fc2b8ddca916af00092565bb099da9e5023f1a5b9738e7ec8e2c409df9be7a8",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "sitecom,wlr-6000",
-    "wlr-6000"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["sitecom,wlr-6000", "wlr-6000"],
   "target": "ramips/rt3883",
-  "titles": [
-    {
-      "model": "WLR-6000",
-      "vendor": "Sitecom"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WLR-6000", "vendor": "Sitecom" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

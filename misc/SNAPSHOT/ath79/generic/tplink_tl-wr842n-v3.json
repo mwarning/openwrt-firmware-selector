@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,37 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ledtrig-usbport"],
   "id": "tplink_tl-wr842n-v3",
   "image_prefix": "openwrt-ath79-generic-tplink_tl-wr842n-v3",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_tl-wr842n-v3-squashfs-factory.bin",
-      "sha256": "57cda989c5dd2e1371c5325a1399ceda7d4b03a18f9aceb92c692a7f65fafddd",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_tl-wr842n-v3-squashfs-sysupgrade.bin",
+      "sha256": "a098324801f4b4a3e84e27a3e4b9fe5b117ce31e66c457f4478502ab6161af72",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_tl-wr842n-v3-squashfs-sysupgrade.bin",
-      "sha256": "580ecd2cce67885ba347781763ece5aed2ed0f26602e56b7ce5b459a69553b48",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_tl-wr842n-v3-squashfs-factory.bin",
+      "sha256": "e395f884fb07c98ede3849717ed1277d2d6740fd669f8d0d37c734160419e559",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wr842n-v3",
-    "tl-wr842n-v3"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,tl-wr842n-v3", "tl-wr842n-v3"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "TL-WR842N",
-      "variant": "v3",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "TL-WR842N", "variant": "v3", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

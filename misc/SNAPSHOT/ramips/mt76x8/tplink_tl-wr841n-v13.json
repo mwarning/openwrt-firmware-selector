@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -41,28 +42,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-tplink_tl-wr841n-v13-squashfs-tftp-recovery.bin",
-      "sha256": "b89494184521e96e5570d2e159b43f64f83b19d0b95df451bf093210cb68ce46",
+      "sha256": "baef1769075fedb0c7da4eb3b38935b3a00a761f2f75c7d74c2705f39a62d451",
       "type": "tftp-recovery"
     },
     {
       "name": "openwrt-ramips-mt76x8-tplink_tl-wr841n-v13-squashfs-sysupgrade.bin",
-      "sha256": "2d098e686c9d717833295fcbe0cc99245606a976fe75f717d90706deebce731c",
+      "sha256": "10d4b756bd931a4e73c4a3ec3a0b35123d790949a32ee63f7354331b25baf167",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wr841n-v13",
-    "tl-wr841n-v13"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["tplink,tl-wr841n-v13", "tl-wr841n-v13"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "TL-WR841N",
-      "variant": "v13",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "TL-WR841N", "variant": "v13", "vendor": "TP-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

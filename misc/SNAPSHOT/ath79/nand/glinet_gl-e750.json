@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 17:37:26",
+  "build_at": "2020-12-11 03:05:41",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -47,27 +48,20 @@
   "images": [
     {
       "name": "openwrt-ath79-nand-glinet_gl-e750-squashfs-factory.img",
-      "sha256": "44c2023cf6f3f59b62f61faa49a481f29dd7c1a7ec43fa2bcd1744e16eb26d9f",
+      "sha256": "a6706b27550da9c717ac727faeee9e4639df04889a46e7112327faaf060e1f44",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-nand-glinet_gl-e750-squashfs-sysupgrade.bin",
-      "sha256": "aaf8d68728c598b5598377d5d829d579307737c7816148dc224fcfdda6659e23",
+      "sha256": "286d2a794693de82c0148c3af83c6f3306a0d2d5d5b1f85a788729adbd674158",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "glinet,gl-e750",
-    "gl-e750"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["glinet,gl-e750", "gl-e750"],
   "target": "ath79/nand",
-  "titles": [
-    {
-      "model": "GL-E750",
-      "vendor": "GL.iNet"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "GL-E750", "vendor": "GL.iNet" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

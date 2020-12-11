@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -45,27 +46,21 @@
   "image_prefix": "openwrt-ath79-generic-nec_wg800hp",
   "images": [
     {
-      "name": "openwrt-ath79-generic-nec_wg800hp-squashfs-factory.bin",
-      "sha256": "7a419e862c727a5ca9bcb577f33cae0b675ae7150d576f04ab747e740e965bac",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-nec_wg800hp-squashfs-sysupgrade.bin",
+      "sha256": "f9bff3eaae47eb082500605c6db30197d838c5795e90a2fd743e72b568e7aba5",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-nec_wg800hp-squashfs-sysupgrade.bin",
-      "sha256": "505b8b184283fe89ad5ead3c16e4f2c703b1935991273484d89cb376ed708363",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-nec_wg800hp-squashfs-factory.bin",
+      "sha256": "48be6f1f66d804ac1f069fb063199eb909724d56023fecc3a69a05d652995365",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "nec,wg800hp"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["nec,wg800hp"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Aterm WG800HP",
-      "vendor": "NEC"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Aterm WG800HP", "vendor": "NEC" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

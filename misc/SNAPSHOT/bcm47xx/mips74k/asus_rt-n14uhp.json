@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,29 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43",
-    "kmod-usb-ohci",
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-b43", "kmod-usb-ohci", "kmod-usb2"],
   "id": "asus_rt-n14uhp",
   "image_prefix": "openwrt-bcm47xx-mips74k-asus_rt-n14uhp",
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-asus_rt-n14uhp-squashfs.trx",
-      "sha256": "b249796eac408b6b82fe640130b67aa46ba1219cad7bad1bffcc2a606d1cc8a2",
+      "sha256": "8f4a3b5b5631ad3cd2f446096e3b02975f05c2786a77d1f3771b83feb394be70",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
-  "titles": [
-    {
-      "model": "RT-N14UHP",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RT-N14UHP", "vendor": "ASUS" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

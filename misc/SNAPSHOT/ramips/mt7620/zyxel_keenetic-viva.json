@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -47,27 +48,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-zyxel_keenetic-viva-squashfs-factory.bin",
-      "sha256": "252312b40a4de44c95d8720170a40506c3cc2d82092b23b6e5b817a1ddadc55c",
+      "sha256": "b4a1aaae4ddb2e993bfc6118341cc84ecdad4f11650e8703e1a2bc34f2a5cdeb",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7620-zyxel_keenetic-viva-squashfs-sysupgrade.bin",
-      "sha256": "c64c0970eba3e1a535ed9937ced9e4cf6731cb77dd89156912b5e9ba9585db1e",
+      "sha256": "971308ba3d588b55bd642a86339307e0e9385a419fa3af050291923dd62ceaaf",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zyxel,keenetic-viva",
-    "kng_rc"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["zyxel,keenetic-viva", "kng_rc"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "Keenetic Viva",
-      "vendor": "ZyXEL"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Keenetic Viva", "vendor": "ZyXEL" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

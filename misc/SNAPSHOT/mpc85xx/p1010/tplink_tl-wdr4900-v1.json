@@ -1,9 +1,8 @@
 {
   "arch_packages": "powerpc_8540",
-  "build_at": "2020-09-11 23:24:06",
+  "build_at": "2020-12-11 09:35:37",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-input-core",
     "kmod-input-gpio-keys",
     "kmod-button-hotplug",
@@ -50,28 +51,20 @@
   "images": [
     {
       "name": "openwrt-mpc85xx-p1010-tplink_tl-wdr4900-v1-squashfs-factory.bin",
-      "sha256": "fbda20a38c6d02a41a520a62fc75113e4a05cddf413f2ed27dd4b8ef3634779f",
+      "sha256": "ec23b566f43420802361afa39a375f48f6bc06aa766bc08e96f142a54384b7ce",
       "type": "factory"
     },
     {
       "name": "openwrt-mpc85xx-p1010-tplink_tl-wdr4900-v1-squashfs-sysupgrade.bin",
-      "sha256": "6f05ada3312a4dac269dcb82ebf8e78eaec3be05ec128d6f9a9a7a8b726dbd07",
+      "sha256": "48e55e0bb82ca3549e7d740154dbefc6e236d1830b14eddb6da64edb8b0eca19",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wdr4900-v1",
-    "tl-wdr4900-v1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,tl-wdr4900-v1", "tl-wdr4900-v1"],
   "target": "mpc85xx/p1010",
-  "titles": [
-    {
-      "model": "TL-WDR4900",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "TL-WDR4900", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

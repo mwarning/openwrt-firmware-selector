@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -45,22 +46,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-afoundry_ew1200-squashfs-sysupgrade.bin",
-      "sha256": "f99482ae03ea3708e63ef24e0fbb2c792003fb587c5aa73e3eccbbf48404a7a2",
+      "sha256": "adf40120348779673bf62645fcb34d5eb7b3b763803c97745264b224c0d646f9",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "afoundry,ew1200",
-    "ew1200"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["afoundry,ew1200", "ew1200"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "EW1200",
-      "vendor": "AFOUNDRY"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EW1200", "vendor": "AFOUNDRY" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

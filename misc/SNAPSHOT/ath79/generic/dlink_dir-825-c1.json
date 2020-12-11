@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -47,29 +48,21 @@
   "image_prefix": "openwrt-ath79-generic-dlink_dir-825-c1",
   "images": [
     {
-      "name": "openwrt-ath79-generic-dlink_dir-825-c1-squashfs-factory.bin",
-      "sha256": "6f7a5675eb6db485e0b55a8222655c4e101fb1eee71e76c6109afa26bdb31892",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-dlink_dir-825-c1-squashfs-sysupgrade.bin",
+      "sha256": "498d99723caa36e0984ef3310b2268bb38c785d2e12c2b8a42ad0840c7fd5f48",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-dlink_dir-825-c1-squashfs-sysupgrade.bin",
-      "sha256": "f8358d1c7a148fbd7e2cce623e6e3abbf7fddc3b2a03913f721ec315c5770916",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-dlink_dir-825-c1-squashfs-factory.bin",
+      "sha256": "04c1140b9a3bae3f720579c7580751ad96e49685b115dc5bd416ba8abc407db1",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dir-825-c1",
-    "dir-825-c1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dir-825-c1", "dir-825-c1"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "DIR-825",
-      "variant": "C1",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DIR-825", "variant": "C1", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

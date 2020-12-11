@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-11 20:49:21",
+  "build_at": "2020-12-11 18:17:36",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-pci",
@@ -36,36 +37,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb-ohci",
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-usb-ohci", "kmod-usb2"],
   "id": "dlink_dir-645",
   "image_prefix": "openwrt-ramips-rt3883-dlink_dir-645",
   "images": [
     {
       "name": "openwrt-ramips-rt3883-dlink_dir-645-squashfs-factory.bin",
-      "sha256": "c26321bfa79e3b6a3a604a690b31b79c91d11c04f36ea957641628d16fc03343",
+      "sha256": "7fe4bb1bfe4188e68bf73c3756910a7bb931a65c819768b5cac1aaf44655e5a2",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-rt3883-dlink_dir-645-squashfs-sysupgrade.bin",
-      "sha256": "2694efb09e6acb79d051ee97c6f52146992a76375d4ca5a4521177001749a1b0",
+      "sha256": "ce01d9ba653dcaf29d0ff33e383478fceb41e55ee4172176f715e9f6efb03598",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dir-645",
-    "dir-645"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["dlink,dir-645", "dir-645"],
   "target": "ramips/rt3883",
-  "titles": [
-    {
-      "model": "DIR-645",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "DIR-645", "vendor": "D-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

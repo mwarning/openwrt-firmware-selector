@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -47,26 +48,20 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_lap-120-squashfs-factory.bin",
-      "sha256": "568aa16e9d98ca59c9a21deff3d34985d1a5586c638e71a56c1e9c75ef634230",
+      "sha256": "1b435d4e3c7119a228e7ad0fa9ceaecf2cc720755cc1e9d1557c04eadece9819",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-ubnt_lap-120-squashfs-sysupgrade.bin",
-      "sha256": "db83e315b1b8c21a866de937055b1280a578f3e386cf5a1dd3f3fde371ecd9cd",
+      "sha256": "e510cdef2068009439e2de45817b88a03f48811b2a01a15c866bd1e64f29544d",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ubnt,lap-120"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ubnt,lap-120"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "LiteAP ac (LAP-120)",
-      "vendor": "Ubiquiti"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "LiteAP ac (LAP-120)", "vendor": "Ubiquiti" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

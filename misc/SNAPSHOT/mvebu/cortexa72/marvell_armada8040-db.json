@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_cortex-a72",
-  "build_at": "2020-09-11 21:00:34",
+  "build_at": "2020-12-11 18:37:45",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-gpio-button-hotplug",
     "e2fsprogs",
@@ -42,26 +43,20 @@
   "images": [
     {
       "name": "openwrt-mvebu-cortexa72-marvell_armada8040-db-ext4-sdcard.img.gz",
-      "sha256": "32cfeb0bf665b859989648ccf97f75d1dfd4512504e1a894332268e0ad63a230",
+      "sha256": "58766a2e3271c3620c257ecad049da809edb0fd3a98237f13397cddcd054d78e",
       "type": "sdcard"
     },
     {
       "name": "openwrt-mvebu-cortexa72-marvell_armada8040-db-squashfs-sdcard.img.gz",
-      "sha256": "3eafd67a80511c5ed24bfa487b26ab0594d7e1120f6561c0f7ff797dcfd8993b",
+      "sha256": "632c2e010e705e7dcc36052f47176652593d5a8be2e0989c7f54bbfe8e5ca6c6",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "marvell,armada8040-db"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["marvell,armada8040-db"],
   "target": "mvebu/cortexa72",
-  "titles": [
-    {
-      "model": "Armada 8040 Development Board",
-      "vendor": "Marvell"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "Armada 8040 Development Board", "vendor": "Marvell" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

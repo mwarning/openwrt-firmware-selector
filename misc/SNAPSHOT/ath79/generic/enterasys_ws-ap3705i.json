@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -43,21 +44,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-enterasys_ws-ap3705i-squashfs-sysupgrade.bin",
-      "sha256": "6b0b12fec924827ca90bcf50dec5e75b0f482947c70f411dd0125faa4de0f5db",
+      "sha256": "b44b7f0d8fa1c7bc2dce4166f56eab94400782e61ee5037b350af35617b3ade6",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "enterasys,ws-ap3705i"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["enterasys,ws-ap3705i"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WS-AP3705i",
-      "vendor": "Enterasys"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WS-AP3705i", "vendor": "Enterasys" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

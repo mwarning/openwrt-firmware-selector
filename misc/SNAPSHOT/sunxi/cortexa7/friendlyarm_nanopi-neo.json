@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-11 01:37:12",
+  "build_at": "2020-12-11 00:58:45",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -41,27 +42,21 @@
   "image_prefix": "openwrt-sunxi-cortexa7-friendlyarm_nanopi-neo",
   "images": [
     {
-      "name": "openwrt-sunxi-cortexa7-friendlyarm_nanopi-neo-squashfs-sdcard.img.gz",
-      "sha256": "78e728f179901ead89fc3a86a82a7604938d48d6fedd05a6339589bcb356a50e",
+      "name": "openwrt-sunxi-cortexa7-friendlyarm_nanopi-neo-ext4-sdcard.img.gz",
+      "sha256": "dc7027718c51ea6b4438e33b0eca9fd0948a773848c38705566c9492628ba4f6",
       "type": "sdcard"
     },
     {
-      "name": "openwrt-sunxi-cortexa7-friendlyarm_nanopi-neo-ext4-sdcard.img.gz",
-      "sha256": "5efc4cd6c2017bf6cc4601f8ba7dc50c3a50056c8449adf63241a48f4e4391f1",
+      "name": "openwrt-sunxi-cortexa7-friendlyarm_nanopi-neo-squashfs-sdcard.img.gz",
+      "sha256": "15771c7f37b3e9c4de20f447f337b713b8c7ec5c201d4b94bc395de98c5611a6",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "friendlyarm,nanopi-neo"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["friendlyarm,nanopi-neo"],
   "target": "sunxi/cortexa7",
-  "titles": [
-    {
-      "model": "NanoPi NEO",
-      "vendor": "FriendlyARM"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "NanoPi NEO", "vendor": "FriendlyARM" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

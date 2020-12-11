@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -33,30 +34,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt7615e",
-    "kmod-mt7615-firmware"
-  ],
+  "device_packages": ["kmod-mt7615e", "kmod-mt7615-firmware"],
   "id": "iodata_wn-dx1167r",
   "image_prefix": "openwrt-ramips-mt7621-iodata_wn-dx1167r",
   "images": [
     {
       "name": "openwrt-ramips-mt7621-iodata_wn-dx1167r-squashfs-sysupgrade.bin",
-      "sha256": "e11adcae41f6086ad42d01c5292fd5ddf4e2148a7872b629da445295eee1ff0a",
+      "sha256": "5f96894184e63ce17bc583386e80b3b3a56a5af9a8e3892a89196b381cdf121e",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "iodata,wn-dx1167r"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["iodata,wn-dx1167r"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "WN-DX1167R",
-      "vendor": "I-O DATA"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WN-DX1167R", "vendor": "I-O DATA" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

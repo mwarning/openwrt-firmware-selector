@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,29 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2"
-  ],
+  "device_packages": ["kmod-mt76x2"],
   "id": "totolink_a3",
   "image_prefix": "openwrt-ramips-mt76x8-totolink_a3",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-totolink_a3-squashfs-sysupgrade.bin",
-      "sha256": "c7ce3ff6f8c4738f20ff8110bf3c3e4423600dd9e0b47f9b4a749405faebae20",
+      "sha256": "dc1495b5ff045b43b24c236008325e7cf9e36fab218ea0f9d81bfb4e0493e0d7",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "totolink,a3"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["totolink,a3"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "A3",
-      "vendor": "TOTOLINK"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "A3", "vendor": "TOTOLINK" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

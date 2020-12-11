@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -46,29 +47,21 @@
     "kmod-usb-dwc3",
     "ath10k-firmware-qca4019-ct"
   ],
-  "device_packages": [
-    "ipq-wifi-8dev_habanero-dvk"
-  ],
+  "device_packages": ["ipq-wifi-8dev_habanero-dvk"],
   "id": "8dev_habanero-dvk",
   "image_prefix": "openwrt-ipq40xx-generic-8dev_habanero-dvk",
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-8dev_habanero-dvk-squashfs-sysupgrade.bin",
-      "sha256": "fa5aa10d6523f6c025eedcbe3fa75d0d0a6904b10ec06ed8fe925c13a02d83bf",
+      "sha256": "3e49ea2d1544f089d6df684ce1d0a7e29d80d46b009164dee1fbb0da88fd695f",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "8dev,habanero-dvk"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["8dev,habanero-dvk"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "Habanero DVK",
-      "vendor": "8devices"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Habanero DVK", "vendor": "8devices" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

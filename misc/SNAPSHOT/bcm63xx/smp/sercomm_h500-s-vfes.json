@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 16:37:12",
+  "build_at": "2020-12-11 03:30:55",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -42,28 +43,21 @@
   "image_prefix": "openwrt-bcm63xx-smp-sercomm_h500-s-vfes",
   "images": [
     {
-      "name": "openwrt-bcm63xx-smp-sercomm_h500-s-vfes-squashfs-sysupgrade.bin",
-      "sha256": "10f0410b4e83345abb0290ddb79347adcb4d5b1b1a2eaefd83f07bbaf2c49003",
-      "type": "sysupgrade"
+      "name": "openwrt-bcm63xx-smp-sercomm_h500-s-vfes-squashfs-factory.img",
+      "sha256": "445e402c1fdd5d90f3a2b4e4f355e9cbd974bb7d46f4ea97d1aeb73939680bef",
+      "type": "factory"
     },
     {
-      "name": "openwrt-bcm63xx-smp-sercomm_h500-s-vfes-squashfs-factory.img",
-      "sha256": "289026ecfed6710957566856e28264584922c863998a77c8e5348313238664b0",
-      "type": "factory"
+      "name": "openwrt-bcm63xx-smp-sercomm_h500-s-vfes-squashfs-sysupgrade.bin",
+      "sha256": "16c99c602aa024c50d0f04d6ad78a25b0fa619abb4349779d950c8e218c22184",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "sercomm,h500-s-vfes"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["sercomm,h500-s-vfes"],
   "target": "bcm63xx/smp",
-  "titles": [
-    {
-      "model": "H500-s",
-      "variant": "vfes",
-      "vendor": "Sercomm"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "H500-s", "variant": "vfes", "vendor": "Sercomm" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,35 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2"
-  ],
+  "device_packages": ["kmod-mt76x2"],
   "id": "tplink_re305-v1",
   "image_prefix": "openwrt-ramips-mt76x8-tplink_re305-v1",
   "images": [
     {
-      "name": "openwrt-ramips-mt76x8-tplink_re305-v1-squashfs-sysupgrade.bin",
-      "sha256": "93efb6e5ebf52dd1a12491735e07eb5e6a04a44d9f429ea8d22e09fd201de33e",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-mt76x8-tplink_re305-v1-squashfs-factory.bin",
+      "sha256": "f972f2a34201c0462b9f7b86bc5779df307f15ef25fbd9da8f432d81e6f87097",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ramips-mt76x8-tplink_re305-v1-squashfs-factory.bin",
-      "sha256": "95bda72f12f01e97c8b648de30b405ce3ba6b4616d2c4de5203c5a7293a187f9",
-      "type": "factory"
+      "name": "openwrt-ramips-mt76x8-tplink_re305-v1-squashfs-sysupgrade.bin",
+      "sha256": "4dd8e9ff2e20cd2935264ef1d37dd42acfcc7336245423b3fdbb3b72ef70202c",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,re305-v1"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["tplink,re305-v1"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "RE305",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "RE305", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

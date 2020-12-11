@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,36 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci",
-    "kmod-switch-bcm53xx-mdio"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci", "kmod-switch-bcm53xx-mdio"],
   "id": "ubnt_edgeswitch-8xp",
   "image_prefix": "openwrt-ath79-generic-ubnt_edgeswitch-8xp",
   "images": [
     {
       "name": "openwrt-ath79-generic-ubnt_edgeswitch-8xp-squashfs-factory.bin",
-      "sha256": "15206fa485670670538d87aec43ec026d6cc9c25e36d9c3ebc2c3c25ec8928b2",
+      "sha256": "0a8b2f0b4be51568a824772a84fc04d7445740a4f7af4cc674993664d4648194",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-ubnt_edgeswitch-8xp-squashfs-sysupgrade.bin",
-      "sha256": "397acef51b2da8e5bd2efc3063c9e7349511f336b6aaad59718ddfe44e79eca4",
+      "sha256": "ebee1ae3b3131e5321d641320027ba20f4c5010eb380970fe857930d1fd5d696",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ubnt,edgeswitch-8xp"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ubnt,edgeswitch-8xp"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "EdgeSwitch 8XP",
-      "vendor": "Ubiquiti"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EdgeSwitch 8XP", "vendor": "Ubiquiti" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

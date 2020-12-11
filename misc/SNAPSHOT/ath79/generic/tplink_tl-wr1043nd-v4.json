@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,37 +38,28 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ledtrig-usbport"],
   "id": "tplink_tl-wr1043nd-v4",
   "image_prefix": "openwrt-ath79-generic-tplink_tl-wr1043nd-v4",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v4-squashfs-factory.bin",
-      "sha256": "11387bf035d32d66d158ce162b3ba3891c9076226bc2840d7b56076de9af62c4",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v4-squashfs-sysupgrade.bin",
+      "sha256": "0a1072a3446a74e355025967942cf8fde6592c04728c8e152c845b2ac774451a",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v4-squashfs-sysupgrade.bin",
-      "sha256": "acd08d2a137e257b29e46ef908812fa232870c95f3d90c953cd79d7754bf2391",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v4-squashfs-factory.bin",
+      "sha256": "cdc8c02a53d6235a720370197feca87f4c56ef92f7cbcd0ef33171f4471f8c07",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wr1043nd-v4",
-    "tl-wr1043nd-v4"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,tl-wr1043nd-v4", "tl-wr1043nd-v4"],
   "target": "ath79/generic",
   "titles": [
-    {
-      "model": "TL-WR1043N/ND",
-      "variant": "v4",
-      "vendor": "TP-Link"
-    }
+    { "model": "TL-WR1043N/ND", "variant": "v4", "vendor": "TP-Link" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

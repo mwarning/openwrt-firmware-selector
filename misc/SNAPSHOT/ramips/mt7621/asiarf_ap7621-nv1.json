@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,21 +45,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-asiarf_ap7621-nv1-squashfs-sysupgrade.bin",
-      "sha256": "9d7fd4a28266d129fa0215a712a1add179eb284ac7472cf840eec6c16780710a",
+      "sha256": "c8d289cbdfb71231de09e85bf4176528837f63ff00e188b2f41b63e1c6e14808",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "asiarf,ap7621-nv1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["asiarf,ap7621-nv1"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "AP7621-NV1",
-      "vendor": "AsiaRF"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "AP7621-NV1", "vendor": "AsiaRF" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

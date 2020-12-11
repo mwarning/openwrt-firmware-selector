@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 16:37:12",
+  "build_at": "2020-12-11 03:30:55",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,19 +46,15 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-smp-pirelli_a226g-squashfs-cfe.bin",
-      "sha256": "a08efdcaa5f4b81635d5f65c283f646f954ad2e155d67fa795e6cf8029e88941",
+      "sha256": "efa284cc008345ec74a43da8c29dd267cf7e5c0a71afd15d5566345b0b7f2e25",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm63xx/smp",
-  "titles": [
-    {
-      "model": "A226G",
-      "vendor": "Pirelli"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "A226G", "vendor": "Pirelli" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

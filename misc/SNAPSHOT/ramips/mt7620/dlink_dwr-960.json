@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -49,26 +50,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-960-squashfs-factory.bin",
-      "sha256": "bd0df31c4942c14640d5941edcd059c8ddb90bde14fb1fbf781a9f45abeef9ca",
+      "sha256": "498749d092ba07c5c097b7fba04c9a2f617825cb3cb332aa585f7c7838841f46",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7620-dlink_dwr-960-squashfs-sysupgrade.bin",
-      "sha256": "fcdf18161626b258c5316e5197c4d727f9701d1da73eb0b5e23fcb473dca8483",
+      "sha256": "0eadccd89502b51a892d4286cf5e644804f21d71e9e27653b05ec25f876266d5",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dwr-960"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dwr-960"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "DWR-960",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DWR-960", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

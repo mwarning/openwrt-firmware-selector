@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,30 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2"
-  ],
+  "device_packages": ["kmod-usb2"],
   "id": "glinet_6408",
   "image_prefix": "openwrt-ath79-generic-glinet_6408",
   "images": [
     {
       "name": "openwrt-ath79-generic-glinet_6408-squashfs-sysupgrade.bin",
-      "sha256": "c53cb5d91436f44664bd3b7178b8f0a3cfa49d63f96fe2456faa13ff2709da69",
+      "sha256": "ecba9c81511c3fb740a1716e9b8ac7c6c38076a047251f541a6d96a5ac9d7499",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "glinet,6408",
-    "gl-inet"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["glinet,6408", "gl-inet"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "6408",
-      "vendor": "GL.iNet"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "6408", "vendor": "GL.iNet" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

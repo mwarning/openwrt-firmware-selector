@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 16:37:12",
+  "build_at": "2020-12-11 03:30:55",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,25 +46,20 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-smp-netgear_dgnd3700-v1-squashfs-sysupgrade.bin",
-      "sha256": "7319e0e6335cf5c496eb35ce0eb25b4abf7051e3c55bb626c23729b7146a5e3d",
+      "sha256": "f674ba8d9dd77fbf174cf22f3dbaf56c9cc49fc79c9055da457bd44559a4fd0c",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-bcm63xx-smp-netgear_dgnd3700-v1-squashfs-factory.chk",
-      "sha256": "081ab21bbf270d45832b034eda428bcdb7d987ced3a1cfada506bfe1cde9aa7f",
+      "sha256": "4b0866d838cb85dac2ce9ae346b0be3354ca91a3ab3b24dacbda5e2b6d42297d",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm63xx/smp",
-  "titles": [
-    {
-      "model": "DGND3700",
-      "variant": "v1",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "DGND3700", "variant": "v1", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

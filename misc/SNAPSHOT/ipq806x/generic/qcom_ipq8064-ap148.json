@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a15_neon-vfpv4",
-  "build_at": "2020-09-11 16:48:36",
+  "build_at": "2020-12-11 13:59:29",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -56,36 +57,26 @@
     "wpad-basic-wolfssl",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "ath10k-firmware-qca99x0-ct"
-  ],
+  "device_packages": ["ath10k-firmware-qca99x0-ct"],
   "id": "qcom_ipq8064-ap148",
   "image_prefix": "openwrt-ipq806x-generic-qcom_ipq8064-ap148",
   "images": [
     {
-      "name": "openwrt-ipq806x-generic-qcom_ipq8064-ap148-squashfs-nand-factory.bin",
-      "sha256": "f4c79854bfce70181e61fdd01304e99fac182f89bc58682900aaf0a819a68a42",
-      "type": "nand-factory"
+      "name": "openwrt-ipq806x-generic-qcom_ipq8064-ap148-squashfs-nand-sysupgrade.bin",
+      "sha256": "8126c2717afd2101275ab3f5ce00518f38ee04bcd7aaf98a2fea422eecb3332e",
+      "type": "nand-sysupgrade"
     },
     {
-      "name": "openwrt-ipq806x-generic-qcom_ipq8064-ap148-squashfs-nand-sysupgrade.bin",
-      "sha256": "30c39dc474d75dbf4f82880480e675c738eaa1c953287ec1af491977f35d53c9",
-      "type": "nand-sysupgrade"
+      "name": "openwrt-ipq806x-generic-qcom_ipq8064-ap148-squashfs-nand-factory.bin",
+      "sha256": "f234372435dfafea974702aa771de3d56486664eb5b724c80256407c2a2926fd",
+      "type": "nand-factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "qcom,ipq8064-ap148",
-    "ap148"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["qcom,ipq8064-ap148", "ap148"],
   "target": "ipq806x/generic",
-  "titles": [
-    {
-      "model": "AP148",
-      "variant": "standard",
-      "vendor": "Qualcomm"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "AP148", "variant": "standard", "vendor": "Qualcomm" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

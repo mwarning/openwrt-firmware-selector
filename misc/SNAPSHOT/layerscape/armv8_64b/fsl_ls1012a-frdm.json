@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_generic",
-  "build_at": "2020-09-11 20:09:48",
+  "build_at": "2020-12-11 17:43:57",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,9 +17,13 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb3",
     "kmod-usb-dwc3",
     "kmod-usb-storage",
+    "mkf2fs",
+    "e2fsprogs",
     "partx-utils",
     "dnsmasq",
     "firewall",
@@ -34,38 +37,30 @@
     "kmod-usb3",
     "kmod-usb-dwc3",
     "kmod-usb-storage",
+    "mkf2fs",
+    "e2fsprogs",
     "partx-utils"
   ],
-  "device_packages": [
-    "layerscape-ppfe",
-    "tfa-ls1012a-frdm",
-    "kmod-ppfe"
-  ],
+  "device_packages": ["layerscape-ppfe", "tfa-ls1012a-frdm", "kmod-ppfe"],
   "id": "fsl_ls1012a-frdm",
   "image_prefix": "openwrt-layerscape-armv8_64b-fsl_ls1012a-frdm",
   "images": [
     {
       "name": "openwrt-layerscape-armv8_64b-fsl_ls1012a-frdm-squashfs-firmware.bin",
-      "sha256": "ca64e1d5de4c178fd077084feba050c7bbbeee86a3c9721131a3859e2baf5c86",
+      "sha256": "ef15123678c6d6c1356decf93790059f3ec2a7581720f407f07b1b6754840551",
       "type": "firmware"
     },
     {
       "name": "openwrt-layerscape-armv8_64b-fsl_ls1012a-frdm-squashfs-sysupgrade.bin",
-      "sha256": "5ad229eb9c329adb2c35233b845598242d9e246263c51b627eb5af717293d9e4",
+      "sha256": "86b045b10c1340a95b794c75a8fd46aca04ac6396175858d5045d7a36a3bcc16",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "fsl,ls1012a-frdm"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["fsl,ls1012a-frdm"],
   "target": "layerscape/armv8_64b",
-  "titles": [
-    {
-      "model": "FRDM-LS1012A",
-      "vendor": "NXP"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "FRDM-LS1012A", "vendor": "NXP" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

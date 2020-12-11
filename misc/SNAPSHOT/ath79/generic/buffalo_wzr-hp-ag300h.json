@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -49,32 +50,25 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-tftp.bin",
-      "sha256": "90cf84aa5274a95787bc9b1bda80d3aab05f8a344640ee431307e916a7980d20",
+      "sha256": "5b5fb91508bbd50a675b9096e3809bc5fc8aabecb16316d517486a217e2d53ef",
       "type": "tftp"
     },
     {
-      "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-factory.bin",
-      "sha256": "c09bb7519fe42fdd50902204aa34532e262cca53b7359e11f687cee1c7773a19",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-sysupgrade.bin",
+      "sha256": "50f3c5bdd01643642d9960360e5c18b277a4d4eb1798e1be1483456dea21bf15",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-sysupgrade.bin",
-      "sha256": "e418eec1a03fbbf291e6b5144a08112636b6282df084f78ed2ef0f01596e4be6",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-factory.bin",
+      "sha256": "8fc9258405c5bd719ae271c3e7a8ed1e09154105f03f7564d16ae167f7cc5bda",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "buffalo,wzr-hp-ag300h",
-    "wzr-hp-ag300h"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["buffalo,wzr-hp-ag300h", "wzr-hp-ag300h"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WZR-HP-AG300H",
-      "vendor": "Buffalo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WZR-HP-AG300H", "vendor": "Buffalo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

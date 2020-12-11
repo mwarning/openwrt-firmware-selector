@@ -6,13 +6,13 @@ var config = {
 
   // Path to overview.json file or URL to the ASU API
   versions: {
-    "18.06.8": "../misc/18.06.8/",
-    "19.07.4": "../misc/19.07.4/",
-    SNAPSHOT: "../misc/SNAPSHOT/",
+    "18.06.9": "../misc/18.06.9/",
+    "19.07.5": "../misc/19.07.5",
+    SNAPSHOT: "../misc/SNAPSHOT",
   },
 
   // Pre-selected version (optional)
-  default_version: "19.07.4",
+  default_version: "19.07.5",
 
   // Image download URL (optional)
   //image_url: "https://downloads.openwrt.org/releases/{version}/{target}",

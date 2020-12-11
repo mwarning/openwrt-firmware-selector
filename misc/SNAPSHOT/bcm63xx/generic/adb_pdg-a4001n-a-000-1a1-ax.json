@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,24 +46,20 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-adb_pdg-a4001n-a-000-1a1-ax-squashfs-cfe.bin",
-      "sha256": "6b6d37b4f651ebb64fbe85ffdc649c179ea40c9fe75edc02ec38678be1b5cd2e",
+      "sha256": "2077f00348173f37ad40ecf5c6d73d4d8f7ba16ff4905c3ddcb738a7b90c564b",
       "type": "cfe"
     },
     {
       "name": "openwrt-bcm63xx-generic-adb_pdg-a4001n-a-000-1a1-ax-squashfs-sysupgrade.bin",
-      "sha256": "33031ac198ec75b8c2307c2acb0dddd4526fb5c729b84c82b9ec5a471a22b6d0",
+      "sha256": "1b96c6cb43f1ebfe50afe76cbfdf353650640639ea9821b085f13e14a22af0cf",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
-  "titles": [
-    {
-      "model": "P.DG A4001N A-000-1A1-AX",
-      "vendor": "ADB"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "P.DG A4001N A-000-1A1-AX", "vendor": "ADB" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

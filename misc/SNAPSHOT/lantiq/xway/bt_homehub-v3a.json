@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -51,23 +52,17 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-bt_homehub-v3a-squashfs-sysupgrade.bin",
-      "sha256": "ac5ee2b6a382cc28e2da7dba2c122bbc892f177bb0e8d37212a3c7b40adea8cc",
+      "sha256": "5526a463f6a1997181b392ca03c3e7dd2925330b6363f90862384902c73fc729",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "bt,homehub-v3a",
-    "BTHOMEHUBV3A"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["bt,homehub-v3a", "BTHOMEHUBV3A"],
   "target": "lantiq/xway",
   "titles": [
-    {
-      "model": "Home Hub 3",
-      "variant": "Type A",
-      "vendor": "British Telecom"
-    }
+    { "model": "Home Hub 3", "variant": "Type A", "vendor": "British Telecom" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

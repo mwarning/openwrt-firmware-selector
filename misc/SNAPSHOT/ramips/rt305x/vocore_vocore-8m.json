@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -46,24 +47,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-vocore_vocore-8m-squashfs-sysupgrade.bin",
-      "sha256": "be5ccc483b066db1b963d1713cc1696c3c4ab5178b97f15d09699981da0e3a2e",
+      "sha256": "2837df3736ac2145be6da47a4a1fceb6db61bf4d934b531ec7a388369b88fce0",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "vocore,vocore-8m",
-    "vocore",
-    "vocore-8M"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["vocore,vocore-8m", "vocore", "vocore-8M"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "VoCore",
-      "variant": "8M",
-      "vendor": "VoCore"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "VoCore", "variant": "8M", "vendor": "VoCore" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

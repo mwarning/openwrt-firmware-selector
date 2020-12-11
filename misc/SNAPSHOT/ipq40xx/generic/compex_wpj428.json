@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -46,34 +47,26 @@
     "kmod-usb-dwc3",
     "ath10k-firmware-qca4019-ct"
   ],
-  "device_packages": [
-    "kmod-gpio-beeper"
-  ],
+  "device_packages": ["kmod-gpio-beeper"],
   "id": "compex_wpj428",
   "image_prefix": "openwrt-ipq40xx-generic-compex_wpj428",
   "images": [
     {
-      "name": "openwrt-ipq40xx-generic-compex_wpj428-squashfs-sysupgrade.bin",
-      "sha256": "3309ad927cbf5d1cf25cceb370681a7bf6ec3541eacf7c727d5fdd2022aed337",
-      "type": "sysupgrade"
+      "name": "openwrt-ipq40xx-generic-compex_wpj428-squashfs-cpximg-6a04.bin",
+      "sha256": "08498ac106c59017b450c9dc08052172332c2c78008659e856def02c053d979d",
+      "type": "cpximg-6a04"
     },
     {
-      "name": "openwrt-ipq40xx-generic-compex_wpj428-squashfs-cpximg-6a04.bin",
-      "sha256": "972a1a60e9ccb19b91f54790b2dea2b65c9023b4a30d631a2d65ba4d23fdd0c9",
-      "type": "cpximg-6a04"
+      "name": "openwrt-ipq40xx-generic-compex_wpj428-squashfs-sysupgrade.bin",
+      "sha256": "730f7ed4ebdda0675885b3aba4d2fbc183e008f4db76d339e045b14204185a9c",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "compex,wpj428"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["compex,wpj428"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "WPJ428",
-      "vendor": "Compex"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WPJ428", "vendor": "Compex" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

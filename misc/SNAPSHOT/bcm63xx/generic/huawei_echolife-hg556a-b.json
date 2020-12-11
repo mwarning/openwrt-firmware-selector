@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,20 +46,17 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-huawei_echolife-hg556a-b-squashfs-cfe.bin",
-      "sha256": "f743b1e6dcea28483fc202f7882414a57387141451da23e126b3522e8f38ac83",
+      "sha256": "a94e76f2919b95bda34a4cd19926da22a8baffbc9988b0f651d02ab2de7ae7ea",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
   "titles": [
-    {
-      "model": "EchoLife HG556a",
-      "variant": "B",
-      "vendor": "Huawei"
-    }
+    { "model": "EchoLife HG556a", "variant": "B", "vendor": "Huawei" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

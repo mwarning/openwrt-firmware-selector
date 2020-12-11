@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -46,24 +47,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-nixcore_x1-8m-squashfs-sysupgrade.bin",
-      "sha256": "3d31b8bdb6f250901afe1a3886e00e4c1cb8490ebeb7947ea9278e85b56e6c33",
+      "sha256": "70dd93f6b46c1c3894bf67ad3a2a14d645bb1d7ff4c61bfe91b040a650f9894e",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "nixcore,x1-8m",
-    "nixcore-x1",
-    "nixcore-x1-8M"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["nixcore,x1-8m", "nixcore-x1", "nixcore-x1-8M"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "X1",
-      "variant": "8M",
-      "vendor": "Nixcore"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "X1", "variant": "8M", "vendor": "Nixcore" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

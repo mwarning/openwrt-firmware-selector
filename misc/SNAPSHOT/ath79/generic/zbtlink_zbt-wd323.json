@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -50,21 +51,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-zbtlink_zbt-wd323-squashfs-sysupgrade.bin",
-      "sha256": "03a7a8e82aa8504f5f29e0961af60898253bdededc79ca97c4320df5fbe89d02",
+      "sha256": "33672b14eb61a59a65388d743b7dd1c8d2884a65fec261d3187228b20432f5ab",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zbtlink,zbt-wd323"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["zbtlink,zbt-wd323"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WD323",
-      "vendor": "ZBT"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WD323", "vendor": "ZBT" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

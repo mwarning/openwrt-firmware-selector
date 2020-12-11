@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 21:54:15",
+  "build_at": "2020-12-11 13:06:15",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "ltq-vdsl-vr9-vectoring-fw-installer",
@@ -46,27 +47,21 @@
   "image_prefix": "openwrt-lantiq-xrx200-netgear_dm200",
   "images": [
     {
-      "name": "openwrt-lantiq-xrx200-netgear_dm200-squashfs-sysupgrade.bin",
-      "sha256": "600b6546adc90bc16bc8cd7175144b25e100730ea3b40baafe072123f9bf5b86",
-      "type": "sysupgrade"
+      "name": "openwrt-lantiq-xrx200-netgear_dm200-squashfs-factory.img",
+      "sha256": "28c312d15482c97d52981485c0cd001eabe992767145c5a463d4d7b8a6221fd8",
+      "type": "factory"
     },
     {
-      "name": "openwrt-lantiq-xrx200-netgear_dm200-squashfs-factory.img",
-      "sha256": "43b8efe11bf9757219739578bff96c55f381b5cfd9028b5b244877c625fe1943",
-      "type": "factory"
+      "name": "openwrt-lantiq-xrx200-netgear_dm200-squashfs-sysupgrade.bin",
+      "sha256": "b5eb33c59df96f0fdc458ca0330c6f6bc4d9e14de53ca306ceb411a78e51f079",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,dm200"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["netgear,dm200"],
   "target": "lantiq/xrx200",
-  "titles": [
-    {
-      "model": "DM200",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DM200", "vendor": "NETGEAR" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

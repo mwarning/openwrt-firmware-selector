@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -48,26 +49,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-ravpower_rp-wd009-squashfs-factory.bin",
-      "sha256": "1fe5b3bcbbf8198fc25df59ac6ad1dcb60f963009d4de22de424b6b67ceb4e98",
+      "sha256": "24db896e6a8b9fdd187abb0454b8de19ecddde567e1288d76609dcba19f4c40e",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt76x8-ravpower_rp-wd009-squashfs-sysupgrade.bin",
-      "sha256": "c5aea14ba88ce02f62a5c5c188477dd4cae0b6fc5778216a9014573d0a9d82b6",
+      "sha256": "5153edb4acd986768ea989085243b9f6c1737521b25b46a7e54da3fd2f3c7154",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ravpower,rp-wd009"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["ravpower,rp-wd009"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "RP-WD009",
-      "vendor": "RAVPower"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "RP-WD009", "vendor": "RAVPower" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,31 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb-ohci",
-    "kmod-usb2",
-    "kmod-ledtrig-netdev"
-  ],
+  "device_packages": ["kmod-usb-ohci", "kmod-usb2", "kmod-ledtrig-netdev"],
   "id": "zorlik_zl5900v2",
   "image_prefix": "openwrt-ramips-rt305x-zorlik_zl5900v2",
   "images": [
     {
       "name": "openwrt-ramips-rt305x-zorlik_zl5900v2-squashfs-sysupgrade.bin",
-      "sha256": "5a9e89c80f3031d3ac6adbe91a70126463aa885896f0823f2233b9b74affc27a",
+      "sha256": "adb6595f6949c7b61bf6a5ae8b10a0d13fe09838e8dfc24900bf8c0736d6cb2b",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zorlik,zl5900v2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["zorlik,zl5900v2"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "ZL5900V2",
-      "vendor": "Zorlik"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "ZL5900V2", "vendor": "Zorlik" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

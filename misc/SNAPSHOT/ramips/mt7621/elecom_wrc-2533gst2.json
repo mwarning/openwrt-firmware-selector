@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -33,35 +34,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt7615e",
-    "kmod-mt7615-firmware"
-  ],
+  "device_packages": ["kmod-mt7615e", "kmod-mt7615-firmware"],
   "id": "elecom_wrc-2533gst2",
   "image_prefix": "openwrt-ramips-mt7621-elecom_wrc-2533gst2",
   "images": [
     {
       "name": "openwrt-ramips-mt7621-elecom_wrc-2533gst2-squashfs-sysupgrade.bin",
-      "sha256": "9cfeb1cf5c2bf8a936b615e7af18d08c3e1f3e67c65242c15a183551180917b4",
+      "sha256": "81d60560f68c02462ee19b5efcdb66c1b49acf20ee41ce297cac14565a522f3b",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-elecom_wrc-2533gst2-squashfs-factory.bin",
-      "sha256": "3fb62b742f753a5493c8999d65949fcf797b67bcfa0cd1debcc5a656b26b7da6",
+      "sha256": "77ddb02adfd9972564172c2ea32026f468128e913a15e0a90efcadf3e216e953",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "elecom,wrc-2533gst2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["elecom,wrc-2533gst2"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "WRC-2533GST2",
-      "vendor": "ELECOM"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WRC-2533GST2", "vendor": "ELECOM" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

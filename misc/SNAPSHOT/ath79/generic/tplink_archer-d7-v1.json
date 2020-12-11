@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -48,22 +49,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_archer-d7-v1-squashfs-sysupgrade.bin",
-      "sha256": "12b5495b90750b5a1f4e93aecf245b8bf49ac5f3fbcfc6958b3de8b010e6daf7",
+      "sha256": "40365b66f2ce752612a4ad2454bb75c4dd1871fdcabe21ba746444b97ecf2b60",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,archer-d7-v1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,archer-d7-v1"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Archer D7",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Archer D7", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

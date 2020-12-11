@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -51,26 +52,18 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-arcadyan_arv752dpw-squashfs-sysupgrade.bin",
-      "sha256": "2acc63784e1ea2f8992a0ba13716a6520f91adbc0586349e6009b63170a3cb16",
+      "sha256": "499cc0588639815d1732fc1c6ab84972717594996b3ace9a88e7540ddfd730ec",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "arcadyan,arv752dpw",
-    "ARV752DPW"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["arcadyan,arv752dpw", "ARV752DPW"],
   "target": "lantiq/xway",
   "titles": [
-    {
-      "model": "ARV752DPW",
-      "vendor": "Arcadyan"
-    },
-    {
-      "model": "Easybox 802",
-      "vendor": "Vodafone"
-    }
+    { "model": "ARV752DPW", "vendor": "Arcadyan" },
+    { "model": "Easybox 802", "vendor": "Vodafone" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

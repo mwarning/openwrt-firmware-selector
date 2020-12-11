@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -43,21 +44,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-siemens_ws-ap3610-squashfs-sysupgrade.bin",
-      "sha256": "47b2f3a5c8be286b223c3661e5637899d1457a66c6a3e7f5c39ea4dba8f992b7",
+      "sha256": "cac9f664af6be5d249c5bae049ca2474c0a00d60a7d438cdfeff06489b861c63",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "siemens,ws-ap3610"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["siemens,ws-ap3610"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "WS-AP3610",
-      "vendor": "Siemens"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WS-AP3610", "vendor": "Siemens" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

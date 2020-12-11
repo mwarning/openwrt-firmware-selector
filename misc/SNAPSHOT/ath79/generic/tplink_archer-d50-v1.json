@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -48,22 +49,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-tplink_archer-d50-v1-squashfs-sysupgrade.bin",
-      "sha256": "2d4b616633f0d283f7e897f709dd3fb6b11e3ba58ae575acf1b556288d20ee5b",
+      "sha256": "c631e23cf66f07aa4a4e6f9b3270f490ae94af1acd133d5daa7f40b4706932af",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,archer-d50-v1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,archer-d50-v1"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Archer D50",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Archer D50", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,24 +46,20 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-comtrend_ar-5387un-squashfs-sysupgrade.bin",
-      "sha256": "9abc4cf0e236b3ba01c3676aed1525e8eca2f2daf91a7140e7797027334fcc4b",
+      "sha256": "8b434db58f65b78c9bfd579f34e062decbd8be680f738a5c47954f772dc66a64",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-bcm63xx-generic-comtrend_ar-5387un-squashfs-cfe.bin",
-      "sha256": "6deeb40c23ab1725fa3dcce71d60b8cafbf7d35877214ac7a1bbc7958286afe1",
+      "sha256": "1a7f03aa70eb682f88f8b616d56ecf4d4507538c175b76b39dbbbd694764662e",
       "type": "cfe"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
-  "titles": [
-    {
-      "model": "AR-5387un",
-      "vendor": "Comtrend"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "AR-5387un", "vendor": "Comtrend" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

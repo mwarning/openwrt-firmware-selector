@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -48,29 +49,21 @@
   "image_prefix": "openwrt-ath79-generic-tplink_tl-mr6400-v1",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_tl-mr6400-v1-squashfs-factory.bin",
-      "sha256": "3c1e596cb36c83c81ca450a480c2f608a6ce8001b856cb099e2134df299f960f",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_tl-mr6400-v1-squashfs-sysupgrade.bin",
+      "sha256": "b858a8d92a784f1ab0715508a3ada3719642bc7efd3392cf0b56c98b5115a920",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_tl-mr6400-v1-squashfs-sysupgrade.bin",
-      "sha256": "8c2df58f0fc529935474c214a53da9845f681941d2d1cc8e328aeb8268e8a5f8",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_tl-mr6400-v1-squashfs-factory.bin",
+      "sha256": "852d0da4c511b1ec426d5b2c5a6dcb48d8a3dd9d8279ed03f8eb1d795f627bc7",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-mr6400-v1",
-    "tl-mr6400"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,tl-mr6400-v1", "tl-mr6400"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "TL-MR6400",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "TL-MR6400", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

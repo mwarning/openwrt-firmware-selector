@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-hiwifi_hc5661a-squashfs-sysupgrade.bin",
-      "sha256": "d212bccf08d47773595ab5e0f2459bd70f96720486af2c359c1cb3dd9b2e418f",
+      "sha256": "0068e33580ec349ef612ba748953c345fac2962077fdf40eb5fb3cdd2b9c78ab",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "hiwifi,hc5661a",
-    "hc5661a"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["hiwifi,hc5661a", "hc5661a"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "HC5661A",
-      "vendor": "HiWiFi"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "HC5661A", "vendor": "HiWiFi" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

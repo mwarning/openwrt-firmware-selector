@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9_vfpv3-d16",
-  "build_at": "2020-09-10 22:18:45",
+  "build_at": "2020-12-11 13:04:58",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -38,22 +39,17 @@
   "images": [
     {
       "name": "openwrt-mvebu-cortexa9-marvell_axp-gp-squashfs-sysupgrade.bin",
-      "sha256": "4c3ec18f83e9d9617cd6205cd6b22b9100eda00452c7562d62f9bc44770cb729",
+      "sha256": "a08e98779d435388bbd6ca951c8175c65bd0fe14f827299dbf65f41de7233849",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "marvell,axp-gp",
-    "armada-xp-gp"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["marvell,axp-gp", "armada-xp-gp"],
   "target": "mvebu/cortexa9",
   "titles": [
-    {
-      "model": "Armada Armada XP GP (DB-MV784MP-GP)",
-      "vendor": "Marvell"
-    }
+    { "model": "Armada Armada XP GP (DB-MV784MP-GP)", "vendor": "Marvell" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

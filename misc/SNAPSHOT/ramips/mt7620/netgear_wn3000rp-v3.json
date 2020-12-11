@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,28 +42,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-netgear_wn3000rp-v3-squashfs-factory.bin",
-      "sha256": "561a6332eae6b92d1230b76d9d279e04877ebdd4bbdaf99cf94bc2bd94e10516",
+      "sha256": "9dddc7de59481b16bf958943155122e1d7acc9579a6678bd5f8dc9a4bbce6633",
       "type": "factory"
     },
     {
       "name": "openwrt-ramips-mt7620-netgear_wn3000rp-v3-squashfs-sysupgrade.bin",
-      "sha256": "e827be694faac351c643f25ba299c8db26e33822183726e9cffea5630d1b7d1d",
+      "sha256": "573adcad8b6122c78e97a829c01f4f0ac1ef01b1a6d5a4e4c7937700cd080c2b",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,wn3000rp-v3",
-    "wn3000rpv3"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["netgear,wn3000rp-v3", "wn3000rpv3"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "WN3000RP",
-      "variant": "v3",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WN3000RP", "variant": "v3", "vendor": "NETGEAR" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

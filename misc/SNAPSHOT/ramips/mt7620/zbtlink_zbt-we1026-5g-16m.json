@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -46,11 +47,12 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7620-zbtlink_zbt-we1026-5g-16m-squashfs-sysupgrade.bin",
-      "sha256": "dd549884d24f3c302af9d09109cec3f97c6bb33fae2b9b4f8e3b95abef51a576",
+      "sha256": "04b07306e0ac56e6822ceb261fb74850d7591f013b8698a2fd31580073d612e4",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [
     "zbtlink,zbt-we1026-5g-16m",
     "we1026-5g-16m",
@@ -58,12 +60,8 @@
   ],
   "target": "ramips/mt7620",
   "titles": [
-    {
-      "model": "ZBT-WE1026-5G",
-      "variant": "16M",
-      "vendor": "Zbtlink"
-    }
+    { "model": "ZBT-WE1026-5G", "variant": "16M", "vendor": "Zbtlink" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

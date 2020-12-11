@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -57,26 +58,20 @@
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-linksys_ea8300-squashfs-factory.bin",
-      "sha256": "4efa7249ae9ed66b0f24af6e55569e8759e3e0b95b0d2cdc98453da153281a49",
+      "sha256": "f1b9962ddd0d5420bae4f62c28a88cf9880a1130033251651adf9cd5c954fa6d",
       "type": "factory"
     },
     {
       "name": "openwrt-ipq40xx-generic-linksys_ea8300-squashfs-sysupgrade.bin",
-      "sha256": "6628a948417ee0873868d64aca2b0cbba73aed86090ac2d011ceecb6bff2e867",
+      "sha256": "9bb16f0e430a8ea6a180e2500eaf842d54c307936a1c69c29f3459e1424e5e14",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "linksys,ea8300"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["linksys,ea8300"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "EA8300",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EA8300", "vendor": "Linksys" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

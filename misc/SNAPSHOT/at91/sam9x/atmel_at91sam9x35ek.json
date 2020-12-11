@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_arm926ej-s",
-  "build_at": "2020-09-10 20:46:39",
+  "build_at": "2020-12-11 10:56:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-ohci",
     "kmod-at91-udc",
     "kmod-usb-gadget-eth",
@@ -39,32 +40,26 @@
   "image_prefix": "openwrt-at91-sam9x-atmel_at91sam9x35ek",
   "images": [
     {
-      "name": "openwrt-at91-sam9x-atmel_at91sam9x35ek-ext4-sdcard.img.gz",
-      "sha256": "bf6bda47d450e94e53e9cdf67e3eb10e707b7f101bc7c72a539091e5def975c9",
-      "type": "sdcard"
-    },
-    {
       "name": "openwrt-at91-sam9x-atmel_at91sam9x35ek-squashfs-root.ubi",
-      "sha256": "d44cd53c994359b5159d53e62fde7554fc338580bfb6529305e3ee7bd7f5757b",
+      "sha256": "6e247bf14263751a9c4fc5c7ff5d5d3965045ab2b1062ef921c7cd09aa57d350",
       "type": "root"
     },
     {
+      "name": "openwrt-at91-sam9x-atmel_at91sam9x35ek-ext4-sdcard.img.gz",
+      "sha256": "cad3df28af92c371e5f126191d401a6cee19c5a3e1fd34b49e3005e564e9d672",
+      "type": "sdcard"
+    },
+    {
       "name": "openwrt-at91-sam9x-atmel_at91sam9x35ek-ubifs-root.ubi",
-      "sha256": "bfdbd004512b973991dd9f0289092b31710382ad97520383ac7f5f4d19549ea4",
+      "sha256": "197590fd80bedf01aa014f3ddabe11984ec9d4d082b3eb9f68e368012aba3d0f",
       "type": "root"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "atmel,at91sam9x35ek"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["atmel,at91sam9x35ek"],
   "target": "at91/sam9x",
-  "titles": [
-    {
-      "model": "AT91SAM9X35-EK",
-      "vendor": "Atmel"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "AT91SAM9X35-EK", "vendor": "Atmel" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

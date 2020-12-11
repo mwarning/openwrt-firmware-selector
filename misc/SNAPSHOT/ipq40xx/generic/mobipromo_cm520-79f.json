@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -54,27 +55,21 @@
   "image_prefix": "openwrt-ipq40xx-generic-mobipromo_cm520-79f",
   "images": [
     {
-      "name": "openwrt-ipq40xx-generic-mobipromo_cm520-79f-squashfs-nand-factory.ubi",
-      "sha256": "0d1af4631ea604c84f9934d2f75d6e123b10b2f947f91d728627869dbb892624",
-      "type": "nand-factory"
+      "name": "openwrt-ipq40xx-generic-mobipromo_cm520-79f-squashfs-nand-sysupgrade.bin",
+      "sha256": "7d8ae5582b445d2c6283b77c7a586c0a1ff1fcbe89a8694cb938b794ca0b40dd",
+      "type": "nand-sysupgrade"
     },
     {
-      "name": "openwrt-ipq40xx-generic-mobipromo_cm520-79f-squashfs-nand-sysupgrade.bin",
-      "sha256": "b6cc83721df40715edb959100ab6d63a025b7eca857acf67df101c2431dc4112",
-      "type": "nand-sysupgrade"
+      "name": "openwrt-ipq40xx-generic-mobipromo_cm520-79f-squashfs-nand-factory.ubi",
+      "sha256": "b13ebdd5dd1464e4d3f789224545da4123de34ca7352cbecaff773054be449f9",
+      "type": "nand-factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "mobipromo,cm520-79f"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["mobipromo,cm520-79f"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "CM520-79F",
-      "vendor": "MobiPromo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "CM520-79F", "vendor": "MobiPromo" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

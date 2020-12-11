@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,37 +38,28 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "rssileds"
-  ],
+  "device_packages": ["kmod-usb2", "rssileds"],
   "id": "ubnt_nanostation-m-xw",
   "image_prefix": "openwrt-ath79-generic-ubnt_nanostation-m-xw",
   "images": [
     {
-      "name": "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-factory.bin",
-      "sha256": "3db9632da2a942bfb1605936de7126f2679650e7722cb905d2de948ace94d6bd",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-sysupgrade.bin",
+      "sha256": "42b31db135779664731975f8ead6291b74f01d6688ceb63e18c61a7b2003e327",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-sysupgrade.bin",
-      "sha256": "54f9c1786168d6da66b010ae4b4dad839193307c910507edba351977acfc53f1",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-factory.bin",
+      "sha256": "58cb64584c2a195122b1a6f13969a585be784c58ba25f0dac050b69972889877",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "ubnt,nanostation-m-xw",
-    "nanostation-m-xw"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["ubnt,nanostation-m-xw", "nanostation-m-xw"],
   "target": "ath79/generic",
   "titles": [
-    {
-      "model": "Nanostation M",
-      "variant": "XW",
-      "vendor": "Ubiquiti"
-    }
+    { "model": "Nanostation M", "variant": "XW", "vendor": "Ubiquiti" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

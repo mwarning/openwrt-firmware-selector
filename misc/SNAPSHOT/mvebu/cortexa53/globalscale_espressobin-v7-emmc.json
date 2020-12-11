@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_cortex-a53",
-  "build_at": "2020-09-11 22:33:44",
+  "build_at": "2020-12-11 20:28:17",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "kmod-gpio-button-hotplug",
     "e2fsprogs",
@@ -42,32 +43,27 @@
   "images": [
     {
       "name": "openwrt-mvebu-cortexa53-globalscale_espressobin-v7-emmc-squashfs-sdcard.img.gz",
-      "sha256": "5ca8f09ee38ec09908dfcb77e85b1b9e25ba2838cb4d0cfc085c6b98202e38c6",
+      "sha256": "bbf1c3f06b5bdf741223b5534383b0478ae1d6d4c56b993c59bdd68ec26f821b",
       "type": "sdcard"
     },
     {
       "name": "openwrt-mvebu-cortexa53-globalscale_espressobin-v7-emmc-ext4-sdcard.img.gz",
-      "sha256": "aa0f7452001d0fe7c6290b63d415431b712b16ef0a5819064e73b42228b7efa2",
+      "sha256": "4807ed5bb62ae35bfef19c69a67be1fd2f9bf46b8ce9a02fed7b18775c795364",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "globalscale,espressobin-v7-emmc"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["globalscale,espressobin-v7-emmc"],
   "target": "mvebu/cortexa53",
   "titles": [
-    {
-      "model": "ESPRESSObin",
-      "variant": "V7 eMMC",
-      "vendor": "Marvell"
-    },
+    { "model": "ESPRESSObin", "variant": "V7 eMMC", "vendor": "Marvell" },
     {
       "model": "Armada 3700 Community Board",
       "variant": "V7 eMMC",
       "vendor": "Marvell"
     }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

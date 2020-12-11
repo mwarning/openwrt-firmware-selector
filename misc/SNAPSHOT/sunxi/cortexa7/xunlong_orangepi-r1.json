@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-11 01:37:12",
+  "build_at": "2020-12-11 00:58:45",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -36,35 +37,26 @@
     "mkf2fs",
     "e2fsprogs"
   ],
-  "device_packages": [
-    "kmod-rtc-sunxi",
-    "kmod-usb-net-rtl8152"
-  ],
+  "device_packages": ["kmod-rtc-sunxi", "kmod-usb-net-rtl8152"],
   "id": "xunlong_orangepi-r1",
   "image_prefix": "openwrt-sunxi-cortexa7-xunlong_orangepi-r1",
   "images": [
     {
-      "name": "openwrt-sunxi-cortexa7-xunlong_orangepi-r1-squashfs-sdcard.img.gz",
-      "sha256": "678eea6cb6b5654f2240f6dd56e95bd248514a6df1412b7f017cf5fe4666fabd",
+      "name": "openwrt-sunxi-cortexa7-xunlong_orangepi-r1-ext4-sdcard.img.gz",
+      "sha256": "1f793625f6fc2d7e69509cf0725294baecd3742a840301ab908f102e0ad28c6e",
       "type": "sdcard"
     },
     {
-      "name": "openwrt-sunxi-cortexa7-xunlong_orangepi-r1-ext4-sdcard.img.gz",
-      "sha256": "a9d982bbbecad4b96cb788ce0592f7a89aaa113ad95c61d6c96b15e7b3659d46",
+      "name": "openwrt-sunxi-cortexa7-xunlong_orangepi-r1-squashfs-sdcard.img.gz",
+      "sha256": "07425c90f16ec43e39a8fd78c8953212902ee5e6b4278d677ac6388e9beadb49",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "xunlong,orangepi-r1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["xunlong,orangepi-r1"],
   "target": "sunxi/cortexa7",
-  "titles": [
-    {
-      "model": "Orange Pi R1",
-      "vendor": "Xunlong"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Orange Pi R1", "vendor": "Xunlong" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

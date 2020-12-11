@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_mips32",
-  "build_at": "2020-09-11 22:48:52",
+  "build_at": "2020-12-11 20:58:39",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,33 +46,26 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43"
-  ],
+  "device_packages": ["kmod-b43"],
   "id": "linksys_wrt300n-v1",
   "image_prefix": "openwrt-bcm47xx-legacy-linksys_wrt300n-v1",
   "images": [
     {
       "name": "openwrt-bcm47xx-legacy-linksys_wrt300n-v1-squashfs.trx",
-      "sha256": "c9b5ceee3ac7ab21c1e4c451391c8dc166064c13930894d263513dbf785f0056",
+      "sha256": "8096e6311980a0e6c8a764197105f85f3b3ec6817ce5c0d61e21dcc24e58ead1",
       "type": "trx"
     },
     {
       "name": "openwrt-bcm47xx-legacy-linksys_wrt300n-v1-squashfs.bin",
-      "sha256": "cb6db1eedfbb36175ea0f0b52848d65c8a1a659f1adee6c012843d46da750f40",
+      "sha256": "bdf3173ee96ad8fd8de124a82082dba2c19fed0ce540e1fe62dbfcf11da9bc8d",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607716416",
   "supported_devices": [],
   "target": "bcm47xx/legacy",
-  "titles": [
-    {
-      "model": "WRT300N",
-      "variant": "v1",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WRT300N", "variant": "v1", "vendor": "Linksys" }],
+  "version_code": "r15199-5d2b577a53",
   "version_number": "SNAPSHOT"
 }

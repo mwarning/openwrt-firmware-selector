@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -46,21 +47,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-xzwifi_creativebox-v1-squashfs-sysupgrade.bin",
-      "sha256": "402bce6caed4a3505eacb133ec7dc38222d7a83c9458a804ccf561f8df85d3cf",
+      "sha256": "6e5fb0140acc5902d98df53bd3883efff1ca4107fc641cce709ec4fec77e580d",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "xzwifi,creativebox-v1"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["xzwifi,creativebox-v1"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "v1",
-      "vendor": "CreativeBox"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "v1", "vendor": "CreativeBox" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

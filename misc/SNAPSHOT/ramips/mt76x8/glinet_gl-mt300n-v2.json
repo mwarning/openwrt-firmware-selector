@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,32 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci"],
   "id": "glinet_gl-mt300n-v2",
   "image_prefix": "openwrt-ramips-mt76x8-glinet_gl-mt300n-v2",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-glinet_gl-mt300n-v2-squashfs-sysupgrade.bin",
-      "sha256": "cedd9c6ec3861b1d6662ad1c5fa0acc65a5263a721b3bcbac0d090bc238a24fc",
+      "sha256": "b4f0ff1f1fb432ece90c34e764ed2cf42f7d792dbd40e42d613a1dc1d713f0c6",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "glinet,gl-mt300n-v2",
-    "gl-mt300n-v2"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["glinet,gl-mt300n-v2", "gl-mt300n-v2"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "GL-MT300N",
-      "variant": "V2",
-      "vendor": "GL.iNet"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "GL-MT300N", "variant": "V2", "vendor": "GL.iNet" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

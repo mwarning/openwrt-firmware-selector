@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -46,29 +47,21 @@
     "kmod-usb-dwc3",
     "ath10k-firmware-qca4019-ct"
   ],
-  "device_packages": [
-    "ipq-wifi-aruba_ap-303"
-  ],
+  "device_packages": ["ipq-wifi-aruba_ap-303"],
   "id": "aruba_ap-303",
   "image_prefix": "openwrt-ipq40xx-generic-aruba_ap-303",
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-aruba_ap-303-squashfs-sysupgrade.bin",
-      "sha256": "99e8831543714eb6011d4b52d9ea65fe7f2c94aab2eb1bd6e6a52eecbcea26f3",
+      "sha256": "15bd080a37863b45e1493e9336e096a8e4e70e82a27346980e2e93ac025474a1",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "aruba,ap-303"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["aruba,ap-303"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "AP-303",
-      "vendor": "Aruba"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "AP-303", "vendor": "Aruba" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

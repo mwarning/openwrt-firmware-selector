@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -45,28 +46,21 @@
     "kmod-ledtrig-timer",
     "kmod-ledtrig-netdev"
   ],
-  "device_packages": [
-    "kmod-b43"
-  ],
+  "device_packages": ["kmod-b43"],
   "id": "asus_rt-n10p",
   "image_prefix": "openwrt-bcm47xx-mips74k-asus_rt-n10p",
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-asus_rt-n10p-squashfs.trx",
-      "sha256": "94474c201f8adf1498385125640405d46965e803c14e09c70f4115de928a8010",
+      "sha256": "f1b11ef03b72a8b9dd8c2613a65d66440608a6bc6706238d6888fd448e3a41a4",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
-  "titles": [
-    {
-      "model": "RT-N10P",
-      "variant": "v1",
-      "vendor": "ASUS"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RT-N10P", "variant": "v1", "vendor": "ASUS" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

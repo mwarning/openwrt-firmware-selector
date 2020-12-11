@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,41 +36,31 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci",
-    "kmod-i2c-ralink"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci", "kmod-i2c-ralink"],
   "id": "hootoo_ht-tm05",
   "image_prefix": "openwrt-ramips-mt7620-hootoo_ht-tm05",
   "images": [
     {
       "name": "openwrt-ramips-mt7620-hootoo_ht-tm05-squashfs-rootfs.bin",
-      "sha256": "3da1fa70a70a414b951bb3d7af051457ed37e502e6883d3671d1c22c7ce8fb88",
+      "sha256": "ac1ec1ff3e4755d961674f90d3dbf3692f0bbacde98ae658ce97944e084976ad",
       "type": "rootfs"
     },
     {
       "name": "openwrt-ramips-mt7620-hootoo_ht-tm05-squashfs-sysupgrade.bin",
-      "sha256": "d4528a6ce9a2f0c7a01176f5524d422b95e6b58d7c8ba93e9a2894c5bbc36b21",
+      "sha256": "410ec75ac3d40708df6019c9ddb9f63b42a926b51703b433ede76a6732a3d24b",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7620-hootoo_ht-tm05-squashfs-kernel.bin",
-      "sha256": "76db3aadd05741ac68c920d6fe827666402fcdeb832d3b32ad8952a5e3b8921d",
+      "sha256": "02111f445f8251b5a1043d76fc5a62e7af1502c5b18cf3bbba469e1ef9974093",
       "type": "kernel"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "hootoo,ht-tm05"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["hootoo,ht-tm05"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "HT-TM05",
-      "vendor": "HooToo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "HT-TM05", "vendor": "HooToo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

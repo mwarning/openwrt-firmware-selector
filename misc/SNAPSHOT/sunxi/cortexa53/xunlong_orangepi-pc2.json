@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_cortex-a53",
-  "build_at": "2020-09-11 16:34:20",
+  "build_at": "2020-12-11 11:18:56",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "uboot-envtools",
     "partx-utils",
     "mkf2fs",
@@ -41,27 +42,21 @@
   "image_prefix": "openwrt-sunxi-cortexa53-xunlong_orangepi-pc2",
   "images": [
     {
-      "name": "openwrt-sunxi-cortexa53-xunlong_orangepi-pc2-ext4-sdcard.img.gz",
-      "sha256": "528b316f675a0674f63a602d21211a902d8a93af1ad55502b185afacf37760fb",
+      "name": "openwrt-sunxi-cortexa53-xunlong_orangepi-pc2-squashfs-sdcard.img.gz",
+      "sha256": "e0c420d872b0366603b8763fb1f5255a90505539f0da3b19870c2985a883fc6b",
       "type": "sdcard"
     },
     {
-      "name": "openwrt-sunxi-cortexa53-xunlong_orangepi-pc2-squashfs-sdcard.img.gz",
-      "sha256": "d6f6fb41e251f885dccb33a5bddde35148e9d2b16a8ee1f8cf866140d8a19dc6",
+      "name": "openwrt-sunxi-cortexa53-xunlong_orangepi-pc2-ext4-sdcard.img.gz",
+      "sha256": "40b6fd06dc6ae940d09c1d18fee65915e785a077f7c29facb626c58134ea71f7",
       "type": "sdcard"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "xunlong,orangepi-pc2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["xunlong,orangepi-pc2"],
   "target": "sunxi/cortexa53",
-  "titles": [
-    {
-      "model": "Orange Pi PC 2",
-      "vendor": "Xunlong"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "Orange Pi PC 2", "vendor": "Xunlong" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

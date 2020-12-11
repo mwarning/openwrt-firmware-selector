@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -63,19 +64,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-luxul_xwr-3150-squashfs.lxl",
-      "sha256": "e3c02636827d174829bd7c90b5c3ed92dc81ad5f302d3d0f234f14d364de2260",
+      "sha256": "874613fb706dc3a1fcdcad928c34984dac15f4b8a17a08c867c7f86ad030eb7d",
       "type": "lxl"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "XWR-3150",
-      "vendor": "Luxul"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "XWR-3150", "vendor": "Luxul" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

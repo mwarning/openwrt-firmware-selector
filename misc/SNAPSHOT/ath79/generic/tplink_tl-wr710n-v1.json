@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,37 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb-chipidea2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb-chipidea2", "kmod-usb-ledtrig-usbport"],
   "id": "tplink_tl-wr710n-v1",
   "image_prefix": "openwrt-ath79-generic-tplink_tl-wr710n-v1",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_tl-wr710n-v1-squashfs-factory.bin",
-      "sha256": "e64dce868671db7d45634267173abfb3e9669c49f7ef2b75005fd953cba3306c",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_tl-wr710n-v1-squashfs-sysupgrade.bin",
+      "sha256": "42e864734b7f6ac1b7a61aad1d0ee37823778c503eac56b4fe764dcb804821ef",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_tl-wr710n-v1-squashfs-sysupgrade.bin",
-      "sha256": "6cbf00551901d4aff5adf4f514ca5562dcc3720cb1105aec9c415eef6397231c",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_tl-wr710n-v1-squashfs-factory.bin",
+      "sha256": "29c3b5d4b553884762a4946adf4cee5730fdd89b442dec80e4e2f86d461a2f6c",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,tl-wr710n-v1",
-    "tl-wr710n"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,tl-wr710n-v1", "tl-wr710n"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "TL-WR710N",
-      "variant": "v1",
-      "vendor": "TP-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "TL-WR710N", "variant": "v1", "vendor": "TP-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

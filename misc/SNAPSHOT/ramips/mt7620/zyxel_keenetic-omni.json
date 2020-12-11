@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,37 +36,26 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci", "kmod-usb-ledtrig-usbport"],
   "id": "zyxel_keenetic-omni",
   "image_prefix": "openwrt-ramips-mt7620-zyxel_keenetic-omni",
   "images": [
     {
-      "name": "openwrt-ramips-mt7620-zyxel_keenetic-omni-squashfs-sysupgrade.bin",
-      "sha256": "d0c381f6fea46da17e96e52240a819876c6736af8662c55d6cf3efa08141ccc1",
-      "type": "sysupgrade"
+      "name": "openwrt-ramips-mt7620-zyxel_keenetic-omni-squashfs-factory.bin",
+      "sha256": "fba1ea332e49dd666da1157940338f426dd71ac23ebc89f7d8f4360cd15125bc",
+      "type": "factory"
     },
     {
-      "name": "openwrt-ramips-mt7620-zyxel_keenetic-omni-squashfs-factory.bin",
-      "sha256": "1ff7444037d44a71a2b0f35bfd230ede05365b4d714a1ebfb81b1fd69014d7e0",
-      "type": "factory"
+      "name": "openwrt-ramips-mt7620-zyxel_keenetic-omni-squashfs-sysupgrade.bin",
+      "sha256": "c70f8bfb151f839fa7565d3dc41fbc6d3d0b54e04263f0e7646f5b2f5afa8920",
+      "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "zyxel,keenetic-omni",
-    "kn_rc"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["zyxel,keenetic-omni", "kn_rc"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "Keenetic Omni",
-      "vendor": "ZyXEL"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Keenetic Omni", "vendor": "ZyXEL" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

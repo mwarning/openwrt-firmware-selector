@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a9",
-  "build_at": "2020-09-11 02:02:23",
+  "build_at": "2020-12-11 17:06:23",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "osafeloader",
@@ -63,19 +64,15 @@
   "images": [
     {
       "name": "openwrt-bcm53xx-generic-dlink_dir-885l-squashfs.bin",
-      "sha256": "d9aec0d2473a8c2f8e4de63cf4897cddfe468d561e373022a3d01dfeed23cf22",
+      "sha256": "ea6525600ebfd5ce0dcd505c8e4aed6b6bb7194c1148c131d0d115a88198a5b6",
       "type": "bin"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm53xx/generic",
-  "titles": [
-    {
-      "model": "DIR-885L",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DIR-885L", "vendor": "D-Link" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

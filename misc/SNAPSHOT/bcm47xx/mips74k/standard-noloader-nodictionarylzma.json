@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_74kc",
-  "build_at": "2020-09-10 23:06:13",
+  "build_at": "2020-12-10 22:55:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "nvram",
     "otrx",
@@ -51,18 +52,17 @@
   "images": [
     {
       "name": "openwrt-bcm47xx-mips74k-standard-noloader-nodictionarylzma-squashfs.trx",
-      "sha256": "1ef15940cd58d8198abd24c2821f750a696b42bd0a9d815c89e9d4f27b17a497",
+      "sha256": "a1ff91adb5de61294477fcbfaf71dbac098bd98c95e7b266bc37c5e97b993a64",
       "type": "trx"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607628831",
   "supported_devices": [],
   "target": "bcm47xx/mips74k",
   "titles": [
-    {
-      "title": "Image with LZMA compressed kernel matching CFE decompressor"
-    }
+    { "title": "Image with LZMA compressed kernel matching CFE decompressor" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

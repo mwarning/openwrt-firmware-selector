@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-asus_rt-n12-vp-b1-squashfs-sysupgrade.bin",
-      "sha256": "ab758eeb625a0449dc2ead0bb30e3eec9072b33a0aebfb64912cc833d8d87775",
+      "sha256": "16ffef8c0bd42e5503a39ce238a84822f434f4753c2e8038e18abd8ac19e7a7a",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "asus,rt-n12-vp-b1"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["asus,rt-n12-vp-b1"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "RT-N12 VP",
-      "variant": "B1",
-      "vendor": "Asus"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "RT-N12 VP", "variant": "B1", "vendor": "Asus" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -46,34 +47,26 @@
     "kmod-usb-dwc3",
     "ath10k-firmware-qca4019-ct"
   ],
-  "device_packages": [
-    "uboot-envtools"
-  ],
+  "device_packages": ["uboot-envtools"],
   "id": "openmesh_a42",
   "image_prefix": "openwrt-ipq40xx-generic-openmesh_a42",
   "images": [
     {
       "name": "openwrt-ipq40xx-generic-openmesh_a42-squashfs-factory.bin",
-      "sha256": "70b6a042d5659c0264f149954655da21f12dc1f8f7ddfe080a40088298e77b4f",
+      "sha256": "29c211dec8f9cd3477f6ac6f647f4a12824f90119781c2afe54292841ef78976",
       "type": "factory"
     },
     {
       "name": "openwrt-ipq40xx-generic-openmesh_a42-squashfs-sysupgrade.bin",
-      "sha256": "057bb68e249592d95606f100454305f602a90c5afdd7dec861a013f4f529c78d",
+      "sha256": "ea53db924310eee88c510d884dc6310c59ad7a60c8142e31daaeed41cb7ecaff",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "openmesh,a42"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["openmesh,a42"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "A42",
-      "vendor": "OpenMesh"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "A42", "vendor": "OpenMesh" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

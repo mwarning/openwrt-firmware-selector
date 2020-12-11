@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -47,21 +48,15 @@
   "images": [
     {
       "name": "openwrt-ath79-generic-glinet_gl-x750-squashfs-sysupgrade.bin",
-      "sha256": "3cf98248530176782fb43171f2eb95df5886a759753384c17eb05117f4f42e1a",
+      "sha256": "315cda17795cfcdeec8fbff2a37b23348cac70a77e979319e1bdae1c7e395171",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "glinet,gl-x750"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["glinet,gl-x750"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "GL-X750",
-      "vendor": "GL.iNet"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "GL-X750", "vendor": "GL.iNet" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,29 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "uboot-envtools"
-  ],
+  "device_packages": ["uboot-envtools"],
   "id": "alfa-network_awusfree1",
   "image_prefix": "openwrt-ramips-mt76x8-alfa-network_awusfree1",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-alfa-network_awusfree1-squashfs-sysupgrade.bin",
-      "sha256": "eb78748f3cc9e2e18c29fdfad2e473a0fe915778cc4f19a7c041bb8c35098c78",
+      "sha256": "e34f07e8ddf7cc58a2341876037b6e3196962a078863435d0c611803232bb9cf",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "alfa-network,awusfree1"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["alfa-network,awusfree1"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "AWUSFREE1",
-      "vendor": "ALFA Network"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "AWUSFREE1", "vendor": "ALFA Network" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

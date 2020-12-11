@@ -1,9 +1,8 @@
 {
   "arch_packages": "powerpc_464fp",
-  "build_at": "2020-09-11 01:02:48",
+  "build_at": "2020-12-11 17:50:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-i2c-core",
     "kmod-gpio-button-hotplug",
@@ -37,34 +38,26 @@
     "kmod-i2c-core",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-eeprom-at24"
-  ],
+  "device_packages": ["kmod-eeprom-at24"],
   "id": "netgear_wndap620",
   "image_prefix": "openwrt-apm821xx-nand-netgear_wndap620",
   "images": [
     {
       "name": "openwrt-apm821xx-nand-netgear_wndap620-squashfs-sysupgrade.bin",
-      "sha256": "f2f6dd7ab70a3fe85986dc90c52c9d80e552c7568d3d10efea284d1c7d229c6d",
+      "sha256": "1d9d6d83c5902fd9f80916377735b3189433b2223d7204740b6c16ac2fd0d269",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-apm821xx-nand-netgear_wndap620-squashfs-factory.img",
-      "sha256": "ff283919c4bc7323899395fb760ff0683be5e8efa0103decd2eb31fd91196628",
+      "sha256": "77170d8495ac37a6303c47fcff14e18b472c57a6daf27e3510f8f4d5ea540ac4",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "netgear,wndap620"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["netgear,wndap620"],
   "target": "apm821xx/nand",
-  "titles": [
-    {
-      "model": "WNDAP620 (Premium Wireless-N)",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WNDAP620 (Premium Wireless-N)", "vendor": "NETGEAR" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

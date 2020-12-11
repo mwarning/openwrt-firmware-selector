@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_mips32",
-  "build_at": "2020-09-11 22:36:24",
+  "build_at": "2020-12-11 20:35:05",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "swconfig",
     "kmod-gpio-button-hotplug",
     "dnsmasq",
@@ -45,24 +46,20 @@
   "images": [
     {
       "name": "openwrt-bcm63xx-generic-netgear_dgnd3800b-squashfs-sysupgrade.bin",
-      "sha256": "9d8cdbfd6c79c247ff2f8cfb44ae11c98099ab1b2c840b99878acf0e121f1f28",
+      "sha256": "47f1bb4f5f211fd377d84f07670057a12ead191570b6235ff4e7a8c516898fa3",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-bcm63xx-generic-netgear_dgnd3800b-squashfs-factory.chk",
-      "sha256": "bb29cce3a1c619bc1be6e1c06b1155ac8769075819348d9d7a90f5de162d7b9d",
+      "sha256": "0c4c9e8cff9b32416ca44e14f04155f6bab1bd339f67d23d72e6aed546ec5864",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
+  "source_date_epoch": "1607691424",
   "supported_devices": [],
   "target": "bcm63xx/generic",
-  "titles": [
-    {
-      "model": "DGND3800B",
-      "vendor": "NETGEAR"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "DGND3800B", "vendor": "NETGEAR" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

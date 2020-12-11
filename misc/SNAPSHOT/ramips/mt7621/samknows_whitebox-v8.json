@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -45,22 +46,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-samknows_whitebox-v8-squashfs-sysupgrade.bin",
-      "sha256": "663a544c801b7272499867cc2b1d8ecfccb5513603dbb11b7394f5c725e241c7",
+      "sha256": "fb7fa707f7d93e002afd2307de9d0dda45b8b450348bec9a343eaa24bc0f9b0d",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "samknows,whitebox-v8",
-    "sk-wb8"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["samknows,whitebox-v8", "sk-wb8"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "Whitebox 8",
-      "vendor": "SamKnows"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Whitebox 8", "vendor": "SamKnows" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

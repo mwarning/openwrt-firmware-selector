@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,30 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca988x-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca988x-ct"],
   "id": "devolo_magic-2-wifi",
   "image_prefix": "openwrt-ath79-generic-devolo_magic-2-wifi",
   "images": [
     {
       "name": "openwrt-ath79-generic-devolo_magic-2-wifi-squashfs-sysupgrade.bin",
-      "sha256": "53c94e48e67dc3ad075be00e9111b559c681f6cfba9f1f9a7ee7b067bda8733f",
+      "sha256": "e91c5deab5e9dd0ff6724f2f897ce9a223f4efbaa33e928f625b675f236c19c8",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "devolo,magic-2-wifi"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["devolo,magic-2-wifi"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "Magic 2 WiFi",
-      "vendor": "Devolo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Magic 2 WiFi", "vendor": "Devolo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

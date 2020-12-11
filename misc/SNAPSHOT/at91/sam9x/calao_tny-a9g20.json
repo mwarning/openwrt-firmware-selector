@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_arm926ej-s",
-  "build_at": "2020-09-10 20:46:39",
+  "build_at": "2020-12-11 10:56:20",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-ohci",
     "kmod-at91-udc",
     "kmod-usb-gadget-eth",
@@ -40,26 +41,20 @@
   "images": [
     {
       "name": "openwrt-at91-sam9x-calao_tny-a9g20-squashfs-factory.bin",
-      "sha256": "9552b0bfa3fa01b2c0d1e01883e9a6366c04bef6f0dcfef728aef00d78a57e02",
+      "sha256": "df0c1f2f19e38a6ea16bda48dc249b17f6d3ac5ac293a92feafced702377553c",
       "type": "factory"
     },
     {
       "name": "openwrt-at91-sam9x-calao_tny-a9g20-ubifs-factory.bin",
-      "sha256": "6ef7842b9bb0db19b2aff35976fe3051552e6cf002029e22e9c4674e3b4cec13",
+      "sha256": "ea65d552bd6e2b4b0d34a61365b9072d6ba3fc62c446f2b2be97c86ddddacabb",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "calao,tny-a9g20"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["calao,tny-a9g20"],
   "target": "at91/sam9x",
-  "titles": [
-    {
-      "model": "TNY A9G20",
-      "vendor": "Calao"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "TNY A9G20", "vendor": "Calao" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

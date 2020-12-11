@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,36 +38,26 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca9888-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca9888-ct"],
   "id": "dlink_dir-842-c3",
   "image_prefix": "openwrt-ath79-generic-dlink_dir-842-c3",
   "images": [
     {
       "name": "openwrt-ath79-generic-dlink_dir-842-c3-squashfs-factory.bin",
-      "sha256": "a1b9037dab495b4e07a21c6fed98e4b642ba0592d624c6dd9b2965562d7979fd",
+      "sha256": "95cd513702bd348312c554d52dfed0a039c2307eda51299ed4a1d99afa10487d",
       "type": "factory"
     },
     {
       "name": "openwrt-ath79-generic-dlink_dir-842-c3-squashfs-sysupgrade.bin",
-      "sha256": "67b9148244ace3004d294d88ff6084143a985861c9a7ba3ca27d2d1837682484",
+      "sha256": "065c02691b02de92d6cc9c689f3e659fbf36c9d73826b39269ed30466649e859",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dir-842-c3"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dir-842-c3"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "DIR-842",
-      "variant": "C3",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DIR-842", "variant": "C3", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -44,27 +45,20 @@
   "images": [
     {
       "name": "openwrt-ramips-mt7621-linksys_ea7500-v2-squashfs-sysupgrade.bin",
-      "sha256": "ba8cb33e61a77bc32e6c801e426f63bf420579f3706540f58b26832aa33df74d",
+      "sha256": "1fec17a9dffab853d394a3adb2743923ee2ea7bc32adf7d00fb43c591c01d9c0",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ramips-mt7621-linksys_ea7500-v2-squashfs-factory.bin",
-      "sha256": "8406a051f2b50eb7325f364765d4b34c5b20ed612390454549feed2d380f1ae0",
+      "sha256": "deae9ddcb1134c53933dbd0e4ece3a85548f1bd562408ca091b2d0b5f36f96e3",
       "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "linksys,ea7500-v2"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["linksys,ea7500-v2"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "EA7500",
-      "variant": "v2",
-      "vendor": "Linksys"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "EA7500", "variant": "v2", "vendor": "Linksys" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

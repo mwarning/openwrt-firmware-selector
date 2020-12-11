@@ -1,9 +1,8 @@
 {
   "arch_packages": "arm_cortex-a7_neon-vfpv4",
-  "build_at": "2020-09-10 21:23:47",
+  "build_at": "2020-12-11 11:50:14",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-usb-dwc3-qcom",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
@@ -46,35 +47,26 @@
     "kmod-usb-dwc3",
     "ath10k-firmware-qca4019-ct"
   ],
-  "device_packages": [
-    "ipq-wifi-qxwlan_e2600ac"
-  ],
+  "device_packages": ["ipq-wifi-qxwlan_e2600ac"],
   "id": "qxwlan_e2600ac-c2",
   "image_prefix": "openwrt-ipq40xx-generic-qxwlan_e2600ac-c2",
   "images": [
     {
-      "name": "openwrt-ipq40xx-generic-qxwlan_e2600ac-c2-squashfs-nand-sysupgrade.bin",
-      "sha256": "d18630357ec2f5d1b01b6bbc929972695fe4405c90e28393561a7de931e28f30",
-      "type": "nand-sysupgrade"
+      "name": "openwrt-ipq40xx-generic-qxwlan_e2600ac-c2-squashfs-nand-factory.ubi",
+      "sha256": "c11f455674815f3f116c96fc766f8d29b151c0bc802cf8ec3cc5203dd9928396",
+      "type": "nand-factory"
     },
     {
-      "name": "openwrt-ipq40xx-generic-qxwlan_e2600ac-c2-squashfs-nand-factory.ubi",
-      "sha256": "453792bf98952d230fd952b23968e029ef0e68de4c69c6daa8c9e7c3794846ad",
-      "type": "nand-factory"
+      "name": "openwrt-ipq40xx-generic-qxwlan_e2600ac-c2-squashfs-nand-sysupgrade.bin",
+      "sha256": "ef555757a368e5097faa1a3b146d5ed8906a6edaa15abd9cf425bb36946c4b7f",
+      "type": "nand-sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "qxwlan,e2600ac-c2"
-  ],
+  "source_date_epoch": "1607683657",
+  "supported_devices": ["qxwlan,e2600ac-c2"],
   "target": "ipq40xx/generic",
-  "titles": [
-    {
-      "model": "E2600AC",
-      "variant": "C2",
-      "vendor": "Qxwlan"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "E2600AC", "variant": "C2", "vendor": "Qxwlan" }],
+  "version_code": "r15183-81df645572",
   "version_number": "SNAPSHOT"
 }

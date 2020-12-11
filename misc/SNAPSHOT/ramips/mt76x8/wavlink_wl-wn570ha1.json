@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,29 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x0e"
-  ],
+  "device_packages": ["kmod-mt76x0e"],
   "id": "wavlink_wl-wn570ha1",
   "image_prefix": "openwrt-ramips-mt76x8-wavlink_wl-wn570ha1",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-wavlink_wl-wn570ha1-squashfs-sysupgrade.bin",
-      "sha256": "83bfebe72328e7b42ec033c34fc3f78dbd10c9b893228abc339a47b805e8369d",
+      "sha256": "23e5749e0d3e320fe6efe8a2df5bef4b45e0b058f0389fc85b01c51f6eb01959",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "wavlink,wl-wn570ha1"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["wavlink,wl-wn570ha1"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "WL-WN570HA1",
-      "vendor": "Wavlink"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "WL-WN570HA1", "vendor": "Wavlink" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

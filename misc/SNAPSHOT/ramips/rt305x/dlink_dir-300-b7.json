@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,23 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-dlink_dir-300-b7-squashfs-sysupgrade.bin",
-      "sha256": "0968d972cd26a91bf98b7a808a6dfea8234e3bd583f63dc3b108de185983033d",
+      "sha256": "32eaa6206fc557a3f8398ca7a23130d997797603391544338f9df3d2de3e4f82",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "dlink,dir-300-b7",
-    "dir-300-b7"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["dlink,dir-300-b7", "dir-300-b7"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "DIR-300",
-      "variant": "B7",
-      "vendor": "D-Link"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "DIR-300", "variant": "B7", "vendor": "D-Link" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:12:20",
+  "build_at": "2020-12-11 01:47:52",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -41,22 +42,15 @@
   "images": [
     {
       "name": "openwrt-ramips-rt305x-wiznet_wizfi630a-squashfs-sysupgrade.bin",
-      "sha256": "f4b056a410895e40002806a27286e6bf89047e9f47870de7fb6c496097c740db",
+      "sha256": "6eac50c9086d8c1c13e1d425bb0301dd8ef7468ccc9b977b9f59410afc5fc107",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "wiznet,wizfi630a",
-    "wizfi630a"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["wiznet,wizfi630a", "wizfi630a"],
   "target": "ramips/rt305x",
-  "titles": [
-    {
-      "model": "WizFi630A",
-      "vendor": "WIZnet"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "WizFi630A", "vendor": "WIZnet" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

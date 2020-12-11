@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,30 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca988x-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca988x-ct"],
   "id": "engenius_ecb1750",
   "image_prefix": "openwrt-ath79-generic-engenius_ecb1750",
   "images": [
     {
       "name": "openwrt-ath79-generic-engenius_ecb1750-squashfs-sysupgrade.bin",
-      "sha256": "317c9f61852af399d7153528bdb8ad7e722fc2392c8478affb922d1440b4158a",
+      "sha256": "c97279b9c5718df00c7e3a4ab0d782ceed7df3715fa2e89f771519ec747911ea",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "engenius,ecb1750"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["engenius,ecb1750"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "ECB1750",
-      "vendor": "EnGenius"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "ECB1750", "vendor": "EnGenius" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

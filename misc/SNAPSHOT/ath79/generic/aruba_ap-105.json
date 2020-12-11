@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,30 +38,21 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-i2c-gpio",
-    "kmod-tpm-i2c-atmel"
-  ],
+  "device_packages": ["kmod-i2c-gpio", "kmod-tpm-i2c-atmel"],
   "id": "aruba_ap-105",
   "image_prefix": "openwrt-ath79-generic-aruba_ap-105",
   "images": [
     {
       "name": "openwrt-ath79-generic-aruba_ap-105-squashfs-sysupgrade.bin",
-      "sha256": "8c6e5c0cb1f97ace43f7469e47546d9699052968891f630646e5fa819a1e17b2",
+      "sha256": "edc65cf49c6fff6a2eecf09d8b9f59716b01dadaeb74dd51ea4e1a4358a49074",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "aruba,ap-105"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["aruba,ap-105"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "AP-105",
-      "vendor": "Aruba"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "AP-105", "vendor": "Aruba" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

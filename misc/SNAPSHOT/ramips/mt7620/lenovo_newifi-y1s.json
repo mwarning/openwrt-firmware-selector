@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-10 23:59:27",
+  "build_at": "2020-12-11 00:01:00",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-rt2800-soc",
@@ -35,32 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-mt76x2",
-    "kmod-usb2",
-    "kmod-usb-ohci"
-  ],
+  "device_packages": ["kmod-mt76x2", "kmod-usb2", "kmod-usb-ohci"],
   "id": "lenovo_newifi-y1s",
   "image_prefix": "openwrt-ramips-mt7620-lenovo_newifi-y1s",
   "images": [
     {
       "name": "openwrt-ramips-mt7620-lenovo_newifi-y1s-squashfs-sysupgrade.bin",
-      "sha256": "0a612f63afce2474ac2b2571074c692f44e23c09011e93a20daf8c657dcdc896",
+      "sha256": "f50427658b5861ddc04715a32fdf00422c2451e114707555cb7ce98d42543c54",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "lenovo,newifi-y1s",
-    "y1s"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["lenovo,newifi-y1s", "y1s"],
   "target": "ramips/mt7620",
-  "titles": [
-    {
-      "model": "Y1S",
-      "vendor": "Lenovo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "Y1S", "vendor": "Lenovo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

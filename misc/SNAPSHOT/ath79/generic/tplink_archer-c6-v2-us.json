@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,41 +38,29 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-ath10k-ct",
-    "ath10k-firmware-qca9888-ct"
-  ],
+  "device_packages": ["kmod-ath10k-ct", "ath10k-firmware-qca9888-ct"],
   "id": "tplink_archer-c6-v2-us",
   "image_prefix": "openwrt-ath79-generic-tplink_archer-c6-v2-us",
   "images": [
     {
-      "name": "openwrt-ath79-generic-tplink_archer-c6-v2-us-squashfs-factory.bin",
-      "sha256": "cceaa80b9eca7a25804df7cb3581801c617995d06cd03e2c447bc657632e0af0",
-      "type": "factory"
+      "name": "openwrt-ath79-generic-tplink_archer-c6-v2-us-squashfs-sysupgrade.bin",
+      "sha256": "08fd7c173fcd14b79677b66926d9f45d9ddfebfec2d3938987b7076684cf0cec",
+      "type": "sysupgrade"
     },
     {
-      "name": "openwrt-ath79-generic-tplink_archer-c6-v2-us-squashfs-sysupgrade.bin",
-      "sha256": "d69ddc2aa2805a191853df6fc70909dda82738edce115e6e79961c26f7baa956",
-      "type": "sysupgrade"
+      "name": "openwrt-ath79-generic-tplink_archer-c6-v2-us-squashfs-factory.bin",
+      "sha256": "34fa728c7307a4e191f73698fe110c4c5c5fb6c5520079b68411b6ec9aee047f",
+      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "tplink,archer-c6-v2-us"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["tplink,archer-c6-v2-us"],
   "target": "ath79/generic",
   "titles": [
-    {
-      "model": "Archer C6",
-      "variant": "v2 (US)",
-      "vendor": "TP-Link"
-    },
-    {
-      "model": "Archer A6",
-      "variant": "v2 (US/TW)",
-      "vendor": "TP-Link"
-    }
+    { "model": "Archer C6", "variant": "v2 (US)", "vendor": "TP-Link" },
+    { "model": "Archer A6", "variant": "v2 (US/TW)", "vendor": "TP-Link" }
   ],
-  "version_code": "r14443-f1bc66c765",
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 00:05:31",
+  "build_at": "2020-12-11 00:03:46",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "wpad-basic-wolfssl",
@@ -33,30 +34,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "-wpad-basic-wolfssl"
-  ],
+  "device_packages": ["-wpad-basic-wolfssl"],
   "id": "mikrotik_routerboard-m11g",
   "image_prefix": "openwrt-ramips-mt7621-mikrotik_routerboard-m11g",
   "images": [
     {
       "name": "openwrt-ramips-mt7621-mikrotik_routerboard-m11g-squashfs-sysupgrade.bin",
-      "sha256": "da34121059a3c97883cf53741163c30998f2cc3f6edf6e568d277407a50d0615",
+      "sha256": "f68ad11a6ec742c5bee45c8cf550261137ac0928bfdbbd66acead997e9e78998",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "mikrotik,routerboard-m11g",
-    "mikrotik,rbm11g"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["mikrotik,routerboard-m11g", "mikrotik,rbm11g"],
   "target": "ramips/mt7621",
-  "titles": [
-    {
-      "model": "RouterBOARD M11G",
-      "vendor": "MikroTik"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "RouterBOARD M11G", "vendor": "MikroTik" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -46,22 +47,15 @@
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-vocore_vocore2-squashfs-sysupgrade.bin",
-      "sha256": "251edda8acc6032dd0223cde011d16a47fefca405c21584ba29384c2b24a5ce2",
+      "sha256": "3c3830b33a2405d822b2e0abe70e38f3e14e277e09d1008b08e6a0e9df6a85bb",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "vocore,vocore2",
-    "vocore2"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["vocore,vocore2", "vocore2"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "VoCore2",
-      "vendor": "VoCore"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "VoCore2", "vendor": "VoCore" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

@@ -1,9 +1,8 @@
 {
   "arch_packages": "mipsel_24kc",
-  "build_at": "2020-09-11 19:11:10",
+  "build_at": "2020-12-11 15:51:38",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "kmod-mt7603",
@@ -35,32 +36,21 @@
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ohci",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ohci", "kmod-usb-ledtrig-usbport"],
   "id": "duzun_dm06",
   "image_prefix": "openwrt-ramips-mt76x8-duzun_dm06",
   "images": [
     {
       "name": "openwrt-ramips-mt76x8-duzun_dm06-squashfs-sysupgrade.bin",
-      "sha256": "4bbefba6f6ce376a8320be8b2da8066a89696e9731363ec88825c592d4c48f35",
+      "sha256": "1cf0ed6f7e9351962f085241482eabe7959a84bae75a89db7c418cfca95d433c",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "duzun,dm06",
-    "duzun-dm06"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["duzun,dm06", "duzun-dm06"],
   "target": "ramips/mt76x8",
-  "titles": [
-    {
-      "model": "DM06",
-      "vendor": "DuZun"
-    }
-  ],
-  "version_code": "r14449-14024f6e0f",
+  "titles": [{ "model": "DM06", "vendor": "DuZun" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

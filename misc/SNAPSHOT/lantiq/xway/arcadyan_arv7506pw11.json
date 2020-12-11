@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-11 19:53:19",
+  "build_at": "2020-12-11 15:53:09",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-leds-gpio",
     "kmod-gpio-button-hotplug",
     "swconfig",
@@ -47,26 +48,18 @@
   "images": [
     {
       "name": "openwrt-lantiq-xway-arcadyan_arv7506pw11-squashfs-sysupgrade.bin",
-      "sha256": "f69c1bbd0ce97e712d8e939fc4745608444ca66cc676f2cbcbabae7239164fa4",
+      "sha256": "3934f696dad8979a66f1a87cb6a73ce9b1877a339625defbf0c0b37ec2e64c07",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "arcadyan,arv7506pw11",
-    "ARV7506PW11"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["arcadyan,arv7506pw11", "ARV7506PW11"],
   "target": "lantiq/xway",
   "titles": [
-    {
-      "model": "ARV7506PW11",
-      "vendor": "Arcadyan"
-    },
-    {
-      "model": "IAD 4421",
-      "vendor": "Alice/O2"
-    }
+    { "model": "ARV7506PW11", "vendor": "Arcadyan" },
+    { "model": "IAD 4421", "vendor": "Alice/O2" }
   ],
-  "version_code": "r14449-14024f6e0f",
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }

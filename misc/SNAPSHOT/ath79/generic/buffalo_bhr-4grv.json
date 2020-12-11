@@ -1,9 +1,8 @@
 {
   "arch_packages": "mips_24kc",
-  "build_at": "2020-09-10 23:24:02",
+  "build_at": "2020-12-10 23:48:47",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "kmod-gpio-button-hotplug",
     "swconfig",
     "kmod-ath9k",
@@ -37,41 +38,31 @@
     "kmod-ath9k",
     "uboot-envtools"
   ],
-  "device_packages": [
-    "kmod-usb2",
-    "kmod-usb-ledtrig-usbport"
-  ],
+  "device_packages": ["kmod-usb2", "kmod-usb-ledtrig-usbport"],
   "id": "buffalo_bhr-4grv",
   "image_prefix": "openwrt-ath79-generic-buffalo_bhr-4grv",
   "images": [
     {
+      "name": "openwrt-ath79-generic-buffalo_bhr-4grv-squashfs-factory.bin",
+      "sha256": "6f3d8ddb04c8420145cdf88aa150471e8c859abddacddbbe1e7df77a30f513f0",
+      "type": "factory"
+    },
+    {
       "name": "openwrt-ath79-generic-buffalo_bhr-4grv-squashfs-sysupgrade.bin",
-      "sha256": "d6d8edfa80571063dffe9ee2437f69a7d6e19894be00dde00d9e5b9be90b4d3c",
+      "sha256": "f45d84ea941a3905e754521b0dcf1cb23ade19df319445906c77f28e387cbe7c",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-ath79-generic-buffalo_bhr-4grv-squashfs-tftp.bin",
-      "sha256": "ccbde2e23d0a8652230c6d0df19d5b440974a44ed2173077ad7e27426d9d21ce",
+      "sha256": "f7e21f0e527317348e7d6faa7094a1303873c8f96872ef6a04816be857424941",
       "type": "tftp"
-    },
-    {
-      "name": "openwrt-ath79-generic-buffalo_bhr-4grv-squashfs-factory.bin",
-      "sha256": "0f4b64755cc8b3b8b01a387dabaa744e322687fddda02f6b04be9f84ef41fec1",
-      "type": "factory"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "buffalo,bhr-4grv",
-    "wzr-hp-g450h"
-  ],
+  "source_date_epoch": "1607628831",
+  "supported_devices": ["buffalo,bhr-4grv", "wzr-hp-g450h"],
   "target": "ath79/generic",
-  "titles": [
-    {
-      "model": "BHR-4GRV",
-      "vendor": "Buffalo"
-    }
-  ],
-  "version_code": "r14443-f1bc66c765",
+  "titles": [{ "model": "BHR-4GRV", "vendor": "Buffalo" }],
+  "version_code": "r15182-8663072854",
   "version_number": "SNAPSHOT"
 }

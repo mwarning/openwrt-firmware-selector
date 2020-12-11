@@ -1,9 +1,8 @@
 {
   "arch_packages": "aarch64_cortex-a72",
-  "build_at": "2020-09-11 17:56:47",
+  "build_at": "2020-12-11 14:55:07",
   "default_packages": [
     "base-files",
-    "busybox",
     "ca-bundle",
     "dropbear",
     "fstools",
@@ -18,6 +17,8 @@
     "uclient-fetch",
     "urandom-seed",
     "urngd",
+    "busybox",
+    "procd",
     "bcm27xx-gpu-fw",
     "kmod-usb-hid",
     "kmod-sound-core",
@@ -59,37 +60,31 @@
   "image_prefix": "openwrt-bcm27xx-bcm2711-rpi-4",
   "images": [
     {
-      "name": "openwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img.gz",
-      "sha256": "2208a1dd7c92596c29bdafa37c3b248ddb61ee8e9cfc7931a747d2eed28ce24c",
-      "type": "factory"
-    },
-    {
       "name": "openwrt-bcm27xx-bcm2711-rpi-4-ext4-sysupgrade.img.gz",
-      "sha256": "ee7041d617ca60b61e87a21290796b005d7b812c6eba4c9fd2bc28e04b109d7c",
+      "sha256": "f67478ea43a39fabbf025783185458c04a0d1f2b74e7cbc8978d05c5d760e0ae",
       "type": "sysupgrade"
     },
     {
       "name": "openwrt-bcm27xx-bcm2711-rpi-4-squashfs-factory.img.gz",
-      "sha256": "6bb8bf2653548bfa47c43f27a1bea52cd47d5cf90137224dc5f988fdc27eb573",
+      "sha256": "a94e9722e2bf2c620757093a5245b1205ba994e7f4ce5ff726dc5f040724491a",
+      "type": "factory"
+    },
+    {
+      "name": "openwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img.gz",
+      "sha256": "d6bfca5b7bd184cbfaebaae7fcb1cf3055cd648486522fdd61b80fc66d631414",
       "type": "factory"
     },
     {
       "name": "openwrt-bcm27xx-bcm2711-rpi-4-squashfs-sysupgrade.img.gz",
-      "sha256": "16affdc7a094624a9a246d20fa0c4e512e43b4d442440cfe7456200c52f41a85",
+      "sha256": "d13e95d6ccc858797ae8b320dd1bd2bceef6ad19873c2ce4217e64103aee0d94",
       "type": "sysupgrade"
     }
   ],
   "metadata_version": 1,
-  "supported_devices": [
-    "raspberrypi,4-model-b"
-  ],
+  "source_date_epoch": "1607691424",
+  "supported_devices": ["raspberrypi,4-model-b"],
   "target": "bcm27xx/bcm2711",
-  "titles": [
-    {
-      "model": "4B",
-      "vendor": "Raspberry Pi"
-    }
-  ],
-  "version_code": "r14447-2e6c236abd",
+  "titles": [{ "model": "4B", "variant": "(64bit)", "vendor": "Raspberry Pi" }],
+  "version_code": "r15198-882ca13d92",
   "version_number": "SNAPSHOT"
 }
