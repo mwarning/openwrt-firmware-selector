@@ -486,6 +486,8 @@ function updateImages(mobj, overview, is_custom) {
       document.location.href.split("?")[0] +
         "?version=" +
         encodeURIComponent(mobj.version_number) +
+        "&target=" +
+        encodeURIComponent(mobj.target) +
         "&id=" +
         encodeURIComponent(mobj.id)
     );
@@ -504,10 +506,10 @@ function updateImages(mobj, overview, is_custom) {
 
 // Update model title in search box.
 // Device id might change between releases.
-function setModel(obj, id) {
-  if (id) {
-    for (const mobj of Object.values(obj["models"])) {
-      if (mobj["id"] == id) {
+function setModel(obj, target, id) {
+  if (id && target) {
+    for (const mobj of Object.values(obj.profiles)) {
+      if (mobj.id === id && mobj.target === target) {
         $("#models").value = mobj.title;
         return;
       }
@@ -515,19 +517,21 @@ function setModel(obj, id) {
   }
 }
 
-function changeModel(version, overview, model, base_url) {
-  if (model in overview["models"]) {
-    const id = overview["models"][model]["id"];
-    const target = overview["models"][model]["target"];
-
-    fetch(base_url + "/" + target + "/" + id + ".json")
+function changeModel(version, overview, title, base_url) {
+  const entry = overview.profiles[title];
+  if (entry) {
+    fetch(base_url + "/" + entry.target + "/" + entry.id + ".json")
       .then((obj) => {
         return obj.json();
       })
       .then((mobj) => {
-        mobj["id"] = id;
+        mobj["id"] = entry.id;
         updateImages(mobj, overview, false);
-        current_device = { version: version, id: id, target: target };
+        current_device = {
+          version: version,
+          id: entry.id,
+          target: entry.target,
+        };
       });
   } else {
     updateImages();
@@ -550,24 +554,32 @@ function init() {
         return obj.json();
       })
       .then((obj) => {
-        // change models format
-        let models = {};
-        for (const [id, value] of Object.entries(obj["profiles"])) {
-          for (const title of getModelTitles(value["titles"])) {
+        var profiles = {};
+
+        for (const profile of obj.profiles) {
+          for (let title of getModelTitles(profile.titles)) {
             if (title.length == 0) {
-              console.warn("Empty device title for device id: " + id);
+              console.warn(
+                "Empty device title for device id: " +
+                  profile.target +
+                  ", " +
+                  profile.id
+              );
               continue;
             }
-            models[title] = Object.assign({ id: id, title: title }, value);
+            const e = Object.assign({ id: profile.id, title: title }, profile);
+            profiles[title] = e;
           }
         }
-        obj["models"] = models;
+
+        // replace profiles
+        obj.profiles = profiles;
         return obj;
       })
       .then((obj) => {
         setupAutocompleteList(
           $("#models"),
-          Object.keys(obj["models"]),
+          Object.keys(obj.profiles),
           false,
           updateImages,
           (selectList) => {
@@ -576,7 +588,11 @@ function init() {
         );
 
         // set model when selected version changes
-        setModel(obj, current_device["id"] || url_params.get("id"));
+        setModel(
+          obj,
+          current_device["target"] || url_params.get("target"),
+          current_device["id"] || url_params.get("id")
+        );
 
         // trigger update of current selected model
         $("#models").onfocus();

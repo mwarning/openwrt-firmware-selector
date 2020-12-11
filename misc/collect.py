@@ -34,14 +34,13 @@ def write_json(path, content, formatted):
 
 # generate an overview of all models of a build
 def assemble_overview_json(release, profiles):
-    overview = {"profiles": {}, "release": release}
+    overview = {"profiles": [], "release": release}
     for profile in profiles:
         obj = profile["file_content"]
         for model_id, model_obj in obj["profiles"].items():
-            overview["profiles"][model_id] = {
-                "target": obj["target"],
-                "titles": model_obj["titles"],
-            }
+            overview["profiles"].append(
+                {"target": obj["target"], "titles": model_obj["titles"], "id": model_id}
+            )
 
     return overview
 
