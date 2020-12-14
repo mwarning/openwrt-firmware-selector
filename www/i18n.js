@@ -33,6 +33,7 @@ var translations = {
     "tr-check-again": "Proveu de nou d'aquí 5 segons...",
   },
   en: {
+    "tr-feedback-link": "Feedback",
     "tr-notfound": "No model found!",
     "tr-load": "Download OpenWrt Firmware for your Device",
     "tr-title": "OpenWrt Firmware Selector",
@@ -125,6 +126,7 @@ var translations = {
     "tr-check-again": "Sjekk pånytt om 5 sekunder...",
   },
   de: {
+    "tr-feedback-link": "Feedback",
     "tr-notfound": "Kein Model gefunden!",
     "tr-load": "Lade die OpenWrt Firmware für dein Gerät!",
     "tr-title": "OpenWrt Firmware Selector",
