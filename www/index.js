@@ -177,7 +177,11 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
     // close any already open lists of autocompleted values
     closeAllLists();
 
-    if (!value) {
+    if (value.length === 0) {
+      return false;
+    }
+
+    if (items.includes(value)) {
       return false;
     }
 
@@ -270,11 +274,6 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
     onend(input);
   };
 
-  // focus lost
-  input.onblur = function () {
-    onend(input);
-  };
-
   function setActive(xs) {
     // a function to classify an item as 'active':
     if (!xs) return false;
@@ -299,10 +298,15 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
     }
   }
 
-  // execute a function when someone clicks in the document:
+  // close select list if focus is lost
   document.addEventListener("click", (e) => {
     closeAllLists(e.target);
   });
+
+  // try to match if there is an input
+  if (input.value.length) {
+    input.oninput();
+  }
 }
 
 // for attended sysupgrade
@@ -542,7 +546,7 @@ function updateImages(mobj, overview, is_custom) {
 // Update model title in search box.
 // Device id might change between releases.
 function setModel(obj, target, id) {
-  if (id && target) {
+  if (id && target && $("#models").value.length == 0) {
     for (const mobj of Object.values(obj.profiles)) {
       if (mobj.id === id && mobj.target === target) {
         $("#models").value = mobj.title;
