@@ -24,6 +24,7 @@ assert sys.version_info >= (3, 5), "Python version too old. Python >=3.5.0 neede
 
 
 def write_json(path, content, formatted):
+    print("write: {}".format(path))
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w") as file:
         if formatted:
@@ -71,6 +72,7 @@ def update_config(www_path, versions):
             content,
         )
         with open(str(config_path), "w+") as file:
+            print("write: {}".format(config_path))
             file.write(content)
     else:
         sys.stderr.write("Warning: File not found: {}\n".format(config_path))
