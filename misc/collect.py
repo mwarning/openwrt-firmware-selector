@@ -47,7 +47,7 @@ def assemble_overview_json(release, profiles):
 
 
 def update_config(www_path, versions):
-    config_path = "{}/config.js".format(www_path)
+    config_path = os.path.join(www_path, "config.js")
 
     if os.path.isfile(config_path):
         content = ""
@@ -105,6 +105,11 @@ def replace_base(releases, profiles, url):
         return url
 
 
+def add_profile(releases, profile):
+    release = profile["file_content"]["version_number"]
+    releases.setdefault(release, []).append(profile)
+
+
 def write_data(releases, args):
     versions = {}
 
@@ -120,7 +125,7 @@ def write_data(releases, args):
             overview_json["info_url"] = info_url
 
         write_json(
-            "{}/data/{}/overview.json".format(args.www_path, release),
+            os.path.join(args.www_path, "data", release, "overview.json"),
             overview_json,
             args.formatted,
         )
@@ -133,8 +138,12 @@ def write_data(releases, args):
                 combined["build_at"] = profile["last_modified"]
                 combined["id"] = model_id
                 del combined["profiles"]
-                profiles_path = "{}/data/{}/{}/{}.json".format(
-                    args.www_path, release, obj["target"], model_id
+                profiles_path = os.path.join(
+                    args.www_path,
+                    "data",
+                    release,
+                    obj["target"],
+                    "{}.json".format(model_id),
                 )
                 write_json(profiles_path, combined, args.formatted)
 
@@ -151,8 +160,7 @@ Update config.json.
 
 
 def scrape(args):
-    def handle_release(path):
-        profiles = []
+    def handle_release(releases, path):
         with urllib.request.urlopen("{}/?json".format(path)) as file:
             array = json.loads(file.read().decode("utf-8"))
             for profile in filter(lambda x: x.endswith("/profiles.json"), array):
@@ -160,26 +168,21 @@ def scrape(args):
                     last_modified = datetime.datetime(
                         *email.utils.parsedate(file.headers.get("last-modified"))[:6]
                     ).strftime(BUILD_DATE_FORMAT)
-                    profiles.append(
+                    add_profile(
+                        releases,
                         {
                             "file_path": "{}/{}".format(path, profile),
                             "file_content": json.loads(file.read().decode("utf-8")),
                             "last_modified": last_modified,
-                        }
+                        },
                     )
-        return profiles
 
     # fetch release URLs
     releases = {}
     with urllib.request.urlopen(args.release_src) as infile:
         for path in re.findall(r"href=[\"']?([^'\" >]+)", str(infile.read())):
             if not path.startswith("/") and path.endswith("targets/"):
-                release = path.strip("/").split("/")[-2]
-                profiles = handle_release("{}/{}".format(args.release_src, path))
-                if len(profiles) == 0:
-                    print("Warning: No profiles found for {}".format(release))
-                else:
-                    releases[release] = profiles
+                handle_release(releases, "{}/{}".format(args.release_src, path))
 
     write_data(releases, args)
 
@@ -206,30 +209,21 @@ def scrape_wget(args):
         os.system("find {}/* -type d -empty -delete".format(tmp_dir))
 
         # create overview.json files
-        for path in glob.glob("{}/*/snapshots".format(tmp_dir)) + glob.glob(
-            "{}/*/releases/*".format(tmp_dir)
-        ):
-            release = os.path.basename(path)
-
-            profiles = []
+        for path in glob.glob("{}".format(tmp_dir)):
             for ppath in Path(path).rglob("profiles.json"):
                 with open(str(ppath), "r", encoding="utf-8") as file:
                     # we assume local timezone is UTC/GMT
                     last_modified = datetime.datetime.fromtimestamp(
                         os.path.getmtime(ppath)
                     ).strftime(BUILD_DATE_FORMAT)
-                    profiles.append(
+                    add_profile(
+                        releases,
                         {
                             "file_path": str(ppath),
                             "file_content": json.loads(file.read()),
                             "last_modified": last_modified,
-                        }
+                        },
                     )
-
-            if len(profiles) == 0:
-                print("Warning: No profiles found for {}".format(release))
-            else:
-                releases[release] = profiles
 
     write_data(releases, args)
 
@@ -247,17 +241,16 @@ def scan(args):
     for path in Path(args.release_src).rglob("profiles.json"):
         with open(str(path), "r", encoding="utf-8") as file:
             content = file.read()
-            obj = json.loads(content)
-            release = obj["version_number"]
             last_modified = time.strftime(
                 BUILD_DATE_FORMAT, time.gmtime(os.path.getmtime(str(path)))
             )
-            releases.setdefault(release, []).append(
+            add_profile(
+                releases,
                 {
                     "file_path": str(path),
                     "file_content": json.loads(content),
                     "last_modified": last_modified,
-                }
+                },
             )
 
     write_data(releases, args)
