@@ -589,7 +589,24 @@ function init() {
         return obj.json();
       })
       .then((obj) => {
-        var profiles = {};
+        var dups = {};
+        var profiles = [];
+
+        // Some models exist in multiple targets when
+        // a target is in the process of being renamed.
+        // Appends target in brackets to make title unique.
+        function resolve_duplicate(e) {
+          const tu = e.title.toUpperCase();
+          if (tu in dups) {
+            e.title += " (" + e.target + ")";
+            let o = dups[tu];
+            if (o.title.toUpperCase() == tu) {
+              o.title += " (" + o.target + ")";
+            }
+          } else {
+            dups[tu] = e;
+          }
+        }
 
         for (const profile of obj.profiles) {
           for (let title of getModelTitles(profile.titles)) {
@@ -602,13 +619,16 @@ function init() {
               );
               continue;
             }
+
             const e = Object.assign({ id: profile.id, title: title }, profile);
-            profiles[title] = e;
+            resolve_duplicate(e);
+            profiles.push(e);
           }
         }
 
         // replace profiles
-        obj.profiles = profiles;
+        obj.profiles = profiles.reduce((d, e) => ((d[e.title] = e), d), {});
+
         return obj;
       })
       .then((obj) => {
