@@ -4,11 +4,9 @@ Tool to create overview.json files and update the config.js.
 """
 
 from pathlib import Path
-import urllib.request
 import tempfile
 import datetime
 import argparse
-import email
 import time
 import json
 import glob
@@ -153,48 +151,13 @@ def write_data(releases, args):
 
 
 """
-Scrape profiles.json using links like https://downloads.openwrt.org/releases/19.07.3/targets/?json
-Merge into overview.json files.
-Update config.json.
-"""
-
-
-def scrape(args):
-    def handle_release(releases, path):
-        with urllib.request.urlopen("{}/?json".format(path)) as file:
-            array = json.loads(file.read().decode("utf-8"))
-            for profile in filter(lambda x: x.endswith("/profiles.json"), array):
-                with urllib.request.urlopen("{}/{}".format(path, profile)) as file:
-                    last_modified = datetime.datetime(
-                        *email.utils.parsedate(file.headers.get("last-modified"))[:6]
-                    ).strftime(BUILD_DATE_FORMAT)
-                    add_profile(
-                        releases,
-                        {
-                            "file_path": "{}/{}".format(path, profile),
-                            "file_content": json.loads(file.read().decode("utf-8")),
-                            "last_modified": last_modified,
-                        },
-                    )
-
-    # fetch release URLs
-    releases = {}
-    with urllib.request.urlopen(args.release_src) as infile:
-        for path in re.findall(r"href=[\"']?([^'\" >]+)", str(infile.read())):
-            if not path.startswith("/") and path.endswith("targets/"):
-                handle_release(releases, "{}/{}".format(args.release_src, path))
-
-    write_data(releases, args)
-
-
-"""
 Scrape profiles.json using wget (slower but more generic).
 Merge into overview.json files.
 Update config.json.
 """
 
 
-def scrape_wget(args):
+def scrape(args):
     releases = {}
 
     with tempfile.TemporaryDirectory() as tmp_dir:
@@ -214,7 +177,7 @@ def scrape_wget(args):
                 with open(str(ppath), "r", encoding="utf-8") as file:
                     # we assume local timezone is UTC/GMT
                     last_modified = datetime.datetime.fromtimestamp(
-                        os.path.getmtime(ppath)
+                        os.path.getmtime(str(ppath))
                     ).strftime(BUILD_DATE_FORMAT)
                     add_profile(
                         releases,
@@ -271,9 +234,6 @@ Usage Examples:
     parser.add_argument(
         "--formatted", action="store_true", help="Output formatted JSON data."
     )
-    parser.add_argument(
-        "--use-wget", action="store_true", help="Use wget to scrape the site."
-    )
     parser.add_argument("--info-url", help="Info URL template.")
     parser.add_argument("--image-url", help="URL template to download images.")
 
@@ -289,10 +249,7 @@ Usage Examples:
         exit(1)
 
     if args.release_src.startswith("http"):
-        if args.use_wget:
-            scrape_wget(args)
-        else:
-            scrape(args)
+        scrape(args)
     else:
         scan(args)
 
