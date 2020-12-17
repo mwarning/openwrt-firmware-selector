@@ -28,7 +28,7 @@ check HTML, CSS and SVG with html5validator:
   stage: pre-build
   image: python:$CI_PYTHON_VERSION-slim-buster
   before_script:
-    - apt-get update; apt-get install -y make
+    - apt-get update; apt-get install -y make wget
   script:
     - cp -R ./www ./build
     - misc/collect.py --image-url 'https://downloads.openwrt.org/{base}/{target}' https://downloads.openwrt.org build
@@ -52,7 +52,7 @@ build site on Python 3.8:
   stage: pre-build
   image: debian:9
   before_script:
-    - apt-get update; apt-get install -y make python3 ca-certificates git
+    - apt-get update; apt-get install -y make python3 ca-certificates git wget
   artifacts:
     expire_in: 1 week
     when: always
@@ -78,7 +78,7 @@ build site for target environment using local directory:
   image: selenium/standalone-firefox:latest
   script:
     - /opt/bin/entry_point.sh &
-    - sudo apt-get update; sudo apt-get install -y python3-pip python3-pytest
+    - sudo apt-get update; sudo apt-get install -y python3-pip python3-pytest wget
     - pip3 install selenium-firefox
     - (cd build; python3 -m http.server &)
     - pytest-3 tests
