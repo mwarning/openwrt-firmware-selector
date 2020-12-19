@@ -546,7 +546,7 @@ function updateImages(mobj, overview, is_custom) {
 // Update model title in search box.
 // Device id might change between releases.
 function setModel(overview, target, id) {
-  if (target && id) {
+  if (target && id && $("#models").value.length == 0) {
     for (const mobj of Object.values(overview.profiles)) {
       if (mobj.id === id && mobj.target === target) {
         $("#models").value = mobj.title;
