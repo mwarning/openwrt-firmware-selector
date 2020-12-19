@@ -390,25 +390,24 @@ function updateHelp(image) {
 }
 
 function commonPrefix(array) {
-  const A = array.concat().sort();
+  const A = array.sort();
   const a1 = A[0];
   const a2 = A[A.length - 1];
   let i = 0;
-  while (i < a1.length && a1.charAt(i) === a2.charAt(i)) i++;
-  return a1.substring(0, i);
-}
-
-function reverse(s) {
-  return s.split("").reverse().join("");
+  while (i < a1.length && a1[i] === a2[i]) i++;
+  return a1.slice(0, i);
 }
 
 // get difference in image names
 function getNameDifference(images, image) {
+  function ar(e) {
+    return e.name.split("-");
+  }
   const same = images.filter((e) => e.type == image.type);
   if (same.length > 1) {
-    const prefix = commonPrefix(same.map((e) => e.name));
-    const suffix = commonPrefix(same.map((e) => reverse(e.name)));
-    return image.name.slice(prefix.length, -suffix.length);
+    const prefix = commonPrefix(same.map((e) => ar(e)));
+    const suffix = commonPrefix(same.map((e) => ar(e).reverse()));
+    return ar(image).slice(prefix.length, -suffix.length).join("-");
   } else {
     return "";
   }
