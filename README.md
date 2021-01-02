@@ -1,7 +1,9 @@
 # OpenWrt Firmware Selector
 
 A simple OpenWrt firmware selector using autocompletion. Uses plain
-HTML/CSS/JavaScript. Checkout the [Demo](https://mwarning.github.io/openwrt-firmware-selector/www/). Fork/Mirror of the OpenWrt [repository](https://gitlab.com/openwrt/web/firmware-selector-openwrt-org).
+HTML/CSS/JavaScript. Checkout the [Demo](https://mwarning.github.io/openwrt-firmware-selector/www/).
+
+This is a Fork/Mirror of the official [OpenWrt](https://gitlab.com/openwrt/web/firmware-selector-openwrt-org) version, but without OpenWrt specific changes like the feedback link and continuous integration scripts.
 
 ![image](misc/screenshot.png)
 
