@@ -278,6 +278,3 @@ var translations = {
     "tr-check-again": "5 saniye icinde tekrar dene...",
   },
 };
-
-// Complement translations based on other translations
-//translations['en'] = Object.assign({}, translations['de'], translations['en']);
