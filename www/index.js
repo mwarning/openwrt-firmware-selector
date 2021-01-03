@@ -502,6 +502,12 @@ function updateImages(mobj, overview, is_custom) {
       const a = createLink(mobj, image, image_url);
 
       a.onmouseover = function () {
+        // persistent highlight on a single download button
+        Array.from(
+          document.getElementsByClassName("download-link")
+        ).forEach((e) => e.classList.remove("download-link-hover"));
+        a.classList.add("download-link-hover");
+
         setValue("#image-sha256", image.sha256);
 
         if (config.show_help) {
