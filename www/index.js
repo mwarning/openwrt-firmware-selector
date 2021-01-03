@@ -5,20 +5,15 @@ let current_device = {};
 let current_language = "en";
 let url_params = undefined;
 
-function $(query) {
-  if (typeof query === "string") {
-    return document.querySelector(query);
-  } else {
-    return query;
-  }
-}
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
 
 function show(query) {
-  $(query).classList.remove("hide");
+  (typeof query === "string" ? $(query) : query).classList.remove("hide");
 }
 
 function hide(query) {
-  $(query).classList.add("hide");
+  (typeof query === "string" ? $(query) : query).classList.add("hide");
 }
 
 function split(str) {
@@ -143,7 +138,7 @@ function setupSelectList(select, items, onselection) {
 function translate() {
   const mapping = translations[current_language];
   for (const tr in mapping) {
-    Array.from(document.getElementsByClassName(tr)).forEach((e) => {
+    $$("." + tr).forEach((e) => {
       e.innerText = mapping[tr];
     });
   }
@@ -290,8 +285,7 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
   function closeAllLists(elmnt) {
     // close all autocomplete lists in the document,
     // except the one passed as an argument:
-    const xs = document.getElementsByClassName("autocomplete-items");
-    for (const x of xs) {
+    for (const x of $$(".autocomplete-items")) {
       if (elmnt != x && elmnt != input) {
         x.parentNode.removeChild(x);
       }
@@ -363,9 +357,7 @@ function setValue(query, value) {
 
 function updateHelp(image) {
   // hide all help texts
-  Array.from(document.getElementsByClassName("download-help")).forEach((e) =>
-    hide("#" + e.id)
-  );
+  $$(".download-help").forEach((e) => hide("#" + e.id));
 
   const lc = image.type.toLowerCase();
   if (lc.includes("sysupgrade")) {
@@ -448,9 +440,7 @@ function updateImages(mobj, overview, is_custom) {
   }
 
   // remove all download links
-  Array.from(document.getElementsByClassName("download-link")).forEach((e) =>
-    e.remove()
-  );
+  $$(".download-link").forEach((e) => e.remove());
 
   hide("#help");
 
@@ -503,9 +493,9 @@ function updateImages(mobj, overview, is_custom) {
 
       a.onmouseover = function () {
         // persistent highlight on a single download button
-        Array.from(
-          document.getElementsByClassName("download-link")
-        ).forEach((e) => e.classList.remove("download-link-hover"));
+        $$(".download-link").forEach((e) =>
+          e.classList.remove("download-link-hover")
+        );
         a.classList.add("download-link-hover");
 
         setValue("#image-sha256", image.sha256);
