@@ -64,18 +64,22 @@
 
         <div id="images" class="hide">
           <div id="custom" class="hide">
-            <h3 class="tr-customize">Customize</h3>
-            <div class="autocomplete">
-              <textarea
-                id="packages"
-                spellcheck="false"
-                autocapitalize="off"
-              ></textarea>
+            <h3 class="tr-customize" onclick="javascript:toggleCustomize();">
+              Customize
+            </h3>
+            <div class="hide">
+              <div class="autocomplete">
+                <textarea
+                  id="packages"
+                  spellcheck="false"
+                  autocapitalize="off"
+                ></textarea>
+              </div>
+              <a href="javascript:buildAsuRequest()" class="custom-link">
+                <span>&#9881;</span
+                ><span class="tr-request-build">Request Build</span>
+              </a>
             </div>
-            <a href="javascript:buildAsuRequest()" class="custom-link">
-              <span>&#9881;</span
-              ><span class="tr-request-build">Request Build</span>
-            </a>
           </div>
 
           <!-- static information about the selected build -->

@@ -20,6 +20,12 @@ function split(str) {
   return str.match(/[^\s,]+/g) || [];
 }
 
+/* exported toggleCustomize */
+function toggleCustomize() {
+  $("#custom div").classList.toggle("hide");
+  $("#custom h3").classList.toggle("active");
+}
+
 function getModelTitles(titles) {
   return titles.map((e) => {
     if (e.title) {

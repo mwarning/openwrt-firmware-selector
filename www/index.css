@@ -7,7 +7,8 @@
 body {
   font-family: "Arial", sans-serif;
   background-color: #f5f5f5;
-  margin: 0em;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -16,6 +17,7 @@ a {
 
 #models-autocomplete {
   display: flex;
+  padding-top: 20px;
 }
 
 .autocomplete {
@@ -191,10 +193,6 @@ header > div {
   text-overflow: ellipsis;
 }
 
-#images > div {
-  padding-top: 20px;
-}
-
 #image-model {
   font-weight: bold;
 }
@@ -208,6 +206,20 @@ header > div {
   height: 10em;
   font-size: 1.5em;
   display: block;
+}
+
+/* Customize - */
+#custom h3::after {
+  content: "\002B";
+  font-weight: bold;
+  margin-left: 0.2em;
+}
+
+/* Customize + */
+#custom h3.active::after {
+  content: "\2212";
+  font-weight: bold;
+  margin-left: 0.2em;
 }
 
 #custom a :first-child {
@@ -246,6 +258,10 @@ header > div {
 #buildstatus {
   padding: 0.5em 0;
   margin: 0.5em 0;
+}
+
+#help {
+  margin: 20px 0;
 }
 
 #footer {
