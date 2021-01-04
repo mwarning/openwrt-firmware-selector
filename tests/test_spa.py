@@ -42,4 +42,4 @@ def test_spa():
 
     lang.select_by_visible_text("Polski")
     message = driver.find_element_by_xpath("/html/body/div/div/p")
-    assert "pola poniżej żeby znaleźć obraz" in message.text
+    assert "nazwę lub model swojego urządzenia" in message.text

@@ -220,10 +220,12 @@ var translations = {
     "tr-check-again": "Prova di nuovo in 5 secondi...",
   },
   pl: {
-    "tr-load": "Pobieranie oprogramowania OpenWrt!",
+    "tr-server-link": "Pliki",
+    "tr-notfound": "Nie znaleziono modelu!",
+    "tr-load": "Pobieranie oprogramowania OpenWrt",
     "tr-title": "OpenWrt Firmware Selector",
     "tr-message":
-      "Użyj pola poniżej żeby znaleźć obraz dla swojego urządzenia!",
+      "Wprowadź nazwę lub model swojego urządzenia, a następnie wybierz wersję zalecaną lub inną.",
     "tr-version-build": "Informacje o obrazie",
     "tr-custom-build": "Informacje o zmodyfikowanym obrazie",
     "tr-customize": "Modyfikacja",
@@ -239,10 +241,10 @@ var translations = {
     "tr-sysupgrade-help":
       "Obraz sysuprade używany jest do aktualizacji routerów z zainstalowanym już OpenWrt. Obraz można użyć przez GUI lub konsolę.",
     "tr-kernel-help": "Osobny obraz z kernelem linuksowym.",
-    "tr-rootfs-help": "Osobny obraz z system plików.",
+    "tr-rootfs-help": "Osobny obraz z systemem plików.",
     "tr-sdcard-help": "Obraz do wgrania na kartę SD.",
     "tr-tftp-help":
-      "Obraz TFTP służący do aktualizacji urządzenia z wykorzystaniem TFTP i bootloadera.",
+      "Obraz TFTP służący do aktualizacji urządzenia z wykorzystaniem metody TFTP bootloadera.",
     "tr-other-help": "Inny typ obrazu.",
     "tr-build-successful": "Budowanie zakończone pomyślnie",
     "tr-build-failed": "Błąd budowania",
