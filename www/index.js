@@ -399,7 +399,8 @@ function getNameDifference(images, image) {
   if (same.length > 1) {
     const prefix = commonPrefix(same.map((e) => ar(e)));
     const suffix = commonPrefix(same.map((e) => ar(e).reverse()));
-    return ar(image).slice(prefix.length, -suffix.length).join("-");
+    const base = ar(image);
+    return base.slice(prefix.length, base.length - suffix.length).join("-");
   } else {
     return "";
   }
