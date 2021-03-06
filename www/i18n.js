@@ -55,6 +55,8 @@ var translations = {
     "tr-sysupgrade-help":
       "Use a Sysupgrade image to update a router that already runs OpenWrt. The image can be used with the LuCI web interface or the terminal.",
     "tr-kernel-help": "Linux kernel as a separate image.",
+    "tr-initramfs-help":
+      "Linux kernel with minimal file system. Useful for first installation or recovery.",
     "tr-rootfs-help": "Root file system as a separate image.",
     "tr-sdcard-help": "Image that is meant to be flashed onto a SD-Card.",
     "tr-tftp-help":
@@ -150,6 +152,8 @@ var translations = {
       "Sysupgrade Abbilder werden für Geräte verwendet, die bereits OpenWrt laufen haben. Es ist möglich, existierende Einstellungen beizubehalten.",
     "tr-kernel-help": "Linux Kernel als separates Abbild.",
     "tr-rootfs-help": "Das Root Dateisystem als separates Abbild.",
+    "tr-initramfs-help":
+      "Linux Kernel mit minimalem Dateisystem. Nützlich für die Erstinstallation oder Wiederherstellung.",
     "tr-sdcard-help": "Image für SD Speicherkarten.",
     "tr-tftp-help":
       "TFTP Dateien können verwendet werden, um ein Gerät über die TFTP Method des Bootloader zu flashen.",

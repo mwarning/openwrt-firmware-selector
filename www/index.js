@@ -366,10 +366,14 @@ function updateHelp(image) {
   $$(".download-help").forEach((e) => hide("#" + e.id));
 
   const type = image.type;
+  const name = image.name;
+
   if (type.includes("sysupgrade")) {
     show("#sysupgrade-help");
   } else if (type.includes("factory") || type == "trx" || type == "chk") {
     show("#factory-help");
+  } else if (name.includes("initramfs")) {
+    show("#initramfs-help");
   } else if (
     type.includes("kernel") ||
     type.includes("zimage") ||
