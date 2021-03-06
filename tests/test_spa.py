@@ -30,7 +30,7 @@ def test_spa():
     message = driver.find_element_by_xpath("/html/body/div/div/p")
     assert "Type the name or model of your device" in message.text
 
-    lang = Select(driver.find_element_by_id("language-selection"))
+    lang = Select(driver.find_element_by_css_selector("#languages select"))
 
     lang.select_by_visible_text("Deutsch")
     message = driver.find_element_by_xpath("/html/body/div/div/p")
