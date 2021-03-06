@@ -679,11 +679,11 @@ function init() {
   if (user_lang in translations) {
     current_language = user_lang;
   }
-  $("#language-selection").value = current_language;
+  $("#languages select").value = current_language;
 
   translate();
 
-  $("#language-selection").onclick = function () {
+  $("#languages select").onclick = function () {
     current_language = this.children[this.selectedIndex].value;
     translate();
   };
