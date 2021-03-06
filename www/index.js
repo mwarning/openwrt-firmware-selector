@@ -365,22 +365,22 @@ function updateHelp(image) {
   // hide all help texts
   $$(".download-help").forEach((e) => hide("#" + e.id));
 
-  const lc = image.type.toLowerCase();
-  if (lc.includes("sysupgrade")) {
+  const type = image.type;
+  if (type.includes("sysupgrade")) {
     show("#sysupgrade-help");
-  } else if (lc.includes("factory") || lc == "trx" || lc == "chk") {
+  } else if (type.includes("factory") || type == "trx" || type == "chk") {
     show("#factory-help");
   } else if (
-    lc.includes("kernel") ||
-    lc.includes("zimage") ||
-    lc.includes("uimage")
+    type.includes("kernel") ||
+    type.includes("zimage") ||
+    type.includes("uimage")
   ) {
     show("#kernel-help");
-  } else if (lc.includes("root")) {
+  } else if (type.includes("root")) {
     show("#rootfs-help");
-  } else if (lc.includes("sdcard")) {
+  } else if (type.includes("sdcard")) {
     show("#sdcard-help");
-  } else if (lc.includes("tftp")) {
+  } else if (type.includes("tftp")) {
     show("#tftp-help");
   } else {
     show("#other-help");
