@@ -4,6 +4,16 @@
   }
 }
 
+@media (min-resolution: 400dpi), (max-width: 600px) {
+  /* move version selection in a new line*/
+  #models-autocomplete {
+    flex-direction: column;
+  }
+  #versions {
+    margin-top: 0.5em;
+  }
+}
+
 body {
   font-family: "Arial", sans-serif;
   background-color: #f5f5f5;
