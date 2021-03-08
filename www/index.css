@@ -12,6 +12,9 @@
   #versions {
     margin-top: 0.5em;
   }
+  .autocomplete > input {
+    margin-right: 0px !important;
+  }
 }
 
 body {
