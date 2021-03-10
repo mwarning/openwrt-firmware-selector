@@ -241,9 +241,11 @@ var translations = {
     "tr-factory-help":
       "Użyj obrazu factory do pierwszej instalacji OpenWrt. Zwykle można go użyć wykorzystując interfejs graficzny oryginalnego oprogramowania.",
     "tr-sysupgrade-help":
-      "Użyj obrazu sysuprade do aktualizacji routera z zainstalowanym już OpenWrt. Obraz można użyć przez interfejs graficzny LuCI lub konsolę.",
+      "Użyj obrazu sysupgrade do aktualizacji routera z zainstalowanym już OpenWrt. Obraz można użyć przez interfejs graficzny LuCI lub konsolę.",
     "tr-kernel-help": "Osobny obraz z kernelem linuksowym.",
     "tr-rootfs-help": "Osobny obraz z systemem plików.",
+    "tr-initramfs-help":
+      "Jądro Linuksa z minimalnym systemem plików. Przydatne do pierwszej instalacji lub odzyskiwania.",
     "tr-sdcard-help": "Obraz do wgrania na kartę SD.",
     "tr-tftp-help":
       "Obraz TFTP służący do aktualizacji urządzenia z wykorzystaniem metody TFTP bootloadera.",
