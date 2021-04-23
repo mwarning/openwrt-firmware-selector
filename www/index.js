@@ -673,12 +673,14 @@ function init() {
   updateImages();
 
   // default to browser language
-  const user_lang = (navigator.language || navigator.userLanguage).split(
-    "-"
-  )[0];
-  if (user_lang in translations) {
-    current_language = user_lang;
+  const lang = (navigator.language || navigator.userLanguage).toLowerCase();
+  const lang_short = lang.split("-")[0];
+  if (lang in translations) {
+    current_language = lang;
+  } else if (lang_short in translations) {
+    current_language = lang_short;
   }
+
   $("#languages select").value = current_language;
 
   translate();
