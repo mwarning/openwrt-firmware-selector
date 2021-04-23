@@ -38,7 +38,7 @@ var translations = {
     "tr-load": "Download OpenWrt Firmware for your Device",
     "tr-title": "OpenWrt Firmware Selector",
     "tr-message":
-      'Type the name or model of your device, then select the recommended build or some other.',
+      "Type the name or model of your device, then select the recommended build or some other.",
     "tr-version-build": "About this build",
     "tr-custom-build": "Custom Build",
     "tr-customize": "Customize",
