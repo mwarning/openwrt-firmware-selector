@@ -76,6 +76,7 @@ function buildAsuRequest() {
 
   fetch(config.asu_url + "/api/build", {
     method: "POST",
+    cache: "no-cache",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(request_data),
   })
@@ -318,7 +319,8 @@ function updatePackageList(mobj) {
       config.versions[mobj.version_number] +
       "/" +
       mobj.target +
-      "/index.json"
+      "/index.json",
+    { cache: "no-cache" }
   )
     .then((response) => response.json())
     .then((packages) => {
@@ -566,7 +568,9 @@ function setModel(overview, target, id) {
 function changeModel(version, overview, title, base_url) {
   const entry = overview.profiles[title];
   if (entry) {
-    fetch(base_url + "/" + entry.target + "/" + entry.id + ".json")
+    fetch(base_url + "/" + entry.target + "/" + entry.id + ".json", {
+      cache: "no-cache",
+    })
       .then((obj) => {
         return obj.json();
       })
@@ -595,7 +599,7 @@ function init() {
       base_url = config.asu_url + "/" + base_url;
     }
 
-    fetch(base_url + "/overview.json")
+    fetch(base_url + "/overview.json", { cache: "no-cache" })
       .then((obj) => {
         return obj.json();
       })
