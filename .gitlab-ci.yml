@@ -15,7 +15,7 @@ check HTML, JS, CSS with eslint and prettier:
       - node_modules/
   script:
     - yarn install
-    - yarn prettier --check www/
+    - yarn prettier --check www
     - yarn eslint www/
 
 check HTML, CSS and SVG with html5validator:
