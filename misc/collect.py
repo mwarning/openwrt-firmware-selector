@@ -103,8 +103,13 @@ def replace_base(releases, profiles, url):
         return url
 
 
-def add_profile(releases, profile):
+def add_profile(releases, args, profile):
     release = profile["file_content"]["version_number"]
+
+    if args.version_pattern:
+        if not re.fullmatch(args.version_pattern, release):
+            return
+
     releases.setdefault(release, []).append(profile)
 
 
@@ -181,6 +186,7 @@ def scrape(args):
                     ).strftime(BUILD_DATE_FORMAT)
                     add_profile(
                         releases,
+                        args,
                         {
                             "file_path": str(ppath),
                             "file_content": json.loads(file.read()),
@@ -209,6 +215,7 @@ def scan(args):
             )
             add_profile(
                 releases,
+                args,
                 {
                     "file_path": str(path),
                     "file_content": json.loads(content),
@@ -236,6 +243,10 @@ Usage Examples:
     )
     parser.add_argument("--info-url", help="Info URL template.")
     parser.add_argument("--image-url", help="URL template to download images.")
+    parser.add_argument(
+        "--version-pattern",
+        help="Only handle release versions that match a regular expression.",
+    )
 
     parser.add_argument(
         "release_src",
