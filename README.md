@@ -39,6 +39,7 @@ Settings `image_url` and `info_url` can also be passed to `misc/collect.py` to b
 
 * `--image-url`: Download link template for the image files.
 * `--info-url`: Link template that points to additional information.
+* `--version-pattern`: Only handle release versions that match a regular expression.
 
 Variables:
 
