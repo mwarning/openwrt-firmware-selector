@@ -1,6 +1,5 @@
 /* global translations, config */
-/* exported buildAsuRequest, init */
-
+/* exported init */
 let current_device = {};
 let current_language = "en";
 let url_params = undefined;
@@ -40,83 +39,6 @@ function getModelTitles(titles) {
       ).trim();
     }
   });
-}
-
-function buildAsuRequest() {
-  if (!current_device || !current_device.id) {
-    alert("bad profile");
-    return;
-  }
-
-  function showStatus(message, url) {
-    show("#buildstatus");
-    const tr = message.startsWith("tr-") ? message : "";
-    if (url) {
-      $("#buildstatus").innerHTML =
-        '<a href="' + url + '" class="' + tr + '">' + message + "</a>";
-    } else {
-      $("#buildstatus").innerHTML = '<span class="' + tr + '"></span>';
-    }
-    translate();
-  }
-
-  // hide image view
-  updateImages();
-
-  hide("#notfound");
-  show("#buildspinner");
-  showStatus("tr-request-image");
-
-  const request_data = {
-    target: current_device.target,
-    profile: current_device.id,
-    packages: split($("#packages").value),
-    version: $("#versions").value,
-  };
-
-  fetch(config.asu_url + "/api/build", {
-    method: "POST",
-    cache: "no-cache",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(request_data),
-  })
-    .then((response) => {
-      switch (response.status) {
-        case 200:
-          hide("#buildspinner");
-          showStatus("tr-build-successful");
-
-          response.json().then((mobj) => {
-            const image_url = config.asu_url + "/store/" + mobj.bin_dir;
-            showStatus("tr-build-successful", image_url + "/buildlog.txt");
-            mobj["id"] = current_device.id;
-            updateImages(mobj, { image_url: image_url }, true);
-          });
-          break;
-        case 202:
-          showStatus("tr-check-again");
-          setTimeout(() => {
-            buildAsuRequest();
-          }, 5000);
-          break;
-        case 400: // bad request
-        case 422: // bad package
-        case 500: // build failed
-          hide("#buildspinner");
-          response.json().then((mobj) => {
-            const message = mobj["message"] || "tr-build-failed";
-            const url = mobj.buildlog
-              ? config.asu_url + "/store/" + mobj.bin_dir + "/buildlog.txt"
-              : undefined;
-            showStatus(message, url);
-          });
-          break;
-      }
-    })
-    .catch((err) => {
-      hide("#buildspinner");
-      showStatus(err);
-    });
 }
 
 function setupSelectList(select, items, onselection) {
@@ -310,45 +232,6 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
   }
 }
 
-// for attended sysupgrade
-function updatePackageList(mobj) {
-  // set available packages
-  fetch(
-    config.asu_url +
-      "/" +
-      config.versions[mobj.version_number] +
-      "/" +
-      mobj.target +
-      "/index.json",
-    { cache: "no-cache" }
-  )
-    .then((response) => response.json())
-    .then((packages) => {
-      const all_packages = packages.concat(
-        mobj.default_packages.map((e) => "-" + e),
-        mobj.device_packages.map((e) => "-" + e)
-      );
-
-      setupAutocompleteList(
-        $("#packages"),
-        all_packages,
-        true,
-        () => {},
-        (textarea) => {
-          textarea.value = split(textarea.value)
-            // make list unique, ignore minus prefix
-            .filter((value, index, self) => {
-              const i = self.indexOf(value.replace(/^[-]/, ""));
-              return i === index || i < 0;
-            })
-            // limit to available packages
-            .filter((value) => all_packages.indexOf(value) !== -1)
-            .join(" ");
-        }
-      );
-    });
-}
-
 function setValue(query, value) {
   const e = $(query);
   if (value !== undefined && value.length > 0) {
@@ -522,10 +405,6 @@ function updateImages(mobj, overview, is_custom) {
       $("#download-links").appendChild(a);
     }
 
-    if (config.asu_url) {
-      updatePackageList(mobj);
-    }
-
     // set current selection in URL
     history.pushState(
       null,
@@ -595,10 +474,6 @@ function init() {
   setupSelectList($("#versions"), Object.keys(config.versions), (version) => {
     // A new version was selected
     let base_url = config.versions[version];
-    if (config.asu_url) {
-      base_url = config.asu_url + "/" + base_url;
-    }
-
     fetch(base_url + "/overview.json", { cache: "no-cache" })
       .then((obj) => {
         return obj.json();
@@ -668,10 +543,6 @@ function init() {
         $("#models").onfocus();
       });
   });
-
-  if (config.asu_url) {
-    show("#custom");
-  }
 
   // hide fields
   updateImages();
