@@ -3,10 +3,10 @@
 var translations = {
   ca: {
     "tr-load":
-      "Descarregueu el microprogramari OpenWrt per al vostre dispositiu",
+      "Descarregueu el microprogramari OpenWrt per al vostre dispositiu!",
     "tr-title": "Selector de microprogramari OpenWrt",
     "tr-message":
-      'Introduïu el nom o el model del vostre dispositiu i seleccioneu la versió estable (per defecte) o la darrera imatge compilada ("snapshot")',
+      "Feu servir el formulari de sota per seleccionar i descarregar el microprogramari per al vostre dispositiu!",
     "tr-version-build": "Compilació",
     "tr-custom-build": "Compilació personalitzada",
     "tr-customize": "Personalitzar",
@@ -18,9 +18,9 @@ var translations = {
     "tr-downloads": "Descàrregues",
     "tr-custom-downloads": "Descàrregues personalitzades",
     "tr-factory-help":
-      'Empreu la imatge "factory" per instal·lar OpenWrt a un dispositius per primera vegada. Normalment ho podreu fer través de la interfície web del microprogramari original.',
+      "Les imatges Factory són per instal·lar OpenWrt als dispositius per primera vegada. Usualment, això es fa a través de la interfície web del microprogramari original.",
     "tr-sysupgrade-help":
-      'Empreu la imatge "sysupgrade" per actualitzar un dispositiu que ja tingui OpenWrt instal·lat. La imatge es pot instal·lar a través de la interfície web LuCI o del terminal.',
+      "Les imatges Sysupgrade són per instal·lar-les als dispositius que ja tenen OpenWrt. La imatge es pot instal·lar a través de la interfície web o del terminal.",
     "tr-kernel-help": "El nucli de Linux en una imatge separada.",
     "tr-rootfs-help": "El sistema de fitxers arrel en una imatge separada.",
     "tr-sdcard-help": "Una imatge feta per escriure-la a una targeta SD.",
@@ -39,7 +39,7 @@ var translations = {
     "tr-load": "Download OpenWrt Firmware for your Device",
     "tr-title": "OpenWrt Firmware Selector",
     "tr-message":
-      "Type the name or model of your device, then select the recommended build or some other.",
+      'Type the name or model of your device, then select a stable build or the nightly "snapshot" build.',
     "tr-version-build": "About this build",
     "tr-custom-build": "Custom Build",
     "tr-customize": "Customize",
@@ -248,15 +248,14 @@ var translations = {
     "tr-date": "Data:",
     "tr-downloads": "Obrazy do pobrania",
     "tr-custom-downloads": "Zmodyfikowane obrazy do pobrania",
-    "tr-dtb-help":
-      "Device tree. Ten plik konfiguruje jądro Linux dla sprzętu.",
+    "tr-dtb-help": "Device tree. Ten plik konfiguruje jądro Linux dla sprzętu.",
     "tr-uboot-help":
       "Obraz bootloadera. Oprogramowanie niskiego poziomu, które ładuje system operacyjny wcześnie przy starcie.",
     "tr-cpximg-help":
       "Używaj z sysupgrade w firmowym oprogramowaniu lub z wbudowanym programem ładującym cpximg.",
     "tr-eva-help": "Obraz z OpenWrt i bootloaderem.",
     "tr-factory-help":
-      "Użyj obrazu factory do pierwszej instalacji OpenWrt. Zwykle można go użyć wykorzystując interfejs graficzny oryginalnego oprogramowania.",
+      "Obraz factory używany jest do pierwszej instalacji OpenWrt. Zwykle można go użyć wykorzystując interfejs graficzny oryginalnego oprogramowania.",
     "tr-sysupgrade-help":
       "Użyj obrazu sysupgrade do aktualizacji routera z zainstalowanym już OpenWrt. Obraz można użyć przez interfejs graficzny LuCI lub konsolę.",
     "tr-kernel-help": "Osobny obraz z kernelem linuksowym.",
@@ -276,7 +275,7 @@ var translations = {
     "tr-load": "Cihazınız için OpenWrt yazılımını indirin!",
     "tr-title": "OpenWrt Yazılım Seçicisi",
     "tr-message":
-      'Cihazınızın adını/modelini girin, ardından Stabil sürümü(varsayılan) veya nightly "snapshot" imajini seçin.',
+      "Cihazınız için yazılımı indirmek için lütfen aşağıdaki girişi kullanın!",
     "tr-version-build": "Sürüm",
     "tr-custom-build": "Özel Sürüm",
     "tr-customize": "Özelleştir",
@@ -288,9 +287,9 @@ var translations = {
     "tr-downloads": "İndirmeler",
     "tr-custom-downloads": "Özel İndirmeler",
     "tr-factory-help":
-      "Bir yönlendiriciyi OpenWrt ile ilk kez flashlamak için bir Fabrika imaji kullanın. Bu normalde orijinal aygıt yazılımının web arayüzü aracılığıyla yapılır.",
+      "Fabrika imajları, ilk kez OpenWrt yüklenen cihazlar içindir. Genellikle orijinal ürün yazılımının web arayüzü üzerinden yüklenir.",
     "tr-sysupgrade-help":
-      "Zaten OpenWrt çalıştıran bir yönlendiriciyi güncellemek için bir Sysupgrade imajı kullanın. Imaj, LuCI web arayüzü veya terminal ile kullanılabilir.",
+      "Sysupgrade imajları, zaten OpenWrt kurulu cihazlar içindir. İmaj, web arayüzü veya terminal kullanılarak yüklenebilir.",
     "tr-kernel-help": "Linux kernel ayrı bir imaj olarak.",
     "tr-rootfs-help": "Kök Dosya Sistemi ayrı bir imaj olarak.",
     "tr-sdcard-help": "SD-Kart 'a kurulması planlanan imaj",
