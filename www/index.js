@@ -4,6 +4,7 @@ let current_device = {};
 let current_language = undefined;
 let current_language_json = undefined;
 let url_params = undefined;
+let ofs_version = "%GIT_VERSION%";
 
 let progress = {
   "tr-init": 10,
@@ -98,6 +99,7 @@ function buildAsuRequest() {
     packages: split($("#packages").value),
     version: $("#versions").value,
     diff_packages: true,
+    client: "ofs/" + ofs_version,
   };
 
   fetch(config.asu_url + "/api/v1/build", {
